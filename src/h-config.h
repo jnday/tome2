@@ -202,7 +202,7 @@
 #endif
 #if defined(WINDOWS) || defined(WINNT)
 # undef PATH_SEP
-# define PATH_SEP "\\"
+# define PATH_SEP "/"
 #endif
 #if defined(MSDOS) || defined(OS2)
 # undef PATH_SEP
