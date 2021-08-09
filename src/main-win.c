@@ -668,7 +668,7 @@ static cptr extract_file_name(cptr s)
 	p = s + strlen(s) - 1;
 
 	/* Back up to divider */
-	while ((p >= s) && (*p != ':') && (*p != '\\')) p--;
+	while ((p >= s) && (*p != ':') && (*p != '/')) p--;
 
 	/* Return file name */
 	return (p + 1);
@@ -689,8 +689,8 @@ static char *analyze_font(char *path, int *wp, int *hp)
 	/* Start at the end */
 	p = path + strlen(path) - 1;
 
-	/* Back up to divider */
-	while ((p >= path) && (*p != ':') && (*p != '\\')) --p;
+	/* Back up to divider --- analyze font is used by features that still use both paths on windows*/
+	while ((p >= path) && (*p != ':') && (*p != '\\' && *p !='/')) --p;
 
 	/* Advance to file name */
 	++p;
@@ -795,7 +795,7 @@ static bool_ check_dir(cptr s)
 	i = strlen(path);
 
 	/* Remove trailing backslash */
-	if (i && (path[i - 1] == '\\')) path[--i] = '\0';
+	if (i && (path[i - 1] == '/')) path[--i] = '\0';
 
 #ifdef WIN32
 
@@ -4090,12 +4090,13 @@ static void init_stuff(void)
 
 	char path[1024];
 
+	strcpy(path, DEFAULT_PATH);
 
 	/* Get program name with full path */
-	GetModuleFileName(hInstance, path, 512);
+	//GetModuleFileName(hInstance, path, 512);
 
 	/* Get the name of the "*.ini" file */
-	strcpy(path + strlen(path) - 4, ".INI");
+	strcpy(path + strlen(path), "tome.ini");
 
 	/* Save the the name of the ini-file */
 	ini_file = string_make(path);
@@ -4109,7 +4110,7 @@ static void init_stuff(void)
 	/* Get the path */
 	for (; i > 0; i--)
 	{
-		if (path[i] == '\\')
+		if (path[i] == '/')
 		{
 			/* End of path */
 			break;
@@ -4117,7 +4118,7 @@ static void init_stuff(void)
 	}
 
 	/* Add "lib" to the path */
-	strcpy(path + i + 1, "lib\\");
+	strcpy(path + i + 1, "lib/");
 
 	/* Validate the path */
 	validate_dir(path);
