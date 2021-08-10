@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport132 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport132?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport132?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport132?action=fullsearch&amp;value=BugReport132&amp;literal=1&amp;case=1&amp;context=40">BugReport132</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport132?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport132">View</a></li>
+<li><a title="Diffs" href="./BugReport132?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport132?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport132?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport132?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport132?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport132?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport132?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport132?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport132?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport132">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./MayLith">MayLith</a></strong>: v2.2.7. See <a href="./angband.oook.cz/screen-show.php?id=569">http://angband.oook.cz/screen-show.php?id=569</a>. Searching the in-game help produces ugly-looking (not to mention corrupted) output. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Output was 
+<pre>4. Tulkas - Another of Tulkaslar, Tulkas values strengtTulkascourage. 
+</pre>
+</p>
+<p>
+The line in gods.txt is 
+<pre>4. *****g_tulkas.txt*0[Tulkas] - another of the Valar, Tulkas values strength and courage.
+</pre>
+</p>
+<p>
+The code first prints the text interpreting the special commands, then prints the search text in yellow at the position found in the help file, without considering the extra space needed for special help file commands. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: A search for the other gods on the same page produces similar results, though the word is duplicated only once, not twice. A search for Morgoth on that page also produces odd results. 
+</p>
+<p>
+<strong><a href="./ZasVid">ZasVid</a></strong>: This doesn't occur so badly with new helpfiles introduced by fearof4s in 2.3.0 CVS. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport132?action=refresh&amp;arena=Page.py&amp;key=BugReport132.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:42:52)<br>
+<p><a href="./BugReport132?action=edit">EditText</a> of this page (last edited 2004-09-18 16:48:17 by <span title="aso183.neoplus.adsl.tpnet.pl"><a href="./ZasVid">ZasVid</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 05:03:15 Jan 27, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:04 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 82.643
+  exclusion.robots: 0.129
+  exclusion.robots.policy: 0.118
+  RedisCDXSource: 0.675
+  esindex: 0.013
+  LoadShardBlock: 55.682 (3)
+  PetaboxLoader3.datanode: 68.518 (4)
+  CDXLines.iter: 22.826 (3)
+  load_resource: 228.73
+  PetaboxLoader3.resolve: 161.255
+-->

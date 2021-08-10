@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport170 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport170?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport170?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport170?action=fullsearch&amp;value=BugReport170&amp;literal=1&amp;case=1&amp;context=40">BugReport170</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport170?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport170">View</a></li>
+<li><a title="Diffs" href="./BugReport170?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport170?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport170?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport170?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport170?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport170?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport170?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport170?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport170?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport170">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./MayLith">MayLith</a></strong>: I don't know how many countless times I've seen this without noticing it! You're in the game, you hit "=" to enter the options sheet. The first string at the top of the screen is "Angband options". It should be "ToME options". <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: "ToME options" is also used for some additional options not used in Angband (point (5) in the options screen). 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I don't think the distinctions make any sense, but the options are being revised in ToME 3 anyway. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: *shrug* From what I understood, you wanted to get rid of references to Angband in the game, which is why I reported it. Anyway, I guess it's irrelevant if it's changing in 3. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I agree with you!  I said the distinction between "Angband" and "ToME" options doesn't make sense! 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: *quizzical look* *stares at the screen* *stares at the screen again* What I had read was that it didn't make any sense to bother distinguishing between Angband and ToME....which itself made no sense to me. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> I need a vacation.... 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: What about a more generic first line, like "Game options", "Option sets" or simply "Options" ? 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport170?action=refresh&amp;arena=Page.py&amp;key=BugReport170.text_html">RefreshCache</a> for this page (cached 2004-10-13 23:45:20)<br>
+<p><a href="./BugReport170?action=edit">EditText</a> of this page (last edited 2004-10-13 23:45:19 by <span title="dialin-145-254-146-244.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:45:09 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:45 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 0.992
+  PetaboxLoader3.resolve: 27.861
+  LoadShardBlock: 47.273 (3)
+  CDXLines.iter: 31.149 (3)
+  load_resource: 105.748
+  captures_list: 85.246
+  esindex: 0.022
+  exclusion.robots: 0.329
+  PetaboxLoader3.datanode: 86.704 (4)
+  exclusion.robots.policy: 0.308
+-->

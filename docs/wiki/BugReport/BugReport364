@@ -1,0 +1,449 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index">
+
+<title>BugReport364 - ToME Wiki</title>
+
+<script type="text/javascript">
+var gui_editor_link_href = "/BugReport364?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+</script>        
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="./wiki/tome/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="./wiki/tome/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="./wiki/tome/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="./wiki/tome/css/projection.css">
+
+<!-- css only for MSIE browsers -->
+<!--[if IE]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/wiki/tome/css/msie.css">
+<![endif]--><link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport364?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport364?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20" onfocus="searchFocus(this)" onblur="searchBlur(this)" onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit" value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit" value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="./FrontPage"><img src="./wiki/ToME.png" alt="Logo"/> ToME Wiki</a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" title="Click to do a full-text search for this title" href="./BugReport364?action=fullsearch&amp;value=linkto%3A%22BugReport364%22&amp;context=180">BugReport364</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="./RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="./FindPage">FindPage</a></li><li class="wikilink"><a href="./HelpContents">HelpContents</a></li><li class="current"><a href="./BugReport364">BugReport364</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a name="texteditlink" href="./BugReport364?action=edit&amp;editor=text">Edit (Text)</a></li><li><a href="./BugReport364?action=info">Info</a></li><li><a href="./BugReport364?action=AttachFile">Attachments</a></li><li>
+<form class="actionsmenu" method="get" action="">
+<div>
+    <label>More Actions:</label>
+    <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="MyPages">My Pages</option>
+<option value="SubscribeUser">Subscribe User</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="Despam">Remove Spam</option>
+<option value="PackagePages">Package Pages</option>
+    </select>
+    <input type="submit" value="Do">
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="./BugReport364?action=login" id="login">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h2 id="head-3a78b78ae4afbb2ad35923ea82682461e54ed7da">Bug Description</h2>
+<span class="anchor" id="line-2"></span><p class="line862">Description and discussion in part on the forums, see also: <a class="http" href=".forum.t-o-m-e.net/viewtopic.php?t=5995">http://forum.t-o-m-e.net/viewtopic.php?t=5995</a> <span class="anchor" id="line-3"></span>See also, <a href="./BugReport278">BugReport278</a> -- Same problem... same fix didn't work however.  My secondary question is, what is cygwin doing with the fonts thats screwing it up.  The problem doesn't occur under bcc55 or linux... only under cygwin... perhaps its using unix fonts in windows or windows fonts in unix mode?  I know nothing about fonts so this is pure speculation <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line874">A pic of the problem exists here:   <span class="anchor" id="line-6"></span><img alt="pooched" src="http://web.archive.org/web/20080110081043im_/http://mysticalties.com/images/pooched.jpg" title="pooched"/> <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><p class="line874">Summary is, under cygwin, Windows XP there is a strange display problem where half of all the ascii text on the title screen and subsequent pages are cut in half with the bottom half missing.   <span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line874">Attempted Solutions were: <span class="anchor" id="line-11"></span><ul><li>Change font from the menu - Results in crash <span class="anchor" id="line-12"></span></li><li>Change font in the tome3.INI file - Results in reverting the file as soon as tome loads <span class="anchor" id="line-13"></span></li><li>Change to Biz Display - Results in a larger display, but doesn't fix text <span class="anchor" id="line-14"></span></li><li>Change to Biz Display in tome3.INI file - Results in reverting the file as soon as tome loads <span class="anchor" id="line-15"></span></li><li>Nothing will stick in the tome3.INI file under [term-0] except - numcol/row, positionx/y <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span></li></ul><p class="line862">This isn't the first time I've seen this problem, it occured once about a 6mo-1yr ago when I was working on a cvs compile of tome2 under linux.  I don't remember the solution or what causes it however, but several people see to be having the problem currently under cygwin in windows so I figured it's relevent to post here (also Maylith told me to, so its not my fault *sobs pitifully*) Yah... whatever, but anyways.. <img alt=";)" height="15" src="./wiki/tome/img/smile4.png" title=";)" width="15"/> <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line867">
+<h2 id="head-b8e032bf847b43f5489ba728cbaa04f598eb6b15">Update 1</h2>
+<span class="anchor" id="line-20"></span><p class="line874">Added Info: Here's another SS of what happens if you increase tile width and height through the menu: <span class="anchor" id="line-21"></span><img alt="pooched2" src="http://web.archive.org/web/20080110081043im_/http://mysticalties.com/images/pooched2.jpg" title="pooched2"/> <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><p class="line874">To me whats happening (I've not read the code) appears to be this... <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line874">Normal would be:  <span class="anchor" id="line-26"></span><div><table><tbody><tr>  <td><p class="line862"> X </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-27"></span><p class="line862"> X </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-28"></span><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-29"></span><p class="line862"> X </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-30"></span><p class="line862"> X </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> X </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><p class="line874">Current screwed up is more like:  <span class="anchor" id="line-33"></span><div><table><tbody><tr>  <td><p class="line862">   </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-34"></span><p class="line862">   </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-35"></span><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-36"></span><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-37"></span><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-38"></span><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862">   </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-39"></span><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862"> o </td>
+  <td><p class="line862">   </td>
+  <td><p class="line862">   </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><p class="line874">I'd guess its actually further askew than this though... perhaps it's as far off as the character is starting at the top right instead of bottom left? Shrug. Dunno... pure speculation. <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line867">
+<h2 id="head-dd4caaaeb2aeb95635338b1e959795da80af4a7a">Update 2</h2>
+<span class="anchor" id="line-44"></span><p class="line874">Someone suggested file corruption in the tome3.ini / tome.ini file may be the problem, recreated the file using only unix style cr and windows style cr, still doesnt work.  Deleted file and let tome recreate it... still doesnt work.  Problems remain as described above, ini file changes get directly reverted out as soon as tome starts. <span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><p class="line867">
+<h2 id="head-aec5375112e144492bf9c34ca07b052c76cfc339">Update 3</h2>
+<span class="anchor" id="line-47"></span><p class="line874">Changed compilers to borland c++ this fixes the problem tome2 was having with the display issues.  It still leaves tome3 broken though.  The problem with the weird display issues seems to be entirely a cygwin issue somewhere along the line.  Tome3 still has the broken display under cygwin and borland won't compile it because it seems to be falling into an inappropriate define and starts looking for param.h and file.h on everything even though borland doesn't supply those like a unix system would.  Ideas? <span class="anchor" id="line-48"></span><span class="anchor" id="line-49"></span><p class="line867">
+<h2 id="head-ca1f2f1441b33eab8089080959bf5c5aa228b1e9">ShadUs Attempted Compiles</h2>
+<span class="anchor" id="line-50"></span><ul><li>My system is running <span class="anchor" id="line-51"></span><ul><li><p class="line862">Windows XP Professional, SP2 || Gentoo 2004.r3 <span class="anchor" id="line-52"></span></li><li>AMD 64 3200+ (2Ghz) <span class="anchor" id="line-53"></span></li><li>1G Corsair Budget Ram <span class="anchor" id="line-54"></span></li><li>GF6600 GT PCIX <span class="anchor" id="line-55"></span></li><li>ASUS A8NSLI-Deluxe <span class="anchor" id="line-56"></span></li><li>2 110GB Harddrives <span class="anchor" id="line-57"></span></li><li>Linksys WMP54G <span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span></li></ul></li><li class="gap"><p class="line862">Cygwin tome2: makefile.cyg, no changes, latest cvs (tome2 [2.4.0]), clean directory, cygwin installed 2005-03-22, sdl packages installed both win &amp; cyg. <span class="anchor" id="line-60"></span><ul><li>Result: Compiles, but with display errors shown above. <span class="anchor" id="line-61"></span></li><li>-m32 Results: Compiles, but with display errors shown above. <span class="anchor" id="line-62"></span></li><li>-m64 Results: cc1, sorry unimplemented: 64bit mode not compiled in. <span class="anchor" id="line-63"></span></li></ul></li><li><p class="line862">Cygwin tome3: makefile.cyg, no changes, latest cvs (tome [3.0.0]), clean directory, cygwin installed 2005-03-22, sdl packages installed both win &amp; cyg. <span class="anchor" id="line-64"></span><ul><li>Result: Compiles, but with display errors shown above. <span class="anchor" id="line-65"></span></li><li>-m32 Results: Compiles, but with display errors shown above. <span class="anchor" id="line-66"></span></li><li>-m64 Results: cc1, sorry unimplemented: 64bit mode not compiled in. <span class="anchor" id="line-67"></span></li></ul></li><li>Bcc55 tome2: makefile.bcc, no changes, latest cvs (tome2 [2.4.0]), clean directory, bcc55 installed 2005-03-26. <span class="anchor" id="line-68"></span><ul><li>Result: Compiles, runs just like binary distribution (aka- No Display Errors). <span class="anchor" id="line-69"></span></li></ul></li><li>Bcc55 tome3: makefile.bcc, no changes, latest cvs (tome [3.0.0]), clean directory, bcc55 installed 2005-03-26. <span class="anchor" id="line-70"></span><ul><li>Result: Doesn't compile, seems to fall into looking for .h files that don't exist in bcc55's sys folder (file.h and params.h iirc). <span class="anchor" id="line-71"></span></li></ul></li><li>gcc tome2: makefile.std, no changes, latest cvs (tome2 [2.4.0]), clean directory, gcc3.3.5 installed 2005-03-27. <span class="anchor" id="line-72"></span><ul><li>Result: Compiles, runs just like binary distribution (aka- No Display Errors). <span class="anchor" id="line-73"></span></li></ul></li><li>gcc tome3: makefile.std, comment out LIBDIR declaration, latest cvs (tome [3.0.0], clean directory, gcc3.3.5 installed 2005-03-27 <span class="anchor" id="line-74"></span><ul><li>Result: Compiles, very buggy-- goto "world" screen crash, can't use thaum, can't use necro, etc, etc.  Screen display is as it should be. <span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span></li></ul></li></ul><p class="line867">
+<h2 id="head-49211b0d86ee8e08a1f441b14cec4841160d3ada">Final Comments</h2>
+<span class="anchor" id="line-77"></span><p class="line874">That's that.  If anyone has some ideas or suggestions on what might be causing it, i'm all ears and will give it a try on the fix. Tata. <span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><p class="line867">
+<h2 id="head-748c6abdc7f7fc63031e7a7a7c8747fe37b9f814">Chatter</h2>
+<span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><p class="line867"><strong><a class="nonexistent" href="./KeithStevens">KeithStevens</a></strong> I'm having the same issue, but it isn't for TOME3, but version 2.3.1.  I recently had to rebuild my computer, installed XP, downloaded cygwin, downloaded tome-231-src.tar.bz2, and compiled it.  And I'm having the exact same issues . <span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> In light of that i'm going to also copy the bugreport to the tome2 bugs.  I'd really like to know whats causing this.  It's like the panels are 2x as big as they should be and they're overlaping. <span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> In the event it may be system related, I'm running an Amd64-3200+(2ghz), nforce4 chipset(asus), 1g of ddr memory, winxp pro, redownloaded cygwin completely today reinstalled the sdl libraries for cygwin and xp and it's still having the same problems. <span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> I think the real question comes down to-- What is the difference between the windows binary downloaded on the site (aka what options are they using) and the ones people are compiling in the field. <span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><p class="line867"><strong><a href="./IainMac">IainMac</a></strong> Can you be a bit more specific in what you are doing... i.e. <span class="anchor" id="line-90"></span><ul><li>what makefile are you using <span class="anchor" id="line-91"></span></li><li>what changes have you done to the makefile <span class="anchor" id="line-92"></span></li><li>are you using the latest version of the CVS <span class="anchor" id="line-93"></span></li><li>have you removed your personal ".tome" directory <span class="anchor" id="line-94"></span></li><li>how uptodate is your version of cygwin <span class="anchor" id="line-95"></span></li></ul><p class="line874">P.S. I have compiled tome2 and tome3 CVS versions using cygwin under Windows XP SP2 and found no problems with it. <span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> Sure, sorry, I know I should have included it, duh. <span class="anchor" id="line-98"></span>If I missed anything you wanna know lemme know. [Moved data to its own section above, added linux compile info, bout to do a tome3 compile] <span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><p class="line867"><strong><a href="./IainMac">IainMac</a></strong> Thanks for the info. I think the important bit is that your system is 64bit and the reason I am not seeing it is that I am using a 32bit system. I have some PA-Risc 64bit machines at work so I will try and track it down on those (although I think it uses a different endian nature to AMD). <span class="anchor" id="line-101"></span>It would also be good to know what processor type that <strong><a class="nonexistent" href="./KeithStevens">KeithStevens</a></strong> is using. <span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> No problem, weird that I don't get it under bcc though :/ I've got about another 8 hours of compile time on a fresh install of gentoo, after that ill pull tome off the cvs and see if it'll compile there and how it acts when/if it does. <span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> Also, as a side note, I had this problem over a year ago with the tome cvs sources with cygwin too... long before I had my a64, I don't remember what the solution was now, but it may well have been "change to bcc".  Which makes me ponder-- I wonder if I'm missing something in cygwin that isnt required to complete the compile but IS required to get a workable build.   <span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> Aight, finished up my compiles, display is fine under linux too, not sure what 'state' it should be in at this point, but it seems pretty far beyond very broken as far as features go, lots broken... but thats to be expected as its experimental still and not a standard release.  So basically what we're looking at problem wise is: <span class="anchor" id="line-108"></span><ul><li>Cygwin compile of tome2/tome3 packages from cvs under xp yield strange display issues, perhaps related to config/amd64? <span class="anchor" id="line-109"></span></li><li>bcc55 compile of tome3 packages under xp fails due to make looking for things it shouldn't look for with bcc55 (files.h/param.h) <span class="anchor" id="line-110"></span></li></ul><p class="line874">On the bright side, tome works peachy with amd64 on linux for both tome2/3 and on windows xp with bcc55 for tome2. <span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><p class="line867"><strong><a href="./IainMac">IainMac</a></strong> Ok it looks to be a compile issue. Can you redo the cygwin compile but add "-m32" to the COPTS line in makefile.cyg, which should do a 32bit compile and if that does not work can you try with "-m64" for a 64bit compile. <span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> Added results above with other compiles.  No change in results, both compile wiht -m32 but not with -m64.  Both still give display error with -m32 on copts <span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><p class="line862">Garzahd: I ran into a similar issue in <a href="./BugReport278">BugReport278</a>. Basically I just copied the font files (*.FON) from a working copy to my cygwin-compiled copy, and life was good. <span class="anchor" id="line-117"></span><span class="anchor" id="line-118"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> Just tried, that-- no luck <img alt=":(" height="15" src="./wiki/tome/img/sad.png" title=":(" width="15"/>  Gonna find a copy of 227 and see if it works by copying those files -- maybe something important has changed.  Tried to even copy the entire lib directory over... no luck there either... posting a link to your bug since its the same thing exactly, i even get the same corruption in the E presents screen... <span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> Anyone else have ideas? Updates? Suggestions? <span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><p class="line867"><strong>some new guy</strong> has the same problem, compiled Tome 2.3.1 on Cygwin with Windows 2000, and the fonts are all chopped off, like the screenshots above. I bet all you would have to do to reproduce the problem is start with a fresh install of Cygwin (no allegro or anything installed or built for it), download and compile Tome 2.3.1. I copied in the fonts from 2.2.7 (src and win) and that didn't help things at all. <span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><p class="line867"><strong><a class="nonexistent" href="./SomeStupidPerson">SomeStupidPerson</a></strong> says: Deleting all the files from the font directory except 8X13.FON seemed to work to "fix" the problem, at least as a work around. Maybe this will give one of the developers a clue as to where the source of the problem lies. I got the idea while looking at main-win.c where it says that at the least you have to have that one file in the fonts directory.  <span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span><p class="line867"><strong><a href="./ShadUs">ShadUs</a></strong> Just gave that a spin, no worky either. <span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span><p class="line867"><strong><a href="./IainMac">IainMac</a></strong> I have just updated tome3 to get the Borland bcc55 compiler working again. Can you redo your bcc55 test with tome3 again and see if this is still showing the display problem ? <span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><p class="line867"><strong><a href="./AerdanRunestar">AerdanRunestar</a></strong> Tome 2.3.2CVS compiles and displays fine under <a class="http" href=".www.mingw.org/">MinGW/MSYS</a>, so I would suggest ditching Cygwin until the issue's been resolved. <span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><p class="line867"><strong>Actius</strong>: I ran into this problem building 2.3.2 freshly under xp using cygwin.  No existing .tome/ (I had a downloaded bcc 2.3.1 installed on the machine, but the config for my cygwin build knew nothing about that).  I tried a few of the recommended tricks (like deleting all but 8X13) but those didn't help.  I finally got what looks like an acceptable display by disabling the if statement commented /* Bizarre size */ in Term_text_win() in main-win.c.  Its if clause now reads (except for white space): if (td-&gt;bizarre /* || (td-&gt;tile_hgt != td-&gt;font_hgt) || (td-&gt;tile_wid != td-&gt;font_wid) */) -- this isn't perfect, character positioning is not right  -- but at least the splash screen is readable. <span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span><p class="line867"><strong><a href="./PaulMoore">PaulMoore</a></strong>: I'm having what looks like a similar problem, building 2.3.2 from the source archive on the ToME download page using either cygwin on Win 2000, or mingw on XP. I'm getting a perfectly readable splash screen, but the window size is twice what is actually required to display the text, so there's a big black area to the right of the text. <span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><p class="line867"><hr class="hr2"/><p class="line874"> <span class="anchor" id="line-137"></span><strong><a href="./NeilStevens">NeilStevens</a></strong>: IRC conversation that may be helpful to you all: <span class="anchor" id="line-138"></span><span class="anchor" id="line-139"></span><ul><li style="list-style-type:none"><p class="line862">[14:00] &lt;Neil&gt; DG: I'll probably need special instructions for your secret cross-compiling technique, since all the Windows users themselves can't build it <span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span><p class="line862">[14:01] &lt;Neil&gt; everyone who tries gets something buggy <span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><p class="line862">[14:02] &lt;iX_&gt; &lt;<a href="./DarkGod">DarkGod</a>&gt; heh <img alt=";)" height="15" src="./wiki/tome/img/smile4.png" title=";)" width="15"/> <span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span><p class="line862">[14:02] &lt;iX_&gt; &lt;<a href="./DarkGod">DarkGod</a>&gt; actaully it was as simple as "emerge xmingw" <img alt=":)" height="15" src="./wiki/tome/img/smile.png" title=":)" width="15"/> <span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><p class="line862">[14:02] &lt;Neil&gt; heh <span class="anchor" id="line-148"></span><span class="anchor" id="line-149"></span><p class="line862">[14:02] &lt;Neil&gt; what version gcc? <span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><p class="line862">[14:03] &lt;Neil&gt; (maybe they all have the wrong version) <span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><p class="line862">[14:03] &lt;iX_&gt; &lt;<a href="./DarkGod">DarkGod</a>&gt; gcc version 3.4.2 (mingw-special) <span class="anchor" id="line-154"></span><span class="anchor" id="line-155"></span></li></ul><p class="line867"><strong><a href="./AerdanRunestar">AerdanRunestar</a></strong>: I have taken the trouble to rip makefile.mingw to shreds so that it works in Windows. It, as well as all Windows or DOS makefiles, will be replaced with a unified makefile at some point in the near future. <span class="anchor" id="line-156"></span><span class="anchor" id="line-157"></span><pre># MinGW under Windows makefile
+<span class="anchor" id="line-158"></span># Only adjust if you're using MinGW under Windows WITHOUT MSYS
+<span class="anchor" id="line-159"></span># or if you're using MinGW under Linux.
+<span class="anchor" id="line-160"></span>
+<span class="anchor" id="line-161"></span># Comment out this line if you don't want Lua scripting
+<span class="anchor" id="line-162"></span>LUA=TRUE
+<span class="anchor" id="line-163"></span>
+<span class="anchor" id="line-164"></span># Lib location.
+<span class="anchor" id="line-165"></span>LIBDIR = .\lib
+<span class="anchor" id="line-166"></span>
+<span class="anchor" id="line-167"></span>## 3. Some "system" definitions
+<span class="anchor" id="line-168"></span># MinGW compiler; only change if, for example, you're using a cross compiler,
+<span class="anchor" id="line-169"></span># e.g., MinGW under Linux
+<span class="anchor" id="line-170"></span>CC = mingw32-gcc
+<span class="anchor" id="line-171"></span>
+<span class="anchor" id="line-172"></span># MinGW resource builder; only change if, for example, you're using a cross
+<span class="anchor" id="line-173"></span># compiler, e.g., MinGW under Linux
+<span class="anchor" id="line-174"></span>WRES = windres
+<span class="anchor" id="line-175"></span>
+<span class="anchor" id="line-176"></span>## For MinGW
+<span class="anchor" id="line-177"></span>COPTS = -s -Wall -mno-cygwin -O2 -fno-strength-reduce
+<span class="anchor" id="line-178"></span>INCLUDES =
+<span class="anchor" id="line-179"></span>DEFINES = -DWINDOWS -DUSE_TRANSPARENCY -DUSE_EGO_GRAPHICS -DSUPPORT_GAMMA \
+<span class="anchor" id="line-180"></span>        -DUSE_PRECISE_CMOVIE \
+<span class="anchor" id="line-181"></span>        -DUSE_WINSOCK 
+<span class="anchor" id="line-182"></span>LIBS = -mno-cygwin -mwindows -e _mainCRTStartup -lwinmm -lwsock32
+<span class="anchor" id="line-183"></span>
+<span class="anchor" id="line-184"></span>### End of configurable section ###
+<span class="anchor" id="line-185"></span># The "source" and "object" files.
+<span class="anchor" id="line-186"></span>BASESRCS = \
+<span class="anchor" id="line-187"></span>  z-util.c z-virt.c z-form.c z-rand.c z-term.c z-sock.c \
+<span class="anchor" id="line-188"></span>  variable.c tables.c util.c cave.c cmovie.c \
+<span class="anchor" id="line-189"></span>  object1.c object2.c traps.c monster1.c monster2.c monster3.c \
+<span class="anchor" id="line-190"></span>  xtra1.c xtra2.c spells1.c spells2.c \
+<span class="anchor" id="line-191"></span>  melee1.c melee2.c loadsave.c files.c \
+<span class="anchor" id="line-192"></span>  cmd1.c cmd2.c cmd3.c cmd4.c cmd5.c cmd6.c cmd7.c \
+<span class="anchor" id="line-193"></span>  store.c birth.c notes.c help.c \
+<span class="anchor" id="line-194"></span>  status.c randart.c gods.c modules.c \
+<span class="anchor" id="line-195"></span>  wizard1.c wizard2.c levels.c ghost.c \
+<span class="anchor" id="line-196"></span>  generate.c gen_maze.c gen_evol.c dungeon.c init1.c init2.c \
+<span class="anchor" id="line-197"></span>  bldg.c squeltch.c wild.c powers.c plots.c \
+<span class="anchor" id="line-198"></span>  irc.c skills.c \
+<span class="anchor" id="line-199"></span>  readdib.c angband.rc main-win.c main.c
+<span class="anchor" id="line-200"></span>
+<span class="anchor" id="line-201"></span>BASEOBJS = \
+<span class="anchor" id="line-202"></span>  z-term.o z-rand.o z-form.o z-virt.o z-util.o z-sock.o \
+<span class="anchor" id="line-203"></span>  main.o main-win.o readdib.o angband.res \
+<span class="anchor" id="line-204"></span>  generate.o gen_maze.o gen_evol.o dungeon.o init1.o init2.o plots.o help.o \
+<span class="anchor" id="line-205"></span>  store.o birth.o wizard1.o wizard2.o bldg.o cmovie.o \
+<span class="anchor" id="line-206"></span>  cmd1.o cmd2.o cmd3.o cmd4.o cmd5.o cmd6.o cmd7.o \
+<span class="anchor" id="line-207"></span>  loadsave.o files.o levels.o notes.o squeltch.o \
+<span class="anchor" id="line-208"></span>  status.o randart.o irc.o skills.o gods.o modules.o \
+<span class="anchor" id="line-209"></span>  xtra1.o xtra2.o spells1.o spells2.o melee1.o melee2.o \
+<span class="anchor" id="line-210"></span>  object1.o object2.o traps.o monster1.o monster2.o monster3.o \
+<span class="anchor" id="line-211"></span>  variable.o tables.o util.o cave.o ghost.o wild.o powers.o
+<span class="anchor" id="line-212"></span>
+<span class="anchor" id="line-213"></span>LUASRCS = \
+<span class="anchor" id="line-214"></span>  script.c lua_bind.c \
+<span class="anchor" id="line-215"></span>  w_util.c w_player.c w_z_pack.c w_obj.c w_mnster.c w_spells.c w_quest.c w_play_c.c w_dun.c
+<span class="anchor" id="line-216"></span>
+<span class="anchor" id="line-217"></span>TOLUASRCS = \
+<span class="anchor" id="line-218"></span>  lua/lapi.c lua/lcode.c lua/ldebug.c lua/ldo.c lua/lfunc.c lua/lgc.c \
+<span class="anchor" id="line-219"></span>  lua/llex.c lua/lmem.c lua/lobject.c lua/lparser.c lua/lstate.c lua/lstring.c \
+<span class="anchor" id="line-220"></span>  lua/ltable.c lua/ltests.c lua/ltm.c lua/lundump.c lua/lvm.c lua/lzio.c \
+<span class="anchor" id="line-221"></span>  lua/lauxlib.c lua/lbaselib.c lua/ldblib.c lua/liolib.c lua/lstrlib.c \
+<span class="anchor" id="line-222"></span>  lua/tolua_lb.c lua/tolua_rg.c lua/tolua_tt.c lua/tolua_tm.c lua/tolua_gp.c \
+<span class="anchor" id="line-223"></span>  lua/tolua_eh.c lua/tolua_bd.c
+<span class="anchor" id="line-224"></span>
+<span class="anchor" id="line-225"></span>LUAOBJS = \
+<span class="anchor" id="line-226"></span>  script.o lua_bind.o \
+<span class="anchor" id="line-227"></span>  w_util.o w_player.o w_z_pack.o w_obj.o w_mnster.o w_spells.o w_quest.o w_play_c.o w_dun.o
+<span class="anchor" id="line-228"></span>
+<span class="anchor" id="line-229"></span>TOLUAOBJS = \
+<span class="anchor" id="line-230"></span>  lua/lapi.o lua/lcode.o lua/ldebug.o lua/ldo.o lua/lfunc.o lua/lgc.o \
+<span class="anchor" id="line-231"></span>  lua/llex.o lua/lmem.o lua/lobject.o lua/lparser.o lua/lstate.o lua/lstring.o \
+<span class="anchor" id="line-232"></span>  lua/ltable.o lua/ltests.o lua/ltm.o lua/lundump.o lua/lvm.o lua/lzio.o \
+<span class="anchor" id="line-233"></span>  lua/lauxlib.o lua/lbaselib.o lua/ldblib.o lua/liolib.o lua/lstrlib.o \
+<span class="anchor" id="line-234"></span>  lua/tolua_lb.o lua/tolua_rg.o lua/tolua_tt.o lua/tolua_tm.o lua/tolua_gp.o \
+<span class="anchor" id="line-235"></span>  lua/tolua_eh.o lua/tolua_bd.o
+<span class="anchor" id="line-236"></span>
+<span class="anchor" id="line-237"></span>#
+<span class="anchor" id="line-238"></span># Base sources and objects
+<span class="anchor" id="line-239"></span>#
+<span class="anchor" id="line-240"></span>
+<span class="anchor" id="line-241"></span>SRCS = $(BASESRCS)
+<span class="anchor" id="line-242"></span>OBJS = $(BASEOBJS)
+<span class="anchor" id="line-243"></span>
+<span class="anchor" id="line-244"></span>
+<span class="anchor" id="line-245"></span>#
+<span class="anchor" id="line-246"></span># Compiler options
+<span class="anchor" id="line-247"></span>#
+<span class="anchor" id="line-248"></span>
+<span class="anchor" id="line-249"></span>CFLAGS = $(COPTS) $(INCLUDES) $(DEFINES) -DDEFAULT_PATH=\"$(LIBDIR)\"
+<span class="anchor" id="line-250"></span>
+<span class="anchor" id="line-251"></span>
+<span class="anchor" id="line-252"></span>#
+<span class="anchor" id="line-253"></span># Lua support
+<span class="anchor" id="line-254"></span>#
+<span class="anchor" id="line-255"></span>
+<span class="anchor" id="line-256"></span>LUAFLAGS = -DUSE_LUA -Ilua -I.
+<span class="anchor" id="line-257"></span>
+<span class="anchor" id="line-258"></span>ifdef LUA
+<span class="anchor" id="line-259"></span>SRCS += $(LUASRCS)
+<span class="anchor" id="line-260"></span>OBJS += $(LUAOBJS)
+<span class="anchor" id="line-261"></span>SRCS += $(TOLUASRCS)
+<span class="anchor" id="line-262"></span>OBJS += $(TOLUAOBJS)
+<span class="anchor" id="line-263"></span>CFLAGS += $(LUAFLAGS)
+<span class="anchor" id="line-264"></span>endif
+<span class="anchor" id="line-265"></span>
+<span class="anchor" id="line-266"></span>
+<span class="anchor" id="line-267"></span>#
+<span class="anchor" id="line-268"></span># Build the binary. The new base target.
+<span class="anchor" id="line-269"></span>#
+<span class="anchor" id="line-270"></span>
+<span class="anchor" id="line-271"></span>TARGET = tome
+<span class="anchor" id="line-272"></span>TOLUA = ./tolua
+<span class="anchor" id="line-273"></span>
+<span class="anchor" id="line-274"></span>default: $(TARGET) $(TOLUA)
+<span class="anchor" id="line-275"></span>
+<span class="anchor" id="line-276"></span>$(TARGET): $(OBJS)
+<span class="anchor" id="line-277"></span>        $(CC) $(LDFLAGS) -o $@ $(OBJS) $(LIBS)
+<span class="anchor" id="line-278"></span>
+<span class="anchor" id="line-279"></span>$(TOLUA): $(TOLUAOBJS) lua/tolua.c lua/tolualua.c
+<span class="anchor" id="line-280"></span>        $(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(TOLUAOBJS) lua/tolua.c lua/tolualua.c $(LIBS)
+<span class="anchor" id="line-281"></span>
+<span class="anchor" id="line-282"></span>#
+<span class="anchor" id="line-283"></span># An install rule.
+<span class="anchor" id="line-284"></span>#
+<span class="anchor" id="line-285"></span>install: default
+<span class="anchor" id="line-286"></span>        cp -f $(TARGET) ..
+<span class="anchor" id="line-287"></span>
+<span class="anchor" id="line-288"></span>
+<span class="anchor" id="line-289"></span>#
+<span class="anchor" id="line-290"></span># Clean up old junk
+<span class="anchor" id="line-291"></span>#
+<span class="anchor" id="line-292"></span>
+<span class="anchor" id="line-293"></span>clean:
+<span class="anchor" id="line-294"></span>        rm -f *.bak $(OBJS)
+<span class="anchor" id="line-295"></span>
+<span class="anchor" id="line-296"></span>
+<span class="anchor" id="line-297"></span>#
+<span class="anchor" id="line-298"></span># Generate dependancies automatically
+<span class="anchor" id="line-299"></span>#
+<span class="anchor" id="line-300"></span>
+<span class="anchor" id="line-301"></span>depend:
+<span class="anchor" id="line-302"></span>        makedepend $(INCLUDES) $(DEFINES) -D__MAKEDEPEND__ $(SRCS)
+<span class="anchor" id="line-303"></span>
+<span class="anchor" id="line-304"></span>.c.o:
+<span class="anchor" id="line-305"></span>        $(CC) $(CFLAGS) -c -o $*.o $*.c
+<span class="anchor" id="line-306"></span>
+<span class="anchor" id="line-307"></span>.SUFFIXES: .rc .res
+<span class="anchor" id="line-308"></span>.rc.res:
+<span class="anchor" id="line-309"></span>        $(WRES) $&lt; -O coff -o $@
+<span class="anchor" id="line-310"></span>
+<span class="anchor" id="line-311"></span>#
+<span class="anchor" id="line-312"></span># Lua library compilation rules
+<span class="anchor" id="line-313"></span>#
+<span class="anchor" id="line-314"></span>
+<span class="anchor" id="line-315"></span>ifdef LUA
+<span class="anchor" id="line-316"></span>w_mnster.c: monster.pkg $(TOLUA)
+<span class="anchor" id="line-317"></span>        $(TOLUA) -n monster -o w_mnster.c monster.pkg
+<span class="anchor" id="line-318"></span>
+<span class="anchor" id="line-319"></span>w_player.c: player.pkg $(TOLUA)
+<span class="anchor" id="line-320"></span>        $(TOLUA) -n player -o w_player.c player.pkg
+<span class="anchor" id="line-321"></span>
+<span class="anchor" id="line-322"></span>w_play_c.c: player_c.pkg $(TOLUA)
+<span class="anchor" id="line-323"></span>        $(TOLUA) -n player_c -o w_play_c.c player_c.pkg
+<span class="anchor" id="line-324"></span>
+<span class="anchor" id="line-325"></span>w_z_pack.c: z_pack.pkg $(TOLUA)
+<span class="anchor" id="line-326"></span>        $(TOLUA) -n z_pack -o w_z_pack.c z_pack.pkg
+<span class="anchor" id="line-327"></span>
+<span class="anchor" id="line-328"></span>w_obj.c: object.pkg $(TOLUA)
+<span class="anchor" id="line-329"></span>        $(TOLUA) -n object -o w_obj.c object.pkg
+<span class="anchor" id="line-330"></span>
+<span class="anchor" id="line-331"></span>w_util.c: util.pkg $(TOLUA)
+<span class="anchor" id="line-332"></span>        $(TOLUA) -n util -o w_util.c util.pkg
+<span class="anchor" id="line-333"></span>
+<span class="anchor" id="line-334"></span>w_spells.c: spells.pkg $(TOLUA)
+<span class="anchor" id="line-335"></span>        $(TOLUA) -n spells -o w_spells.c spells.pkg
+<span class="anchor" id="line-336"></span>
+<span class="anchor" id="line-337"></span>w_quest.c: quest.pkg $(TOLUA)
+<span class="anchor" id="line-338"></span>        $(TOLUA) -n quest -o w_quest.c quest.pkg
+<span class="anchor" id="line-339"></span>
+<span class="anchor" id="line-340"></span>w_dun.c: dungeon.pkg $(TOLUA)
+<span class="anchor" id="line-341"></span>        $(TOLUA) -n dungeon -o w_dun.c dungeon.pkg
+<span class="anchor" id="line-342"></span>
+<span class="anchor" id="line-343"></span>endif
+<span class="anchor" id="line-344"></span>
+<span class="anchor" id="line-345"></span># DO NOT DELETE THIS LINE - make depend depends on it.
+<span class="anchor" id="line-346"></span></pre><span class="anchor" id="line-347"></span><span class="anchor" id="line-348"></span><p class="line867"><strong><a href="./PaulMoore">PaulMoore</a></strong>: Still gives the same problem for me (window far wider than text). <span class="anchor" id="line-349"></span><span class="anchor" id="line-350"></span><p class="line862">[A few seconds later] Aaaargh - I found the problem, the supplied tome.ini has <tt class="backtick">[Term-0]&nbsp;NumCols=126</tt> instead of 80! Looks like I never had any compile problems at all <img alt=":-(" height="15" src="./wiki/tome/img/sad.png" title=":-(" width="15"/> <span class="anchor" id="line-351"></span><span class="anchor" id="line-352"></span><p class="line867"><strong>Actuis</strong>: That <a class="nonexistent" href="./NumCols">NumCols</a>= thing is probably only superficially related.  I've been running into this bug a fair bit when I try tome (2 or 3), and a seemingly related bug where the entire font is blank.  Sometimes I can get the bug to "go away" by playing with the font settings -- the important thing seems to be exercising the font changing routines.  One one machine I got the display to clear up by using graphics tiles and switching to a different sized font.  If I had the graphics tiles in use the first time tome used the font, the font worked.  If I had ascii tiles in use the first time tome used a font, the font wouldn't work.  But I've had variations of the font problem on other machines and that didn't work at all.  Another "fun" one is that character 0x1F (used for the ground) would display as blank -- I never did figure out that one, and wound up having to make a bunch of changes in user-win.prf so it would use a period character instead.  Anyways, this "feels" like an initialization problem.  Tome is using something without initializing it.  Usually, this doesn't matter -- maybe it's something saved on disk by windows that needs to be initialized -- but sometimes it's a problem.  Or maybe it really is something in the .ini file, and I've not figured out what it needs to be for my machine.  But I've got <a class="nonexistent" href="./NumCols">NumCols</a>=80 for all my windows and I'm still getting the "only the top half of the font is displayed" bug, and this time it's regardless of what I do with bizarre display amd alternate game tiles (much harder to mess with at startup using tome3).  Worse, tome3 crashes when I try to change font sizes, so I can't even try that workaround.  P.S. the tome3 overwrites my changes in the .ini when I start it up, so that's not a useful avenue of experimentation for me. p.p.s. I'm getting the problem on tome3 with the pre-built alpha2. <span class="anchor" id="line-353"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">BugReport364  (last edited 2006-01-04 03:26:25 by <span title="??? @ samus.dreamhost.com[66.33.196.46]">samus</span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="./moinmoin.wikiwikiweb.de/">MoinMoin Powered</a></li><li><a href=".www.python.org/">Python Powered</a></li><li><a href=".validator.w3.org/check?uri=referer">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:10:43 Jan 10, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:34:44 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 225.457
+  exclusion.robots: 0.177
+  exclusion.robots.policy: 0.164
+  RedisCDXSource: 4.241
+  esindex: 0.008
+  LoadShardBlock: 197.507 (3)
+  PetaboxLoader3.datanode: 114.53 (4)
+  CDXLines.iter: 20.461 (3)
+  load_resource: 89.899
+  PetaboxLoader3.resolve: 39.375
+-->

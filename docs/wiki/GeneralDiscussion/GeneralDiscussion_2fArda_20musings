@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Arda musings - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fArda_20musings?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fArda_20musings?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fArda_20musings?action=fullsearch&amp;value=%2FArda+musings&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Arda musings</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fArda_20musings?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fArda_20musings">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fArda_20musings?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fArda_20musings?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fArda_20musings?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fArda_20musings?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fArda_20musings?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fArda_20musings?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fArda_20musings?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fArda_20musings?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fArda_20musings?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fArda_20musings">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Just a little word about how excited I am about Arda. Even more than I'm excited about 3.0.0 (if that's possible). It seems like it will be the quantum leap that ToME was/is when compared to Vanilla, even if they have an engine that is similar. I'm interested as to how it will be balanced/unbalanced when compared to ToME (which still has one or two legacies of Pern-era cheese). The total rejiggering of monster power levels will be good, as it will make playing less predictable (to experienced playing) whilst not making it nightmarish for newbs. Can't wait to squizz at the changes <a href="./NeilStevens">NeilStevens</a> has made already... (Which I'll do as soon as I can get off my behind long enough to install the requisite software.. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> ) <p>
+<a href="./NeilStevens">NeilStevens</a>: I'd love to get it done, too.  I just don't work on it much, though.  So yes, please, install GNU Arch and even help fill out the monster list! 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Very willing to... &lt;crack of thunder, signalling divine wrath&gt;... once I've finished with the resistances for DG. (which isn't far off now)... On ideas for that: to quote from your Post in Forums:  
+</p>
+
+                                                                                            <ul>
+
+                                                                                            <li>
+<p>
+* Monsters **  
+</p>
+<p>
+                       Fewer types of monsters, more ego types. No demons, angels, liches, and other things that strain the theme. Various kinds of orcs and trolls get created and powered up to fill in the gaps. More kinds of natural and slightly-corrupted creatures should work, too.  
+</p>
+</li>
+
+                                                                                            </ul>
+
+
+<p>
+Have you considered what ego-types you'd be interested in?  
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: I list some in the monster list file.  One major idea I have is that I want ego-types of major player classes for all the major intelligent races.  Warrior, Sorceror, Demonologist, Summoner, Dark Priest, and so on. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: So the monster list will consist of base-types, with the Ego-types being a HEAVY component of monster generation. Interesting. Sorry to sound stupid, but can the power-levels of spells be scaled up with the level of monsters (i.e. a Demonologist Snaga would have a much lower level of success for summoning a demon than a Demonologist Urloki)... 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: There would be multiple ego types, I forgot to mention. From low-level novices on up. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: "Novice Demonologist Foo", "Demonologist Foo", "Expert Demonologist Foo"? Cool.  
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fArda_20musings?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fArda_20musings.text_html">RefreshCache</a> for this page (cached 2004-08-02 08:32:44)<br>
+<p><a href="./GeneralDiscussion_2fArda_20musings?action=edit">EditText</a> of this page (last edited 2004-07-07 05:21:30 by <span title="ncao.vtcif.telstra.com.au"><a href="./RavenRed">RavenRed</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:36:17 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:28 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 7.202
+  exclusion.robots: 0.202
+  exclusion.robots.policy: 0.188
+  esindex: 0.016
+  load_resource: 83.217
+  CDXLines.iter: 27.286 (3)
+  captures_list: 153.674
+  PetaboxLoader3.datanode: 118.148 (4)
+  LoadShardBlock: 114.75 (3)
+  PetaboxLoader3.resolve: 52.861
+-->

@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Tome 2.3 combat - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=fullsearch&amp;value=%2FTome+2.3+combat&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Tome 2.3 combat</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fTome_202_2e3_20combat">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fTome_202_2e3_20combat">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+In the previous versions all classes and races had some combat modifiers, which modified combat success. This means that a paladin with 50 in weaponmastery skill was a better warrior than a alchemist with the same skill. Is it true in 2.3 too? <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: No, the internal class and race modifiers were removed in version 2.3.0, i.e. a warrior, a priest and a mage with a skill of 50.0 are handled similarly. Race and class only determine the starting skill level and the skill modifier. 
+</p>
+<p>
+<a href="./VagaBond">VagaBond</a>: In this case I see the idea behind warrior mages. Alchemists became much better this way I guess..  Is there a chance in the future to eliminate or change the traps and monster attacks which make wands empty? These make magic device oriented alchemists too hard to play. Even a new ability (wandwarded) could be a solution. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> It is in the pipeline for ToME 3.0.0 (not coded yet): 
+<pre>-- DGDGDGDG *CODE ME*
+new_ability
+{
+        define_as = "AB_STICK_FORTIFICATION"
+        name = "Sticks Fortification"
+        desc =
+        {
+                "Allows you to make sticks(wands, staves, rods) resistant to",
+                "charges draining attacks.",
+                "Prereq: Alchemy@35, INT@25",
+        }
+        cost = 10
+        skills = { Alchemy = 35 }
+        stats = { [A_INT] = 25 }
+}
+</pre>
+</p>
+<p>
+<a href="./VagaBond">VagaBond</a>: yeah <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> And what are the chances of this presented in the 2.3 series? <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Zero.  I've already asked for 2.3.0 to be shipped, and no new game changes will be allowed in the 2.3 series.  Besides, New New Alchemy isn't coming until ToME 3 anyway. 
+</p>
+<p>
+<a href="./VagaBond">VagaBond</a>: Good news anyway. Thank you for the information. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I'm glad you agree it's good news that we're getting 2.3 out the door "before it gets moldy," as I put in my request to ship the thing. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: 2.3 might be shipped soon? YAY! <img src="./wiki/rightsidebar/img/biggrin.png" alt=":D" height="15" width="15"> (balloons, streamers, confetti, that sort of thing....) 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: It will be shipped as soon as the illustrious maintainer gets a chance to compile, package, upload, and announce. 
+</p>
+<p>
+<a href="./DarkGod">DarkGod</a>: Sadly, the illustrious maintainer was sick last week and without an internet connection this week :/ I should get it back for the next weekend. 
+</p>
+<p>
+<strong><a href="./BurbLulls">BurbLulls</a></strong>: Heh, the God of Darkness sick. It doesn't bear thinking about :p  
+</p>
+
+        <ul>
+
+  <em>( Sorry! <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> )</em> 
+        </ul>
+
+
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Feel better soon! 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fTome_202_2e3_20combat.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:59:39)<br>
+<p><a href="./GeneralDiscussion_2fTome_202_2e3_20combat?action=edit">EditText</a> of this page (last edited 2004-11-30 10:32:36 by <span title="195.92.67.76=webcacheH12a.cache.pol.co.uk">webcacheH12a</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:37:29 Jun 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:11 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 180.631
+  exclusion.robots: 0.162
+  exclusion.robots.policy: 0.149
+  RedisCDXSource: 2.32
+  esindex: 0.011
+  LoadShardBlock: 148.523 (3)
+  PetaboxLoader3.datanode: 59.658 (4)
+  CDXLines.iter: 25.799 (3)
+  PetaboxLoader3.resolve: 84.775 (2)
+  load_resource: 84.014
+-->

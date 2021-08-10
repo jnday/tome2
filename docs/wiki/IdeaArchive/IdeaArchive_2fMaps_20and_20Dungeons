@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Maps and Dungeons - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=fullsearch&amp;value=%2FMaps+and+Dungeons&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Maps and Dungeons</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fMaps_20and_20Dungeons">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fMaps_20and_20Dungeons?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fMaps_20and_20Dungeons?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fMaps_20and_20Dungeons?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fMaps_20and_20Dungeons?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fMaps_20and_20Dungeons?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fMaps_20and_20Dungeons">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./RavenRed">RavenRed</a></strong>: Just slightly reviving an old <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=2564"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">idea</a>. <p>
+For those who can't be bothered clicking on the link, the idea is that not all dungeons appear at the start of the game, but become visible once the appropriate map is read. This could replace the somewhat artificial "You don't feel experienced enough to go there..." messages.  Whilst keeping the mainline and specific quest (Maze, Necromancer's Tower) dungeons always visible from the overhead map, I'd love it if Map of Foo could become a uselful, rather than junk item.  
+</p>
+<p>
+Places such as the Sandworm Lair, the Paths of the Dead and the Land of Rhun could arguably be described as secret places not always apparent to the naked eye. Remember it took some rotten luck for the dwarf party in the Hobbit to get into the Misty Mountains Orc Cave, and Gondolin is a hidden city. Hell, Gollum was almost a pincushion when he came close to it.  
+</p>
+<p>
+"The Hidden City of Gondolin? Oh yeah, everyone knows where THAT is..." 
+</p>
+<p>
+The idea is not to make the game insanely difficult and annoying about being unable to access the side dungeons, it is instead to make the Maps keys to grand adventures that can change the course of your game. If you happen to find an Illusory Castle map whilst in the barrow-downs, feel free to power-dive! 
+</p>
+<p>
+A related, though separate idea is that the dungeon entrances should have town maps like Bree or Minas Amor, rather than being purple staircases in the middle of the fields. Just something for a little "flavour"... 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I do like the general idea of making town maps more important in the game. Also, I think it could be fun to tie maps in to quests -- even some of the random quest ideas we've kicked around in the past.  
+</p>
+<p>
+For example, you meet a random character somewhere who begs you for help -- her Uncle departed on a trip through a mountain pass and never returned. She, though, being a hapless maiden, knows nothing of the geography (i.e. *where* it is), only the name of the place. Then it's up to you to (eventually) find a dusty scroll lying around somewhere which tells you where it's at (and/or reveals the entrance on the overland map.) 
+</p>
+<p>
+Okay, so that's a bit hokey... anyway, I agree with <a href="./RavenRed">RavenRed</a> and think we could have a lot more fun with maps. 
+</p>
+<p>
+<strong><a href="./BurbLulls">BurbLulls</a></strong>: How about... there's a few randomly generated treasure maps you can find. When you read one, it creates a dungeon entrance somewhere on the overworld. The dungeon is only one level randomly generated, the monsters are tough and there's a single great reward hidden there (The treasure). The value of the reward and strength of the monsters would be determined by the depth the treasure map is found. The map may well include vague directions like god quests. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I like this idea. As far as I am concerned, we might do away with the current-form god quests entirely (change them into something different) and have these instead. 
+</p>
+<p>
+<a href="./LogrusMage">LogrusMage</a>: I think this idea has some merit, though it could get real old, real fast. For my module, i'm thinking of applying something like this, if i can figure out the code, to one dungeon, either a new one or one of the existing ones. I also like the idea of adding entrance maps to the dungeons, instead of the usual stairway from nowhere. Give some of the dungeon entrances thematic elements (like a lake in front of Moria's entrance, and the Watcher belongs there, not deep inside the caves), and maybe even a few puzzles (like making chars figure out how to open Moria's door on their first visit), though again, it'd get old quick, so not too much of that sort of thing (the puzzles, they should all have the thematics). 
+</p>
+<p>
+Actius: If you want to avoid "getting old" you could (at least in principle) allow any character with the appropriate racial memory to have access. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: Unfortunately ToME tends to not be savefile compatible across versions. I think we shouldn't base advanced features like this on savefiles. (I tend to skip god quests nowadays or just play an atheist, so there is room for improvement with those quests. I don't support putting standard dungeons behind map locks. If I want to visit, say the Orc Cave, I don't want to scum for that.) 
+</p>
+<p>
+<a href="./TheFalcon">TheFalcon</a>: I quite like the idea of hidden dungeons, not visible on the actual wilderness map, but so far, the only way I can find to do this is to use a "town" feature instead. I don't know whether any other way is possible. As far as getting old goes, I guess it's something you just have to live with. If you can put enough interesting features in the game, then it should prevent total boredom between releases <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./RavenRed">RavenRed</a></strong>: On a related idea, perhaps quests should be required to gain access to Lothlorien and Gondolin. Lothlorien because of the extremely nervous time they had in FOTR (or was it TTT?) gaining access to the forest (Gimli especially had... *ahem* a few problems), and Gondolin for the obvious reasons of legions of suspicious archers ready to perforate your hide if you get close.  
+</p>
+<p>
+Quests:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Gondolin: Eol Quest. Yes, it's high level, but hey, Gondolin is an important city.  
+</p>
+</li>
+    <li>
+<p>
+ Lothlorien : Hunt the Wolves... set, arena-style level wih lots of wargs and werewolves and a high-level orc unique or two. The arena should be set up to the advantage of the locals, making this slightly more difficult than it might appear at first. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong><a href="./ErintiAkairis">ErintiAkairis</a></strong>: Or, following canon a little more closely, access to Gondolin could involve slogging through a seven-level dungeon with a (rather hurty) gate guardian and friends on each level (I don't remember how many were named by Tolkien, but they can always just be non-unique). 
+</p>
+<p>
+<strong><a href="./TheFalcon">TheFalcon</a></strong>: Heh, I don't think I'll go quite that far in Annals of Ea, but you will certainly have to do a quest to have access to Gondolin. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> (FOTR, by the way...) 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fMaps_20and_20Dungeons?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fMaps_20and_20Dungeons.text_html">RefreshCache</a> for this page (cached 2006-03-22 19:47:11)<br>
+<p><a href="./IdeaArchive_2fMaps_20and_20Dungeons?action=edit">EditText</a> of this page (last edited 2005-06-01 19:51:50 by <span title="195.172.60.110"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 20:23:39 Nov 20, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:45:08 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.133
+  captures_list: 90.763
+  esindex: 0.009
+  RedisCDXSource: 2.886
+  PetaboxLoader3.resolve: 29.533
+  load_resource: 143.714
+  exclusion.robots.policy: 0.124
+  CDXLines.iter: 19.328 (3)
+  LoadShardBlock: 65.314 (3)
+  PetaboxLoader3.datanode: 118.48 (4)
+-->

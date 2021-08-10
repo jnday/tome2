@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport167 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport167?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport167?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport167?action=fullsearch&amp;value=BugReport167&amp;literal=1&amp;case=1&amp;context=40">BugReport167</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport167?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport167">View</a></li>
+<li><a title="Diffs" href="./BugReport167?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport167?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport167?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport167?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport167?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport167?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport167?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport167?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport167?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport167">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: I was exploring the top of Mount Doom (level 99) where i was more than surprised to meet a violet 'p', namely 'Sauron the Sorcerer'!<br>
+ I think this is a bug. AFAIK it should only happen in Angband 99, shouldn't it?<br>
+ I think the problem is in the fact that in Vanilla Angband it was meant to only appear on level 99, and since there was only one dungeon, this would guarantee that it would only appear in it's assigned place, but now that there is another level 99 dungeon (top of Mount Doom) the RNG could get confused and generate it as a random monster. Is it feasible? <p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Not a bug.  Angband's plot is not the same as ToME's.  Just wait until you have to hunt down Sauron or Morgoth, instead of having them come for you in a nice orderly way. 
+</p>
+<p>
+In the future, please note that we consider the details of the late-game plot to be spoilers.  It is appreciated that you avoid naming Sauron and other monsters in future <a class="nonexistent" href="./BugReport">BugReport</a> summaries. Thank you. 
+</p>
+<p>
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: Sorry. Bad thought it seem. I was still referring to an old version documentation which still reported the Vanilla course of action. Since i can't seem to find it anymore, it has probably been corrected since then. Just a false alarm, then... 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: You're absolutely right.  The docs were horribly outdated in many respects.  A lot of work on this wiki has been to update those, though.  Thank you again for reporting.  By the way, to clarify: spoilers in reports are fine, as long as you just keep the summary on <a href="./BugReports">BugReports</a> page spoiler-free, and add a spoiler mark (as I did to 167 and 168 when I moved them to the Resolved section). 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport167?action=refresh&amp;arena=Page.py&amp;key=BugReport167.text_html">RefreshCache</a> for this page (cached 2004-09-25 00:21:06)<br>
+<p><a href="./BugReport167?action=edit">EditText</a> of this page (last edited 2004-09-25 00:21:04 by <span title="192.168.0.1"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:14:49 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:41 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 24.034
+  exclusion.robots.policy: 0.167
+  PetaboxLoader3.datanode: 86.828 (4)
+  RedisCDXSource: 7.096
+  load_resource: 93.212
+  exclusion.robots: 0.191
+  esindex: 0.013
+  captures_list: 84.461
+  LoadShardBlock: 48.251 (3)
+  CDXLines.iter: 25.591 (3)
+-->

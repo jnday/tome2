@@ -1,0 +1,1505 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Artifacts/ArtifactList - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fArtifacts_2fArtifactList?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fArtifacts_2fArtifactList?action=print">
+<link rel="Up" href="/Spoilers_2fArtifacts">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fArtifacts_2fArtifactList?action=fullsearch&amp;value=%2FArtifactList&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Artifacts/ArtifactList</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fArtifacts">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fArtifacts_2fArtifactList?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fArtifacts_2fArtifactList">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fArtifacts_2fArtifactList?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fArtifacts_2fArtifactList?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fArtifacts_2fArtifactList?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fArtifacts_2fArtifactList?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fArtifacts_2fArtifactList?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fArtifacts_2fArtifactList?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fArtifacts_2fArtifactList?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fArtifacts_2fArtifactList?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fArtifacts_2fArtifactList?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fArtifacts_2fArtifactList">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This is a list of all known artifacts found in ToME 2.2.7. Additional artifacts from ToME 2.3.0 (CVS) and 3.0.0 (CVS) are also included in <em>italics</em>. <p>
+For a list of artifacts with in-game stats for ToME 2.2.1 see <a class="external" href="./angband.oook.cz/artifacts.php?&amp;v=T.o.M.E.+2.2.1"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">the posting on oook</a>. 
+</p>
+<p>
+When pages about artifacts are created (as subpages of Spoilers/Artifacts), add please a link from this page. The format for making a page name should be as following (in the link, use _20 instead of spaces, and _2f instead of /): <tt>&nbsp;[wiki:Self:Spoilers_2fArtifacts_2fName_20of_20Artifact_20'Example'&nbsp;Name&nbsp;of&nbsp;Artifact&nbsp;'Example']&nbsp;</tt> 
+</p>
+<p>
+<ol>
+<li>
+<a href="#head-488af0a5a728979892d00f2ce4150e9f8328a372">Melee Weapons</a></li>
+<ol>
+<li>
+<a href="#head-d75f36f88797a19683a1b68037a0b63ba522f4c3">Axes</a></li>
+<li>
+<a href="#head-c911f4e616a4af7f4f6f546fc6048bb934b22443">Hafted Weapons</a></li>
+<li>
+<a href="#head-aba466c2785cae579d409a3850ee2990ec48afb9">Mage Staves</a></li>
+<li>
+<a href="#head-add8329d9620426865f5157440fc550b74d56675">Polearms</a></li>
+<li>
+<a href="#head-ce3f44c0310cdcac9a2b874f60bdda88088ad185">Swords</a></li>
+</ol>
+
+<li>
+<a href="#head-c66a00b05287757413cdabd35d624efc28684a5c">Ranged Weapons</a></li>
+<li>
+<a href="#head-d1b1a82053836337a89fa73875e0748a3327b0cd">Music Instruments</a></li>
+<li>
+<a href="#head-75b04b88d4665ea98ec1865b9a9e1a72e6b5c1d7">Rings</a></li>
+<li>
+<a href="#head-b3352c5235d90c361294178204836648da82d339">Amulets</a></li>
+<li>
+<a href="#head-43a05d5a45c42630158baadcc756a4dcaf80b28b">Light Sources</a></li>
+<li>
+<a href="#head-9b8c2607b2da17139ebd6539d5a39a86ba000d67">Body Armour</a></li>
+<li>
+<a href="#head-6e4750513938aba872cf137f4bec9e2813fb6089">Cloaks</a></li>
+<li>
+<a href="#head-31fe17191e290c38abd4bccc3b08d5e325e514ed">Shields</a></li>
+<li>
+<a href="#head-e25acd543317541f59839266c7c47b809dad844c">Headgear</a></li>
+<li>
+<a href="#head-63673e358464568cb055efe5d132a2df8360cef9">Gauntlets</a></li>
+<li>
+<a href="#head-0b555f36a7dcf677de80923a3dfaefcfa695639b">Footwear</a></li>
+<li>
+<a href="#head-a15465e0b6d00745ee2cee8fac7007b86b1a2a94">Ammunition</a></li>
+<li>
+<a href="#head-4fa8cc860c52b268dc6a3adcde7305e9415db5bb">Tools</a></li>
+<li>
+<a href="#head-0ee694461589d18664e67bb310329e95546e727a">Non-Wearable Artifacts</a></li>
+<ol>
+<li>
+<a href="#head-08f100badc9288602697ead1b58b076d98ad2b84">Potions</a></li>
+<li>
+<a href="#head-c79dc6889c1f96c69ce4343f2fa853d3e7f4e4e3">Scrolls</a></li>
+<li>
+<a href="#head-dd78d5980e2bb97ab0bac0eedf9463b15bd91792">Staves, Wands and Rods</a></li>
+<li>
+<a href="#head-31913cadf51a49aee433183c2d2ba626a4f8c20b">Trapping Kits</a></li>
+<li>
+<a href="#head-8d7bf5bf136e81f9388c1f4eca050d6d94e965d7">Others</a></li>
+</ol>
+
+<li>
+<a href="#head-2ab262f44dfc9e1ee8adf98c1aa64de34434fa83">Sets</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ 
+</p>
+<h2 id="head-488af0a5a728979892d00f2ce4150e9f8328a372">Melee Weapons</h2>
+<h3 id="head-d75f36f88797a19683a1b68037a0b63ba522f4c3">Axes</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBroad_20Axe_20'Barukkheled'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Broad Axe 'Barukkheled'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBroad_20Axe_20'Orchast'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Broad Axe 'Orchast'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fGreat_20Axe_20of_20Durin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Great Axe of Durin</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fGreat_20Axe_20of_20Eonwe"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Great Axe of Eonwe</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHatchet_20of_20the_20Night"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Hatchet of the Night</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLight_20War_20Axe_20'Limbslicer'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Light War Axe 'Limbslicer'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLight_20War_20Axe_20of_20Ice"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Light War Axe of Ice</a> 
+</p>
+</li>
+    <li>
+<p>
+ <em>The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSlaughter_20Axe_20'Garachoth'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Slaughter Axe 'Garachoth'</a></em> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSlaughter_20Axe_20'Naturebane'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Slaughter Axe 'Naturebane'</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-c911f4e616a4af7f4f6f546fc6048bb934b22443">Hafted Weapons</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBall-and-Chain_20of_20Fundin_20Bluecloak"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ball-and-Chain of Fundin Bluecloak</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fFlail_20'Totila'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Flail 'Totila'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLead-Filled_20Mace_20'Skullcleaver'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Lead-Filled Mace 'Skullcleaver'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLucerne_20Hammer_20'Turmil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Lucerne Hammer 'Turmil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMace_20'Taratol'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mace 'Taratol'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMace_20of_20Disruption_20'Deathwreaker'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mace of Disruption 'Deathwreaker'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMighty_20Hammer_20'Grond'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mighty Hammer 'Grond'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMorning_20Star_20'Bloodspike'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Morning Star 'Bloodspike'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMorning_20Star_20'Firestar'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Morning Star 'Firestar'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fQuarterstaff_20'Eriril'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Quarterstaff 'Eriril'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fQuarterstaff_20'Nar-i-vagil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Quarterstaff 'Nar-i-vagil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fQuarterstaff_20of_20Olorin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Quarterstaff of Olorin</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fTwo-Handed_20Flail_20'Thunderfist'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Two-Handed Flail 'Thunderfist'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fWar_20Hammer_20of_20Aule"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">War Hammer of Aule</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fWhip_20'Lasher'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Whip 'Lasher'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fWhip_20of_20Gothmog"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Whip of Gothmog</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-aba466c2785cae579d409a3850ee2990ec48afb9">Mage Staves</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMage_20Staff_20of_20Eternity"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mage Staff of Eternity</a> 
+</p>
+</li>
+    <li>
+<p>
+ <em>The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMage_20Staff_20of_20Forochel"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mage Staff of Forochel</a></em> 
+</p>
+</li>
+    <li>
+<p>
+ <em>The Absorption Staff (?)</em> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-add8329d9620426865f5157440fc550b74d56675">Polearms</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBattle_20Axe_20'Lotharang'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Battle Axe 'Lotharang'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBattle_20Axe_20of_20Balli_20Stonehand"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Battle Axe of Balli Stonehand</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBeaked_20Axe_20of_20Hurin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Beaked Axe of Hurin</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBeaked_20Axe_20of_20Theoden"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Beaked Axe of Theoden</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fGlaive_20of_20Pain"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Glaive of Pain</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHalberd_20'Osondir'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Halberd 'Osondir'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLance_20of_20Eorlingas"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Lance of Eorlingas</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLochaber_20Axe_20'Dragonbane'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Lochaber Axe 'Dragonbane'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLochaber_20Axe_20of_20Gothmog"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Lochaber Axe of Gothmog</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLochaber_20Axe_20of_20the_20Dwarves"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Lochaber Axe of the Dwarves</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPike_20'Til-i-arc'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Pike 'Til-i-arc'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fScythe_20'Avavir'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Scythe 'Avavir'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSpear_20'Aeglos'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Spear 'Aeglos'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSpear_20'Nimloth'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Spear 'Nimloth'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSpear_20of_20Melkor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Spear of Melkor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSpear_20of_20Orome"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Spear of Orome</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fTrident_20of_20Ulmo"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Trident of Ulmo</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fTrident_20of_20Wrath"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Trident of Wrath</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-ce3f44c0310cdcac9a2b874f60bdda88088ad185">Swords</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBastard_20Sword_20'Calris'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Bastard Sword 'Calris'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBlade_20of_20Chaos_20'Doomcaller'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Blade of Chaos 'Doomcaller'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBlade_20of_20Chaos_20'Stormbringer'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Blade of Chaos 'Stormbringer'</a> 
+</p>
+</li>
+    <li>
+<p>
+ <em>The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBluesteel_20Blade_20of_20Ephel_20Duath"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Bluesteel Blade of Ephel Duath</a></em> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBroad_20Sword_20'Aeglin'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Broad Sword 'Aeglin'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBroad_20Sword_20'Aranruth'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Broad Sword 'Aranruth'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBroad_20Sword_20'Glamdring'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Broad Sword 'Glamdring'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBroad_20Sword_20'Orcrist'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Broad Sword 'Orcrist'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBroken_20Sword_20'Narsil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Broken Sword 'Narsil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fCutlass_20'Gondricam'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Cutlass 'Gondricam'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20'Angrist'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger 'Angrist'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20'Belangil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger 'Belangil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20'Dethanc'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger 'Dethanc'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20'Narthanc'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger 'Narthanc'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20'Nimthanc'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger 'Nimthanc'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20of_20Rilia"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger of Rilia</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDark_20Sword_20'Mormegil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dark Sword 'Mormegil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDemonblade_20of_20Gothmog"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Demonblade of Gothmog</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fExecutioner's_20Sword_20'Crisdurian'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Executioner's Sword 'Crisdurian'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fKatana_20'Aglarang'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Katana 'Aglarang'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20'Anduril'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword 'Anduril'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20'Anguirel'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword 'Anguirel'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20'Durandil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword 'Durandil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20'Elvagil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword 'Elvagil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20'Ringil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword 'Ringil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20'Vorpal_20Blade'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword 'Vorpal Blade'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20of_20Angmar"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword of Angmar</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20of_20Eternity"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword of Eternity</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20of_20The_20Dawn"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword of the Dawn</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMain_20Gauche_20of_20Azaghal"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Main Gauche of Azaghal</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMain_20Gauche_20of_20Maedhros"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Main Gauche of Maedhros</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2f_20Rapier_20'Forasgil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Rapier 'Forasgil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSabre_20'Careth_20Asdriag'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Sabre 'Careth Asdriag'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fScimitar_20'Haradekket'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Scimitar 'Haradekket'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fShort_20Sword_20'Gilettar'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Short Sword 'Gilettar'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSmall_20Sword_20'Sting'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Small Sword 'Sting'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fTwo-Handed_20Sword_20'Gurthang'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Two-Handed Sword 'Gurthang'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fTwo-Handed_20Sword_20'Zarcuthra'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Two-Handed Sword 'Zarcuthra'</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-c66a00b05287757413cdabd35d624efc28684a5c">Ranged Weapons</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHeavy_20Crossbow_20of_20Eternity"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Heavy Crossbow of Eternity</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHeavy_20Crossbow_20of_20Umbar"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Heavy Crossbow of Umbar</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLight_20Crossbow_20'Cubragol'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Light Crossbow 'Cubragol'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Bow_20'Belthronding'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Bow 'Belthronding'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Bow_20of_20Bard"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Bow of Bard</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMetal_20Boomerang_20'Glimdrir'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Metal Boomerang 'Glimdrir'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMetal_20Boomerang_20of_20Beor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Metal Boomerang of Beor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fShort_20Bow_20of_20Amras"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Short Bow of Amras</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fShort_20Bow_20of_20Amrod"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Short Bow of Amrod</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSling_20of_20Farmer_20Maggot"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Sling of Farmer Maggot</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSling_20of_20the_20Thain"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Sling of the Thain</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-d1b1a82053836337a89fa73875e0748a3327b0cd">Music Instruments</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDrum_20of_20the_20Druedain"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Drum of the Druedain</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDrum_20of_20the_20Sky"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Drum of the Sky</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHarp_20of_20Daeron"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Harp of Daeron</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHarp_20of_20Maglor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Harp of Maglor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHorn_20of_20Boromir"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Horn of Boromir</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHorn_20of_20Helm"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Horn of Helm</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHorn_20of_20Rohan"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Horn of Rohan</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-75b04b88d4665ea98ec1865b9a9e1a72e6b5c1d7">Rings</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Precognition"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Precognition</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Barahir"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Barahir</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Tulkas"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Tulkas</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Durin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Durin</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Flare"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Flare</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Phasing"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Phasing</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Power_20'Narya'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Power 'Narya'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Power_20'Nenya'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Power 'Nenya'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Power_20'Vilya'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Power 'Vilya'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Power_20'The_20One_20Ring'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Power 'The One Ring'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The Ring of Power of &lt;Nazgul&gt; 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-b3352c5235d90c361294178204836648da82d339">Amulets</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fAmulet_20of_20Carlammas"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Amulet of Carlammas</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fAmulet_20of_20Ingwe"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Amulet of Ingwe</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBlue_20Stone_20'Toris_20Mejistos'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Blue Stone 'Toris Mejistos'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fNecklace_20'Nauglamir'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Necklace 'Nauglamir'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fElfstone_20'Elessar'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Elfstone 'Elessar'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fJewel_20'Evenstar'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Jewel 'Evenstar'</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-43a05d5a45c42630158baadcc756a4dcaf80b28b">Light Sources</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fAnchor_20of_20Space-Time"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Anchor of Space-Time</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fArkenstone_20of_20Thrain"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Arkenstone of Thrain</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPalantir_20of_20Minas_20Ithil"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Palantir of Minas Ithil</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPalantir_20of_20Orthanc"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Palantir of Orthanc</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fStar_20of_20Elendil"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Star of Elendil</a>  
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPhial_20of_20Galadriel"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Phial of Galadriel</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPhial_20of_20Undeath"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Phial of Undeath</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fStone_20of_20Lore"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Stone of Lore</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-9b8c2607b2da17139ebd6539d5a39a86ba000d67">Body Armour</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fAdamantite_20Plate_20Mail_20'Soulkeeper'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Adamantite Plate Mail 'Soulkeeper'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fAugmented_20Chain_20Mail_20of_20Caspanion"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Augmented Chain Mail of Caspanion</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fChain_20Mail_20of_20Arvedui"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Chain Mail of Arvedui</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fFilthy_20Rag_20of_20the_20Wight"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Filthy Rag of the Wight</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fFull_20Plate_20Armour_20of_20Isildur"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Full Plate Armour of Isildur</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHard_20Leather_20Armour_20of_20Himring"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Hard Leather Armour of Himring</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLeather_20Scale_20Mail_20'Thalkettoth'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Leather Scale Mail 'Thalkettoth'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMetal_20Brigandine_20Armour_20of_20the_20Rohirrim"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Metal Brigandine Armour of the Rohirrim</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMithril_20Chain_20Mail_20'Belegennon'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mithril Chain Mail 'Belegennon'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMithril_20Plate_20Mail_20of_20Celeborn"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mithril Plate Mail of Celeborn</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMulti-Hued_20Dragon_20Scale_20Mail_20'Razorback'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Multi-Hued Dragon Scale Mail 'Razorback'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPower_20Dragon_20Scale_20Mail_20'Mediator'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Power Dragon Scale Mail 'Mediator'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPower_20Dragon_20Scale_20Mail_20of_20Eternity"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Power Dragon Scale Mail of Eternity</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRobe_20of_20Great_20Luck"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Robe of Great Luck</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRobe_20of_20Incanus"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Robe of Incanus</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSoft_20Leather_20Armour_20'Hithlomir'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Soft Leather Armour 'Hithlomir'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSoft_20Leather_20Armour_20of_20the_20Sandworm"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Soft Leather Armour of the Sandworm</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fThunderlord_20Coat_20of_20Marda"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Thunderlord Coat of Marda</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fThunderlord_20Coat_20of_20Trone"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Thunderlord Coat of Trone</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-6e4750513938aba872cf137f4bec9e2813fb6089">Cloaks</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fCloak_20'Colannon'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Cloak 'Colannon'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fCloak_20'Colluin'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Cloak 'Colluin'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fCloak_20'Holcolleth'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Cloak 'Holcolleth'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fCloak_20of_20Thingol"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Cloak of Thingol</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fCloak_20of_20Thorongil"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Cloak of Thorongil</a> 
+</p>
+</li>
+    <li>
+<p>
+ <em>The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fElven_20Cloak_20of_20Mellyrn"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Elven Cloak of Mellyrn</a></em> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fShadow_20Cloak_20of_20Luthien"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Shadow Cloak of Luthien</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fShadow_20Cloak_20of_20Tuor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Shadow Cloak of Tuor</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-31fe17191e290c38abd4bccc3b08d5e325e514ed">Shields</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDemonshield_20of_20Gothmog"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Demonshield of Gothmog</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLarge_20Leather_20Shield_20of_20Celegorm"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Large Leather Shield of Celegorm</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLarge_20Leather_20Shield_20of_20the_20Haradrim"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Large Leather Shield of the Haradrim </a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLarge_20Metal_20Shield_20of_20Anarion"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Large Metal Shield of Anarion</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fShield_20of_20Deflection_20of_20Gil-galad"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Shield of Deflection of Gil-galad</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSmall_20Metal_20Shield_20of_20Thorin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Small Metal Shield of Thorin</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-e25acd543317541f59839266c7c47b809dad844c">Headgear</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMetal_20Cap_20of_20Celebrimbor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Metal Cap of Celebrimbor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDemonhorn_20of_20Gothmog"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Demonhorn of Gothmog</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDragon_20Helm_20of_20Dor-Lomin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dragon Helm of Dor-Lomin</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDragon_20Helm_20of_20Thrain"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dragon Helm of Thrain</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMassive_20Iron_20Crown_20of_20Morgoth"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Massive Iron Crown of Morgoth</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fGolden_20Crown_20of_20Gondor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Golden Crown of Gondor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHard_20Leather_20Cap_20of_20Thranduil"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Hard Leather Cap of Thranduil</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMetal_20Cap_20of_20Thengel"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Metal Cap of Thengel</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fIron_20Crown_20of_20Beruthiel"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Iron Crown of Beruthiel</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fIron_20Helm_20'Holhenneth'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Iron Helm 'Holhenneth'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fIron_20Helm_20of_20Gorlim"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Iron Helm of Gorlim</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fIron_20Helm_20of_20Knowledge"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Iron Helm of Knowledge</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fJewel_20Encrusted_20Crown_20of_20Numenor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Jewel Encrusted Crown of Numenor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSteel_20Helm_20'Lebohaum'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Steel Helm 'Lebohaum'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSteel_20Helm_20of_20Hammerhand"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Steel Helm of Hammerhand</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-63673e358464568cb055efe5d132a2df8360cef9">Gauntlets</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <em>The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Cesti_20'Skycleaver'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Cesti 'Skycleaver'</a></em> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Cesti_20of_20Fingolfin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Cesti of Fingolfin</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Gauntlets_20'Camlost'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Gauntlets 'Camlost'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Gauntlets_20'Pauraegen'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Gauntlets 'Pauraegen'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Gauntlets_20'Paurhach'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Gauntlets 'Paurhach'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Gauntlets_20'Paurnen'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Gauntlets 'Paurnen'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Gauntlets_20'Paurnimmen'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Gauntlets 'Paurnimmen'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Gauntlets_20of_20Eol"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Gauntlets of Eol</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Leather_20Gloves_20'Cambeleg'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Leather Gloves 'Cambeleg'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Leather_20Gloves_20'Cammithrim'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Set of Leather Gloves 'Cammithrim'</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-0b555f36a7dcf677de80923a3dfaefcfa695639b">Footwear</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPair_20of_20Hard_20Leather_20Boots_20of_20Feanor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Pair of Hard Leather Boots of Feanor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPair_20of_20Hard_20Leather_20Boots_20of_20Nevrast"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Pair of Hard Leather Boots of Nevrast</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPair_20of_20Metal_20Shod_20Boots_20of_20Gimli"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Pair of Metal Shod Boots of Gimli</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPair_20of_20Metal_20Shod_20Boots_20of_20Thror"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Pair of Metal Shod Boots of Thror</a> 
+</p>
+</li>
+    <li>
+<p>
+ <em>The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPair_20of_20Metal_20Shod_20Boots_20of_20the_20Machine"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Pair of Metal Shod Boots of the Machine</a></em> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPair_20of_20Soft_20Leather_20Boots_20'Dal-i-thalion'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Pair of Soft Leather Boots 'Dal-i-thalion'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPair_20of_20Soft_20Leather_20Boots_20of_20Wormtongue"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Pair of Soft Leather Boots of Wormtongue</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-a15465e0b6d00745ee2cee8fac7007b86b1a2a94">Ammunition</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRounded_20Pebble_20'Travak'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Rounded Pebble 'Travak'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSeeker_20Arrow_20'Bullseye'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Seeker Arrow 'Bullseye'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSeeker_20Arrow_20of_20Bard"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Seeker Arrow of Bard</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSeeker_20Arrow_20of_20Gondor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Seeker Arrow of Gondor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSeeker_20Bolt_20'Heart's_20Blood'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Seeker Bolt 'Heart's Blood'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSeeker_20Bolt_20'Scale-piercer'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Seeker Bolt 'Scale-piercer'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSeeker_20Bolt_20of_20Feanor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Seeker Bolt of Feanor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSilver_20Bolt_20'Balefire'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Silver Bolt 'Balefire'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSilver_20Bolt_20'Stone-biter'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Silver Bolt 'Stone-biter'</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-4fa8cc860c52b268dc6a3adcde7305e9415db5bb">Tools</h2>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDwarven_20Pick_20of_20Erebor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dwarven Pick of Erebor</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMattock_20of_20Nain"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mattock of Nain</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-0ee694461589d18664e67bb310329e95546e727a">Non-Wearable Artifacts</h2>
+<h3 id="head-08f100badc9288602697ead1b58b076d98ad2b84">Potions</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBlood_20of_20Life"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Blood of Life</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPotion_20of_20Learning"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Potion of Learning</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-c79dc6889c1f96c69ce4343f2fa853d3e7f4e4e3">Scrolls</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The Crumpled Scroll of Mass Resurrection 
+</p>
+</li>
+    <li>
+<p>
+ The Old Scroll of Deincarnation 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-dd78d5980e2bb97ab0bac0eedf9463b15bd91792">Staves, Wands and Rods</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The Gnarled Staff of Holy Fire of Mithrandir 
+</p>
+</li>
+    <li>
+<p>
+ The Golden Horn of the Thunderlords 
+</p>
+</li>
+    <li>
+<p>
+ The Great Rod Tip of Home Summoning 
+</p>
+</li>
+    <li>
+<p>
+ The Wand of Digging of Thrain 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-31913cadf51a49aee433183c2d2ba626a4f8c20b">Trapping Kits</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fArrow_20Trap_20Set_20'Merlion_20Karc's_20Demonbane'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Arrow Trap Set 'Merlion Karc's Demonbane'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fBolt_20Trap_20Set_20of_20Ahromarwar"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Bolt Trap Set of Ahromarwar</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDevice_20Trap_20Set_20'Hanisbroner's_20Surprise'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Device Trap Set 'Hanisbroner's Surprise'</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-8d7bf5bf136e81f9388c1f4eca050d6d94e965d7">Others</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The Flame Imperishable 
+</p>
+</li>
+    <li>
+<p>
+ The Greater Ration of Health 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPlayer_20corpse"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Player corpse</a> 
+</p>
+</li>
+    <li>
+<p>
+ The Tome of "player name" 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-2ab262f44dfc9e1ee8adf98c1aa64de34434fa83">Sets</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fThe_20Elven_20gift_20set"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">The Elven gift set</a> 
+</p>
+</li>
+    <li>
+<p>
+ The Dragonslayer set 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fThe_20Trinity_20set"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">The Trinity set</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fGothmog's_20Armoury_20set"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Gothmog's Armoury set</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>: Now that 2.3.0 is no longer CVS, which artifacts should no longer be in italics? <p>
+<strong><a href="./MayLith">MayLith</a></strong>: I don't know, but I somehow think the 2.3.0 artifacts should still be identified somehow. (I'm willing to be talked out of that, though.) 
+</p>
+
+            <ul>
+
+   <strong><a href="./ZasVid">ZasVid</a></strong>: Well, theoretically, all artifacts in italics (except staff of absorption) are implemented in the game. On the other hand, you can't get all of them. You may find Mage Staff of Forochel and Pair of Metal Shod boots of the Machine and that's it. (Actually, I wonder whether Seeker Bolt of Feanor shouldn't be in italics. As far as I understand the code, it can't be generated at all.) 
+            </ul>
+
+
+<p>
+<strong><a href="./AgEnt">AgEnt</a></strong>:  Some of the trapping sets seem a little odd...  The Demonbane arrow trap set talks about bolts in its description and Ahromarwar's bolt trap about pebbles.  Is this right? 
+</p>
+
+            <ul>
+
+   <strong><a href="./ZasVid">ZasVid</a></strong>: They are bugged. Though IIRC no-one knows whether descriptions are wrong or traps' types are incorrect. 
+            </ul>
+
+
+<p>
+<strong>Sly</strong>: For the artifacts that have the SPECIAL_GENE flag, we could add where or when they are generated ? 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fArtifacts_2fArtifactList?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fArtifacts_2fArtifactList.text_html">RefreshCache</a> for this page (cached 2005-11-04 15:43:12)<br>
+<p><a href="./Spoilers_2fArtifacts_2fArtifactList?action=edit">EditText</a> of this page (last edited 2005-11-03 15:37:35 by <span title="67.20.232.15=67-20-232-15.kntnny.adelphia.net">67-20-232-15</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 03:56:35 Nov 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:31 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1324.264
+  exclusion.robots: 0.086
+  exclusion.robots.policy: 0.077
+  RedisCDXSource: 0.6
+  esindex: 0.007
+  LoadShardBlock: 1304.158 (3)
+  PetaboxLoader3.datanode: 945.242 (4)
+  CDXLines.iter: 17.351 (3)
+  load_resource: 67.636
+  PetaboxLoader3.resolve: 20.83
+-->

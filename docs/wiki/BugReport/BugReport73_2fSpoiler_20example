@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport73/Spoiler example - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport73_2fSpoiler_20example?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport73_2fSpoiler_20example?action=print">
+<link rel="Up" href="/BugReport73">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport73_2fSpoiler_20example?action=fullsearch&amp;value=%2FSpoiler+example&amp;literal=1&amp;case=1&amp;context=40">BugReport73/Spoiler example</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./BugReport73">Up</a></li>
+<li><a title="Edit" href="./BugReport73_2fSpoiler_20example?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport73_2fSpoiler_20example">View</a></li>
+<li><a title="Diffs" href="./BugReport73_2fSpoiler_20example?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport73_2fSpoiler_20example?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport73_2fSpoiler_20example?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport73_2fSpoiler_20example?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport73_2fSpoiler_20example?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport73_2fSpoiler_20example?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport73_2fSpoiler_20example?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport73_2fSpoiler_20example?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport73_2fSpoiler_20example?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport73_2fSpoiler_20example">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+A Ring of Nether Resistance gives Hold Life, but the I command only shows it, and the resistance grid should only reveal it, when the item is *identified*. <p>
+Same goes for a Ring of Chaos Resistance and its hidden power of Confusion Resistance. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport73_2fSpoiler_20example?action=refresh&amp;arena=Page.py&amp;key=BugReport73_2fSpoiler_20example.text_html">RefreshCache</a> for this page (cached 2004-08-09 19:05:17)<br>
+<p><a href="./BugReport73_2fSpoiler_20example?action=edit">EditText</a> of this page (last edited 2004-08-09 19:05:16 by <span title="lsanca1-ar51-4-42-017-130.lsanca1.dsl-verizon.net"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:40:12 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:41 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.226
+  captures_list: 295.796
+  esindex: 0.016
+  RedisCDXSource: 5.055
+  PetaboxLoader3.resolve: 79.902
+  load_resource: 155.171
+  exclusion.robots.policy: 0.212
+  CDXLines.iter: 21.482 (3)
+  LoadShardBlock: 265.673 (3)
+  PetaboxLoader3.datanode: 305.647 (4)
+-->

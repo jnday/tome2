@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">2150</script><title>BugReport143 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport143?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport143?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport143?action=fullsearch&amp;value=BugReport143&amp;literal=1&amp;case=1&amp;context=40">BugReport143</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport143?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport143">View</a></li>
+<li><a title="Diffs" href="./BugReport143?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport143?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport143?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport143?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport143?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport143?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport143?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport143?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport143?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport143">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./StarweaverBlue">StarweaverBlue</a></strong>: I believe this bug and fix both also apply to 2.2.7, but I did the testing on 2.3.0 . <p>
+<strong>Bug</strong>: Shards of Pottery and Broken Sticks (items of TV_JUNK) are generated "unidentified" and need to be id'd before you can make them stack. Primarially an annoyance for archers who need these items for ammo creation, especially early in the game, when you can't waste the money on IDs just to make things stack. 
+</p>
+<p>
+<strong>Fix</strong>: Adding one case to the switch in object_easy_know() in object1.c, so that TV_JUNK items are treated as easy_know items by the game, fixes the problem. (See diff pasted below.) 
+</p>
+<p>
+<strong>Side Effects</strong>: The god relics and the Flame Imperishable will also be easy_know, which if anything will let you see the description text of the god relics without ID'ing them. This will also effet boulders, also for no useful effect. 
+</p>
+<p>
+<strong>Further Thoughts</strong>: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Perhaps object_easy_know() should be removed and the easy_know attribute should rest on the TR3_EASY_KNOW flag -- that is, let this be controlled soley by the info files. As it stands, the EASY_KNOW info flag has no effect on items other than rings, amulets, and lights, because this function ignores the flag on all other tvals, and flavor_init() overwrites the game's internal object_types' easy_know flags with the output of this function. 
+</p>
+</li>
+    <li class="gap">
+<p>
+Perhaps the quest items (Flame, god relics) should be given their own tval -- a tval meaning "this object is controlled by scripts or code and there are no general assumptions made by its type". This would prevent e.g. creating ammo out of the god relics and the Flame. TV_SCPT and TV_SCRIPT are both free ;). 
+</p>
+</li>
+
+    </ol>
+
+
+<h4 id="head-3bc83ac9fff10f988a872fb81ae5d3a68a29378a">Fix Diff</h4>
+
+<pre>Index: object1.c
+===================================================================
+RCS file: /var/cvs/tome/tome2/src/object1.c,v
+retrieving revision 1.235
+diff -u -9 -r1.235 object1.c
+--- object1.c   4 Jun 2004 13:41:58 -0000       1.235
++++ object1.c   22 Sep 2004 16:22:23 -0000
+@@ -391,18 +391,19 @@
+
+                /* Simple items */
+        case TV_FLASK:
+        case TV_EGG:
+        case TV_BOTTLE:
+        case TV_SKELETON:
+        case TV_CORPSE:
+        case TV_HYPNOS:
+        case TV_SPIKE:
++       case TV_JUNK:
+                {
+                        return (TRUE);
+                }
+
+                /* All Food, Potions, Scrolls, Rods */
+        case TV_FOOD:
+        case TV_POTION:
+        case TV_POTION2:
+        case TV_SCROLL:
+</pre><p>
+<strong><a href="./StarweaverBlue">StarweaverBlue</a></strong>: Also, any commentary on weather this is the right *way* to make this change would be appreciated -- I don't have *that* complete an understanding of the source yet :). 
+</p>
+<p>
+<strong><a href="./FuriousOne">FuriousOne</a></strong>: Nice! If it works as intended, go you! TV_PARCHEMENT should also be added to the list, btw, to make parchments stack - for consistency's sake.:) 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport143?action=refresh&amp;arena=Page.py&amp;key=BugReport143.text_html">RefreshCache</a> for this page (cached 2004-09-22 17:07:31)<br>
+<p><a href="./BugReport143?action=edit">EditText</a> of this page (last edited 2004-09-22 17:07:30 by <span title="CPE0080c6f2bdab-CM014250042764.cpe.net.cable.rogers.com"><a href="./FuriousOne">FuriousOne</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:42:24 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:19 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 20.808
+  esindex: 0.013
+  CDXLines.iter: 23.916 (3)
+  load_resource: 73.945
+  exclusion.robots: 0.26
+  captures_list: 2066.619
+  PetaboxLoader3.resolve: 44.533
+  LoadShardBlock: 2018.222 (3)
+  PetaboxLoader3.datanode: 2002.45 (4)
+  exclusion.robots.policy: 0.247
+-->

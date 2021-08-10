@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Classes/Mage - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fClasses_2fMage?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fClasses_2fMage?action=print">
+<link rel="Up" href="/Documentation_2fClasses">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fClasses_2fMage?action=fullsearch&amp;value=%2FMage&amp;literal=1&amp;case=1&amp;context=40">Documentation/Classes/Mage</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fClasses">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fClasses_2fMage?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fClasses_2fMage">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fClasses_2fMage?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fClasses_2fMage?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fClasses_2fMage?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fClasses_2fMage?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fClasses_2fMage?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fClasses_2fMage?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fClasses_2fMage?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fClasses_2fMage?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fClasses_2fMage?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fClasses_2fMage">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>No spoilers here, please. <p>
+NO SPOILERS HERE!</em></strong> 
+</p>
+<p>
+A Mage must live by his wits. He cannot hope to simply hack his way through the dungeon, and so must therefore use his magic to defeat, deceive, confuse, and escape. A mage is not really complete without an assortment of magical devices to use in addition to his spells. He can master the higher level magical devices easily and has good saving throws.  
+</p>
+<p>
+There is no reason a mage cannot become a good fighter, but spells are his true realm. For more information on magic schools and spell effects see the help on Magic. 
+</p>
+<p>
+Starting stat modifiers, starting Skills, innate abilities and starting equipment: Please see the in-game help. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fClasses_2fMage?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fClasses_2fMage.text_html">RefreshCache</a> for this page (cached 2004-08-03 23:14:18)<br>
+<p><a href="./Documentation_2fClasses_2fMage?action=edit">EditText</a> of this page (last edited 2004-07-24 16:50:03 by <span title="user-2ivemhn.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:36:09 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:38:17 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 136.4
+  exclusion.robots: 0.074
+  exclusion.robots.policy: 0.068
+  RedisCDXSource: 1.442
+  esindex: 0.004
+  LoadShardBlock: 117.044 (3)
+  PetaboxLoader3.datanode: 336.189 (4)
+  CDXLines.iter: 16.214 (3)
+  load_resource: 300.683
+  PetaboxLoader3.resolve: 35.877
+-->

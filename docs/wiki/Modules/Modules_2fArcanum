@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Arcanum - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fArcanum?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fArcanum?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fArcanum?action=fullsearch&amp;value=%2FArcanum&amp;literal=1&amp;case=1&amp;context=40">Modules/Arcanum</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fArcanum?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fArcanum">View</a></li>
+<li><a title="Diffs" href="./Modules_2fArcanum?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fArcanum?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fArcanum?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fArcanum?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fArcanum?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fArcanum?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fArcanum?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fArcanum?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fArcanum?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fArcanum">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This module would be based on a world where technology starts to appear, but magic is still present and both forces oppose in a struggle to domination. Magic disrupts technology, and technology disrupts magic. <p>
+Idea by <a href="./DarkGod">DarkGod</a>, but feel free to help/do it <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fArcanum?action=refresh&amp;arena=Page.py&amp;key=Modules_2fArcanum.text_html">RefreshCache</a> for this page (cached 2004-08-02 23:58:39)<br>
+<p><a href="./Modules_2fArcanum?action=edit">EditText</a> of this page (last edited 2004-06-23 13:53:15 by <span title="f06a-2-155.d1.club-internet.fr"><a href="./DarkGod">DarkGod</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:22:29 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:19 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.191
+  captures_list: 133.614
+  esindex: 0.013
+  RedisCDXSource: 0.67
+  PetaboxLoader3.resolve: 83.498 (2)
+  load_resource: 102.886
+  exclusion.robots.policy: 0.175
+  CDXLines.iter: 28.563 (3)
+  LoadShardBlock: 100.339 (3)
+  PetaboxLoader3.datanode: 65.796 (4)
+-->

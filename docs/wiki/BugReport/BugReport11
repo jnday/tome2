@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport11 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport11?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport11?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport11?action=fullsearch&amp;value=BugReport11&amp;literal=1&amp;case=1&amp;context=40">BugReport11</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport11?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport11">View</a></li>
+<li><a title="Diffs" href="./BugReport11?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport11?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport11?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport11?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport11?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport11?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport11?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport11?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport11?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport11">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I tried to start an artifact starting with the elfstone that cures black breath; <p>
+I had in my inventory the following: 
+</p>
+<p>
+One line: 1 magic essence (or in another attempt, 38) 
+</p>
+<p>
+Next line: 99 magic essences 
+</p>
+<p>
+The first stack of magic essences was consumed but never the second, but that's less magic essence that normal!!! 
+</p>
+<p>
+This is specific to artifact creation, and contining the XP gain after modifying the artifact. In both cases you can get away with paying only 1 magic essence. 
+</p>
+<p>
+-Da alchemist 
+</p>
+<p>
+P.S.: other people have been knowing for that one for ages, it's just they didn't want it fixed. (-; 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: That's funny. 
+</p>
+<p>
+Considering it takes a week of *boring, riskless, repetitive* game time to get 50 magic essences from *ID* scrolls and misc. indestructibles, I considered not telling... (also where can I find the 43 filthy rags I need in less than a month's game time??) 
+</p>
+<p>
+Very funny indeed. Joke is on people who are too honest to cheat. (-; 
+</p>
+<p>
+-Da alchemist 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>:   Well, this is just more proof that New Alchemy was never tested and finished correctly. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport11?action=refresh&amp;arena=Page.py&amp;key=BugReport11.text_html">RefreshCache</a> for this page (cached 2004-12-15 19:02:17)<br>
+<p><a href="./BugReport11?action=edit">EditText</a> of this page (last edited 2004-07-12 20:44:01 by <span title="66.131.207.219=modemcable219.207-131-66.mc.videotron.ca">modemcable219</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:07:59 Jan 18, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:38 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 522.673
+  exclusion.robots: 0.17
+  exclusion.robots.policy: 0.157
+  RedisCDXSource: 0.894
+  esindex: 0.011
+  LoadShardBlock: 500.585 (3)
+  PetaboxLoader3.datanode: 67.891 (4)
+  CDXLines.iter: 18.148 (3)
+  load_resource: 73.696
+  PetaboxLoader3.resolve: 43.333
+-->

@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Races/Rohan Knight - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fRaces_2fRohan_20Knight?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fRaces_2fRohan_20Knight?action=print">
+<link rel="Up" href="/Documentation_2fRaces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fRaces_2fRohan_20Knight?action=fullsearch&amp;value=%2FRohan+Knight&amp;literal=1&amp;case=1&amp;context=40">Documentation/Races/Rohan Knight</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fRaces">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fRaces_2fRohan_20Knight?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fRaces_2fRohan_20Knight">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fRaces_2fRohan_20Knight?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fRaces_2fRohan_20Knight?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fRaces_2fRohan_20Knight?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fRaces_2fRohan_20Knight?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fRaces_2fRohan_20Knight?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fRaces_2fRohan_20Knight?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fRaces_2fRohan_20Knight?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fRaces_2fRohan_20Knight?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fRaces_2fRohan_20Knight?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fRaces_2fRohan_20Knight">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>No Spoilers here, please.</strong></em> <p>
+Knights of the Riddermark, these warriors are mounted upon swift steeds.  Thus they receive a bonus to speed from the beginning and gain in speed  as they become more experienced in riding. Wise through their prolonged  contact with the Dunedain, their wrath may be seen in auras of war that  drive their foes to confusion, and in a ray of light when jumping at light speed. 
+</p>
+<p>
+Stat Modifiers: 
+<div>
+<table>
+<tr>
+<td>
+Strength</td>
+<td>
++4</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td>
+-2</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td>
++3</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td>
++1</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td>
++4</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td>
++2</td>
+</tr>
+<tr>
+<td>
+Hit Dice Sides</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+Exp Penalty</td>
+<td>
++120%</td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Skill Bonuses (supplementary to existing skills): 
+<div>
+<table>
+<tr>
+<td>
+Weaponmastery</td>
+<td>
+0.000</td>
+<td>
+[0.200]</td>
+</tr>
+
+</p>
+</table>
+</div>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fRaces_2fRohan_20Knight?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fRaces_2fRohan_20Knight.text_html">RefreshCache</a> for this page (cached 2004-08-03 00:04:01)<br>
+<p><a href="./Documentation_2fRaces_2fRohan_20Knight?action=edit">EditText</a> of this page (last edited 2004-07-09 18:47:25 by <span title="user-2iverjg.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:46:36 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:40:07 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 47.393
+  exclusion.robots: 0.221
+  exclusion.robots.policy: 0.207
+  esindex: 0.018
+  load_resource: 101.624
+  CDXLines.iter: 25.806 (3)
+  captures_list: 262.524
+  PetaboxLoader3.datanode: 223.89 (4)
+  LoadShardBlock: 184.321 (3)
+  PetaboxLoader3.resolve: 43.307
+-->

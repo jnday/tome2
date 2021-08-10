@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Contact information - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fContact_20information?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fContact_20information?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fContact_20information?action=fullsearch&amp;value=%2FContact+information&amp;literal=1&amp;case=1&amp;context=40">Documentation/Contact information</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fContact_20information?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fContact_20information">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fContact_20information?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fContact_20information?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fContact_20information?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fContact_20information?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fContact_20information?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fContact_20information?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fContact_20information?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fContact_20information?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fContact_20information?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fContact_20information">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+You can directly contact darkgod at <a href="http://web.archive.org/web/20041020095245/mailto:darkgod@t-o-m-e.net.">darkgod@t-o-m-e.net.</a> <p>
+I have a bug to report, or an idea to present. Where should I send it? 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+ Bug reports </td>
+<td>
+ Post in <a href="./BugReports">BugReports</a>, or email <a href="http://web.archive.org/web/20041020095245/mailto:bugs@t-o-m-e.net">bugs@t-o-m-e.net</a> </td>
+</tr>
+<tr>
+<td>
+ Game ideas </td>
+<td>
+ Post in <a class="nonexistent" href="./IdeasArchive">IdeasArchive</a>, or email <a href="http://web.archive.org/web/20041020095245/mailto:ideas@t-o-m-e.net">ideas@t-o-m-e.net</a> </td>
+</tr>
+<tr>
+<td>
+ Wiki ideas </td>
+<td>
+ Post in <a class="nonexistent" href="./WikiSuggestions">WikiSuggestions</a> </td>
+</tr>
+<tr>
+<td>
+ Documentation inaccuracies or suggestions </td>
+<td>
+ Post in <a href="./FearofFours">FearofFours</a> or <a href="./MayLith">MayLith</a>, or email  <a href="http://web.archive.org/web/20041020095245/mailto:fearoffours@t-o-m-e.net">fearoffours@t-o-m-e.net</a> </td>
+</tr>
+</table>
+</div>
+<p>
+If you feel you can correct an inaccuracy in documentation, then please do so. However:  
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Do not make whimsical changes. The game documentation may end up being based upon this portion of the wiki. 
+</p>
+</li>
+    <li>
+<p>
+<em><strong>Do not add any spoilers to the documentation!</strong></em> Before you start editing, ask yourself: Does this belong in Documentation, or in Spoilers? 
+</p>
+</li>
+    <li>
+<p>
+Use good spelling and grammar. Avoid wordiness.  
+</p>
+</li>
+    <li>
+<p>
+Log your changes in the <a class="interwiki" title="Self" href="./Documentation/ChangeLog"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">Documentation/ChangeLog</a>. A good changelog entry contains your <a href="./WikiName">WikiName</a>, the name of the page you changed, what change(s) you made, why you changed it, and (preferably) the date. 
+</p>
+</li>
+</ol>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fContact_20information?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fContact_20information.text_html">RefreshCache</a> for this page (cached 2004-08-05 17:54:28)<br>
+<p><a href="./Documentation_2fContact_20information?action=edit">EditText</a> of this page (last edited 2004-08-05 17:54:26 by <span title="user-2ivel67.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:52:45 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:30 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 70.402
+  exclusion.robots: 0.081
+  exclusion.robots.policy: 0.074
+  RedisCDXSource: 1.519
+  esindex: 0.008
+  LoadShardBlock: 48.685 (3)
+  PetaboxLoader3.datanode: 55.996 (4)
+  CDXLines.iter: 17.984 (3)
+  load_resource: 58.532
+  PetaboxLoader3.resolve: 33.353
+-->

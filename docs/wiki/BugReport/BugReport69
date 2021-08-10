@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport69 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport69?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport69?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport69?action=fullsearch&amp;value=BugReport69&amp;literal=1&amp;case=1&amp;context=40">BugReport69</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport69?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport69">View</a></li>
+<li><a title="Diffs" href="./BugReport69?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport69?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport69?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport69?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport69?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport69?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport69?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport69?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport69?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport69">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+BugReport69 by Bandobras: <p>
+Level feelings are too high. This is so for years. I'm currently in Moria and it is very annoying. Level with superb, or excellent or very good feeling nets a quaterstaff of slay animal and some wimpy orcs and trolls. The same is true, but much more often with princess quests (but not with FF quests). The problem is also much worse with Lostsoul characters. Almost all levels around 98 are superb, but sometimes there is just nothing there (easily visible on small levels, where there is just several items and monsters to check). 
+</p>
+<p>
+What's wrong? Do the items carried by monsters count? But even if so, the feeling  seems too high. Do all the three items the princess can give as rewards count?  This could explain the feelings in princess quests. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Do you have autoscum turned on? 
+</p>
+<p>
+Bandobras: No. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: No, the 3 items in the princess quest don't count, but the quest itself does. 
+</p>
+<p>
+Bandobras: Only +10, not enough to explain the high values, very random, and much above the bonus from the quest monsters. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: See the <a class="interwiki" title="Self" href="./Spoilers/Level%20Feelings"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">level feelings spoiler</a>.  
+</p>
+<p>
+Bandobras: Thank you. BTW, there is a mistake in the exmple, there  --- FF quest monsters  do not contribute to the rating (a strange inconsistency, BTW). 
+</p>
+<p>
+I see, randarts give +40. Do junkards count? If so, this could explain some thigs, I thought they count only for +10. But this is strange, because junkards are not so good (as a sorceror with Udun and no magic device skill I do not even pick up the junkards). 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  I have NO idea via source.  But I doubt that junkarts count.  I've been on boring (or almost) levels with 4 junkarts on them.  In any other games... you should pick up the junkarts.  But in your case only cure insanity, and light absorbtion would really be nice ones.  The rest should be covered by your sorcery. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: FF quest monsters were not listed on the page specifically (as Princess quests do), but if they are out of depth (which FF monsters usually are), then obviously they count as OOD monsters. I'm fairly sure junkarts do not count. 
+</p>
+<p>
+Simon: the level feeling needs to be divided by character level. Who cares if there is a level 5 out of depth monster in the level 2 barrows-down(or even a monster pit of level 5), if my character level is 50 and I'm merely there doing a beastmaster quest? Level feeling should be boring. 
+</p>
+<p>
+...and presence of the beastmaster quest monster should improve level feeling IMHO. 
+</p>
+<p>
+Bandobras: I'm certain I saw FF quests with "boring" feeling and of cource out of depth monsters. I'm even quite sure the FF feeling behaviour is always the same, and I would like it changed, too. As to the junkarts, it would be nice to tell about them in the feeling s spoiler. I, too, agree that the feeling treshholds should be increased (or even relative to CL, as Simon proposes). To compensate, I would enlarge the bonuses for fixed artifact (seems like inflation:). 
+</p>
+<p>
+I guess, in Vanillia the objects carried by monsters didn't count. This is why in Vanillia, after casting clairvoyance, I could calculate, to a sigle point, what lies on the level, and that it agrees with the feeling. I'm still not sure, if the feeling in TOME isn't buggy (especially on the princess quests), but certainly it feels inflated, after all the monster-carried stuff is included. Of cource the inclusion of the carried objects is great, as it discuoragues stair-scumming coupled with picking up object without fight.  
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Please create a thread in the <a class="nonexistent" href="./IdeasArchive">IdeasArchive</a>. This bug report has been resolved for some time now. I don't object to the discussion, but it belongs in ideas, not bug reports. 
+</p>
+<p>
+Bandobras: Done. Farewell Bug69, we will miss you. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport69?action=refresh&amp;arena=Page.py&amp;key=BugReport69.text_html">RefreshCache</a> for this page (cached 2004-08-12 18:22:29)<br>
+<p><a href="./BugReport69?action=edit">EditText</a> of this page (last edited 2004-08-12 18:22:27 by <span title="212.76.39.1=prosie9.aster.pl">prosie9</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:15:45 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:34 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 476.352
+  exclusion.robots: 0.149
+  exclusion.robots.policy: 0.138
+  RedisCDXSource: 1.336
+  esindex: 0.011
+  LoadShardBlock: 450.283 (3)
+  PetaboxLoader3.datanode: 1081.358 (4)
+  CDXLines.iter: 21.59 (3)
+  load_resource: 743.407
+  PetaboxLoader3.resolve: 28.997
+-->

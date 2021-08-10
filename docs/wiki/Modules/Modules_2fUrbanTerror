@@ -1,0 +1,663 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/UrbanTerror - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fUrbanTerror?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fUrbanTerror?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fUrbanTerror?action=fullsearch&amp;value=%2FUrbanTerror&amp;literal=1&amp;case=1&amp;context=40">Modules/UrbanTerror</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fUrbanTerror?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fUrbanTerror">View</a></li>
+<li><a title="Diffs" href="./Modules_2fUrbanTerror?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fUrbanTerror?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fUrbanTerror?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fUrbanTerror?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fUrbanTerror?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fUrbanTerror?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fUrbanTerror?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fUrbanTerror?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fUrbanTerror?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fUrbanTerror">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-fc327cb5e9cd7da3b2c97e597b0a447be8d321d9">Urban Terror</h2>
+Module idea by <a href="./SoulWynd">SoulWynd</a><strong></strong>. <h3 id="head-597de0720fec0a62f9f9f6af7722545553cd78f5">1. Premise</h3>
+You are relaxing in front of a small French Bistro called 'La ruelle', reading your newspaper and drinking a cup of coffee when suddenly someone dashes along the street and hits your table. The person falls down while your coffee becomes a stain on your clothings. He looks up at you with blood-red eyes and quickly picks himself up, dashing away while two black suits yell for him to stop, pursuing him. After composing yourself, you notice a small stone on the ground, a perfect sphere. You pick it up and notice there's something inside it, a faint glow. It points somewhere... <p>
+The year is 2004. The place, Paris. This would be a horrible movie. 
+</p>
+<p>
+-- <a href="./SoulWynd">SoulWynd</a> 2004-07-12 22:15:49 
+</p>
+<hr size="3">
+ <p>
+The story may begin differently depending on what race/class/setting you pick. The idea is to focus on the cities and travelling around the world. The dungeons will be replaced with buildings, which hopefully will actually look like buildings. I don't know if the dungeons are generated via .lua, but we would need a street generator and a building generator. I've never even messed with .lua, so I'm just giving the ideas out, hopefully someone will help me with them or even do them for me. I don't intend to register this as a module until it's more than just an idea and we have something done. 
+</p>
+<p>
+-- <a href="./SoulWynd">SoulWynd</a> 2004-07-12 22:15:49 <h3 id="head-fc338f87a058158eb824b53705961801516a9460">2. Features</h3>
+
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>Street Maps</strong> 
+</p>
+</li>
+
+        <ul>
+
+  Hopefully we can get ToME to generate areas that look like actual city streets. 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Fireweapons</strong> 
+</p>
+</li>
+
+        <ul>
+
+  Plenty of them. 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Psionics</strong> 
+</p>
+</li>
+
+        <ul>
+
+  Something new, not those psionics we see on every other rogue-like. 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Possessing monsters</strong> 
+</p>
+</li>
+
+        <ul>
+
+  Spirits that can possess other npcs and alter their stats, creating a hell of a monster to fight against. 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Magic Re-worked</strong> 
+</p>
+</li>
+
+        <ul>
+
+  No spell-books (I hope), only a few magical classes. 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Less Magical Items</strong> 
+</p>
+</li>
+
+        <ul>
+
+  Yep, those +1 boots are now worth having and fighting for 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Modern Items</strong> 
+</p>
+</li>
+
+        <ul>
+
+  Grenades, Cellphones, Computers, TVs, etc. 
+        </ul>    </ul>
+
+
+<h3 id="head-9af3f864702b18442f886c277dd5608a4b2c8795">3. Races</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>Human</strong> 
+</p>
+</li>
+
+        <ul>
+
+  Nothing new there 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Psy-latent Human</strong> 
+</p>
+</li>
+
+        <ul>
+
+  A human with a few psy powers 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Magic-latent Human</strong> 
+</p>
+</li>
+
+        <ul>
+
+  A human with some magical powers 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Entity</strong> 
+</p>
+</li>
+
+        <ul>
+
+  An astral being. This one's gonna be hard. It shouldn't be able to interact with the real world unless using a power of manifestation or possessing a creature. More on that later. 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Shape-Shifter</strong> 
+</p>
+</li>
+
+        <ul>
+
+  were-wolf stuff 
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Awakened Animal</strong> 
+</p>
+</li>
+
+        <ul>
+
+  An animal that's more than what it seems to be 
+        </ul>    </ul>
+
+
+<h3 id="head-ed1846afee3be21521286932b99e2aeae9e6414a">4. Classes</h3>
+<h4 id="head-45e118d0563ea8581f830f46e85b60ae714faae4">4.1. Normal</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>Detective</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <strong>Inter</strong><strong>Pol agent</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <strong>Gang Member</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <strong>Journalist</strong> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-1265b5fc7a7229573c13a84ae162f28904fce132">4.2. Magical</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>Hermetic Mage</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <strong>Chaotic Mage</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <strong>Wiccan</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <strong>Psionic</strong> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-c7f73bb54d928922c3838bb789ee9fb8a5b1eb37">5. Settings</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>Human</strong> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Cult Member 
+</p>
+</li>
+        <li>
+<p>
+ Nerd 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Psy-latent Human</strong> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Cult Member 
+</p>
+</li>
+        <li>
+<p>
+ Nerd 
+</p>
+</li>
+        <li>
+<p>
+ ESP 
+</p>
+</li>
+        <li>
+<p>
+ Telepath 
+</p>
+</li>
+        <li>
+<p>
+ Clairvoyant 
+</p>
+</li>
+        <li>
+<p>
+ Telekinesist 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Magic-latent Human</strong> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Cult Member 
+</p>
+</li>
+        <li>
+<p>
+ Nerd 
+</p>
+</li>
+        <li>
+<p>
+ Fire 
+</p>
+</li>
+        <li>
+<p>
+ Water 
+</p>
+</li>
+        <li>
+<p>
+ Air 
+</p>
+</li>
+        <li>
+<p>
+ Earth 
+</p>
+</li>
+        <li>
+<p>
+ Ether 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Entity</strong> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Fire 
+</p>
+</li>
+        <li>
+<p>
+ Water 
+</p>
+</li>
+        <li>
+<p>
+ Air 
+</p>
+</li>
+        <li>
+<p>
+ Earth 
+</p>
+</li>
+        <li>
+<p>
+ Ether 
+</p>
+</li>
+        <li>
+<p>
+ Mental 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Shape-Shifter</strong> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Wolf 
+</p>
+</li>
+        <li>
+<p>
+ Dog 
+</p>
+</li>
+        <li>
+<p>
+ Fox 
+</p>
+</li>
+        <li>
+<p>
+ Tiger 
+</p>
+</li>
+        <li>
+<p>
+ Cat 
+</p>
+</li>
+        <li>
+<p>
+ Hawk 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <strong>Awakened Animal</strong> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Wolf 
+</p>
+</li>
+        <li>
+<p>
+ Dog 
+</p>
+</li>
+        <li>
+<p>
+ Fox 
+</p>
+</li>
+        <li>
+<p>
+ Tiger 
+</p>
+</li>
+        <li>
+<p>
+ Cat 
+</p>
+</li>
+        <li>
+<p>
+ Hawk 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-e09212c7d3eaa769fbcf66f82a6263794e715931">6. Skills</h3>
+<h3 id="head-aa11023ff599c3d83ad640baf41699091d114d5b">7. Contributions</h3>
+<h4 id="head-6a176af0e3541b91734625dec4f3b8292439dd1d">7.1. Ideas</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./SoulWynd">SoulWynd</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-bedb9f4db01571c4ba0df8988ae9ca7536f38cf1">7.2. Whoever is mad enough to work on a module</h4>
+
+    <ul>
+
+ Nobody so far. 
+    </ul>
+
+
+<h4 id="head-8cbe1b61604257c69eb792f97e93456c4cc68afc">7.3. Indirect</h4>
+
+    <ul>
+
+ Nobody so far. 
+    </ul>
+
+
+<h3 id="head-fce06e20e5f7f74aacccab40b59b75a56c8f7305">8. Comments</h3>
+Place your comments here <hr size="4">
+ &gt; I don't know if the dungeons are generated via .lua, but we would need a street generator and a building generator. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The dungeon generation is coded in C in ToME 2.2.7, but you may add some level generators coded in Lua. In ToME 3.0.0, the whole generation code was rewritten in Lua. 
+</p>
+<p>
+You should look at the (incomplete) Zoneband module, available from the <a href="./CVS">CVS</a> site, for an example (see below): 
+<pre>level_generator
+{
+        ["name"]        = "yeeks",
+        ["gen"]  = function()
+                        print("zog")
+-- Clean the dungeon
+                        for i = 2, cur_hgt - 2 do
+                                for j = 2, cur_wid -3 do
+                                        cave(i, j).feat = 1
+                                end
+                                cave(i,1).feat = FEAT_PERM_SOLID
+                                cave(i,cur_wid - 2 ).feat = FEAT_PERM_SOLID
+                        end
+                        for j = 1, cur_wid - 2 do
+                                cave( 1, j).feat = FEAT_PERM_SOLID
+                                cave( cur_hgt - 2,j).feat = FEAT_PERM_SOLID
+                        end
+
+-- Set the first building
+                        _set_building1( 5 , 5 )
+                        _set_prison( 5 , 25 )
+                        _set_doghouse( 23 , 5 )
+                        _set_castle( 25 , 35 )
+                        _set_gym( 50 , 5 )
+                        _set_pharmacy( 50 , 20 )
+                        _set_armory( 50 , 38 )
+                        _set_garden( 35 , 5 )
+                        return new_player_spot(get_branch())
+        end,
+        ["stairs"]      = FALSE,
+        ["monsters"]      = FALSE,
+        ["objects"]       = FALSE,
+        ["miscs"]        = FALSE,
+}
+</pre>
+</p>
+<p>
+Basically, the generator function "gen" clears the level, set a border of permanent walls and place some buildings at given coordinates. 
+</p>
+<p>
+The level generator can then be used in d_info.txt with an appropriate G-line, e.g. G:yeeks for the generator above. 
+</p>
+<hr>
+ <a href="./SoulWynd">SoulWynd</a>: Thanks, I was planning on using ToME 3 branch if someone is willing to make the coding for me. I have too much to code elsewhere right now. <hr>
+ </div><div id="footer">
+
+
+<a href="./Modules_2fUrbanTerror?action=refresh&amp;arena=Page.py&amp;key=Modules_2fUrbanTerror.text_html">RefreshCache</a> for this page (cached 2004-08-04 23:23:31)<br>
+<p><a href="./Modules_2fUrbanTerror?action=edit">EditText</a> of this page (last edited 2004-07-14 06:43:27 by <span title="200-146-147-57.rev.easyband.com.br"><a href="./SoulWynd">SoulWynd</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:35:01 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:57 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 236.263
+  exclusion.robots: 0.128
+  exclusion.robots.policy: 0.12
+  RedisCDXSource: 0.828
+  esindex: 0.012
+  LoadShardBlock: 213.204 (3)
+  PetaboxLoader3.datanode: 180.232 (4)
+  CDXLines.iter: 19.655 (3)
+  PetaboxLoader3.resolve: 79.685 (2)
+  load_resource: 200.274
+-->

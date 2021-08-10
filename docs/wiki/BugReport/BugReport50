@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport50 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport50?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport50?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport50?action=fullsearch&amp;value=BugReport50&amp;literal=1&amp;case=1&amp;context=40">BugReport50</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport50?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport50">View</a></li>
+<li><a title="Diffs" href="./BugReport50?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport50?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport50?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport50?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport50?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport50?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport50?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport50?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport50?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport50">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I was in mirkwood and got a FF quest for greater mummies.  During the quest I got full of loot and decided to recall back to town.  As I understand it, when I return I would just have to kill all the mummies again.  (I know if you go down or up the quest stays) This time somehow I never got rewarded for the quest, and I was so looking forward to looting them again. <p>
+I am pretty sure this is what happened (99%), and that I did not in fact kill all the mummies, which is the only way I think that I can complete the quest. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: If you didn't kill all the Mummies, you won't be rewarded, and when you come back to that DL, the quest should reset. I.e. the ones you already killed are alive again. You have to kill all of them in one go to get rewarded. 
+</p>
+<p>
+So what exactly is the bug you are reporting? You didn't get rewarded, but the mummies are gone when you returned? Or something else???  
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  Yes, exactly that.  I wasn't rewarded, (because I didn't kill them all) but when I returned all were dead.  Which was a pity, because they drop a great deal of goodies.   Greater mummies can summon, maybe one summoned a greater mummy or something.  I dunno, but I know I wasn't rewarded, and I know when I returned there was no quest.   I recalled out, where usually I go deeper or lower (via stairs), and this is the only thing that I did different from what I've done before (when quests are either too tough or too boring (the old version of Theme comes to mind)) 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Hmm... Maybe the last one of them got cut or poisoned off screen (can mummies be poisoned?) and expired out of sight? 
+</p>
+<p>
+I've recalled out of FF levels many times with no troubles, FWIW. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  It's possible that I just browsed through the options so quickly... but it's ff... I want mindcraft/symbiosis badly, I was not sleeping.  But I can't regenerate the error so I guess it's life. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  I'm gonna mark this as resolved... simply because I can't regenerate the bug.  If it happens again, that person can report it. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport50?action=refresh&amp;arena=Page.py&amp;key=BugReport50.text_html">RefreshCache</a> for this page (cached 2004-08-16 13:32:50)<br>
+<p><a href="./BugReport50?action=edit">EditText</a> of this page (last edited 2004-08-16 13:32:49 by <span title="rba-cache1-vif1.saix.net"><a href="./ReenenLaurie">ReenenLaurie</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:56:45 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:06 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.195
+  PetaboxLoader3.datanode: 98.4 (4)
+  RedisCDXSource: 4.118
+  load_resource: 51.993
+  exclusion.robots: 0.209
+  esindex: 0.014
+  captures_list: 127.775
+  LoadShardBlock: 95.202 (3)
+  CDXLines.iter: 24.18 (3)
+-->

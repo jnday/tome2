@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport62 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport62?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport62?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport62?action=fullsearch&amp;value=BugReport62&amp;literal=1&amp;case=1&amp;context=40">BugReport62</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport62?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport62">View</a></li>
+<li><a title="Diffs" href="./BugReport62?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport62?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport62?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport62?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport62?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport62?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport62?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport62?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport62?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport62">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+haha, this one made me laugh: <p>
+I lucked out and aquired the One Ring on clvl 40 and promptly put it on. Then later I've aquired level 45 and our favourite messenger popped out and: He: "blah blah Gondolin is in danger blah blah" Me: "What Gondolin?" 
+</p>
+<p>
+I refused to do the quest, because I was in the middle of Nameless and didn't want to miss the loot, but it was hilarious and obviously buggy to see him anyway. 
+</p>
+<p>
+Update: after quick experimenting I reproduced this situation, this time accepting the quest. i was taken back to destroyed Gondolin, but no quest entrance. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport62?action=refresh&amp;arena=Page.py&amp;key=BugReport62.text_html">RefreshCache</a> for this page (cached 2004-08-19 16:47:27)<br>
+<p><a href="./BugReport62?action=edit">EditText</a> of this page (last edited 2004-08-19 16:47:26 by <span title="ath201.neoplus.adsl.tpnet.pl"><a href="./ZasVid">ZasVid</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:44:06 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:22 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.204
+  captures_list: 290.414
+  esindex: 0.015
+  LoadShardBlock: 259.461 (3)
+  CDXLines.iter: 18.361 (3)
+  load_resource: 414.555
+  RedisCDXSource: 8.613
+  PetaboxLoader3.datanode: 325.537 (4)
+  exclusion.robots: 0.219
+  PetaboxLoader3.resolve: 245.809
+-->

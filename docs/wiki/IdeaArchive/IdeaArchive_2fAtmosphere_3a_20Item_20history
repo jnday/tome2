@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Atmosphere: Item history - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=fullsearch&amp;value=%2FAtmosphere%3A+Item+history&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Atmosphere: Item history</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fAtmosphere_3a_20Item_20history">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MayLith">MayLith</a>: This idea is purely for atmosphere, but I thought it might be fun. <p>
+When you find your own items, there is a string at the end of the item description along the lines of: <em>You found it on the remains of a Ninja on level 52 of the Sacred Land of Mountains.</em> When you sell an item like this, you can still see it when you look at the store inventory. 
+</p>
+<p>
+It might add to roleplaying, for some people, if excellent or artifact store items had a string like this. Maybe even a few random 'good' items, as well.  
+</p>
+<p>
+You could have different groups of these sorts of strings:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ found in a specific place 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ found by a specific creature 
+</p>
+</li>
+        <li>
+<p>
+ found via some event (or just not by a specific creature) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ stolen from someone/somewhere 
+</p>
+</li>
+    <li>
+<p>
+ made by someone 
+</p>
+</li>
+    <li>
+<p>
+ something that was given as a reward 
+</p>
+</li>
+    <li>
+<p>
+ something lost (I can see a hook for a random quest, here!) 
+</p>
+</li>
+    <li>
+<p>
+ something discarded 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Examples of the above:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Dagger (+5,+8): A Novice Swordmaster found it on the remains of a Green Naga in the wilderness. 
+</p>
+</li>
+    <li>
+<p>
+ An Adamantite Rod of the Istari of Nothing: Found in the ruins of a Water Troll camp in Mordor. 
+</p>
+</li>
+    <li>
+<p>
+ The Ring 'Hondarain' (+3): Stolen from a Dunedain Mage somewhere in Moria. 
+</p>
+</li>
+    <li>
+<p>
+ A Frozen Glaive (2d6)[+9,+14] : Enchanted by a crazed Yeek Alchemist "Bubba" from Gondolin. 
+</p>
+</li>
+    <li>
+<p>
+ A Wand of Stone Prison [2|12] (7 charges): Given to a Dwarf Axemaster as a reward for her services to Bree. 
+</p>
+</li>
+    <li>
+<p>
+ A Ring of See Invisible: Lost by a guardsman of Minas Anor. 
+</p>
+</li>
+    <li>
+<p>
+ A Broken Dagger of Westernesse (1d2): Discarded by a Lord of Gondolin after a horrible battle with maurauding orcs. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+I'm not necessarily saying <em>every</em> item in the stores should have a string like this, but it might be fun to have it pop up from time to time, especially on the better items and in the Black Market especially. Comments? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I like the idea. In ToME 2.x, all these informations must be stored in a byte and 4 signed integers, i.e. it is not possible to store random names like "Bubba". This should be limited to randart or very rare ego items. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: It seems obvious to me that any non-trivial features must wait for ToME 3 anyway, because ToME 2 is too messy. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: MM: I didn't mean naming items the way randarts are. I was only implying adding that string on the end. (The name on the Ring is just an example of a string added to a randart.) But it would still be fun... ToME 3, maybe?  
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I meant the alchemist name, "Bubba", not the item name. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Ah, okay. Well, that's hit or miss--if it can be included, great, if not, that's okay too. I was just playing freely with examples. I was just thinking that it might really add to gameplay for some folks. You see a lovely ego item or randart in a store, and it came from your favorite town, or was once owned by a Dwarf Axemaster, and <em>you</em> are a Dwarf Axemaster too, and.... <img src="./wiki/starshine/img/biggrin.png" alt=":D" height="15" width="15"> Or else, you see something found on the corpse of a favorite enemy, or... 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: There was also a discussion about tweaking the existing texts in the forum. See <a class="external" href=".www.t-o-m-e.net/forum/viewtopic.php?t=4577"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">http://www.t-o-m-e.net/forum/viewtopic.php?t=4577</a> and <a class="external" href=".www.t-o-m-e.net/forum/viewtopic.php?t=4587"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">http://www.t-o-m-e.net/forum/viewtopic.php?t=4587</a>. In short: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Adding dungeon level for rewards: "It was given to you as a reward on level (dlvl) of (dungeon)." instead of "it was given to you as a reward."  
+</p>
+</li>
+    <li>
+<p>
+ If you steal an item: "You stole it from (monster) on level (dlvl) of (dungeon)" instead of "you found it in the remains of (monster) on level (dlvl) of (dungeon)" 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: I like those, too. Also: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ You stole it from (shop) [in (town)/on level (dlvl) of (dungeon)]" 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./NeilStevens">NeilStevens</a>:  The system DG borrowed and stuck into ToME 2 was an ugly hack.  It, in true Angband tradition, is just some ugly list of masked integers contorted in various ways.  I don't blame him, though, because that's really all that's possible in ToME 2.  In ToME 3, though, I'm pretty sure that the origin line can be a string attached to a flag, so that any way that items are created (or transferred to the player, in the case of stealing) can provide a detailed description. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: That would be neat.  
+</p>
+<p>
+This next little bit is just a pipe dream: Wouldn't it be neat if a data file somewhere kept track of (some of) the items your assorted characters sell, or Mathom, or have robbed from them (e.g. via the Steal Item trap), and three games later, with a totally different character, you come across one of your <em>own</em> items in the Black Market! (Or wherever...) 
+</p>
+<p>
+Dryad: To be lazy, some items could be pre-engraved like this: 
+</p>
+<p>
+* dagger of slaying (3d5) (+5, +14) discount 25% {This dagger of slaying (3d6) was sold by Morgoth, and lost under a box for centuries. Until now!} 
+</p>
+<p>
+* sprig of Atleas 50% discount {it was picked by a not-so-fair maiden at 7:14 PM, so it works but will taste funny. It is not quite fresh.} 
+</p>
+<p>
+* Wand of nothing of plenty [1:1] (1 charge) 90% discount {It was once part of the full collection of known wands in the Mathom house of Bree. It's discounted because it has been a children's toy for 350 years.} 
+</p>
+<p>
+So when I see a pile of expensive things and one exactly like it but discounted 90%, I'll get to know why! (-; 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Blast it all, modemcable, do NOT write things under my name!!!!!!!!! *VERY ANGRY* 
+</p>
+<p>
+Dryad and Simon: We're gonna track down ALL of our non-signature blunders and correct them. Sorry again!! 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Thank you, and I apologize for boiling over. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fAtmosphere_3a_20Item_20history.text_html">RefreshCache</a> for this page (cached 2004-08-05 19:51:27)<br>
+<p><a href="./IdeaArchive_2fAtmosphere_3a_20Item_20history?action=edit">EditText</a> of this page (last edited 2004-08-05 19:51:26 by <span title="user-2ivel67.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:51:09 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:44:06 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 90.485
+  exclusion.robots: 0.102
+  exclusion.robots.policy: 0.094
+  RedisCDXSource: 1.623
+  esindex: 0.009
+  LoadShardBlock: 69.417 (3)
+  PetaboxLoader3.datanode: 66.127 (4)
+  CDXLines.iter: 17.116 (3)
+  load_resource: 163.977
+  PetaboxLoader3.resolve: 131.674
+-->

@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Gambling - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fGambling?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fGambling?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fGambling?action=fullsearch&amp;value=%2FGambling&amp;literal=1&amp;case=1&amp;context=40">Documentation/Gambling</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fGambling?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fGambling">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fGambling?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fGambling?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fGambling?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fGambling?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fGambling?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fGambling?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fGambling?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fGambling?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fGambling?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fGambling">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Gambling in ToME is not rigged. It's simply inherently difficult. <p>
+<ol>
+<li>
+<a href="#head-1b22feb0c0c13c69ebe6389111ff7312bd0c946b">Between</a></li>
+<li>
+<a href="#head-13726a0bf1036648b88998ef66467d0ad80a7c54">Craps</a></li>
+<li>
+<a href="#head-0d972afce858a071cc6d48101b788a267789167f">Wheel</a></li>
+<li>
+<a href="#head-0c1a16e17517d5db584e59f03e5701a1df0aec29">Slots</a></li>
+</ol>
+
+ 
+</p>
+<h3 id="head-1b22feb0c0c13c69ebe6389111ff7312bd0c946b">Between</h3>
+Three 12-sided dice rolled; 2 black, 1 red. The red die must be between both black to win. If the red die. matches a black die, you lose.  <p>
+Pays 3 to 1. <h3 id="head-13726a0bf1036648b88998ef66467d0ad80a7c54">Craps</h3>
+Two dice are rolled. On first roll, a 7 or 11 wins. A 2,3 or 12 loses. Otherwise roll until the first roll is matched (win) or a 7 is rolled (loss).  
+</p>
+<p>
+Pays 2 to 1. <h3 id="head-0d972afce858a071cc6d48101b788a267789167f">Wheel</h3>
+Pick a number from 0-9. If the number shows on wheel after it stops spinning, you win.  
+</p>
+<p>
+Pays 10 to 1. <h3 id="head-0c1a16e17517d5db584e59f03e5701a1df0aec29">Slots</h3>
+Three dice rolled. Matches win gold. Numbers are: 1=Lemon, 2=Orange, 3=Sword, 4=Shield, 5=Plum, 6=Cherry 
+</p>
+<p>
+Payoffs are as follows: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+Cherry Cherry Lemon</td>
+<td>
+2-1</td>
+<td>
+Cherry Cherry Orange</td>
+<td>
+3-1</td>
+<td>
+Cherry Cherry Sword</td>
+<td>
+4-1</td>
+</tr>
+<tr>
+<td>
+Cherry Cherry Shield</td>
+<td>
+5-1</td>
+<td>
+Cherry Cherry Plum</td>
+<td>
+6-1</td>
+</tr>
+<tr>
+<td>
+Lemon Lemon Lemon</td>
+<td>
+4-1</td>
+<td>
+Sword Sword Sword</td>
+<td>
+6-1</td>
+<td>
+Plum Plum Plum</td>
+<td>
+9-1</td>
+</tr>
+<tr>
+<td>
+Orange Orange Orange</td>
+<td>
+16-1</td>
+<td>
+Shield Shield Shield</td>
+<td>
+25-1</td>
+<td>
+Cherry Cherry Cherry</td>
+<td>
+36-1</td>
+</tr>
+</table>
+</div>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fGambling?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fGambling.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:42:46)<br>
+<p><a href="./Documentation_2fGambling?action=edit">EditText</a> of this page (last edited 2004-06-27 00:29:44 by <span title="user-2iverfa.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:23:43 Apr 12, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:39:02 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 133.454
+  exclusion.robots: 0.081
+  exclusion.robots.policy: 0.075
+  RedisCDXSource: 5.155
+  esindex: 0.007
+  LoadShardBlock: 110.83 (3)
+  PetaboxLoader3.datanode: 168.046 (4)
+  CDXLines.iter: 15.453 (3)
+  load_resource: 195.592
+  PetaboxLoader3.resolve: 33.751
+-->

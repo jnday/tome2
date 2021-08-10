@@ -1,0 +1,278 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Phantasy - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fPhantasy?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fPhantasy?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fPhantasy?action=fullsearch&amp;value=%2FPhantasy&amp;literal=1&amp;case=1&amp;context=40">Modules/Phantasy</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fPhantasy?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fPhantasy">View</a></li>
+<li><a title="Diffs" href="./Modules_2fPhantasy?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fPhantasy?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fPhantasy?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fPhantasy?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fPhantasy?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fPhantasy?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fPhantasy?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fPhantasy?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fPhantasy?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fPhantasy">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This will be the first module made by myself, <a href="./BurbLulls">BurbLulls</a>. It will be based mainly off of my Zangband module project, Buangband, which was cut short because ToME came out, heh heh. <p>
+(A note: I am using Scribe for this module's creation, so credit where it's due. Go try the thing if you're moduling; it'll rock your socks.) 
+</p>
+<p>
+ITEMS 
+</p>
+<p>
+First off, the entire items list has been eradicated; poof, gone. I'm starting it with a fresh slate. Of course, this doesn't mean that each weapon and armour shall be brand spankin' new, but there will be some new ones (Siege/strike/bull axes, batons, caliburs, diamond equipment) and the prioities are changing; you may notice rapiers are far more useful, and zweihanders have the sheer brain-smashing power to keep up with the number of hits you get with daggers. 
+</p>
+<p>
+Also, there is an equal amount of weaponry for each of the four classes; hooray for axemasters! Note that this isn't generalising them; each weapon group now has specific advantages. Swords are lighter but weaker, hafted (now blunt) have more power but are heavy, most polearms now have intrinsic AC and high damage dices, but many more MUST be 2-handed, so no shields! Axes are a happy medium. 
+</p>
+<p>
+Armour is around the same; some types have some small resistances without an ego. The Dragon scale mail is now Grand &lt;jewel&gt; Armour, and not all of them are elemental. 
+</p>
+<p>
+Like Theme, the food shall be very varied, and there will be no basic 'ration' food. There's basically, more of everything. Sick of only three types of footwear? Well...! Now there's four types. 
+</p>
+<p>
+EGOS 
+</p>
+<p>
+I was originally going to make metals a type of ego (A gold longsword, a silver club, etc.) but it conflicts with some equipment. Also, a type was going to be 'photon' weaponry; a lot of this game is derived from Phantasy Star Online. The game is Non-Tolkenian and not chronologically accurate. 
+</p>
+<p>
+ARTIFACTS 
+</p>
+<p>
+Once again, a fresh slate. Many of these shall be of my own creation, along with some from PSO such as Spread Needle, Battle Verge, maybe even the frying pan. That's another thing; I'm hoping to make artifacts more ADOMish by letting them be their own weapon types. For example, one artifact 'Nova' might be a 'ruby dagger', and there are no basic ruby daggers availiable. How I'm going to edit artifacts integral to the game is beyond me... 
+</p>
+<p>
+Of course, the junkarts will be changed. 
+</p>
+<p>
+MONSTERS 
+</p>
+<p>
+Yep, once again, fresh slate. And once again, own creation and PSO. Maybe some other influences, but not that many. Expect creatures such as Boomas, Hildebears or Delsabers to contend with. (Heck, have any of you played PSO? I doubt it.) Chances are the plot will be changed, so the integral roles like the Necromancer of Dol Guldur and such-and-such will be erased along with everything else. 
+</p>
+<p>
+RACES 
+</p>
+<p>
+You know it! From scratch, with a smattering of PSO. Current classes are... 
+</p>
+
+    <ul>
+
+ - Base class 
+    </ul>
+
+
+<p>
+Human (The basic class, but with some hidden talents...) 
+</p>
+
+    <ul>
+
+ - PSO classes 
+    </ul>
+
+
+<p>
+Newman Booma Hildebear Rappy Dimenian 
+</p>
+
+    <ul>
+
+ - Original Classes 
+    </ul>
+
+
+<p>
+Germutant Deity Arcadian Emraldine 
+</p>
+
+    <ul>
+
+ - Inspired by Animeband. (Well... not really, just a conincidence, but since Animeband got there first I'll mention it.) 
+    </ul>
+
+
+<p>
+Android Juraian 
+</p>
+<p>
+Subraces are no longer really for undead changes, etc. It's a more personality based aspect. There is another *band out there that has done this; if anyone knows it, but sure to say. Now the choices would be more like 'Wise' or 'Nimble' or 'Lucky', or even 'Pygmy'. Deities will have their own, like T-Plus' Angels. 
+</p>
+<p>
+CLASSES 
+</p>
+<p>
+The basic classes remain, although they may be renamed. I'm not being a total lazybones on this subject though, and I plan to add some classes... 
+</p>
+<p>
+Reaper (Rogue class adept with some necromantic magic and polearms. Needs to kill enemies to gain mana. Thanks to catwhowalksbyhimself and M.M. for coding/adaptation) 
+</p>
+<p>
+Tactician (Weak, but every map is wizardlighted and he/she can naturally dig and teleport well) 
+</p>
+<p>
+Domina (Warrior class with some mindcraft and mind magic to dominate and charm opponents) 
+</p>
+<p>
+Accountant (Equivalent of Yeek race: Pathetic) 
+</p>
+<p>
+Terraformer (Like Geomancer, but cannot learn other magic. In return, GREATLY increased skills with the elements and magic) 
+</p>
+<p>
+Knight (Great warrior, terrible with archery) 
+</p>
+<p>
+Magisentinel (Moves like a Deathmold, pathetic STR and CON but magic exceeding even Sorcerors) 
+</p>
+<p>
+Ragechanneler? (Think Incredible Hulk; can turn into a terrifying beast when damaged enough. This will only happen if I can alter the mimic forms correctly) 
+</p>
+<p>
+Commander (Weak, but can easily charm humanoid beings and can handle many companions. Mild summoning power) 
+</p>
+<p>
+Also, I'm turning Demonology into a Samurai-like class, changing the Demon skills into more suited 'Oni' skills. 
+</p>
+<p>
+DUNGEONS/WILDERNESS 
+</p>
+<p>
+Because of my lacking skills the map will probably remain the same. However, I hope to alter the current dungeons entirely, and add many new ones; a favourite point of Theme for me. 
+</p>
+<p>
+MAGIC 
+</p>
+<p>
+I may or may not change magic, when it comes to lua I only have borderline knowledge. I already have a new 'chaos' school, but it may not be implenented. Plus, I hope to add many new forms for mimics and others to change too. 
+</p>
+<p>
+GODS 
+</p>
+<p>
+They're harder coded than diamond. Best leave them be until 3.0.0. 
+</p>
+<p>
+QUESTS 
+</p>
+<p>
+I hope to edit current quests and add new ones, but no work has been made on it yet. 
+</p>
+<p>
+Still, that's the module. It'll be out when it's ready! 
+</p>
+<p>
+Current Development Status: 
+</p>
+<p>
+Items: 99% Complete 
+</p>
+<p>
+Egos: 40% Complete 
+</p>
+<p>
+Monsters: 20% Complete 
+</p>
+<p>
+Artifacts: 50% Complete (Including Middle-Earth's first attempt at a personal firearm) 
+</p>
+<p>
+Races: 60% Complete 
+</p>
+<p>
+Classes: 40% Complete 
+</p>
+<p>
+Dungeons: 0% Complete 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fPhantasy?action=refresh&amp;arena=Page.py&amp;key=Modules_2fPhantasy.text_html">RefreshCache</a> for this page (cached 2004-09-12 23:26:46)<br>
+<p><a href="./Modules_2fPhantasy?action=edit">EditText</a> of this page (last edited 2004-09-12 23:26:45 by <span title="webcacheH01a.cache.pol.co.uk"><a href="./BurbLulls">BurbLulls</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:44:04 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.231
+  captures_list: 55.802
+  load_resource: 23.156
+  RedisCDXSource: 0.78
+  CDXLines.iter: 19.59 (3)
+  exclusion.robots.policy: 0.217
+  esindex: 0.013
+  LoadShardBlock: 31.535 (3)
+  PetaboxLoader3.datanode: 42.875 (4)
+-->

@@ -1,0 +1,481 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Skills/Thaumaturgy - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fSkills_2fThaumaturgy?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fSkills_2fThaumaturgy?action=print">
+<link rel="Up" href="/Spoilers_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fSkills_2fThaumaturgy?action=fullsearch&amp;value=%2FThaumaturgy&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Skills/Thaumaturgy</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fSkills_2fThaumaturgy?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fSkills_2fThaumaturgy">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fSkills_2fThaumaturgy?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fSkills_2fThaumaturgy?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fSkills_2fThaumaturgy?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fSkills_2fThaumaturgy?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fSkills_2fThaumaturgy?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fSkills_2fThaumaturgy?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fSkills_2fThaumaturgy?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fSkills_2fThaumaturgy?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fSkills_2fThaumaturgy?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fSkills_2fThaumaturgy">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</a></li>
+<li>
+<a href="#head-a1090db000322c1f7e768460c35df5da19d1c3a5">Thaumaturgy spells</a></li>
+<ol>
+<li>
+<a href="#head-f343ef849f332bc58a4a7b9a4a54f01cddfe8993">Area of Effect</a></li>
+<li>
+<a href="#head-f698957cae402e794378e44df289fd0a66f068ad">Damage types</a></li>
+</ol>
+
+<li>
+<a href="#head-77ddf7870b0c59f3a07f48bacb8ed032f0720b86">Strategic suggestions</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr size="3">
+ <h2 id="head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</h2>
+Thaumaturgy is one of the best ways to kill summoners, breeders, and powerful groups if you have no other repeatable way to kill many foes at once (it's also good for quick piety in pits). If your class doesn't allow it, you can get it from the lost sword quests up to a learning modifier of 0.500 <p>
+You will get 2 completely random Thaumaturgy spells per Thaumaturgy level (ALL of them attack spells - nothing else), whose damage and mana cost are fixed and non-improvable (spell power won't help). Each spell is a combination of an Area of Effect type and a Damage Type.  
+</p>
+<p>
+You can view the details of a particular Thaumaturgy spell by typing in uppercase the letter corresponding to the spell. The details will also include the base damage and fixed level of the spell. 
+</p>
+<h2 id="head-a1090db000322c1f7e768460c35df5da19d1c3a5">Thaumaturgy spells</h2>
+<h3 id="head-f343ef849f332bc58a4a7b9a4a54f01cddfe8993">Area of Effect</h3>
+Thaumaturgy spells can come in several forms: 
+    <ul>
+
+    <li>
+<p>
+ A <strong>bolt</strong> spell will only affect one monster, and will require line of sight. Note that side effects, such as object destruction or terrain change, *will* affect the target square. 
+</p>
+</li>
+    <li>
+<p>
+ A <strong>beam</strong> will hit a line of monster, from the position of the player toward the target. Beam spells will pass through monsters between the player and the target but will not go beyond the target. 
+</p>
+</li>
+    <li>
+<p>
+ A <strong>ball</strong> will affect all monsters within a variable-radius circle (the radius increase with the level of the spell) and can 'skip' monsters (i.e. it doesn't require line of sight) 
+</p>
+</li>
+    <li>
+<p>
+ A <strong>blast</strong> spell will affect all squares within a certain radius of the caster. Most commonly (only?) seen with wall creation or destruction spells (see below). 
+</p>
+</li>
+    <li>
+<p>
+ An <strong>area</strong> spell will fire several balls within a short radius around the caster. Both number of blasts and their radius increases with the level of the spell. 
+</p>
+</li>
+    <li>
+<p>
+ A <strong>view</strong> spell will hit any monster in sight of the caster. They will not affect terrain or objects in any way. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Note that wall destruction, wall creation and destruction spells are only found as area or blast AoF, an that they are the only blast effects you will get (i.e. you will not found blast effects with damaging types) <h3 id="head-f698957cae402e794378e44df289fd0a66f068ad">Damage types</h3>
+Thaumaturgic spells can do damage of these types: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Cold 
+</p>
+</li>
+    <li>
+<p>
+ Fire 
+</p>
+</li>
+    <li>
+<p>
+ Lightning 
+</p>
+</li>
+    <li>
+<p>
+ Acid 
+</p>
+</li>
+    <li>
+<p>
+ Poison 
+</p>
+</li>
+    <li>
+<p>
+ Arrow 
+</p>
+</li>
+    <li>
+<p>
+ Missile 
+</p>
+</li>
+    <li>
+<p>
+ Mana 
+</p>
+</li>
+    <li>
+<p>
+ Water 
+</p>
+</li>
+    <li>
+<p>
+ Plasma 
+</p>
+</li>
+    <li>
+<p>
+ Meteor 
+</p>
+</li>
+    <li>
+<p>
+ Ice 
+</p>
+</li>
+    <li>
+<p>
+ Gravity 
+</p>
+</li>
+    <li>
+<p>
+ Inertia 
+</p>
+</li>
+    <li>
+<p>
+ Force 
+</p>
+</li>
+    <li>
+<p>
+ Time 
+</p>
+</li>
+    <li>
+<p>
+ Light 
+</p>
+</li>
+    <li>
+<p>
+ Darkness 
+</p>
+</li>
+    <li>
+<p>
+ Confusion 
+</p>
+</li>
+    <li>
+<p>
+ Sound 
+</p>
+</li>
+    <li>
+<p>
+ Shard 
+</p>
+</li>
+    <li>
+<p>
+ Nexus 
+</p>
+</li>
+    <li>
+<p>
+ Nether 
+</p>
+</li>
+    <li>
+<p>
+ Chaos 
+</p>
+</li>
+    <li>
+<p>
+ Disenchantment 
+</p>
+</li>
+    <li>
+<p>
+ Destruction 
+</p>
+</li>
+    <li>
+<p>
+ Wall Destruction 
+</p>
+</li>
+    <li>
+<p>
+ Wall Creation 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Further info on the effect of any of them can be found on the <a class="interwiki" title="Self" href="./Spoilers/Damage_20Type"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Damage Types</a> page. <h2 id="head-77ddf7870b0c59f3a07f48bacb8ed032f0720b86">Strategic suggestions</h2>
+
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Spells have damage listed as "73d1" or such instead of "8d75" and are to be considered damage-inefficient. They can still provide services like slowing monsters and destroying walls but otherwise you'd best mark them useless with the rename/comment feature in the Thaumaturgy menu. 
+</p>
+</li>
+
+                            <ul>
+
+       <a class="nonexistent" href="./EricDerKonig">EricDerKonig</a>: I think this is a display bug: if you examine a spell that reads, for example "18d1," then it will tell you that it actually does "5d18" or some such damage.  
+                                            <ul>
+
+           <a class="nonexistent" href="./RukeIceling">RukeIceling</a>: Confirmed, it is a display bug, if you use spells with damage listed as (for example) 70d1 then it will do far more than 70 damage. Always examine your spells to see their correct damage so that you don't avoid using a seemingly poor spell when it ends up doing a lot more. <p>
+           <strong><a href="./GreyCat">GreyCat</a></strong>: Hmm... take a look at this gdb output from a thaum I just started in wizard mode: 
+</p>
+
+                                                    <ul>
+
+             
+<pre>               (gdb) print *rspell
+               $8 = {desc = "Damage: 2d14, Power: 9\000\000\000\000\000\000\000", 
+                 name = "Ball - pure light", '\0' &lt;repeats 12 times&gt;, mana = 10, fail = 0, 
+                 proj_flags = 120, GF = 15 '\017', radius = 2 '\002', dam_sides = 1 '\001', 
+                 dam_dice = 14 '\016', level = 5 '\005', untried = 0 '\0'}
+             </pre>
+                                                    </ul>
+
+
+           The damage dice are stored as <tt>14d1</tt> in the actual data structure.  But the textual description says <tt>2d14</tt>.  Now look at this code snippet from <tt>spells1.c</tt>: 
+                                                <ul>
+
+            
+<pre>              else if (chance &lt; 76)
+              {
+                      rspell-&gt;proj_flags |= PROJECT_STOP;
+                      rspell-&gt;radius = dice;
+                      rspell-&gt;dam_dice = sides;
+                      rspell-&gt;dam_sides = 1;
+            </pre>
+                                                </ul>
+
+
+           This code takes what would normally have been an XdY spell (X = dice, Y = sides) and converts it into Yd1 radius X.  But then later the description is written thus: 
+                                                <ul>
+
+            
+<pre>              sprintf(rspell-&gt;desc, "Damage: %dd%d, Power: %d", dice, sides, power);
+            </pre>
+                                                </ul>
+
+
+           The code that writes the description doesn't know about the rearranging of the numbers for ball spells, and naively assumes that dice are still dice and sides are still sides. <p>
+           In summary, there <em>is</em> a display bug, but that bug is in the long textual description that you get when you examine the spell with a capital letter.  The brief <tt>Yd1</tt> that you get is the <em>correct</em> damage. 
+</p>
+<p>
+           I'm going to attempt to fix the display bug. 
+</p>
+<p>
+           <strong><a href="./GreyCat">GreyCat</a></strong>: Now fixed in tome_230_branch.  Note, however, that the spell gets its description when it's created, and this description is simply stored in the savefile.  If you upgrade to the fixed code, all your <em>existing</em> ball spells will still have incorrect descriptions, but new ones will have correct descriptions. 
+</p>
+
+                                            </ul>                            </ul>
+
+
+    <li class="gap">
+<p>
+ The area attacks occur as several circles occuring separately. This means you they can hit the same monster several times. Further, they are unique in the fact they go thru walls, making some pits and princess quests very easy (it seems to border on cheating, but is certainly scumming).  The only disadvantage with using area spells is that you can't direct them to where you want to. When used correctly, area spells are the most cost-effective (this is important because thaumaturgy spells don't come cheap) for both mana and turns. 
+</p>
+</li>
+    <li>
+<p>
+ View force spells are nice for far away enemies. 
+</p>
+</li>
+    <li>
+<p>
+ Gravity spells are useful for monsters you DON'T want to fight when crushing against a wall with force keeps things too close or you don't have force.  
+</p>
+</li>
+    <li>
+<p>
+ A Force beam can hit the enemy several time if cast in a cardinal or diagonal direction, since it will hit the monster, push it back, hit him again, and so on... 
+</p>
+</li>
+    <li>
+<p>
+ Many effects can destroy potions. This can be used to your advantage against certain extremely tough monsters (Groups of Hrus, Endgame uniques, etc) by putting a detonation potion (from Moria's mining store) on each floor square around a place the monster(s) will be at and detonating them all at once with an appropriate spell for a cool amound of damage! Just remember to be away from the blast radius, an error (or an unexpected cold spell from a monster) can easily kill you instantly! 
+</p>
+</li>
+    <li>
+<p>
+ Water can provide a barrier that some monsters, like ringwraiths, won't cross. You can still shoot them over the water. (-; 
+</p>
+</li>
+    <li>
+<p>
+ If some spells have an astonishingly high failure rate compared to the spell before or after it, it's often because your mana level is too low. Very high level spells also need high WIS and INT to have reasonnably low fail rates. At level 50, with INT at 40 and WIS at 39 the highest fail rate on the whole list was 18%. 
+</p>
+</li>
+    <li>
+<p>
+ No spell can destroy an artifact, but beware destruction spells, since they will just delete them instead of destroying them, and the rseult is that they will still be lost for you! 
+</p>
+</li>
+    <li>
+<p>
+ Remember that killing trees while worshipping Yavanna is a *very* bad idea, and that the "Tree Walking" ability doesn't allow to walk on dead trees. Also (as of 2.3.1) acid, nether, nexus, shards, time and force attacks suffer from a small bug which turn *small trees* into dead *trees*. Keep these in mind when casting thaum spells in wooden areas. 
+</p>
+</li>
+    <li>
+<p>
+ Wall destruction effects, in particular area effect ones, are especially nice to have in the maze or the _Heart of the earth_ dungeon. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./RedNaga">RedNaga</a></strong>: On monsters stunning it is essentially paralyzation for a short time. <p>
+As far as unresistable attacks go, i *think* that magic missiles and arrows are unresistable and not item-destroying, and i used arrows bolt attacks against GWoP (which are reflecting) but it didn't deflect them. I don't know wheter this is a bug or is meant to be that way tough (so i'm not adding it to the page yet). 
+</p>
+
+    <ul>
+
+ <a href="./SimonSorc">SimonSorc</a>: Some priestly types reflect bolts and arrows I think. A specialist archer would certainly know about it. <p>
+ <strong><a href="./RedNaga">RedNaga</a></strong>: actually most angels and golems, as well as GWoP and a few other creatures. The point is that, if reflecting work on monsters like on characters, they should reflect *any* bolt effect, thus including thaum bolt effects. But i'm still pretty sure i killed one GWoP almost entirely with arrow bolts without it refelcting a single one. Figures? 
+</p>
+
+    </ul>
+
+
+<p>
+<strong><a href="./VelKrov">VelKrov</a></strong>: Aren't ice and cold the same? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Ice is part cold, part shards 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: so does that mean shards can stun too? Or is ice more than cold + shards? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Good call.  As the comment in the source says: <tt>/*&nbsp;Ice&nbsp;--&nbsp;Cold&nbsp;+&nbsp;Cuts&nbsp;+&nbsp;Stun&nbsp;*/</tt> 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: I was just thinking... wouldn't be best to "declass" the damage spoiler to a page of their own, like 'spoilers/damage_types'? This would allow to put on one page all the info on damage, what it does to the player (to be linked from the monsters spoiler), what it does to the monsters (to be linked from this page) and what it does to objects (both carried and on the ground) and to the terrain. This will avoid some unnecessary repetition of info and will be valuable even to know the exact effect of normal spells like tidal wave or fireflash ( i had to look into the code to understand what objects holy and hell fire will destroy). 
+</p>
+<p>
+I'd like to know what the wiki responsibles think about it, but if i'm allowed i can create the page, copy there the damage code from this page and integrate it with missing damage types (those not available to thaums) and effects (such as effects on the player). Waiting... 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: I think that's a very good idea, <a href="./RedNaga">RedNaga</a>. Though I wouldn't put the underscore in the page name. I'd call it Spoilers/Damage Types on the main spoilers page, and actually <em>link</em> to "Spoilers/Damage Type" (leaving the trailing 's' out of the page name.) </ul>
+
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fSkills_2fThaumaturgy?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fSkills_2fThaumaturgy.text_html">RefreshCache</a> for this page (cached 2005-11-05 05:05:17)<br>
+<p><a href="./Spoilers_2fSkills_2fThaumaturgy?action=edit">EditText</a> of this page (last edited 2005-08-18 00:03:25 by <span title="wooledge.org"><a href="./GreyCat">GreyCat</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:40:07 Mar 04, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:54 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 127.825
+  exclusion.robots: 0.127
+  exclusion.robots.policy: 0.117
+  RedisCDXSource: 1.614
+  esindex: 0.012
+  LoadShardBlock: 103.646 (3)
+  PetaboxLoader3.datanode: 118.504 (4)
+  CDXLines.iter: 19.523 (3)
+  load_resource: 75.14
+  PetaboxLoader3.resolve: 26.786
+-->

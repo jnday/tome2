@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport134 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport134?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport134?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport134?action=fullsearch&amp;value=BugReport134&amp;literal=1&amp;case=1&amp;context=40">BugReport134</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport134?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport134">View</a></li>
+<li><a title="Diffs" href="./BugReport134?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport134?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport134?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport134?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport134?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport134?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport134?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport134?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport134?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport134">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Trying a spectre troll possessor, I noticed that the pass wall ability did not disappear, even though I was inside a novice warrior corpse. Of course it is a nice thing (It's easy to imagine as a possessor with a corpse uncapable of opening doors should use this possibility), but it does not make sense to me.  <p>
+Simon: seems you're possessing the ghost of that novice warrior! Congrats on the innovation! Too bad the -3 hit dice of spectres will partly affect your final HP... 
+</p>
+<p>
+Carciofus: So I can do it without feeling guilty because of bug exploitation? 
+</p>
+<p>
+Kalirion: Yeah, I don't think its a bug.  It's really similar to how a Lost Soul possessor can still pass through walls in the Halls of Mandos after possessing a body. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport134?action=refresh&amp;arena=Page.py&amp;key=BugReport134.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:42:52)<br>
+<p><a href="./BugReport134?action=edit">EditText</a> of this page (last edited 2004-09-19 06:02:53 by <span title="172.209.227.126=ACD1E37E.ipt.aol.com">ACD1E37E</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:08:34 Jan 28, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:06 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 83.718
+  exclusion.robots: 0.119
+  exclusion.robots.policy: 0.11
+  RedisCDXSource: 1.32
+  esindex: 0.009
+  LoadShardBlock: 58.565 (3)
+  PetaboxLoader3.datanode: 132.601 (4)
+  CDXLines.iter: 20.326 (3)
+  load_resource: 109.58
+  PetaboxLoader3.resolve: 31.055
+-->

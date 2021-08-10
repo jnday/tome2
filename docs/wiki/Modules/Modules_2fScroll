@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Scroll - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fScroll?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fScroll?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fScroll?action=fullsearch&amp;value=%2FScroll&amp;literal=1&amp;case=1&amp;context=40">Modules/Scroll</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fScroll?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fScroll">View</a></li>
+<li><a title="Diffs" href="./Modules_2fScroll?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fScroll?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fScroll?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fScroll?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fScroll?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fScroll?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fScroll?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fScroll?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fScroll?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fScroll">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+This module is exactly ToME but without quests, wilderness multiple towns/dungeons. One town, one dungeon, kill Sauron &amp; Morgoth. <p>
+This module serves as both an example and for people who dont want quests and wilderness. 
+</p>
+<h2 id="head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</h2>
+1.0.1 <h2 id="head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</h2>
+2.2.* <h2 id="head-5fda23d62015b99fb2a9f86b38bcdf2bdf7609c8">Author</h2>
+<a href="http://web.archive.org/web/20041020135603/mailto:darkgod@t-o-m-e.net">darkgod@t-o-m-e.net</a> <h2 id="head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</h2>
+18/12/2003 <h2 id="head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</h2>
+You can download this module as a <a class="external" href=".modules.t-o-m-e.net/mods/1__scroll.tgz"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">tgz file</a>. <p>
+Size    330 kB 
+</p>
+<p>
+The source can also be found on the ToME <a href="./CVS">CVS</a> under module <tt>scroll</tt>. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fScroll?action=refresh&amp;arena=Page.py&amp;key=Modules_2fScroll.text_html">RefreshCache</a> for this page (cached 2004-08-04 08:33:59)<br>
+<p><a href="./Modules_2fScroll?action=edit">EditText</a> of this page (last edited 2004-07-12 18:23:19 by <span title="dialin-145-254-147-072.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:56:03 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:23 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 357.227
+  exclusion.robots: 0.104
+  exclusion.robots.policy: 0.096
+  RedisCDXSource: 102.983
+  esindex: 0.011
+  LoadShardBlock: 236.395 (3)
+  PetaboxLoader3.datanode: 181.32 (4)
+  CDXLines.iter: 15.831 (3)
+  load_resource: 157.784
+  PetaboxLoader3.resolve: 39.674
+-->

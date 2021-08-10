@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Birth abilities - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fBirth_20abilities?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fBirth_20abilities?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fBirth_20abilities?action=fullsearch&amp;value=%2FBirth+abilities&amp;literal=1&amp;case=1&amp;context=40">Documentation/Birth abilities</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fBirth_20abilities?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fBirth_20abilities">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fBirth_20abilities?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fBirth_20abilities?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fBirth_20abilities?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fBirth_20abilities?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fBirth_20abilities?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fBirth_20abilities?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fBirth_20abilities?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fBirth_20abilities?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fBirth_20abilities?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fBirth_20abilities">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This page is for the basic abilities you see in your character sheet when you type shift+c. <hr>
+ <ol>
+<li>
+<a href="#head-14f35e9a8f57fadb033fe8abf5c280fcef79fe10">"Birth" abilities</a></li>
+<ol>
+<li>
+<a href="#head-9bf52b282e82a285d3d644af006aa51fbd876d2b">Fighting</a></li>
+<li>
+<a href="#head-d0875a725f5629eff3193d0f785c53e7f8f15377">Shooting Ability</a></li>
+<li>
+<a href="#head-87df2bccec8cf63f2b66433ea6541edaff4f22f7">Saving Throws</a></li>
+<li>
+<a href="#head-723e8dc1b3b0c5a7678eca304fd54014efcbf928">Stealth</a></li>
+<li>
+<a href="#head-688f17afef89358521422323786d76f82959dc2d">Disarming</a></li>
+<li>
+<a href="#head-bb3188f82a2975dcf247c4fc4f1a1a3a2d912851">Magical Devices</a></li>
+<li>
+<a href="#head-c0ffa17bf712b6bf06b50ecd4b8938443e8de138">Perception</a></li>
+<li>
+<a href="#head-98cc363c0119e35d1c8070755fc4d4c2387aad71">Searching</a></li>
+<li>
+<a href="#head-76807cca8fcd84866ad81e7ff9bd805dac413961">Infra-vision</a></li>
+</ol>
+
+<li>
+<a href="#head-5765b751b3fd3a951cfd97c264a8c5cd5a764e7c">Temp section: Stuff to be linked</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-14f35e9a8f57fadb033fe8abf5c280fcef79fe10">"Birth" abilities</h2>
+Characters possess some different abilities which can help them to survive. The starting abilities of a character are based upon race and class. Abilities may be adjusted by high or low stats, and increase with the corresponding skill level. <h3 id="head-9bf52b282e82a285d3d644af006aa51fbd876d2b">Fighting</h3>
+Fighting is the ability to hit and do damage with weapons or fists. Normally a character  gets a single blow from any weapon, but if his dexterity and strength are high enough, he may receive more blows per round with lighter weapons. Strength and dexterity both modify the ability to hit an opponent. This skill increases with the Weaponmastery skill and its sub-skills. <h3 id="head-d0875a725f5629eff3193d0f785c53e7f8f15377">Shooting Ability</h3>
+Using ranged missile weapons (and throwing objects) is included in this skill. Different stats apply to different weapons, but this ability may modify the distance an object is  thrown/fired, the amount of damage done, and the ability to hit a creature. This skill increases with the Archery skill and its sub-skills. <h3 id="head-87df2bccec8cf63f2b66433ea6541edaff4f22f7">Saving Throws</h3>
+A Saving Throw is the ability of a character to resist the effects  of  a spell cast on him by another person/creature. This does not include spells cast on the player by  his  own stupidity, such as quaffing a nasty potion. This ability increases with the Spirituality skill. High wisdom also increases this ability. <h3 id="head-723e8dc1b3b0c5a7678eca304fd54014efcbf928">Stealth</h3>
+The ability to move  silently about is very useful. Characters with good stealth can usually surprise their opponents, gaining the first blow. Also, creatures may fail to notice a stealthy  character  entirely, allowing a player to avoid certain fights. This skill is based upon race, class and the Stealth skill. <h3 id="head-688f17afef89358521422323786d76f82959dc2d">Disarming</h3>
+Disarming is the ability to remove traps (safely), and includes picking locks on traps and doors. A successful disarming will gain the character some experience. A trap must be found  before it can be disarmed. Dexterity and intelligence both modify the ability to disarm, and  this ability increases with the Disarming skill. <h3 id="head-bb3188f82a2975dcf247c4fc4f1a1a3a2d912851">Magical Devices</h3>
+Using a magical device such as a wand or staff requires experience and knowledge. Spell  users such as magi and priests are therefore much better at using a magical device than say a warrior. This skill is modified by intelligence, and increases with the Magic-Device skill. <h3 id="head-c0ffa17bf712b6bf06b50ecd4b8938443e8de138">Perception</h3>
+Perception is the ability to notice something without actively seeking it out. This skill  is based upon race, class and the Sneakiness skill. <h3 id="head-98cc363c0119e35d1c8070755fc4d4c2387aad71">Searching</h3>
+To search is to actively look for secret doors, floor traps, and traps on chests. Rogues are the best at searching, but magi, rangers, and priests are also good at it. This skill is  based  upon  race, class and the Sneakiness skill. <h3 id="head-76807cca8fcd84866ad81e7ff9bd805dac413961">Infra-vision</h3>
+Infra-vision is the ability to see heat sources. Since most of the dungeon is cool or cold, infra-vision will not allow the player to see walls or objects. Infra-vision will allow a character to see any warm-blooded creatures up to a certain distance. This ability works equally well with or without a light source. The majority of ToME's creatures are cold-blooded, and will not be detected unless lit up by a light source. Most non-human races have innate infra-vision ability. Humans can gain infra-vision only through magic enhancement. <h2 id="head-5765b751b3fd3a951cfd97c264a8c5cd5a764e7c">Temp section: Stuff to be linked</h2>
+Skills:  
+    <ul>
+
+    <li>
+<p>
+ sneakiness 
+</p>
+</li>
+    <li>
+<p>
+ magic-device 
+</p>
+</li>
+    <li>
+<p>
+ disarming 
+</p>
+</li>
+    <li>
+<p>
+ archery 
+</p>
+</li>
+    <li>
+<p>
+ weapon-mastery 
+</p>
+</li>
+    <li>
+<p>
+ spirituality 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fBirth_20abilities?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fBirth_20abilities.text_html">RefreshCache</a> for this page (cached 2004-12-17 21:48:29)<br>
+<p><a href="./Documentation_2fBirth_20abilities?action=edit">EditText</a> of this page (last edited 2004-09-29 16:18:52 by <span title="user-uiveq74.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 15:44:13 Mar 25, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:14 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.207
+  exclusion.robots.policy: 0.192
+  captures_list: 210.478
+  PetaboxLoader3.resolve: 88.205
+  PetaboxLoader3.datanode: 250.78 (4)
+  LoadShardBlock: 180.877 (3)
+  esindex: 0.015
+  load_resource: 218.818
+  CDXLines.iter: 22.262 (3)
+  RedisCDXSource: 2.882
+-->

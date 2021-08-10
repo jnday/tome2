@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport33 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport33?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport33?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport33?action=fullsearch&amp;value=BugReport33&amp;literal=1&amp;case=1&amp;context=40">BugReport33</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport33?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport33">View</a></li>
+<li><a title="Diffs" href="./BugReport33?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport33?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport33?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport33?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport33?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport33?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport33?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport33?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport33?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport33">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./JulesBean">JulesBean</a>: I like to play with preserve mode off, which I think is an unpopular choice. Personally I think the conflict of interest it creates makes for interesting choices (This GCV looks tough, but there's a longsword which is probably an artifact in there and I'll never see it again...). <p>
+Preserve off isn't actually broken in ToME, but there are some issues: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Dungeon towns mask the feeling indicator ('You hear the sound of a market"), so you can miss artifacts without knowing. My examination of the code suggests this is easy to fix, unless there is some really good reason I haven't thought of to inhibit the feeling display on town levels. 
+</p>
+</li>
+    <li class="gap">
+<p>
+Special feelings are very common indeed in ToME. In the orc caves, for example, almost half the levels are special. I suspect it would be good to reduce the chance of a pit or vault generating a special feeling, since these seem to be more common than they are in Angband (?). 
+</p>
+</li>
+    <li class="gap">
+<p>
+Monsters with guaranteed named artifacts, like the sandworm queen, lose the artifact if you encounter them but don't kill them. Now this could be a genuine gameplay device (you should kill these guys first time or you miss out), but I personally don't think it makes sense. The sandworm queen should always carry her armour. I don't know if this bug affects the one ring, if it does it could be game-breaking. 
+</p>
+</li>
+    <li class="gap">
+<p>
+There are some issues with vaults. In dungeons with undiggable 'fill' (e.g. orc caves) vaults can be placed surrounded by mountains with no way in save a climbing set. Since (+1) tools can't dig granite, low level vaults can be inaccessible to low level characters who haven't yet found a wand of dig or a better digging tool. Both of these issues are exacerbated by what seems to be a genuine bug: there is support in the code for defining the 'entrance' to a vault so that the corridor attaches to the vault at the right point (often a secret door) but this appears to be broken. 
+</p>
+</li>
+
+        <ul>
+
+  <a href="./ChrisAmes">ChrisAmes</a>: This is incorrect, by the way. I've dug through granite with a +1 tool before, you just need a decent strength to do it. <p>
+  <strong><a href="./JulesBean">JulesBean</a></strong>: Yeah, good point. But still... low level chars without high strength, then. 
+</p>
+<p>
+  <strong><a href="./MayLith">MayLith</a></strong>: Yup. I had one fairly weak character who completely failed to get through the final wall to the exit in Deathwatch, no matter what I tried with a +1 digger (or searching). No great loss, but it was very irritating at the time. I don't know if that's a different code situation though -- might be. 
+</p>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+In certain dungeons, certain vaults use mountains for some internal walls, making the vault contents inaccessible without a climbing set or access to wraithform. 
+</p>
+</li>
+    <li class="gap">
+<p>
+If you charm/dismiss a monster holding an artifact, you lose it forever. Similarly a coaligned monster can be generated with an artifact. 
+</p>
+</li>
+    <li class="gap">
+<p>
+A KILL_BODY monster can destroy another monster which is holding an artifact. Easily testable in the Gondolin quest with the Troll unique. 
+</p>
+</li>
+    <li class="gap">
+<p>
+Genocide(and earthquakes-type effects) can also delete monsters without letting the artifact ever hit the ground. 
+</p>
+</li>
+    <li class="gap">
+<p>
+A trap of scatter items can drop an artifact, a monster can pick it up (theorically - I think they don't steal artifacts, should they be able to pick them up?). And then the monster wanders off or is killed by a quake(common in Angband due to Hrus). I suspect that's how I lost the robe of great luck - damn! 
+</p>
+</li>
+
+        <ul>
+
+  <strong><a href="./JulesBean">JulesBean</a></strong>: No, monsters cannot pick up artifacts. 
+        </ul>
+
+
+    <li class="gap">
+<p>
+(theorical) that KILL_ITEM flag... like the <a class="nonexistent" href="./CthAngband">CthAngband</a> unique Azathoth. Does it destroy artifacts? Or is it a simple way of making certain monsters eat the player's food - including the ration of greater life? 
+</p>
+</li>
+
+        <ul>
+
+  <strong><a href="./JulesBean">JulesBean</a></strong>: No, artifacts are immune to KILL_ITEM 
+        </ul>
+
+
+    <li class="gap">
+<p>
+Some vaults have a few glass wall inside, seemingly randomly. Sometimes they block the vault's only entry. Maybe random thingys like that should respect the icky flag? 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+Adam Lang: Or the Ring of Flare or any means of repeatedly teleporting until you hit an open square that's inside.  (If there are any.)  If these are the types of vaults without any open spaces it's a problem, but if there are open spaces inside then any character with a repeatable dimension door can eventually make it in. 
+</p>
+<p>
+<a href="./JulesBean">JulesBean</a>: Most vaults have the internal floor marked 'icky': this means that no teleport spell can ever land you inside. I thought all vaults did, but your experience suggests maybe some don't? It is possible that swap position and the swap position effect of the Recall spell don't respect icky, though. 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: I would suspect so (where there's smoke, there's fire).  But I think it's about the way vaults are made (just ascii chars in a .txt file).  Perhaps a creature picked up an item, and then that spot is not icky.  Or diggable wall got dug (by a rock mole/balrog etc.) and the remaining floor is not icky.  This is just a few possibilities I am thinking of.  
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Interesting points here.  I've never liked KILL_BODY myself.  It's a hack no not needed in ToME, which lets monsters swap positions. 
+</p>
+<p>
+Simon: maybe it should teleport or move the other weak monster just some squares back instead of erasing it? 
+</p>
+<p>
+And for earthquakes. Maybe digging should get the items. The monster is buried in there somewhere... 
+</p>
+<p>
+For genocide, or dear. What to do? Well let the player take chances I guess... 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport33?action=refresh&amp;arena=Page.py&amp;key=BugReport33.text_html">RefreshCache</a> for this page (cached 2004-09-29 04:49:50)<br>
+<p><a href="./BugReport33?action=edit">EditText</a> of this page (last edited 2004-09-29 04:49:49 by <span title="user-2iverdu.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:31:03 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:34:02 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.169
+  exclusion.robots.policy: 0.159
+  captures_list: 1226.806
+  PetaboxLoader3.resolve: 255.545
+  PetaboxLoader3.datanode: 1256.935 (4)
+  LoadShardBlock: 1116.816 (3)
+  esindex: 0.014
+  load_resource: 423.845
+  CDXLines.iter: 23.814 (3)
+  RedisCDXSource: 82.047
+-->

@@ -1,0 +1,566 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Glorantha/Bestiarium - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fGlorantha_2fBestiarium?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fGlorantha_2fBestiarium?action=print">
+<link rel="Up" href="/Modules_2fGlorantha">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fGlorantha_2fBestiarium?action=fullsearch&amp;value=%2FBestiarium&amp;literal=1&amp;case=1&amp;context=40">Modules/Glorantha/Bestiarium</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules_2fGlorantha">Up</a></li>
+<li><a title="Edit" href="./Modules_2fGlorantha_2fBestiarium?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fGlorantha_2fBestiarium">View</a></li>
+<li><a title="Diffs" href="./Modules_2fGlorantha_2fBestiarium?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fGlorantha_2fBestiarium?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fGlorantha_2fBestiarium?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fGlorantha_2fBestiarium?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fGlorantha_2fBestiarium?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fGlorantha_2fBestiarium?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fGlorantha_2fBestiarium?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fGlorantha_2fBestiarium?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fGlorantha_2fBestiarium?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fGlorantha_2fBestiarium">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Before adding new monsters a new symbol scheme should be found. Some creatures are not present in Glorantha and new creatures must be added. <p>
+At least Angels (A), Quylthulgs (Q), Xorn (X), Yetis (Y), Zephyr hounds (Z), floating eyes (e), icky things (i),  kobolds (k), orcs (o) and yeeks (y) can be removed.  
+</p>
+<p>
+O - ogres should use the same symbol as humans. 
+</p>
+<p>
+I suggest to give the most important races own symbols, e.g.  
+</p>
+<p>
+h or m: humans (men) 
+</p>
+<p>
+e or a: elves (aldryami) 
+</p>
+<p>
+d or m: dwarves (mostali) 
+</p>
+<p>
+t or u: trolls (uz) 
+</p>
+<p>
+d or n: dragonnewt 
+</p>
+<h2 id="head-22ad664e9eb98b75a73333b2b2395fc4b52e6fc9">Symbols</h2>
+
+<div>
+<table>
+<tr>
+<td>
+   </td>
+<td align="center">
+ <strong>ToME</strong> </td>
+<td align="center">
+ <strong>Glorantha</strong> </td>
+</tr>
+<tr>
+<td>
+ A </td>
+<td>
+ Angel         </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ B </td>
+<td>
+ Bird          </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ C </td>
+<td>
+ Canine        </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ D </td>
+<td>
+ Ancient Dragon/Wyrm</td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ E </td>
+<td>
+ Elemental     </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ F </td>
+<td>
+ Dragon Fly    </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ G </td>
+<td>
+ Ghost         </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ H </td>
+<td>
+ Hybrid        </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ I </td>
+<td>
+ Insect        </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ J </td>
+<td>
+ Snake         </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ K </td>
+<td>
+ Killer Beetle </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ L </td>
+<td>
+ Lich          </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ M </td>
+<td>
+ Multi-Headed Reptile</td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ N </td>
+<td>
+ --            </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ O </td>
+<td>
+ Ogre          </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ P </td>
+<td>
+ Giant Humanoid</td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ Q </td>
+<td>
+ Quylthulg (Pulsing Flesh Mound)</td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ R </td>
+<td>
+ Reptile/Amphibian</td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ S </td>
+<td>
+ Spider/Scorpion/Tick</td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ T </td>
+<td>
+ Troll         </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ U </td>
+<td>
+ Major Demon   </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ V </td>
+<td>
+ Vampire       </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ W </td>
+<td>
+ Wight/Wraith  </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ X </td>
+<td>
+ Xorn/Xaren    </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ Y </td>
+<td>
+ Yeti          </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ Z </td>
+<td>
+ Zephyr Hound  </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+   </td>
+<td>
+               </td>
+<td>
+   </td>
+</tr>
+<tr>
+<td>
+ a </td>
+<td>
+ Ant           </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ b </td>
+<td>
+ Bat           </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ c </td>
+<td>
+ Centipede     </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ d </td>
+<td>
+ Dragon        </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ e </td>
+<td>
+ Floating Eye  </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ f </td>
+<td>
+ Feline        </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ g </td>
+<td>
+ Golem         </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ h </td>
+<td>
+ Hobbit/Elf/Dwarf</td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ i </td>
+<td>
+ Icky Thing    </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ j </td>
+<td>
+ Jelly         </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ k </td>
+<td>
+ Kobold        </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ l </td>
+<td>
+ Louse         </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ m </td>
+<td>
+ Mold          </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ n </td>
+<td>
+ Naga          </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ o </td>
+<td>
+ Orc           </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ p </td>
+<td>
+ Person/Human  </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ q </td>
+<td>
+ Quadruped     </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ r </td>
+<td>
+ Rodent        </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ s </td>
+<td>
+ Skeleton      </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ t </td>
+<td>
+ Townsperson   </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ u </td>
+<td>
+ Minor Demon   </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ v </td>
+<td>
+ Vortex        </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ w </td>
+<td>
+ Worm/Worm-Mass</td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ x </td>
+<td>
+ --            </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ y </td>
+<td>
+ Yeek          </td>
+<td>
+ ? </td>
+</tr>
+<tr>
+<td>
+ z </td>
+<td>
+ Zombie/Mummy  </td>
+<td>
+ ? </td>
+</tr>
+</table>
+</div>
+</div><div id="footer">
+
+
+<a href="./Modules_2fGlorantha_2fBestiarium?action=refresh&amp;arena=Page.py&amp;key=Modules_2fGlorantha_2fBestiarium.text_html">RefreshCache</a> for this page (cached 2004-08-20 10:25:32)<br>
+<p><a href="./Modules_2fGlorantha_2fBestiarium?action=edit">EditText</a> of this page (last edited 2004-07-27 20:52:15 by <span title="dialin-145-254-147-054.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:52:34 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 137.163
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.06
+  RedisCDXSource: 2.09
+  esindex: 0.005
+  LoadShardBlock: 116.996 (3)
+  PetaboxLoader3.datanode: 105.685 (4)
+  CDXLines.iter: 16.486 (3)
+  load_resource: 57.271
+  PetaboxLoader3.resolve: 27.83
+-->

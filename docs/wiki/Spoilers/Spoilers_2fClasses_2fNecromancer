@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Classes/Necromancer - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fClasses_2fNecromancer?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fClasses_2fNecromancer?action=print">
+<link rel="Up" href="/Spoilers_2fClasses">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fClasses_2fNecromancer?action=fullsearch&amp;value=%2FNecromancer&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Classes/Necromancer</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fClasses">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fClasses_2fNecromancer?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fClasses_2fNecromancer">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fClasses_2fNecromancer?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fClasses_2fNecromancer?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fClasses_2fNecromancer?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fClasses_2fNecromancer?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fClasses_2fNecromancer?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fClasses_2fNecromancer?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fClasses_2fNecromancer?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fClasses_2fNecromancer?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fClasses_2fNecromancer?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fClasses_2fNecromancer">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./ReenenLaurie">ReenenLaurie</a>:  My <a class="nonexistent" href="./RohanKnight">RohanKnight</a> Demonologist got boring, so I wanted to try a Necromancer. <p>
+Could someone give me some pointers?  Mine is dying a *lot*.  I've made 3 or 4 now which has died when about level 7.  (eish, my Demonologist is about level 40) 
+</p>
+<p>
+Something that I think is wrong (bug/not noticed) in 2.3 is that the necro's combat modifier is lower than a mage.  Given weaponmastery is higher (+600 to +500), but combat is only +400, whilst a mage has +500.  Maybe Necro's should wait for FF to boost combat for them.  <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Only the Mage and the Sorceror subclasses were changed in ToME 2.3 for some testing, the other are unchanged. See <a href="./NeilStevens">NeilStevens</a> for details.  
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: I think there are two common settings you can pick. A necromancer that wants the touch of death (whatever it's called) ability or a necromancer who's in fact a summoner. The first one will need lots of combat while the second will be better off increasing corpse preservation and monster lore. The second one is actualy easier to play, use the horrify power to help your pets and turn the strongest ones in companions. They will kill and leave bodies which you can turn into undead minions, soon you will have a dungeon filled with your undeads and you can move on. Btw, Horrify dazes monsters which leaves them completly helpless, you can kill several uniques really easily with it. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  I was thinking of trying a combating necro.  Because of the whole 2.3 system I thought that it would make for a interesting play (now).  I've never really played a necro though, so I am sure it was interesting before too. 
+</p>
+<p>
+<a class="nonexistent" href="./HappiestSadist">HappiestSadist</a>: If you want a combat necromancer, I think dark priest is the way to go.  I'm playing one right now and it works pretty well.  A nice trick to beat the tough princess and lost swords quests is to continually generate necromantic teeth until you get one with the slays/brands you need.  The Gondolin house quest is a lot easier with teeth of *slay dragon*. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fClasses_2fNecromancer?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fClasses_2fNecromancer.text_html">RefreshCache</a> for this page (cached 2005-11-04 11:56:34)<br>
+<p><a href="./Spoilers_2fClasses_2fNecromancer?action=edit">EditText</a> of this page (last edited 2005-01-05 23:26:48 by <span title="70.248.32.35=ppp-70-248-32-35.dsl.rcsntx.swbell.net">ppp-70-248-32-35</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:01:18 Nov 06, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:59:19 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 217.22
+  exclusion.robots: 0.153
+  exclusion.robots.policy: 0.142
+  RedisCDXSource: 1.697
+  esindex: 0.012
+  LoadShardBlock: 194.712 (3)
+  PetaboxLoader3.datanode: 1151.683 (4)
+  CDXLines.iter: 17.682 (3)
+  PetaboxLoader3.resolve: 116.112 (2)
+  load_resource: 1138.202
+-->

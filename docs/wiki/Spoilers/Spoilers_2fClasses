@@ -1,0 +1,337 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Classes - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fClasses?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fClasses?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fClasses?action=fullsearch&amp;value=%2FClasses&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Classes</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fClasses?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fClasses">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fClasses?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fClasses?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fClasses?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fClasses?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fClasses?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fClasses?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fClasses?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fClasses?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fClasses?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fClasses">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Note that <em>italics</em> denote experimental classes. <hr size="3">
+ <ol>
+<li>
+<a href="#head-5afc73b8f683111043ba3f6a4d08d015f1e8b828">ToME 2.2.7 Classes</a></li>
+<ol>
+<li>
+<a href="#head-218852cd0d3f4a2711663fb44e487d91aa69a5bf">Warriors</a></li>
+<li>
+<a href="#head-2b3ab56ecd4443319f35fe81659af57422278bda">Rogues</a></li>
+<li>
+<a href="#head-15fab466c91ab2f6f4525a3af0b6a8b5d8bb0ce7">Archers</a></li>
+<li>
+<a href="#head-4b8f9c9ea779350e53bb5be6dcffddee75941c2c">Mages</a></li>
+<li>
+<a href="#head-dc9f86755d12d76a5f848778358cf09aa8a0ea1a">Priests</a></li>
+<li>
+<a href="#head-49b374122f28eeadb41b4c8adb372d3db294278f">Loremasters</a></li>
+</ol>
+
+</ol>
+
+ <hr size="3">
+ <h3 id="head-5afc73b8f683111043ba3f6a4d08d015f1e8b828">ToME 2.2.7 Classes</h3>
+<h4 id="head-218852cd0d3f4a2711663fb44e487d91aa69a5bf">Warriors</h4>
+<p>
+All warrior classes gain Fear Resistance at character level 30. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fAxemaster">/Axemaster</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fDemonologist">/Demonologist</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fHaftedmaster">/Haftedmaster</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fPolearmmaster">/Polearmmaster</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fSwordmaster">/Swordmaster</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fUnbeliever">/Unbeliever</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fWarrior">/Warrior</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-2b3ab56ecd4443319f35fe81659af57422278bda">Rogues</h4>
+
+    <ul>
+
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fAssassin">/Assassin</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fRogue">/Rogue</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-15fab466c91ab2f6f4525a3af0b6a8b5d8bb0ce7">Archers</h4>
+
+    <ul>
+
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fArcher">/Archer</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fRanger">/Ranger</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-4b8f9c9ea779350e53bb5be6dcffddee75941c2c">Mages</h4>
+
+    <ul>
+
+    <li>
+<p>
+<em><a href="./Spoilers_2fClasses_2fAlchemist">/Alchemist</a></em> EXPERIMENTAL 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fGeomancer">/Geomancer</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fMage">/Mage</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fNecromancer">/Necromancer</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fRunecrafter">/Runecrafter</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fSorceror">/Sorceror</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fThaumaturgist">/Thaumaturgist</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fWarper">/Warper</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-dc9f86755d12d76a5f848778358cf09aa8a0ea1a">Priests</h4>
+
+    <ul>
+
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fDark_2dPriest">/Dark-Priest</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fDruid">/Druid</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fMindcrafter">/Mindcrafter</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fPriest_20Of_20Eru">/Priest Of Eru</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fPriest_20Of_20Manwe">/Priest Of Manwe</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fPaladin">/Paladin</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-49b374122f28eeadb41b4c8adb372d3db294278f">Loremasters</h4>
+
+    <ul>
+
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fBard">/Bard</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fLoremaster">/Loremaster</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fMimic">/Mimic</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fMonk">/Monk</a> 
+</p>
+</li>
+    <li>
+<p>
+<a href="./Spoilers_2fClasses_2fPossessor">/Possessor</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fSummoner">/Summoner</a> 
+</p>
+</li>
+    <li>
+<p>
+<a class="nonexistent" href="./Spoilers_2fClasses_2fSymbiant">/Symbiant</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fClasses?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fClasses.text_html">RefreshCache</a> for this page (cached 2005-11-04 11:46:54)<br>
+<p><a href="./Spoilers_2fClasses?action=edit">EditText</a> of this page (last edited 2005-01-22 00:27:17 by <span title="wcnat-40-12.wheaton.edu"><a href="./FeathinSilyar">FeathinSilyar</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 01:23:26 Nov 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:35 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  esindex: 0.017
+  exclusion.robots: 0.216
+  load_resource: 100.218
+  LoadShardBlock: 553.854 (3)
+  exclusion.robots.policy: 0.201
+  captures_list: 741.997
+  PetaboxLoader3.resolve: 52.308
+  PetaboxLoader3.datanode: 97.591 (4)
+  CDXLines.iter: 21.491 (3)
+  RedisCDXSource: 162.034
+-->

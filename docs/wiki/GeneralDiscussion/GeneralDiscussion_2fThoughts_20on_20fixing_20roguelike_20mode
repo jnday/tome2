@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Thoughts on fixing roguelike mode - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=fullsearch&amp;value=%2FThoughts+on+fixing+roguelike+mode&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Thoughts on fixing roguelike mode</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>: Okay, so I finally got a bug up my proverbial to sit down and try to fix some of the problems in the rogue-like keyset mode.  Since my non-roguelike-mode experience is minimal to none, though, I figured I'd better float my proposed solutions for peer review before writing a botched patch that screws everyone else up. <p>
+For a first pass, I'm going to work on the two problems I run into most often: 
+</p>
+<hr>
+ Some store commands are on letters that are keymapped to something else in roguelike mode.  The obvious solution of simply disabling keymaps in stores is undesirable, since some inventory-management commands are still available within stores, and we still want, for instance, the '<tt>^D</tt>'&#8594;'<tt>k</tt>' keymap for the "destroy item" command to work.  The store main loop (<tt>do_cmd_store()</tt> in <tt>src/store.c</tt>) calls <tt>request_command()</tt> from <tt>src/util.c</tt> to accept commands; it is called with a special "shopping mode" flag set, but said flag appears to do exactly nothing. <p>
+I can think of three possible fixes: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Change the building actions in <tt>lib/edit/ba_info.txt</tt> so that none of them use keys that are remapped in roguelike mode.  This would touch a fair number of building actions, some of which don't really have any other particulary mnemonic choice of command letter. 
+</p>
+</li>
+    <li>
+<p>
+ Implement the existing but unused "shopping mode" flag to ignore the keymaps on certain characters remapped in roguelike mode.  Doable, but feels annoyingly hard-coded. 
+</p>
+</li>
+    <li>
+<p>
+ The idea I like best:  pass in to <tt>request_command()</tt> a list of characters for which keymaps should be ignored.  This list can be filled in by <tt>do_cmd_store()</tt> according to the building actions available in that store, and erased just before exiting <tt>do_cmd_store()</tt>.  One possible issue:  if the game can be saved while the character is in a store (via a menu selection, for instance), this list will either have to be saved in the save file or reconstructed upon reloading. 
+</p>
+</li>
+
+    </ul>
+
+
+<hr>
+ Commands entered from the inventory or equipment list appear to ignore all keymaps.  This appears to be the result of the way the command-entry code for <tt>do_cmd_inven()</tt> and <tt>do_cmd_equip()</tt> in <tt>src/cmd3.c</tt> is implemented: 
+<pre>        /* Get a command */
+        prt(out_val, 0, 0);
+
+        /* Get a new command */
+        command_new = inkey();
+
+        /* Restore the screen */
+        Term_load();
+        character_icky = FALSE;
+
+
+        /* Process "Escape" */
+        if (command_new == ESCAPE)
+        {
+                /* Reset stuff */
+                command_new = 0;
+        }
+
+        /* Process normal keys */
+        else
+        {
+                /* Hack -- Use "display" mode */
+                command_see = TRUE;
+        }
+</pre>AFAICT, this is done this way to allow for special handling of the <tt>ESCAPE</tt> key to exit the inven/equip list.  <tt>command_new</tt> is an "auto-command" mechanism; for instance, when you step onto a store entry square, the '<tt>_</tt>' enter-building command is automatically fed to <tt>request_command()</tt> via this mechanism.  The problem is that this auto-command mechanism bypasses all keymaps. <p>
+For this case, I don't see why we couldn't simply use <tt>request_command()</tt>, which already catches and returns the <tt>ESCAPE</tt> character in a reasonable fashion.  If it's imperative to restore the screen immediately after typing the first key (<em>cf.</em> the <tt>Term_load()</tt> call in the above code), we can add a new flag/mode to <tt>request_command()</tt> that implements that. 
+</p>
+<hr>
+ So.  I'll probably begin coding this up tomorrow, unless I hear objections before then.  And feel free to suggest any other issues or problems with roguelike mode that need fixing. <p>
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>:  Well, whaddaya know&#8212;it's tomorrow&#8230; <img src="./wiki/starshine/img/smile4.png" alt=";)" height="15" width="15">  I did eventually figure out, BTW, why <tt>do_cmd_{inven,equip}()</tt> don't call <tt>request_command()</tt> directly:  because then they'd have to process the commands themselves, which would be far too annoying.  Instead, I just added an extra flag to temporarily re-enable keymaps for this case. 
+</p>
+<p>
+I've worked up a <a class="external" href="./www.killerbunnies.org/angband/tome-roguefix.diff"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">first-pass patch</a> that appears to fix both the problems above.  I encourage users of both command sets to try this patch and alert me to any problems it may cause. 
+</p>
+<p>
+<a href="./JulesBean">JulesBean</a>: I haven't looked at Zizzo's patch yet, but I will. I just want to jot down another issue: 
+</p>
+<p>
+Some of the new ToME commands have poorly documented roguelike equivalents, or no roguelike equivalent at all. For example, the ability screen (which you have to access using '\N', since '\' is the 'access underlying command' escape). This is made more painful by the fact that searching the built-in docs is broken, and the commands section is now very big indeed. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Once I get into bringing over/reinventing the Documentation/Commands section (or whatever it's going to be called; I forget off the top of my head) it would probably be useful to have the roguelike equivalents on each page, plus (if need be) a coding section as well. I think I commented on that somewhere... I'll have to look. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode.text_html">RefreshCache</a> for this page (cached 2004-08-16 16:04:34)<br>
+<p><a href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode?action=edit">EditText</a> of this page (last edited 2004-08-16 16:04:33 by <span title="user-2ivelfu.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:34:03 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:10 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.datanode: 169.7 (4)
+  CDXLines.iter: 21.86 (3)
+  exclusion.robots: 0.231
+  LoadShardBlock: 183.254 (3)
+  PetaboxLoader3.resolve: 24.668
+  exclusion.robots.policy: 0.215
+  captures_list: 214.227
+  esindex: 0.013
+  load_resource: 59.762
+  cdx.remote: 0.092
+-->

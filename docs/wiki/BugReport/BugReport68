@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport68 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport68?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport68?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport68?action=fullsearch&amp;value=BugReport68&amp;literal=1&amp;case=1&amp;context=40">BugReport68</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport68?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport68">View</a></li>
+<li><a title="Diffs" href="./BugReport68?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport68?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport68?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport68?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport68?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport68?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport68?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport68?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport68?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport68">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MayLith">MayLith</a>: I'm not sure if this is a bug, but it certainly seems odd. <p>
+My L50 Priest killed an Ancient red dragon on L71 of Angband, and it dropped.... *nothing*. Is that supposed to be possible? I've never seen that happen before; all the ADs I've killed previously have splattered treasure all over. I was using Manathrust, and there was no water or lava in the area. There was plenty of wide open floor available. Slightly later on the same level, I came across another Ancient red dragon who dropped as expected. 
+</p>
+<p>
+My character's sanity was mildly damaged, so that *might* have been it, but I was watching and I didn't see any fluctuation at the time I encountered the first ARD. 
+</p>
+<p>
+ZV: I've seen Great Wyrms of Foo dropping nothing too. Full sanity. Not that you don't get enough big dragons to pile the treasure ;-), but still odd. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: Did the message "Compressing items" appear at the level creation by any chance? 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: No, no messages of that sort. (In addition, I was playing with always small levels, anyway.) 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I've seen this in long fights in Erebor.  I always assumed the item limit was hit, and further generated monsters were generated with no items.  In other words, it's an unfortunate consequence of ToME's generating monsters with items instead of generating them at monster death. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: The thing about it is, it was a small level and really not all that much overall loot (or monsters, for that matter) on the level. That's why I wondered if it might be a bug. I'd expect (or at least be resigned to) such an effect on a large level with a huge number of monsters, but this was different. I wish I'd have kept a savefile or at least a screenshot. Ah well. 
+</p>
+<p>
+*SPOILY* 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Don't mark it spoily here. Mark the main thread! (BTW, it's 'Wight' ;-)) 
+    </ul>
+
+
+<p>
+Simon: I've had no quest drop when doing the barrows down whight quest. I've had telepathy and tracked down every last monster and stepped on every square, but no filty rag of the whight was dropped. I've had this 3 times, and each time it was a game where I saved game within the quest. 
+</p>
+<p>
+So even quest hooks and objects defined only in code can have a drop problem. The minotaur of the labyrinth and the sandqueen didn't drop too, on occasions. 
+</p>
+<p>
+<strong><a href="./AlexShuman">AlexShuman</a></strong>: <a href="./BugReport178">BugReport178</a> is similar to, items were there, but they disappeared due to same bug. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport68?action=refresh&amp;arena=Page.py&amp;key=BugReport68.text_html">RefreshCache</a> for this page (cached 2004-10-09 12:53:13)<br>
+<p><a href="./BugReport68?action=edit">EditText</a> of this page (last edited 2004-10-09 12:53:12 by <span title="user-uivenhm.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:07:22 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:32 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1661.091
+  exclusion.robots: 0.077
+  exclusion.robots.policy: 0.072
+  RedisCDXSource: 4.028
+  esindex: 0.006
+  LoadShardBlock: 1640.297 (3)
+  PetaboxLoader3.datanode: 159.494 (4)
+  CDXLines.iter: 14.896 (3)
+  load_resource: 920.763
+  PetaboxLoader3.resolve: 868.652
+-->

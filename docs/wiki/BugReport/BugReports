@@ -1,0 +1,2157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">456</script><title>BugReports - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReports?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReports?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReports?action=fullsearch&amp;value=BugReports&amp;literal=1&amp;case=1&amp;context=40">BugReports</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReports?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport/BugReports">View</a></li>
+<li><a title="Diffs" href="./BugReports?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReports?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReports?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReports?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReports?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReports?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReports?action=LikePages">LikePages</a></li>
+<li><a href="./BugReports?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReports?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReports">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Add new bugs by editing this page and adding them to the bottom of the list.  Follow the format of the other bugs in the list, please. Developers will move fixed or otherwise resolved bugs to the resolved section of the list. <p>
+Only put a summary of the bug on this page.  Write detailed information you have for us on the BugReportN page and tell us about it there.  Mark the bug as a spoiler if the detailed information contains one. 
+</p>
+<p>
+Important: Do NOT write the full bug description onto this page.  Also, never assume the reader of the full Bug Report page has read this page first. 
+</p>
+<p>
+And please, don't bother to recycle bug numbers. There are plenty to go around. 
+</p>
+<p>
+-- <a href="./NeilStevens">NeilStevens</a> 
+</p>
+<p>
+<em>Warning</em>: Many of the links on this page lead to spoily information. Even if the original bug report is not spoily, followup discussion can become so. You have been warned. 
+</p>
+<p>
+-- <a href="./MayLith">MayLith</a> 
+</p>
+<hr size="3">
+ <ol>
+<li>
+<a href="#head-eefab6d53e95f667ad532550877840b82937e57e">ToME 2 Bugs</a></li>
+<ol>
+<li>
+<a href="#head-84853029b3c458433b6dabb3d81499171599be0c">New Bug Reports</a></li>
+<li>
+<a href="#head-aa72544bc174f2e44212cf976ac89087c8fae125">In-game typographical errors</a></li>
+<li>
+<a href="#head-ef561ed9fcaf71a3001eaa26bb0062d6729f9344">Alchemy Bugs</a></li>
+</ol>
+
+<li>
+<a href="#head-1ce5e2e6fe9ba4174431b27cb2de2a28a996ddf2">ToME 3 Bugs</a></li>
+<li>
+<a href="#head-5487a7107b059576bb4da22224b5eb7c78a16278">Module Bugs</a></li>
+<ol>
+<li>
+<a href="#head-a797e30923ac1be590300ce6b08e63b4e6dc6688">Theme</a></li>
+<li>
+<a href="#head-b567fd5abc1a2dae8e240f74be63cae9976e0c43">Hobbit</a></li>
+</ol>
+
+<li>
+<a href="#head-491db67f140a79d4c69d6063fe94089f04a0a6da">Website bugs</a></li>
+<li>
+<a href="#head-ef26fa55fa8a9e1f0cba585117e4ef2bab8304ab">Resolved Bugs</a></li>
+<ol>
+<li>
+<a href="#head-04e9462c0ff02bb9032b92abd45881a3c7e15fb7">Modules</a></li>
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr size="3">
+ <h2 id="head-eefab6d53e95f667ad532550877840b82937e57e">ToME 2 Bugs</h2>
+<h3 id="head-84853029b3c458433b6dabb3d81499171599be0c">New Bug Reports</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./BugReport/BugReport1">BugReport1</a> (2.2.7) Fates can produce silly artifacts {fix included} 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport2">BugReport2</a> (2.2.7) Traps can let you skip a random quest 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport3">BugReport3</a> (2.2.7) Thaumaturgy can make the game un-winnable <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport4">BugReport4</a> (2.3.0) Misc skill can be selected in the 'G'ain skill menu 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport9">BugReport9</a> (2.2.7) Rogue keyset conflicts with on-screen instructions in shops {fix included} 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport10">BugReport10</a> (2.3.0) Trapdoor traps on chests 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport13">BugReport13</a> (2.2.7) Hobbit set gives +1 wis/cha instead of +4 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport14">BugReport14</a> (2.2.7) HTML screendump crashes game, corrupts savefile, when window &gt; 255x255 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport17">BugReport17</a> (2.2.7) "Rod of something" - should this object exist? 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport20">BugReport20</a> (2.2.6) Monsters drop a corpse even without the DROP_CORPSE flag 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport21">BugReport21</a> (2.2.2 to 2.3.0) stuck in forest due to ambush! 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport23">BugReport23</a> (2.2.6) Repeating companions on a persistent level <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport25">BugReport25</a> (2.3.0) Possessors have a huge mana problem 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport26">BugReport26</a> (2.2.7) Reflection and traps 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport28">BugReport28</a> (2.3.0) Archers and mage-types can target me when I'm invisible 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport29">BugReport29</a> (2.3.0) Globe of Light doesn't take effect immediately 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport31">BugReport31</a> (2.2.6) Shake sends the princess away 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport32">BugReport32</a> (2.2.7) Sandworm queen vanishing 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport33">BugReport33</a> (2.2.x) Issues when not using preserve mode 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport34">BugReport34</a> (2.x) Tab Key doesn't switch inventory/equip in secondary window when choosing a reward 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport35">BugReport35</a> (2.2.7) Overland (time) travel is too fast 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport37">BugReport37</a> (2.2.6) While in possessed body, main screen shows diffrent armour class than character screen (C). 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport38">BugReport38</a> (2.2.6) Character screen shows Mel.dmg/rnd only for the first weapon. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport39">BugReport39</a> (2.2.6) Average ammo damage not showing for certain bodies. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport40">BugReport40</a> (2.2.6) Fighter's hall upgrades only weapon in first weapon slot. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./BugReport/BugReport42">BugReport42</a> (2.2.7) When a void jumpgate is created on a up staircase, it changes it to a branch stair. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport47">BugReport47</a> (2.3.0 CVS) Negative sanity doesn't kill you 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport52">BugReport52</a> (2.3.0 CVS) Artifacts permanently inscribed 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport61">BugReport61</a> (2.2.7) Mind Steal spell is practically unusable 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport62">BugReport62</a> (2.2.7) Saving Gondolin after wearing The One Ring. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport64">BugReport64</a> (2.3.0 CVS) Casting wrong monster spell. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./BugReport/BugReport65">BugReport65</a> (2.2.7) Zombie player class still takes drowning damage (other undead probably too) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport66">BugReport66</a> (2.3 old CVS) Sandworm Queen has no armor 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport67">BugReport67</a> (2.2.7) Wrong cause of death for terrain damage {fix included} 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport70">BugReport70</a> (2.3.0 CVS) Tomes with discounts merge, despite the option 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport73">BugReport73</a> (2.3.0 CVS) Hidden powers shown in the resistance grid 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport74">BugReport74</a> (2.3.0 CVS) empty space shown as granite wall (vault+stone prison) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport75">BugReport75</a> (2.3.0 CVS) Inertia Control is broken 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport76">BugReport76</a> (2.3.0 old CVS) A special wand gets broken <strong>Spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport82">BugReport82</a> (2.3 old CVS) beastmaster confused over identically-named monsters 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport85">BugReport85</a> (2.2.7) Ring of Phasing lets you see through walls 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport86">BugReport86</a> (2.3.0 old CVS) death fate bugs 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport89">BugReport89</a> (2.2.7) Deathmold's inherent "blink" isn't targeted in diagonal directions 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport90">BugReport90</a> (2.2.7) Teleported staircase has trap detection turned on 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport91">BugReport91</a> (2.2.7) Getting locked out of shops for no reason 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport92">BugReport92</a> (2.3.0 CVS) A small lost sword quest bug <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport93">BugReport93</a> (2.3.0 CVS) Weird display in Nether Realm <strong>Spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport102">BugReport102</a> (2.2.7) Two instances of corrupted listings in the Known Objects list <strong>*spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport103">BugReport103</a> (2.2.7) Known monsters list issue 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport105">BugReport105</a> (2.2.7) Mana drain can interrupt resting. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport107">BugReport107</a> (2.3.0) (Barehanded combat) is shown on list of activateable items. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport108">BugReport108</a> (2.2.7) Can't run over tainted water. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport109">BugReport109</a> (2.3.0 old CVS) Thunderlords of fire?? 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport110">BugReport110</a> (2.3.0 old CVS) Paths of the dead guardian won't show up 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport111">BugReport111</a> (2.3.0 old CVS) Exploding bolts and arrows not recognized by automatizer 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport115">BugReport115</a> (2.3.0) Escape key and macro bug 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport116">BugReport116</a> (2.3.0) Gods are forgiving (at least Melkor) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport122">BugReport122</a> (2.3.0) Worn symbiote do not heal while traveling in the map 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport124">BugReport124</a> (2.2.7) Monsters summoning outside protected radius <strong>Maybe spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport125">BugReport125</a> (2.3.0) The big Gondolin quest <strong>Spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport126">BugReport126</a> (2.x)   Genocide issue 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport128">BugReport128</a> (2.3.0) Arena levels are always unlit 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport129">BugReport129</a> (2.2.7) Uniques, including ones that should be hostile, can be made companions 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport130">BugReport130</a> (2.2.7) Offensive body abilities (possessors)do less damage than advertised 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport132">BugReport132</a> (2.2.7) Searching inside in-game help produces ugly output 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport134">BugReport134</a> (2.2.7) Spectres possessing corpses can still walk through walls 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport137">BugReport137</a> (2.3.0) Extra character in r_info.txt causes scribe problems 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport138">BugReport138</a> (2.3.0) Kavlax the Many Headed has only one head 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport143">BugReport143</a> (2.3.0) Junk (sticks, pottery shards) is unid'd / unstackable at gen. With poss. fix. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport144">BugReport144</a> (2.3.0) Weird level generation (ironman rooms) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport145">BugReport145</a> (2.3.0) ToME crashes when using a macro 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport152">BugReport152</a> (2.2.7) Crash with darkness spell *spoiler* 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport153">BugReport153</a> (2.2.7) Antimagic should prevent this... 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport154">BugReport154</a> (2.2.7) Possessor of Illusionist crashes when casting Darkness 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport171">BugReport171</a> (2.3.0) Chest traps leave blank cause of death <strong>slight spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport173">BugReport173</a> (2.3.0) Continuum disruption doesn't check for level drain 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport174">BugReport174</a> (2.3.0) identification of magic object with low skill 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport177">BugReport177</a> (2.2.7) Ring of Precognition is sometimes incorrect about shop contents 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport189">BugReport189</a> (2.2.7) Thieves quest minor wierdness 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport190">BugReport190</a> (2.3.0) lacking info on character screen <strong>spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport192">BugReport192</a> (2.2.7) Duplicate artifacts; not on a persistent level <strong>Spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport193">BugReport193</a> (2.3.0) Character dump show unresolved quests 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport197">BugReport197</a> (2.3.0) Pressing 'n' key after casting runespell only brings up runecraft menu 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport200">BugReport200</a> (2.3.0) Giant white lice can move across lava without taking damage 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport202">BugReport202</a> (2.3.0) Dwarves can select distant wall for secret passages 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport214">BugReport214</a> (2.3.0) Monster memory incomplete for ego monsters and uniques 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport218">BugReport218</a> (2.3.0) Not fixed recall bug 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport219">BugReport219</a> (2.3.0) Automatizer rules starting with comments cause LUA errors during play 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./StatusReport220">StatusReport220</a> (2.3.0) 2.3/3.0 Special-level reward status report <strong>spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport221">BugReport221</a> (2.3.0) cold resist with cold immunity, and wasted resists 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport224">BugReport224</a> (2.3.0) Error in font-win.prf 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport225">BugReport225</a> (2.3.0) Antimagic mutual exclusion question not present for Symbiosis 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport666">BugReport666</a> (2.2.7) Problems with pets not giving way &lt;--<em>Do not do this.... *roll*</em> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport232">BugReport232</a> (2.3.0) Spell disarm destroys fountains with traps on them 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport234">BugReport234</a> (2.3.0) Connected stairs fail at branches 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport235">BugReport235</a> (2.3.0) Traps way too easy to see in certain princess quests 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport238">BugReport238</a> (2.2.7) Autosaving and towns 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport240">BugReport240</a> (2.3.0) Yavanna piety wierdness 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport241">BugReport241</a> (2.2.7) God quest experience check 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport242">BugReport242</a> (2.2.7) *ID* and browsing spellbooks 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport243">BugReport243</a> (2.2.7) Moria to Khazad-Dum confusion 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport245">BugReport245</a> (2.3.0) Scroll-recharged staff must be dropped to see its stats 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport247">BugReport247</a> (2.3.0) Possessor lose a turn when escaping powers 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport250">BugReport250</a> (2.3.0) Bearform combat skill has many bugs 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport252">BugReport252</a> (2.3.0) Killed small trees become dead tree (not small) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport253">BugReport253</a> (2.3.0) Lacking provenience for many object <strong>slightly spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport254">BugReport254</a> (2.3.0) Record Macro in Roguelike Commands Adds 'S' to End of Macro 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport255">BugReport255</a> (2.3.0) Where is the Guardian? 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport257">BugReport257</a> (2.2.7) Symbiotic pets can be leveled by dropping and releasing 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport258">BugReport258</a> (2.2.7) Possession + Melkor's HP sacrifice = unlimited damage 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport259">BugReport259</a> (2.3.0) Remember permalit grids - prob. unwanted effect on controlled teleport 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport260">BugReport260</a> (2.3.0) Unique dungeon name appear even when re-entering same level <strong>spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport261">BugReport261</a> (2.3.0) Lothlorien quests bugs *Spoily* 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport262">BugReport262</a> (2.2.7) Escape from nether. *Spoily* 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport263">BugReport263</a> (2.3.0) Bizarre dungeon layout after falling through trap door in chest in temple 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport265">BugReport265</a> (2.2.7) Pets which "destroy weaker monsters" can destroy quest monsters 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport266">BugReport266</a> (2.3.0) The Great Axe of Eonwe should be 2H 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport267">BugReport267</a> (2.2.7) Connected stairs fail in flat dungeons like Barrow-downs 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport268">BugReport268</a> (2.2.7) A second instance of hypnotized unique can spawn 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport269">BugReport269</a> (2.2.7) Wand of Demon Blade works when holding no weapon 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport270">BugReport270</a> (2.2.7) Macros keep executing after death 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport271">BugReport271</a> (2.2.7) Dungeon town levels regenerated 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport272">BugReport272</a> (2.2.7) Thaumaturgy prompt is not cleared 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport273">BugReport273</a> (2.2.7) "Disarm" command ignores monster traps when regular traps are present. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport275">BugReport275</a> (2.3.0) Output is not cleared in race legends screen 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport276">BugReport276</a> (2.3.0) Quest should be disabled when plot makes it redundant <strong>spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport277">BugReport277</a> (2.3.0) Necromancy Raise Dead skill 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport280">BugReport280</a> (2.3.0) Breeding pets act strangely in wilderness 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport281">BugReport281</a> (2.2.7) Artifact repetition in notes when using Listen to the Music 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport282">BugReport282</a> (2.3.0) Sun rises, but still in the dark 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport283">BugReport283</a> (2.3.0) Unidentified rings of Spell can still have spells stored 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport286">BugReport286</a> (2.3.0) Pseudo-ID + autosquelch = potential problem 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport287">BugReport287</a> (2.3.0) Can't summon in dungeon towns 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport288">BugReport288</a> (2.3.0) Morgoth worshippers killed by own mass genocide 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport289">BugReport289</a> (2.3.0) Shake makes princess quest unbeatable 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport291">BugReport291</a> (2.3.0) Weirdness with secret doors <strong>slight spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport292">BugReport292</a> (2.2.7) Savefile gets corrupted when &gt;65536 objects 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport293">BugReport293</a> (2.2.7) Really big thaumaturgy destruction causes crash. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport295">BugReport295</a>: (2.2.7) Find secret passages works when spacetime is stabalized 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport296">BugReport296</a>: (2.2.7) Find secret passages ability lets you pass over monsters 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport297">BugReport297</a>: (2.3.0) Potions of detonations on the ground don't stack explosions 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport299">BugReport299</a>: (2.3.0) Phase door generate disconnected jumpgates when blocked 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./BugReport/BugReport300">BugReport300</a>: (2.3.0) Beorning bugs  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport301">BugReport301</a> (2.3.0) Noxious cloud make undead pets angry 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport302">BugReport302</a> (2.3.0) Savefiles lost if LIBDIR changed to some other value at compiletime 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport303">BugReport303</a> (2.3.0) Duplicate dungeon town shop fix {fix included} 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport304">BugReport304</a> (2.3.0) Inaccessible rooms *slightly spoily* 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport305">BugReport305</a> (2.3.0) Don't use tmpnam 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport306">BugReport306</a> (2.3.0) Autosave when ambushed behaves weird. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport307">BugReport307</a> (2.3.0) Inertia Control used for no mana cost 
+</p>
+</li>
+    <li>
+<p>
+ Bug report309 (2.3.0) Turns do not automatically end; need to press enter 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport311">BugReport311</a> (2.3.0) Disarming can get you stuck in a special level <strong>*spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport312">BugReport312</a> (2.2.5, earlier?) Duration attack spells hit multiple times 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport314">BugReport314</a> (2.3.1) Broken Savefile (not trying to import!) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport315">BugReport315</a> (2.3.0) Bubble Vault has unreachable area 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport316">BugReport316</a> (2.2.7) Sentient Weapon can be duplicated *spoiler?* 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport317">BugReport317</a> (2.3.0) Wrong flags shown in char sheet for some rings *spoiler* 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport318">BugReport318</a> (2.3.1) Missing god quests 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport320">BugReport320</a> (2.4.0) Lost sword quest weird reward pattern 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport321">BugReport321</a> (2.4.0) Overland view bug 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport322">BugReport322</a> (2.3.1) Subrace skill mods misdirected 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport323">BugReport323</a> (2.3.1) Cursed item status not shown in character detail 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport324">BugReport324</a> (2.3.1) Wyrm of Power companion won't move over shallow water 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport325">BugReport325</a> (2.3.1) Can't displace flying pet onto rubble 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport326">BugReport326</a> (2.3.1) Raw meats of corpse-less/incorporeal monsters 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport327">BugReport327</a> (2.3.1) Wrong AC displayed when in a possessed body 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport328">BugReport328</a> (2.3.1) Pet's poison breath can kill uniques 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport329">BugReport329</a> (2.3.1) Flying not reported on extended attribute list 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport330">BugReport330</a> (2.3.1) Trueart diggers still have combat bonuses 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport332">BugReport332</a> (2.3.0) No way to automatize by ego type. {fix included} 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport333">BugReport333</a> (2.3.1) Can still use stairs while tree roots is cast 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport334">BugReport334</a> (2.3.1) Top of Mount Doom multiplies companions 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport335">BugReport335</a> (2.3.1) Changing default X11 font causes savefile incompatibility (?) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport336">BugReport336</a> (2.3.1) Symbiont summonned pets created with loot 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport337">BugReport337</a> (2.2.6--2.3.1) The visible monsters list shows all mimics on map 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport338">BugReport338</a> (2.2.7) Finding multiple Ring of Tulkas 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport339">BugReport339</a> (2.3.1) Potential bug with psi damage <strong>(spoily)</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport340">BugReport340</a> (2.3.1) Spells cancelling eachother without warning 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport341">BugReport341</a> (2.2.7) Princess not generated (small level) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport342">BugReport342</a> (2.2.7) Randart with resistance and immunity to the same element 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport343">BugReport343</a> (2.2.7) Non-persistence on Mt Doom 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport344">BugReport344</a> (2.3.1) Already ID'd object type found un-ID'd again 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport345">BugReport345</a> (2.3.1) Fonts not working correctly 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport346">BugReport346</a> (2.3.1) Automatizer does not destroy unidentified mushrooms 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport347">BugReport347</a> (-2.3.1) RES_MORGUL in artifacts behaves illogically <strong>(spoily)</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport348">BugReport348</a> (2.3.1) neutral monsters may be chosen for random quests 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport349">BugReport349</a> (2.3.1) a trueart special ability doesn't trigger LUA <strong>spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport350">BugReport350</a> (2.3.1) Tunneling and secret doors in Melkor temples 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport351">BugReport351</a> (2.3.1) Going to world map with extra arms 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport352">BugReport352</a> (2.3.1) Summon Demon spell dosn't work 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport353">BugReport353</a> (2.3.1) Sentient weapon display doesn't follow "exp_need" option 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport354">BugReport354</a> (2.3.1) Negative racial luck becomes positive <strong>(spoily)</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport355">BugReport355</a> (2.3.1) The Very Nasty Staircase (potentially spoily?) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport356">BugReport356</a> (2.3.1) Breaths create wrong floor tiletypes 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport357">BugReport357</a> (2.2.7) Treasure splatters across impenetrable barrier 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport358">BugReport358</a> (2.3.1) Grow trees has no effect 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport359">BugReport359</a> (2.3.1) Spell targetting range and actual range clash 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport360">BugReport360</a> (2.3.1) Lua errors when loading maps on amd64 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport363">BugReport363</a> (2.3.1) <a class="nonexistent" href="./OneRing">OneRing</a>+<a class="nonexistent" href="./TrapOfSilentSwitching">TrapOfSilentSwitching</a> does not update related Ring-Quests, making game unwinable <strong>Spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport364">BugReport364</a> (2.3.1 Source Compile) Graphical display issue under cygwin in WinXP (March 23rd, 2005) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport380">BugReport380</a> (2.3.1) Sentient weapons do not gain experience when you are using the spell demon blade 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport381">BugReport381</a> (2.3.1) Eru-resurrection when in undead form doesn't restore your HP correctly 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport382">BugReport382</a> (2.3.1) Yavanna prayer "Water Bite" effect and description does not match. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport383">BugReport383</a> (2.3.1) Companions and symbiant leveling loophole. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-aa72544bc174f2e44212cf976ac89087c8fae125">In-game typographical errors</h3>
+This section should be used to report in-game typos, spelling or grammatical errors. 
+    <ul>
+
+    <li>
+<p>
+ <a href="./BugReport/BugReport99">BugReport99</a> (2.2.7) "Your anti-magic field disrupts It spell." 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport141">BugReport141</a> (2.2.7) Typo in description of trueart ring (spoiler) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport148">BugReport148</a> (2.3.0) Trapkit names and description 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport170">BugReport170</a> (2.2.7) Game options - "Angband" should be "ToME" 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport207">BugReport207</a> (2.2.7) Misleading information in quest introduction speech (spoilers) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport227">BugReport227</a> (2.x) Double article in junkart messages 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport231">BugReport231</a> (2.2.7) contextual help - typo/awkward 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport244">BugReport244</a> (2.2.7) Bree horseman reward typo (spoiler) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport274">BugReport274</a> (2.2.7) Gondolin Troll invasion quest reward typo (spoiler) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport279">BugReport279</a> (2.3.0 CVS) "You cannot get anymore companion." 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport284">BugReport284</a> (2.3.0) "Rooms are available only at night for undeads" 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport285">BugReport285</a> (2.3.0) Wrong light radius for artifact lights in the Halls of Mandos 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport309">BugReport309</a> (2.3.0) Confusing description of trueart robe (<strong>spoiler</strong>) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport310">BugReport310</a> (2.3.0) Misleading text in late quest (<strong>spoiler</strong>) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport313">BugReport313</a> (2.2.7) Bree horseman - typo in getting the quest (spoiler) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport331">BugReport331</a> (2.3.1) Wrong statement in Melkor help page 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport365">BugReport365</a> (2.3.1) Spell learning in birth.txt 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-ef561ed9fcaf71a3001eaa26bb0062d6729f9344">Alchemy Bugs</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./BugReport/BugReport7">BugReport7</a> (2.3.0) when the failure rate of alchemy appears, it's too late you might die. {fix included} 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport8">BugReport8</a> (2.3.0) rings of slaying (and some others?) rerolled when ring made indestructible 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport11">BugReport11</a> (2.2.7) Magic essence price for starting an artifact is anormal 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport15">BugReport15</a> (2.2.7) Alchemy ego adding may result in "empty" artifacts! 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport16">BugReport16</a> (2.3.0) Cannot artifact - many items! 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport43">BugReport43</a> (2.2.7) Artifact Experience negative overflow when increasing pval 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport45">BugReport45</a> (2.3.0) Artifacts can't gain spell power bonuses, but pval affects it anyhow 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport46">BugReport46</a> (2.3.0) Raising pval is not allowed without adding a flag in Artifact Creation 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport96">BugReport96</a> (2.3.0) Alchemy, creating dagger of slaying duplicates base damage 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport112">BugReport112</a> (2.3.0 old CVS) Exploding bolts and arrows artifacts - explode and remain 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport142">BugReport142</a> (2.3.0) Alchemy: re-apply an ego other than the first applied, powerful cheat, !2.2.6 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport181">BugReport181</a> (2.3.0) Alchemy: Some known recipes are not listed in the essence lists. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport256">BugReport256</a> (2.3.0) When potions are made, empty bottle may remain 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-1ce5e2e6fe9ba4174431b27cb2de2a28a996ddf2">ToME 3 Bugs</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./BugReport/BugReport364">BugReport364</a> (CVS - March 23, 2005) Graphical display issue under cygwin in WinXP 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-5487a7107b059576bb4da22224b5eb7c78a16278">Module Bugs</h2>
+<h3 id="head-a797e30923ac1be590300ce6b08e63b4e6dc6688">Theme</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./ThemeBug6">ThemeBug6</a> - t-engine freezes sometimes in melee 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug11">ThemeBug11</a> (1.1.2)(2.3.1) Indestructible Tome Stacks with Fireproof Tome 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug15">ThemeBug15</a> (1.1.2)(2.3.1) fireproof quest fails to recognise quest item 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug16">ThemeBug16</a> (1.1.2)(2.2.7) Character sheet problem with Demon class 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-b567fd5abc1a2dae8e240f74be63cae9976e0c43">Hobbit</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./HobbitBug2">HobbitBug2</a> princess doesn't get generated in Orc Caves 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-491db67f140a79d4c69d6063fe94089f04a0a6da">Website bugs</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./BugReport/BugReport136">BugReport136</a> The text of the Angband version history is duplicated 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ef26fa55fa8a9e1f0cba585117e4ef2bab8304ab">Resolved Bugs</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./BugReport/BugReport5">BugReport5</a> (2.2.7) Savefile broke! Unable to read inventory 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport6">BugReport6</a> (2.2.7) staves disappear and gloves are cloned when alchemists create staves that unstack. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport12">BugReport12</a> (2.2.7) Wands fail rates independant of everything but magic device skill(was intended, but not documented). 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport18">BugReport18</a> (2.3.0 CVS) LUA: attempt to index field `stick' (a nil value) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport19">BugReport19</a> (2.3.0) Many squares are black, noticably walls  after load game. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport22">BugReport22</a> (2.3.0 CVS) ent shown as fire resistant 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport24">BugReport24</a> (2.3.0 CVS &amp; 3.0.0 CVS) Typo in Firewall 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport27">BugReport27</a> (2.3.0 CVS) Learned skills missing from skills list 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport30">BugReport30</a> (2.2.7) Automatizer problem 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport36">BugReport36</a> (2.3.0 CVS) Where did wall destruction thaumaturgic spell go? 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport41">BugReport41</a> (2.3.0 CVS) Artifact does not recharge <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport44">BugReport44</a> (2.3.0) Some class/race combination starts with 0 Weaponmastery (was: Can't find where to change melee style). 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport48">BugReport48</a> (2.2.5) Don't need to kill something in poisoned water quest 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport49">BugReport49</a> (2.3.0 CVS) Farmer Maggot's quest and the resurrection scroll 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport50">BugReport50</a> (2.3.0 CVS) FF Quest and recall 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport51">BugReport51</a> (2.2.7) When moving by Probability Travel, DTrap message doesn't update 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport54">BugReport54</a> (2.3.0 CVS) starting Thunderlord Stealth: Legendary [32] 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./BugReport/BugReport54b">BugReport54b</a> (2.3.0) -1600 Stealth for Thunderlords, should be -16000 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport53">BugReport53</a> (2.2.7) Invisibility and Melee 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport55">BugReport55</a> (2.3.0 CVS) List of useless and silly objects (portable hole, etc) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport56">BugReport56</a> (2.3.0 CVS) Feelings and slays - unable to sort them by importance! 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport57">BugReport57</a> (2.3.0 CVS) Groo's speech: all he says is '1' 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport58">BugReport58</a> (2.2.7) Upgraded Savefile &amp; Symbiot 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport59">BugReport59</a> (2.2.7) Climbing flag missing in char sheet 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport60">BugReport60</a> (2.2.7) Flags from symbiotes don't appear on the character sheet 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport63">BugReport63</a> (2.2.7) Bizzare Princess quest 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport68">BugReport68</a> (2.2.7) Ancient dragon and... no drop? 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport69">BugReport69</a> (1.0.0--2.3.0 CVS) Level feelings usually too high 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport71">BugReport71</a> (2.2.7) Rangers can't pick Eru in character creation 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport72">BugReport72</a> (2.2.7) Not all visible monsters show up on full-level map 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport77">BugReport77</a> (2.3.0) Sterilize staff not alchemyable 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport78">BugReport78</a> (2.2.7) Rings of Slaying affect ranged to-hit but not ranged to-dam 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport79">BugReport79</a> (2.2.7) Sometimes when using * to target a creature produces a random creature name. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport80">BugReport80</a> (2.2.7) In-game message text formatting <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport81">BugReport81</a> (2.2.7) Portable hole and other items - text formatting 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport83">BugReport83</a> (2.3.0 CVS) Dark swords of nothingness more powerful than they should be 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./BugReport/BugReport84">BugReport84</a> (2.3.0 CVS) Incorrect Lvl change?!? (up staircase in Mdr 66 leads to MDm 85) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport87">BugReport87</a> (2.3.0 CVS) notification of curse or pseudo-ID bugs 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport88">BugReport88</a> (2.3.0 (13 August)) Elven Cloaks and scrolls of artifact creation 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport94">BugReport94</a> (2.3.0 CVS) Spelling when wearing ring. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport95">BugReport95</a> (2.3.0) Visits to Moria cause strange effects on the player location 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport97">BugReport97</a> (2.3.0) Got 6 skill points after gaining first level(!) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport98">BugReport98</a> (2.3.0 CVS) "It tries to breed but he fails" 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport100">BugReport100</a> (2.x) Things that kill the endgame uniques in one round.  <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport101">BugReport101</a> (2.2.7) Dwarven Barbarian Axemasters have 1.250 Magic-Device skill modifier **updated, sorry have details now** 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport104">BugReport104</a> (2.2.7) Don't get hungry in wilderness when immensely burdened 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport106">BugReport106</a> (2.2.7) "Well, you have no fate, anyway I'll keep your money!" 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport113">BugReport113</a> (2.3.0) Paralysis while poisoned results in dying by starvation, not poison 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport114">BugReport114</a> (2.3.0) Stealth issue with race/class combo 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport117">BugReport117</a> (2.2.7) Quest typo <strong>Would be a spoiler, but I think I de-spoiled it</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport119">BugReport119</a> (2.2.7) Quest typo <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport120">BugReport120</a> (2.2.7) Out-of-genre unique monster encountered when joke/Z/Cthulu monsters turned off <strong>Spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport121">BugReport121</a> (2.2.6) Crash exiting Thunderlord quest (stairs on jumpgate) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport127">BugReport127</a> (2.3.0) bolts worn with instruments 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport131">BugReport131</a> (2.2.7) Death Orbs immune to monster melee attacks 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport133">BugReport133</a> (2.3.0) Firewall spell says "duration" where maybe it should say "range" 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport135">BugReport135</a> (2.2.7) Typo in book4.txt (a text-type scroll) <strong>*Spoily*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport139">BugReport139</a> (2.2.7) Stange Hall Of Fame Behaviour 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport140">BugReport140</a> (2.2.7) Typo in description of trueart weapon (spoiler) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport146">BugReport146</a> (2.2.7) Typo in description of trueart light source (spoiler) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport147">BugReport147</a> (2.3.0) Hobbit Loremaster unable to wield melee weapons 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport167">BugReport167</a> (2.2.7) Special monster generation out of expected dungeon <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport168">BugReport168</a> (2.2.7) Unexpected down stairs very deep in late-game dungeon <strong>*Spoiler*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport169">BugReport169</a> (2.2.7) Missing space in uniques monster memory 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport172">BugReport172</a> (2.3.0) Food issues for zombies, vampires and ents 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport175">BugReport175</a> (2.3.0) Some wrong spell descriptions 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport176">BugReport176</a> (2.3.0) k_info.txt item descriptions (spoilers) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport179">BugReport179</a> (2.3.0) Scroll of something recipe is given at game start 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport178">BugReport178</a> (2.3.0) Guaranteed items carried by monsters can still disappear during/after dungeon generation 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport182">BugReport182</a> (2.2.7) Mispelled trap name 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport191">BugReport191</a> (2.3.0) cancelling shop *identification* cost money anyway 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport195">BugReport195</a> (2.3.0) Monk Char screen bugs 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport196">BugReport196</a> (2.3.0) Online help documentation typo 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport198">BugReport198</a> (2.3.0) "Ability to generates an antimagic field" 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport199">BugReport199</a> (2.3.0) Can rest on void jumpgates by pressing '5' 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport201">BugReport201</a> (2.3.0) Globe of light, level 1, does nothing. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport204">BugReport204</a> (2.2.7) End game Char dump mispellings 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport205">BugReport205</a> (1.1.0) (Theme module) Game crashes randomly at completion of Princess quest 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport206">BugReport206</a> (2.3.0) Diggers can receive "of Earthquakes" 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport208">BugReport208</a> (2.2.7) Typo in a Bree troll quest text (spoilers) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport209">BugReport209</a> (2.2.7) Typo in Bree house quest text (spoilers) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport210">BugReport210</a> (2.2.7) Typos/etc in ending text (MAJOR SPOILERS!!!!) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport211">BugReport211</a> (1.0.8) Warrior weaponless? -- fixed 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport212">BugReport212</a> (2.2.7) PernAngband legacy found in harps 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport213">BugReport213</a> (2.2.7) Minor typo in artifact horn description (minor spoiler) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport215">BugReport215</a> (1.0.9) Out of place Altar\ 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport216">BugReport216</a> (2.3.0) A pit full of coaligned!!! 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport217">BugReport217</a> (2.2.7) Typo in Doom Shield spell 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport222">BugReport222</a> (2.3.0) diggers have weapon characteristics. Vampiric, etc. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport223">BugReport223</a> (2.2.7) Typo in level feeling (special level) (spoilers) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport226">BugReport226</a> (2.3.0) Artifact creation scrolls minor bug 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport228">BugReport228</a> (0.1.0) (Hobbit module) Entering weapon shop causes game to crash 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport229">BugReport229</a> (0.1.0) (Hobbit module) (spoiler!) causes game to crash 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport230">BugReport230</a> (2.2.7) Climbing flag not properly set by an item (spoiler) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport233">BugReport233</a> (2.3.0) Spell listing in Tome of Translocation is wrong - not by level of spell 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport237">BugReport237</a> (2.3.0) Junkart activation with bad timeout 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport237">BugReport237</a> (2.3.0) Spellbook of player has no origin 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport239">BugReport239</a> (2.2.7) Weilding something makes character disappear <strong>spoiler</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport246">BugReport246</a> (2.3.0) Negative skills are reset to 0 after adding skill points 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport249">BugReport249</a> (2.3.0) Brain smash hang - low saving throw. Code fix offered. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport251">BugReport251</a> (2.3.0) Weapon shops will still buy diggers 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport278">BugReport278</a> (2.3.0 CVS) Fonts unreadable and unchangeable 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport290">BugReport290</a> (2.3.0) Mage staff prices are strange 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport294">BugReport294</a> (2.3.0) Skill value to add per skill point drops to zero on Mac OS X compile after save 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport298">BugReport298</a>: (2.3.0) Symbiant "Life Share" does nothing  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport308">BugReport308</a> (2.3.0) Monks need to put a point in Weaponmastery to get Barehand bonuses? 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport319">BugReport319</a> (2.3.1) Skill Unavailable for Character 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport361">BugReport361</a> (2.3.1) Savefile corruption, character uncontinuable 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport362">BugReport362</a> (2.2.7) Noxious cloud only works when monsters are visible 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./BugReport/BugReport384">BugReport384</a> (2.3.1) Recall back to Deatwatch spawns Market Level <strong>(spoily)</strong> 
+</p>
+</li>
+    <li class="gap">
+<p>
+ <a href="./StatusReport1">StatusReport1</a> (2.3.0) Magic Device and disarming noticably weaker 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./StatusReport2">StatusReport2</a> (2.3) Disarming is *way* off. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./StatusReport3">StatusReport3</a> (2.3.0) Scrolls of Enchant Armour 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-04e9462c0ff02bb9032b92abd45881a3c7e15fb7">Modules</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./ThemeBug3">ThemeBug3</a> (?) * freezes t-engine when choosing dragon colour 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug4">ThemeBug4</a> (1.1.0) Graphic tiles of the following monsters 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug5">ThemeBug5</a> (1.1.0) Spears have double description text 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug7">ThemeBug7</a> (1.1.0) - Sacrifices to Aule produce Lua errors (fix provided) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug8">ThemeBug8</a> (1.1.2) Maps of Lothlorien should be maps of Caras Galadhon 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug9">ThemeBug9</a> (1.1.2) Morgoth temple quest directions off.. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug10">ThemeBug10</a> (1.1.2) Dagger of Merridoc is not in Peregrin's set 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug12">ThemeBug12</a> (1.1.2)(2.3.1) Caras Galadhon Mage Quest, Rune is (nothing) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug13">ThemeBug13</a> (1.1.2)(2.3.1) Outdated trueart names in parchment 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./ThemeBug14">ThemeBug14</a> (1.1.2)(2.3.0) Stairs from Nether Realm to Void take you back to Caras Galadhon 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<strong>Bandobras</strong>: 1. I would like to add a section for bug reports for 2.x.x that have patches included (either by the submitter, or possibly also by someone else later on). There are at least two such bug reports now, I'm testing the patches, they seem to work, but I have trouble finding the bug reports to report on the results of testing. I guess providing patches is a good idea; a separate section would encourage this, help people in using and testing the patches, help maintainers in quickly fixing the patched bugs, etc. If there is no objection I will add the section, in a week or so, and move the patched bugs there. What do you think? 
+</p>
+<p>
+Now I see, some bug reports with fixes have the {fix included} flag, but not all. And I wonder if only bug reports with patches should be in the proposed section or with fixes in other adequate form. I guess I would prefer to include any readable fixes that work for the author  and not only strictly pathes. Or does the {fix included} flag suffice? Should I just flag some more errors and hope people will start flagging themselves? 
+</p>
+
+    <ul>
+
+ <strong>Bandobras</strong>: Having heard no objections, I'm just in the process of marking bugs with {fix included}. I'm at <a href="./BugReport/BugReport102">BugReport102</a>. Inside the <a href="./BugReport/BugReport67">BugReport67</a> I have found a discussion about patches section on the Wiki that I do not understand. I guess I will not do anything more than finishing the bug marking, until I can figure out what the noble Developers' policy on the patches is. :) But if <a href="./NeilStevens">NeilStevens</a> could add in the preamble something like "Mark the bugs with a working fix by {fix included}" I guess it wouldn't hurt, would it? 
+    </ul>
+
+
+<p>
+<strong>Bandobras</strong>: 2. By the way, some bug reports have the *spoiler* flag, while almost all are spoily. Perhaps the developers could warn about spoilers at the top of this page and discourage the use of this flag? 
+</p>
+
+    <ul>
+
+ <strong><a href="./RedNaga">RedNaga</a></strong>: i agree with this. Even those bugs that aren't spoily to begin with often becomes spoily as discussion grow about them, and rarely someone remember to get back to the main (this) page and add the spoiler flag. <p>
+ <strong><a href="./MayLith">MayLith</a></strong>: I agree that bug discussions can become spoily, so I added the warning. I'll leave it to Neil as to whether he wants to discontinue the flags. (I do tend to think that end-game related things, at the very least, should still be marked. *shrug*) 
+</p>
+<p>
+ While we are at it, I should point out that many, many people are failing to observe <a href="./NeilStevens">NeilStevens</a>'s injunction to <em>never assume the reader of the full Bug Report page has read this page first.</em> Please put the game version information (and module information, if any), etc., into your bug report. 
+</p>
+
+    </ul>
+
+
+<hr size="3">
+ <p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Let's not start adding new flags.  Who exactly benefits from a "fix included" flag, for example?  As for spoilers, I'd rather we keep marking them, and especially  I'd rather that people take the time and effort needed to honor those flags, and OMIT SPOILERS where possible. 
+</p>
+<p>
+We don't do patch testing here.  We do bugfix testing via whole-game CVS build releases.  This page has one purpose: bug reporting.  Overloading it with testing is unnecessary and therefore wrong. 
+</p>
+<p>
+I will be removing the {fix included} flags unless someone convinces me not to, and basically only someone with CVS write access could give me a good reason not to. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Neil: Do you wish people who have fixes to include them here, even if unflagged? If you don't want them to include fixes here but still want the input, where should such fixes be sent? 
+</p>
+<p>
+I guess what I am suggesting is this: Let's not assume that every reader of this page understands the CVS system. Maybe put a simple, short message at the top of the page which informs people who want to offer fixes how they can best do so? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Fixes are welcome here, but they are only useful to one small group of people: those who have the write access to the source repository.  Patches can be stored here or sent to the mailing list. 
+</p>
+<p>
+The system isn't broken as far as I can see.  Patches are stored here just as bug reports are, and when someone with source repository access gets the time and interest in browsing for bugs to fix, he'll find the bugs and the patches, and deal with them. 
+</p>
+<p>
+What problems do others see with the current system?  Is it thought that adding a "fix included" tag, that developers will spontaneously come and apply them?    What's keeping those from being applied isn't visibility, though.  It's the lack of a developer who is committed to finding and applying those fixes.  Massimiliano Marangio used to do that, but he disappeared a few months ago.   I used to do it long before that, but then I started maintaining the CVS mailing list script, my own modules, the ToME 2.2 and 2.3 series, and now the wiki. 
+</p>
+<p>
+<strong>Bandobras</strong>: I'm sorry to hear there are problems (I mean with people disappearing and overworked). And the problems seem quite natural, for a volunteer work. By the way, thank you all for your work. So kind and so professional. 
+</p>
+<p>
+What I see here, patches and flags and all the fuss, is a grass-root movement to sidestep the problems. No to supplant you, but to thrive despite the problems. We try to help one another by posting fixes, using them, testing, giving feedback, encouragement. If you happen to benefit from such a grass-root movement --- as I hoped --- great! If not, why not help us? If we do something suboptimally, why not show a better way? I mean we are playing in your garden, but you set up the garden just for us to play, didn't you? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Of course, I don't look to dictate policy in general.  I generally only step in when I think there's something happening that threatens the future  growth and maintainability of the wiki.  Adding flags to bug reports is an example of that.  I used to maintain the flags on the bugs on the forum, so I know from experience that it's no good. 
+</p>
+<p>
+Do you really think that users are applying patches on their own? 
+</p>
+<p>
+<strong>Bandobras</strong>: Well, I do apply patches. Whom else? 
+</p>
+<p>
+Obviously those several people that post patches, apply them, as well. I'm not sure, though, if they do so with other people's patches, or only with their own. Repackagers for Linux distributions may also apply patches (Debian packages of many programs come with numerous patches, some of them of bugs not yet fixed upstream, most of the bugs reported on bugs@debian). This is, because volunteer work is jerky --- this is normal. Upstream can be sluggish and people have to cope with it. And they do, to everyone's benefit.  
+</p>
+<p>
+I used to compile from CVS after every nontrivial change. Then CVS had frozen. Then I lost and Ent Sorceror to the dark arena bug (see my ditl), then I stopped playing and waited for the CVS, then I found a patch on another ditl and applied it myself and seeing that's easy I also applied some more. I guess if the CVS is dead much longer, more people might go the same way. For those with no expertise there may even appear links to unofficial, patched binaries.  
+</p>
+<p>
+Don't understand me wrongly: I have never, for a moment, been angry that the CVS is frozen. The opposite: I felt and I feel sorry, if not guilty, I have no time (and no skill comparable to yours) to help with the project myself, especially seeing there is a need. But I have been able to help myself and I tried to share this with others. Perhaps the flags are bad (but they are voluntary and to be only assigned by submitters, not admins). So, perhaps give write access for more people exclusively for some exotic branches of CVS (I'm not sure this is possible with CVS, though)? Or a section on the WIKI with patches? Or perhaps tome2 is so stable, mature and old, there will never be unofficial binaries and people will live happily with dark arenas for the next 10 years. OK, so I may be wrong. But then, what when tome3 comes out?  
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Hmmm, you paint a really bleak picture of ToME 2 since Massimiliano disappeared.  
+</p>
+
+        <ul>
+
+  <strong>Bandobras</strong>: You've just been spoiling us for so long with frequent updates, and now you just pay the price. ;) 
+        </ul>
+
+
+<p>
+OK, let them stay, at least until we get someone who starts applying patches again. 
+</p>
+
+        <ul>
+
+  <strong>Bandobras</strong>: I would be glad to complete the initial marking, for a good start, if I knew there is an encouragement for people to mark their own bugs in the header of this page, as I proposed. But, as you see, I'm not in a hurry, and if there is no support for my initiative from other people, I will just as gladly do nothing :), or even wipe the few flags I've already added. 
+        </ul>
+
+
+<p>
+As for CVS, it's not frozen.  It's just that nobody is doing the work.  And if someone stepped up and was willing to start fixing bugs, he could get write access pretty quick, I think.  There are no worries about limited access. 
+</p>
+<p>
+<strong><a href="./TheFalcon">TheFalcon</a></strong>: Shouldn't the modules have separate fixed bug sections?(at least for Theme) i.e. put the Theme solved bugs next to the report ones, rather than have them lower down. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReports?action=refresh&amp;arena=Page.py&amp;key=BugReports.text_html">RefreshCache</a> for this page (cached 2005-04-04 04:57:38)<br>
+<p><a href="./BugReports?action=edit">EditText</a> of this page (last edited 2005-04-04 04:57:37 by <span title="192.168.0.1"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 07:14:42 Apr 04, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 4.875
+  esindex: 0.017
+  CDXLines.iter: 24.178 (3)
+  load_resource: 140.833
+  exclusion.robots: 0.203
+  captures_list: 265.058
+  PetaboxLoader3.resolve: 60.091
+  LoadShardBlock: 230.409 (3)
+  PetaboxLoader3.datanode: 220.618 (4)
+  exclusion.robots.policy: 0.189
+-->

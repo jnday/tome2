@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Fate/Death fate - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fFate_2fDeath_20fate?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fFate_2fDeath_20fate?action=print">
+<link rel="Up" href="/Spoilers_2fFate">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fFate_2fDeath_20fate?action=fullsearch&amp;value=%2FDeath+fate&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Fate/Death fate</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fFate">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fFate_2fDeath_20fate?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fFate_2fDeath_20fate">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fFate_2fDeath_20fate?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fFate_2fDeath_20fate?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fFate_2fDeath_20fate?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fFate_2fDeath_20fate?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fFate_2fDeath_20fate?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fFate_2fDeath_20fate?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fFate_2fDeath_20fate?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fFate_2fDeath_20fate?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fFate_2fDeath_20fate?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fFate_2fDeath_20fate">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+A death fate is a fate which says "You are fated to die on level N." N is a numbered dungeon level. <p>
+If you enter a dungeon level which is numbered N (or N*50 if displayed in feet), you will encounter a lighted, open floor-plan dungeon level which contains out-of-depth monsters. There is no staircase, you cannot exit via the borders of them map, use spells to get out, or recall out. 
+</p>
+<p>
+Death fates seem to fall into two classes: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+pathetically easy, or at least fairly easy 
+</p>
+</li>
+    <li>
+<p>
+insanely difficult (extremely OOD uniques, etc.) 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+It is possible to beat a death fate by killing all monsters on the level. (NB: If you enter death fate in 2.2.x with pets and/or companions, you must dismiss or kill them in order to beat the death fate. Symbiotes are not affected.) If you accomplish this feat: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+You get teleported out of dungeon instantly. 
+</p>
+</li>
+    <li>
+<p>
+Your character sheet will ever afterward proclaim that "You have cheated death." Major bragging rights! 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If you get the first sort, you may well survive. If you get the latter... well, imagine running into a L75 unique on Barrow Downs 1! Rumor has it, however, that some intrepid souls have even beaten the insanely difficult death fates. 
+</p>
+<p>
+Sufficiently high luck will prevent the assignation of death fates. 
+</p>
+<p>
+Remember that some dungeon levels may appear in more than one dungeon. Do not avoid the death fate in one dungeon only to forget and later stumble into it somewhere else! 
+</p>
+<p>
+You can use the Thunderlord Shop feature 'teleport to dungeon level' to skip a death fate level, even if it is Barrow Downs 1. After typing 't', type '@' and type in the dungeon's name <em>precisely</em>. That will let you teleport into a dungeon even if it is not yet on your recall list. 
+</p>
+<p>
+If you wish to deliberately undertake a death fate, here is some general advice: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Have... 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ means of healing yourself. 
+</p>
+</li>
+        <li>
+<p>
+ means of increasing your resistances and speed. Some characters may benefit from potions of Heroism, Berserk Strength, etc. 
+</p>
+</li>
+        <li>
+<p>
+ means of detecting monsters. 
+</p>
+</li>
+        <li>
+<p>
+ Rods of Polymorph. 
+</p>
+</li>
+        <li>
+<p>
+ items which can cause serious damage, e.g. potions of detonations, good ammos, powerful wands, and whatever else you may find useful to take out powerful enemies. 
+</p>
+</li>
+        <li>
+<p>
+ means of Identifying and/or *Identifying*, should you be so lucky as to survive. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+If you can do so, growing trees or creating walls may be useful in creating a place of retreat, since the death fate levels are open levels. 
+</p>
+</li>
+    <li>
+<p>
+Summoning via symbiote will not be very useful, as the death fate level equates to DL1, no matter what the level it actually is. 
+</p>
+</li>
+    <li>
+<p>
+If your character is a Dwarf, you can find secret passages in a death fate. You can probably use teleport too (can't remember). Genocide will be prevented. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+Reference: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=3113">a case of companions keeping the quest going</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-f7a4187a4e4eee0cf4ed840e042155ae091a93ac">(temporary) Chatter</h3>
+<strong><a href="./MayLith">MayLith</a></strong>: Simon, I <em>do</em> appreciate your input, but please attempt to be more concise. Also, remember that some people may not be playing the same character class that you are playing. <p>
+Simon: 
+</p>
+<p>
+-Since I have *<a class="external" href=".www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=238350">hyperlexia</a>, being concise can't be my strong point! 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: <em><strong>Then work on being concise, please.</strong></em> I have no idea whether you are 12 years old or 35, but saying "I have hyperlexia" is not a valid excuse. I can cope with growing pains, but you do need to learn; if not for the wiki, then for the rest of your life. Additionally, every minute that I have to spend cleaning up your blather could be spent working on minor details for ToME 3.0. 
+</p>
+<p>
+Suggestion: Type your post, either here on the wiki or in an editor, then re-read it carefully and attempt to concentrate the information in a way that makes it as compact as possible without losing its ability to inform. Keep in mind that if your posts are excessively wordy and/or badly formatted, many people will tend to skip reading them, and thus your valuable ideas will not be heard. 
+</p>
+<p>
+FYI, I've survived death fates, too, and I didn't need a single potion of healing to do it, either. Do not post assuming everyone else is playing the same character you are. 
+</p>
+<p>
+I have never bothered with dragon horns on a death fate. In fact, none of my characters have *ever* used a dragon horn, in any situation! They are not <em>necessary</em> to everyone, even if they might be to you. I repeat: Do not post assuming everyone else is playing the same character you are. One presumes that monsters will be nasty on a nasty level, and summoners and ringwraiths are among nasty monsters. It is patently obvious that one must carry with one the means to kill lots of monsters. 
+</p>
+<p>
+Genocide: I don't remember, so I'll leave that. 
+</p>
+<p>
+Simon: I've survived death fates at character level 11 and 12, and never failed to do so. This is why the heavy equipment requirements. That was both for my axemaster, my alchemist, my jack-of-all-trades from a module at character level 13, and an archer at level 14. Of course at character level 40ish like you must be no equipment is really necessary but your main weapon/spellbook and some armor... 
+</p>
+<p>
+<a class="nonexistent" href="./DataSlycer">DataSlycer</a>: I used a Junkart Genocide in a Death Fate level and the level prevented it. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: IIRC, destruction is prevented as well (at least from scrolls, thaum seem to work fine, but this might be a bug (?)) and the monsters are generated as if the dungeon was of level (2 x player level) + 10 + a random value from 0 to 40 - the random factor probably explain why some of them are very hard and some very easy. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fFate_2fDeath_20fate?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fFate_2fDeath_20fate.text_html">RefreshCache</a> for this page (cached 2005-01-26 22:26:20)<br>
+<p><a href="./Spoilers_2fFate_2fDeath_20fate?action=edit">EditText</a> of this page (last edited 2005-01-26 22:26:19 by <span title="h213-213-18-88.rm1.albacom.net"><a href="./RedNaga">RedNaga</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 14:40:36 Apr 19, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:00:27 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.201
+  exclusion.robots.policy: 0.187
+  captures_list: 169.384
+  PetaboxLoader3.resolve: 1168.995
+  PetaboxLoader3.datanode: 173.089 (4)
+  LoadShardBlock: 130.495 (3)
+  esindex: 0.017
+  load_resource: 1284.642
+  CDXLines.iter: 17.228 (3)
+  RedisCDXSource: 18.292
+-->

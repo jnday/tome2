@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport90 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport90?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport90?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport90?action=fullsearch&amp;value=BugReport90&amp;literal=1&amp;case=1&amp;context=40">BugReport90</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport90?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport90">View</a></li>
+<li><a title="Diffs" href="./BugReport90?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport90?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport90?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport90?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport90?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport90?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport90?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport90?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport90?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport90">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I just thought this was hysterical.  Doubt it's worth fixing. <p>
+Apparently a staircase got teleported... I seem to recall that there is a trap that will do that, or maybe a scroll.  Anyway, it was embedded in the rock up in the upper right hand corner of the dungeon.  Only way I could tell it was there was that this is a Lost Soul character and I could see the missing block.  So I went and looked at it, and sure enough, it was a stairway. 
+</p>
+<p>
+Well, that's fine.  I step on it. 
+</p>
+<p>
+'You enter a trap detected zone.  There is a down staircase here.' 
+</p>
+<p>
+I step off it in any direction and I enter a non-trap-detected zone.  So apparently the staircase took its own little bit of the trap-detected zone along with it when it teleported.  Almost reasonable, but extremely silly-looking. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Oh, now that's funny! 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: What exactly is the bug here? 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I may be missing something here, but I think it's that the trap-detection travels along with the moved staircase. I haven't the faintest whether that'd be a bug or not, but it is amusing. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport90?action=refresh&amp;arena=Page.py&amp;key=BugReport90.text_html">RefreshCache</a> for this page (cached 2004-08-17 05:53:20)<br>
+<p><a href="./BugReport90?action=edit">EditText</a> of this page (last edited 2004-08-17 05:53:19 by <span title="user-2ivem78.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:04:47 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:09 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1247.005
+  exclusion.robots: 0.123
+  exclusion.robots.policy: 0.116
+  RedisCDXSource: 3.355
+  esindex: 0.01
+  LoadShardBlock: 1219.64 (3)
+  PetaboxLoader3.datanode: 1168.876 (4)
+  CDXLines.iter: 20.99 (3)
+  load_resource: 116.405
+  PetaboxLoader3.resolve: 85.021
+-->

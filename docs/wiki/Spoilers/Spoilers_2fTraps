@@ -1,0 +1,859 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Traps - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fTraps?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fTraps?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fTraps?action=fullsearch&amp;value=%2FTraps&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Traps</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fTraps?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fTraps">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fTraps?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fTraps?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fTraps?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fTraps?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fTraps?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fTraps?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fTraps?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fTraps?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fTraps?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fTraps">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Traps are <a class="external" href=".www.m-w.com/cgi-bin/dictionary?book=Dictionary&amp;va=ubiquitous&amp;x=14&amp;y=14"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">ubiquitous</a> in ToME. Some traps are fairly benign. Others can literally kill your character instantly, or make you wish you could kill the RNG. <hr>
+ <ol>
+<li>
+<a href="#head-f7f594cd8222f1ba7c0e7a5f5d9f3d0975f06f40">Who/what can create traps</a></li>
+<li>
+<a href="#head-6fbc26f179d8999018d0538b704adb086aad2505">What can be trapped</a></li>
+<li>
+<a href="#head-2c3c5b1133471ca5de6a77d2ccc7875ffd0aba12">Chest specific decision</a></li>
+<li>
+<a href="#head-2ba0c75bc02cba496fc494660663e9fab73898ce">Detecting traps</a></li>
+<li>
+<a href="#head-711abd1c3754ccb91668233633132b3c95cd3fe9">Trap colors and actions</a></li>
+<li>
+<a href="#head-021acb429de77a31841228c6daf4677e2b0b0473">Disarming traps</a></li>
+<li>
+<a href="#head-7dcd9a4fdc2ceadef082ddea9c249eb62b2ad4c5">Destroying traps</a></li>
+<li>
+<a href="#head-3816b9b86cd38ed141b71243a832c6eda9d9e49c">Avoiding traps</a></li>
+<li>
+<a href="#head-cbfcb4947b73f4a9175ea3b421be77c772681444">User disturbance option 'automatically disarm traps'</a></li>
+<li>
+<a href="#head-6e3bfe208735576e8c8a84faf21b0364f787eec8">Creative uses for traps</a></li>
+<ol>
+<li>
+<a href="#head-fe8205a166feeab6ca07257fe241cf48e51089f1">Scumming traps</a></li>
+<li>
+<a href="#head-3d37c4d78e6a256a9f480013ce93deb67fb56cdf">Scumming trapped chests</a></li>
+<li>
+<a href="#head-16f58fb16c2b6a897d06bbee823f0f91ad2a59a3">Killing Morgoth</a></li>
+</ol>
+
+<li>
+<a href="#head-50460ec8235d3f9400ed697a7071a51a0aa7ce3b">Trap FAQ</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-f7f594cd8222f1ba7c0e7a5f5d9f3d0975f06f40">Who/what can create traps</h3>
+Some traps just are. They're created along with the dungeon level; you can think of them as set by some random inimical dark figure who is out to get you or any other passer-by, muah-ha-ha-hah! <p>
+Some spell-casting monsters can create traps. Such monsters will "cackle evilly" as they create a swath of traps all around you. 
+</p>
+<p>
+Characters who have the Trapping ability can set traps. (NOTE: we need a section to link to from here; IMHO no further detail on that topic on this page, though.) 
+</p>
+<p>
+The Multiplication Trap creates other traps in the squares immediately surrounding it. 
+</p>
+<p>
+The trap which makes "the floor vibrate in a strange way" creates new traps randomly in a wide radius. 
+</p>
+<p>
+The Trap of New Trap turns itself into a different trap. 
+</p>
+<p>
+The Scroll of Trap Creation creates a 3x3 block of traps. 
+</p>
+<p>
+The Traps of Acquirement appears(?) to turn into a different trap once it has been triggered. 
+</p>
+<h3 id="head-6fbc26f179d8999018d0538b704adb086aad2505">What can be trapped</h3>
+Many things in ToME can be trapped:  
+    <ul>
+
+    <li>
+<p>
+ doors 
+</p>
+</li>
+    <li>
+<p>
+ treasure chests 
+</p>
+</li>
+    <li>
+<p>
+ stairways 
+</p>
+</li>
+    <li>
+<p>
+ void jumpgates 
+</p>
+</li>
+    <li>
+<p>
+ under trees, or under the moving walls in one dungeon 
+</p>
+</li>
+    <li>
+<p>
+ terrain (including water and lava!) 
+</p>
+</li>
+    <li>
+<p>
+ generally anywhere you can step on. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+In addition, sometimes traps are baited. E.g. You may see a very nice item lying on the floor, but if you go to pick it up, you will set off a trap.  
+</p>
+<h3 id="head-2c3c5b1133471ca5de6a77d2ccc7875ffd0aba12">Chest specific decision</h3>
+<p>
+If you manage to open a trapped chest, the trap will trigger, the loot from the chest will drop (unless the chest was destroyed by the trap), and then the chest will be disarmed and empty. If you try to disarm the chest, you might fail badly several times and the trap will trigger - but not disarm - an infinite number of times. 
+</p>
+<p>
+If you're bad at disarming traps  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ know the trap type, and  
+</p>
+</li>
+    <li>
+<p>
+ can easily survive triggering the trap once,  
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+then you might as well open the chest rather than make disarm attempts. Sometimes you might be better off ignoring a nastily-trapped small chest. Chest loot is generated at the time the chest is opened, so do not fear leaving an artifact trapped in it for all time. Then again, in some cases, you might want to just take the chest with you if you're going to recall anyway, or need more time to recharge a disarming ability or some HP, but beware of the extra weight. 
+</p>
+<p>
+Different chest types may have different treasure types, and different max number of items. 
+</p>
+<p>
+*ID* of a trap will not tell you the exact trap type on a chest, but ID is enough to detect the presence of a trap so disarming may be attempted. 
+</p>
+<h3 id="head-2ba0c75bc02cba496fc494660663e9fab73898ce">Detecting traps</h3>
+<em><strong>You need to be able to detect traps. This cannot be stressed enough!</strong></em>  <p>
+Traps are invisible until they are detected. If you step on or otherwise trigger an undetected trap, it will go off and you will suffer the consequences. If you wish to survive in ToME, you <em><strong>must</strong></em> detect traps. 
+</p>
+<p>
+Means of trap detection include: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Searching ('s' key). E.g. Stand next to a treasure chest and hit 's' repeatedly until you detect the trap. Some very few chests are not trapped. If you are uncertain, 'l'ook at the chest after a detect attempt to determine status before you proceed. If the chest description does not say '(untrapped)', '(&lt;trap name here&gt;)', or '(trapped)', then your detection attempt failed. 
+</p>
+</li>
+    <li>
+<p>
+ Scrolls of Trap Detection 
+</p>
+</li>
+    <li>
+<p>
+ Potions of *Enlightenment* 
+</p>
+</li>
+    <li>
+<p>
+ Rods of Trap Detection and Rods of Detection 
+</p>
+</li>
+    <li>
+<p>
+ Staves of Sense Hidden 
+</p>
+</li>
+    <li>
+<p>
+ the Sense Hidden spell (Divination school) (link needed) 
+</p>
+</li>
+    <li>
+<p>
+ some artifacts: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ The Arkenstone of Thrain 
+</p>
+</li>
+        <li>
+<p>
+ The Palantir of Orthanc 
+</p>
+</li>
+        <li>
+<p>
+ The Drum of the Druedain 
+</p>
+</li>
+        <li>
+<p>
+ The Iron Helm 'Holhenneth' 
+</p>
+</li>
+        <li>
+<p>
+ The Quarterstaff of Olorin 
+</p>
+</li>
+        <li>
+<p>
+ The helm of knowledge will tell you if a chest is trapped by IDing it automatically 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Mindcraft 'Precognition' power (when Mindcraft skill &gt;= 5.000) 
+</p>
+</li>
+    <li>
+<p>
+ Antimagic 'detect traps' ability (when Antimagic skill &gt;= 25.000) 
+</p>
+</li>
+    <li>
+<p>
+ Identify (via scroll, staff, or any of a number of spells) will detect traps on treasure chests, as will *Identify*. You'll see one of three things when you look at the chest after ID'ing or *ID*'ing: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ the chest name appended with (&lt;name of the trap&gt;) if you are familiar with the trap that is there 
+</p>
+</li>
+        <li>
+<p>
+ the chest name appended with (trapped) if you are unfamiliar with the trap. (*ID* will not teach you the name of a trap you don't know, or the contents of any chest.) 
+</p>
+</li>
+        <li>
+<p>
+ the chest name appended with (untrapped) if it's not trapped. This is rare. 
+</p>
+</li>
+        <li>
+<p>
+ Some princess quests have the traps placed in a predictable pattern. The one with two doors ++ in a row on the right being an example. In that princess quest in 2.3.0, due to a bug they may even appear as lighted squares while the rest of the room is dark!! 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-711abd1c3754ccb91668233633132b3c95cd3fe9">Trap colors and actions</h3>
+If you do not disarm a trap (or fail the disarm) and open the chest/door or step on the terrain or jumpgate (etc) you will trigger the trap and suffer the consequences.  <p>
+Once you detect a trap, its color can tell you roughly what it does, even if it detects as only an 'unknown trap'. A table linking color to basic effects is shown below. 
+</p>
+<p>
+Some of the most-hated traps in the game fall into a few categories: Those that cause you to lose items out of your inventory, ruin an item of your kit, ruin your recall items, or alter your character's gender (even though this last one has no in-game effects. 
+</p>
+<p>
+Examples of other traps include: Altering the dungeon itself, teleporting an item away from you, summoning very nasty monsters (calling out), reducing your Piety, or just plain old hurting you with a spell-blast or hail of projectiles. (These are meant to be examples only; <em>please</em> don't list all of them on this page! See reference to file below, within this section, or contribute to chatter.) 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+Color</td>
+<td>
+Trap category</td>
+</tr>
+<tr>
+<td>
+blue</td>
+<td>
+stat-loss</td>
+</tr>
+<tr>
+<td>
+white</td>
+<td>
+teleport (includes teleport item)</td>
+</tr>
+<tr>
+<td>
+orange</td>
+<td>
+dungeon/trap rearrangement (includes trap multiplication)</td>
+</tr>
+<tr>
+<td>
+violet</td>
+<td>
+summoning (includes acquirement)</td>
+</tr>
+<tr>
+<td>
+yellow</td>
+<td>
+equipment stealing or equipment-affecting traps (drop, scatter, silent-switching, curse, no return (wrecks your recall items), etc)</td>
+</tr>
+<tr>
+<td>
+red</td>
+<td>
+character affecting traps (gender, grow/shrink, bowel cramps, lose memory, etc)</td>
+</tr>
+<tr>
+<td>
+green</td>
+<td>
+elemental bolt trap</td>
+</tr>
+<tr>
+<td>
+umber</td>
+<td>
+elemental ball trap</td>
+</tr>
+<tr>
+<td>
+light red</td>
+<td>
+arrow / crossbow bolt / dagger traps</td>
+</tr>
+<tr>
+<td>
+light green</td>
+<td>
+piety damage, a.k.a. divine anger or divine wrath</td>
+</tr>
+</table>
+</div>
+<p>
+Trap specifics, including colors and the message that you see when the trap is triggered, are listed in lib/edit/tr_info.txt. (MM or someone, can you please link this to the proper code file on forum.t-o-m-e.net? Or better yet, tell me how to find them myself? Thanks.) 
+</p>
+<h3 id="head-021acb429de77a31841228c6daf4677e2b0b0473">Disarming traps</h3>
+<em><strong>You need to be able to disarm traps. This cannot be stressed enough!</strong></em>  <p>
+Means of trap disarming include: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ The keystroke combination "shift + d". Use this combination while standing next to the item you want to disarm. Your probability of success is determined by your <a class="interwiki" title="Self" href="./Documentation/Skills/Disarming"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">disarming skill</a>. If you fail the disarm, the trap may be triggered and you will suffer the consequences. Setting 'explore' to 'slug-like' and 'tactic' to 'coward' (for the saving throw) may increase your chances somewhat. 
+</p>
+</li>
+    <li>
+<p>
+ Scrolls of Trap/Door Destruction 
+</p>
+</li>
+    <li>
+<p>
+ Staves of Disarm 
+</p>
+</li>
+    <li>
+<p>
+ Rods of Disarming 
+</p>
+</li>
+    <li>
+<p>
+ the Disarm spell (Conveyance school) (link needed) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+There is at least one trap in ToME which cannot be disarmed. It is in the Bree house quest. Don't worry, though, as it won't hurt you. 
+</p>
+<h3 id="head-7dcd9a4fdc2ceadef082ddea9c249eb62b2ad4c5">Destroying traps</h3>
+Means of trap destruction include:  
+    <ul>
+
+    <li>
+<p>
+ Scrolls of Trap/Door Destruction. 
+</p>
+</li>
+    <li>
+<p>
+ The Conveyance spell 'Disarm' at spell level &gt;= 10. 
+</p>
+</li>
+    <li>
+<p>
+ Antimagic 'detect traps' ability (when Antimagic skill &gt;= 35.000). (Destroys doors also.) 
+</p>
+</li>
+    <li>
+<p>
+ Some drastic spells which alter the landscape may <em>sometimes</em> destroy traps: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ anything which produces an Earthquake effect 
+</p>
+</li>
+        <li>
+<p>
+ some Thaumaturgy spells 
+</p>
+</li>
+        <li>
+<p>
+ the Mindcraft spell 'Pulverise' 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-3816b9b86cd38ed141b71243a832c6eda9d9e49c">Avoiding traps</h3>
+Means of trap avoidance include:  
+    <ul>
+
+    <li>
+<p>
+ Chests with location-dependant traps (i.e. trap of calling out) can be opened in relative safety in a surface town. As dungeon towns do not allow the summon of non-town monsters, certain some summoning-trapped chests can be opened there but that doesn't always work. 
+</p>
+</li>
+    <li>
+<p>
+ Dwarves can "use secret passages" to step on a square without triggering a trap. This does not disarm the trap, but it's very helpful nevertheless. They can also go thru some walls to avoid the trap. 
+</p>
+</li>
+    <li>
+<p>
+ wearing an immunity item so you can safely ignore some trap effects. Levitation allows you not to fall down a trap that would send you to the next level, for example. 
+</p>
+</li>
+    <li>
+<p>
+ Pass traps of scatter items/steal item with strictly nothing on you (Throw items to the other side of the trap first, and beware of breaking potions or the destructive effect of some dungeons who shatter potions, burn scrolls, and melt stuff). Some variants of this strategy is throwing wands to the other side of a wand wasting trap before you pass it and such - the only thing you can't help losing is your gold. 
+</p>
+</li>
+    <li>
+<p>
+ If your goal is stairs, you can use a stair movement trap to get stairs somewhere nice instead of going to them. It's the trap that says "You hear distant scraping noises" when not yet known. 
+</p>
+</li>
+    <li>
+<p>
+ Using walls or other terrain features to avoid crossing a trapped area: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ tunneling walls 
+</p>
+</li>
+        <li>
+<p>
+ destroying walls 
+</p>
+</li>
+        <li>
+<p>
+ once again, anything that creates an Earthquake effect 
+</p>
+</li>
+        <li>
+<p>
+ walking in the walls (wraithform, wall mimicry) 
+</p>
+</li>
+        <li>
+<p>
+ walking through trees (treewalking ability) 
+</p>
+</li>
+        <li>
+<p>
+ flying over trees 
+</p>
+</li>
+        <li>
+<p>
+ climbing over mountains 
+</p>
+</li>
+        <li>
+<p>
+ blinking (phase door), controlled teleportation, and the other less predictable teleport types 
+</p>
+</li>
+        <li>
+<p>
+ wake the monsters and have them come to you instead. Some of them can even pick up floor objects on the way! Traps of calling out can also be used for this. Make sure the monsters die away from the trap you want to avoid so that loot doesn't fall on the other side of the trap. 
+</p>
+</li>
+        <li>
+<p>
+ Do-I-really-need-to-go-there-anyway? (That is: in a game like ToME, with its typically non-permanent levels, you can almost always find your loot later, do that princess quest later, etc. For everything else, there's Mastercard.) 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-cbfcb4947b73f4a9175ea3b421be77c772681444">User disturbance option 'automatically disarm traps'</h3>
+You can set the game to <em>attempt</em> to automatically attempt to disarm any trap you move into. To do this: 
+    <ol type="1">
+
+    <li>
+<p>
+Type '=' (game options) 
+</p>
+</li>
+    <li>
+<p>
+Type '2' (disturbance options) 
+</p>
+</li>
+    <li>
+<p>
+Arrow down (or up, it's faster) to 'automatically disarm traps', and type 'y' or 'n' to set it.  
+</p>
+</li>
+    <li>
+<p>
+Don't forget to save your user preferences, if that's the option you want to keep by default. 
+</p>
+</li>
+
+    </ol>
+
+
+<h3 id="head-6e3bfe208735576e8c8a84faf21b0364f787eec8">Creative uses for traps</h3>
+<h4 id="head-fe8205a166feeab6ca07257fe241cf48e51089f1">Scumming traps</h4>
+Some hardy souls will scum traps in order to reap the benefits. The scenario goes something like this: 
+    <ol type="1">
+
+    <li>
+<p>
+Your archery-using character detects a Seeker Bolts trap. Oh, fabulous day!  
+</p>
+</li>
+    <li>
+<p>
+Turn off automatically disarm traps. 
+</p>
+</li>
+    <li>
+<p>
+Set to 'berserker' and 'running'. 
+</p>
+</li>
+    <li>
+<p>
+Repeatedly step on the trap, producing huge amounts of ammunition. Some of it will be cursed, but some may be very, very nice.  
+</p>
+</li>
+    <li>
+<p>
+MOST IMPORTANT: Stop before you get killed, and <em>heal back up again</em> before you rinse and repeat! 
+</p>
+</li>
+    <li>
+<p>
+Don't forget to turn auto-disarm back on again once you're done. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+The Halls of Mandos are filled with the souls of those who forgot either of the last two steps, or who thought "<em>Oh, I have 150 hitpoints left, I can withstand one more triggering</em>"... only to have that last trigger turn out to be randart projectiles, or nether-exploding, or some other deadly thing! Be careful. 
+</p>
+<p>
+Dagger and broken dagger traps are another type that is scummed - usually for selling ego daggers. Stacks of randart daggers are sometimes generated that way, but are not usually very useful for anything but selling or having a single inventory slot stack of weapons to kill ringwraiths with (it's the only practical way to have stacks of those). 
+</p>
+<p>
+This procedure is not recommended in the depths of Angband or in the Void. Forty Seeker bolts in one blast can wreck your whole day, especially if they are highly enchanted! 
+</p>
+<p>
+Another version of scumming traps is to specifically seek out gender change traps, or shrink or grow traps, in order to reverse a previous change which displeases you. Or make yourself ridiculously tall. (-; 
+</p>
+<p>
+The Trap of Calling Out can be useful for clearing out an entire level of monsters quickly(good for piety), one at a time.  It can be especially useful to empty a vault of monsters before entering. It also makes lost sword quests easy as the first monsters to show up are often all quest monster. 
+</p>
+<p>
+The various summon traps can be used for quick experience and treasure.  Having a Noxious Cloud in the summoning area means the monsters frequently don't get an attack.  Be prepared for the worst. 
+</p>
+<p>
+Traps of Acquirement are the only violet trap that can't be identified.  Which means if you have identified all the other violet traps, that 'unknown' violet trap will have to be Acquirement. 
+</p>
+<p>
+Trap doors can be used to avoid princess quests in Angband.  Trap doors are the only white trap that cannot be identified (however another white trap is very hard to identify).  This may be exploiting a bug. 
+</p>
+<p>
+The psi trap can be used to sense monster minds. I think it also do something to mana? 
+</p>
+<p>
+Stair movement traps can be scummed to get stairs near you. The stairs - or shafts - will not have their destination level altered so you can't use that to skip a princess quest. 
+</p>
+<p>
+Some deep dungeon traps (Only umber ones) have an effect radius which can be used to kill lots of weak monsters or to harm ringwraiths without melee (hint: ringwraiths don't swim and tidal wave makes water to keep them at bay). 
+</p>
+<h4 id="head-3d37c4d78e6a256a9f480013ce93deb67fb56cdf">Scumming trapped chests</h4>
+If you find and identify a chest with a gender-changing trap that fits your preferred gender, save it in your house. If your gender is accidentally changed in the course of the game, disable auto-disarm and set yourself to berserker and running, then attempt to open the chest. This may allow you a few chances at returning to your preferred gender. You may also open the trapped chest for one but only one but only one garanteed return to your preferred gender. <p>
+Chests with other useful traps such as Drop Item can also be hoarded in this way. The psi trap can also be useful if carried, but chests are heavy, so don't try that unless you are quite strong. 
+</p>
+<h4 id="head-16f58fb16c2b6a897d06bbee823f0f91ad2a59a3">Killing Morgoth</h4>
+Yup, it's been done. Read the whole story in <a class="external" href=".www.t-o-m-e.net/forum/viewtopic.php?t=4674"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">''A Day in the Life of a Trapper''</a>. <h3 id="head-50460ec8235d3f9400ed697a7071a51a0aa7ce3b">Trap FAQ</h3>
+
+    <ul>
+
+    <li>
+<p>
+ I just tripped a Trap of Steal Item/Scatter Items. Is my item gone forever? 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ No. It's somewhere on the current level. Gold-stealing trap types will however keep the gold (if only trappers could make those and harvest them each month... oh the riches!) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Are groups of 4 traps in special double-size dungeons (Helcaraxe, Erebor, etc) all of the same trap type? 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Yes. That includes aquirement traps!! (-; 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h3>
+<a href="./MayLith">MayLith</a>: To do list: (delete line when done) 
+    <ul>
+
+    <li>
+<p>
+ correct whatever mistakes I've made &lt;g&gt; 
+</p>
+</li>
+    <li>
+<p>
+ link to tr_info.txt 
+</p>
+</li>
+    <li>
+<p>
+ need trapping ability section (then link to it from here) 
+</p>
+</li>
+    <li>
+<p>
+ link Conveyance/Disarm spell... eventually. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Bandobras: No mention about the trap of aquirement? 
+</p>
+<p>
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>: It looks like Sense Hidden is the only normal school spell that detects traps; feel free to check me on this, though... 
+</p>
+<p>
+You might also want to add quotes around the "cackles evilly" bit, to indicate that that is exactly what the game says when that happens. 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: ID can identify the presence of a trap on a chest. But even *ID* won't give you the trap type if you haven't triggered that type before. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Thanks, Zizzo. Added the quotes. Added Multiplication Trap, Trap of New Trap under 'what can create a trap'. Put trap of acquirement in the table. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Scrolls of Trap Creation will also create new traps. In the avoid trap section, add hints about tunneling the walls and walking in the "wall" tiles (with wraithform, tree walking, flying over trees, climbing over mountains) to avoid traps. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Added -- thanks, MM! I've also added a few more things I thought of and done some reformatting. Need link to our famous Trapper Winner's DitL! 
+</p>
+<hr>
+ <strong><a href="./MayLith">MayLith</a></strong>: Does the trap of Bitter Regret do anything aside from draining stats? <hr>
+ <strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: "This may allow you a few chances at returning to your preferred gender." - heh, ToME gives a whole new meaning to the phrase "sexual preference..." <p>
+<a href="./SimonSorc">SimonSorc</a>: I'm surprised there isn't a black market for those. You buy the trap that gets your gender back, but the catch is you have to set it in dungeon for it to work - and the magic doesn't allow you to disarm your own trap! So the black market is all set up for new costumers with the opposite preference!!! Muahaha. 
+</p>
+<p>
+Wastrel:  Added some more creative uses (trap of calling out, summons, acquirement, trap doors) 
+</p>
+<hr>
+ <strong><a href="./MayLith">MayLith</a></strong>: What trap creates the message: "You hear distant scraping noises."??? I can't find it in tr_info.txt. (v2.2.7) 
+            <ul>
+
+   Wastrel:  I believe that is a trap of stair movement.    <a href="./SimonSorc">SimonSorc</a>: confirmed. Very useful to scum to get stairs near you. (-; 
+            </ul>
+
+
+<hr>
+ <a href="./SimonSorc">SimonSorc</a>: do calling out traps work on quest monsters? I'm sure that would make quests for 16 'Q' more fun! (-; <p>
+<strong><a href="./MayLith">MayLith</a></strong>: Please be more specific. 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: got a lost sword quest and a trap of calling out. As this trap seem to bring the highest level monster it can find next to me, I was able to get all quest Hrus next to me without having to hunt them down - before any other monster type showed up by triggering the trap! 
+</p>
+<p>
+So the anwser to my question is "yes". Quest monsters can be easily scummed with this trap. 
+</p>
+<hr>
+ <strong><a href="./MayLith">MayLith</a></strong>: General note to whomever created the blind link to "Treasure Chests": Please do not create blind links, especially badly named ones. <p>
+<a href="./SimonSorc">SimonSorc</a>: I'm interested in chests, since I'm suspecting some give only gold or at least are guaranteed not to turn out a really cool item. So what should the link be named? 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Whatever you like. Your suggestion, "Spoilers/Treasure Chests" is absolutely fine. All I'm saying is, create the page first, then back-link it in to this one. If you want to make a Chests page, by all means please go for it! I'd love to read about what you find out. I suggest linking it in from the main spoilers page in the singular ("chest"s) or ("treasure chest"s) -- that's a wiki trad that we've badly muffed in Spoilers, ergh. 
+</p>
+<p>
+p.s. fyi my main objection to the link, aside from that it was blind, was that it was not subsidiary to spoilers. It was a new page named Treasure Chests, not Spoilers/Treasure Chests... which would have resulted in a page that would have to have been moved. 
+</p>
+<p>
+Personally, I'm starting to think about blind links and how to cope with them.... there's certainly a place for them. Maybe a way to label them as a placeholder without actually turning them into a physical blind link? like &lt;&lt;link to treasure chests here&gt;&gt; or something like that?? Hmmm... 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fTraps?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fTraps.text_html">RefreshCache</a> for this page (cached 2005-11-04 12:47:46)<br>
+<p><a href="./Spoilers_2fTraps?action=edit">EditText</a> of this page (last edited 2004-12-14 14:20:32 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:06:58 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:41:00 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 865.03
+  exclusion.robots: 0.126
+  exclusion.robots.policy: 0.12
+  RedisCDXSource: 38.488
+  esindex: 0.006
+  LoadShardBlock: 810.535 (3)
+  PetaboxLoader3.datanode: 770.312 (4)
+  CDXLines.iter: 14.26 (3)
+  PetaboxLoader3.resolve: 457.534 (2)
+  load_resource: 465.214
+-->

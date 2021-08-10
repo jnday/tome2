@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport71 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport71?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport71?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport71?action=fullsearch&amp;value=BugReport71&amp;literal=1&amp;case=1&amp;context=40">BugReport71</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport71?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport71">View</a></li>
+<li><a title="Diffs" href="./BugReport71?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport71?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport71?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport71?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport71?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport71?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport71?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport71?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport71?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport71">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MayLith">MayLith</a>: A guest noted this over on the forum: <p>
+If you roll up a Ranger, once you get to the part where you pick a god, Eru is not an option. You can still do 'no god' and then convert later, of course. It's rather odd, though, and perhaps inconsistent, as Archers <em>can</em> pick Eru. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Not a bug.  A check of the relevant game data shows that Rangers are not supposed to be able to pick Eru. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Not complaining, but... why??? (Inquiring mind wishes to know.) 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: That decision was made before my involvement.  I only started after ToME 2.1, the first ToME 2 version to work for me. 
+</p>
+<p>
+<a href="./FearofFours">FearofFours</a>: Presumably because Eru does not allow sharp weapons and rangers are often quite nifty with a sword? 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: That's all I could think of, myself... but arrows are pointy, too, and Eru will allow Archers to worship him. (Even though some boomerangs are blessed... go figure...) 
+</p>
+<p>
+<a href="./FearofFours">FearofFours</a>: The way I see it is that arrows are piercing, not slashing/slicing. It comes down to blood loss: minimal loss with an arrow, more loss with a blade. And archers are not so good with a sword as rangers. As for the boomerangs, well some ancient traditional boomerangs have been found with sharp flints along the blades to act as a slicing weapon as well as a stunning one. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Hm, that all makes sense. I've never played a ranger, but this still interests me. I guess an Eru ranger would be a new character class, then....(?) 
+</p>
+<p>
+<a class="nonexistent" href="./ElIott">ElIott</a>: Yeah and maybe I'm wrong, but can't swordmasters and axemasters worship Eru? 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: I just tried a quick rollup. Swordmasters are not offered Eru on character creation. 
+</p>
+<p>
+<a href="./FearofFours">FearofFours</a>: <a class="nonexistent" href="./ElIott">ElIott</a>, IIRC they are only allowed to worship Eru by 'converting' to him at a later date. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: That's true of rangers, too. 
+</p>
+<p>
+However, any class that gets the "no god" option can convert to <em>any</em> god later on.... which pretty well obviates the whole point of preventing Eru worship in the first place. 
+</p>
+<p>
+<a href="./ZV">ZV</a>: Umm, no? Think of newbies - start with Eru swordmaster and have a bad time. Quite discouraging, isn't it? OTOH to convert you must make it to Lorien and you probably know what's it all about then. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: The enjoyment of the game comes first.  It doesn't matter that a determined player can wreck his game by converting a swordmaster to Eru.  It'd absurd to allow a swordmaster to start the game following Eru.   That's not fun and there's no good reason to allow it. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: I didn't realize that a Ranger was considered a Swordmaster... 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Well, combining what Martin said above with the fact that the most famous ranger in Middle-earth wielded Anduril, it seems clear that Rangers are "meant" to be able to wield swords. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Hm, well, fair enough then. <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15"> And no, I would never want for a newbie to run into an Eru swordmaster combination. 
+</p>
+<p>
+<strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: <a href="./NeilStevens">NeilStevens</a>: "&lt;/deliberate misquote&gt; It'd absurd to allow a swordmaster to ... follow... Eru.&lt;/deliberate misquote&gt; That's not fun and there's no good reason to allow it." 
+</p>
+<p>
+<a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=5470"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">http://forum.t-o-m-e.net/viewtopic.php?t=5470</a>  
+</p>
+<p>
+FOR GREAT JUSTICE! 
+</p>
+<p>
+<img src="./wiki/starshine/img/smile.png" alt=":-)" height="15" width="15"> <img src="./wiki/starshine/img/smile.png" alt=":-)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I think the point, Erik, is that while Ent Eru Swordmasters are <em>possible</em>, they should not be immediately available to the unsuspecting newbie, who would probably be extremely frustrated by such a combination. (I happen to have at least one Eru-worshipping sword-carrying characters, myself.) 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport71?action=refresh&amp;arena=Page.py&amp;key=BugReport71.text_html">RefreshCache</a> for this page (cached 2004-10-11 16:19:34)<br>
+<p><a href="./BugReport71?action=edit">EditText</a> of this page (last edited 2004-10-11 16:19:33 by <span title="user-2ivem38.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:26:29 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:37 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 99.44
+  exclusion.robots: 0.193
+  exclusion.robots.policy: 0.18
+  RedisCDXSource: 3.694
+  esindex: 0.009
+  LoadShardBlock: 74.316 (3)
+  PetaboxLoader3.datanode: 87.733 (4)
+  CDXLines.iter: 17.806 (3)
+  load_resource: 73.397
+  PetaboxLoader3.resolve: 40.319
+-->

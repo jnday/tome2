@@ -1,0 +1,369 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Junkarts - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fJunkarts?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fJunkarts?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fJunkarts?action=fullsearch&amp;value=%2FJunkarts&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Junkarts</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fJunkarts?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fJunkarts">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fJunkarts?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fJunkarts?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fJunkarts?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fJunkarts?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fJunkarts?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fJunkarts?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fJunkarts?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fJunkarts?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fJunkarts?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fJunkarts">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-36e8c32e5fdb28226dfdd5fc6230382b4c167160">Chart of junkart names (ID'd and not ID'd)</a></li>
+<li>
+<a href="#head-9ab05ecac6c7aeace263f11fda1545f3ee00f0e9">Bad junkart activations</a></li>
+<li>
+<a href="#head-1e335e78d3fc6b2baeaca27bda56b0aee1e7d22d">Good junkart activations</a></li>
+<li>
+<a href="#head-94e2050a75aa20b286fb773fcb1c6310bcb66dfa">Mostly neutral junkart activations (YMMV)</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-2473e96bc614a911821242119918a241a41836d6">Introduction</h3>
+A 'junkart' is an artifact, but an odd sort of artifact. It cannot be wielded, but it can be activated. Its value (good or bad) lies solely in its activation.  <p>
+The activation can only be found through *ID*ing the junkart in question. There are a fixed number of junkarts in the game, and a fixed number of activations. <em>However</em>, the specific activation of a given junkart is assigned randomly at the start of a game, just as the flavours of potions, etc., are scrambled. This means that a specific named junkart which, in your last game, healed 700 HP, might very well kill you next time around! 
+</p>
+<p>
+Furthermore: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ duplicate copies of the same junkart may be found 
+</p>
+</li>
+    <li>
+<p>
+ different junkarts with the same activation may be found 
+</p>
+</li>
+    <li>
+<p>
+ the recharge time in the description is missing or incorrect in ToME 2.2.7 but is fixed in ToME 2.3.0 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Words of wisdom: Never, ever, ever use a junkart before *ID*'ing it first. 
+</p>
+<p>
+...but if you do and survive, but can't figure out what it did, look it if is (charging). Purely destructive junkarts never recharge. 
+</p>
+<h3 id="head-36e8c32e5fdb28226dfdd5fc6230382b4c167160">Chart of junkart names (ID'd and not ID'd)</h3>
+Please note (again) that this list of names has nothing to do with activations. 
+<div>
+<table>
+<tr>
+<td>
+ Junkart name </td>
+<td>
+ Un-identifed junkart name </td>
+</tr>
+<tr>
+<td>
+ The Gem of Fire             </td>
+<td>
+ (a red gem) </td>
+</tr>
+<tr>
+<td>
+ Kenault's Cantrip Generator </td>
+<td>
+ (a shiny, black box) </td>
+</tr>
+<tr>
+<td>
+ The Gem of Wisdom           </td>
+<td>
+ (a grey gem) </td>
+</tr>
+<tr>
+<td>
+ The Gem of Ice              </td>
+<td>
+ (a blue gem) </td>
+</tr>
+<tr>
+<td>
+ The Wand Contruction Kit    </td>
+<td>
+ (many small wooden sticks) </td>
+</tr>
+<tr>
+<td>
+ a Parchment titled "Finer Points of Munchkinism" </td>
+<td>
+  (a Greasy Parchment)  &lt;--- most funny name. </td>
+</tr>
+<tr>
+<td>
+ The Gem of Ghosts           </td>
+<td>
+ (a translucent gem) </td>
+</tr>
+</table>
+</div>
+<p>
+Etc. A full list is available in the files <a class="external" href="./angband.oook.cz/cgi-bin/cvsweb.cgi/~checkout~/tome2/lib/file/rart_f.txt?rev=HEAD&amp;content-type=text/plain&amp;cvsroot=tome"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">./lib/file/rart_f.txt</a> and  <a class="external" href="./angband.oook.cz/cgi-bin/cvsweb.cgi/~checkout~/tome2/lib/file/rart_s.txt?rev=HEAD&amp;content-type=text/plain&amp;cvsroot=tome"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">./lib/file/rart_s.txt</a>. 
+</p>
+<h3 id="head-9ab05ecac6c7aeace263f11fda1545f3ee00f0e9">Bad junkart activations</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Death (5000 HP unresisted damage) 
+</p>
+</li>
+    <li>
+<p>
+ Hallucinate 
+</p>
+</li>
+    <li>
+<p>
+ Ruination (lose some points in all stats - permanent - restoration won't help) 
+</p>
+</li>
+    <li>
+<p>
+ Create hunger (you usually get paralyzed for some turns) 
+</p>
+</li>
+    <li>
+<p>
+ Lose one point in one stat (all stats are possible, but i'm not sure if stat loss can be temporary or restorable) 
+</p>
+</li>
+    <li>
+<p>
+ Aggravate monster 
+</p>
+</li>
+    <li>
+<p>
+ Darkness (does that include blindness if you don't have the resist??) 
+</p>
+</li>
+    <li>
+<p>
+ Poison 
+</p>
+</li>
+    <li>
+<p>
+ Cuts 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-1e335e78d3fc6b2baeaca27bda56b0aee1e7d22d">Good junkart activations</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Light absorbtion: Deals 1d(player level) per lighted square in a radius 6 zone. Quaff a Potion of Enlightment or cast Vision and you obtain an attack that deals up to 121d(player level) light damage, which is doubled against Ringwraiths and Vampires. Recharge time 80. 
+</p>
+</li>
+    <li>
+<p>
+ Satisfy hunger: Recharge time 100. 
+</p>
+</li>
+    <li>
+<p>
+ Heal 700 hitpoints: Recharge time 100. 
+</p>
+</li>
+    <li>
+<p>
+ Genocide: Recharge time 500. 
+</p>
+</li>
+    <li>
+<p>
+ Mass genocide: Recharge time 1000. 
+</p>
+</li>
+    <li>
+<p>
+ Destruction: Create walls in 15% of the squares in a radius 12 zone who will kill most monsters under the new walls, similar to the spell Shake. Recharge time 100. 
+</p>
+</li>
+    <li>
+<p>
+ Curing: heals blindness, poison, confusion, stun and cuts. Recharge time 110. 
+</p>
+</li>
+    <li>
+<p>
+ Cure stun 
+</p>
+</li>
+    <li>
+<p>
+ Cure cuts 
+</p>
+</li>
+    <li>
+<p>
+ Summon pet 
+</p>
+</li>
+    <li>
+<p>
+ Summon pets 
+</p>
+</li>
+    <li>
+<p>
+ Teleportation: Teleports you up to 100 sqares away. Recharge time 100. 
+</p>
+</li>
+    <li>
+<p>
+ Acquirement (the recharge time is very long (3000) and the results are rarely all that good. But it does generate some cash when you sell) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-94e2050a75aa20b286fb773fcb1c6310bcb66dfa">Mostly neutral junkart activations (YMMV)</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Something weird (no effect whatsoever). 
+</p>
+</li>
+    <li>
+<p>
+ Gain corruption (some people actually want corruptions, hoping to gain demonology skill or anti-teleportation. Use at your own risk, as corruptions are irreversible!). 
+</p>
+</li>
+    <li>
+<p>
+ Experience loss (was useful to obtain all god quests in old versions of ToME; is still useful to give more XP per kill to an item by remaining at level 36 a long time if you're an alchemist) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h3>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: Junkarts are 20% of the fun in the game to me. We should have crazy-named weapons, armor, foodstuff, etc. that activates when used in melee, show, eaten, receive a hit, etc. (-; 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Post it in the <a href="./IdeaArchive">IdeaArchive</a>. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fJunkarts?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fJunkarts.text_html">RefreshCache</a> for this page (cached 2005-11-05 10:43:15)<br>
+<p><a href="./Spoilers_2fJunkarts?action=edit">EditText</a> of this page (last edited 2004-10-23 22:59:24 by <span title="modemcable118.99-200-24.mc.videotron.ca"><a href="./SimonSorc">SimonSorc</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 01:30:36 Nov 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:00:43 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 0.872
+  esindex: 0.014
+  CDXLines.iter: 25.531 (3)
+  load_resource: 77.219
+  exclusion.robots: 0.21
+  captures_list: 216.0
+  PetaboxLoader3.resolve: 77.338 (2)
+  LoadShardBlock: 185.045 (3)
+  PetaboxLoader3.datanode: 136.753 (4)
+  exclusion.robots.policy: 0.196
+-->

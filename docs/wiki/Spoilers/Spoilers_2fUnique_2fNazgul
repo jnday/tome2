@@ -1,0 +1,271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Unique/Nazgul - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fUnique_2fNazgul?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fUnique_2fNazgul?action=print">
+<link rel="Up" href="/Spoilers_2fUnique">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fUnique_2fNazgul?action=fullsearch&amp;value=%2FNazgul&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Unique/Nazgul</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fUnique">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fUnique_2fNazgul?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fUnique_2fNazgul">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fUnique_2fNazgul?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fUnique_2fNazgul?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fUnique_2fNazgul?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fUnique_2fNazgul?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fUnique_2fNazgul?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fUnique_2fNazgul?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fUnique_2fNazgul?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fUnique_2fNazgul?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fUnique_2fNazgul?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fUnique_2fNazgul">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The nine Nazgul, also known as Ringwraiths or Morgul beings, are Sauron’s most dreaded servants.  They are also much dreaded among players, as special precautions must usually be taken when fighting them.  Since they are wraiths, they all appear as black “W”s. <br>
+<br>
+ <hr>
+ <ol>
+<li>
+<a href="#head-ce6221c7818d826f3941f7bb4cbbd30fe6304b9f">The Nine</a></li>
+<li>
+<a href="#head-dac8278f64f3028aaa97853f95ab656cc4ed6238">Special Abilities of the Nazgul</a></li>
+<ol>
+<li>
+<a href="#head-506eb98f49aeca09b7b0ae46f3a818206931e14b">Regeneration</a></li>
+<li>
+<a href="#head-f1e10dbc38877ba2fa92900ccef3720760c8a4af">Rings of Power</a></li>
+<li>
+<a href="#head-a99910bd304c2758fe11678e1aa81a72c7615f05">Black Breath</a></li>
+<li>
+<a href="#head-208d207b13078259a5523308b607ff459a1d182e">Shatter Weapons</a></li>
+<li>
+<a href="#head-52bebf02ed25d90dc405e495fd216fc0ed189b1f">Disenchant Weapons</a></li>
+<li>
+<a href="#head-88d7d9ba0c6ec310ae878d75b6ab6810d3231191">Resist Melee Damage</a></li>
+</ol>
+
+<li>
+<a href="#head-4eb0c048c59960e328c8d88434aed4118808b3a2">How to Fight Nazgul</a></li>
+<ol>
+<li>
+<a href="#head-d59b02951540eecb66f261e180cda80d1a322175">Ranged Combat</a></li>
+<li>
+<a href="#head-aabb396a864705c93b5073c4fb6b7984ebf6cb1f">Melee Combat</a></li>
+<li>
+<a href="#head-e2f7ac09d6937f4c4eac5f3841d683499cf57ab5">Bare-handed Combat</a></li>
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-ce6221c7818d826f3941f7bb4cbbd30fe6304b9f">The Nine</h2>
+These are in order from the least powerful to the most powerful. 
+    <ul>
+
+    <li>
+<p>
+Uvatha the Horseman 
+</p>
+</li>
+    <li>
+<p>
+Adunaphel the Quiet 
+</p>
+</li>
+    <li>
+<p>
+Akorahil the Blind 
+</p>
+</li>
+    <li>
+<p>
+Ren the Unclean 
+</p>
+</li>
+    <li>
+<p>
+Ji Indur Dawndeath 
+</p>
+</li>
+    <li>
+<p>
+Dwar, Dog Lord of Waw 
+</p>
+</li>
+    <li>
+<p>
+Hoarmurath of Dir 
+</p>
+</li>
+    <li>
+<p>
+Khamul, the Black Easterling 
+</p>
+</li>
+    <li>
+<p>
+The Witch-King of Angmar 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-dac8278f64f3028aaa97853f95ab656cc4ed6238">Special Abilities of the Nazgul</h2>
+<p>
+The Nazgul have six special points that set them apart from all other monsters. 
+</p>
+<h3 id="head-506eb98f49aeca09b7b0ae46f3a818206931e14b">Regeneration</h3>
+<p>
+Nazgul get their power from Sauron, and their existence is sustained by him.  Hence, when you defeat them, they will not be killed but may be regenerated again again.  The cycle is broken once Sauron has been killed.  With Sauron dead, defeating a Nazgul will permanently kill it.  Note that this is referring to the complete death of Sauron, once you have either worn or destroyed the One Ring. 
+</p>
+<h3 id="head-f1e10dbc38877ba2fa92900ccef3720760c8a4af">Rings of Power</h3>
+<p>
+Nazgul were once men, whom Sauron gave Rings of Power.  They still have these rings, and will drop one each time they are defeated.  The rings are heavily cursed, drain experience, and you cannot drop them while cursed.  They also make you invisible and each will be generated with a number of random abilities and resistances.  Since you can defeat each Nazgul limitless times until Sauron is killed, you can collect multiple rings from each Nazgul. 
+</p>
+<h3 id="head-a99910bd304c2758fe11678e1aa81a72c7615f05">Black Breath</h3>
+<p>
+You can get Black Breath when a Nazgul hits you in melee, or when you hit one of them with a melee weapon that has Slay Evil, Slay Undead, or *Slay Undead* flags.  Hitting them bare-handed does not give Black Breath.  
+</p>
+<p>
+Black Breath is by no means fatal or even very bad; you can travel around in wilderness mode with it and have nothing more than a little experience drained and stats unpermanently drained. It is curable with Sprigs of Athelas, Herbal Healing in Gondolin, Potions of Life, and "The Elfstone 'Elessar'". 
+</p>
+<h3 id="head-208d207b13078259a5523308b607ff459a1d182e">Shatter Weapons</h3>
+<p>
+Most weapons will be instantly destroyed after hitting a Nazgul.  All artifact weapons have a high saving throw against being destroyed, but if you use them against Nazgul repeatedly you will eventually lose them.  Approximately 50% of weapons of Westernesse have the RES_Morgul flag, and will show “It can resist being shattered by morgul beings;” when *ID*ed.  Such weapons of Westernesse will never be shattered by meleeing a Nazgul.  One artifact, the Demonblade of Gothmog, also has that flag and will never be shattered by Nazgul. 
+</p>
+<h3 id="head-52bebf02ed25d90dc405e495fd216fc0ed189b1f">Disenchant Weapons</h3>
+<p>
+In addition to shattering most weapons used against them, Nazgul will also disenchant most weapons used against them.  Artifacts have no resistance against this, including the Demonblade of Gothmog.  Weapons of Westernesse with the RES_Morgul flag (or any other exceptional weapon with that flag, but in standard ToME Westernesse is the only ego to possibly get that flag) are the only weapons that are not disenchanted by meleeing Nazgul. 
+</p>
+<h3 id="head-88d7d9ba0c6ec310ae878d75b6ab6810d3231191">Resist Melee Damage</h3>
+<p>
+When meleeing a Nazgul, you get the message "Foo is IMPERVIOUS to the mundane weapon!" if the weapon does not have a 'slay evil', 'slay undead', or '*slay undead*' flag. But actually, it does not mean what it appears to mean. Any damage that the <em>weapon itself</em> does is negated, but bonuses from your skill, rings of damage/slaying, gloves of slaying, etc are applied. Thus, if your character has +60 to damage (shown on charsheet) and is wielding a Broad Sword (2d5)(+15,+10), it will do exactly 50 damage every blow, as if you were wielding a Broad Sword (0d0)(+15,+0).  Since the base dice of the weapon is made 0d0, critical hits and other brands such as fire do not upgrade damage.  If the weapon has any of those three brands, it will do full damage against the Nazgul, as with a Broad Sword of Slay Undead (2d5)(+15,+10) with +60 to damage on charsheet doing 2d5+60 damage.  Of course, both of those weapons would be destroyed after the first hit. 
+</p>
+<h2 id="head-4eb0c048c59960e328c8d88434aed4118808b3a2">How to Fight Nazgul</h2>
+<h3 id="head-d59b02951540eecb66f261e180cda80d1a322175">Ranged Combat</h3>
+<p>
+Using any means of ranged combat completely bypasses all the special difficulties in fighting Nazgul except for their regeneration. 
+</p>
+<p>
+Magic users can use most of their standard means of killing them.  Manathrust, as always, performs admirably, as does Fireflash since they are evil.  Thaumaturgists should note that they are especially vulnerable to light. 
+</p>
+<p>
+Archery and boomerangery do full damage including whatever flags are on the ammo or boomerang of the ammo or boomerang having ‘Slay Evil’, ‘Slay Undead’, or ‘*Slay Undead*’ and the ammo or boomerang will not be destroyed, and neither will the character contract the Black Breath. 
+</p>
+<p>
+Boulder-Throwing works very well for Ents who have been training this skill. 
+</p>
+<p>
+Perhaps the most popular, fun, and painless way to kill Nazgul is with a junkart that activates for Light Absorption.  They absorb all the light in a large radius around the character and shoot it in a powerful bolt.  With a decent number of lighted squares to absorb from (a large room, or best case an arena level), most Nazgul can be killed in one shot.  The more powerful Nazgul will take two.  The Nazgul are especially vulnerable to this attack, more so than other creatures. 
+</p>
+<h3 id="head-aabb396a864705c93b5073c4fb6b7984ebf6cb1f">Melee Combat</h3>
+<p>
+The ultimate weapon against a Nazgul is a Spectral weapon of Westernesse (with RES_MORGUL), which will have the 'slay undead' flag and resist shattering and disenchantment.  
+</p>
+<p>
+Second-best to this is the Demonblade of Gothmog, which will be disenchanted to (+0,+0) but has the 'Slay Evil' brand, allowing the weapon's (4d6) and brand bonus to come into play.  
+</p>
+<p>
+Third-best is a weapon of Westernesse (with RES_MORGUL) which will not be destroyed or disenchanted (though its + to damage is useless anyway, but the + to accuracy may still apply).  
+</p>
+<p>
+Fourth-best is a "junk" artifact, especially with a slay evil/undead brand (I put this after plain Westernesse because it would be really bad in a fight to suddenly have your weapon disappear, unless you happen to have yet another junk artifact on hand). 
+</p>
+<p>
+A high AC will help prevent them from giving you the Black Breath. 
+</p>
+<h3 id="head-e2f7ac09d6937f4c4eac5f3841d683499cf57ab5">Bare-handed Combat</h3>
+<p>
+Monks arguably have the easiest time with Nazgul, since none of the weapon restrictions apply to them, and they do not get Black Breath from hitting them.  Also, if they are using the Dodging skill, the Nazgul will probably hit infrequently enough that the monk never gets the Black Breath at all.   
+</p>
+<p>
+The Nazgul do not have a very wide range of elemental spells, mostly just Nether and Cold with a couple Fire, Acid, and Lightning, so resistances are not a key issue when fighting Nazgul. 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  If in the future someone makes pages for individual Nazgul, they should be subpages of this one rather than of the Uniques page, and link back here for a discussion of Nazgul in general.  For now, I’m linking each of the Nazgul on the Uniques page directly to this one, since some people don’t realize that the individuals are grouped in a clump called “Nazgul” when they run into them. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fUnique_2fNazgul?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fUnique_2fNazgul.text_html">RefreshCache</a> for this page (cached 2005-11-04 15:11:27)<br>
+<p><a href="./Spoilers_2fUnique_2fNazgul?action=edit">EditText</a> of this page (last edited 2005-02-26 04:12:12 by <span title="adsl-68-77-45-166.dsl.emhril.ameritech.net"><a href="./FeathinSilyar">FeathinSilyar</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 03:08:16 Jan 01, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:02:08 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 183.799
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.077
+  RedisCDXSource: 6.337
+  esindex: 0.008
+  LoadShardBlock: 161.148 (3)
+  PetaboxLoader3.datanode: 123.809 (4)
+  CDXLines.iter: 14.449 (3)
+  load_resource: 116.608
+  PetaboxLoader3.resolve: 61.555
+-->

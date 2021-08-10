@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Macro/Advanced macro techniques - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Macro_2fAdvanced_20macro_20techniques?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Macro_2fAdvanced_20macro_20techniques?action=print">
+<link rel="Up" href="/Macro">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Macro_2fAdvanced_20macro_20techniques?action=fullsearch&amp;value=%2FAdvanced+macro+techniques&amp;literal=1&amp;case=1&amp;context=40">Macro/Advanced macro techniques</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Macro">Up</a></li>
+<li><a title="Edit" href="./Macro_2fAdvanced_20macro_20techniques?action=edit">Edit</a></li>
+<li><a title="View" href="./Macro_2fAdvanced_20macro_20techniques">View</a></li>
+<li><a title="Diffs" href="./Macro_2fAdvanced_20macro_20techniques?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Macro_2fAdvanced_20macro_20techniques?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Macro_2fAdvanced_20macro_20techniques?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Macro_2fAdvanced_20macro_20techniques?action=raw">Raw</a></li>
+<li><a title="Print" href="./Macro_2fAdvanced_20macro_20techniques?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Macro_2fAdvanced_20macro_20techniques?action=DeletePage">DeletePage</a></li>
+<li><a href="./Macro_2fAdvanced_20macro_20techniques?action=LikePages">LikePages</a></li>
+<li><a href="./Macro_2fAdvanced_20macro_20techniques?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Macro_2fAdvanced_20macro_20techniques?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Macro_2fAdvanced_20macro_20techniques">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-6cf3da72821778ab3ee551c497b7b3e4987c491b">macro-recording macro</h2>
+<p>
+A macro can start the macro recorder, and accept the macro when done. 
+</p>
+<p>
+The macro is assigned say F12 
+</p>
+<p>
+Some other macro does F12 ten times. 
+</p>
+<p>
+This allows repetitive actions that are either unique or not the same keys after a while to be used quickly when 'n' won't work. 
+</p>
+<p>
+This is useful for making piles of ID scrolls when you're an alchemist; or for stealing 99 arrows from a store one by one; for a speed adjust macro that garantees returning at max speed when done; etc. 
+</p>
+<p>
+Beware of starvation, talking uniques, and monsters when using macros that take 50+ turns to execute!! 
+</p>
+<h2 id="head-bb1bc342c954fb5d5741ec3aee315ae40df05a5c">macros with conditionals</h2>
+<p>
+When a macro cannot work for some reason (like a rod not having enough mana), the macro may have some letters at the end ignored (it's meaningless to the game at that point). This can be used to insert another macro there, conditionnal on success/failure of the first. 
+</p>
+<p>
+The automatizer can be used to inscribe the item with @0 when a condition is true, so that the macro does an action targetting this item only when this flag is true; then add escape to the macro. 
+</p>
+<p>
+The automatizer causes a more prompt to exist, and with cleverly lenghted prompts you can cause some macro letters to be ignored conditionally when the flag the automatizer tests for exists! 
+</p>
+<h3 id="head-c63737abd7347a7ae582cb9fbdf37d6c0e5b251e">Example:</h3>
+<p>
+You want a macro to zap a rod of ID, and read a scroll of ID if it fails(low mana, rod failure). 
+</p>
+<p>
+ID were scrolls auto-inscribed @r7 
+</p>
+<p>
+ID were rod is inscribed @z7 
+</p>
+<p>
+The macro does z70r70 (escape) 
+</p>
+<p>
+non-ID items with no inscriptions are auto-inscribed with @0 by the automatizer. 
+</p>
+<p>
+autopickup picks the item because it is marked @0 
+</p>
+<p>
+You start the macro: 
+</p>
+<p>
+the macro zaps the rod, ID item inscribed @0 
+</p>
+<p>
+Items that are ID and inscribed @0 are de-inscribed by the automatizer. Items still not ID are ignored. 
+</p>
+<p>
+the scroll is read, but sometimes has nothing to identify because there is no longer any @0 item. 
+</p>
+<p>
+The escape cleans up for the scroll being read when not necessary. 
+</p>
+<p>
+Macro ends. Here you have it, the advanced ID macro! It could be improved by reduced auto-inscribe type "spam". 
+</p>
+<h2 id="head-97d8f3143be0fa7474305e375b9fdcb3a3899672">speed adjust macro</h2>
+<p>
+The 'speed' macro does 'slower', then modifies itself by running other macro 'makesfaster' that makes 'speed' include 'faster'. (it may set search mode if you're not trying to be stealthy) 
+</p>
+<p>
+When you run it again, 'speed' macro does 'faster', then modifies itself by running macro 'makeslower' that makes 'speed' include 'slower'. 
+</p>
+<p>
+This deals with the fact going to the character screen and be forced to look at the current speed is irritating for mundane things like adjusting speed and garanteeing going back to max speed. 
+</p>
+<p>
+People usually want 'slower' for search mode, so this may be activated as part of 'slower'. 
+</p>
+<h2 id="head-6f8959a0ca67f0b6aaa579c5c9aff8a93c96bfdd">other tricks</h2>
+<p>
+Please add. Macro writing is an artform much appreciated by wiki readers. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Modemcable. This is NOT the required section from macrofaq.txt. Please replace it, then append your comments/additions. Check your spelling and punctuation. Then log your changes in the Documentation <a class="nonexistent" href="./ChangeLog">ChangeLog</a>. Thank you. 
+</p>
+<p>
+FYI all these macro stubs are destinations for future imports. 
+</p>
+<p>
+Simon: <a href="./MayLith">MayLith</a>, the content of this page was duplicated at the macro exchange. Feel free to do with this page as you wish. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Macro_2fAdvanced_20macro_20techniques?action=refresh&amp;arena=Page.py&amp;key=Macro_2fAdvanced_20macro_20techniques.text_html">RefreshCache</a> for this page (cached 2004-08-28 20:39:19)<br>
+<p><a href="./Macro_2fAdvanced_20macro_20techniques?action=edit">EditText</a> of this page (last edited 2004-08-28 20:39:18 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:15:44 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:48:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  esindex: 0.016
+  exclusion.robots: 0.196
+  load_resource: 176.243
+  LoadShardBlock: 228.598 (3)
+  exclusion.robots.policy: 0.182
+  captures_list: 268.545
+  PetaboxLoader3.resolve: 79.211
+  PetaboxLoader3.datanode: 219.67 (4)
+  CDXLines.iter: 26.405 (3)
+  RedisCDXSource: 7.708
+-->

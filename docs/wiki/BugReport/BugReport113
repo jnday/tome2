@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport113 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport113?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport113?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport113?action=fullsearch&amp;value=BugReport113&amp;literal=1&amp;case=1&amp;context=40">BugReport113</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport113?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport113">View</a></li>
+<li><a title="Diffs" href="./BugReport113?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport113?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport113?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport113?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport113?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport113?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport113?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport113?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport113?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport113">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Dark-elf Thaumaturgist, heavily poisoned by a Wereworm in the Sandworm lair. On 1HP, drank a {terrible} potion, and it's a !oSaltWater. Usual paralysis and "weak" hunger state, and I die. <p>
+The tombstone screen and score record both show death by starvation, not poison as I would have done in two turns. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Potions of Salt Water remove poisons, but paralyse you and set the hunger status to "weak". This status can deal some low starvation damage after one round. The question is if a paralysed character should consume food (and take starvation damage) or not. 
+</p>
+<p>
+<a href="./KalonKalon">KalonKalon</a>: I understand that. I have since tried to duplicate the situation, this time with more HP (25). I got the same result. Death by starvation, not poison. I think what is happening is that paralysis due to "vomiting" is happening BEFORE poison is purged. This is fine, as long as that is the intended effect. If not, it is probably as easily solved as simply changing the order to the potion effects to purge poison first, THEN paralyse you. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The order is: 
+<pre>(void)set_food(PY_FOOD_STARVE - 1);
+(void)set_poisoned(0);
+(void)set_paralyzed(p_ptr-&gt;paralyzed + 4);
+</pre>
+</p>
+<p>
+<a href="./KalonKalon">KalonKalon</a>: Ok, that seems to be right (having never read ToME code) but why then do I die by starvation? I've never had 25HP of starvation damage in the first turn from a !oSaltWater before...? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The starvation damage depends on the difference between the starvation threshold and the actual food value (i.e. on the food consumed while paralysed). If the consumed food per round is low (e.g. with Speed 0) the damage is also low. If you are regenerating, invisible and running at +40 Speed you can even lose 40 HP. 
+</p>
+<p>
+Moving to resolved. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport113?action=refresh&amp;arena=Page.py&amp;key=BugReport113.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:44:14)<br>
+<p><a href="./BugReport113?action=edit">EditText</a> of this page (last edited 2004-10-04 08:18:02 by <span title="dialin-145-254-143-179.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:41:36 Jan 19, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:41 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.datanode: 175.989 (4)
+  CDXLines.iter: 18.297 (3)
+  exclusion.robots: 0.481
+  LoadShardBlock: 98.614 (3)
+  PetaboxLoader3.resolve: 25.596
+  exclusion.robots.policy: 0.464
+  captures_list: 151.163
+  esindex: 0.055
+  load_resource: 115.04
+  cdx.remote: 0.226
+-->

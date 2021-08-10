@@ -1,0 +1,293 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Classes/Possessor - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fClasses_2fPossessor?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fClasses_2fPossessor?action=print">
+<link rel="Up" href="/Spoilers_2fClasses">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fClasses_2fPossessor?action=fullsearch&amp;value=%2FPossessor&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Classes/Possessor</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fClasses">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fClasses_2fPossessor?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fClasses_2fPossessor">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fClasses_2fPossessor?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fClasses_2fPossessor?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fClasses_2fPossessor?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fClasses_2fPossessor?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fClasses_2fPossessor?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fClasses_2fPossessor?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fClasses_2fPossessor?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fClasses_2fPossessor?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fClasses_2fPossessor?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fClasses_2fPossessor">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+It's all about possessing nice corpses. Like the Watcher in the Water (6 ring slots) or Eol (lots of spells and HP and speed). Breeders are nice to overwhelm your first 2-headed hydra, even if it takes a while. <hr>
+ <ol>
+<li>
+<a href="#head-87df60de337fb58864343e396696d74611e0d403">Resources</a></li>
+<li>
+<a href="#head-a819dd7bbb608d3f47711204360ccd4aea2ec078">Tricks</a></li>
+<li>
+<a href="#head-b091d64170afaf93cbbf5cae61c985309ff8bfa1">Bodies</a></li>
+<ol>
+<li>
+<a href="#head-f087b4ed579837ed54e65a6667a173add77f225b">Playing styles and bodies</a></li>
+<li>
+<a href="#head-5ca47cbd9b33f62e0cb5c8d1411c378865b48ab1">Other guidelines for body choice</a></li>
+<li>
+<a href="#head-01797072ec1f8a4b3b2c697ec6c8afcab444e709">Of Weaponless Bodies</a></li>
+</ol>
+
+</ol>
+
+ <hr>
+ <h2 id="head-87df60de337fb58864343e396696d74611e0d403">Resources</h2>
+
+    <ul>
+
+    <li>
+<p>
+ On the web there is a <a class="external" href=".tome.dreamer.hu/"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">full creature spoiler</a>. Go check it out before trying to leave that very-good-but-not-perfect-body you're having, because it might rot away. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-a819dd7bbb608d3f47711204360ccd4aea2ec078">Tricks</h2>
+
+    <ul>
+
+    <li>
+<p>
+ Your starting race should be high in HP above all else. All intrinsic abilities/flaws will leave you when you get another corpse except stats and HP dice (which will be averaged with your corpse if I recall correctly). Troll zombies, Deathmolds, or Ents are nice start races... deathmold are favorites. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ To possess using a deathmold, you must deincarnate first so you can walk to the other body (you can't just walk over it in deathmold form). 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Don't rely on magic from anything but corpses you possess, and even that will be limited, your mana will be low. Not just lowish, but VERY LOW.  As of ToME 2.3, the Possession magic system pre-dates ToME 2 and was not designed to handle both possessor powers and normal magic, so your max SP will generally be too low to handle the normal magic schools. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Keep an OK corpse or two handy in your houses, in case you make a catastrophic choice when trying a new corpse and your previous corpse rots away. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Get an aquatic corpse to delve Numenor (does that give water breathing?), but you can't have magic breath from any body. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Oddly enough, it is possible to get the Player Corpse as a Princess quest reward! Talk about weird. This may not be all that useful, but fun (if only for the fact you can eat from it infinitely). The Player Corpse is also an artifact(!) and thus can be found just like any other item, and can be used for "reincarnation" back to your original form. Also, as an artifact, you can "E"at it and it never disappears (it gets down to 0.1lb but you can still eat from it)! The eating works regardless of how you get the player corpse(deincarnation, princess, etc). Its start weight is only 1.0lb. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Experienced players tend to use the Scroll of Deincarnation to get a very good body without getting this class/skill; or they just get possessor skill level 1 if they can't find the scroll. This happens a lot in late game. Low hitpoints are to be expected, but might be worth it as some bodies have worthy magic, big dragon summoning, or multiple weapon slots. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-b091d64170afaf93cbbf5cae61c985309ff8bfa1">Bodies</h2>
+<h3 id="head-f087b4ed579837ed54e65a6667a173add77f225b">Playing styles and bodies</h3>
+What is a good body? The answer is not simple. It depends on your playing style. There are three distinguishable styles: 
+    <dl>
+
+    <dt> Warrior</dt><dd>
+<p>
+You want to chop up your foe. This is simple and elegant. You don't care much about extra spells, your strentgh is in the mere numbers or raw power of your attacks. A good body for this style must have extra limbs. A good example is the Marilith, with three weapon slots. (<em>Note</em>: There is a better one for this style, but as a unique you're not garanteed to get it) Extra weapons are important, because your attack number is multiplied with them. An average warrior-possessor can attack about 50-60 times in one turn. 
+</p>
+</dd>
+    <dt> Magic user</dt><dd>
+<p>
+Your strategy is mixed. You can use your sword or you can throw mighty spells. You won't hit as much as a warrior, but you can handle the mob with area spells. It is probably the weakest of the three, because you can't really depend on your spells (they are expensive and not as powerful as for the monster) and you must be lucky to hit more than 20 in one turn. 
+</p>
+</dd>
+    <dt> Summoner</dt><dd>
+<p>
+Why should you hit the enemy when you can summon your horde to do that instead of you? As a possessor it is very easy to summon <strong>*packs*</strong> of mighty dragons or demons. All depends on your well-choosen body. The Necromancer of Dol-Guldur is one of the good bodies. A few ancient dragon types are OK if you get yourself a way to open doors. 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+There are some bodies that combine the power of the Magic User and Summoner. Playing with them is somewhat different from playing the usual spellcasters or summoners. The key of the success is well used tactics. 
+</p>
+<h3 id="head-5ca47cbd9b33f62e0cb5c8d1411c378865b48ab1">Other guidelines for body choice</h3>
+Some other guidelines for good bodies: 
+    <ul>
+
+    <li>
+<p>
+ The armor class of the original body is added to your own. 
+</p>
+</li>
+    <li>
+<p>
+ Your speed in the new body is its own speed. Beware of erratic monsters! 
+</p>
+</li>
+    <li>
+<p>
+ Your new hp is calculated like this: (old hp + (monster hp * (20 + 1.6 * possession skill) / 100) + the square root of the previous tag) / 3. This means that a lvl 50 possessor with maxed skill and with ~1000 player body hp can have roughly 2000 hp in a body with 5000 monster hp. 
+</p>
+</li>
+    <li>
+<p>
+ The immunities of the original body will be innate resistances for you. 
+</p>
+</li>
+    <li>
+<p>
+ Flight will became levitation for you. 
+</p>
+</li>
+    <li>
+<p>
+ OPEN_DOOR is very important. There are some bodies in which you cannot open or bash doors. Believe me, it's painful. Teleport to can be a good alternative if you're patient. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-01797072ec1f8a4b3b2c697ec6c8afcab444e709">Of Weaponless Bodies</h3>
+There are some bodies, which are unable to grab any weapons, like dragons or hydras. How is their attack calculated? It depends on your combat style. If you have unarmed combat skill and your melee style is unarmed, your attacks will be calculated the same way as of a monk. In the other case, when your melee style is armed combat, a very different calculation occurs. <p>
+First of all: forget skills, clvl, to_hit bonus, extra attacks and anything else that you would otherwise use. The chance of the damage only depends on three factors: the monster level of the body (ml), the attack type of the body (h) and the armor class of your opponent (fac). 
+</p>
+<p>
+The actual formula is: the attack succeeds, when random(3 * ml + h) is greater than fac*3/4. The h factor is a number between 0 and 60, depending on the original attack type of the body. There is always 5% chance to hit and an other 5 to miss. 
+</p>
+<p>
+The number of attacks is the same as the number of the original body. It is between 0 and 4, and there is no way to get more. 
+</p>
+<p>
+The damage is the original damage of the original monster attack + your to_dam modifier. If the type of the original attack is hurt the damage will be decreased with a percent depending on fac. 
+</p>
+<p>
+Example: A <a class="external" href=".tome.dreamer.hu/monster_show.php?id=614"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">7-headed hydra</a> has 4 attacks, the following: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ BITE: POISON(3d9) 
+</p>
+</li>
+    <li>
+<p>
+ BITE: POISON(3d9) 
+</p>
+</li>
+    <li>
+<p>
+ BITE: POISON(3d9) 
+</p>
+</li>
+    <li>
+<p>
+ SPIT: BLIND(1d2) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+The name (BITE, SPIT) is not important. The h is 5 for Poison and 2 for BLIND. The ml is 39.  Let's see what happens when two 7-header hydras attack each other. The fac is 90.  The first three attack is calculated like this: random(122) against 90. The last is random(119) against 90. There are a lot's of details I'm to lazy too explain, but the basics are here. 
+</p>
+<p>
+So, the best tactic with weaponless bodies is the following: Try to choose a high leveled body. Wyrms are great, except that most of them don't get OPEN_DOORS. (My last favorite was a Great Crystal drake). Pump up your damage bonus as much as possible. Rings of Damage (+20) are *great*. Use any dirty trick that you can to weaken or kill your enemy from a range, because you won't hit enough to handle the mob. Try to survive until you get the ultimate weaponless body: Great Wyrm of Power. Good luck! 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fClasses_2fPossessor?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fClasses_2fPossessor.text_html">RefreshCache</a> for this page (cached 2005-02-27 14:36:04)<br>
+<p><a href="./Spoilers_2fClasses_2fPossessor?action=edit">EditText</a> of this page (last edited 2004-11-27 06:47:33 by <span title="80.98.254.111=catv-5062fe6f.catv.broadband.hu">catv-5062fe6f</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 01:41:31 Aug 19, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:59:20 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 0.838
+  esindex: 0.016
+  CDXLines.iter: 24.06 (3)
+  load_resource: 117.235
+  exclusion.robots: 0.266
+  captures_list: 89.887
+  PetaboxLoader3.resolve: 29.269
+  LoadShardBlock: 59.833 (3)
+  PetaboxLoader3.datanode: 142.651 (4)
+  exclusion.robots.policy: 0.247
+-->

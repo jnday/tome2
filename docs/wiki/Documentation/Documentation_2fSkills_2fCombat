@@ -1,0 +1,302 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Skills/Combat - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fSkills_2fCombat?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fSkills_2fCombat?action=print">
+<link rel="Up" href="/Documentation_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fSkills_2fCombat?action=fullsearch&amp;value=%2FCombat&amp;literal=1&amp;case=1&amp;context=40">Documentation/Skills/Combat</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fSkills_2fCombat?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fSkills_2fCombat">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fSkills_2fCombat?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fSkills_2fCombat?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fSkills_2fCombat?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fSkills_2fCombat?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fSkills_2fCombat?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fSkills_2fCombat?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fSkills_2fCombat?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fSkills_2fCombat?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fSkills_2fCombat?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fSkills_2fCombat">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top" <hr>
+ <ol>
+<li>
+<a href="#head-af169bb89cfba4132f718ecc225adb9a91f8bdcf">Combat</a></li>
+<ol>
+<li>
+<a href="#head-205ae77c92c2ced85f8b3f01e6569ade6a949357">Weaponmastery</a></li>
+<ol>
+<li>
+<a href="#head-f05afc92c820bbb15763a3a6b48fa713b6753081">Sword-mastery</a></li>
+<ol>
+<li>
+<a href="#head-4922d0680cd7b810e7c52576d71f8932dcd2a0ad">Critical-hits</a></li>
+</ol>
+
+<li>
+<a href="#head-836fbe7a16afa95e4ca1d6bf82e8b791bce30497">Axe-mastery</a></li>
+<li>
+<a href="#head-c6725c1b9d8b2994dca60254a9fcfa4c32b6e62b">Hafted-mastery</a></li>
+<ol>
+<li>
+<a href="#head-93f62976c42d2a5ef962e7e839780d26dba79431">Stunning-blows</a></li>
+</ol>
+
+<li>
+<a href="#head-bb56f190c8a93517577eb9c026cc6b69fae942a2">Polearm-mastery</a></li>
+</ol>
+
+<li>
+<a href="#head-569af032e1674e344206d63248ad3bdba6522eda">Archery</a></li>
+<ol>
+<li>
+<a href="#head-3f81ec6ce2ab46bb42fe089407fbb345b907901c">Sling-mastery</a></li>
+<li>
+<a href="#head-fdf88b0a5790417bf95cc3b8f12772319f1fa62d">Bow-mastery</a></li>
+<li>
+<a href="#head-fbf9f49a9822829ec87d7855cdac5054d8f6db5e">Crossbow-mastery</a></li>
+<li>
+<a href="#head-a232fc1c12f1bd8c120dfbdac5157bd0bcacbb43">Boomerang-mastery</a></li>
+</ol>
+
+<li>
+<a href="#head-96d73f9d32912dbab2c50f0a1f501284c790d0c4">Barehand-combat</a></li>
+<li>
+<a href="#head-a9f58931e3bfd49c0797bbb71e29bda48668fd51">Bearform-combat</a></li>
+<li>
+<a href="#head-347bee99e4eaa15d2493de60a5eae6e52d7b1bb7">Boulder-throwing</a></li>
+<li>
+<a href="#head-5ebd1e1707c45e5eb72fe340a91407dc4ced905f">Antimagic</a></li>
+</ol>
+
+</ol>
+
+ <hr>
+ <h2 id="head-af169bb89cfba4132f718ecc225adb9a91f8bdcf">Combat</h2>
+The combat skill is used to determine the maximum combined weight of armour you can wear before you become encumbered by it. It also affects your general fighting ability, although not to as great an extent as Weaponmastery, and determines the speed and strength of pseudo-id of weapons and armour. <p>
+If you are investing in the combat skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-1c88fabfc785659d37cc5911f0d88f971aeaa7cd"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Extra max Blow (1)</a> and <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-b37c9427f140befa9b42039431cb79414dbb6565"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Extra Max Blow (2)</a> abilities. 
+</p>
+<p>
+Sub-skills of Combat are Weaponmastery, Archery, Barehand-combat, Boulder-throwing and Anti-magic. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-205ae77c92c2ced85f8b3f01e6569ade6a949357">Weaponmastery</h3>
+This skill is a sub-skill of the Combat skill.  <p>
+It affects your general ability to use melee weapons of all sorts. Spending 1 skill point on Weaponmastery adds 0.5 bonus skill points to Combat. 
+</p>
+<p>
+If you are investing in the weaponmastery skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-bab2dad4b0784bf7e604aa0f4d20ed995bf67ce5"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Spread Blows</a> ability. 
+</p>
+<p>
+Sub-skills of Weaponmastery are Sword-mastery, Axe-mastery, Hafted-mastery and Polearm-mastery. 
+</p>
+<h4 id="head-f05afc92c820bbb15763a3a6b48fa713b6753081">Sword-mastery</h4>
+This skill is a sub-skill of the Weaponmastery skill.  <p>
+It affects your ability to use blade weapons (e.g. daggers, swords). Spending 1 skill point on your Sword-mastery skill adds 0.25 bonus skill points to your Weaponmastery skill and adds 0.07 bonus skill points to your Combat skill. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fWarrior"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Warriors</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fSwordmaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Swordmasters</a>. 
+</p>
+<p>
+Critical-hits is a sub-skill of Sword-mastery. 
+</p>
+<h5 id="head-4922d0680cd7b810e7c52576d71f8932dcd2a0ad">Critical-hits</h5>
+This skill is a sub-skill of the Sword-mastery skill.  <p>
+It affects your ability to deal critical hits to monsters using a blade weapon that weighs less than 5 pounds. Spending one skill point on your Critical-hits skill also increases your Sword-mastery skill by 0.05 skill points. 
+</p>
+<p>
+This skill is only available to <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fAssassin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Assasins</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fRogue"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Rogues</a>. 
+</p>
+<h4 id="head-836fbe7a16afa95e4ca1d6bf82e8b791bce30497">Axe-mastery</h4>
+This skill is a sub-skill of the Weaponmastery skill.  <p>
+It affects your ability to use axes. Spending 1 skill point on your Axe-mastery skill adds 0.25 bonus skill points to your Weaponmastery skill and adds 0.07 bonus skill points to your Combat skill. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fWarrior"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Warriors</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fAxemaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Axemasters</a> 
+</p>
+<h4 id="head-c6725c1b9d8b2994dca60254a9fcfa4c32b6e62b">Hafted-mastery</h4>
+This skill is a sub-skill of the Weaponmastery skill.  <p>
+It affects your ability to use hafted weapons (e.g. whips &amp; maces). Spending 1 skill point on your Hafted-mastery skill adds 0.25 bonus skill points to your Weaponmastery skill and adds 0.07 bonus skill points to your Combat skill. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fWarrior"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Warriors</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fHaftedmaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Hafted-masters</a>. 
+</p>
+<p>
+Stunning-blows is a sub-skill of Hafted-mastery. 
+</p>
+<h5 id="head-93f62976c42d2a5ef962e7e839780d26dba79431">Stunning-blows</h5>
+This skill is a sub-skill of the Hafted-mastery skill.  <p>
+It affects your ability to stun opponents when doing critical hits with a hafted weapon that weighs more than 5 lbs. Spending one skill point on your Stunning-blows skill also increases your Hafted-mastery skill by 0.05 skill points. 
+</p>
+<p>
+This skill is only available to <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fhaftedmaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Hafted-masters</a>. 
+</p>
+<h4 id="head-bb56f190c8a93517577eb9c026cc6b69fae942a2">Polearm-mastery</h4>
+This skill is a sub-skill of the Weaponmastery skill.  <p>
+It affects your ability to use polearms (e.g. pikes &amp; halberds). Spending 1 skill point on your Polearm-mastery skill adds 0.25 bonus skill points to your Weaponmastery skill and adds 0.07 bonus skill points to your Combat skill. 
+</p>
+<p>
+If you are investing in the Polearm-mastery skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-c0e459de14c9ba5e0a8a5e3eb4e86b7c2a606115"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Far-reaching Attack</a> ability. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fWarrior"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Warriors</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fPolearmmaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Polearm-masters</a> 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-569af032e1674e344206d63248ad3bdba6522eda">Archery</h3>
+This skill is a sub-skill of the Combat skill.  <p>
+It affects your general ability to use ranged weapons of all sorts. Spending one skill point on your Archery skill adds 0.5 bonus skill points to your Combat skill. 
+</p>
+<p>
+If you are investing in the Archery skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-6bf91894f39aeba058a5dc2b21fba9b7faaa6b04"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ammo Creation</a> ability. 
+</p>
+<p>
+Archery and its sub-skills are primarily used by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fArcher"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Archers</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fRanger"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Rangers</a>. 
+</p>
+<p>
+Sub-skills of Archery include Sling-mastery, Bow-mastery, Crossbow-mastery and Boomerang-mastery. 
+</p>
+<h4 id="head-3f81ec6ce2ab46bb42fe089407fbb345b907901c">Sling-mastery</h4>
+This skill is a sub-skill of the Archery skill.  <p>
+It affects your ability to use Slings. Spending 1 skill point on your Sling-mastery skill adds 0.25 bonus skill points to your Archery skill and 0.07 bonus skill points to your Combat skill. 
+</p>
+<h4 id="head-fdf88b0a5790417bf95cc3b8f12772319f1fa62d">Bow-mastery</h4>
+This skill is a sub-skill of the Archery skill.  <p>
+It affects your ability to use both Long and Short Bows. Spending 1 skill point on your Bow-mastery skill adds 0.25 bonus skill points to your Archery skill and 0.07 bonus skill points to your Combat skill. 
+</p>
+<h4 id="head-fbf9f49a9822829ec87d7855cdac5054d8f6db5e">Crossbow-mastery</h4>
+This skill is a sub-skill of the Archery skill.  <p>
+It affects your ability to use both Heavy and Light Crossbows. Spending 1 skill point on your Crossbow-mastery skill adds 0.25 bonus skill points to your Archery skill and 0.07 bonus skill points to your Combat skill. 
+</p>
+<h4 id="head-a232fc1c12f1bd8c120dfbdac5157bd0bcacbb43">Boomerang-mastery</h4>
+This skill is a sub-skill of the Archery skill. It affects your ability to use all boomerangs. Spending 1 skill point on your Boomerang-mastery skill adds 0.25 bonus skill points to your Archery skill and 0.07 bonus skill points to your Combat skill. <p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-96d73f9d32912dbab2c50f0a1f501284c790d0c4">Barehand-combat</h3>
+This skill is a sub-skill of the Combat skill.  <p>
+It affects your general ability to fight using martial arts. In order to utilise it, you must be capable of using a weapon in the first place, but choose not to. Spending 1 skill point on your Barehand-combat skill adds 0.5 bonus skill points to your Combat skill. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fMonk"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Monks</a>. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-a9f58931e3bfd49c0797bbb71e29bda48668fd51">Bearform-combat</h3>
+This skill is a sub-skill of the Combat skill.  <p>
+It affects your ability to fight while in the form of a bear. In order to utilise it, you must be in bearform. <a class="interwiki" title="Self" href="./Documentation_2fRaces_2fBeorning"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Beornings</a> are the only adventurers likely to use this form of skill. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-347bee99e4eaa15d2493de60a5eae6e52d7b1bb7">Boulder-throwing</h3>
+This skill is a sub-skill of the Combat skill.  <p>
+It affects your ability to throw boulders and make them from granite walls. Spending 1 skill point on your Boulder-throwing skill adds 0.4 bonus skill points to your Combat skill. 
+</p>
+<p>
+This skill is only available to <a class="interwiki" title="Self" href="./Documentation_2fRaces_2fEnt"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Ents</a>. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-5ebd1e1707c45e5eb72fe340a91407dc4ced905f">Antimagic</h3>
+This skill is a sub-skill of the Combat skill.  <p>
+It generates a field around the character within which magic cannot work. As such, it can be very useful to prevent monsters from casting offensive spells against you or from teleporting away- but it will also prevent you from casting spells, or teleporting. It also inhibits your ability to do magic, affecting <strong>all</strong> the magic and spirituality sub-skills.  
+</p>
+<p>
+N.B. This skill does <strong>not</strong> affect your ability to use scrolls and potions, but other items that require [Self]Magic-Device are affected. At higher levels you gain the ability to detect traps and disrupt all teleportation. 
+</p>
+<p>
+<a class="interwiki" title="Self" href="./Documentation_2fClasses_2fUnbeliever"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Unbelievers</a> are likely to use this skill. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fSkills_2fCombat?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fSkills_2fCombat.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:15:09)<br>
+<p><a href="./Documentation_2fSkills_2fCombat?action=edit">EditText</a> of this page (last edited 2005-05-03 15:00:55 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:22:53 Jun 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:14 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 372.334
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.077
+  RedisCDXSource: 1.81
+  esindex: 0.01
+  LoadShardBlock: 351.689 (3)
+  PetaboxLoader3.datanode: 1311.305 (4)
+  CDXLines.iter: 16.487 (3)
+  PetaboxLoader3.resolve: 96.213 (2)
+  load_resource: 1069.984
+-->

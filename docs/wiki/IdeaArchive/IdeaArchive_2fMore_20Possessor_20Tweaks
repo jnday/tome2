@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">360</script><title>IdeaArchive/More Possessor Tweaks - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=fullsearch&amp;value=%2FMore+Possessor+Tweaks&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/More Possessor Tweaks</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fMore_20Possessor_20Tweaks">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fMore_20Possessor_20Tweaks">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Almost posted this in bugs but then thought of the horrible scolding Neil would give me, so here it is. <p>
+First let me start this with a statement, then a question. 
+</p>
+<p>
+TOME is not meant to be balanced for race/class/etc., thus... 
+</p>
+<p>
+Are possessor corpse abilites supposed to follow the abilites a corpse has or is it supposed to be balanced to guard against ridiculousness? 
+</p>
+<p>
+<strong>General Statement</strong> If corpse abilities and equipment slots are supposed to suit the corpse exactly then i propose starting a list of monsters that have odd/wrong equipment slots and abilities and what is wrong and suggestions to fix them.  These should be extremely detailed, and i will start now if this is dumb or has already been covered (i couldn't find it) feel free to tell me to delete it.  As if you would hesitate. 
+</p>
+<p>
+Anyway, these tweaks will be mostly to the larger non-humanoid creatures but i since i am starting to play possessors heavily and i do not use wizard mode i will add on to this as i find corpses, and i plan on possessing odd corpses.  When i first thought of this i possessed a small white rat to see if i could *multiply* which i found i could to my excitment, THAT was fun.  Regardless i will start with what i find as a glaring bug: Hydras. 
+</p>
+<p>
+Hydras(all varieties) <br>
+ <strong>Current</strong> <br>
+ <strong>Equipment slots </strong> <br>
+ e)On Finger <br>
+ f)On Finger <br>
+ k)Around Neck <br>
+ l)Around Neck <br>
+ m)Light source <br>
+ n)On Body <br>
+ o)About Body <br>
+ s)On Head <br>
+ t)On Head <br>
+ {)Quiver <br>
+ <strong>Abilities</strong> <br>
+ a)Scare <br>
+ <strong>Intrinsics</strong> <br>
+ +10 to Speed <br>
+ 
+</p>
+<p>
+<strong>Proposed</strong> <br>
+ Should follow the number of heads, they are *Hydras* after all, the whole point of Hydras is their multiple heads.<br>
+ <strong>Thus as an example</strong> *4 Headed Hydra* <br>
+ <strong>Equipment Slots</strong> <br>
+ e)Around Neck <br>
+ f)Around Neck <br>
+ k)Around Neck <br>
+ l)Around Neck <br>
+ m)Light Source <br>
+ n)About Body <br>
+ n)About Body <br>
+ q)On Head <br>
+ r)On Head <br>
+ s)On Head <br>
+ t)On Head <br>
+ <strong>Abilites</strong> <br>
+ a)Scare <br>
+ <strong>Intrinsics</strong> <br>
+ +10 To Speed <br>
+ Poison Resist <br>
+ Fear Resist <br>
+ <strong>Justifications</strong> <br>
+ Removed Rings because in my mind Hydras have tenticles, unless it is a huge hula hoop sized ring then i don't know how that would work.  Armor was taken out because Hydras are really large and not humanoid at all thus it is an impossibility, added an extra cloak to compensate and it seems to me that an intelligent being in a Hydra body would be able to cover his/her huge body in two cloaks.  The heads/necks were explained earlier, a 4 headed Hydra has 4 heads and 4 necks.  Also Hydras are immune to fear normally so it only makes since they would have that as well and the poison resist is the only iffy one but since the higher level hydras have it and the ability to cast poison i think it makes sense.  Oh and on a side note that i do not feel deserves and entry of its own.  2 Headed Hydras, the monster not a possessed corpse, should have  +5 to speed.  I have found that with any character you can simply buy a sling and some shots or use manathrust or if you time it right you can just melee this guys without ever getting hit as a level 1 character, this usually jumps you to CLevel 16 or so, i think it is an exploit that can easily be fixed and there is no reason not to, considering the 2 headed hydras proximity to bree and their easiness to find alone and then kill. 
+</p>
+<p>
+More to come. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The ToME 2.x code is limited to a fixed amount of body parts that determine the availabe equipment slots.  You may have 3 weapons (a, b, c), 1 shooter (d), 6 rings (e, f, g, h, i, j), 2 Amulets (k, l), 1 light source (m), 1 armour (n), 1 cloak (o), 3 shields (p, q, r), 2 helmets (s, t), 3 gloves (u, v, w), 2 boots (x, y), 1 symbiote (z), 1 quiver ({), 1 tool (|), and not all of these are independent. 
+</p>
+<p>
+You must wait for ToME 3.0.0 if you want to use higher amounts. 
+</p>
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>: So can i make this list to be applied to TOME 3? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Yes. Some time ago all characters started with 10 weapon slots and rings for testing the new inventory system: 
+<pre>-- DGDGDGDGD 40 is a TEST, so is 10 fingers/weapons
+body = { INVEN=40 WIELD=10 BOW=1 BODY=1 OUTER=1 LITE=1 AMMO=1 CARRY=1 ARM=1 HANDS=1 TOOL=1 RING=10 HEAD=1 NECK=10 FEET=1 }
+</pre>Hmmm, what monster has 10 necks but only one head ?  
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fMore_20Possessor_20Tweaks.text_html">RefreshCache</a> for this page (cached 2004-09-25 10:15:46)<br>
+<p><a href="./IdeaArchive_2fMore_20Possessor_20Tweaks?action=edit">EditText</a> of this page (last edited 2004-09-25 10:15:45 by <span title="dialin-145-254-145-225.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:55:42 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:45:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 7.559
+  esindex: 0.016
+  CDXLines.iter: 21.449 (3)
+  load_resource: 73.738
+  exclusion.robots: 0.148
+  captures_list: 276.964
+  PetaboxLoader3.resolve: 44.792
+  LoadShardBlock: 243.806 (3)
+  PetaboxLoader3.datanode: 252.332 (4)
+  exclusion.robots.policy: 0.138
+-->

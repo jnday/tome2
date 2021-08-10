@@ -1,0 +1,381 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Dungeons - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fDungeons?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fDungeons?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fDungeons?action=fullsearch&amp;value=%2FDungeons&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Dungeons</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fDungeons?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fDungeons">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fDungeons?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fDungeons?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fDungeons?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fDungeons?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fDungeons?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fDungeons?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fDungeons?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fDungeons?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fDungeons?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fDungeons">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The main point of <a class="interwiki" title="Self" href="./RogueLike/ToME"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">ToME</a> is to dive deep down into these dungeons and conquer the enemies you find within them. You will likely begin your journies in the Barrow Downs, which lie to the west of Bree's city walls, and finish it off deep in the pits of Angband. <p>
+Most dungeons may be found easily by exploring the wilderness. Others have hidden entrances, some of which lie inside other dungeons. 
+</p>
+<p>
+The in-game help currently contains spoilers for all dungeons, but will eventually only contain information on the main dungeons. 
+</p>
+<hr>
+ <ol>
+<li>
+<a href="#head-db1a60b7fb419a983c13771c6e677002d7a17868">Main Dungeons</a></li>
+<li>
+<a href="#head-1f0b3372028edb47ef2eee3be2b67c76e12738df">General Dungeons</a></li>
+<li>
+<a href="#head-69508b7a8c550b896cdfa1d434ea4c9e89ef8a76">Dungeons that may have Dungeon Towns</a></li>
+<li>
+<a href="#head-a82a447c9ce2ccbe1cb941a93bb080c11848aed8">Special Levels</a></li>
+<li>
+<a href="#head-7c4c04f3c4f6d1cfefb1c63c602e52a19f91d728">Hidden Dungeon Entrances</a></li>
+</ol>
+
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+ <hr>
+ <h4 id="head-db1a60b7fb419a983c13771c6e677002d7a17868">Main Dungeons</h4>
+Only these dungeons will have Princess or Lost Sword quests, <em>if</em> you elect to have random quests when you are creating your character. 
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fBarrowDowns">/BarrowDowns</a> (1-10) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fMirkwood">/Mirkwood</a> (11-33) 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fDungeons_2fMordor">/Mordor</a> (34-66) (renamed to <a class="nonexistent" href="./Spoilers_2fDungeons_2fBarad_2ddur">/Barad-dur</a> in ToME 3.0.0) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fAngband">/Angband</a> (67-127) 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-1f0b3372028edb47ef2eee3be2b67c76e12738df">General Dungeons</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fHelcaraxe">/Helcaraxe</a> (20-40) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fSandwormLair">/SandwormLair</a> (22-30) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fTheMaze">/TheMaze</a> (25-37) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fCirithUngol">/CirithUngol</a> (25-50) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fSubmergedRuins">/SubmergedRuins</a> (35-50) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fPathsOfTheDead">/PathsOfTheDead</a> (40-70) 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fDungeons_2fDolGuldur">/DolGuldur</a> (57-70) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fErebor">/Erebor</a> (60-72) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fThe_20Void">/The Void</a> (128-150) 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-69508b7a8c550b896cdfa1d434ea4c9e89ef8a76">Dungeons that may have Dungeon Towns</h4>
+Any of dungeons in the following list may have a dungeon town on any given level (dungeon towns never appear in any of the main dungeons). Once you discover a dungeon town, you can return to it again and again; it will not "disappear". Also, no dungeon town will appear on a previously explored DL which did not have a dungeon town when you first entered it (except for unique levels who prevent a dungeon town from showing; if towns are important to you, go back and check after you leave the unique level). <p>
+Chance of a dungeon town are 1 in 20, and if there is a level closer to the ground with a dungeon town it's 1 in 50. The location and shop type of dungeon towns if fixed at character birth and cannot be changed. Restarting a game after you die will reset the dungeon town pattern. 
+</p>
+<p>
+There is no guarantee that any of these dungeons will have any towns at all, but there is a rough average of 5 towns in the average game excluding Mandos and the nether realm. 
+</p>
+<p>
+It's very possible every dungeon town in a game has shops you don't have a use for; and some dungeon towns have a low number of hidden shops. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fOrcCaves">/OrcCaves</a> (10-22) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fOldForest">/OldForest</a> (13-25) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fLandOfRhun">/LandOfRhun</a> (26-40) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fMoria">/Moria</a> (30-50) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fIllusoryCastle">/IllusoryCastle</a> (35-52) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fSacredLandOfMountains">/SacredLandOfMountains</a> (45-70) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fTheHallsOfMandos">/TheHallsOfMandos</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fTheNetherRealm">/TheNetherRealm</a> (also a hidden dungeon entrance) (666-696) 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-a82a447c9ce2ccbe1cb941a93bb080c11848aed8">Special Levels</h4>
+
+    <ul>
+
+    <li>
+<p>
+ Currently in ToME (2.2.7) 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fDeathwatch">/Deathwatch</a>, in the Orc Caves 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fOrcTown">/OrcTown</a>, in Moria 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fMtDoom">/MtDoom</a> (also a hidden dungeon entrance), in Mordor. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fTheCrypt">/TheCrypt</a>, in Angband 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fDimGates">/DimGates</a>, in Angband 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fNameless">/Nameless</a>, in Angband 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ In ToME 2.3 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fGalleon">/Galleon</a>, in Helcaraxe 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fMachine">/Machine</a>, in the Illusory Castle 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ In ToME 3.0.0 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fBlackGate">/BlackGate</a> 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-7c4c04f3c4f6d1cfefb1c63c602e52a19f91d728">Hidden Dungeon Entrances</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fHeartOfTheEarth">/HeartOfTheEarth</a>, in Mirkwood 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons_2fSmallWaterCave">/SmallWaterCave</a>, in Moria 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: Our treatment of <a class="nonexistent" href="./MtDoom">MtDoom</a> is a bit inconsistent, isn't it?  My first time in, having read the spoilers here, I didn't even know that it was a multi-level dungeon.  Is there a different name we can use for <a class="nonexistent" href="./MtDoom">MtDoom</a> the level as opposed to <a class="nonexistent" href="./MtDoom">MtDoom</a> the dungeon? <p>
+<strong><a href="./ErintiAkairis">ErintiAkairis</a></strong>: "Cracks of Doom" for the level, perhaps? I could've sworn I'd seen that name somewhere. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: That, or "Summit of Mt Doom", works for me. Anyone have a preference or another suggestion? I'd be happy to move things around, as I'm about to tackle that dungeon for the first time. 
+</p>
+<p>
+<strong><a class="nonexistent" href="./GreyHame">GreyHame</a></strong>: If you want something a little more atmospheric, the official name for the location of the Great Fire in the books is the "Sammath Naur" 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fDungeons?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fDungeons.text_html">RefreshCache</a> for this page (cached 2005-11-04 14:39:20)<br>
+<p><a href="./Spoilers_2fDungeons?action=edit">EditText</a> of this page (last edited 2005-09-17 21:28:07 by <span title="64.136.27.228=cache04.nyc.untd.com">cache04</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:41:07 Nov 07, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:39 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 277.365
+  exclusion.robots: 0.083
+  exclusion.robots.policy: 0.075
+  RedisCDXSource: 3.79
+  esindex: 0.008
+  LoadShardBlock: 254.18 (3)
+  PetaboxLoader3.datanode: 295.326 (4)
+  CDXLines.iter: 16.676 (3)
+  load_resource: 93.05
+  PetaboxLoader3.resolve: 23.887
+-->

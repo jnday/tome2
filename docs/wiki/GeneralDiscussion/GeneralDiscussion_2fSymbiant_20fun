@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Symbiant fun - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fSymbiant_20fun?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fSymbiant_20fun?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fSymbiant_20fun?action=fullsearch&amp;value=%2FSymbiant+fun&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Symbiant fun</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fSymbiant_20fun?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fSymbiant_20fun">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fSymbiant_20fun?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fSymbiant_20fun?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fSymbiant_20fun?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fSymbiant_20fun?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fSymbiant_20fun?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fSymbiant_20fun?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fSymbiant_20fun?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fSymbiant_20fun?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fSymbiant_20fun?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fSymbiant_20fun">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./PaulMoore">PaulMoore</a></strong>: I have just been trying out a <a href="./LostSoul">LostSoul</a> Symbiant, based on the comments <a href="./NeilStevens">NeilStevens</a> has on his homepage. It's been quite fun - you need to do some fairly massive scumming at the start to get a decent pet from your scroll, but scumming is almost mandatory in Mandos... <p>
+Once I got going, I've found that the biggest issue has been managing the massive explosions of pets caused by chain-summoning. One of my characters has just been almost trapped in a wall by the sheer press of his own creatures - you can't "push past" your pet if it can't pass through walls, and you are in a wall. And there was literally no room near me to go around! Add to that the fact that I had a known artifact buried somewhere under the huge mass of pets (it had survived destruction repeatedly), but I couldn't find it! I started walking round to see if I could locate it, and blundered onto a trap square. In this instance I had no detect capability, but even if I had, my pets would have obscured <em>that</em> as well. A couple of traps later, and I was dead <img src="./wiki/rightsidebar/img/sad.png" alt=":-(" height="15" width="15"> 
+</p>
+<p>
+I could have dismissed all pets, but that would have got rid of the summoners. In retrospect, I should have made a couple of companions, and then dismissed pets, but that would have left me quite exposed, and there was still <strong>something</strong> out there making occasional "grinding noises". And the "dismiss pets" interface doesn't really scale to selectively dismissing from 150+ pets. Especially as you can't choose them by location. Which Hezrou am I being asked about? 
+</p>
+<p>
+Sigh. I was about level 29, and I hadn't moved more than 10 steps from my start position. 
+</p>
+<p>
+Any hints on how to manage chain-summoning symbiants? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: You already hit on it.  Companions.  I spend about 10 points on Monster-lore before starting to spend on Magic-device and Symbiosis.  I turn my first Q into a companion, not wearing it until I get two summoning companions.  At low levels I prefer undeads or greater balrogs for safety, but the most powerful companions at high levels would be Pit Fiends or the top dragons.  I also prefer pets that can grind or pass through walls to be my bodyguard. 
+</p>
+<p>
+As for dismissal... I just dismiss everything that's not a Greater Balrog, Pit Fiend, Great Wyrm of Law, Great Wyrm of Balance, Great Wyrm of Chaos, Great Wyrm of Power, Sky Drake, or a Black Reaver.  If I don't have that many top pets I'll also keep Osyluths or Lesser Balrogs. 
+</p>
+<p>
+<strong><a href="./PaulMoore">PaulMoore</a></strong>: Ah. I'd reverse-engineered your skill allocation from your character sheet, and Monster Lore seemed low, so I assumed you were just getting the bonuses from allocating to Symbiosis. In the end, I decided I wanted companions, and started bumping Monster Lore to 12. I'm actually thinking of going higher, to get more experience from pet kills, and more companions, but I can't decide if it's worth it... 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Higher experience multipliers stop being useful at clvl 50, plus you're going to need more summons than companions in the big battles, so I don't think more is worthwhile. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: I tried that combination too, and another thing you'll want to keep watch for are the area attacks of your pets. If something summon enemies near you, or you enter a room and find yourself next to an enemy, there are high chances you'll get blasted away by your won caring pets, especially wyrms or higher demons. I've lost count of my Lostsoul symbiants killed by their own GWoP breathing on them!  
+</p>
+<p>
+Also keep watch for aggravating monsters, as they can really ruin your day you you have lots of strong pets (i *think* this do not applies to companions, however). 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: In practice this doesn't seem to be a problem, at least in the Halls.  I don't think I ever had my pets aggravated once, and I played hundreds of Lost Soul Symbiants before my winner <a href="./NeilStevens_2fRyoko">NeilStevens/Ryoko</a>. 
+</p>
+<p>
+<strong><a href="./PaulMoore">PaulMoore</a></strong>: Yes, but the area attack point is a good one. I've died many times to my own pets. One particularly annoying case was when I was exploring a vault - some form with a long twisty single passage through. To get your pets to progress, you have to go ahead, then push past the leader to get it to move in front of you. I came to a corner, moved to the front ready to push my big dragon round the corner (can't recall what, a Great Storm Wyrm or something), a fire ant pops its head round the corner, <em>huff</em> and I'm a small pile of ash. "Oops, sorry boss" doesn't really help... <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> 
+</p>
+<p>
+Lurking in the walls often helps, but (a) in the above case, the vault had permanent walls, and (b) it's embarassing to poke your head out to see what's going on, right next to a hostile Black Reaver who proceeds to eat your head... 
+</p>
+<p>
+Ho hum, no-one said that dungeon level 97 wasn't a hostile environment for a L10 character <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: That's why I mentioned safety earlier.  Undeads and demons don't have the massive breaths that great wyrms have. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: mmm... i don't think a low-level character has a much higher chance to survive a fire-breath from a greater balrog (or from a lesser one, for what's worth) than a mana-breath from a GWoP. Furthering this you'll often have most resistances missing 'till you can find some decent equipment (and unless you're lucky and find a decent identification mean, this can be *really* hard), and such things as nether balls, darkness storms or similar are also extremely deadly at this point. 
+</p>
+<p>
+Probably the best are arena levels: they might be more perilous to start with, but once you have your army going, they'll be enough far away from you once they engage the enemy. in these situations you can often expect to be able to clear away the whole level without much effort. But unless you're very lucky scumming for such situations take *long* and is soooo boring <img src="./wiki/rightsidebar/img/sad.png" alt=":(" height="15" width="15">   
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: All the breaths are lethal of course, but the wyrm breaths are bigger in area than the ordinary breaths that balrogs have.  It's easier to get splashed with dragon pets than with demon pets. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: i didn't ever notice that! One of the fun things in ToME is that you never stop learning <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./PaulMoore">PaulMoore</a></strong>: Still going, and still having fun. Most common causes of death (excluding immediate quits or instadeaths, usually because my initial scroll didn't produce a druj or good Q) so far, are: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Splash damage from pet breath. 
+</p>
+</li>
+    <li>
+<p>
+ Walking into a group of monsters just before my pets get there 
+</p>
+</li>
+    <li>
+<p>
+ Stepping on traps (worse still, on <em>detected</em> traps my pets are standing on) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+I just did quite well with only 2 pets, an ent and a Great Swamp Wyrm. The Q's that summoned them ran away on me, and having 2 non-summoning pets kept things a lot more under control... 
+</p>
+<p>
+BTW - what does it mean when a symbiant says you're "not enough in symbiosis"? 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: that you have not enough levels/symbiosys skill to wear them safely. They will in this case rebel and attack you. Since Q's and druj (except hand?) don't have attacks they shouldn't create problems even if they rebel. The exact formula is on killerbunnies but if your character level is at least one-third of the monster level you should be safe. 
+</p>
+<p>
+<a href="./ElIott">ElIott</a>:  <a href="./RedNaga">RedNaga</a>'s right, in that the ones you want are probably pretty safe.  On the other hand, if you're a melee character and using a <a class="nonexistent" href="./DeathMold">DeathMold</a>, having it turn on you is awfully bad. 
+</p>
+<p>
+<strong><a href="./PaulMoore">PaulMoore</a></strong>: I just lost a promising character to a horde of demons that got out of hand. Annoying, as I could easily have left the level, but I was hoping to grab the Arkenstone before I went. One thing I have noticed, comparing my character's progress to <a href="./NeilStevens_2fRyoko">NeilStevens/Ryoko</a> is that Ryoko didn't put anything much into Magic, wher I found that I was forever running low on spell points. In particular, without a good source of ID, I was relying on the spell, which is quite costly. So I ended up spending a lot of time resting to restore SP while clearing vaults, which left me low on Satisfy Hunger scrolls, while I was still too deep in Mandos. Oh, well. Maybe I'll fiddle with the skill strategy next time round... 
+</p>
+<p>
+Steve: Where are you getting your IDs from?  I'm a bit of a newbie at ToME, and I've been depending on the initial scrolls.  This hasn't been a problem, since so far I haven't lasted long enough to run out of them, but I could use a more dependable method. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fSymbiant_20fun?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fSymbiant_20fun.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:57:19)<br>
+<p><a href="./GeneralDiscussion_2fSymbiant_20fun?action=edit">EditText</a> of this page (last edited 2006-01-16 17:54:30 by <span title="66.41.158.213=c-66-41-158-213.hsd1.mn.comcast.net">c-66-41-158-213</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:34:26 Jun 01, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:01 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 11.019
+  exclusion.robots: 0.208
+  exclusion.robots.policy: 0.194
+  esindex: 0.027
+  load_resource: 152.603
+  CDXLines.iter: 24.817 (3)
+  captures_list: 262.914
+  PetaboxLoader3.datanode: 293.541 (4)
+  LoadShardBlock: 223.313 (3)
+  PetaboxLoader3.resolve: 53.681
+-->

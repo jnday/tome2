@@ -1,0 +1,363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/UnicodeSupport - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fUnicodeSupport?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fUnicodeSupport?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fUnicodeSupport?action=fullsearch&amp;value=%2FUnicodeSupport&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/UnicodeSupport</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fUnicodeSupport?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fUnicodeSupport">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fUnicodeSupport?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fUnicodeSupport?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fUnicodeSupport?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fUnicodeSupport?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fUnicodeSupport?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fUnicodeSupport?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fUnicodeSupport?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fUnicodeSupport?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fUnicodeSupport?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fUnicodeSupport">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h3 id="head-2473e96bc614a911821242119918a241a41836d6">Introduction</h3>
+<p>
+If you've been keeping up with rec.games.roguelike.angband, you might have seen a thread about unicode support for the *bands. I am the person who started that thread, <a href="./LeonTorres">LeonTorres</a>. This page will be devoted to the idea of implementing Unicode support in ToME as a means to enhance the text-mode experience. I will outline the rationale for this and how it's being implemented. We can discuss details here, including side issues like font coverage and other possibilities that would be born as a result of using Unicode. 
+</p>
+<p>
+As it happens, I began this project because playing text mode ToME was a little bit painful; Certain characters like # and ^ were re-used too often. Furthermore, my system was having problems displaying solid blocks in a GTK screen. One thing let to the next and now I have ToME working with unicode support.I can't go back to the default mode, I will always be playing with these enhancements. 
+</p>
+<p>
+After assigning some choice character glyphs, I began to actually play the game for the first time. My bug-finding character, a <a class="nonexistent" href="./DarkElf">DarkElf</a> Sorceress, just died in Moria, which brought my attention back to this. Let me tell you, Unicode support is vital to text mode, it enhances the game so much that I wonder why people bother with graphical tiles! I can't go back to the default mode, I will always be playing with these enhancements. 
+</p>
+<h3 id="head-7ca309a34a8fab36d021db530a902f5e4e43e117">Teaser Screenshots</h3>
+
+        <ul>
+
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/images/unitome1.png">unitome1.png</a> Bree. Trees are represented by clubs, mountains by solid triangles, and two types of solid blocks make up the buildings. The big dots are the cobblestones. 
+</p>
+</li>
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/images/unitome2.png">unitome2.png</a> In this image, small trees are spades, regular trees are clubs. The contrast in symbols and colors makes it easy to tell where to walk! The infinity symbol is a void jumpgate, but I changed it so that infinities are fishes. The triangle for mountain works really well here. 
+</p>
+</li>
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/images/unitome3.png">unitome3.png</a> An example of what unicode allows. Here, an unknown scroll appears to be written in Quenya! 
+</p>
+</li>
+        <li>
+<p>
+  <strong>Spoiler!</strong> <a class="external" href=".log4r.sourceforge.net/images/unitome4.png">unitome4.png</a> Dead trees, lava, and raging fire. The mu symbol is a rune. 
+</p>
+</li>
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/images/unitome5.png">unitome5.png</a> Bree and vincinity. 
+</p>
+</li>
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/images/unitome6.png">unitome6.png</a> A fountain (plus/minus symbol), a corpse (section separator), another rune and some lava. 
+</p>
+</li>
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/images/unitome7.png">unitome7.png</a> In the sandworm lair, with an altar (big omega), rune, fountain and some void jumpgates (diamond). 
+</p>
+</li>
+
+        </ul>
+
+
+<h3 id="head-710279bd7d85952a679963a826813d62cf8832b4">Rationale: Text Mode is Canon</h3>
+<p>
+Roguelike games were born in a text mode environment and has given birth to the humorous and surprisingly useful concept of representing objects with letters and characters. Many of us have fond memories of the vital <strong>~</strong> we picked up, or nightmares about the red <strong>D</strong> we ran into at dungeon level 10. And regardless of how many times people try to replace text-mode with graphical tiles, the roguelike games are always fundamentally text-mode in character, from the code itself to the player experience. If someone wants to play with pretty graphics, why there's this fine game called Diablo II you could try out, which is essentially a roguelike with awesome visuals. 
+</p>
+<p>
+However, text mode has limitations. There is an effective limit to the number of characters available, namely the lower 128 characters in the ASCII map, of which only 96 or so are consistent across platforms. This hurts any attempt to make rogue-like games too rich because characters have to be re-used for new terrain features, objects and monsters. ToME, because it is an amazingly rich and detailed roguelike game, suffers from this issue. 
+</p>
+<p>
+Currently, the only available solution for end players is to use graphical tiles, but this is overkill and defeats the textual character of the game. Another technique uses special font symbols to represent objects, however these fonts are nothing but graphical tile emulations for text-mode; Instead of a <strong>=</strong> for a ring, you might see what looks like a pixmap of a ring. Again, this defeats the textual nature of the game. 
+</p>
+<p>
+There is a far superior way to fix the problem, and that is simply to adopt unicode. Unicode is a standard, which means that the drawing blocks we need plus any other special symbols we would like to use will be consistent across fonts and platforms. To achieve the graphics in the screenshots, all that was needed was to specify the unicode ID of the appropriate symbol in a pref file (I created a new one called font-uni.prf for this purpose). The card suits have a certain set of IDs, as do the drawing blocks. Math symbols like infinity are in one block, and even the Tolkien languages have their own special place. 
+</p>
+<h3 id="head-8781d615fd77be9578225c40ac67b9471394cced">Implementation</h3>
+This section is for those familiar with the Angband code, please feel free to skip it. <p>
+My current hack is very simple and elegant. The code represents characters to render with <tt>x_char</tt>, which is of size <tt>char</tt>. To make this compatible with unicode, we just need to bump up the size of x_char to 16 bit unsigned. This is conforms to a standard type called wchar_t, which is used to represent wide characters on most systems. Because Angband likes 4 character type names, we create a type named wchr: 
+</p>
+
+<pre>typedef u16b wchr;
+</pre><p>
+Once this is done, all that remains is to re-type all references to x_char as a <tt>wchr</tt> instead of a <tt>char</tt>. We can leave <tt>d_char</tt> alone. There is also a bit of tweaking for loading and saving files,  and the reading of pref files. 
+</p>
+<p>
+The bulk of the changes are expected to be in z-term.c. As it happens, the graphical tile support has already separated the model from the view for the concern of rendering <tt>x_char</tt>, which means no extra work has to be done to make a special view for unicode. In non-jargon speak, this means no  changes to the structure of functions in z-term.c. We just need to change most instances of <tt>char</tt> to <tt>wchr</tt>. 
+</p>
+<p>
+Finally, we need to update each main-xxx.c that wants to implement unicode. If a system doesn't want to, it merely needs to accept <tt>wchr</tt> in place of <tt>char</tt> and pretend it's a <tt>char</tt>. How each system renders the unicode is up to the maintainers of that system. I have created a GTK2 implementation that works well. Since I am not a windows programmer, I have no idea how to do this for the most popular ToME setup. However, after looking at main-win.c and the docs at MSDN, it appears one just needs to tweak one particular text rendering function that just happens to like u16b formatted unicode. For systems that need wide characters (utf-8), I have added a <tt>wchr_ary_to_utf8()</tt> method in <tt>util.c</tt>, 
+</p>
+
+<pre>/*
+ * Converts an array of wchr values to a UTF-8 encoded string. Arguments
+ * are  the wchr array, the length of the array, and a buffer to write to.
+ * The buffer must be at least size (3*n)+1. Returns the number of bytes
+ * written, which is effectively the length of the string. The string is
+ * guaranteed to be null-terminated.
+ *
+ */
+int wchr_ary_to_utf8(const wchr *a, int n, char *s)
+</pre><h3 id="head-dcc419da0a3f7a6884300180c81a0f831b5c0dfc">User Interface Breakages</h3>
+<p>
+Some things will inevitably break if unicode is adopted. Surprisingly, recall still works because it was designed to work with graphical tiles. In fact, recall should stay the same. We shouldn't change monsters to be strange symbols, like Greek or Cyrillic letters. However, we could accent the uniques. 
+</p>
+<p>
+The biggest break will be in interact with visuals. Currently, it cycles within 128 symbols of the current one. That means if you want to change the solid block, it will cycle around the symbols but it can't reach beyond that block. For now, the easiest change will be to let users pick only from the default ASCII map. To allow unicode, we must either create a new system or leave that up to third party editing tools. 
+</p>
+<h3 id="head-cc9c6275c970b0273d412e81b0ed95156f360631">Font Issues</h3>
+<p>
+The most important issue to resolve if unicode is to be adopted is the poor coverage of useful symbols in monospace unicode fonts. Many monospace fonts that support unicode happen to lack drawing symbols and the like, which begs the question why they're called unicode fonts in the first place. The best way to fix this problem is to find out what the most popular monospace fonts are for each system and create an angband-specific font from them. This also allows us to add Cirth and Quenya characters for extra eye candy. However, this is a lot of work. The assistance of an artist-type who knows how to draw with Photoshop, Adobe Illustrator, or any scalable vector graphics application would be invaluable here. 
+</p>
+<h3 id="head-1441985a96b3de7cacd576a7c4375eb0dfac4e25">Patches</h3>
+<p>
+Here are the experimental patches for people to try out. Note that only gtk+ 2.0 is supported. I put a note in main-win.c if you want to try to get it working on Windows, which I think should be easy. (Don't take my word for it though!) 
+</p>
+
+        <ul>
+
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/unitome-0.1-prf.patch">unitome-0.1-prf.patch</a> Pref files patch. Adds new file font-uni.prf 
+</p>
+</li>
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/unitome-0.1-src.patch">unitome-0.1-src.patch</a> Source patch. Adds new file makefile.gtk 
+</p>
+</li>
+        <li>
+<p>
+  <a class="external" href=".log4r.sourceforge.net/AngbandMono.ttf">AngbandMono.ttf</a> Install this font 
+</p>
+</li>
+
+        </ul>
+
+
+<p>
+<strong>Notes</strong> 
+</p>
+
+        <ol type="1">
+
+        <li>
+<p>
+Make sure the font can be selected in a gtk font-selection dialog, such as in gnome-terminal, gimp or maybe Firefox (if it uses gtk). 
+</p>
+</li>
+        <li>
+<p>
+You could also install gtk for windows, I haven't tried that 
+</p>
+</li>
+        <li>
+<p>
+Grab a fresh copy of ToME 231 source 
+</p>
+</li>
+
+        </ol><pre>$ cp unitome-0.1-prf.patch unitome-0.1-src.patch tome-231-src
+$ cd tome-231-src
+$ patch -p1 &lt; unitome-0.1-prf.patch unitome-0.1-src.patch tome-231-src
+$ cd src
+$ make -f makefile.gtk
+$ cp tome ..
+$ cd ..
+$ ./tome
+</pre><p>
+If there are no hiccups on the way, you should see the intro screen. When you begin in Bree, you should see the new tiles. 
+</p>
+<h3 id="head-8fb937b602b4f2ef21c7fab00ac15de3b3ba49ea">Discussion</h3>
+<p>
+Please discuss this topic here. Also, feel free to wax elaborate on the possibilities of unicode, such as using Cirth font to label unknown scrolls as in the screenshot. 
+</p>
+<p>
+<a href="./LeonTorres">LeonTorres</a>: Where should I upload testing patches, once they're ready? There's also an issue how to 'enable' unicode. With a switch? By default? Also, regarding accenting the uniques, I have done this for Boldor and some of the Orcs and it's pretty cute. I'll grab a screenshot next time I run into them. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I like this! I don't think all the difficult things are necessarily necessary to gain a big benefit to clarity. I mainly just want to be able to distinguish runes from tomes and trapped lava and water from untrapped. Other clarifying symbol changes come free with that, and Cirth and Tengwar are basically just eye-candy. 
+</p>
+<p>
+About the uniques, since you can't put accents on arbitrary letters, that doesn't work across the spectrum, mainly for the vowels only. 
+</p>
+
+    <ul>
+
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: I'm pretty sure you can add accents to just any character with unicode.  Not all renderers will support the advanced features, though, because Unicode has a bunch of pre-rendered accented letters. 
+    </ul>
+
+
+<p>
+<a href="./LeonTorres">LeonTorres</a>: Yeah, I wasn't intending this to change everything, just to enhance clarity. That's the big problem with other visual efforts: They go too far and create something that can't rightfully be called text-mode. But it's surprising what a little enhancement does to the game experience, so I've been changing things and I can't seem to stop! Another benefit is that ToME can be multilingual. That's going to be a very hard thing to implement and probably needs to be done in vanilla angband first. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: In general, I support the idea expanding beyond some dumb decades-old, 7-bit character set in ToME.  We can't even properly display the names of major locations (like Khazad-dûm) in ToME right now. 
+</p>
+<p>
+Specifically, I don't really get excited about trying to make a text interface more graphical. You want graphics?  Use graphics! 
+</p>
+
+    <ul>
+
+ <a href="./NerdanelVampire">NerdanelVampire</a>: The unicode idea is very different from graphics since the letters and symbols are MUCH clearer and instantly recognizable than (even good) "realistic" graphics in a smaller space. The only problems arise when there are more classes of things to represent than there are symbols or more things in a class than there are easily distinguishable colors available. I think running out of letters is the greater problem, since the letters represent more fundamental differences. However, I don't think it always matters, since, for example, while scrolls and runes are both ? the scrolls are easily distinguishable due to their white color, and there are no traps the color of hard rock and the rock can't be trapped. But since runes and tomes share the same color-space that will cause a lot of annoyance for a sorceror out to look for tomes and wanting to ignore the runes. <p>
+ <a href="./LeonTorres">LeonTorres</a>: That's precisely the point of this project. My eyes kind of suck, so I'd like to differentiate things a little more. Graphics are not an option because it causes even more eye strain problems, such as, "Is that a magic shop or an armor shop? *squint*". The easiest fix would be to create my own font with 256 characters for my own use. In fact, that's what I did at the beginning. However, there are several problems with this, as I discovered:  
+</p>
+
+        <ul>
+
+        <li>
+<p>
+  I'm not a terminal expert, my 256 font was rendering extremely wierd and I didn't know why. 
+</p>
+</li>
+        <li>
+<p>
+  I discovered I was putting the same amount of work into it as I would be doing in this project. 
+</p>
+</li>
+        <li>
+<p>
+  It's better to use an existing standard and system (unicode) than hack your own. 
+</p>
+</li>
+        <li>
+<p>
+  I'm not selfish, I'd love to share this work. But it needs to be useable. 
+</p>
+</li>
+        <li>
+<p>
+  There are already many 'graphical' text-mode embelishments in tome (animations, flickering colors, morphing characters), why not support these better? 
+</p>
+</li>
+        <li>
+<p>
+  And the killer: If I decide a symbol needs to be added or changed in my 256 font, I have a hell of a lot of work to do to change it. Unicode allows me to try different symbols on the fly. This will be the largest benefit for end users. 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+<a href="./LeonTorres">LeonTorres</a>: I guess I'll add a Patch section once the patch is ready. Perhaps sometime this weekend. Unfortunately, it will only be for GTK2 (I also fixed main-gtk2.c). I will also make available the font I used, which I created myself. It has some rather ugly self-created Cirth and Quenya in the agreed upon blocks, but those won't be used in the first patchset. What's the default windows system font used by the windows version? 
+</p>
+<p>
+<a href="./TheFalcon">TheFalcon</a>: I think the default is 8x13, if that's what you mean. I really do like this idea, and the screen shots look really great. I just wish I understood all the technical stuff. :sigh: 
+</p>
+
+    <ul>
+
+ <a href="./LeonTorres">LeonTorres</a>: Thanks. Let's see, I'm runing windows ToME under Linux using Wine, very bizzare to say the least. It seems to use the fonts that come with it under lib/xtra/fonts. Can windows users use their own fonts? I can't verify with this setup. In any case, the font issues are moot for windows ToME because it already relies on the fonts that come with it. I'm sure windows players will be very happy to have a better font that's also scalable. :) 
+    </ul>
+
+
+<p>
+<strong><a href="./LeonTorres">LeonTorres</a></strong>: <strong>Important Update</strong> Well, after sleeping on this a bit and looking carefullly at the code, it looks like unicode support has to be done thorougly or not at all. It turns out mixing unicode with old fashioned C-strings results in various display bugs. For instance, if runes are represented as &#181; then it won't be rendered properly in the inventory or in the message screen on top because of how those strings are pieced together. Every line of string handling code will need to be updated. This is bad news for this project, because we can't just drop the status quo and abandon the legacy just for unicode. 
+</p>
+<p>
+At the moment, I'll continue with this project and overhaul all of ToME for full unicode compliance and keep a patch set for interested people. If there's interest in making ToME 3.0 unicode compliant, I'll be willing to help. In the meanwhile, if anyone really wants to use those drawing symbols in their game right away, we can add those symbols to the fonts that come with ToME. I won't be doing this because I'm happy with what I have so far, bugs and all, but I encourage anyone else to sieze the initiative and update the fonts. That's probably the easiest way to enhance text mode at this point. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: OK, don't do ToME 2. There's never, ever going to be a ToME 2.4 with a new feature such as this.  At this point, I suggest you join the mailing list and coordinate ToME 3 work there.  I really hope you do do this.  I'm sick of the ASCII obsession some people have, and would love ToME to get far, far away from it, heh. 
+</p>
+<p>
+<strong><a href="./LeonTorres">LeonTorres</a></strong>: Great, I'll join the list and focus on ToME 3. Sacred cows are going to have to die hard. :) I want to play ToME a little more though to get familiar with the game. I'm already spoiled from having to debug and peek into code and _info files. :( 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fUnicodeSupport?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fUnicodeSupport.text_html">RefreshCache</a> for this page (cached 2005-04-09 13:55:16)<br>
+<p><a href="./IdeaArchive_2fUnicodeSupport?action=edit">EditText</a> of this page (last edited 2005-04-09 13:55:16 by <span title="24-205-90-73.pas-eres.charterpipeline.net"><a href="./LeonTorres">LeonTorres</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 01:48:27 Apr 12, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:47:26 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1352.387
+  exclusion.robots: 0.086
+  exclusion.robots.policy: 0.079
+  RedisCDXSource: 1.564
+  esindex: 0.008
+  LoadShardBlock: 1329.128 (3)
+  PetaboxLoader3.datanode: 69.803 (4)
+  CDXLines.iter: 19.025 (3)
+  load_resource: 81.668
+  PetaboxLoader3.resolve: 31.317
+-->

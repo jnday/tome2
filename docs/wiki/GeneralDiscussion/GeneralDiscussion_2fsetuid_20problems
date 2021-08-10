@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/setuid problems - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fsetuid_20problems?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fsetuid_20problems?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fsetuid_20problems?action=fullsearch&amp;value=%2Fsetuid+problems&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/setuid problems</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fsetuid_20problems?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fsetuid_20problems">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fsetuid_20problems?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fsetuid_20problems?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fsetuid_20problems?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fsetuid_20problems?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fsetuid_20problems?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fsetuid_20problems?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fsetuid_20problems?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fsetuid_20problems?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fsetuid_20problems?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fsetuid_20problems">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Hi. I posted this on the tome forum and someone redirected me here, as more developer types hanf out here. <p>
+I'm building on MacOS X Darwin with makefile.std default settings. (NOT MacOS X Cocoa. Darwin is the *nix foundation of OSX and is very similar to unix or linux).  
+</p>
+<p>
+My problem is that tome tries writing s_info.raw and other files into lib/apex and other public directories as user, rather than as games. Tome permissions automatically get set to -rwsr-xr-x games:admin. Lib/apex permissions are drwxr-xr-x games:admin. I can manually make lib/apex and other directories world-writable and run the game, but the files created there are owned by user and not writable by others.   
+</p>
+<p>
+Any ideas about what's going wrong and what I have to do to fix it? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: It sounds like a bug in makefile.osx.  Possibly the author of that file didn't care about multi-user installs.  Try looking into one of the unix makefiles (makefile.std, makefile.bsd) and add the right chmod calls to the install: rule. 
+</p>
+<p>
+<strong>Tardigrade</strong>: No, no. I'm using makefile.std. The permissions seem to be getting set properly, as I indicated above. But files written into lib/apex/ are written with suid dropped (if that's the right terminology). 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Hmm, odd.  Try using sgid instead, and see if that's broken for you.  I know that's working here: 
+</p>
+<pre>&gt; dir /usr/local/share/tome/apex/ 
+total 12
+drwxrwxr-x   3 root  games   512 Dec 29 13:44 ./
+drwxrwxr-x  21 root  games   512 Dec 29 13:43 ../
+-rw-rw-r--   1 root  games    11 Feb  3 09:09 .cvsignore
+drwxrwxr-x   2 root  games   512 Dec 29 13:43 CVS/
+-rw-rw-r--   1 root  games     1 Feb  3 09:09 delete.me
+-rw-rw-r--   1 root  games  1500 Feb  4 14:39 scores.raw</pre><p>
+"<a class="nonexistent" href="./MichaelCroft">MichaelCroft</a>": I just complied 2.3.2 on 10.4.2 and had the problem as described.  I went into config.h and commented out the define SAFE_SETUID_POSIX around line 110 and then it worked fine.  That's probably a non-optimal of doing things, so I'd be glad to know if there's a better way to undef that (or to figure out why the setuid() call is failing). 
+</p>
+<p>
+This is a 2.3.2 binary, compiled on 10.4.2 with 8 and 16 bit graphics: <a href=".www.whiterose.org/test/tome-232-osx.tar.bz2">http://www.whiterose.org/test/tome-232-osx.tar.bz2</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fsetuid_20problems?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fsetuid_20problems.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:53:51)<br>
+<p><a href="./GeneralDiscussion_2fsetuid_20problems?action=edit">EditText</a> of this page (last edited 2005-07-31 20:26:26 by <span title="dsl254-119-239.nyc1.dsl.speakeasy.net">MichaelCroft</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 00:29:18 Jun 03, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:42:50 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 133.757
+  exclusion.robots: 0.163
+  exclusion.robots.policy: 0.15
+  RedisCDXSource: 3.622
+  esindex: 0.009
+  LoadShardBlock: 101.248 (3)
+  PetaboxLoader3.datanode: 87.569 (4)
+  CDXLines.iter: 23.901 (3)
+  load_resource: 102.56
+  PetaboxLoader3.resolve: 45.004
+-->

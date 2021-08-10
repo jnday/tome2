@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Are (some) staves underpowered? - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=fullsearch&amp;value=%2FAre+%28some%29+staves+underpowered%3F&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Are (some) staves underpowered?</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+It seems to me that some of the low level staves are almost useless. In particular, consider Staves of Sense Hidden. To fully detect traps on a level you need to cast Sense Hidden probably 10-15 times, depending on the level of the spell and how efficiently you can place your casting positions. This means that your typical staff found on the ground or bought from a shop will last you less than a single level (and it weighs 5 pounds!). <p>
+I wonder if it would be in order to allow increase the number of charges, just for certain low level spells. Sense Hidden, Sense Monsters, Disarm, Globe of Light, for example. 
+</p>
+<p>
+On a related note, recharging is not very useful as it stands, I think. When you finally find that high level Staff of Identify which can ID your entire pack or perhaps has the radius effect, you typically can only recharge it two or three times before it explodes: and each recharge just grants a few more charges. 
+</p>
+<hr>
+ <a href="./GregSweetman">GregSweetman</a>: Hmm, tricky one this.  You see, with Staves of Sense Hidden (when I don't have the spell) I only use the charges when I think it is worthwhile (i.e. if I find a vault, or hit a multiplication trap). (Bear in mind that it can be recharged of course) <p>
+With regard to recharging exploding everything, I can't say I've noticed, but then I *rarely* use recharging. Perhaps, rather than increasing the number of charges, have the recharging explosion effect tied into the number of charges in the staff vs the staff's spell level?  Or perhaps make a capacity for the staff which can't be exceeded without risk of explosion? 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f.text_html">RefreshCache</a> for this page (cached 2004-08-16 12:10:27)<br>
+<p><a href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f?action=edit">EditText</a> of this page (last edited 2004-08-16 12:10:26 by <span title="host81-133-200-63.in-addr.btopenworld.com"><a href="./GregSweetman">GregSweetman</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:41:09 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:28 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 91.847
+  exclusion.robots: 0.163
+  exclusion.robots.policy: 0.151
+  RedisCDXSource: 0.743
+  esindex: 0.009
+  LoadShardBlock: 62.67 (3)
+  PetaboxLoader3.datanode: 80.21 (4)
+  CDXLines.iter: 23.664 (3)
+  load_resource: 41.76
+-->

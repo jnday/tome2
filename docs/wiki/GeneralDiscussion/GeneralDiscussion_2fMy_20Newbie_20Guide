@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/My Newbie Guide - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=fullsearch&amp;value=%2FMy+Newbie+Guide&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/My Newbie Guide</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fMy_20Newbie_20Guide">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fMy_20Newbie_20Guide">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+= New Newbie Guide =  <p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: Erm, well, after writing this, I reread the Tome Newbie guide, and well, in some respects it's vague, but in general it's fine and doesn't really need replacing.  But I've written it up now, so why not post it. 
+</p>
+<h2 id="head-6c4352ba85bf01ed38a71ece65a6553d38349773">The guide</h2>
+<p>
+First you are/were greeted by the ToME title screen.  Next (if no modules are installed) you are prompted for a new character or to load a character.  Assuming you are reading this, you've selected New Character and entered a name. 
+</p>
+<p>
+Gender is personal preference, so choose whatever.  Next you are to select a race.  Different options have been mentioned (like <a class="nonexistent" href="./RohanKnights">RohanKnights</a>, Hobbits, Dunedans, Trolls etc.) I say choose a human.  This is your first game, and humans are the basic race, with no special features (after this char dies, try one of the others, and do comparisons). 
+</p>
+<p>
+Now for your subrace.  Choose Classical for simplicity. 
+</p>
+<p>
+Next is your classtype.  Choose warrior. 
+</p>
+<p>
+Here also lots of different options have been offered (Swordmaster, Unbeliever, Rogue (under Rogue classtype), Priest (Eru) among others), but I say choose a warrior (simplicity).  
+</p>
+<p>
+Gods follows this.  Choose no god for now, but take note for next chars that Eru and Tulkas are the easiest to start with. 
+</p>
+<p>
+Do you want to modify options[y/n] 
+</p>
+<p>
+Press 'y'es, just so you can have a look at them, and know what they mean.    Maximize Stats    ---   Whether your bonusses remain bonusses, or if they become part of your 'natural' char.  Weak races should say no, and stronger races yes.  Specify minimal stats   ---   Yes.  This will enable you to specify what you want in certain stats, and the roller will roll until it's successfully thrown such a char, or has tried 1mil times to get it. 
+</p>
+<p>
+Put iron_man rooms to no, and the rest as you think you'll like it.   
+</p>
+<p>
+Now you're asked Number of quests? (0-98) 20 
+</p>
+<p>
+Keep it at 20 for now.  After a few games, if you feel you get bored, put it up some, and you'll see what the difference is. 
+</p>
+<p>
+Now you're given the autoroller screen... put in the maximum for strength and dexterity.  Leave the rest blank. 
+</p>
+<p>
+Soon you'll have a character rolled up, and notice you can press r to reroll or esc for accept.  If you're satisfied, press escape a few times (4x). 
+</p>
+<p>
+Now you've started!   
+</p>
+<p>
+When you give your first pace you'll be read your parchement in your inventory.  Which tells you some info about the game.  After you've read it, you need to go to the general store.  It's the 1 (or a door with a shield and a torch in graphics) which is about 8 squares to the bottom right of your current position.  Use the arrow keys to move towards the store.  Note that you can move diagonally as well, so rather use the numpad keys than the normal arrows.  To go into the store, simply step onto the square with the 1 (or the torch).  Be wary of the townsfolk, especially veterans and mercenaries.  You should evade them now. 
+</p>
+<p>
+The store don't always stock lanterns, but if they have, buy a lantern.  If you can afford one, buy a shovel too (its been said :"Never adventure without a digging tool").  If you got a lantern, you should buy some oil too.  Proceed to the armoury (far left of the general store, it is a 2, or a door with a shield).  My advice is to sell the chain mail, as this will boost your money and you'd be able to buy lots of other gear with it too like a shovel, and boots, gloves, caps, shields, cloaks (sold at general store), and normal armour.  You can also get a bow or a sling at the weapon shop.  Pop into the alchemy shop (5, or the door with a potion on), and have a look at the potions and scrolls for sale... especially word of recall.  They can teleport you to and from the dungeon.  But be careful, they're not instant.  Identify scrolls are also very useful - {good} or {excellent} items should be identified to be sold for their worth. 
+</p>
+<p>
+Once you've bought all the gear... you need to 'w'ear/'w'ield it.  Press w then space to show you your equipable items. Wear everything (if you couldn't get a lantern, just wear one torch).  Walk towards the west(left) of the screen, via the cobble road, and when it splits, take the dirt road which leads southwest (bottom left) towards a &gt; (or a staircase with graphics).  This is barrow downs.  Press &gt; to go into the dungeon. 
+</p>
+<p>
+In a roguelike, you must realise that your input case is important.  'w'ear, needs a small letter, 'W' does nothing, so keep an eye on caps lock.  Read the commands help for all of the commands, but 'l'ooking around (doesn't take time, and is a really good idea when you're starting out), 'r'eading scrolls, 'q'uaffing potions, 'F'uel a ligth source, 'm'agic (not just for spells, other classes has things here too), 'U'se racial power and 's'earch are just a few that are important. 
+</p>
+<p>
+Once in the dungeon, you'll see quite a few monsters.  Step onto their squares to attack and kill them.  Remember to keep an eye on your HP (hit points), because if it goes below 0, you die.  You can 'R'est (pressing R), or by pressing 5, or . to regain HP.  Killing monsters will gain XP (Experience points), which will in turn let you gain levels. 
+</p>
+<p>
+Once you've gained a level, you should press 'G'ain skills.  G will take you to a menu where you can allocate the 5 skill points you've earned.   You are a warrior, so combat, weaponmastery, or one of the specializations are obvious choices.  Also note that there is the 'N'ew ability menu, where you can buy abilities with skill points.  These are once off, and once it's bought, you have all the benefits of the ability. 
+</p>
+<p>
+If you've dwelled down to dungeon level 3, (on 20 quests) you'll be confronted with a random quest (remember our setting of how many quests, well this is it).  It can either be a Adventurer quest, or a Princess quest.  Both have several tough monsters to kill, but the princess's monsters are clustered together, while the adventurer's are spread across the level.  There are good rewards for you if you succeed in helping either of the two out of their dilemma.  I leave it to you to explore the options.  But note that not asking the adventurer to accompany you doesn't make him less grateful. 
+</p>
+<p>
+Things that you really should also look into are the options (press = to go there), especially the Hitpoint Warning part, and at your 'C'haracter sheet.  This is where you can see what your character can resist (by pressing 'n'ext in the Character sheet), or what is affecting you.  Note that items need to be identified to show you their bonusses, and in most cases *identified* to show all the resists. 
+</p>
+<p>
+Happy adventuring, and try out any of the other options mentioned as soon as you die. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fMy_20Newbie_20Guide.text_html">RefreshCache</a> for this page (cached 2004-08-02 11:07:56)<br>
+<p><a href="./GeneralDiscussion_2fMy_20Newbie_20Guide?action=edit">EditText</a> of this page (last edited 2004-07-08 13:42:52 by <span title="rba-cache1-vif1.saix.net"><a href="./ReenenLaurie">ReenenLaurie</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:34:23 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:42:32 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2119.266
+  exclusion.robots: 0.081
+  exclusion.robots.policy: 0.074
+  RedisCDXSource: 1746.24
+  esindex: 0.008
+  LoadShardBlock: 351.441 (3)
+  PetaboxLoader3.datanode: 145.469 (4)
+  CDXLines.iter: 18.649 (3)
+  load_resource: 135.259
+  PetaboxLoader3.resolve: 70.105
+-->

@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport125 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport125?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport125?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport125?action=fullsearch&amp;value=BugReport125&amp;literal=1&amp;case=1&amp;context=40">BugReport125</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport125?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport125">View</a></li>
+<li><a title="Diffs" href="./BugReport125?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport125?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport125?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport125?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport125?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport125?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport125?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport125?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport125?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport125">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Gondolin quest bug <p>
+*SPOILY* 
+</p>
+<p>
+While the text of the big Gondolin quest at level 45+ suggests urgency and the town is ruined if you don't go IMMEDIATELY, once you get to Gondolin you can ignore the quest as long as you want. 
+</p>
+<p>
+You can ignore it for game weeks or real weeks, ignore it until level 50 and full equipped, or ignore it forever and the town still stands. 
+</p>
+<p>
+There should be a timer (i.e. 48 game hours before entering the quest?) or condition (can't leave Gondolin without destroying it) that forces the player to do the quest or abandon it. Or the quest's text should be changed. 
+</p>
+<p>
+The rationale of the town being destroyed if you don't go IMMEDIATELY doesn't stand if you can go and just ignore it all! 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Not a bug. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: The immediacy forces you to leave whatever fight you are in, in the dungeon.  That's why the word is used, I think.  Possibly misleading, but I'm inclined to agree it's not a bug. 
+</p>
+<p>
+Simon: misleading me to death 10+ times. Lol. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Dying in ToME is not usually a bug; it's a fact of life. If you wanted to be spoiled about the quest ahead of time, you could have posted questions about it, and/or researched the forum and/or wiki for information. If you want to try quests on your own, unspoiled, then be prepared to face the consequences of your actions. (And yes, I've gotten burned that way, too! <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> ) 
+</p>
+<p>
+<strong>Bandobras</strong>: I guess we should change the message slightly. Perhaps add something like "Please come back to Gondolin immediately, so that at the sight of such a hero the enemy stops ruining the city and hides somewhere!" Then when you reach Gondolin the villains hide and you can go into their den whenever you like. Or invent some other explanation. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport125?action=refresh&amp;arena=Page.py&amp;key=BugReport125.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:43:24)<br>
+<p><a href="./BugReport125?action=edit">EditText</a> of this page (last edited 2004-12-12 15:41:05 by <span title="62.121.66.151=151-dzi-3.acn.waw.pl">151-dzi-3</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 07:45:03 Jan 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:54 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.172
+  captures_list: 75.093
+  esindex: 0.01
+  RedisCDXSource: 2.147
+  PetaboxLoader3.resolve: 55.131
+  load_resource: 106.008
+  exclusion.robots.policy: 0.162
+  CDXLines.iter: 22.873 (3)
+  LoadShardBlock: 46.713 (3)
+  PetaboxLoader3.datanode: 84.137 (4)
+-->

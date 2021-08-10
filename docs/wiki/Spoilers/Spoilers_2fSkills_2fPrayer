@@ -1,0 +1,486 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Skills/Prayer - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fSkills_2fPrayer?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fSkills_2fPrayer?action=print">
+<link rel="Up" href="/Spoilers_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fSkills_2fPrayer?action=fullsearch&amp;value=%2FPrayer&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Skills/Prayer</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fSkills_2fPrayer?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fSkills_2fPrayer">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fSkills_2fPrayer?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fSkills_2fPrayer?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fSkills_2fPrayer?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fSkills_2fPrayer?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fSkills_2fPrayer?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fSkills_2fPrayer?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fSkills_2fPrayer?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fSkills_2fPrayer?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fSkills_2fPrayer?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fSkills_2fPrayer">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Prayer enables you to casts spells from your god's school, and also allows you access to some ordinary magic shchools (varying depending upon your god). <hr size="3">
+ <ol>
+<li>
+<a href="#head-830bd605821ee79b05019df0d67000cd17c87ff6">Eru Iluvatar</a></li>
+<li>
+<a href="#head-5bd0243a84a97d0e2433360b77f003d1eaa40eb8">Manwe Sulimo</a></li>
+<ol>
+<li>
+<a href="#head-1cd8f2d570b4997c495b300fb06dbc76dd74e5c2">Manwe's blessing</a></li>
+<li>
+<a href="#head-8b39d7274c98360f4f505968a92165e06c7be31f">Wind shield</a></li>
+<li>
+<a href="#head-220c5515fbc0006ac849bff082a5beff219312da">Manwe's call</a></li>
+<li>
+<a href="#head-7631b26ea80b1b601c313b15cc4e2ab03faedf30">Avatar</a></li>
+<li>
+<a href="#head-92a65326fa8c81bbe8c5bc32f7a08f5a121a9e9d">Air school (2/3 prayer skill)</a></li>
+<li>
+<a href="#head-98f6018bd4b931da4b0eac5aabcc14f569212eb3">Conveyance school (1/2 prayer skill)</a></li>
+<li>
+<a href="#head-a28148633dd44dd0de73b5e3e7f98f5ac94363c1">Meta school (1/3 prayer skill)</a></li>
+</ol>
+
+<li>
+<a href="#head-8361192ad3ab5a45c7db2288e05efc88d5f826fe">Yavanna Kementari</a></li>
+<ol>
+<li>
+<a href="#head-afefc2711f1f4ee1237a1620813398b08a18acd3">Charm Animal</a></li>
+<li>
+<a href="#head-f430cba34fcce6784954be7efe3a11e0c3c11ee3">Grow Grass</a></li>
+<li>
+<a href="#head-da5473260f0c6760b58332e5eb62d0e86bd7c827">Tree Roots</a></li>
+<li>
+<a href="#head-4ba8a9cf4adbf76a1ff1c2ea1837322e6d80e399">Water Bite</a></li>
+<li>
+<a href="#head-c6f27009dda83f9200d6b6fe4855bef7c0fccb97">Uproot</a></li>
+<li>
+<a href="#head-f4ddcbfa5b56bc958b7fd978f309c84c3bdd4ebc">Additional schools</a></li>
+</ol>
+
+<li>
+<a href="#head-358a47516a900773d1f7e356e6aac44138190fd7">Tulkas</a></li>
+<li>
+<a href="#head-11984558524ce4f53bb86d4d76084fe577fef244">Melkor Bauglir</a></li>
+<ol>
+<li>
+<a href="#head-0b3d98d5a8a24ce5688aedf061c5f6a9c810326e">Curse</a></li>
+<li>
+<a href="#head-0dcc1411563e23319229423381627eb51717c91e">Corpse Explosion</a></li>
+<li>
+<a href="#head-3b7454c9122865d1be86e6b3471b1ff24a07cdf3">Mind Steal</a></li>
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr size="3">
+ <h2 id="head-830bd605821ee79b05019df0d67000cd17c87ff6">Eru Iluvatar</h2>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: I've just noticed a potentially hazardous wrinkle with high-level Listen to the Music.  It identifies all the items on a level, even those held by monsters and so forth.  Doesn't this drastically increase the chances that you'll miss artifacts, even with preserve on?  AFAIK, once an artifact is identified and you leave a level not carrying it, it's gone forever, right? <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: This is correct. The spell should only be used with care. 
+</p>
+<p>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: On the plus side, if you have all the options for game notes enabled, you can refer to your notes to see what artifacts have just been detected, because the game automatically notes them.  It's still a matter of tracking them down once you know they're out there, though -- who's holding that darn thing? 
+</p>
+<p>
+Another issue has occurred to me as well -- if you have pets, and they're generated holding an artifact, and then you cast Listen to the Music and those artifacts are identified, you've got to kill your pets to get the darn things.  I believe that dismissing the pets will make the artifacts go away permanently, correct?  Is this perhaps a bug?  Oh, and I suppose the same problem exists for genocide and monsters who crush weaker monsters.  Yikes!  You weren't kidding about using it with care! 
+</p>
+<p>
+<strong><a href="./JasonStitt">JasonStitt</a></strong>: This isn't much of a problem. At about the same time listen to the music starts identifying the whole level, the good old identify spell (from divination) will start identifying your pack. And a few levels later know the music will *Identify* your pack. 
+</p>
+<h2 id="head-5bd0243a84a97d0e2433360b77f003d1eaa40eb8">Manwe Sulimo</h2>
+<h3 id="head-1cd8f2d570b4997c495b300fb06dbc76dd74e5c2">Manwe's blessing</h3>
+<p>
+Removes fear, blesses you (increasing to-hit chance), and increases your light radius by 1. At 10 prayer, grants heroism; at 20 prayer, grants superheroism; at 30 prayer, gives you luck and hold life. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ At 50 prayer, it lasts for 101-140 rounds. 
+</p>
+</li>
+    <li>
+<p>
+ At 50 prayer and spell power, it lasts for 129-168 rounds. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-8b39d7274c98360f4f505968a92165e06c7be31f">Wind shield</h3>
+
+    <ul>
+
+    <li>
+<p>
+ At 50 prayer, it gives +24 AC and 2d5 retaliation damage for 52-71 rounds. 
+</p>
+</li>
+    <li>
+<p>
+ At 50 prayer and spell power, it gives +36 AC and 3d8 retaliation damage for 72-91 rounds. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-220c5515fbc0006ac849bff082a5beff219312da">Manwe's call</h3>
+<p>
+Summons a great eagle, which has melee attacks only, is fast, and flies. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ At 50 prayer, the eagle is level 63 and has in the vicinity of 440-490 hit points. 
+</p>
+</li>
+    <li>
+<p>
+ At 50 prayer and spell power, the eagle is level 91 and has in the vicinity of 580-610 hit points. Experiments show that a single eagle of this level will usually kill an unleveled greater balrog but be almost dead, and will be clobbered by an unleveled wyrm of power. Flocks of these eagles are devastating to single powerful creatures they surround, however, as long as there is room. In hallways they don't do as well. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-7631b26ea80b1b601c313b15cc4e2ab03faedf30">Avatar</h3>
+<p>
+This is a mimicry effect that turns you into a Maia. See <a href="./Spoilers_2fSkills_2fMimicry">Spoilers/Skills/Mimicry</a> for the effects, which include stat bonuses, immunities, resistances, regeneration and +2 extra attacks. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ At 50 prayer, the duration is 7-16 rounds. 
+</p>
+</li>
+    <li>
+<p>
+ At 50 prayer and spell-power, the duration is 15-24 rounds. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-92a65326fa8c81bbe8c5bc32f7a08f5a121a9e9d">Air school (2/3 prayer skill)</h3>
+<p>
+Noxious cloud does excellent early-game damage and provides damage support in the late game. Poison blood is good for a poison brand on your weapon, and temporary resists can stack with permanent resists from equipment. Invisibility stacks, as well. Sterilize is occasionally useful, and wings of winds is redundant if you have at least 15,000 piety. 
+</p>
+<p>
+At 50 prayer: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Noxious cloud does 100 damage/round for 30 rounds, radius 3 
+</p>
+</li>
+    <li>
+<p>
+ Poison blood lasts for 36-66 rounds 
+</p>
+</li>
+    <li>
+<p>
+ Invisibility has power 38 and lasts for 34-54 rounds 
+</p>
+</li>
+    <li>
+<p>
+ Sterilize lasts for 41-70 rounds 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+At 50 prayer and spell-power: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Noxious cloud oes 160 damage/round for 46 rounds, radius 3 
+</p>
+</li>
+    <li>
+<p>
+ Poison blood lasts for 47-76 rounds 
+</p>
+</li>
+    <li>
+<p>
+ Invisibility has power 58 and lasts for 54-73 rounds 
+</p>
+</li>
+    <li>
+<p>
+ Sterilize lasts for 69-98 rounds 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-98f6018bd4b931da4b0eac5aabcc14f569212eb3">Conveyance school (1/2 prayer skill)</h3>
+<p>
+You can only ever get phase door, disarm, teleportation and teleport away. Recall and probability travel are too high-level. The distance you teleport increases somewhat with level, as does the casting speed of teleportation. 
+</p>
+<h3 id="head-a28148633dd44dd0de73b5e3e7f98f5ac94363c1">Meta school (1/3 prayer skill)</h3>
+<p>
+You can get recharge and disperse magic. 
+</p>
+<p>
+At 50 prayer: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Recharge has power 95 
+</p>
+</li>
+    <li>
+<p>
+ Disperse magic removes blindness and light only 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+At 50 prayer and spell-power: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Recharge has power 151 
+</p>
+</li>
+    <li>
+<p>
+ Disperse magic removes blindness, light, confusion, speed (good or bad), light speed, stunning, meditation, cuts, heroism, super-heroism, bless, shields, fear, parasites and mimicry 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-8361192ad3ab5a45c7db2288e05efc88d5f826fe">Yavanna Kementari</h2>
+<p>
+The magic bestowed upon worshippers of Yavanna Kementari is quite formidable, but mostly in the magical spell schools that are granted as a side effect.  Yavanna's direct prayers are generally considered less useful, except for the last two, and a special use of the first one which some consider abusive. 
+</p>
+<h3 id="head-afefc2711f1f4ee1237a1620813398b08a18acd3">Charm Animal</h3>
+<p>
+The first prayer granted by Yavanna, Charm Animal is mostly used to generate piety.  This is due to a quirk in the behavior of the spell: you can "charm" (and gain piety for "charming") your own pets. 
+</p>
+<p>
+So, the typical purpose of this spell is to get surrounded by some animals (clear hounds, light hounds, etc.), center the spell on yourself, and repeatedly charm all the animals around you until your piety has reached the desired level.  Then the pets can be dismissed. 
+</p>
+<h3 id="head-f430cba34fcce6784954be7efe3a11e0c3c11ee3">Grow Grass</h3>
+<p>
+This spell can be used to convert some of the local terrain into grass squares.  The documentation claims that this is useful because you can regenerate faster on grass.  That may be true, but the more useful effect of the spell comes from converting undesirable terrain into normal terrain. 
+</p>
+<p>
+Geomancers may also find this spell interesting, for their terrain-based powers. 
+</p>
+<h3 id="head-da5473260f0c6760b58332e5eb62d0e86bd7c827">Tree Roots</h3>
+<p>
+This spell prevents you from moving.  And it increases your armor class and your melee damage.  But <em>it prevents you from moving</em>!  So you'd better be awfully sure you want to remain where you are for a while.  Potential uses include pounding on Sauron in an anti-summoning corridor while wearing the Anchor... and... not much else. 
+</p>
+<p>
+Tree roots also provide instant stun recovery, so another use is to cast it before meleeing mystics. 
+</p>
+<h3 id="head-4ba8a9cf4adbf76a1ff1c2ea1837322e6d80e399">Water Bite</h3>
+<p>
+The greatest of Yavanna's spells for the warrior, Water Bite augments your normal melee damage by shooting a ball of water at anything you strike with a melee attack while the spell is active.  At high levels, the ball grows to radius 1, meaning you hit all the adjacent monsters as well -- which is a mixed blessing, if you have any pets or coaligned monsters. 
+</p>
+<p>
+End-game Yavanna worshippers are likely to use this spell extensively, if they use any significant amount of melee. 
+</p>
+<h3 id="head-c6f27009dda83f9200d6b6fe4855bef7c0fccb97">Uproot</h3>
+<p>
+This spell converts a tree into a pet Ent.  If you wanted some pets, here you are. 
+</p>
+<h3 id="head-f4ddcbfa5b56bc958b7fd978f309c84c3bdd4ebc">Additional schools</h3>
+<p>
+The additional schools (Earth, Nature, Water, Temporal) are where Yavanna really shines.  Yavanna worshippers who maximize their Prayer skill will have effective skills levels of 25 in Earth, Nature and Water; and 8 in Temporal. 
+</p>
+<p>
+The Temporal school is only useful so that Yavanna worshippers can cast the Grow Trees spell.  It's impossible to get Slow Monster or Essence of Speed from Yavanna worship alone.  The Magelock spell is of marginal utility, unless the character has enough spell-power boosting skill and/or equipment to push Magelock to level 30 for the rune of protection effect.  
+</p>
+<p>
+The Earth school will provide access to Stone Skin, Dig and Stone Prison spells.  Stone Skin at level 25 is just barely beginning to do retaliatory damage, but if the character has some spell-power boosts, it could become significant; and in any case, extra AC is always welcome.  Dig needs no explanation.  Stone Prison at level 1 (which is all a Yavanna worshipper will get at Prayer level 50, without additional boosts) creates granite in the 8 tiles around the player, unless they are occupied by items or non-open terrain.  This is <em>extremely</em> useful for line of sight disruption -- and if the character has 9 points of more of spell-power boost, the spell becomes targettable, so that the prison can be erected around a monster.  The usefulness of this spell cannot be overstated. 
+</p>
+<p>
+The Nature school provides Grow Trees, Healing, Recovery, Regeneration and Summon Animal.  Of these, the most useful is Healing, which can repair several hundred HP worth of damage by the end game.  Grow Trees is useful for line of sight disruption under some circumstances, although it's not as consistent or powerful as Stone Prison.  (It's probably more useful for generating an army of Ents, in combination with the Uproot spell.)  Recovery is not particularly useful unless the character has spell-power boosts, in order to get access to the stat- and experience-recovery effects in the mid-game.  (By the end game, most characters have most of their stats sustained by equipment, and they don't care about experience since they're well past level 50.)  Summon Animal is probably only useful if the character has spell-power boosts; without any, it's only castable at level 1, which generates a rather weak pet. 
+</p>
+<p>
+The Water school provides Geyser, Vapor, Ent's Potion, Tidal Wave and Ice Storm.  Geyser is not particularly useful because of its exceedingly low damage-to-mana-cost ratio (but it starts to become a moderately respectable beam spell in the end game, especially with spell-power boosts).  Vapor is useful in the early- to mid-game as a breeder control spell, or for killing Poltergeists in the early god quests.  It doesn't really do enough damage to be useful against tougher opponents, even in the end game.  Ent's Potion means you'll never need to carry food again, and at high levels, it also gives you the heroism effect (small to-hit an AC boost as well as fear immunity).  Tidal Wave is a tremendously potent spell in combat.  Not only does it damage monsters, but it also pushes them away from you, <em>even if you have moved away from the center of the wave</em>.  No matter where you are when the wave hits a monster, and no matter which part of the wave the monster encounters, the monster is pushed away from you.  Ice Storm is a defensive spell that does damage to monsters that come close to you.  But it has the drawback of creating ice squares, which can stun you even if you have cold immunity and are flying over them.  (Don't ask why.) 
+</p>
+<h2 id="head-358a47516a900773d1f7e356e6aac44138190fd7">Tulkas</h2>
+<h2 id="head-11984558524ce4f53bb86d4d76084fe577fef244">Melkor Bauglir</h2>
+<strong>This spoiler has been adapted from <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>'s 2.2.x Spell Spoilers.</strong> <p>
+NOTE:  Prayer ability includes spell power, unless otherwise stated. 
+</p>
+<h3 id="head-0b3d98d5a8a24ce5688aedf061c5f6a9c810326e">Curse</h3>
+It curses a monster, reducing its melee dice (amount and sides but NOT the to-hit of the monster) by 1 (2d6 becomes 1d5).  At Prayer 50, it is 2. This can be cast onto a monster more than once... So as soon as you get the amount to 0, the monster's melee cababilities are gone. <p>
+At level 5 it can be auto-casted (with no piety cost) while fighting 
+</p>
+<p>
+This happens only if piety &gt; 5000.  Then the probability is determined by your wisdom, prayer, and the monster's level.  ((Wisdom@30 * Prayer@100) / Monster level) % .  So with Max wisdom and prayer, you're pretty much cursing everyone.  This effect affects uniques as well (according to LD's guide). 
+</p>
+<p>
+At level 15 it also reduces armor by your Prayer (to a max of 70) 
+</p>
+<p>
+At level 25 it also reduces speed by your Prayer@7 (to a minimum speed of -30) 
+</p>
+<p>
+At level 35 it also reduces max life (but it is never fatal) by a variable amount (depending on monster race). 
+</p>
+<h3 id="head-0dcc1411563e23319229423381627eb51717c91e">Corpse Explosion</h3>
+It makes corpses in an area around you explode for a percent of their hit points as damage <p>
+Firstly, this is not targetted. It's corpses around you (3-7 radius based on prayer) that explode.   The corpse explosion is radius between 1 and 8 (6 when Prayer is 50, with no spell power), with damage between 20% and 115% of the original monster's HP.  The damage type is shards.   I assume the player do not get damaged by this. 
+</p>
+<p>
+This sounds like a quick way to kill round 2 of summons.  But you had to kill round 1. :)  I (<a href="./ReenenLaurie">ReenenLaurie</a>) have never used it though, so I don't know how it'll work out. 
+</p>
+<h3 id="head-3b7454c9122865d1be86e6b3471b1ff24a07cdf3">Mind Steal</h3>
+It allows your spirit to temporarily leave your own body, which will be vulnerable, to control one of your enemies body. <p>
+This is very dependant on the monster level if the monster will resist, with prayer at 50, a level 100 monster will resist only 50% of the time. 
+</p>
+<hr size="3">
+ <h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<a href="./MayLith">MayLith</a>: Regarding Mind Steal, see <a href="./BugReport61">BugReport61</a>. <p>
+<a href="./PermanentInk">PermanentInk</a>: I put the stuff from Spoilers/Magic/Melkor here, along with blank sections for the other gods, since there's no actual skill called "Melkor." 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: so how does prayer skill affect piety? 
+</p>
+<p>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: I don't believe there's any correlation, but I could be wrong.  I base my knowledge primarily on the <a class="external" href="./www.killerbunnies.org/angband/skill-220.html#spirituality">killerbunnies skill spoiler</a>. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: AKAIK prayer doesn't affect piety. 
+</p>
+<hr>
+ <p>
+<strong><a href="./MayLith">MayLith</a></strong>: I think we've got another case of duplicationduplication. Spoilers/Gods seems like a more sensible place for God-specific information. This page (imho) can stay, but it should be for the Prayer skill itself (e.g. questions such as Simon's) not individual Gods or prayers. 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: <a href="./Spoilers_2fGods">Spoilers/Gods</a> looks like a rather different page to me.  This one is giving detailed descriptions of the spells one gets from the Prayer skill, whereas the other one is a general advocacy page with little pamphlets for each god. 
+</p>
+<hr>
+ <p>
+<strong><a href="./KhymChanur">KhymChanur</a></strong>: Does the access to ordinary magic schools (Divination, Air, etc) stack with the skills you have in those schools (and/or sorcery), or is it just the greater of the two? 
+</p>
+<p>
+<strong><a href="./VeryFoobar">VeryFoobar</a></strong>: The greater of the two (of the three, actually, if you count access through Prayer). 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I'll explain this once, and then hopefully someone can choose an ideal place in the Documentation to put it, heh.  The way the magic system works, is that various skills (and perhaps later, items) give you access to various schools of magic.  Skills like Prayer, Sorcery, and Mana, for example, can be three different ways of getting access to Mana school. 
+</p>
+<p>
+When you cast a spell, you automatically choose the best means of casting it, and based on the spell level you get from there, Spell-power is then added (both from skill and from items), and then you cast the spell. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fSkills_2fPrayer?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fSkills_2fPrayer.text_html">RefreshCache</a> for this page (cached 2006-02-21 16:50:42)<br>
+<p><a href="./Spoilers_2fSkills_2fPrayer?action=edit">EditText</a> of this page (last edited 2006-02-21 16:50:42 by <span title="static-71-116-225-149.lsanca.dsl-w.verizon.net"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:36:13 Mar 04, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:51 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  CDXLines.iter: 21.637 (3)
+  PetaboxLoader3.datanode: 122.573 (4)
+  load_resource: 71.742
+  esindex: 0.014
+  captures_list: 93.92
+  RedisCDXSource: 0.862
+  LoadShardBlock: 67.404 (3)
+  exclusion.robots: 0.273
+  exclusion.robots.policy: 0.26
+-->

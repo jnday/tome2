@@ -1,0 +1,106 @@
+/*  common.css - MoinMoin Default Styles
+
+    Copyright (c) 2001, 2002, 2003 by Jürgen Hermann
+*/
+
+/* content styles */
+
+html {
+	margin:0;
+	padding:0;
+	background-color: white;
+	color: black;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+h4, h5, h6 {
+	font-size: 1em;
+}
+
+li p {
+	margin: .2em 0;
+}
+
+li.gap {
+    margin-top: 8pt;
+}
+    
+a img {
+	border: 0;
+}
+
+img.drawing {
+	border: 0;
+}
+
+dt {
+	font-weight: bold;
+}
+
+pre {
+    padding: .5em;
+    white-space: pre-wrap;
+}
+
+#content {
+}
+
+.footnotes ul {
+	padding: 0 2em;
+	margin: 0 0 1em;
+}
+
+.footnotes li {
+	list-style: none;
+}
+
+/* eye catchers */
+.warning 
+{
+    color: #000000;
+    background-color: #EDD097;
+    padding: 1pt;
+}
+
+.error 
+{
+    color: #FF0000;
+    background-color: #EDD097;
+    padding: 1pt;
+}
+
+strong.highlight 
+{
+    background-color: #FFAA00;
+    padding: 1pt;
+}
+
+
+/*
+     FILE ARCHIVED ON 19:50:33 Apr 08, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:24:10 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 225.532
+  PetaboxLoader3.resolve: 165.555
+  exclusion.robots.policy: 0.134
+  cdx.remote: 0.133
+  exclusion.robots: 0.145
+  LoadShardBlock: 81.598 (3)
+  PetaboxLoader3.datanode: 76.168 (4)
+  CDXLines.iter: 27.653 (3)
+  captures_list: 120.955
+  esindex: 0.011
+*/

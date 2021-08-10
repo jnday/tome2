@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">309</script><title>BugReport17 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport17?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport17?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport17?action=fullsearch&amp;value=BugReport17&amp;literal=1&amp;case=1&amp;context=40">BugReport17</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport17?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport17">View</a></li>
+<li><a title="Diffs" href="./BugReport17?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport17?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport17?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport17?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport17?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport17?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport17?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport17?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport17?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport17">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I am not sure if it is a bug or not, but i asked on #tome, and i was told to report it.  I found "an Adamantite Rod of something (200/200)" in the dungeon. A rod that can be zapped, but it does apparently nothing, and tips can not be attached to it. It is basically like a rod with a tip called "something" (undefined tip?) attached to it. I was also told that i shouldnt find rods in the dungeon with anything attached to them, so i figure it is rather strange. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: You are correct. The pval of the rod (i.e. type of the attached rod tip) is -1. lookup_kind tries to find the rod tip stored in the rod. Since it cannot be found, 0 is returned, and the name of the item #0, "something", is used instead. I've checked the trap and spell code, but could not find an effect that decreased the pval from 0 to -1. 
+</p>
+<p>
+Maybe it was created at -1? We should check for new rods/tips, and artifact rod/tips (artifacts are sometimes generated in ways not automatically updated when normal items are updated). Rod ego problems are to check too. (randart rods, as randarts use to be on unapropriate objects to start with; and sometimes end up with no powers at all and a pval of -1; do rods use pval to mark their rod tips??) 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Yes, the type of the rod tip is stored in the pval (0 meaning no rod tip). 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: was the rod generated on a level where you were fated to receive something special? 
+</p>
+<p>
+<a href="./DanielJoo">DanielJoo</a>: Nope. My only "find item" fate was a level 4 one, and that is not where i have found the rod.  
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport17?action=refresh&amp;arena=Page.py&amp;key=BugReport17.text_html">RefreshCache</a> for this page (cached 2004-08-03 00:10:04)<br>
+<p><a href="./BugReport17?action=edit">EditText</a> of this page (last edited 2004-07-07 11:00:26 by <span title="81.182.127.87=87.127-182-adsl-pool.axelero.hu">87</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:29:13 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:43 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.052
+  esindex: 0.011
+  CDXLines.iter: 18.239 (3)
+  load_resource: 205.72
+  exclusion.robots: 0.154
+  captures_list: 98.744
+  PetaboxLoader3.resolve: 58.696
+  LoadShardBlock: 76.248 (3)
+  PetaboxLoader3.datanode: 90.756 (4)
+  exclusion.robots.policy: 0.144
+-->

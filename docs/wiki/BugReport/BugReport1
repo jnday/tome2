@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" />
+<html>
+<head>
+
+<title>BugReport1 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport1?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport1?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport1?action=fullsearch&amp;value=BugReport1&amp;literal=1&amp;case=1&amp;context=40">BugReport1</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport1?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport1">View</a></li>
+<li><a title="Diffs" href="./BugReport1?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport1?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport1?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport1?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport1?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport1?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport1?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport1?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport1?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport1">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+When a fate gives you a random artifact, it doesn't make sure to artifact something useful.  Artifact potions, essences, and other junk are possible. <p>
+There is a <a class="external" href="./www.killerbunnies.org/angband/tome-fateart.diff"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">fix</a> for this bug from Scott. 
+</p>
+<p>
+<strong><a class="nonexistent" href="./XandorTikroth">XandorTikroth</a></strong>: Uh... shouldn't this be moved to Resolved bugs? 
+</p>
+<p>
+<strong><a href="./JulesBean">JulesBean</a></strong>: Not until the fix is actually applied to ToME... 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I'm not sure it's a bug anyway. The Princess can reward you with something useless -- or downright <em>bad</em> -- too. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I'm sure this is a bug.  The Princess has nothing to do with fates, and one bug (the Princess generation of terrible items) doesn't justify another (the generation of absurd artifacts by fates). 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I'll go along with your decision cheerfully, but I still (yes, stubbornly) question the underlying perceptions which drive the logic. Yes, the Princess has nothing to do with fates. However, I don't necessarily view the Princess generation of terrible items to be a bug... and therefore (if you follow that avenue of thought) the further justification doesn't work. 
+</p>
+<p>
+Personally, as a player, I *want* the Princess to always generate excellent or better items,  yes. But as we all know, the Princess isn't that smart (as witness her periodic entrapments by such horrible creatures as Grey Molds, etc.) I wouldn't put it past her to unknowingly award an adventurer with some special thing which isn't necessarily all that good. 
+</p>
+<p>
+Again, this is sheerly a POV type of thing, and if the Princess quests and fates can be adjusted to always give excellent or better items, then yay. <img src="./wiki/classic/img/smile.png" alt=":-)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: If I kill 6 Master Quylthulgs in an open, circular room, I'd better get a useful item.  That's my feeling on the matter. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: See my above "yay".... If I *ever* get this blasted quest for 12 Greater demonic Q's done... *starts muttering* 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Perhaps the clvl and number of creatures may influenciate the potential of the item. Killing 5 &gt;50clvl monsters could give a greater potential of getting an artifact while questing against 5 shriek mushrooms would only give non-ego items. Have in mind that I said potential, you should still have a chance of getting normal items... Just an idea. 
+</p>
+<p>
+Simon: The princess gives cursed items, but not absurd artifacts like a fate: 
+</p>
+<p>
+-An artifact fortune cookie (with no special powers). I tend to get 5 things of this kind on death fates. 
+</p>
+<p>
+-A non-rechargeable artifact wand with -1 charges! 
+</p>
+<p>
+-An artifact potion of salted water. 
+</p>
+<p>
+-An artifact scroll of darkness. 
+</p>
+<p>
+-On a death fate, all your level 1 fate items show up at once. If you get twice the same artifact, it crashes! Since the death fate isn't restricted to level 1 this can be a game ending bug... 
+</p>
+<p>
+-"You are fated to meet a player on level 1". Silly encounters, too. And he isn't the one dropping the player corpse either! 
+</p>
+<p>
+-On a fate level, since the fate disappears from my fate list I have no way of knowing what the fate item or monster was; if I wanted to know I need to check the fate list before using each stair, which is silly IMHO so I just ignore the fate feeling. The only other way I can know what the fate item is, that would be getting the silly artifact bug (for the monster, there is no way to know unless you are certain a dungeon never generates a certain monster type like a cold-vulnerable in Helcaraxe). 
+</p>
+<p>
+-You can get not dying from the hands of mortals 4 times! This looks silly; perhaps when you get it and already have it you might lose it or something(or perhaps it should be not dying from hand of mortals weaker than a certain level, which might go up with more fates)? 
+</p>
+<p>
+The difference between the princess and fates: 
+</p>
+<p>
+The princess is simply not able to cast a decent ID spell and is "acting in good faith", while the fates are downright absurd sometimes. I'd settle for fates that are simply out-of-depth items and monsters (i.e. double the depth and make sure it's OOD enough). Because non-out of depth items and monster fates are incredibly boring except for the occasional beastmaster quest monster or nonsilly artifacts. Perhaps fates should be rarer if they are more powerful? 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I also think the princess and the fate situations are very different. There are cursed artifacts that are actually relatively nice, like Mormegil, and princess-generated randarts usually have at least some positive qualities that may overshadow the negatives if the negatives are relatively mild, like ordinary heavy curse, teleport, or drain mana for warriors. 
+</p>
+<p>
+But artifact potions and scrolls and food and such tend to be less valuable than the base items, since artifacts don't stack with normal items. For items like stat potions which tend to get quaffed upon finding the value of an artifact is the same as a normal item, and items that are worthless as base items are slightly more worthless as artifacts. (The automatizer cannot deal with them and they remain to clutter the dungeon or the museum.) My current character got an artifact potion of sleep... 
+</p>
+<p>
+Simon: Yikes! Since artifact explosive arrows don't disappear after being shot, maybe an artifact potion of detonation could be thrown and reused! Gotta try that with my next art. potion!! 
+</p>
+<p>
+And for artifact potions, most fates are level 1 they tend NOT to be useful anyhow. In all my death fates I never found anything better than getting 3 artifact salted water potions at once(to cure 3 meat) with an artifact ring of nothing and an artifact ring of nothing(self-cursing). Fate artifact rings are especially lame since they don't get extra egos mixed in like a randart ring. Fate diggers with a pval of 1 and no special powers are boring. Fate scrolls have not been above the usefulness of 'bless' so far. Considering 11 death fates and 2 "not dying by..." fates, I should have gotten something half-cool or half-threatening by now! 
+</p>
+<p>
+The fate items are simply something to laugh about(never being even semi-cool), and fate monsters... well how do we even recognize them since they're not even semi-threatening or noticeable? The exception being a red mold in Helcaraxe - wow I'm scared I won't have time to kill it before the cold does! 
+</p>
+<p>
+I'm also wondering if death fates will artifact anything you're fated to find on level 1. That would explain the sillyness even further. 
+</p>
+<p>
+I'm all in favor of game-altering or at lest fates noticable by a feature other than a bug! 
+</p>
+
+    <ul>
+
+ PROPOSAL: For a simple fix, fates level should be determined by character level rather than by dungeon  level (or use whichever is greater). This would prevent the very common occurance of a very weak fate. <p>
+ And of course artifact fate wands should be fixed! Minus 1 charges and not rechargeable sounds bad... 
+</p>
+
+        <ul>
+
+  <strong><a href="./NeilStevens">NeilStevens</a></strong>: Please never use <tt>{{{...}}}</tt> as a generic blockquote. See the <a href="./Style_20Guide">Style Guide</a>. </ul>
+
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./BugReport1?action=refresh&amp;arena=Page.py&amp;key=BugReport1.text_html">RefreshCache</a> for this page (cached 2004-12-17 18:25:14)<br>
+<p><a href="./BugReport1?action=edit">EditText</a> of this page (last edited 2004-09-11 21:04:05 by <span title="192.168.0.1"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 00:59:13 Jan 12, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:18 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 101.953
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.076
+  RedisCDXSource: 0.645
+  esindex: 0.008
+  LoadShardBlock: 81.753 (3)
+  PetaboxLoader3.datanode: 104.23 (4)
+  CDXLines.iter: 17.391 (3)
+  load_resource: 66.77
+  PetaboxLoader3.resolve: 40.139
+-->

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Classes/Unbeliever - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fClasses_2fUnbeliever?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fClasses_2fUnbeliever?action=print">
+<link rel="Up" href="/Spoilers_2fClasses">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fClasses_2fUnbeliever?action=fullsearch&amp;value=%2FUnbeliever&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Classes/Unbeliever</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fClasses">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fClasses_2fUnbeliever?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fClasses_2fUnbeliever">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fClasses_2fUnbeliever?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fClasses_2fUnbeliever?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fClasses_2fUnbeliever?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fClasses_2fUnbeliever?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fClasses_2fUnbeliever?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fClasses_2fUnbeliever?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fClasses_2fUnbeliever?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fClasses_2fUnbeliever?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fClasses_2fUnbeliever?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fClasses_2fUnbeliever">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-2473e96bc614a911821242119918a241a41836d6">Introduction</h2>
+Unbelievers can be quite powerful foes indeed, as antimagic hinders (and when high-level nullifies for most monsters) the chance foes have to cast spells. Though in turn they forfeit the ability to cast any spells or use magical abilities of their own.  While they start with a darksword, it is more effective skillpoint-wise to make a swordmaster and train in <a class="interwiki" title="Self" href="./Documentation_2fSkills_2fAntimagic"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Antimagic</a>.  <h2 id="head-6553d3e280db22e2bb1bba8f156412cc5ba8650a">Playing an Unbeliever</h2>
+If you decide to actually start with an unbeliever, you'll notice as I stated above, that you start with a darksword instead of a broadsword. Unless you find something far powerful like a *Thanc dagger, it is recommended you keep this for quite a while.  Note that enchanting the darksword will actually lessen the sword's effect on generating an antimagic field, at 1% per  + on the sword I believe. Early on traps will be a problem to avoid, as you cannot use wands or staffs.  As you progress, you will be able to detect traps using your antimagic skill, which needs to be at least level 25.  At antimagic skill level 35 detecting traps also destroys adjacent traps. <h2 id="head-1cd6f266ae332c975ad304f647152dd3b32b42bd">Skills to Train</h2>
+I would recommend maxing swordmastery, weaponmastery, combat, and antimagic; then place any remaining points into archery. <h2 id="head-809a7304e84ac503a29d22d4f4969393ba7b3134">Race and Subrace to choose</h2>
+I cannot think of a better candidate for an unbeliever than a zombie half-troll.  They get 15 hit dice, the highest possible, and start with sustain strength, hold life, resist poison, see invisible, and slow digestion.  At character level 5 they get resist cold, and at character level 15 they get regeneration, which increases your hunger and healing rate, but slow digestion counters the first part. <h2 id="head-32e250eea4df435a62a95c33c32c628e9d1f0775">Written By</h2>
+Armada </div><div id="footer">
+
+
+<a href="./Spoilers_2fClasses_2fUnbeliever?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fClasses_2fUnbeliever.text_html">RefreshCache</a> for this page (cached 2005-11-04 11:57:50)<br>
+<p><a href="./Spoilers_2fClasses_2fUnbeliever?action=edit">EditText</a> of this page (last edited 2005-02-14 06:06:46 by <span title="adsl-68-77-34-118.dsl.emhril.ameritech.net"><a href="./FeathinSilyar">FeathinSilyar</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:39:54 Mar 04, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:59:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1590.151
+  esindex: 0.008
+  CDXLines.iter: 17.749 (3)
+  load_resource: 24.96
+  exclusion.robots: 0.258
+  captures_list: 1683.342
+  LoadShardBlock: 72.174 (3)
+  PetaboxLoader3.datanode: 79.999 (4)
+  exclusion.robots.policy: 0.241
+-->

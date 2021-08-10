@@ -1,0 +1,497 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Glorantha/Races - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fGlorantha_2fRaces?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fGlorantha_2fRaces?action=print">
+<link rel="Up" href="/Modules_2fGlorantha">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fGlorantha_2fRaces?action=fullsearch&amp;value=%2FRaces&amp;literal=1&amp;case=1&amp;context=40">Modules/Glorantha/Races</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules_2fGlorantha">Up</a></li>
+<li><a title="Edit" href="./Modules_2fGlorantha_2fRaces?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fGlorantha_2fRaces">View</a></li>
+<li><a title="Diffs" href="./Modules_2fGlorantha_2fRaces?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fGlorantha_2fRaces?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fGlorantha_2fRaces?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fGlorantha_2fRaces?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fGlorantha_2fRaces?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fGlorantha_2fRaces?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fGlorantha_2fRaces?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fGlorantha_2fRaces?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fGlorantha_2fRaces?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fGlorantha_2fRaces">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+A list of possible player races: 
+    <ul>
+
+    <li>
+<p>
+ Humans 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Wareran 
+</p>
+</li>
+        <li>
+<p>
+ Kraloreli 
+</p>
+</li>
+        <li>
+<p>
+ Pamaltelan 
+</p>
+</li>
+        <li>
+<p>
+ Vadeli 
+</p>
+</li>
+        <li>
+<p>
+ Artmali 
+</p>
+</li>
+        <li>
+<p>
+ Agimori 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+perhaps a race modifier depending on homeland would be better. i.e. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Humans 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Praxian Nomad 
+</p>
+</li>
+        <li>
+<p>
+ Pavis 
+</p>
+</li>
+        <li>
+<p>
+ Oasis People 
+</p>
+</li>
+        <li>
+<p>
+ Orlanthi 
+</p>
+</li>
+        <li>
+<p>
+ Lunar 
+</p>
+</li>
+        <li>
+<p>
+ ... 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Uz (trolls) 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Mistress Race (uzuz) 
+</p>
+</li>
+        <li>
+<p>
+ Dark troll (uzko) 
+</p>
+</li>
+        <li>
+<p>
+ Great troll (uzdo) 
+</p>
+</li>
+        <li>
+<p>
+ Trollkin (enlo) 
+</p>
+</li>
+        <li>
+<p>
+ Cave troll (romal) 
+</p>
+</li>
+        <li>
+<p>
+ Snow troll (uzhim) 
+</p>
+</li>
+        <li>
+<p>
+ Jungle troll (muri) 
+</p>
+</li>
+        <li>
+<p>
+ Mountain troll (snang) 
+</p>
+</li>
+        <li>
+<p>
+ Sea troll 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Mostali (dwarfs) 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Clay dwarves 
+</p>
+</li>
+        <li>
+<p>
+ perhaps other elements  
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Aldryami (elves) 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Embyli (Yellow Elves, Jungle Elves) 
+</p>
+</li>
+        <li>
+<p>
+ Mreli (Brown elves, Deciduous Elves) 
+</p>
+</li>
+        <li>
+<p>
+ Vronkali (Green elves, Evergreen Elves) 
+</p>
+</li>
+        <li>
+<p>
+ Runners 
+</p>
+</li>
+        <li>
+<p>
+ Sprites 
+</p>
+<p>
+  Not proper elves: 
+</p>
+</li>
+        <li class="gap">
+<p>
+ Black Elves (Voralans) 
+</p>
+</li>
+        <li>
+<p>
+ Blue Elves (Murthoi) 
+</p>
+</li>
+        <li>
+<p>
+ Red Elves (Slorifings, Goblins) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Shapechanger 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Basmoli 
+</p>
+</li>
+        <li>
+<p>
+ Puma People 
+</p>
+</li>
+        <li>
+<p>
+ Hsunchen (Telmori, Rathori, Sofali,...) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Chaotic Races 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Bagogi (scorpion men) 
+</p>
+</li>
+        <li>
+<p>
+ Broo (goatkin) 
+</p>
+</li>
+        <li>
+<p>
+ Ogre 
+</p>
+</li>
+        <li>
+<p>
+ perhaps other, more unusual races 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Other possible player races 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Aramite (half-troll, tusk rider) 
+</p>
+</li>
+        <li>
+<p>
+ Awakened animals 
+</p>
+</li>
+        <li>
+<p>
+ Baboons of Prax 
+</p>
+</li>
+        <li>
+<p>
+ Centaur (horse-men) 
+</p>
+</li>
+        <li>
+<p>
+ Dragonewt (lizard-man, stages: Scout (Crested), Warrior (Beaked), Noble Dragonewt (Tailed Priest), Ruler Dragonewt (Full Priest), Dragon) 
+</p>
+</li>
+        <li>
+<p>
+ Durulz (ducks) 
+</p>
+</li>
+        <li>
+<p>
+ Jelmre 
+</p>
+</li>
+        <li>
+<p>
+ Giants 
+</p>
+</li>
+        <li>
+<p>
+ Grotaron (Maidstone archers, trimanes) 
+</p>
+</li>
+        <li>
+<p>
+ Minotaur (bull-men) 
+</p>
+</li>
+        <li>
+<p>
+ Morocanth of Prax (intelligent, tapir-like creatures) 
+</p>
+</li>
+        <li>
+<p>
+ Nar Sylla (wind children) 
+</p>
+</li>
+        <li>
+<p>
+ Newtling 
+</p>
+</li>
+        <li>
+<p>
+ Nymphs (var.) 
+</p>
+</li>
+        <li>
+<p>
+ Sedrali (dog-men) 
+</p>
+</li>
+        <li>
+<p>
+ Slarges (giant lizard men) 
+</p>
+</li>
+        <li>
+<p>
+ Timinits (intelligent insects: lucan, myrmidon ) 
+</p>
+</li>
+        <li>
+<p>
+ Triolini (Mermen, var. species: Ludoch, Malasp, Ouori, Ysabbau, Zabdamar) 
+</p>
+</li>
+        <li>
+<p>
+ Waertagi (man-merman hybrid) 
+</p>
+</li>
+</ul>
+
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Modules_2fGlorantha_2fRaces?action=refresh&amp;arena=Page.py&amp;key=Modules_2fGlorantha_2fRaces.text_html">RefreshCache</a> for this page (cached 2004-08-20 13:52:16)<br>
+<p><a href="./Modules_2fGlorantha_2fRaces?action=edit">EditText</a> of this page (last edited 2004-07-14 13:03:57 by <span title="dialin-145-254-147-245.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:12:42 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:01 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1102.666
+  exclusion.robots: 0.11
+  exclusion.robots.policy: 0.102
+  RedisCDXSource: 108.427
+  esindex: 0.005
+  LoadShardBlock: 977.373 (3)
+  PetaboxLoader3.datanode: 1119.506 (4)
+  CDXLines.iter: 15.233 (3)
+  load_resource: 374.368
+  PetaboxLoader3.resolve: 114.491
+-->

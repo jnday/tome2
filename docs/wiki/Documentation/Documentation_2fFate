@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Fate - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fFate?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fFate?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fFate?action=fullsearch&amp;value=%2FFate&amp;literal=1&amp;case=1&amp;context=40">Documentation/Fate</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fFate?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fFate">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fFate?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fFate?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fFate?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fFate?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fFate?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fFate?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fFate?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fFate?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fFate?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fFate">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-3a7f70bda73a2c13b658790601da132fdf11efda"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Fate</h2>
+Numerous spirits inhabit the land of Arda, from the murderous barrow wights to the enigmatic Tom Bombadil. These spirits usually are bound to a specific geographic region, but there are exceptions to this rule. Sometimes one of these spirits will anonymously take interest in an adventurer. This can either be very, very good or very, very bad. These spirits will "rig" reality to ensure that something happens -- or doesn't happen. <p>
+If you acquire a fate, a message will pop up briefly on your screen to inform you of the event, but this message will not tell you what that fate is. To discover this, you must: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Visit a Soothsayer. He or she will uncover the fate, but not tell you what it is. 
+</p>
+</li>
+    <li>
+<p>
+Use the key combinations 'shift' + '`' (~) to display current knowledge. 
+</p>
+</li>
+    <li>
+<p>
+Type '9' to display your currently identified fates. 
+</p>
+</li>
+
+    </ol>
+
+
+<h2 id="head-8a45d339a638ac247a1574d733c588c338c1cb6e"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Credit</h2>
+The help on fates was originally written for PernAngband 5.x.x by Dustin Ragan, who has graciously granted his permission for us to use and update that text here. </div><div id="footer">
+
+
+<a href="./Documentation_2fFate?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fFate.text_html">RefreshCache</a> for this page (cached 2004-09-20 17:19:31)<br>
+<p><a href="./Documentation_2fFate?action=edit">EditText</a> of this page (last edited 2004-09-20 17:19:30 by <span title="user-uiveqic.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:45:28 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:39:01 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 97.354
+  exclusion.robots: 0.228
+  exclusion.robots.policy: 0.209
+  RedisCDXSource: 10.251
+  esindex: 0.007
+  LoadShardBlock: 61.154 (3)
+  PetaboxLoader3.datanode: 64.418 (4)
+  CDXLines.iter: 22.8 (3)
+  load_resource: 69.352
+  PetaboxLoader3.resolve: 43.919
+-->

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Skills/Sneakiness - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fSkills_2fSneakiness?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fSkills_2fSneakiness?action=print">
+<link rel="Up" href="/Documentation_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fSkills_2fSneakiness?action=fullsearch&amp;value=%2FSneakiness&amp;literal=1&amp;case=1&amp;context=40">Documentation/Skills/Sneakiness</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fSkills_2fSneakiness?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fSkills_2fSneakiness">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fSkills_2fSneakiness?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fSkills_2fSneakiness?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fSkills_2fSneakiness?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fSkills_2fSneakiness?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fSkills_2fSneakiness?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fSkills_2fSneakiness?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fSkills_2fSneakiness?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fSkills_2fSneakiness?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fSkills_2fSneakiness?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fSkills_2fSneakiness">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top" <hr>
+ <ol>
+<li>
+<a href="#head-79f5fcf8b5e571510e4fe5b7c258d92efbea1f3e">Sneakiness</a></li>
+<ol>
+<li>
+<a href="#head-723e8dc1b3b0c5a7678eca304fd54014efcbf928">Stealth</a></li>
+<li>
+<a href="#head-688f17afef89358521422323786d76f82959dc2d">Disarming</a></li>
+<li>
+<a href="#head-8f6f8fde958c9bdd542bb2773c8bf10a34e93f00">Backstab</a></li>
+<li>
+<a href="#head-1b756539b50b60aa135efcdeb5cdac042bd7de7d">Stealing</a></li>
+<li>
+<a href="#head-489cd7978b02312ec07d28435fee908b9d0947ba">Dodging</a></li>
+</ol>
+
+</ol>
+
+ <hr>
+ <h2 id="head-79f5fcf8b5e571510e4fe5b7c258d92efbea1f3e">Sneakiness</h2>
+The sneakiness skill affects things like your searching ability. <p>
+Sub-skills of Sneakiness include Stealth, Disarming, Trapping, Backstab, Stealing and Dodging. 
+</p>
+<h3 id="head-723e8dc1b3b0c5a7678eca304fd54014efcbf928">Stealth</h3>
+This skill is a sub-skill of the Sneakiness skill.  <p>
+It affects your ability to move around the dungeon quietly so that you are not noticed by it's inhabitants. Spending 1 skill point on your Stealth skill adds 0.15 bonus skill points to your Sneakiness skill. 
+</p>
+<p>
+This is an important skill for <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fRogue"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Rogues</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fAssassin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Assassins</a>. 
+</p>
+<h3 id="head-688f17afef89358521422323786d76f82959dc2d">Disarming</h3>
+This skill is a sub-skill of the Sneakiness skill.  <p>
+It affects your ability to safely disarm any traps you find. Spending 1 skill point on your Disarming skill adds 0.1 bonus skill points to your Sneakiness skill. 
+</p>
+<p>
+If you are investing in the Disarming skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-efc5d7f691e44381658dc7120a641d3d4cf94c48"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">trapping</a> ability. 
+</p>
+<h3 id="head-8f6f8fde958c9bdd542bb2773c8bf10a34e93f00">Backstab</h3>
+This skill is a sub-skill of the Sneakiness skill.  <p>
+It affects your ability to sneak up on monsters and do extra damage to them before they wake up. Spending 1 skill point on your Backstab skill adds 0.05 bonus skill points to your Sneakiness skill. 
+</p>
+<p>
+This skill is only available to <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fRogue"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Rogues</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fAssassin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Assassins</a>. 
+</p>
+<h3 id="head-1b756539b50b60aa135efcdeb5cdac042bd7de7d">Stealing</h3>
+This skill is a sub-skill of the Sneakiness skill.  <p>
+It affects your ability to steal items from monsters and shops. Be careful when stealing from shops, if you're caught, the shopkeeper will close his doors to you and not open them again for a <strong>VERY</strong> long time. Spending 1 skill point on your Stealing skill adds 0.15 bonus skill points to your Sneakiness skill. 
+</p>
+<p>
+This skill is only available to <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fRogue"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Rogues</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fAssassin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Assassins</a>. 
+</p>
+<h3 id="head-489cd7978b02312ec07d28435fee908b9d0947ba">Dodging</h3>
+This skill is a sub-skill of the Sneakiness skill.  <p>
+It affects your ability to dodge out of the way of monster blows and bolts. The less armour you wear and the less you carry, the greater your chance of dodging a blow. Rings and amulets do not affect your chance to dodge, but full armour will almost render the effect of the skill obsolete. Spending 1 skill point on your Dodging skill adds 0.1 bonus skill points to your Sneakiness skill. 
+</p>
+<p>
+This is an important skill for <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fRogue"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Rogues</a>, <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fAssassin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Assassins</a> and most especially <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fMonk"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Monks</a>. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fSkills_2fSneakiness?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fSkills_2fSneakiness.text_html">RefreshCache</a> for this page (cached 2005-11-07 03:14:34)<br>
+<p><a href="./Documentation_2fSkills_2fSneakiness?action=edit">EditText</a> of this page (last edited 2005-05-03 14:52:39 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 01:44:34 Dec 23, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:15 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 133.171
+  exclusion.robots: 0.149
+  exclusion.robots.policy: 0.12
+  RedisCDXSource: 1.758
+  esindex: 0.009
+  LoadShardBlock: 105.625 (3)
+  PetaboxLoader3.datanode: 118.865 (4)
+  CDXLines.iter: 21.734 (3)
+  load_resource: 103.287
+  PetaboxLoader3.resolve: 54.8
+-->

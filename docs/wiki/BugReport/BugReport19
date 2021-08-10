@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport19 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport19?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport19?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport19?action=fullsearch&amp;value=BugReport19&amp;literal=1&amp;case=1&amp;context=40">BugReport19</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport19?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport19">View</a></li>
+<li><a title="Diffs" href="./BugReport19?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport19?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport19?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport19?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport19?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport19?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport19?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport19?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport19?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport19">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Large portions of the map seem black, and cannot be lighted in any other way but the player stepping on them. This is of course unpractical for walls, which can't even be digged while they are black! <p>
+This always occurs after a load game. 
+</p>
+<p>
+For the record, I use every game-slowing option for making the lights and color better. 
+</p>
+<p>
+I've seen it since [2.2.2] I think; but now that I got killed by it I decided to mention it. 
+</p>
+<p>
+<a href="./amaurea">amaurea</a>: This sounds strange. Perhaps you should toggle bizarre display? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I think that this bug occurs because the illuminated squares are not updated correctly after loading the game. Trying to take off the light source and wear it again doesn't solve the problem. I could reproduce this in a dark room, but only after a crash: 
+<pre>#####################                                                       
+#                @..#                                                       
+#        ...      . #                                                       
+#       .....     . #                                                       
+#                   #                                                       
+#       .....       #                                                       
+#        ...        #                                                       
+#                   #                                                       
+########## ##########    
+</pre>The previously illuminated squares remain lit (.), and only visited squares are also illuminated. 
+</p>
+<p>
+The non-black wall squares can be undiggable, too. This occurs all the time in the maze. Walls outside of light range for the various loads are never affected. This is more than a light problem. 
+</p>
+<p>
+Frequent loads can anti-dig an entire room group(cumulative effect), with some of those walls still visible and some not, but the worse problem is those spectral effects that suddenly stop and you expect to be able to dig out... and incidentally since this is a load bug the character's save game is garanteed to imprison the character(at this point I removed the spectral sword and I was full so it disappeared)! 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  I've had this exact problem, and posted it, but it wasn't really noticed.  
+</p>
+<p>
+<tt>Trying&nbsp;to&nbsp;take&nbsp;off&nbsp;the&nbsp;light&nbsp;source&nbsp;and&nbsp;wear&nbsp;it&nbsp;again&nbsp;doesn't&nbsp;solve&nbsp;the&nbsp;problem.</tt>  No it doesn't, but I don't think expecting people to do that is the way to go.  Pressing ^R also doesn't help.  You have to re-explore every square to make it visible again.  (Only the squares which were in LoS when you loaded are affected. 
+</p>
+<hr>
+ <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Second bug report (# 180) moved here: 
+</p>
+<p>
+After save, quit and restore game, some grids in variable radius from player's position can be garbled, i.e. explored grids are marked as unexplored (?) but they cannot be lit or it's status changed until player step on them (even monster move can not be shown there). I'm using graphics=1 bigtile=0. Simple way to reproduce - explore barrow-downs, save, quit &amp; reload on unlit portion of an circular room. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Yes, I think this had been reported in the forum before, so it's good to have the report filed here.  Thank you. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: <a href="./SimonSorc">SimonSorc</a> is checking this bug. I tried some time ago (see above) but could not find the bug. 
+</p>
+<hr>
+ <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I tested this further. The temporary arrays view_x, view_y are not stored in the savefile, but the flags added by the code (e.g. CAVE_PLIT for player lit squares) are. Probabily it is only one flag (CAVE_VIEW ?) that marks the tile as saved in the temporary array (which is not restored after loading the game) that causes this problem. 
+</p>
+<p>
+Adding forget_view() to clear this array before saving a game and update_view() right after seems to fix the problem, but you see an annoying darkening and lighting effect when the game is saved.  
+</p>
+<p>
+A long description of the Angband flags can be found before update_view() in cave.c, but I'm not sure how much of this can be applied to ToME (see e.g. the split CAVE_LITE -&gt; CAVE_MLIT and CAVE_PLIT). 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I've added a fix to the latest CVS version that removes the CAVE_VIEW flag from the save file. It seems to fix the bug, but some more testing is needed. 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: Thanks for the fix. I've made leaps and bounds about understanding savegame code, but I missed it when I was looking at that line. I guess I'll have better luck/skill next time. 
+</p>
+<p>
+P.S.: does that break savefile compatibility? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: No, the only change is that the cave info byte of each square is saved without the CAVE_VIEW flag set. No data was added or removed in the savefile. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport19?action=refresh&amp;arena=Page.py&amp;key=BugReport19.text_html">RefreshCache</a> for this page (cached 2004-10-16 09:58:55)<br>
+<p><a href="./BugReport19?action=edit">EditText</a> of this page (last edited 2004-10-16 09:58:54 by <span title="dialin-145-254-143-050.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:41:30 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.124
+  PetaboxLoader3.resolve: 143.817
+  LoadShardBlock: 109.726 (3)
+  CDXLines.iter: 28.721 (3)
+  load_resource: 174.457
+  captures_list: 144.781
+  esindex: 0.022
+  exclusion.robots: 0.333
+  PetaboxLoader3.datanode: 98.474 (4)
+  exclusion.robots.policy: 0.312
+-->

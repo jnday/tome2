@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Symbiosis - Help - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=fullsearch&amp;value=%2FSymbiosis+-+Help&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Symbiosis - Help</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fSymbiosis_20_2d_20Help">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./ReenenLaurie">ReenenLaurie</a>: I have symbiosis with my current char. <p>
+It's my demonologist, so it has summoning, but the HP is great.   
+</p>
+<p>
+Whats the point most people use symbiosis for (HP or summoning?).  I've heard most ppl like using silent watchers, but I switched to a deathmold because I was not really scumming and got one with more HP.  Ho do I do the summoning with a symbiote?  Or does it do it by itself every now and again  (the deathmold do throw in a couple of attacks). 
+</p>
+<p>
+I am thinking of getting symbiosis up to at least 5 for the way you can divide the damage amongst you. 
+</p>
+<p>
+I have never played a symbiant, so I don't really know where the strengths and weaknesses lie.  Could someone explain to me please? 
+</p>
+<p>
+Thanks 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a> (2004-07-12): Symbiosis has quite a few advantages. The creature will attack for you, soak damage, affect your character (like any normal wearable equipment, for an example Q's give invisibility) and let you tap on it's powers. 
+</p>
+<p>
+For the summoning powers you will need at least level 10 in symbiosis. Then you can access the spell <strong>Use minor powers</strong> ... For most creatures this will only allow you to summon weak monsters. For an example, draconic Qs have summons at level 10 and at level 25 with the spell <strong>Use major powers</strong> 
+</p>
+<p>
+After you access one of the two, it will give you a list of what powers you can use from the creature, if there's summon in the list, well, you can summon <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  How often does the symbiote 'soak' my damage?  How do I know what the certain symbiote give me?  (Invisibility etc?)  I know at skill 5 I can share the damage, but I assume you have to cast that, it doesn't happen automagically.  For my demonologist I will mostly be using it for HP, so which ones has the best melee, and most HP?  I like my Deathmold so far, but only played with it for a short while now, but it seems the fact that it moves incredibly quickly (lots of turns) help me quite a bit.  I assume this hold true for most chars (except alchemists), but my monster has more HP than I. 
+</p>
+<p>
+<a href="./amaurea">amaurea</a>: The creature may take damage instead of you. How often it does this depends on how well it likes you, ie. your symbiosis skill. 1 point is just as useless as you would expect it to be. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: Could you explain life share to me?  As I understand it means for evey 2 damage I take, 1 gets moved to the symboite? 
+</p>
+<p>
+<a href="./ZV">ZV</a>: It's one time effect that divides damage taken by you and your symbiote evenly. 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: Life share can be exploited tho, the evenly mentioned by ZV is percentual. So if you have 400 total and lost over 300, you can wear a full 12hp mold then use life share. You would end with 250hp or so and your mold with 6hp. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Whether you use a symbiote for HP and/or Summoning depends at least partly on what type of character you are running. To have a symbiote Summon, you need to "Use Minor/Major Powers" (accessed via the 'm' key). It costs a certain number of skill points in order to be able to cast those <em>and</em> you need a symbiote which has the ability to summon, in the first place. 
+</p>
+<p>
+Life share can be further exploited using the Heal Symbiote spell. Basically, you can go back and forth between Life Share and Heal Symbiote. In effect, you are trading mana for hitpoints: You suck HP from the symbiote, spend mana to heal it back up again, then suck more HP from it, etc. (Just don't kill it!) 
+</p>
+<p>
+I'm one of those who likes Silent Watchers. I can usually find one with 2000 HP, though my current one is only 1100+something. I haven't experimented with Deathmolds much, but one of these days I will.  
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Another way to exploit this is to use life share with multiple fully healed symbiotes. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fSymbiosis_20_2d_20Help.text_html">RefreshCache</a> for this page (cached 2004-08-02 09:40:42)<br>
+<p><a href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help?action=edit">EditText</a> of this page (last edited 2004-07-16 00:10:52 by <span title="dialin-145-254-143-074.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:24:08 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:02 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 175.909
+  exclusion.robots: 0.147
+  exclusion.robots.policy: 0.135
+  RedisCDXSource: 12.31
+  esindex: 0.008
+  LoadShardBlock: 143.985 (3)
+  PetaboxLoader3.datanode: 183.88 (4)
+  CDXLines.iter: 17.334 (3)
+  load_resource: 544.514
+  PetaboxLoader3.resolve: 469.761
+-->

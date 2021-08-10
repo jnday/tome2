@@ -1,0 +1,218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/A bug is this how it's supposed to be? - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=fullsearch&amp;value=%2FA+bug+is+this+how+it%27s+supposed+to+be%3F&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/A bug is this how it's supposed to be?</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I've been casting Demon Field every now and again with my demonologist, but it seems to be connected with LoS, when I cast, and when it's affecting the monsters. <p>
+Here's what I mean. 
+</p>
+
+<pre>###################
+#   .........     #
+# .............   #
+#.......*.......  #
+# .............   #
+#   .........     #
+########.##########
+       #@###
+       # 
+       #####
+</pre><p>
+Now lets say I target it on the *.  The '.' is where I think it should affect (7 radius). 
+</p>
+<p>
+However 
+<pre>###################
+#   .........     #
+#   .........     #
+#    ...*...      #
+#     .....       #
+#      ...        #
+########.##########
+       #@###
+       # 
+       #####
+</pre>
+</p>
+<p>
+This is what it will affect (if my LoS is right).  BUT when I move down into the corridor.  The creatures doesn't die or (i assume) get damaged.  Is this how its supposed to work? 
+</p>
+<p>
+So what I think is bugs, but please correct me if I'm wrong, is 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Initially it only affects LoS, and this should be a ball, whether some of the ball is in LoS or not. 
+</p>
+</li>
+    <li>
+<p>
+ The damage is only dealt if the monsters are in LoS and area of effect. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+By the way, should this post be in bugs or not?  ('Cause maybe I misunderstood how it's supposed to be). 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I assume this is the same issue as with Noxious Cloud. It used to work like you want to, but the Powers that Be thought the techinique you describe was too munchinish and made cloud spells line of sight only. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: It's simple, really:  Until we have an AI that can take the clouds into account, we have to limit them somehow. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: Out of a AI perspective, how do you want monsters to react?   
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ If Damage/turn &lt; 5% (monsters won't know how long your cloud will last?), then attack char,  
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ else, look for shortest way out, and go there  
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Once there  
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ if LoS use missles/summon etc. 
+</p>
+</li>
+        <li>
+<p>
+ else look for alternate routes to player, or alternate ways to LoS, otherwise act 'wandering' or wait. 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+Yes, it's munchkinish, but if dragon's breaths (poison, cold, etc) generates clouds after the initial damage, and monsters casting clouds at the groung next to you (when LoS is broken), then the tables are turned (or evened out at least). 
+</p>
+<p>
+How high is priority on this kind of AI?  I haven't code dived <strong>in the least</strong> but I won't mind dabbling at it. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:30:30)<br>
+<p><a href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f?action=edit">EditText</a> of this page (last edited 2004-07-09 10:04:49 by <span title="rba-cache1-vif1.saix.net"><a href="./ReenenLaurie">ReenenLaurie</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 21:29:34 Jun 01, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 132.495
+  exclusion.robots: 0.095
+  exclusion.robots.policy: 0.089
+  RedisCDXSource: 1.612
+  esindex: 0.007
+  LoadShardBlock: 108.428 (3)
+  PetaboxLoader3.datanode: 126.624 (4)
+  CDXLines.iter: 19.697 (3)
+  load_resource: 62.922
+-->

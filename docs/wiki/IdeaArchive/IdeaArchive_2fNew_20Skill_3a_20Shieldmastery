@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/New Skill: Shieldmastery - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=fullsearch&amp;value=%2FNew+Skill%3A+Shieldmastery&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/New Skill: Shieldmastery</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: New skill idea, which allows a character to use a shield more effectively. Character gets more AC out of their shield, with a multiplier of (Skill Level/10). That's a minimum 50 extra AC from a shield of deflection at Skill Level 50, folks! Also, from Skill Level 25 onwards, there is a chance of (Skill Level-(Monster Level - Player Level)) that you will be able to block an attack (similar to the monks dodge ability). At Skill Level 40, the character gains the Reflection ability when using a metal or artifact shield of any size.  <p>
+2cworth and counting.  
+</p>
+<p>
+<a href="./amaurea">amaurea</a>: This sounds interesting. An x5 modifier to the total AC from the hsield sounds pretty worthwile. With an artifact shield this could be +150 AC or more. I like the dodging part too. I think this skill should make a warrior sacrify something else. It should not come too cheap. (Imagine helmetmastery + lebohaum: a helmet with 500 AC ;)) 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: A similar skill, Shield-use, is implemented in the Adamant module. You obtain the skill level as an AC bonus, up to a maximum of the shield armour class * 4 (i.e. 40 with a Shield of Deflection). 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: &lt;sigh&gt; I've got to start perusing the modules. Half "my" ideas appear to have been implemented already. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> I'd say that great minds think alike, but self-examination disproves the presence of at least one "great" mind...  
+</p>
+<p>
+Zonk: Actually, the formula I will use the in the next version of Adamant will probably be something like bonus to ac = (shield base ac * shield skill * 5) / 100 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: the way ToME is built, warrior types die from breath attacks and spells much more often than from melee. Couldn't the damage absorbing you get from high AC apply to breath attacks and such IF you have this expensive skill? Blocking dragon's flames with a shield while suffering some leftover heat is a fairly common knight trick in books, and I like the less common trick of reflecting the gaze of the medusa. We need the polished ego for shields. (-; 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Nice idea about the ego type, but there is already the "of Reflection" ego type and no other prefix ego type, i.e. all double egos will be "polished". Neverless I like "polished" better. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fNew_20Skill_3a_20Shieldmastery.text_html">RefreshCache</a> for this page (cached 2004-10-14 23:27:18)<br>
+<p><a href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery?action=edit">EditText</a> of this page (last edited 2004-10-14 23:27:17 by <span title="dialin-145-254-147-039.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:19:30 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:45:50 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 181.939
+  exclusion.robots: 0.325
+  exclusion.robots.policy: 0.305
+  RedisCDXSource: 4.722
+  esindex: 0.009
+  LoadShardBlock: 145.218 (3)
+  PetaboxLoader3.datanode: 82.889 (4)
+  CDXLines.iter: 27.824 (3)
+  PetaboxLoader3.resolve: 123.814 (3)
+  load_resource: 86.836
+-->

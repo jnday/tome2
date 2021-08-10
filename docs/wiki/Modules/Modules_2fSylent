@@ -1,0 +1,545 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Sylent - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fSylent?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fSylent?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fSylent?action=fullsearch&amp;value=%2FSylent&amp;literal=1&amp;case=1&amp;context=40">Modules/Sylent</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fSylent?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fSylent">View</a></li>
+<li><a title="Diffs" href="./Modules_2fSylent?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fSylent?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fSylent?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fSylent?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fSylent?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fSylent?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fSylent?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fSylent?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fSylent?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fSylent">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-4c4a2e80cc873135b3d277a22b6e85110c509731">Disclaimer</h2>
+
+    <ul>
+
+ This has no theme and nothing in special. It will have some races and classes I'd like to play on ToME along with certain combinations. Keep in mind that I have practicaly no time to work on it so updates will be rare. <p>
+ I will take suggestions for race/classes, but nothing complex since I have no idea how to work my way around with Lua. 
+</p>
+
+    </ul>
+
+
+<h2 id="head-9c74fb571984d7f3e781ea8b013e5f74bcd16389">Change Log</h2>
+
+    <ul>
+
+    <li>
+<p>
+ Changes for the next version 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Maiar wont agravate anymore 
+</p>
+</li>
+        <li>
+<p>
+ Minor Spell tweaking 
+</p>
+</li>
+        <li>
+<p>
+ Small bug fixing 
+</p>
+</li>
+        <li>
+<p>
+ Maylith's cat gets more hp now <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</li>
+        <li>
+<p>
+ Changed skill points to 7 per level. I thought only 6 wasn't being enough to compensate the fact that you lost all natural internal skill leveling. So yeah, now you get more to put on combat, sneakiness, magic and spirituality. 
+</p>
+</li>
+        <li>
+<p>
+ New spells: 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Influx 
+</p>
+</li>
+
+            </ul>        </ul>
+
+
+    <li>
+<p>
+ 0.0.5 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ New monster: Maylith's cat 
+</p>
+</li>
+        <li>
+<p>
+ Noxious cloud became two distinct spells: Noxious cloud and Unbreath cloud. 
+</p>
+</li>
+        <li>
+<p>
+ New sentient weapon: Masamune 
+</p>
+</li>
+        <li>
+<p>
+ Samurai's Kenjutsu skill mod changed to 1.000 
+</p>
+</li>
+        <li>
+<p>
+ New spells: 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Gravity Wheel 
+</p>
+</li>
+            <li>
+<p>
+ Ground Shatter 
+</p>
+</li>
+            <li>
+<p>
+ Flash 
+</p>
+</li>
+            <li>
+<p>
+ Magic Missiles 
+</p>
+</li>
+            <li>
+<p>
+ Mind Wreck 
+</p>
+</li>
+            <li>
+<p>
+ Rain 
+</p>
+</li>
+
+            </ul>        </ul>
+
+
+    <li>
+<p>
+ 0.0.4 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Warrior Subclass: Samurai 
+</p>
+</li>
+
+            <ul>
+
+   Exactly what it sounds like 
+            </ul>
+
+
+        <li>
+<p>
+ New Skill: Kenjutsu 
+</p>
+</li>
+
+            <ul>
+
+   Samurai's skill with it's own powers. Not many right now, but more to come. 
+            </ul>        </ul>
+
+
+    <li>
+<p>
+ 0.0.3 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ CatFolk Subrace Kukar's invisibility power was fixed 
+</p>
+</li>
+        <li>
+<p>
+ CatFolk Subrace: Murtak 
+</p>
+</li>
+
+            <ul>
+
+   Maylith's idea. Thunderkitty with thunderkitty's power! 
+            </ul>
+
+
+        <li>
+<p>
+ Mage Subclass: Warlock 
+</p>
+</li>
+
+            <ul>
+
+   A mix of warrior, necromancer and thaumaturge. Warlocks also have access to the utilitary schools but none else. 
+            </ul>        </ul>
+
+
+    <li>
+<p>
+ 0.0.2 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ CatFolk can't wear boots 
+</p>
+</li>
+        <li>
+<p>
+ CatFolk Subrace: Zertak 
+</p>
+</li>
+
+            <ul>
+
+   Half Cheetah, faster than normal, obviously. 
+            </ul>
+
+
+        <li>
+<p>
+ CatFolk Subrace: Nyrkar 
+</p>
+</li>
+
+            <ul>
+
+   Zombie Kitten 
+            </ul>
+
+
+        <li>
+<p>
+ CatFolk Subrace: Kurkar 
+</p>
+</li>
+
+            <ul>
+
+   Displacer beast 
+            </ul>
+
+
+        <li>
+<p>
+ Air School spell: Poison Blade 
+</p>
+</li>
+
+            <ul>
+
+   Bolt/Blast of poison 
+            </ul>
+
+
+        <li>
+<p>
+ Air School spell: Air Blast 
+</p>
+</li>
+
+            <ul>
+
+   High level wave of force 
+            </ul>        </ul>
+
+
+    <li>
+<p>
+ 0.0.1 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Rogue Subclass: Corpse Master 
+</p>
+</li>
+
+            <ul>
+
+   It's a mix of rogue and possessor. 
+            </ul>
+
+
+        <li>
+<p>
+ Main Race: CatFolk 
+</p>
+</li>
+
+            <ul>
+
+   Half human, half cat. Typical anime stuff. 
+            </ul>
+
+
+        <li>
+<p>
+ CatFolk Subrace: Nartak 
+</p>
+</li>
+
+            <ul>
+
+   House cat CatFolk, weaker than the other catfolk but more suited for being a rogue. 
+            </ul>
+
+
+        <li>
+<p>
+ CatFolk Subrace: Gyrtak 
+</p>
+</li>
+
+            <ul>
+
+   Tiger CatFolk, Stronger and healthier. Quite good monk/warrior. 
+            </ul>        </ul>    </ul>
+
+
+<h2 id="head-1281db9d177d455a043f9fd0525349871fc63897">ToDo list</h2>
+
+    <ul>
+
+    <li>
+<p>
+ More CatFolk subraces 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Only a few more, maybe 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ More kenjutsu spells 
+</p>
+</li>
+    <li>
+<p>
+ A more versatile warrior mage 
+</p>
+</li>
+    <li>
+<p>
+ Shape-changer race 
+</p>
+</li>
+    <li>
+<p>
+ Tentacle monster? lol, joke (maybe?) <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</li>
+    <li>
+<p>
+ New spells <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="external" href=".modules.t-o-m-e.net/module.php?id=35"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">Sylent</a> @ T.o.M.E. Module Library 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-c8eea1b80ba437eb2c7d9d8e4a7a1c0c36ddce4e">Bugs</h2>
+Report any bugs here <h2 id="head-fce06e20e5f7f74aacccab40b59b75a56c8f7305">Comments</h2>
+Christopher: Love the corpse master! I might 'borrow' that idea for my own mod (ToME and 1/2) if that's okay with you. <p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Sure thing, go ahead. My original idea was to limit that class to humanoid corpses only, but I don't think we can do that. 
+</p>
+<h2 id="head-861edba00547bc9ce7a08df78d4378766418179f">Suggestions</h2>
+<strong><a href="./MayLith">MayLith</a></strong>: Subrace or Ability: "Thunderkitty", probably akin to berserker. You know... where your cat freaks out and runs around and bounces of the walls/etc with his tail all fluffed out, then 5 minutes later sits calmly washing his paw, looking at you like "Move along, move along, nothing interesting just happened here....." <p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: LOL, I'm so doing that as soon as I figure out how. I'm gonna go check if the berserk ability is hard-coded or lua-coded. If it's lua, I will just make one for the "Thunderkitty" 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I thought you might like that! FYI, "Thunderkitty" is my own coined term. I've heard it called FRAP (Frenetic Random Activity Period), too; I forget the exact veterinary term, but IIRC it's a tossback to some sort of hardwired or semi-hardwired feline hunting sort of thing. Anyway, I called it Thunderkitty long before I knew about that, and to me, it is just so much more evocative. <img src="./wiki/classic/img/smile4.png" alt=";)" height="15" width="15"> My SO and I use the term regularly regarding my cat: "I saw a really good thunderkitty earlier", or "He looks like he's about ready to thunderkitty, doesn't he??".  
+</p>
+<p>
+If you want a joke monster.... I see you mention tentacle monster. Well, this again goes back to my utterly weird RL cat (and a lot of evil, evil humour which I will *not* repeat here!!!) but basically, in my house, my cat's tail is often referred to as his tentacle. He has this thing where, if you are (say) reclining on a couch, he will lie on the back of the couch and "paff" you...i.e., brush whatever part of you he can reach with his tail. Your face, if possible. Repeatedly. Flip, paff, twitch, twitch, paff.... You get the idea. So perhaps some sort of sessile cat sort of thingy, which can teleport (a la deathmolds) and is attracted by light sources. The attack is paffing. Perhaps over a distance of up to 2 squares. For minor damage and/or sneezing attacks. And if you try to hit it, it suddenly jumps away, claws the heck out of you, or damages your footwear. (And no, I will NOT publicly elaborate on that last one...) 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Hmmm, gonna make an unique out of that and call it "Maylith's Cat" :p As soon as I figure all those strange monster flags, that is. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: LOL! His favorite hideout is the tube (one of those cat-tree things), and he's a large, golden-eyed orange tabby.  
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Hehe, he will be there on the next release. Made it a normal monster tho, so people get him anyway hehe. I just don't know how to do the tail paffing thing... I guess I would have to learn how lua works with monster spells, if it does at all. But I gave him an arrow attack :P 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: That's so cool! <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> Anyway, if you manage to figure it out, he should have a chance to do very serious damage (and disenchantment) to footwear. I'm not trying any modules til I get a win in basic ToME, but I'll definitely give yours a try once I do.  
+</p>
+<p>
+Christopher: Catfolk subrace... 'in the hat' <img src="./wiki/classic/img/smile.png" alt=":-)" height="15" width="15"> Seriously though, this mods pretty cool (insert more general praise here). 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Hey thanks! <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15">  I'm working on spells right now. I think I will have to buff up Maylith's cat. I based him on Freesia. So it's a newbie monster. I might give him some more hp tho. If I figure out how to do monster spells on lua, I will do that :p ... Oh, Thanks Christopher. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15">  Right now I'm having trouble with wand generation... Even tho I didn't let any of my spells become wand spells, it still bugs lua when you enter a stave/wand store... eh... I dunno how to fix it. 
+</p>
+<p>
+Christopher: The wand thing... I had the same problem myself not long ago. The problem is something to do with  the wand numbers or something... anyway try deleting all the .raw files and let the game regenerate them. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Here's a (bad) <a class="external" href=".home.earthlink.net/~mosdc/pix/phot-cinn1-i.gif"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">picture</a> of my cat. 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Cute <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> Big tail too, no wonder it's a tentacle :p 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: In that picture, it's slightly poofed, and perspective makes it look a little bigger too, but it's still a big tail. Funny part is, it was my SO who gave it the name 'tentacle'. Before my SO, I always thought of it as a prehensile tail, but somehow 'tentacle' has stuck. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fSylent?action=refresh&amp;arena=Page.py&amp;key=Modules_2fSylent.text_html">RefreshCache</a> for this page (cached 2004-12-17 18:24:51)<br>
+<p><a href="./Modules_2fSylent?action=edit">EditText</a> of this page (last edited 2004-09-29 04:25:24 by <span title="user-2iverdu.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 06:57:16 May 06, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:28 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 185.482
+  exclusion.robots: 0.219
+  exclusion.robots.policy: 0.2
+  RedisCDXSource: 59.554
+  esindex: 0.013
+  LoadShardBlock: 99.079 (3)
+  PetaboxLoader3.datanode: 95.725 (4)
+  CDXLines.iter: 23.397 (3)
+  load_resource: 92.68
+  PetaboxLoader3.resolve: 48.428
+-->

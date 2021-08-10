@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Stupid 2.3 question... - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=fullsearch&amp;value=%2FStupid+2.3+question...&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Stupid 2.3 question...</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./RavenRed">RavenRed</a></strong>: Just a quick question in regards to the removal of Angband Abilities from ToME. Do modifiers to stealth from ego-items and the like affect the stealth SKILL in the same way (+1 to stealth = +1000 to the Stealth Skill)?  <p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: The effects of those items are unchanged. 
+</p>
+<p>
+<strong><a href="./RavenRed">RavenRed</a></strong>: So the abilities still exist? Are they just being removed in the sense of Race and Class modifiers, with their internal use remaining?  
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: There are two major skill-related changes from ToME 2.2 to 2.3.  The first is more of a bugfix:  a temporary thing put into ToME way back before 2.0 came out was replaced.  Before 2.3, real skills had different effects for different classes.  That's no longer the case. 
+</p>
+<p>
+The second is a change to the races.  In 2.2, races have innate modifers to those Angband "skills".  In 2.3, those are gone and replaced with modifiers to real skills. 
+</p>
+<p>
+So the result is that the player no longer has to worry about the Angband "skills."  All character bonuses and penalties are to real skills. 
+</p>
+
+    <ul>
+
+ <strong><a href="./RavenRed">RavenRed</a></strong>: So do the Angband abilities still work? (i.e. your chance of a melee hit is based off your "Fighting" ability rather than Combat/Weaponmastery) Are the game mechanics going to hang completely off the skill system, is, I suppose, my ultimate question...  <p>
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: Players don't need to know or care about the internal legacy code in ToME.  If you want an answer for a developer, let me know. 
+</p>
+<p>
+ <strong><a href="./RavenRed">RavenRed</a></strong>: Well I wouldn't class myself as a developer, but I'd still be interested to know. (if spoily, you could PM me on the ToME forums).  
+</p>
+<p>
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: To see the raw, technical details of the relationship between the real skills and the internal stuff, see the function <tt>void&nbsp;calc_bonuses(bool&nbsp;silent)</tt> in the file <tt>xtra1.c</tt>.  Lines like <tt>p_ptr-&gt;skill_sav&nbsp;+=&nbsp;adj_wis_sav[get_skill_scale(SKILL_SPIRITUALITY,&nbsp;37)];</tt> show the complete relationship. 
+</p>
+
+    </ul>
+
+
+<p>
+<strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: Oh, wow, so no more e.g. 25% reduction to Spirituality's effect on saving throw for mage classes relative to priest classes, x% reduction to Combat's effect for mages relative to warriors, etc.? I suppose it solves a lot of problems at once -- helps with making fighter-mages playable, helps keep the boost to Spirituality's importance from vastly boosting the relative power of Priest classes, etc. 
+</p>
+<p>
+BTW how do the subzero ("-16" and so on) starting skills work, I mean things like the awful starting stealth of some races? Or do they not work yet and just get set to zero? I seem to remember raising a 2.3 character's skill in something and it staying at zero for a while... if so, I assume some way of actually expressing the negatives in the Gain Skills screen will be added before release. 
+</p>
+<p>
+I also ran into some REALLY buggy behavior recently when editing some character's stealth -- things like skill points having no effect when added, then not being returnable using the left arrow key. I think there might have been some crashes in there too. I really oughta try to repro that on the latest build.... 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: They are suppsed to just work as negative skills.  As of right now they seem to, in fact.  If a penalty drops a skill below 0, it must be increased multiple times before it gets above 0. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:57:08)<br>
+<p><a href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e?action=edit">EditText</a> of this page (last edited 2004-10-14 00:12:57 by <span title="192.168.0.1"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:48:28 Jun 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:00 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 103.135
+  exclusion.robots: 0.145
+  exclusion.robots.policy: 0.134
+  RedisCDXSource: 19.67
+  esindex: 0.009
+  LoadShardBlock: 63.556 (3)
+  PetaboxLoader3.datanode: 73.331 (4)
+  CDXLines.iter: 17.508 (3)
+  load_resource: 72.852
+  PetaboxLoader3.resolve: 36.787
+-->

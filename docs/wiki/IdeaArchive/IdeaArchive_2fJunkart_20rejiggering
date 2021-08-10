@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Junkart rejiggering - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fJunkart_20rejiggering?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fJunkart_20rejiggering?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fJunkart_20rejiggering?action=fullsearch&amp;value=%2FJunkart+rejiggering&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Junkart rejiggering</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fJunkart_20rejiggering?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fJunkart_20rejiggering">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fJunkart_20rejiggering?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fJunkart_20rejiggering?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fJunkart_20rejiggering?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fJunkart_20rejiggering?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fJunkart_20rejiggering?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fJunkart_20rejiggering?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fJunkart_20rejiggering?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fJunkart_20rejiggering?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fJunkart_20rejiggering?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fJunkart_20rejiggering">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Junkart should become an ego-type, which can apply to all items. Broken Bones should be activatable for cure cuts and Lanterns activated for light absorption. If the old "crazy" style of naming could be retained, it'd be a bonus. Junkart activations would be accessible to wearable items... <p>
+Bandobras: I'm not myself a great fan of junkarts, but they *are* funny. I remember the first time I found a junkart. That was after years of Vanillia, when I decided to try Pern. I was very low level, I saw (special) on the item, the id showed the hideuos (and very promising) name and I was very surprised and immediately started to imagine this item paving my way to the victory. I didn't even belive the *ID* decription (some bad effect) and activated the thing standing near a monster. You imagine my anger and then my laughter! I wonder if this works for people, which start with TOME (more and more, these days). Perhaps this only confuses them. And then it's only sifting and sifting through the junk, occasionally smiling at the name. 
+</p>
+<p>
+But could you elaborate of the advantages of spreading the activations everywhere? Isn't it too much? I don't mind removing junkards, but perhaps add activations only to one class of items. And what arrows will be made form this randart broken bone? Wouldn't wearable items with actications be too powerful. I guess there is a reason (other than coding difficulty) that there are currently no activations in the randart generating code.  
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Maybe junkarts could be adapted to cantrips? Though I wouldn't want to lose junkarts as themselves, persay. Having LOTS of activations on things everywhere sort of cuts down on the joy of discovery, imho.... 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: --&gt; Bandobras - It's always struck me as weird that junkart effects are confined to the small area of '~' items. If broken bones and Sets of Leather gloves could ALSO have these activation effects (though only when IDed, of course) then I think it'd add to the swap and balance fun we have with all other classes of item. And I don't see why wearable activations would be any more powerful than the standard issue "Eye of Vecna" type of junkart. I'm saying that this become another ego-item type, rather than adding it to the activations of the standard 4-Immunities, +10 attacks Randart Soft Leather Armour. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> I don't think junkart are entirely a joke-item. --&gt; Maylith - Not a bad idea. I think Mass Genocide-type randarts SHOULD be removed, though, as they ARE silly and unbalancing. Turning junkarts into MINOR magical items, perhaps providing powers at the expense of Mana, HP or even Sanity would be a nice way of implementing the small-stuff for a wide variety of character-types... 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fJunkart_20rejiggering?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fJunkart_20rejiggering.text_html">RefreshCache</a> for this page (cached 2004-08-03 14:33:03)<br>
+<p><a href="./IdeaArchive_2fJunkart_20rejiggering?action=edit">EditText</a> of this page (last edited 2004-07-10 05:01:15 by <span title="nmpp-p-144-134-53-170.prem.tmns.net.au"><a href="./RavenRed">RavenRed</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:21:47 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:44:56 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.198
+  captures_list: 87.147
+  esindex: 0.021
+  LoadShardBlock: 56.513 (3)
+  CDXLines.iter: 25.228 (3)
+  load_resource: 60.734
+  RedisCDXSource: 1.332
+  PetaboxLoader3.datanode: 61.017 (4)
+  exclusion.robots: 0.214
+  PetaboxLoader3.resolve: 32.269
+-->

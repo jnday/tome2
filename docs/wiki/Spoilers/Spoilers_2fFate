@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Fate - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fFate?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fFate?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fFate?action=fullsearch&amp;value=%2FFate&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Fate</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fFate?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fFate">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fFate?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fFate?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fFate?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fFate?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fFate?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fFate?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fFate?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fFate?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fFate?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fFate">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-3a7f70bda73a2c13b658790601da132fdf11efda">Fate</a></li>
+<li>
+<a href="#head-df76a7cd6040c03d964acffb36ce1a76918ba2be">Death fates</a></li>
+<li>
+<a href="#head-8a45d339a638ac247a1574d733c588c338c1cb6e">Credit</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-3a7f70bda73a2c13b658790601da132fdf11efda"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Fate</h2>
+Numerous spirits inhabit the land of Arda, from the murderous barrow wights to the enigmatic Tom Bombadil. These spirits usually are bound to a specific geographic region, but there are exceptions to this rule. Sometimes one of these spirits will anonymously take interest in an adventurer. This can either be very, very good or very, very bad. These spirits will "rig" reality to ensure that something happens -- or doesn't happen. <p>
+In order to attract the attention of a spirit, the adventurer must be somewhat experienced, having attained at least the 11th level of experience. Every 10 game turns, which corresponds to 1 normal speed player turn, there is a 1 in 50,000 chance of gaining a fate. 
+</p>
+<p>
+When you gain a fate, the chance for a specific fate breaks down as follows: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+ Chance </td>
+<td>
+ Fate </td>
+</tr>
+<tr>
+<td>
+ 7/18 </td>
+<td>
+ find a specific mundane item on a specific dungeon level </td>
+</tr>
+<tr>
+<td>
+ 7/18 </td>
+<td>
+ meet a malicious monster to do battle on a specific dungeon level </td>
+</tr>
+<tr>
+<td>
+ 1/9 </td>
+<td>
+ find an artifact on a specific dungeon level </td>
+</tr>
+<tr>
+<td>
+ 1/18 </td>
+<td>
+ meet your demise on a specific dungeon level (which see below) </td>
+</tr>
+<tr>
+<td>
+ 1/18 </td>
+<td>
+ become invulnerable to attacks from mortals </td>
+</tr>
+</table>
+</div>
+<p>
+Whenever a level is being chosen for a fate, it is always chosen within 20 levels of your current recall depth. Items, monsters, and artifacts are all generated up to 10 levels out of depth for your current recall depth. 
+</p>
+<h2 id="head-df76a7cd6040c03d964acffb36ce1a76918ba2be"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Death fates</h2>
+Being fated to meet your demise on a specific dungeon level is known as a <a href="./Spoilers_2fFate_2fDeath_20fate">/Death fate</a>. <h2 id="head-8a45d339a638ac247a1574d733c588c338c1cb6e"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Credit</h2>
+The help on fates was originally written for PernAngband 5.x.x by Dustin Ragan, who has graciously granted his permission for us to use and update that text here. <h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Chatter</h2>
+<p>
+<strong>Sly</strong>: I think that luck affect the gaining of Death fate and Invulnerable to martals. If you are <em>unlucky</em> you gain only get Death fates, not Invulnerable to mortals, and reverse if you are <em>lucky</em> 
+</p>
+<p>
+<strong><a href="./TimmyBravo">TimmyBravo</a></strong>: Actually, that's not quite correct. Having checked the source, it appears that if you are lucky (as in luck greater than zero), you can't get the death fate. However, being unlucky (luck is zero or negative) does not prevent you from getting the "never to die by the hand of a mortal" fate. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fFate?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fFate.text_html">RefreshCache</a> for this page (cached 2005-08-02 14:52:04)<br>
+<p><a href="./Spoilers_2fFate?action=edit">EditText</a> of this page (last edited 2005-08-02 14:52:04 by <span title="host81-134-145-138.in-addr.btopenworld.com"><a href="./TimmyBravo">TimmyBravo</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:59:24 Oct 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:43 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.228
+  exclusion.robots.policy: 0.213
+  captures_list: 145.57
+  PetaboxLoader3.resolve: 83.112
+  PetaboxLoader3.datanode: 216.096 (4)
+  LoadShardBlock: 77.437 (3)
+  esindex: 0.014
+  load_resource: 235.991
+  CDXLines.iter: 21.169 (3)
+  RedisCDXSource: 42.85
+-->

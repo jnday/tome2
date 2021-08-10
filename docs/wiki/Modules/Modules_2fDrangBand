@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/DrangBand - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fDrangBand?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fDrangBand?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fDrangBand?action=fullsearch&amp;value=%2FDrangBand&amp;literal=1&amp;case=1&amp;context=40">Modules/DrangBand</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fDrangBand?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fDrangBand">View</a></li>
+<li><a title="Diffs" href="./Modules_2fDrangBand?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fDrangBand?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fDrangBand?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fDrangBand?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fDrangBand?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fDrangBand?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fDrangBand?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fDrangBand?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fDrangBand?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fDrangBand">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Drangband, <p>
+a module that is less ambitious than <a class="nonexistent" href="./ZoneBand">ZoneBand</a>, but more thought over. 
+</p>
+<p>
+The premise is basically that Dragons are creatures that have merged their multiverse copies into one. They can take any shape but prefer the shape of a dragon, they often wander through the vast multiverse but have created their own home, the Dragon Tower.  
+</p>
+<p>
+I am writing and reading some stuff about Shamans/Magic/Miracles/Myths in order to try to find some stuff I have not encountered yet in other fantasy. 
+</p>
+<p>
+Throughout the game the player should find scrolls &amp; parchments that will help to understand the setting. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Modules_2fDrangBand_2fDrangBand_2fIntroMulti">/DrangBand/IntroMulti</a> : 'An introduction to multiverses' by Lord Maxartel. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fDrangBand_2fDrangBand_2fMultiSing">/DrangBand/MultiSing</a> : 'On multiverse singularities' by Lord Maxartel. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+New class 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Modules_2fDrangBand_2fDrangBand_2fFaithWielder">/DrangBand/FaithWielder</a> : Wielder of Faith, master of Divine Miracles. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+New Factions 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Modules_2fDrangBand_2fDrangband_2fArtificers">/Drangband/Artificers</a> : Creatures of artifacts and magical droids 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ <a href="./Modules_2fDrangBand_2fDrangband_2fArtificers_2fPatchworkGnomes">/Drangband/Artificers/PatchworkGnomes</a> The patchwork gnomes make the tinker toys 
+</p>
+</li>
+                <li>
+<p>
+ <a href="./Modules_2fDrangBand_2fDrangband_2fArtificers_2fTovenaars">/Drangband/Artificers/Tovenaars</a> The Tovenaars do the high level magical constructions 
+</p>
+</li>
+
+                </ul>    </ul>
+
+
+<p>
+Some Parody 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Modules_2fDrangBand_2fDrangband_2fParody">/Drangband/Parody</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Cheers, T. 
+</p>
+<h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h3>
+<p>
+<a href="./FeathinSilyar">FeathinSilyar</a>:  The name DrAngband is already used by a current variant of Angband, hosted at Thangorodrim.  It'd be rather confusing to have a ToME module named exactly the same as an Angband variant, so unless you are the maintainer of DrAngband I'd suggest switching the name slightly. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I suggest more originality in names.  Don't clone DG's ToME style naming (Yes, I did so once.. but deliberately silly in a deliberately silly module).  Don't pick a word or a few random letters and slap 'band' on the end.  Real names for real modules! 
+</p>
+
+    <ul>
+
+ <strong><a href="./RavenRed">RavenRed</a></strong> &lt;chants&gt;: Bring back ToMK, bring back ToMK...  
+    </ul>
+
+
+<p>
+<strong><a href="./TheKonijn">TheKonijn</a></strong>: Ok, <a class="nonexistent" href="./DrangBand">DrangBand</a> is a name that exists since a while and that follows a traditional naming style from way before <a href="./DarkGod">DarkGod</a>. This module started out of frustration with the original Drangband which is basically FOOBAR now. So I think Drangband should be fine. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fDrangBand?action=refresh&amp;arena=Page.py&amp;key=Modules_2fDrangBand.text_html">RefreshCache</a> for this page (cached 2005-11-15 03:10:23)<br>
+<p><a href="./Modules_2fDrangBand?action=edit">EditText</a> of this page (last edited 2005-06-30 02:57:24 by <span title="ncao.ntcif.telstra.com.au"><a href="./RavenRed">RavenRed</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:08:54 Jun 01, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:33 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.datanode: 107.825 (4)
+  CDXLines.iter: 27.718 (3)
+  exclusion.robots: 0.239
+  LoadShardBlock: 78.032 (3)
+  PetaboxLoader3.resolve: 28.456
+  exclusion.robots.policy: 0.222
+  captures_list: 120.715
+  esindex: 0.018
+  load_resource: 105.273
+  cdx.remote: 0.139
+-->

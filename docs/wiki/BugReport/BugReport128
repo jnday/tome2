@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport128 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport128?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport128?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport128?action=fullsearch&amp;value=BugReport128&amp;literal=1&amp;case=1&amp;context=40">BugReport128</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport128?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport128">View</a></li>
+<li><a title="Diffs" href="./BugReport128?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport128?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport128?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport128?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport128?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport128?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport128?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport128?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport128?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport128">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Arena levels are always generated unlit. This was noted in the <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=5110"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">forum</a>. <p>
+Due to some code moving the arena levels disappeared. I added a line that regenerated the empty levels, but the lighting is lost in the process. Normally 4 of 5 empty levels should be full lit. 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  Found it, in <tt>src/generate.c</tt>:  The decision to make the level an arena level is made in <tt>level_generate_dungeon()</tt>: 
+<pre>
+        /* Check for arena level */
+        if ((dungeon_flags1 &amp; (DF1_EMPTY)) ||
+                        (empty_levels &amp;&amp; (rand_int(EMPTY_LEVEL) == 0)))
+        {
+                empty_level = TRUE;
+                [...]
+</pre>but the decision to light up arena levels happens in <tt>cave_gen()</tt>: 
+<pre>        if ((empty_level) &amp;&amp; (randint(DARK_EMPTY) != 1 || (randint(100) &gt; dun_level)))
+                wiz_lite();
+</pre>which calls <tt>level_generate_dungeon()</tt> by way of the <tt>level_generator</tt> pointer.  The problem is that both functions have their own independent <tt>empty_level</tt> variables, so <tt>cave_gen()</tt> never finds out that <tt>level_generate_dungeon()</tt> decided to make the level an arena level.  The solution would appear to be either to move the level-lighting code to <tt>level_generate_dungeon()</tt> (which I've done in my copy, with apparent success) or to somehow communicate the arena-level flag back out to <tt>cave_gen()</tt>. 
+</p>
+<p>
+<strong>Bandobras</strong>: This works! This works! Several arena levels in 2.3.1 now, and only one of them unlit. Thanks! <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport128?action=refresh&amp;arena=Page.py&amp;key=BugReport128.text_html">RefreshCache</a> for this page (cached 2005-01-26 12:45:52)<br>
+<p><a href="./BugReport128?action=edit">EditText</a> of this page (last edited 2005-01-26 12:45:51 by <span title="212.76.39.236=nat-dzi.aster.pl">nat-dzi</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:38:59 May 28, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:56 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 42.85
+  exclusion.robots.policy: 0.195
+  PetaboxLoader3.datanode: 254.489 (4)
+  RedisCDXSource: 4.824
+  load_resource: 209.807
+  exclusion.robots: 0.209
+  esindex: 0.014
+  captures_list: 132.961
+  LoadShardBlock: 100.845 (3)
+  CDXLines.iter: 23.52 (3)
+-->

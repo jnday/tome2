@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport66 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport66?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport66?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport66?action=fullsearch&amp;value=BugReport66&amp;literal=1&amp;case=1&amp;context=40">BugReport66</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport66?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport66">View</a></li>
+<li><a title="Diffs" href="./BugReport66?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport66?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport66?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport66?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport66?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport66?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport66?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport66?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport66?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport66">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Simon: in 2.3  (old CVS) <p>
+The sandworm queen didn't have armor to steal, and didn't drop it when killed. 
+</p>
+<p>
+This was with preserve mode on, and was my first time going at level 30 in the worm-type dungeon. So I don't expect the armor to be absent for the usual bug (with preserve off). 
+</p>
+<p>
+This may have to do with the fact I used to have 2.2.7 on my machine. I cleared that up and got guardians to drop their item once, but with a new character the trouble came back! 
+</p>
+<p>
+...or was the sandworm queen armor removed from the game?? 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: I did the quest with 2.3 CVS and the worm queen dropped the armor normaly so I'm not sure what may have caused that. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Did you play with Preserve mode off (see under =, birth options)? 
+</p>
+<p>
+Simon: I now always play with preserve on, and I explicitely stated that was my only visit on the level so this can't be a case of non-preserve. It wasn't there to begin with. I'll try other guardians later and update you... 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport66?action=refresh&amp;arena=Page.py&amp;key=BugReport66.text_html">RefreshCache</a> for this page (cached 2004-08-06 08:44:54)<br>
+<p><a href="./BugReport66?action=edit">EditText</a> of this page (last edited 2004-08-06 08:44:53 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:56:42 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  load_resource: 67.023
+  PetaboxLoader3.resolve: 35.517
+  exclusion.robots.policy: 0.235
+  cdx.remote: 0.112
+  exclusion.robots: 0.249
+  LoadShardBlock: 419.268 (3)
+  PetaboxLoader3.datanode: 399.386 (4)
+  CDXLines.iter: 19.554 (3)
+  captures_list: 495.942
+  esindex: 0.016
+-->

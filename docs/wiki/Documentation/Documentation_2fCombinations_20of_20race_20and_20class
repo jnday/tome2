@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Combinations of race and class - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=fullsearch&amp;value=%2FCombinations+of+race+and+class&amp;literal=1&amp;case=1&amp;context=40">Documentation/Combinations of race and class</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fCombinations_20of_20race_20and_20class">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fCombinations_20of_20race_20and_20class?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fCombinations_20of_20race_20and_20class?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fCombinations_20of_20race_20and_20class?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fCombinations_20of_20race_20and_20class?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fCombinations_20of_20race_20and_20class?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fCombinations_20of_20race_20and_20class">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The chart below shows the classes that are recommended for different races.  <p>
+You <em>can</em> select a race/class combination that is not in the chart, but those combinations are either poor (e.g. zombie mage) or a ridiculous and/or incredibly unfair combination. If you pick a combination that is not on this chart, don't complain if things don't turn out as you expected them to. 
+</p>
+<pre>            Warrior  Archer  Rogue  Mage   Priest  Loremaster 
+
+Beorning      Yes     No      Yes    No     No        Yes
+Dark Elf      Yes     Yes     Yes    Yes    Yes       No
+Death Mold    No      No      No     Yes    Yes       No
+Dunadan       Yes     Yes     Yes    Yes    Yes       Yes
+Dwarf         Yes     No      No     No     Yes       No
+Elf           Yes     Yes     No     Yes    Yes       Yes
+Ent           Yes     No      No     No     Yes       Yes
+Gnome         Yes     No      Yes    Yes    No        No
+Half-Elf      Yes     Yes     Yes    Yes    Yes       Yes
+Half-Ogre     Yes     No      No     No     Yes       No
+High-Elf      Yes     Yes     No     Yes    Yes       Yes
+Hobbit        Yes     Yes     Yes    Yes    No        Yes
+Human         Yes     Yes     Yes    Yes    Yes       Yes
+Kobold        Yes     Yes     Yes    No     No        No
+Maia          Yes     Yes     Yes    Yes    Yes       Yes
+Orc           Yes     Yes     Yes    No     Yes       No
+Petty Dwarf   Yes     No      Yes    No     No        No
+RohanKnight   Yes     No      No     No     Yes       No
+Thunderlord   Yes     Yes     No     Yes    Yes       No
+Troll         Yes     No      No     No     No        No
+Wood Elf      Yes     Yes     No     Yes    Yes       Yes
+Yeek          Yes     Yes     Yes    Yes    Yes       Yes</pre></div><div id="footer">
+
+
+<a href="./Documentation_2fCombinations_20of_20race_20and_20class?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fCombinations_20of_20race_20and_20class.text_html">RefreshCache</a> for this page (cached 2004-08-05 20:46:59)<br>
+<p><a href="./Documentation_2fCombinations_20of_20race_20and_20class?action=edit">EditText</a> of this page (last edited 2004-08-05 20:46:58 by <span title="user-2ivel67.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:49:10 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:15 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.202
+  captures_list: 92.209
+  esindex: 0.014
+  RedisCDXSource: 1.414
+  PetaboxLoader3.resolve: 54.734
+  load_resource: 119.243
+  exclusion.robots.policy: 0.188
+  CDXLines.iter: 24.213 (3)
+  LoadShardBlock: 61.637 (3)
+  PetaboxLoader3.datanode: 77.058 (4)
+-->

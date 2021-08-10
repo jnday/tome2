@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Discussion/In-game spoilers - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=fullsearch&amp;value=%2FIn-game+spoilers&amp;literal=1&amp;case=1&amp;context=40">Documentation/Discussion/In-game spoilers</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MayLith">MayLith</a>: Should the in-game spoilers section stay? I personally find it useful, but that doesn't mean anything... <hr>
+ <a href="./FearofFours">FearofFours</a>: I vote for yes. Most people have access to the web and all the available spoilers here, but not everyone, and not at all times. If some spoilers are provided in-game then atr least people always have access to them when they are playing the game. In-game spoilers should remain of a simlar nature to that which they already are though; spoily enough to help, without giving too much information about how the engine actually works. eg including skill spoilers is *not* a good idea. leave them at <a class="nonexistent" href="./KillerBunnies">KillerBunnies</a>. <hr>
+ <a href="./ReenenLaurie">ReenenLaurie</a>: Personally, I think EITHER information about dungeons etc. should not be spoily, and called DOCUMENTATION, not spoilers, and then no spoilers.  (Floor inscriptions... if it weren't under spoilers I can't think anyone would've figured it out) Or all the spoilers should be in, including skills etc.  Though maybe only through the "W"izard menu. <hr>
+ <a href="./NeilStevens">NeilStevens</a>: I think we need the option to have some dungeons not obviously known to the player.   In ToME those include side dungeons that aren't visible on the map and the special post-endgame dungeons.  These should not be documented.  Also, special levels are supposed to be surprising the player with a challenge.  These also lose benefit if documented. <hr>
+ <a href="./MayLith">MayLith</a>: To be systematic about this, there's the in-game spoilers, and also the section of dungeon.txt entitled "winning the game". There may be other spoily sections in the help; if so, please edit them in the list below &amp; note which text file they're in, please! <p>
+I'm going to add my opinions below; if you want to edit yours in, go right ahead.  
+</p>
+<hr>
+ List of In-Game Spoilers: 
+    <ul>
+
+    <li>
+<p>
+ corruptions 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: Move to spoilers, except (maybe) for a brief comment. And remove the 'lose power' messages, which are no longer relevant. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./FearofFours">FearofFours</a>: Agreed. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: <strong>Consensus</strong>: Move to spoilers and update it there. I'll delete stub here. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ dungeons:  
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>:  
+</p>
+</li>
+        <li>
+<p>
+Move side and post-endgame dungeons to spoilers. Though I have to admit that it would be very irritating to me if I wanted to look up some information about a dungeon I *know* is there, but then can't get at the info due to a connection problem, etc.  
+</p>
+</li>
+        <li>
+<p>
+Regular dungeons go into basic documentation. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./FearofFours">FearofFours</a>: Agreed on both counts. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: <strong>Consensus</strong>: Move side/post-endgame, copy documentation of basic dungeons (Barrow Downs, Mirkwood, Mordor and Angband) over. Vague allusion to "other dungeons exist"? 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ essence spoilers 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: Is Alchemy use of essences still going to exist? If so, move to spoilers. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./FearofFours">FearofFours</a>: Move it to spoilers now. If esences/alchemy are removed/altered then we adapt as necessary. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: <strong>Consensus</strong>: Move to spoilers. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ floor inscriptions 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: Personally, I agree with Reenen; I'd rather shift it to Documentation. YMMV, though... maybe someone out there wants to try? I added a <a class="external" href=".www.t-o-m-e.net/forum/viewtopic.php?t=5017"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">poll here</a>. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./NeilStevens">NeilStevens</a>: Feel free to document that inscriptions exist, but please do not give any information about what they do. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./FearofFours">FearofFours</a>: Difficult one, but I agree with Neil. They are tough (nearly impossible) to work out, but they are supposed to be a challenge. Keep in spoilers. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: After seeing the poll, I agree, too. <strong>Consensus</strong>: Document the existence of inscriptions (along with the command to use them), but otherwise keep in spoilers. <strong>Question</strong>: Do we mention what type of scrolls (e.g. language scrolls) are to be used, and if so, how? 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./ReenenLaurie">ReenenLaurie</a>: Thing that makes inscriptions IMO impossible, is that it is CASE SENSITIVE... I agree on have the inscriptions (not even the meanings, so the guy who picked up a document could go 'find out' the meaning in the documentation.  If he has <strong>in-game-help</strong> activated, it should give him a message like :"You've found a language parchment, see floor inscriptions in the documentation for useful tips involving them", maybe create more effects that are undocumented 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: I believe you are misunderstanding something. I'm not talking about the kind of help that pops up messages from time to time and tells you what to do when you turn that function on in options. I'm talking about a specific section of the help that you can access when you type '?' in the game. The instructions in the documentation have (by consensus) been summarily deleted; there will be a mention of them, but the explicit instructions is going to spoilers. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ luck 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: Edit. Perhaps some vague indication that luck is an aspect in the game, and that some races are more lucky than others. Move the bulk of it to spoilers. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./FearofFours">FearofFours</a>: Move to spoilers, I see little reason to even mention that it plays part in the game. A vague hint might be acceptable. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./NeilStevens">NeilStevens</a>: Luck documentation belongs entirely in spoilers, I say. Attentive players will figure it out over time. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: <strong>Consensus</strong>: Move to spoilers. Maybe add a fortune cookie line or two, to help hint at it? Doublecheck 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The luck spoiler was already in the <a href="./SpoilerArchive">SpoilerArchive</a>. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ dungeon.txt/winning the game 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: I've chatted a bit with <a href="./FearofFours">FearofFours</a> on this. This section needs OUT of Documentation, but at the same time, there needs to be some sort of vague direction to the game. I don't know how to resolve this. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./FearofFours">FearofFours</a>: I see you've removed the section, good. I'll add a new brief one. Just a sentence or two, along the same lines as the parchment. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./NeilStevens">NeilStevens</a>: Leave game direction in-game. Players get the parchment they start the game with, the beginner context help, and Galadriel. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: <strong>Consensus</strong>: Quote from the scroll, the rest of it is out of here and into spoilers. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ wishing 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: Seems to me this belongs in spoilers. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./FearofFours">FearofFours</a>: Absolutely. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: <strong>Consensus</strong>: Move to spoilers. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./ReenenLaurie">ReenenLaurie</a>: If I hadn't save-scummed when wishing, I would've wasted all my wishes.  When we SDL, I vote for a whole new interface for wishing.  You also can't wish for money. (Or I don't know how).  There must be *SOME* way of finding out how to make your wish count without save-scumming.  I feel that either the interface should change (maybe it did, I haven't had a wish since v. 2.0.0), or there should be documentation on it. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MayLith">MayLith</a>: The documentation will be in spoilers. 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<hr>
+ <a href="./MayLith">MayLith</a>: I'll delete the relevant stubs on the Documentation page. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I've added the deleted stubs to the <a href="./SpoilerArchive">SpoilerArchive</a>. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fDiscussion_2fIn_2dgame_20spoilers.text_html">RefreshCache</a> for this page (cached 2004-08-15 15:52:30)<br>
+<p><a href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers?action=edit">EditText</a> of this page (last edited 2004-07-06 01:36:58 by <span title="user-2ivepcs.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:17:32 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:49 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 139.836
+  exclusion.robots: 0.098
+  exclusion.robots.policy: 0.09
+  RedisCDXSource: 5.942
+  esindex: 0.009
+  LoadShardBlock: 109.933 (3)
+  PetaboxLoader3.datanode: 115.519 (4)
+  CDXLines.iter: 21.388 (3)
+  load_resource: 76.164
+  PetaboxLoader3.resolve: 36.3
+-->

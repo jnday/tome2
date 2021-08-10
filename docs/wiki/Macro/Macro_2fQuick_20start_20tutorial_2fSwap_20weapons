@@ -1,0 +1,291 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Macro/Quick start tutorial/Swap weapons - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=print">
+<link rel="Up" href="/Macro_2fQuick_20start_20tutorial">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=fullsearch&amp;value=%2FSwap+weapons&amp;literal=1&amp;case=1&amp;context=40">Macro/Quick start tutorial/Swap weapons</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Macro_2fQuick_20start_20tutorial">Up</a></li>
+<li><a title="Edit" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=edit">Edit</a></li>
+<li><a title="View" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons">View</a></li>
+<li><a title="Diffs" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=raw">Raw</a></li>
+<li><a title="Print" href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=DeletePage">DeletePage</a></li>
+<li><a href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=LikePages">LikePages</a></li>
+<li><a href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+What follows is a description of how to inscribe your weapons in order to make them easily swappable. <p>
+First inscribe your main weapon. Press the following keys in sequence: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+Step</td>
+<td>
+Press</td>
+<td>
+Description</td>
+</tr>
+<tr>
+<td>
+1</td>
+<td>
+{</td>
+<td>
+Begin to inscribe an object</td>
+</tr>
+<tr>
+<td>
+2</td>
+<td>
+*</td>
+<td>
+Show inventory list</td>
+</tr>
+<tr>
+<td>
+3</td>
+<td>
+/</td>
+<td>
+Switch to equipment list</td>
+</tr>
+<tr>
+<td>
+4</td>
+<td>
+a</td>
+<td>
+Main weapon slot</td>
+</tr>
+<tr>
+<td>
+5</td>
+<td>
+@w0</td>
+<td>
+Wield when object 0 is chosen</td>
+</tr>
+<tr>
+<td>
+6</td>
+<td>
+(Hit Enter)</td>
+<td>
+(Hit Enter)</td>
+</tr>
+</table>
+</div>
+<p>
+Now inscribe the second weapon: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+Step</td>
+<td>
+Press</td>
+<td>
+Description</td>
+</tr>
+<tr>
+<td>
+1</td>
+<td>
+{</td>
+<td>
+Begin to inscribe an object</td>
+</tr>
+<tr>
+<td>
+2</td>
+<td>
+*</td>
+<td>
+Show inventory list</td>
+</tr>
+<tr>
+<td>
+3</td>
+<td>
+ </td>
+<td>
+(Choose letter of second weapon you want to inscribe)</td>
+</tr>
+<tr>
+<td>
+4</td>
+<td>
+@w0</td>
+<td>
+Wield when object 0 is chosen</td>
+</tr>
+<tr>
+<td>
+5</td>
+<td>
+(Hit Enter)</td>
+<td>
+(Hit Enter)</td>
+</tr>
+</table>
+</div>
+<p>
+Finally, ToME (unlike standard 'Vanilla' Angband) does not have an automatic trigger key to swap items, so it must be created. Select a key that is not being used for any other commands ('X' in the normal keyset is free - see <a class="nonexistent" href="./Commands">Commands</a>, and create the following keymap: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+Step</td>
+<td>
+Press</td>
+<td>
+Description</td>
+</tr>
+<tr>
+<td>
+1</td>
+<td>
+@</td>
+<td>
+Interact with macros</td>
+</tr>
+<tr>
+<td>
+2</td>
+<td>
+8</td>
+<td>
+Create a keymap</td>
+</tr>
+<tr>
+<td>
+3</td>
+<td>
+(Select Key, e.g. 'X')</td>
+<td>
+The trigger key for the keymap</td>
+</tr>
+<tr>
+<td>
+4</td>
+<td>
+w0</td>
+<td>
+Wield object 0</td>
+</tr>
+<tr>
+<td>
+5</td>
+<td>
+(Hit Enter)</td>
+<td>
+(Hit Enter)</td>
+</tr>
+<tr>
+<td>
+6</td>
+<td>
+(Hit Esc)</td>
+<td>
+(Hit Esc to exit the editor)</td>
+</tr>
+</table>
+</div>
+<p>
+Now to swap weapons, just press the trigger key 'X' which is bound to the default keymap "w0". You may also press "w0" directly to swap. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=refresh&amp;arena=Page.py&amp;key=Macro_2fQuick_20start_20tutorial_2fSwap_20weapons.text_html">RefreshCache</a> for this page (cached 2004-08-05 17:07:04)<br>
+<p><a href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons?action=edit">EditText</a> of this page (last edited 2004-06-27 01:17:11 by <span title="user-2iverfa.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:36:38 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:49:10 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 147.905
+  exclusion.robots: 0.156
+  exclusion.robots.policy: 0.144
+  RedisCDXSource: 4.419
+  esindex: 0.009
+  LoadShardBlock: 94.481 (3)
+  PetaboxLoader3.datanode: 95.497 (4)
+  CDXLines.iter: 24.689 (3)
+  load_resource: 65.156
+  PetaboxLoader3.resolve: 32.124
+-->

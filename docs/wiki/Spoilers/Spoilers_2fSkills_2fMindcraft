@@ -1,0 +1,342 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Skills/Mindcraft - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fSkills_2fMindcraft?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fSkills_2fMindcraft?action=print">
+<link rel="Up" href="/Spoilers_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fSkills_2fMindcraft?action=fullsearch&amp;value=%2FMindcraft&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Skills/Mindcraft</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fSkills_2fMindcraft?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fSkills_2fMindcraft">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fSkills_2fMindcraft?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fSkills_2fMindcraft?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fSkills_2fMindcraft?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fSkills_2fMindcraft?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fSkills_2fMindcraft?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fSkills_2fMindcraft?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fSkills_2fMindcraft?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fSkills_2fMindcraft?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fSkills_2fMindcraft?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fSkills_2fMindcraft">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</a></li>
+<li>
+<a href="#head-3561b29115cc724c7a182f76b3459d903c40e138">Strategic Recommendations</a></li>
+<ol>
+<li>
+<a href="#head-318c88130ae665bea6c523758e35f4ccbcd8da7e">Tactics</a></li>
+<ol>
+<li>
+<a href="#head-fe30c10a98012ec07984dd23282c89fcc2e07d3c">Your Workhorse</a></li>
+<li>
+<a href="#head-44e7c73df09aea785fecd5a4564b727292f8bc18">Mindwave vs. Summoners</a></li>
+<li>
+<a href="#head-af2e4e785c1fae13c6d8c42d66f6ef4543768978">Line of Sight</a></li>
+<li>
+<a href="#head-a2fc9baee269ba4e6bbde24afde5adcfbc4fc9a1">The Old Switcheroo</a></li>
+</ol>
+
+<li>
+<a href="#head-236656bf91233664e5a8c3c65ed0b5e2e0dd04da">Powers</a></li>
+<li>
+<a href="#head-59cc11c4a0eea32fcf03a3c152c2209e4b9244bb">Skill Level Milestones</a></li>
+<li>
+<a href="#head-bcaa33a7ae44bd5042c37a9cdbea7f843b1cf7c8">Caveats</a></li>
+</ol>
+
+<li>
+<a href="#head-739ff4232d96f547604f9c5911d20ed36ed92945">Code-Related Information</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <h2 id="head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</h2>
+Information specific to playing the Mindcrafter class can be found at <a href="./Spoilers_2fClasses_2fMindcrafter">Spoilers/Classes/Mindcrafter</a>. <p>
+Information on the midcraft powers themselves is give on this <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">documentation page</a>. 
+</p>
+<p>
+For characters who do not receive Mindcraft as an initial option, Fumblefingers's mindcraft skill is worth a LOT, especially to warriors.  Detection, haste, double resist, void gate creation, identify and enlightenment.  And the most expensive of the spells is only 20 mana! 
+</p>
+<hr size="3">
+ <h2 id="head-3561b29115cc724c7a182f76b3459d903c40e138">Strategic Recommendations</h2>
+<h3 id="head-318c88130ae665bea6c523758e35f4ccbcd8da7e">Tactics</h3>
+<h4 id="head-fe30c10a98012ec07984dd23282c89fcc2e07d3c">Your Workhorse</h4>
+Mindwave for killing power.  Psychic drain to keep your mana up, adrenaline channeling to heal HP.  In tough fights, keep a void gate under you -- when you run low on mana/HP, take the gate and go suck mana off of something weaker, then heal up (all of which is faster than resting).  Always keep your Character Armor (50 AC and temporary resists, which will give you double-resists assuming you have the right basic equipment) and Adrenaline Channeling (for the +10 speed) active once you've got a low enough fail rate on them.  And when the going gets tough, you have two different ways to get some breathing room: telekinesis will move even teleport-resistors out of your face, and major displacement (once it's levelled enough to do banishment) can spread a big group of nasties out so you can deal with them in smaller numbers. <h4 id="head-44e7c73df09aea785fecd5a4564b727292f8bc18">Mindwave vs. Summoners</h4>
+Yes, it's nice to do the old reliable anti-summoning techiques we know and love.  But ToME would be pretty boring if such ideal situations always presented themselves.  Anyway, this is a situation where Mindwave really comes into its own.  The beautiful thing about a line-of-sight attack is that every enemy's HP is being depleted at the same time.  This creates a much different dynamic when you're dealing with groups of summoners (Barbazu leap readily to mind).  Contrast with a powerful melee character who can kill anything in one hit, but only gets that one kill each round.  Such a character might fight forever but simply be unable to overcome the rate of summons.  With Mindwave, though, the newly-summoned creatures are getting hurt just as much while you're finishing off the ones that have already been around for a while.  Often (but not always), you can just keep it up long enough and there will be, due to statistical variation, a period of time where nobody gets off a summon (perhaps due to crowding) in the time it takes for you to cast enough Mindwaves to kill the most powerful enemy you're facing.  You have to be wary of getting in over your head -- greater demons and great wyrms are not to be trifled with, and sometimes you don't have the right ratio of killing power to their summoning/killing ability.  But in many situations, this is the way to go. <h4 id="head-af2e4e785c1fae13c6d8c42d66f6ef4543768978">Line of Sight</h4>
+Pulverize is very handy for taking out Quylthulgs, drujs, and the like.  Position yourself so they can't see you, but you can see the square next to them, target that square (note: you can hit 'p' during targetting to allow you to target arbitrary squares even when other targets are in view), and kill them with splash damage.  Mindwave, being line-of-sight, is also handy for kill-em-when-they-can't-hit-you tactics.  Anyone just about to turn a corner, no matter how far down the hallway, is fair game.  Also, this doesn't come up all that often, but Mindwave works through glass walls.  There's a few spots in the Crypt special level where this is pretty handy. <h4 id="head-a2fc9baee269ba4e6bbde24afde5adcfbc4fc9a1">The Old Switcheroo</h4>
+Void jumpgates are a handy way to move monsters around.  Stand where you want the monster to be, then create a jumpgate on a square the monster is about to step on.  When the monster is on the gate, go through and you'll switch.  Note that you can't create a gate on a square where a monster is already standing.  If you have Wraithform (Lost Souls, are you listening?) or Stone Prison available to you, you can use this technique to encase most monsters in stone (unless they're incorporeal or diggers).  Also note that you can't create a jumpgate INTO a vault, but you can make one OUT of a vault.  So if you're in a vault that you think you might want to move some baddies out of, go into a corner or something and make a gate out.  Then you can lead the baddy to the gate, swap out ahead of it, and then do the switch.  Oh, one other thing -- this trick works against monsters which resist teleportation. <h3 id="head-236656bf91233664e5a8c3c65ed0b5e2e0dd04da">Powers</h3>
+
+        <ul>
+
+        <li>
+<p>
+ Precognition: Obviously very useful.  Knowledge is power.  Take note of the various improvements this ability gains as you level it up. 
+</p>
+</li>
+        <li>
+<p>
+ Neural Blast: Very weak attack, becomes obsolete as soon as you get Pulverise. 
+</p>
+</li>
+        <li>
+<p>
+ Minor Displacement: Blinking around is semi-handy, but creating void jumpgates (after skill level 25 is reached) is huge, and becomes a critical element of your strategy.  There's nothing like a reliable retreat!  Learn to love it. 
+</p>
+</li>
+        <li>
+<p>
+ Major Displacement: Good for a panic escape, and the banishment aspect can come in handy later on, but for the most part you should be relying on jumpgates for yout strategic retreats. 
+</p>
+</li>
+        <li>
+<p>
+ Domination: Not too useful.  At skill level 30 it turns into a line-of-sight charm monster, which is better, but since mindwave and pulverise are so unfriendly to pets, it's mostly just a novelty. 
+</p>
+</li>
+        <li>
+<p>
+ Pulverise: Your early-game workhorse, and your backup when mindwave is resisted.  Radius gets pretty big!  Beware of shattering potions! 
+</p>
+</li>
+        <li>
+<p>
+ Character Armour: Keep it active, always.  Double-resists are a wonderful thing, and 50 AC is nothing to sneeze at. 
+</p>
+</li>
+        <li>
+<p>
+ Psychometry: Obvious utility.  Skill level 40 for true ID is a while to wait, though. 
+</p>
+</li>
+        <li>
+<p>
+ Mindwave: An absolutely beautiful ability, once you reach skill level 25 and it becomes line-of-sight.  This is your primary attack. 
+</p>
+</li>
+        <li>
+<p>
+ Adrenaline Channeling: Keep it active, always, and you can throw away those potions of speed. 
+</p>
+</li>
+        <li>
+<p>
+ Psychic Drain: Takes a few levels before the fail rate is low enough, but once it is, this skill (used properly) means hardly ever having to worry about running out of mana.  Don't make the mistake of trying to drain mana from a really tough opponent, though.  If you're in a big fight, gate over next to something weaker and drain mana from it instead.  Also, and this is really sweet, note that psychic drain becomes a small-radius ball spell after a while, significantly increasing your expected mana return. 
+</p>
+</li>
+        <li>
+<p>
+ Telekinesis: Not a reliable way to damage enemies (though sometimes you've got to resort to this, if something resists mind and sound attacks), but a great way to get them out of your face.  Even works on teleport resistors!  Also, it's a <em>fantastic</em> way to get troublesome monsters out of vaults, because in most cases it will teleport monsters in a vault to the outside, even if this means it has to move them farther than its normal range. 
+</p>
+</li>
+
+        </ul>
+
+
+<h3 id="head-59cc11c4a0eea32fcf03a3c152c2209e4b9244bb">Skill Level Milestones</h3>
+Mindcraft powers have certain points where they make an abrupt leap forward in power and usefulness.  Note that these level numbers assume you're maxing your Mindcraft skill. 
+        <ul>
+
+        <li>
+<p>
+ Skill Level 11: You get Pulverise.  From this point on, there's no reason to make another melee attack, ever. 
+</p>
+</li>
+        <li>
+<p>
+ Skill Level 25: This is a big one. 
+</p>
+</li>
+
+                <ol type="1">
+
+                <li>
+<p>
+Mindwave becomes line-of-sight, turning it from an expensive player-centered ball attack into a devastating wave of terror that can melt the minds of a room full of monsters in one go. 
+</p>
+</li>
+                <li>
+<p>
+Precognition now gives you ESP for a decent duration. 
+</p>
+</li>
+                <li>
+<p>
+You get Psychic Drain.  Your fail rate at first makes it not so great for the next few levels, but it soon becomes a linchpin of your strategy. 
+</p>
+</li>
+                <li>
+<p>
+Minor displacement now creates jump gates. 
+</p>
+</li>
+
+                </ol>
+
+
+        <li>
+<p>
+ Skill Level 30: A lesser milestone than level 25, but: 
+</p>
+</li>
+
+                <ol type="1">
+
+                <li>
+<p>
+Precognition now gives object detection. 
+</p>
+</li>
+                <li>
+<p>
+Major Displacement banishes monsters around you (line of sight teleport away) before teleporting you. 
+</p>
+</li>
+                <li>
+<p>
+Domination now charms monsters instead of scaring them. 
+</p>
+</li>
+
+                </ol>
+
+
+        <li>
+<p>
+ Skill Level 40: Psychometry turns from pseudo-ID into full ID, making you much more capable of long dungeon dives without going back to town, lugging around ID scrolls/staves or rods of perception.  Also, you gain full, permanent telepathy. 
+</p>
+</li>
+        <li>
+<p>
+ Skill Level 45: Precognition lights the whole level, like a potion of Enlightenment. 
+</p>
+</li>
+
+        </ul>
+
+
+<h3 id="head-bcaa33a7ae44bd5042c37a9cdbea7f843b1cf7c8">Caveats</h3>
+"Powerful" demons and undead can screw up your mind based attacks, 1 time in 2. This is defined as monsters above half your level, which is to say pretty much all of them. If this happens you get a saving throw to avoid various nasty effects (damage, confusion, fear, stun, paralyzation). This applies to mindwave, neural blast and psychic drain. (this seems to be documented  <a class="interwiki" title="Self" href="./Spoilers/Damage%20Type"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">elsewhere</a>) <p>
+Pulverise can be resisted, but only by the 25 sound breathers in the game (joke monsters excluded). These will take between 1/6 and 2/7 damage. 
+</p>
+<p>
+No demons or undead resist sound, which should mean that you will never have to resort to telekinesis for this reason alone. 
+</p>
+<hr size="3">
+ <h2 id="head-739ff4232d96f547604f9c5911d20ed36ed92945">Code-Related Information</h2>
+<hr size="3">
+ <h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: Mostly a retooling of some stuff I posted on the <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=5577"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">forum</a> after winning with a <a href="./LostSoul">LostSoul</a> Mindcrafter.  I had a bunch written here when I realized that a lot of this would be better suited for <a href="./Spoilers_2fClasses_2fMindcrafter">Spoilers/Classes/Mindcrafter</a>... well, I guess I'll just finish up writing what I'm planning to write, and then split some of the material over to that page.  Some collision with what's already there, but I guess it doesn't hurt to have a couple of different viewpoints.  Thoughts, anyone? 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: We're all still learning wiki here. As you (obviously) noticed, we had some duplication between the now-defunct Spoilers/Magic page and Spoilers/Skills, and there is still more duplication between Spoilers/Skills and Spoilers/Classes. In terms of classes, anyway, we need to figure out which of these two meta-pages should contain the actual information, and then whichever "loses" should contain links to entries in the other one.  
+</p>
+<p>
+(Time passes....) I've spent a number of minutes staring at both the Spoilers/Classes and Spoilers/Skills pages. They are different. IMHO, I think your Mindcrafter foo should actually be over on the Classes page... at least as the current structure stands. But I'm certainly open to ideas. 
+</p>
+<p>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: I agree.  I think I've been looking at the world through mindcrafter-tinted glasses.  I've moved some of the stuff over to <a href="./Spoilers_2fClasses_2fMindcrafter">Spoilers/Classes/Mindcrafter</a> and will do my best to reconcile it with what's there (though I strongly disagree with much of it).  This may require a few iterations to get right. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: (EDIT) I think your and my mindcraft strategy suggestions should be on the same page, and perhaps have a link to it from this page. By the way, I still don't understand how you, <a href="./PermanentInk">PermanentInk</a>, could win with a non-warriory mindcrafter. Perhaps it's just my direct playing style or you are the new Lord Dimwit... I have never won with a mindcrafter of any kind, although I have won once with magic (sorceror) and once with melee (swordmaster). 
+</p>
+<p>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: Well, I think that since our strategy suggestions are specific to playing the Mindcrafter class, it makes sense that they're on <a href="./Spoilers_2fClasses_2fMindcrafter">Spoilers/Classes/Mindcrafter</a>.  I put a link to that page at the top of this one, just now.  As for winning with a non-warrior Mindcrafter... what can I say?  I find Mindcrafters really easy to play.  I tend to get a little fancy with jumpgates and stuff, but the main points are all laid out in the material I wrote here.  Fighting the tough enemies is not a question of dealing tons of damage in one shot -- it's a question of consistently beating their regen rate, and staying alive while you do it.  Let's not start calling me another Dimwit until maybe after I've won with Simon, the Yeek Summoner.  Or his sister Simone, the Yeek Symbiant.  Anyway, I've only won just the one time, so... 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Heh. <em>*scribbles down ideas for more competitions*....</em> (And yes, gotta love those jumpgates...) 
+</p>
+<p>
+<strong><a class="nonexistent" href="./RukeIceling">RukeIceling</a></strong>: Apparently Spellpower doesn't affect mindcraft skills (yet mindcrafters get it), or so i've noticed. It never specifically says if it does or does not, this something I should add to the page? 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: Mindcrafters are a priest sub-class, so they get Spell-power just like all the other priests.  Spell-power has no effect on Mindcraft's powers, but Mindcrafters are expected to get <em>some</em> spells from their deity.... 
+</p>
+<p>
+<strong><a href="./BugHunter">BugHunter</a></strong>: What are the chances of getting the various bad effects when an attempt to use Mindcraft fail? I'm talking about being stunned, confused, or having that mental blast that destroys objects around you. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fSkills_2fMindcraft?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fSkills_2fMindcraft.text_html">RefreshCache</a> for this page (cached 2005-11-05 14:54:56)<br>
+<p><a href="./Spoilers_2fSkills_2fMindcraft?action=edit">EditText</a> of this page (last edited 2005-11-05 14:54:56 by <span title="ws-120-011.pws.iss.soton.ac.uk"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:38:05 Mar 04, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:50 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 474.34
+  exclusion.robots: 0.092
+  exclusion.robots.policy: 0.085
+  RedisCDXSource: 4.641
+  esindex: 0.008
+  LoadShardBlock: 451.893 (3)
+  PetaboxLoader3.datanode: 131.955 (4)
+  CDXLines.iter: 15.686 (3)
+  load_resource: 100.561
+  PetaboxLoader3.resolve: 43.698
+-->

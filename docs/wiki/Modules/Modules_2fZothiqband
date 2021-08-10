@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Zothiqband - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fZothiqband?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fZothiqband?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fZothiqband?action=fullsearch&amp;value=%2FZothiqband&amp;literal=1&amp;case=1&amp;context=40">Modules/Zothiqband</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fZothiqband?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fZothiqband">View</a></li>
+<li><a title="Diffs" href="./Modules_2fZothiqband?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fZothiqband?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fZothiqband?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fZothiqband?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fZothiqband?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fZothiqband?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fZothiqband?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fZothiqband?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fZothiqband?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fZothiqband">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Zothiqband is my (<a href="./NerdanelVampire">NerdanelVampire</a>'s) <a href="./Clark_20Ashton_20Smith">Clark Ashton Smith</a> themed module set mainly on Zothique, the last continent under the dying sun of the decadent far-future Earth where monsters and dark magic are common. I also have <a class="nonexistent" href="./H_2e_20P_2e_20Lovecraft">H. P. Lovecraft</a> and <a class="nonexistent" href="./William_20Hope_20Hodgson">William Hope Hodgson</a> influences. <p>
+My aim is to eventually have in-theme races, gods, artifacts, quests and such. At the moment Zothiqband is in an early pre-release stage. I have done some new maps and changed the insanity messages to be a little more in-theme (no more Batman). I have also redone and un-D&amp;D-ized the junkarts. 
+</p>
+<p>
+Since well-planned is supposed to be half done, I have also made some rather extensive plans. I just counted my still-unfinished list of monsters to be added, and got the total of 153 unique and non-unique monsters that I should include in the game. I have this grand idea of three main factions: Earth, Hell, and Heaven, all of which are hostile to the player and Hell and Heaven to each other. The definitions are not very much like the Christian ones, however. 
+</p>
+<p>
+A special thing which I hope to add is the possibility of a monster temporarily charming the player. A lamia or an enchantress is just nothing special without that kind of ability. 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./MayLith">MayLith</a></strong>: Ever watched the TV series "Forever Knight"?? I've always thought that'd *possibly* make a fun game. That, and "Brimstone". Though there's not enough range/breadth to really get a game out of it, the ideas are fun. <p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I don't think I've ever seen those. I'm not sure even if they have been on air in my country. I was inspired to do factions by the Clark Ashton Smith story The Dark Eidolon in which the wizard Namirrha switches sides. "Heaven" faction (I'm not sure if that's really a good name, but at least it may surprise players) will be ruled by Lovecraftian critters from the stars and Forces of Evil from Night Land. Christian God (as seen in Schizoid Creator by Clark Ashton Smith) will be a joke monster. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Well, we're even, since I've never read Smith. Both these shows are basically cop show meets supernatural weirdness. Personally, I think both shows are some seriously good film. The super bad guys on the shows, La Croix for Forever Knight (okay, whether he's bad is definitely up for debate), and the Devil on Brimstone, are both deliciously evil, too. Anyway, here ya go: some fairly random fan links for: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Forever Knight 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href=".foreverknight.fanatic-much.net/">http://foreverknight.fanatic-much.net/</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href=".www.loftworks.com/fktoc.html">http://www.loftworks.com/fktoc.html</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Brimstone (theme music by Peter Gabriel... *faint*!!!) 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href=".www.tvtome.com/tvtome/servlet/ShowMainServlet/showid-204/Brimstone/">http://www.tvtome.com/tvtome/servlet/ShowMainServlet/showid-204/Brimstone/</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href=".drklothos.tripod.com/brimstonereviews/id1.html">http://drklothos.tripod.com/brimstonereviews/id1.html</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href=".teevee.org/archive/1998/10/30/">http://teevee.org/archive/1998/10/30/</a> 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: The shows look interesting. I think Brimstone was on air here at one time but I missed it. Perhaps it'll get aired again before 2020. Public domain material is much nicer in this respect. The <a href="./Clark_20Ashton_20Smith">Clark Ashton Smith</a> page has links to sites that host his stories on the Internet. I like the Zothique stories in particular. I think they have the potential to make a game with a nice and different atmosphere. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fZothiqband?action=refresh&amp;arena=Page.py&amp;key=Modules_2fZothiqband.text_html">RefreshCache</a> for this page (cached 2004-10-17 15:46:33)<br>
+<p><a href="./Modules_2fZothiqband?action=edit">EditText</a> of this page (last edited 2004-10-17 15:46:32 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:51:02 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:52:01 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.199
+  captures_list: 545.116
+  esindex: 0.016
+  LoadShardBlock: 492.104 (3)
+  CDXLines.iter: 22.271 (3)
+  load_resource: 55.123
+  RedisCDXSource: 24.497
+  PetaboxLoader3.datanode: 366.555 (4)
+  exclusion.robots: 0.214
+  PetaboxLoader3.resolve: 138.972 (3)
+-->

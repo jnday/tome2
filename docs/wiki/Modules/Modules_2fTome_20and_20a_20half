@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Tome and a half - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fTome_20and_20a_20half?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fTome_20and_20a_20half?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fTome_20and_20a_20half?action=fullsearch&amp;value=%2FTome+and+a+half&amp;literal=1&amp;case=1&amp;context=40">Modules/Tome and a half</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fTome_20and_20a_20half?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fTome_20and_20a_20half">View</a></li>
+<li><a title="Diffs" href="./Modules_2fTome_20and_20a_20half?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fTome_20and_20a_20half?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fTome_20and_20a_20half?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fTome_20and_20a_20half?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fTome_20and_20a_20half?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fTome_20and_20a_20half?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fTome_20and_20a_20half?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fTome_20and_20a_20half?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fTome_20and_20a_20half?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fTome_20and_20a_20half">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+ToME and 1/2 is a module that does not change anything (after all, you can't improve on perfection!) but adds more stuff in. The current version is 'semi-stable' and is reasonably balanced and playable. One way to look at this mod is: ToME and 1/2 is to ToME as SLASH'EM is to Nethack.  <p>
+So far ToME and 1/2 adds grand total of 9 races, 7 subraces, 22 classes, 6 corruptions, artifacts (include 1 set), 5 ego-types and 1 spell. Plus some more minor additions and changes. See changes.txt for details.  
+</p>
+<p>
+MAJOR CHANGES in v 0.0.4: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Help files for new races, subraces, classes, skills, corruptions and spell are fully writen and updated.  
+</p>
+</li>
+    <li>
+<p>
+ All special effects or abilites for the new races, subraces and classes have been added in.  
+</p>
+</li>
+    <li>
+<p>
+ Some of the new subclass's stats have been eddited slightly via LUA. 
+</p>
+</li>
+    <li>
+<p>
+ Fixed a *lot* of bugs.  
+</p>
+</li>
+    <li>
+<p>
+ The blessed subrace has been reduced in power, and experience penalty 
+</p>
+</li>
+    <li>
+<p>
+ Berserking has been completely redone. The only abilty is to go berserk, which has no sanity cost but makes you  tired and hungry at the end of it. 
+</p>
+</li>
+    <li>
+<p>
+ Some spying powers I couldn't get to work were removed, the 'spy' spell in particular. 
+</p>
+</li>
+    <li>
+<p>
+ Meditation gives disruption shield instead of invulnerbility at high levels. 
+</p>
+</li>
+    <li>
+<p>
+ A lot of race/subrace combinations were disabled that seemed silly (blessed nazgul, or favoured maia for example). 
+</p>
+</li>
+    <li>
+<p>
+ Nazgul now get burnt by any blessed weapon. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+KNOWN BUGS: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ The gambling skill is still too buggy too be used. 
+</p>
+</li>
+    <li>
+<p>
+ RNG aggravate when they shouldn't? 
+</p>
+</li>
+    <li>
+<p>
+ Technicians start with a wand of manathrust [0:0] instead of [1:50] 
+</p>
+</li>
+    <li>
+<p>
+ Starting a new player files results in the crashing of the T-engine whenever experience is recalculated. For a workaround see 'fatal bug workaround.txt' 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+I need feedback for the race/classes that are working so they can be properly balanced before i move on to anything else. Post a comment! Send an e-mail! Use the forum! Anything!  
+</p>
+<p>
+Oh and...  
+</p>
+<p>
+ENJOY OR *DIE* MORTAL! <img src="./wiki/rightsidebar/img/smile4.png" alt=";-)" height="15" width="15"> 
+</p>
+<h2 id="head-1917f4f0a4d78ab9ab91d9589ab70cf15f647eb7">Competition</h2>
+The Yeek/youthling/tourist chalange is still running. See comp.txt for details. <h2 id="head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</h2>
+0.0.4 a.k.a. "Leave me alone stupid software bug!" <h2 id="head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</h2>
+2.2.x <h2 id="head-5fda23d62015b99fb2a9f86b38bcdf2bdf7609c8">Author</h2>
+Christopher Ames. Contact me at: <a href="http://web.archive.org/web/20041020102736/mailto:chrisames@westnet.com.au">chrisames@westnet.com.au</a> or <a href="http://web.archive.org/web/20041020102736/mailto:l07ames@allsaints.wa.edu.au">l07ames@allsaints.wa.edu.au</a> or The ToME forums (my username is Christopher) <h2 id="head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</h2>
+5/10/2004 <h2 id="head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</h2>
+You can download this module as a <a class="external" href=".modules.t-o-m-e.net/mods/34__ToME%20and%20a%20half.zip"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">zip file</a>. <p>
+Size 1 072 kB or thereabouts 
+</p>
+<h2 id="head-fce06e20e5f7f74aacccab40b59b75a56c8f7305">Comments</h2>
+Post comments, ideas, bugs or anything at all here. </div><div id="footer">
+
+
+<a href="./Modules_2fTome_20and_20a_20half?action=refresh&amp;arena=Page.py&amp;key=Modules_2fTome_20and_20a_20half.text_html">RefreshCache</a> for this page (cached 2004-10-05 01:23:26)<br>
+<p><a href="./Modules_2fTome_20and_20a_20half?action=edit">EditText</a> of this page (last edited 2004-10-05 01:23:25 by <span title="202.72.131.230=cache1.wa.westnet.com.au">cache1</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:27:36 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:50 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.213
+  exclusion.robots.policy: 0.198
+  LoadShardBlock: 266.209 (3)
+  RedisCDXSource: 9.673
+  PetaboxLoader3.datanode: 248.472 (4)
+  captures_list: 302.471
+  PetaboxLoader3.resolve: 43.486
+  CDXLines.iter: 22.665 (3)
+  load_resource: 79.486
+  esindex: 0.016
+-->

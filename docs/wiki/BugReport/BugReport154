@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport154 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport154?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport154?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport154?action=fullsearch&amp;value=BugReport154&amp;literal=1&amp;case=1&amp;context=40">BugReport154</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport154?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport154">View</a></li>
+<li><a title="Diffs" href="./BugReport154?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport154?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport154?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport154?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport154?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport154?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport154?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport154?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport154?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport154">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+When a Possessor possesses an Illusionist and attempts to cast spell 'h' - Darkness, the game crashes without saving <p>
+<strong><a href="./MayLith">MayLith</a></strong>: This isn't guest's fault at all (and thanks for posting the report, btw!) but something weird's going on with the bugreport numbering system.... 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Well, you and one other person (the one who complained about the docs being terribly out of date,  I think) skipped some numbers.   I wouldn't worry about it.  What matters is that they are unique and mostly sequential.  We have more than enough numbers left to skip a few once in a while, though. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Did I? Ooops! *blush* Which bug report was the infamous complainer, anyway? I can't seem to find it. 
+    </ul>
+
+
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>:I originally posted this...not sure what happened.  Full report(as much as i can remember)<br>
+ <br>
+ I was an Ent Possessor in a Dark Elven Mage corpse.<br>
+ I had The Phial of Galadriel and some created artifact bolts (of Lucil i think) both of which gave light radius.<br>
+ 
+</p>
+<p>
+I thought it may of had something to do with a permanent light source for obvious reasons.<br>
+ I tried this both in Town during day and night and in a dungeon it crashed all times.<br>
+ That is all i can remember...character died in Angband...i got a little cocky after i found Medusa's corpse. <br>
+ 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Could not reproduce the bug while in a Dark Elven Mage body and Illusionist body wearing the Phial. Will try the normal Possessor way instead of debug commands. See also <a href="./BugReport152">BugReport152</a>. 
+</p>
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>: Try attempting this when in Gondolin and Mirkwood, those were the 2 locations i was in when it occured. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport154?action=refresh&amp;arena=Page.py&amp;key=BugReport154.text_html">RefreshCache</a> for this page (cached 2004-10-02 23:09:36)<br>
+<p><a href="./BugReport154?action=edit">EditText</a> of this page (last edited 2004-10-02 23:09:35 by <span title="user-2ivemuf.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:03:12 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:28 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 302.758
+  exclusion.robots: 0.324
+  CDXLines.iter: 27.113 (3)
+  LoadShardBlock: 260.014 (3)
+  esindex: 0.026
+  RedisCDXSource: 10.305
+  exclusion.robots.policy: 0.305
+  load_resource: 222.44
+  PetaboxLoader3.datanode: 299.655 (4)
+  PetaboxLoader3.resolve: 113.816
+-->

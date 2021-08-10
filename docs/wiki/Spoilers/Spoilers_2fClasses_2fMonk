@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Classes/Monk - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fClasses_2fMonk?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fClasses_2fMonk?action=print">
+<link rel="Up" href="/Spoilers_2fClasses">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fClasses_2fMonk?action=fullsearch&amp;value=%2FMonk&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Classes/Monk</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fClasses">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fClasses_2fMonk?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fClasses_2fMonk">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fClasses_2fMonk?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fClasses_2fMonk?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fClasses_2fMonk?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fClasses_2fMonk?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fClasses_2fMonk?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fClasses_2fMonk?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fClasses_2fMonk?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fClasses_2fMonk?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fClasses_2fMonk?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fClasses_2fMonk">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Monks are fun at low-mid levels, but lose significant utility at higher levels. However, they are a hell of a lot of fun when used properly. <a class="nonexistent" href="./Spoilers_2fClasses_2fMonk_2fBarehand_20combat">/Barehand combat</a> gives bonuses to Armour Class, Dodging and speed, BUT you will lose significant abilities and resists for not using a weapon. The number of blows and the stun damage are very handy, but don't rely on the stun too much, as high level monsters will recover almost immediately. The damage becomes significant in mid-game, but pales at higher levels.  <p>
+Maxing the <a class="nonexistent" href="./Dodge_20Skill">Dodge Skill</a> as well as Barehand Combat is essential, although (once again) the tradeoff is that the amount of armour you can wear without diluting the effects is significantly reduced. Use what slots that don't penalise you (shooters/light sources/ rings / amulets) to gain what resists you can, and don't hesitate to give up your hands or feet to very light armour. (See the <a class="external" href="./www.killerbunnies.org/angband/skill-220.html"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">Killerbunnies skill spoiler</a> for what tradeoffs can be made) 
+</p>
+<p>
+Spirituality is also a must (which makes Prayer doubly attractive) to maximise your saving throws. A second string to your bow is vital, be it a Symbiosis, Possession or (a big fave) Mindcraft. Another option is to become a God-botherer, and Manwe is probably the best choice, as Divine Aim doesn't work with Barehand in 2.2.7. The Speed bonuses from Piety and Barehand are, of course, cumulative. &lt;evil grin&gt; 
+</p>
+<p>
+The speed bonus makes Ents a natural fit, especially as they get a bonus to barehand skill. But remember, the vulnerability to fire of Ents makes the lack of resist slots a serious matter.  
+</p>
+<p>
+Monks are a lot of fun to use (Bruce Lee, eat your heart out!), but remember to have an extra whammy in store for "Enter the Dragon"... 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fClasses_2fMonk?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fClasses_2fMonk.text_html">RefreshCache</a> for this page (cached 2004-08-04 21:36:07)<br>
+<p><a href="./Spoilers_2fClasses_2fMonk?action=edit">EditText</a> of this page (last edited 2004-07-08 08:01:52 by <span title="dialin-145-254-146-041.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:58:28 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:59:17 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.131
+  PetaboxLoader3.datanode: 1546.353 (4)
+  LoadShardBlock: 60.013 (3)
+  RedisCDXSource: 0.601
+  captures_list: 91.721
+  PetaboxLoader3.resolve: 30.821
+  exclusion.robots: 0.141
+  CDXLines.iter: 25.547 (3)
+  load_resource: 1537.131
+  esindex: 0.01
+-->

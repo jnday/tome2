@@ -1,0 +1,279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Essences - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fEssences?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fEssences?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fEssences?action=fullsearch&amp;value=%2FEssences&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Essences</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fEssences?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fEssences">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fEssences?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fEssences?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fEssences?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fEssences?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fEssences?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fEssences?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fEssences?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fEssences?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fEssences?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fEssences">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Essences are only useful for:  
+    <ul>
+
+    <li>
+<p>
+ alchemy 
+</p>
+</li>
+    <li>
+<p>
+ drop 1 to mark a false wall as passable in special levels. 
+</p>
+</li>
+    <li>
+<p>
+ selling for 1 gold (even rare ones), 
+</p>
+</li>
+    <li>
+<p>
+ being stolen instead of something useful by object thieves, 
+</p>
+</li>
+    <li>
+<p>
+ throwing at monsters for about 2 damage (if you hit target!), 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+They're otherwise completely worthless. 
+</p>
+<p>
+<ol>
+<li>
+<a href="#head-071d7924e7fce09c6f127ab0a12bd09b270ed664">Where to find Essences in town</a></li>
+<li>
+<a href="#head-aa3fac3f8fbd9abee62293f0fc5fa64c13c0f236">Rare Essences</a></li>
+<li>
+<a href="#head-0d0285b3ba78ffdfe0579aa5deccbddfe8825326">Noteworthy items to stack essences for</a></li>
+<li>
+<a href="#head-5c6b836ab4a4404fe7f525b936cc092b171ed29c">Tricks for stockpiling</a></li>
+</ol>
+
+ 
+</p>
+<h2 id="head-071d7924e7fce09c6f127ab0a12bd09b270ed664">Where to find Essences in town</h2>
+
+    <dl>
+
+    <dt> Acid</dt><dd>
+<p>
+you get it most from rings of acid resistance, and indestructible rings/amulets. 
+</p>
+</dd>
+    <dt> Fire</dt><dd>
+<p>
+you get it most from rings of fire resistance, and fireproof scrolls(especially in the pet shop). 
+</p>
+</dd>
+    <dt> Cold</dt><dd>
+<p>
+you get it most from rings of cold resistance, and potions of heroism. 
+</p>
+</dd>
+    <dt> Lightning</dt><dd>
+<p>
+you get it most from recharge scrolls, and some rings. 
+</p>
+</dd>
+    <dt> Mana</dt><dd>
+<p>
+You get tons from manathrust wands. You can make wands of slow monsters just after gaining a few alchemy levels; they're good for quick money without hunting for other items (and you don't lose $ as wands are never cursed). 
+</p>
+<p>
+ The 5 types just mentionned: you get 4 of each when leeching an indestructible ring plus a magic essence. Sometimes those rings are cheap in the black market. 
+</p>
+</dd>
+    <dt> Poison</dt><dd>
+<p>
+You get tons from noxious cloud wands. You'll want to go into a deep dungeon to re-make the noxious cloud wand better; they're quite useful when improved. Any ammo of venom (exploding) are worth about 17000 gold each, so save any (exploding) ammo - a stack is a quick half-million gold! And don't forget to wear all the +CHA equipment you can when you do sell them, and choose your buyer carefully (hint: the general store can buys ammo). 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+Acid, cold, lightning, poison, and acid are good for branding cheap weapons and reselling for 5000+ gold each; this takes 4 essences each. You can get half that profit by making arrows of venom but it's extremely quick to make 99 arrows/bolts/shots with 99 poison essences. 
+</p>
+
+    <dl>
+
+    <dt> Life</dt><dd>
+<p>
+You get lots from cure wounds-type potions at the Temple. You can leech your cure critical wounds potions while in the dungeon to get those remove curse, curing, and satisfy hunger you need. 
+</p>
+</dd>
+    <dt> Confusion</dt><dd>
+<p>
+You get it most from confusion wands, and confusion-related scrolls. 
+</p>
+</dd>
+    <dt> Darkness</dt><dd>
+<p>
+you get them most from See Invisible scrolls, and amulets of charisma/adornment. In dungeons, you get them most from potions of invisibilty, and even more from potions of lose memory (fountains of lose memory are a jackpot if you need to stockpile for stat potions later).  You should stockpile a few for later to make genocide scrolls. 
+</p>
+</dd>
+    <dt> Explosion</dt><dd>
+<p>
+You get them most from Enchant Armor or Enchant To-dam scrolls. You CAN'T make your own (exploding) ammo and there is no plan to implement it. Explosion essences are used for detonation potions, who can be thrown for about 500 non-resistable area effect damage. Not bad for something you can make at level 2!!! Potions of detonation also sell for about 6000 gp and they're the first item you should do with your starting essences. 
+</p>
+</dd>
+    <dt> Light</dt><dd>
+<p>
+You get lots from light scrolls and magic mapping scrolls. You can make torches of fearlessness with them which are extremely cheap (usually a 1 gold torch plus essence maximum - this never fails or get cursed); this helps you buying those weapons you'll brand with other essences as soon as you get 100+ gold. 
+</p>
+</dd>
+    <dt> Force</dt><dd>
+<p>
+You'll get lots from wands of dig. Later you can make nice wands of strike with them for quick cash without hunting other items. 
+</p>
+</dd>
+    <dt> Knowledge</dt><dd>
+<p>
+You'll get them most from leeching *ID* scrolls for their magic essence (20 knowledge per scroll), and from divination-type staves you leech in the dungeon. Having some to make ID scrolls is always a smart move, especially as ID scrolls are in constant demand!! 
+</p>
+</dd>
+    <dt> Chaos</dt><dd>
+<p>
+You can't get them in Town except for the rare chaotic or slay/*slay* weapons at the black market. To get lots find a fountain of corruption or a potion of corruption. They're good money but hard to find at low level - you can discard low quantities of chaos in the dungeon because they're not so rare as to be prefered to a dungeon-useful item! Fountains of corruption, on the other hand, are tons of treasure with low weight... 
+</p>
+</dd>
+
+    </dl>
+
+<h2 id="head-aa3fac3f8fbd9abee62293f0fc5fa64c13c0f236">Rare Essences</h2>
+
+    <dl>
+
+    <dt> Magic</dt><dd>
+<p>
+You get it most from *ID* scrolls, undestructible rings/amulets, rings of fear resistance, stat potions you don't need, weapons of gondolin(?), and anywhere you can get it since you need 100's to make meaningful use of the artifact creation ability later. Maxing your stats also takes a lot of magic essence, so salvage all you can and get your objects *identified* from the *ID* store (i.e. research item) to spare a few. You can get some at dungeon levels where "rod tip of foo balls" are common (the bottom of Mordor is a good place to start). Augmentation fountains in cluster of 4 are available in level 40 of Helcaraxe (it saves you the augmentation potion chore almost entirely if you find just one). A few other quadruple dungeons have those nice quadruple augmentation fountains at dungeon level 40+ but Helcaraxe is less risky. 
+</p>
+</dd>
+    <dt> Extra life</dt><dd>
+<p>
+You get it from *Remove Curse* scrolls; or from buying Healing or *Healing* potions at the black market. You should store those for later use as experience potions (30 essences each, the only way to stockpile XP for your artifacts before you can create them) or for Healing or *Healing* potions. 
+</p>
+</dd>
+    <dt> Time</dt><dd>
+<p>
+In town, you can get them from rings/amulets of slow digestion and the occasional speed potion stack in the black market.  In dungeons, you get them primarily from speed fountains, rings of speed, rings of extra attacks, and wands of escense of speed, though you can also get two from Mushrooms of Restore Foo, and four from Mushroom of Restoration; extract from the mushrooms and use a staff of recovery instead.  You need to stack some essences of time to make the rings of speed and rings of extra attacks that are consumed when creating artifacts that increase speed and attack speed. 
+</p>
+</dd>
+
+    </dl>
+
+<h2 id="head-0d0285b3ba78ffdfe0579aa5deccbddfe8825326">Noteworthy items to stack essences for</h2>
+<p>
+Potions of augmentation cost about 100 essences, 6 of them being magical essences. You can *ID* a potion of augmentation(because leeching an item doesn't get 100% chance of learning how to make it). You'll get one such potion from a certain fixed quest to make sure you have a means to raise every stat, and when some of the stats are maxxed raise the stats individually so magic essences are spared. This takes so many different essence piles as to take almost half a house, and you should stockpile hard to find essences for it early! Darkness, lots of confusion, magic, explosion, lots of poison, lots of lightning (stockpile as recharge scrolls - they take 4 times less place than the essences). 
+</p>
+<p>
+Potions of stat: 8 essence of something(often confusion), 8 essences of something else(often darkness), 1 magic essence(there is a unique way of making the potion for every stat). Don't try to make those before you have some skill; quaff those you find in the very beginning you'll always find more (visit the sandworm lair at level 25+ to fill any gaps in your potion making knowledge or for easy essences). 
+</p>
+<p>
+Your artifact: You'll almost never be happy with how many magic essences you have once you start artifact creation! So stockpile it early and stockpile lots! 
+</p>
+<h2 id="head-5c6b836ab4a4404fe7f525b936cc092b171ed29c">Tricks for stockpiling</h2>
+<p>
+When you run out of house place, you can stack some essences as potions or scrolls or rings that don't have varying quality(i.e. ring of resist acid). At the risk of losing some percentage of the essences, you can pile up say 19 potions of lose memory instead of 4 stacks of 96 darkness essences and get about 350 essences back when you need them. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fEssences?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fEssences.text_html">RefreshCache</a> for this page (cached 2005-11-04 16:00:27)<br>
+<p><a href="./Spoilers_2fEssences?action=edit">EditText</a> of this page (last edited 2005-01-19 03:45:34 by <span title="modemcable123.242-202-24.mc.videotron.ca"><a href="./SimonSorc">SimonSorc</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:03:37 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:42 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.46
+  PetaboxLoader3.resolve: 46.251
+  exclusion.robots.policy: 0.431
+  esindex: 0.023
+  PetaboxLoader3.datanode: 150.352 (4)
+  CDXLines.iter: 35.466 (3)
+  captures_list: 148.074
+  LoadShardBlock: 91.406 (3)
+  RedisCDXSource: 13.224
+  load_resource: 122.969
+-->

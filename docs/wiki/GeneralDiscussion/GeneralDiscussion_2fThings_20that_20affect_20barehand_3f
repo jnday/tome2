@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Things that affect barehand? - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=fullsearch&amp;value=%2FThings+that+affect+barehand%3F&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Things that affect barehand?</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./ReenenLaurie">ReenenLaurie</a>:  I got my internet back, so here we are on the wiki.  This could go to some faq, or in the description of barehand skill in the docs.  (Once we've got the answers) <p>
+Which of the following affects barehand combat? 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Slaying ?   Yes 
+</p>
+</li>
+    <li>
+<p>
+ Tactics ?   Yes 
+</p>
+</li>
+    <li>
+<p>
+ Extra Attacks ?   Yes 
+</p>
+</li>
+    <li>
+<p>
+ + %Critical Hit?   Yes 
+</p>
+</li>
+    <li>
+<p>
+ Divine Aim ?   Yes (to hit) 
+</p>
+</li>
+    <li>
+<p>
+ Manwe's Blessing ?   Yes 
+</p>
+</li>
+    <li>
+<p>
+ Demon Blade ? (from a wand, I guess not)  NO 
+</p>
+</li>
+    <li>
+<p>
+ Anything you can think of?   
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Water bite ?  NO 
+</p>
+</li>
+        <li>
+<p>
+ Extra blows abilities ?  I think not, as you don't get extra blows based on dex and str.  So don't spend 14 Skill Points on them 
+</p>
+</li>
+        <li>
+<p>
+ Spread blows ?  NO   
+</p>
+</li>
+        <li>
+<p>
+ Tulkas damage bonus ?  NO 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+<a href="./amaurea">amaurea</a>: Slaying, tactics, extra attacks an manwe's blessing work. I do not know about the rest. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: Slaying's damage isn't displayed on the char sheet (or maybe on the stuff top left), but the xdy + z is still 4-280 or something.  But thanks, I really thought that slaying didn't help, and I *really* thought that extra attacks didn't. 
+</p>
+<p>
+I am playing a barehand guy, but I am struggling... 2 ent paladins (barehand) died at about chlevel 28.  But I like the idea, so I'll keep at it.  I just wish that the Manwe Priest also had a .9 (or .7, or whatever) in barehand... As that would enable me to cancel the -speed with barehand's +speed, and still get +7 speed naturally. 
+</p>
+<p>
+I *really* hope divine aim help, otherwise the barehand paladin doesn't make sense. 
+</p>
+<p>
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>:  Well, I wish I'd known about this page earlier, or I'd have replied here instead of on the mailing lists.  In summary, everything you describe above applies equally to all melee styles, except for Demon Blade (and other projection effects like Yavanna's Water Bite and the Touch of Death ability), which only apply to weapon combat. 
+</p>
+<p>
+One thing you'll want to note for your barehanded Paladin is that the damage bonus from Tulkas prayer only applies to weapon combat.  Melkor's Curse effect, by contrast, applies to all melee styles. 
+</p>
+<p>
+And you're right, the damage bonus isn't reflected in the <tt>Mel.dmg/rnd</tt> field of the character dump.  I really should write up a patch to fix that. 
+</p>
+
+    <ul>
+
+ <em>[I have now <a class="external" href="./www.killerbunnies.org/angband/tome-monkdam.diff"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">done so</a>. -- <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a> 2004-08-22 19:55:01]</em> 
+    </ul>
+
+
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  Yeah, sorry about you having to write twice... My internet was down, the weekend and early monday, and I created the page only later on monday.  There is a question I'd like to ask though... <strong>barehanded Paladin is that the damage bonus from Tulkas prayer </strong>????  Is there a bonus to damage with tulkas for prayer?  What is it?  Prayer@10? Nothing to do with piety? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The melee damage with weapons is increased while praying if the player character has more than 1000 piety points. Sometimes the damage is increased even further and you obtain the message: <em>You feel the hand of Tulkas helping your blow.</em> 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: Oh. So does <em>You feel the hand...</em> mean extra damage?  I was wondering whether that meant extra damage or a hit when you would've missed.  But how much damage are we talking about here?  Is it like the Eru % mana capacity?  ie. min(piety/1000,35)?  But this does <strong>not</strong> apply to barehand.  Ok got it. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fThings_20that_20affect_20barehand_3f.text_html">RefreshCache</a> for this page (cached 2004-08-22 19:55:02)<br>
+<p><a href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f?action=edit">EditText</a> of this page (last edited 2004-08-22 19:55:01 by <span title="adsl-065-081-085-051.sip.rdu.bellsouth.net"><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:31:39 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:06 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  load_resource: 64.486
+  exclusion.robots.policy: 0.607
+  cdx.remote: 0.095
+  exclusion.robots: 0.617
+  LoadShardBlock: 186.756 (3)
+  PetaboxLoader3.datanode: 147.661 (4)
+  CDXLines.iter: 17.938 (3)
+  captures_list: 223.728
+  esindex: 0.011
+-->

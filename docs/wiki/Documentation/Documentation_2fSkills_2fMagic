@@ -1,0 +1,344 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Skills/Magic - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fSkills_2fMagic?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fSkills_2fMagic?action=print">
+<link rel="Up" href="/Documentation_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fSkills_2fMagic?action=fullsearch&amp;value=%2FMagic&amp;literal=1&amp;case=1&amp;context=40">Documentation/Skills/Magic</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fSkills_2fMagic?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fSkills_2fMagic">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fSkills_2fMagic?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fSkills_2fMagic?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fSkills_2fMagic?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fSkills_2fMagic?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fSkills_2fMagic?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fSkills_2fMagic?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fSkills_2fMagic?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fSkills_2fMagic?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fSkills_2fMagic?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fSkills_2fMagic">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top"/> <hr>
+ <ol>
+<li>
+<a href="#head-e6791be7eed7865c6ea8fbf4d2b565ec77d74c36">Magic</a></li>
+<ol>
+<li>
+<a href="#head-2af28ce7d9982fdf25818cebee05edefe4047336">Magic-device</a></li>
+<li>
+<a href="#head-c8ee353c1f8ed3890867cd5fe2059adc891bb5b7">Spell-power</a></li>
+<li>
+<a href="#head-68aa61ed7030bb2c9882d88a6df2df0811241cc5">Sorcery</a></li>
+<li>
+<a href="#head-1eab2e77896772f19030f55f716eb8eb35d3dcde">Mana</a></li>
+<li>
+<a href="#head-240c1833a1bdda6b2c34804cbe070eb627ee8743">Geomancy</a></li>
+<ol>
+<li>
+<a href="#head-78baebfcb4b52665d7e8a9c7826c47b0fa2439f6">Fire</a></li>
+<li>
+<a href="#head-de9b1be49dae27efd757dc48f1ad55ec95a5e9e5">Water</a></li>
+<li>
+<a href="#head-ddd068101243cc32a822c619d2a87d8cc6db5e23">Air</a></li>
+<li>
+<a href="#head-a074430f352b879e7939d4290bf82c99b436b900">Earth</a></li>
+</ol>
+
+<li>
+<a href="#head-8d546a6dea9ff90d517b51c25b35319931ae4e04">Meta</a></li>
+<li>
+<a href="#head-ca414fc9c32004e5dd3b9b30687ccb94aa361947">Conveyance</a></li>
+<li>
+<a href="#head-ad8e212b432fb4cacaecfbbf68a8eecf6679f1ce">Divination</a></li>
+<li>
+<a href="#head-0efe5fd2a34c24650008540e93242893db484cab">Temporal</a></li>
+<li>
+<a href="#head-59e63f7eaa7900cbf9897e9d278d70feba1ba048">Mind</a></li>
+<li>
+<a href="#head-bddc7adb1204fed1e94206edb0213ced81f348d4">Nature</a></li>
+<li>
+<a href="#head-9290264b6d5da3e09cfefdd9b0571222beaa76fc">Demonology</a></li>
+<li>
+<a href="#head-b02bd83f6905cb8a8c45bfd5e77f050b3cfe98d8">Necromancy</a></li>
+<li>
+<a href="#head-3ad9434a877334b3bd1b8829e56f9aa45bfbdd2b">Runecraft</a></li>
+<li>
+<a href="#head-fc8873d34f72a6dd7f25446a7c39cfeff381c448">Thaumaturgy</a></li>
+<li>
+<a href="#head-ae436cd86487a0c200a77551b405475ce3cc85ae">Alchemy</a></li>
+<li>
+<a href="#head-8e23c884f6355748399d5100a49dd7dd7498caf5">Udun</a></li>
+</ol>
+
+</ol>
+
+ <hr>
+ <h2 id="head-e6791be7eed7865c6ea8fbf4d2b565ec77d74c36">Magic</h2>
+<p>
+The magic skill affects your general use of magic items, the amount of mana you can handle, and in general your ability to do magic. It can also affect the strength of wands and staffs. 
+</p>
+<p>
+If you are investing in the Magic skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-c2e5f21e7926ab27e1a89b57df902087d4699af5"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Perfect Casting</a> ability. 
+</p>
+<p>
+Sub-skills include: Magic-device, Spell-power, Sorcery, Mana, Fire, Water, Air, Earth, Meta, Conveyance, Divination, Temporal, Mind, Nature, Udun, Demonology, Necromancy, Runecraft, Thaumaturgy, and Alchemy. 
+</p>
+<h3 id="head-2af28ce7d9982fdf25818cebee05edefe4047336">Magic-device</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It eases the use of magical devices, such as wands, staves, and rods, and boosts the casting level of spells stored in a wand or a staff. For a more detailed description of magic devices and their use, see <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fWands_2c_20Staves_20and_20Rods"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">this page</a>. It also helps pseudo-id of magic objects. Spending 1 skill point on your Magic-device skill adds 0.07 bonus skill points to your Magic skill. 
+</p>
+<h3 id="head-c8ee353c1f8ed3890867cd5fe2059adc891bb5b7">Spell-power</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It boosts the casting level ofmost spells you are capable of casting. For example, if you have level one in the mana school, you could cast "Manathrust". For every 2.5 skill levels of Spell-power, Manathrust becomes more powerful, adding +1 casting level to the spell. Note that this is not exactly the same as certain magic items which boost spell power. Spending 1 skill point on your Spell-power skill adds 0.2 bonus skill points to your Magic skill. 
+</p>
+<p>
+This skill only affects the 11 primary schools (Mana, Earth, Air, Fire, Water, Meta, Mind, Temporal, Conveyance, Divination and Nature), as well as Geomancy and the spells granted by the Gods. 
+</p>
+<h3 id="head-68aa61ed7030bb2c9882d88a6df2df0811241cc5">Sorcery</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It allows you to access any spell in the 11 schools up to the sorcery skill level. For example, if you have a sorcery skill of 1, you could cast "Manathrust", which is a level 1 mana school spell; and "Phase Door", which is a level 1 conveyance school spell. Spending 1 skill point on your Sorcery skill adds 0.2 bonus skill points to your Magic skill. 
+</p>
+<p>
+However, handling that much magic is hazardous to your health, and as such reduces both your hit points and your fighting ability. Any ability in sorcery affects your Weaponmastery, Archery, Barehand-combat and gives a negative percentage modifier to your total hit points, equal to the level of your sorcery skill (i.e. if sorcery is 12.500, hit points get modified by -12.5%). 
+</p>
+<p>
+<strong>N.B.</strong> This skill only affects the 11 primary schools (Mana, Earth, Air, Fire, Water, Meta, Mind, Temporal, Conveyance, Divination and Nature). 
+</p>
+<p>
+This is the base school for <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fSorceror"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Sorcerors</a>. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-1eab2e77896772f19030f55f716eb8eb35d3dcde">Mana</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMana"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mana</a> school, and as it increases so does the casting level of spells already attained in the school. For example, if you have level one in the mana school, you could cast "Manathrust" at a casting level of 1. For every skill level you add to Mana, Manathrust will become more powerful, adding 1 casting level to the spell. Spending 1 skill point on your Mana skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h3 id="head-240c1833a1bdda6b2c34804cbe070eb627ee8743">Geomancy</h3>
+<p>
+This skill is a subskill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentaion_2fMagic_2fSchools_2fGeomancy"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Geomancy</a>, and as it increases so does the casting level of spells already attained in the school. Most spells from this school rely on the Fire, Water, Air and Earth skills as well. Spending 1 skill point on your Geomancy skill adds 0.05 bonus skill points to your Fire, Water, Air and Earth skills. 
+</p>
+<p>
+<strong>Only <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fGeomancer"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Geomancers</a> have access to this skill.</strong> 
+</p>
+<h4 id="head-78baebfcb4b52665d7e8a9c7826c47b0fa2439f6">Fire</h4>
+<p>
+This skill is a sub-skill of the Magic skill, and also a sub-skill of Geomancy. 
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fFire"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Fire</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Fire skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h4 id="head-de9b1be49dae27efd757dc48f1ad55ec95a5e9e5">Water</h4>
+This skill is a sub-skill of the Magic skill, and also a sub-skill of Geomancy. <p>
+This skill is a sub-skill of the Magic skill. It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fWater"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Water</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Water skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h4 id="head-ddd068101243cc32a822c619d2a87d8cc6db5e23">Air</h4>
+This skill is a sub-skill of the Magic skill, and also a sub-skill of Geomancy. <p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fAir"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Air</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Air skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h4 id="head-a074430f352b879e7939d4290bf82c99b436b900">Earth</h4>
+This skill is a sub-skill of the Magic skill, and also a sub-skill of Geomancy. <p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fEarth"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Earth</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Earth skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<p>
+<a href="#top">to the top</a> <h3 id="head-8d546a6dea9ff90d517b51c25b35319931ae4e04">Meta</h3>
+
+</p>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMeta"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Meta</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Meta skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h3 id="head-ca414fc9c32004e5dd3b9b30687ccb94aa361947">Conveyance</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fConveyance"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Conveyance</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Conveyance skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h3 id="head-ad8e212b432fb4cacaecfbbf68a8eecf6679f1ce">Divination</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fDivination"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Divination</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Divination skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h3 id="head-0efe5fd2a34c24650008540e93242893db484cab">Temporal</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fTemporal"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Temporal</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Temporal skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h3 id="head-59e63f7eaa7900cbf9897e9d278d70feba1ba048">Mind</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMind"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mind</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Mind skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h3 id="head-bddc7adb1204fed1e94206edb0213ced81f348d4">Nature</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fNature"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Nature</a> school, and as it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Nature skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<p>
+If you are investing in the Nature skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-ca38d75289790f90b6f89d4ce046740cb12371bd"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Tree-walking</a> ability. 
+</p>
+<h3 id="head-9290264b6d5da3e09cfefdd9b0571222beaa76fc">Demonology</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+Demonology gives access to spells contained within special Demon-blades, -shields and -horns (helms) in the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fDemonology"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Demonology</a> school, and as skill increases so does the casting level of spells already attained in the school. 
+</p>
+<p>
+This skill is available only to <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fDemonologist"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Demonologists</a>, or those sufficiently corrupted with demon-like powers. Spending 1 skill point on your Demonology skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<h3 id="head-b02bd83f6905cb8a8c45bfd5e77f050b3cfe98d8">Necromancy</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It grants access to <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fNecromancy"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Necromancy</a> spells. This is the base skill of the <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fNecromancer"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Necromancer</a> class. Spending 1 skill point on your Necromancy skill adds 0.04 bonus skill points to your Magic skill. 
+</p>
+<p>
+If you are investing in the Necromancy skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-77f0c7b84aa87c7243d08dec0f5462678ab0b8de"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Touch of Death</a> and <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-579e38d93b084c632cc8693056661e9ae7b93c14"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Undead Form</a> abilities. 
+</p>
+<h3 id="head-3ad9434a877334b3bd1b8829e56f9aa45bfbdd2b">Runecraft</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+This is the base skill of the <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fRunecrafter"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Runecrafter</a> class. Spending 1 skill point on your Runecraft skill adds 0.12 bonus skill points to your Magic skill. For more information on the runecraft spells, see <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fRunecraft"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">this page</a>. 
+</p>
+<h3 id="head-fc8873d34f72a6dd7f25446a7c39cfeff381c448">Thaumaturgy</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+This skill is the base skill of the <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fThaumaturgist"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Thaumaturgist</a> class. Each level of thaumaturgy gives a few random attack spells that can be cast without the use of spell books of any sort. However, once learned these spells do not gain in levels as the thaumaturgy skill or the spell-power skills are increased. Spending 1 skill point on your Thaumaturgy skill adds 0.06 bonus skill points to your Magic skill. For more information on thaumaturgy spells, see <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">this page</a>. 
+</p>
+<h3 id="head-ae436cd86487a0c200a77551b405475ce3cc85ae">Alchemy</h3>
+This skill is a sub-skill of the Magic skill. <p>
+The Alchemy skill affects your ability to extract and use essences to create magical items. For more information, see <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fAlchemy"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">this page</a>. 
+</p>
+<p>
+If you are investing in the Alchemy skill, you might be interested in the <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-3b871789c07fba082c45f1c540453140918ce609"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Artifact Creation</a> ability. 
+</p>
+<p>
+This skill is used exclusively by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fAlchemist"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Alchemists</a>. 
+</p>
+<h3 id="head-8e23c884f6355748399d5100a49dd7dd7498caf5">Udun</h3>
+<p>
+This skill is a sub-skill of the Magic skill.  
+</p>
+<p>
+It gives access to spells within the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fUdun"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Udun school</a> , and is available only to <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fDark_2dPriest"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">dark-priests</a> (priests of <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-11984558524ce4f53bb86d4d76084fe577fef244"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Melkor</a> and to his other worshippers. As it increases so does the casting level of spells already attained in the school. Spending 1 skill point on your Udun skill adds 0.1 bonus skill points to your Magic skill. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fSkills_2fMagic?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fSkills_2fMagic.text_html">RefreshCache</a> for this page (cached 2005-05-03 14:48:14)<br>
+<p><a href="./Documentation_2fSkills_2fMagic?action=edit">EditText</a> of this page (last edited 2005-05-03 14:48:14 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:05:23 Oct 25, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:16 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 105.762
+  exclusion.robots: 0.191
+  exclusion.robots.policy: 0.173
+  RedisCDXSource: 0.617
+  esindex: 0.009
+  LoadShardBlock: 76.688 (3)
+  PetaboxLoader3.datanode: 75.477 (4)
+  CDXLines.iter: 24.552 (3)
+  PetaboxLoader3.resolve: 77.51 (2)
+  load_resource: 96.375
+-->

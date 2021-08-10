@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport83 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport83?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport83?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport83?action=fullsearch&amp;value=BugReport83&amp;literal=1&amp;case=1&amp;context=40">BugReport83</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport83?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport83">View</a></li>
+<li><a title="Diffs" href="./BugReport83?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport83?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport83?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport83?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport83?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport83?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport83?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport83?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport83?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport83">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+One point in antimagic and a dark sword of nothingness (-lots, -lots) results in better antimagic than with a regular dark sword (+0, +0). <p>
+This is immensely useful to noncaster archers! 
+</p>
+<hr size="3">
+ <a href="./NeilStevens">NeilStevens</a>:  Archers need a break, heh. <p>
+Seriously, though, this is a risky practice.  With only one point in Anti-magic, you don't get trap detection/destruction, but can't use rods or staves for that purpose either. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Not only that, but the (-lots,-lots) beneficial aspect is very well known. Not a bug. If the player doesn't research antimagic properly, or if the character doesn't invest enough skill points in antimagic in order to get the full benefits, that's their own fault. &lt;g&gt; 
+</p>
+<p>
+<a href="./JulesBean">JulesBean</a>: What makes you so sure this is not a bug? It is certainly well known, but it's always seemed a bit broken to me. Weapons of Nothingness are presumably intended to be really bad things to wield to discourage you from wielding un-ID'ed weapons; I doubt they were intended as uber anti-magic weapons. 
+</p>
+<p>
+As an aside, the whole magic bonus thing for unbelievers is riddled with inconsistency: a dark sword which is damaged by acid will suddenly radiate a stronger antimagic field.... 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: I know it's not a bug because I discussed it personally with the illustrious maintainer over a year ago. 
+</p>
+<p>
+Simon: so Lord Dimwitt's strategy guide is wrong?? And I thought Lord Dimwitt had said elsewhere that strong antimagic with 1 point of antimagic was a standard strategy with his archers... 
+</p>
+<p>
+If we had a clue of how antimagic REALLY works, which we don't and can't really measure, we'd know if this is a bug or not.   (and we'd actually know how effective antimagic is, which is important). 
+</p>
+<p>
+In any case large negatives shouldn't give better antimagic than (+0, +0). Is it the case? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: You'll find that I indeed am not in that pseudonymous individual's fan club, falling over his every word. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Large negatives give better antimagic than (+0,+0). Absence of documentation is not a 'bug', it's an absence. I understand your frustration, Simon, but please have some patience. We can only do so much at a time. Do you want documentation, or ToME 3? <img src="./wiki/rightsidebar/img/biggrin.png" alt=":D" height="15" width="15"> 
+</p>
+<p>
+Simon: I wand ToME 3 to be documented. Or else I'll be hearing "do you want documentation or ToME 4?" someday. (-; 
+</p>
+<p>
+In the meantime, however, you might want to look <a class="external" href="./www.killerbunnies.org/angband/skill-220.html#antimagic"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">here</a> for a spoiler that explains exactly how dark swords work and why the negative values are important. Please search all the available sources before you get worked up, 'kay? Thanks. 
+</p>
+<p>
+Simon: nice spoiler! Of course it doesn't mention if negative values count, and I wouldn't have guessed in a million years, but the formulas are extra nice. (-; 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport83?action=refresh&amp;arena=Page.py&amp;key=BugReport83.text_html">RefreshCache</a> for this page (cached 2004-08-14 20:32:03)<br>
+<p><a href="./BugReport83?action=edit">EditText</a> of this page (last edited 2004-08-14 20:32:02 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:31:09 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:55 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 98.996
+  exclusion.robots: 0.125
+  exclusion.robots.policy: 0.115
+  RedisCDXSource: 0.615
+  esindex: 0.009
+  LoadShardBlock: 72.024 (3)
+  PetaboxLoader3.datanode: 94.071 (4)
+  CDXLines.iter: 22.144 (3)
+  load_resource: 98.788
+  PetaboxLoader3.resolve: 56.916
+-->

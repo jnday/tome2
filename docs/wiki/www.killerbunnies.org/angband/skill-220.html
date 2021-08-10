@@ -1,0 +1,1807 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+
+
+<script type="text/javascript">
+  __wm.wombat("http://www.killerbunnies.org:80/angband/skill-220.html","20051018062951","http://web.archive.org/","web","/_static/",
+	      "1129616991");
+</script>
+
+<style type="text/css">
+BODY { color: black; background: white; }
+DT { font-weight: bold; margin-top: 1em; margin-bottom: 1em }
+</style>
+<title>The (Not Yet) Comprehensive ToME 2.2.x Skill Spoiler</title>
+</head>
+<body>
+<h1>The (Not Yet) Comprehensive ToME 2.2.x Skill Spoiler</h1>
+<p><i><small>[Last modified 2005-01-09.  See
+<a href="#changelog">below</a> for recent changes.]</small></i>
+<p>
+It's a common dilemma among ToME players:  which skills to raise?  Well,
+that depends on the answer to the next question:  What benefits am I
+getting from these skills?  For some skills, like Magic, the effect of a
+skill increase is immediate and obvious (more mana, in this case), but some
+skills don't have obvious effects, leading one to wonder whether
+increasing, say, one's Weaponmastery skill is actually buying one anything.
+<p>
+This spoiler is an attempt to answer those questions.  I've examined the
+source (specifically, the 2.2.0 thru 2.2.7 release versions) looking for
+everywhere a skill level is used, and I describe here the specific,
+quantitative effects that different skills have on gameplay.
+<p>
+<i>[<strong>NOTE:</strong>  This spoiler is (intended to be) correct for
+ToME v2.2.0 thru v2.2.7.  There have been some changes since the previous
+version, v2.1.2; for information on that version, see the
+<a href="skill.html">2.1.2 version</a> of this spoiler.  For later
+versions of ToME, see the <a href="skill-230.html">2.3.x version</a> of
+this spoiler.</i>
+<h2>Table of Contents</h2>
+<p> <i><a href="#notation">[skip table of contents]</a></i>
+<ul>
+<li> <a href="#notation">Notation</a>
+<li> <a href="#skill_abil">Skills vs. Abilities</a>
+<li> <a href="#skills">The skills</a>
+  <ul>
+  <li> <a href="#combat">Combat</a>
+    <ul>
+    <li> <a href="#melee_style">Melee styles</a>
+    <li> <a href="#weapon">Weaponmastery</a>
+      <ul>
+      <li> <a href="#combat_sub">Submasteries</a>
+      <li> <a href="#sword">Swordmastery</a>
+	<ul>
+	<li> <a href="#critical">Critical-hits</a>
+	</ul>
+      <li> <a href="#axe">Axemastery</a>
+      <li> <a href="#hafted">Hafted-mastery</a>
+	<ul>
+	<li> <a href="#haft_stun">Stunning-blows</a>
+	</ul>
+      <li> <a href="#polearm">Polearm-mastery</a>
+      </ul>
+    <li> <a href="#archery">Archery</a>
+      <ul>
+      <li> <a href="#archery_sub">Submasteries</a>
+      <li> <a href="#sling">Sling-mastery</a>
+      <li> <a href="#bow">Bow-mastery</a>
+      <li> <a href="#crossbow">Crossbow-mastery</a>
+      <li> <a href="#boomerang">Boomerang-mastery</a>
+      </ul>
+    <li> <a href="#barehand">Barehand-combat</a>
+    <li> <a href="#bearform">Bearform-combat</a>
+    <li> <a href="#boulder">Boulder-throwing</a>
+    <li> <a href="#antimagic">Antimagic</a>
+    </ul>
+  <li> <a href="#sneakiness">Sneakiness</a>
+    <ul>
+    <li> <a href="#stealth">Stealth</a>
+    <li> <a href="#disarm">Disarming</a>
+    <li> <a href="#backstab">Backstab</a>
+    <li> <a href="#stealing">Stealing</a>
+    <li> <a href="#skill_dodge">Dodging</a>
+    </ul>
+  <li> <a href="#magic">Magic</a>
+    <ul>
+    <li> <a href="#device">Magic-Device</a>
+    <li> <a href="#spellpower">Spell-power</a>
+    <li> <a href="#sorcery">Sorcery</a>
+    <li> <a href="#mana">Mana</a>
+    <li> <a href="#geomancy">Geomancy</a>
+      <ul>
+      <li> <a href="#fire">Fire</a>
+      <li> <a href="#water">Water</a>
+      <li> <a href="#air">Air</a>
+      <li> <a href="#earth">Earth</a>
+      </ul>
+    <li> <a href="#meta">Meta</a>
+    <li> <a href="#conveyance">Conveyance</a>
+    <li> <a href="#divination">Divination</a>
+    <li> <a href="#temporal">Temporal</a>
+    <li> <a href="#mind">Mind</a>
+    <li> <a href="#nature">Nature</a>
+    <li> <a href="#udun">Udun</a>
+    <li> <a href="#demonology">Demonology</a>
+    <li> <a href="#necromancy">Necromancy</a>
+    <li> <a href="#runecraft">Runecraft</a>
+    <li> <a href="#thaumaturgy">Thaumaturgy</a>
+    <li> <a href="#alchemy">Alchemy</a>
+    </ul>
+  <li> <a href="#spirituality">Spirituality</a>
+    <ul>
+    <li> <a href="#prayer">Prayer</a>
+    <li> <a href="#druid">Druidistic</a>
+    <li> <a href="#mindcraft">Mindcraft</a>
+    <li> <a href="#music">Music</a>
+    </ul>
+  <li> <a href="#mlore">Monster-lore</a>
+    <ul>
+    <li> <a href="#summoning">Summoning</a>
+    <li> <a href="#preserv">Corpse-preservation</a>
+    <li> <a href="#possession">Possession</a>
+    <li> <a href="#symbiosis">Symbiosis</a>
+    <li> <a href="#mimicry">Mimicry</a>
+    </ul>
+  </ul>
+<li> <a href="#abil_eff">Ability effects</a>
+  <ul>
+  <li> <a href="#abil_fight">Fighting</a>
+  <li> <a href="#abil_bow">Bows/Throw</a>
+  <li> <a href="#abil_sav">Saving Throw</a>
+  <li> <a href="#abil_stl">Stealth</a>
+  <li> <a href="#abil_perc">Perception</a>
+  <li> <a href="#abil_srch">Searching</a>
+  <li> <a href="#abil_dis">Disarming</a>
+  <li> <a href="#abil_dev">Magic Device</a>
+  </ul>
+<li> <a href="#statadj">Stat-based adjustments</a>
+<li> <a href="#changelog">Changelog and credits</a>
+</ul>
+<h2><a name="notation">Notation</a></h2>
+<p>
+For notational convenience, we will use the following conventions herein:
+<ul>
+<li> A&times;B denotes multiplication; for instance 5&times;6 evaluates
+to&nbsp;30.
+<li> A/B denotes division, rounded down to the nearest integer.
+For instance, 9.2/5 evaluates to&nbsp;1.  [Note that rounding happens
+<em>before</em> combining with other expressions; thus, 15/10+15/10
+evaluates to&nbsp;2, not&nbsp;3.  Note also that this rounding applies to
+<em>all</em> division operations in all the formulas herein (with the
+exception of those using the notation below).]
+<li> A//B represents "fixed-point" division.  Typically the result is
+something like a percentage (represented internally as an integer from 0
+to&nbsp;100) or a weight (represented internally in tenths of a pound), so
+that the result of the division is effectively retained to one or two
+decimal places.
+<li> A^B denotes exponentiation, or A to the B'th power.  For instance,
+3^4=3&times;3&times;3&times;3=81.
+<li> NdM is the standard "dice" notation; for instance, 3d6 denotes the sum
+of three independent uniformly distributed random integers from&nbsp;1
+to&nbsp;6, or three six-sided dice.  For more complicated forms, we will
+use parentheses, as in (A&times;B)d(C+D/2).
+<li> S is your skill level in the skill under discussion, rounded down to
+the nearest integer.
+<li> (S@N) represents a "scaled" skill level, with the usual 0-to-50 skill
+range scaled linearly to 0-to-N.  Specifically, it is defined as
+(sk&times;N)/50, where 'sk' is the un-rounded skill level.  For instance,
+if your skill level in the skill under discussion is 2.900, then (S@100)
+evaluates to&nbsp;290.0/50, which rounds down to&nbsp;5.
+</ul>
+<h2><a name="skill_abil">Skills vs. Abilities</a></h2>
+<p>
+As a result of ToME's Angband heritage, ToME characters have other
+skill-like properties that are not directly adjusted on the skill selection
+screen.  These are listed on the '<tt>C</tt>'haracter screen as
+"<tt>(Miscellaneous Abilities)</tt>", and include things like Fighting,
+Perception, and Saving Throw.  [These are distinct, by the way, from the
+abilities listed on the "<tt>ToME Abilities Screen</tt>" under the
+'<tt>N</tt>' command --- an unfortunate naming collision.]  The base level
+of an ability is determined by your race, sub-race and class, and does not
+increase with level; some of them, however, increase along with the
+corresponding skill.
+<p>
+<a name="classmod">The amount</a> by which a skill affects an ability
+depends on class, and is referred to as the "class modifier" for the
+ability, hereinafter denoted CM.  The class modifiers for different
+abilities and classes are listed <a href="#classmod-tbl">below</a>.
+Typically, an ability will be increased by your scaled skill level in the
+corresponding skill, where the scale factor will be some multiple of the
+class modifier.
+<h2><a name="skills">The skills</a></h2>
+<p>
+Some skills have additional annotations, as follows:
+<ul>
+<li> Skills marked with "(FF)" can be gained or improved by a
+Fumblefingers/Lost-Sword quest.
+<li> Skills marked with "(NG)" are "no-gloves" magical skills; if any of
+these skills is 1 or higher, wearing gloves or gauntlets will reduce your
+maximum mana to 75% of its normal value, unless the gloves provide free
+action, increase your DEX, or can contain a spell.
+</ul>
+<dl>
+<dt><a name="combat">Combat (FF)</a></dt>
+<dd>
+<p>
+The Combat skill has the following effects:
+<ul>
+<li> You receive a damage bonus of +S/5 for melee and ranged attacks.
+<li> Your <a href="#abil_fight">Fighting</a> and
+<a href="#abil_bow">Bows/Throw</a> abilities are increased by
+(<a href="#classmod">CM</a>&times;3&times;S)/100.
+<li> The total weight in pounds of armor (body armor, helm, gloves, boots,
+shield and cloak) that you can wear without being burdened and reducing
+mana is S+20; your maximum mana is reduced by&nbsp;1 for every full pound
+you exceed this maximum.
+<li> A given "combat" item (weapons, armor, ammo, trap kits and Demonology
+paraphernalia) in your inventory or equipment will pseudo-ID on a given
+turn with probability 1&nbsp;in&nbsp;9000/(S&times;S+40); if S&ge;11, the
+pseudo-ID will be "heavy" (<tt>{average}</tt> detection, distinguishing
+<tt>{good}</tt> from <tt>{excellent}</tt>, and so forth).
+<li> <a name="combat_pierce">A piercing shot</a> (see
+<a href="#archery_pierce">Archery</a> and
+<a href="#archery_sub_pierce">subskills</a> below) can pass through at most
+S/10-1 monsters, with a minimum of zero (obviously).
+<li> A confusion attack (that is, a melee attack after reading a Scroll of
+Monster Confusion, or as a possible chaotic effect of hitting with a
+Chaotic weapon) will confuse the monster for 10+R/5 turns, or increase its
+current confusion duration by that amount, where R&nbsp;is 1dS-1.
+<li> After completing the Thieves quest, the next quest offered at the Bree
+Mayor's office will be the Troll quest with probability 95% if your Combat
+skill is higher than your Magic skill, 5% if it is lower, and 50% if they
+are equal; otherwise, it will be the Wight quest.
+</ul>
+<p>
+<a name="melee_style"><b>Melee styles:</b></a>  Some subskills of Combat
+correspond to melee styles:
+<ul>
+<li> Weaponmastery &rarr; Weapon combat
+<li> Barehand-combat &rarr; Barehanded combat
+<li> Bearform-combat &rarr; Bearform combat
+<p>
+In order to use a melee style, its corresponding skill must be at
+least&nbsp;1.  If only one melee style is available based on your skill
+levels, you will use it automatically; if more than one are available, you
+can choose between them via the "<tt>Change melee style</tt>" command under
+the '<tt>m</tt>' menu (if none are available, "Weapon combat" is the
+default).  The effects of a melee style are based on your skill level in
+the corresponding skill:
+<ul>
+<li>
+Your <a href="#abil_fight">Fighting</a> ability is increased by
+(<a href="#classmod">CM</a>&times;7&times;S)/100.
+<li>
+<a name="crit_prob">The probability</a> of scoring a critical hit with a
+melee attack is W+5&times;(H+Z)+C&times;50+(S@150)&nbsp;in&nbsp;5000, where
+W&nbsp;is the weight of the weapon in tenths of a pound (or S&times;1d10
+for non-weapon combat), H&nbsp;is your total to-hit bonus from all sources,
+Z&nbsp;is an adjustment based on the attack type (Z=H for weapon combat),
+and C&nbsp;is the bonus from a Ring of Critical Hits or similar items.  This
+is potentially further modified by the
+<a href="#critical">Critical-hits</a> skill below.
+</ul>
+</ul>
+  <dl>
+  <dt><a name="weapon">Weaponmastery (FF)</a></dt>
+  <dd>
+  <p>
+The effects of the Weaponmastery skill are described in
+<a href="#melee_style">the "Melee styles" entry under Combat</a>.
+  <p>
+<a name="combat_sub"><b>Submasteries:</b></a>  If all of your wielded melee
+weapons are covered by the same sub-skill of the Weaponmastery skill (as
+described below), you receive additional bonuses based on your skill level
+in said sub-skill:
+  <ul>
+  <li> You receive S/25 extra melee attacks.
+  <li> You receive a to-hit bonus of +S and a damage bonus of +S/2 for melee
+  attacks.
+  </ul>
+    <dl>
+    <dt><a name="sword">Sword-mastery</a></dt>
+    <dd>
+    <p>
+Sword-mastery covers the following weapons:
+<ul compact>
+<li> Broken Dagger
+<li> Broken Sword
+<li> Dagger
+<li> Main Gauche
+<li> Rapier
+<li> Small Sword
+<li> Basillard
+<li> Short Sword
+<li> Sabre
+<li> Cutlass
+<li> Khopesh
+<li> Tulwar
+<li> Broad Sword
+<li> Long Sword
+<li> Scimitar
+<li> Katana
+<li> Bastard Sword
+<li> Great Scimitar
+<li> Claymore
+<li> Espadon
+<li> Two-Handed Sword
+<li> Flamberge
+<li> Executioner's Sword
+<li> Zweihander
+<li> Blade of Chaos
+<li> Bluesteel Blade
+<li> Shadow Blade
+<li> Dark Sword
+<li> Demonblade
+<li> Necromantic Teeth (see notes under Necromancy)
+</ul>
+<p>
+Its effects are described in <a href="#combat_sub">the "Submasteries" entry
+under Weaponmastery</a>.
+      <dl>
+      <dt><a name="critical">Critical-hits</a></dt>
+      <dd>
+      <p>
+If you are wielding a weapon covered by the Sword-mastery skill that weighs
+less than 5&nbsp;pounds, your <a href="#crit_prob">probability of scoring a
+critical hit</a> with that weapon is increased by
+(S@2000)&nbsp;in&nbsp;5000.  In addition, the power of the critical hit is
+computed as though the weapon's weight were (S@400)//10&nbsp;pounds
+greater.
+      </dd>
+      </dl>
+    </dd>
+    <dt><a name="axe">Axe-mastery</a></dt>
+    <dd>
+    <p>
+Axe-mastery covers the following weapons:
+<ul compact>
+<li> Hatchet
+<li> Cleaver
+<li> Light War Axe
+<li> Beaked Axe
+<li> Broad Axe
+<li> Battle Axe
+<li> Great Axe
+<li> Lochaber Axe
+<li> Slaughter Axe
+</ul>
+<p>
+Its effects are described in <a href="#combat_sub">the "Submasteries" entry
+under Weaponmastery</a>.
+    </dd>
+    <dt><a name="hafted">Hafted-mastery</a></dt>
+    <dd>
+    <p>
+Hafted-mastery covers the following weapons:
+<ul compact>
+<li> Club
+<li> Whip
+<li> Quarterstaff
+<li> Mace
+<li> Ball-and-Chain
+<li> War Hammer
+<li> Lucerne Hammer
+<li> Three Piece Rod
+<li> Morning Star
+<li> Flail
+<li> Lead-Filled Mace
+<li> Two-Handed Flail
+<li> Great Hammer
+<li> Mace of Disruption
+<li> Mighty Hammer (of Grond, presumably)
+</ul>
+<p>
+Its effects are described in <a href="#combat_sub">the "Submasteries" entry
+under Weaponmastery</a>.
+      <dl>
+      <dt><a name="haft_stun">Stunning-blows</a></dt>
+      <dd>
+      <p>
+If you are wielding a weapon covered by the Hafted-mastery skill that
+weighs more than 5&nbsp;pounds and you score a critical hit with that weapon,
+the monster will be stunned with probability S&nbsp;percent.  If the
+monster is not currenly stunned, the stunning will last (S@60)+20 game
+turns (where 10 game turns corresponds to one player turn at normal speed);
+if it is already stunned, the stunning duration is increased by (S@30)+10
+game turns, to a maximum of 200 game turns.
+      </dd>
+      </dl>
+    </dd>
+    <dt><a name="polearm">Polearm-mastery</a></dt>
+    <dd>
+    <p>
+Polearm-mastery covers the following weapons:
+<ul compact>
+<li> Spear
+<li> Sickle
+<li> Awl-Pike
+<li> Trident
+<li> Fauchard
+<li> Broad Spear
+<li> Pike
+<li> Glaive
+<li> Halberd
+<li> Guisarme
+<li> Scythe
+<li> Lance
+<li> Trifurcate Spear
+<li> Heavy Lance
+<li> Scythe of Slicing
+</ul>
+<p>
+Its effects are described in <a href="#combat_sub">the "Submasteries" entry
+under Weaponmastery</a>.
+    </dd>
+    </dl>
+  </dd>
+  <dt><a name="archery">Archery (FF)</a></dt>
+  <dd>
+  <p>
+For notational convenience, we will use the technically ungrammatical
+singular "an ammo" in the following to refer to a single launched arrow,
+bolt or shot.
+  <ul>
+  <li> Your <a href="#abil_bow">Bows/Throw</a> ability is increased by
+  (<a href="#classmod">CM</a>&times;7&times;S)/100.
+  <li> Your probability of scoring a critical hit with a ranged attack is
+  increased by (S@100)//50&nbsp;percent.
+  <li> The probability of an ammo breaking when thrown at a monster,
+  normally 50&nbsp;percent for arrows and 25&nbsp;percent for shots and
+  bolts, is divided by (S@10), rounded down to the nearest percent; thus,
+  at skill level 50, arrows break with probability 5&nbsp;percent, and
+  bolts break with probability 2&nbsp;percent.  This does not apply to
+  boomerangs, which have a constant 1-percent breakage chance.
+  <li> <a name="archery_pierce" href="#archery_sub_pierce">A piercing
+  shot</a> will pass through a hit monster with probability
+  S+45&nbsp;percent, unless it has already done so the maximum number of
+  times, as determined by the Combat skill <a href="#combat_pierce">above</a>.
+  <li> If you have the <tt>Ammo creation</tt> ability, the types of ammo
+  that can be forged via the "<tt>Forge ammo</tt>" command under the
+  '<tt>m</tt>' menu depend on&nbsp;S:
+    <ul>
+    <li> If S&ge;1, you can forge shots from rubble.  [We will describe the
+    process for doing so here, since it is different from that of forging
+    shots and bolts, and this difference has apparently confused many
+    people (including, at one time, the author): First stand next to the
+    pile of rubble; then select the "<tt>Forge ammo</tt>" skill under the
+    '<tt>m</tt>' menu , select "<tt>[S]hots</tt>", and indicate the
+    direction to the pile of rubble when prompted.]
+    <li> If S&ge;10, you can forge arrows out of junk in your inventory or
+    at your feet ("junk" here means things like Broken sticks and Elf
+    skeletons -- but not skeletons dropped by killed monsters).
+    <li> If S&ge;20, you can forge bolts out of junk in your inventory or
+    at your feet.
+    </ul>
+  </ul>
+  <p>
+<a name="archery_sub"><b>Submasteries:</b></a>  You can also gain
+additional effects depending on your skill level in the sub-skill of
+Archery corresponding to your wielded launcher (as described below):
+  <ul>
+  <li> You receive a to-hit bonus of +(S@25) for ranged attacks.
+  <li> You receive a bonus to shots (as per a launcher of Extra Shots) of
+  S/16.  Not applied to boomerangs.
+  <li> You receive a bonus to multiplier (as per a launcher of Extra Might)
+  of S/25, with an additional +1&nbsp;bonus if S&ge;30 and you have the
+  corresponding ammo in your quiver.  Not applied to boomerangs.
+  <li> <a name="archery_sub_pierce">If S&ge;26</a>, you can activate the
+  "Fire piercing shots" option under the '<tt>m</tt>' menu, which will
+  cause a thrown ammo to pass through a hit monster with some probability;
+  see also notes under <a href="#combat_pierce">Combat</a> and
+  <a href="#archery_pierce">Archery</a>.  <i>[Actually, you can activate
+  piercing shots as soon as S&gt;0; it just doesn't have any effect until
+  S&ge;26. -ed]</i>
+  </ul>
+    <dl>
+    <dt><a name="sling">Sling-mastery</a></dt>
+    <dd>
+    <p>
+Sling-mastery covers pebbles and iron/mithril shots launched by slings.
+Its effects are described in <a href="#archery_sub">the "Submasteries"
+entry under Archery</a>.
+    </dd>
+    <dt><a name="bow">Bow-mastery</a></dt>
+    <dd>
+    <p>
+Bow-mastery covers arrows launched by bows.  Its effects are described in
+<a href="#archery_sub">the "Submasteries" entry under Archery</a>.
+    </dd>
+    <dt><a name="crossbow">Crossbow-mastery</a></dt>
+    <dd>
+    <p>
+Crossbow-mastery covers bolts launched by crossbows.  Its effects are
+described in <a href="#archery_sub">the "Submasteries" entry under
+Archery</a>.
+    </dd>
+    <dt><a name="boomerang">Boomerang-mastery</a></dt>
+    <dd>
+    <p>
+Boomerang-mastery covers boomerangs thrown from the launcher slot.  In
+addition to the effects described in <a href="#archery_sub">the
+"Submasteries" entry under Archery</a>, you also gain an addition +S/3
+to-hit bonus when throwing a boomerang.
+    </dd>
+    </dl>
+  </dd>
+  <dt><a name="barehand">Barehand-combat (FF)</a></dt>
+  <dd>
+  <p>
+In addition to the effects described in
+<a href="#melee_style">the "Melee styles" entry under Combat</a>,
+the following effects are applied if you have selected the "<tt>Barehanded
+combat</tt>" melee style under the '<tt>m</tt>' menu:
+  <ul>
+  <li> If you are not wearing heavy armor (total armor weight in pounds no
+  more than 10+(S&times;4)//10), you will receive the following effects:
+    <ul>
+    <li> A speed bonus of +(S@5).
+    <li> Free action if S&ge;25.
+    <li> Armor-class bonuses, as follows (cumulative):
+      <ul>
+      <li> (S@75) if not wearing body armor.
+      <li> (S-13)/3 if not wearing a cloak and S&ge;15.
+      <li> (S-8)/3 if not wearing a shield and S&ge;10.
+      <li> (S-2)/3 if not wearing a helmet and S&ge;4.
+      <li> S/2 if not wearing gloves.
+      <li> S/3 if not wearing boots.
+      </ul>
+    </ul>
+  <li> If you are not wielding any melee weapons, you will receive
+  a&nbsp;+S/3 bonus to-hit and to-damge and a bonus to number of attacks,
+  as follows:
+    <ul>
+    <li> +1 if S&ge;10.
+    <li> +2 if S&ge;20.
+    <li> +3 if S&ge;30.
+    <li> +4 if S&ge;35.
+    <li> +5 if S&ge;40.
+    <li> +6 if S&ge;45.
+    <li> +7 if S=50.
+    </ul>
+    <p>
+  If you are wearing heavy armor, as defined above, the attack bonus is
+  halved and the to-hit and to-damage bonuses are lost.
+  </ul>
+  <p>
+If you have Dodge skill, your Barehanded-combat skill is applied as a
+percentage bonus to your dodging probability (as described <a href="#skill_dodge">therein</a>).
+  </dd>
+  <dt><a name="bearform">Bearform-combat</a></dt>
+  <dd>
+  <p>
+In addition to the effects described in
+<a href="#melee_style">the "Melee styles" entry under Combat</a>,
+the following effects are applied if you have selected the "<tt>Bearform
+combat</tt>" melee style:
+  <ul>
+  <li> 2+S/5 blows per round
+  <li> -S/5 to-hit
+  <li> +S/2 melee damage
+  </ul>
+<p>
+Note that in order to select Bearform combat, you must be in bear form
+(hence the name).  Bear form has the following effects (where L&nbsp;is
+your level):
+  <ul>
+  <li> -5+(L/5) speed [-5-(L/5) for v2.2.6 and earlier]
+  <li> +5+(L&times;2)/3 to armor class
+  <li> +L/11 STR
+  <li> +L/11 INT
+  <li> +L/11 WIS
+  <li> -1 DEX
+  <li> +L/11 CON
+  <li> -10 CHR
+  <li> Free action if L&ge;10
+  <li> Regeneration if L&ge;20
+  <li> Resist confusion if L&ge;30
+  <li> Resist nexus if L&ge;35
+  </ul>
+  </dd>
+  <dt><a name="boulder">Boulder-throwing</a></dt>
+  <dd>
+  <p>
+If&nbsp;S&ge;1, you can create boulders from granite walls via the
+"<tt>Tear down a wall to create boulders</tt>" option from the '<tt>m</tt>'
+menu.
+A thrown boulder does damage (5d5+(S@80))&times;(S@6) and has range
+((R+20)&times;(10+2&times;(S@6)))/50 to a maximum of&nbsp;10+2&times;(S@6),
+where R&nbsp;is a STR-based adjustment (see <a href="#statadj">below</a>).
+  </dd>
+  <dt><a name="antimagic">Antimagic (FF)</a></dt>
+  <dd>
+  <p>
+The Antimagic skill has the following effects:
+  <ul>
+  <li> If&nbsp;S&ge;1, you will be unable to cast spells, use staffs, wands
+  or rods, or use powers from the Mindcraft, Mimicry, Thaumaturgy,
+  Possession, Necromancy, Runecraft, Summoning, or Symbiosis skills.  You
+  will also automatically abandon any god you were following, and will not
+  be able to take up a new god.
+  <li> Your anti-magic field has strength&nbsp;S and radius 1+(S@10).
+  "Strength" here denotes the percent chance that a monster within the
+  field's radius will be prevented from casting a spell.
+  <li> A wielded Dark Sword increases the strength of your anti-magic field
+  by&nbsp;10+(S@40)-X, where X&nbsp;is the sum of the Dark Sword's pval and
+  to-hit, damage and armor class bonuses.  The radius of the field is
+  increased by 1+(S@4)-X/15.
+  <li> If S&ge;20, you can disrupt the space-time continuum, preventing
+  teleportation (yours and monsters').
+  <li> If S&ge;25, you can detect traps; if S&ge;35, this will also
+  destroy adjacent doors and traps.
+  </ul>
+  </dd>
+  </dl>
+</dd>
+<dt><a name="sneakiness">Sneakiness (FF)</a></dt>
+<dd>
+<p>
+Your <a href="#abil_srch">Searching</a> and
+<a href="#abil_perc">Perception</a> abilities are increased by
+S+(S@(5&times;<a href="#classmod">CM</a>)).
+  <dl>
+  <dt><a name="stealth">Stealth (FF)</a></dt>
+  <dd>
+  <p>
+Your <a href="#abil_stl">Stealth</a> ability is increased by
+(S@25)+(S@(5&times;<a href="#classmod">CM</a>)).
+  </dd>
+  <dt><a name="disarm">Disarming (FF)</a></dt>
+  <dd>
+  <p>
+Your <a href="#abil_dis">Disarming</a> ability is increased by
+(S@(5&times;<a href="#classmod">CM</a>)).
+  </dd>
+  <dt><a name="backstab">Backstab</a></dt>
+  <dd>
+  <p>
+If you have the Backstab skill, the total damage (including all to-damage
+bonuses) of a melee attack on a sleeping monster that is visible to you is
+multiplied by 1+(S@100)//100; the total damage of a melee attack on a
+fleeing monster is multiplied by 1+(S@70)//100.
+  </dd>
+  <dt><a name="stealing">Stealing</a></dt>
+  <dd>
+  <p>
+The Stealing skill has the following effects (D&nbsp;denotes the stat index
+of your&nbsp;DEX, as shown <a href="#statadj">below</a>; W&nbsp;denotes the
+weight of the item to be stolen in tenths of a pound):
+  <ul>
+  <li> Your probability of stealing an item from a monster without being
+  noticed is (S@25)+1&nbsp;in&nbsp;41-D+(S@29)+(W/1+(S@19))+M-Z, where
+  M&nbsp;is the monster's level and Z&nbsp;is 10 if the monster is asleep,
+  0 otherwise.
+  <li> Your probability of successfully stealing an item from a store is
+  11&nbsp;in&nbsp;40-D-(S@15)+(W&times;N)/(5+(S@15)), where N&nbsp;is the
+  number of items to be stolen.
+  </ul>
+  </dd>
+  <dt><a name="skill_dodge">Dodging</a></dt>
+  <dd>
+  <p>
+Your "base dodge chance", denoted&nbsp;BDC, is
+(S@150)+Sb-(2&times;Wa)-Wt/100, where Sb&nbsp;is your Barehanded-combat
+skill level rounded down to the nearest integer, Wa&nbsp;is the total
+weight of worn armor (body armor, helm, gloves, boots, shield and cloak)
+in tenths of a pound, and Wt&nbsp;is the total weight of everything you are
+carrying in tenths of a pound.  Given this, your chance of dodging a melee
+attack from a level-M monster is BDC-(M&times;5)/6&nbsp;percent, and your
+probability of dodging a bolt attack from a level-M monster is
+(BDC-(M&times;5)/6)/3&nbsp;percent.
+  </dd>
+  </dl>
+</dd>
+<dt><a name="magic">Magic (FF)</a></dt>
+<dd>
+<p>
+The Magic skill has the following effects:
+<ul>
+<li> Your maximum mana is 1+(S@200)+(M&times;L)/4, where L&nbsp;is your
+level and M&nbsp;is an adjustment amount based on your&nbsp;INT or&nbsp;WIS
+(see <a href="#statadj">below</a>).  This is subject to a modifier based on
+subrace (+5% for Spectres, -30% for Skeletons and Zombies, -50% for
+Barbarians, +20% for Hermits), and a cumulative +50% bonus for Mages and
+subclasses thereof [so that, for instance, a 50th&nbsp;level Hermit Mage
+with 18/220&nbsp;INT and Magic skill level&nbsp;50 will have a maximum mana
+of ((1+200+(18&times;50)/4)&times;120//100)&times;150//100=766].
+<li> A given "magical" item (potions, scrolls, wand, staves, rods and rod
+tips) in your inventory or equipment will pseudo-ID on a given turn with
+probability 1&nbsp;in&nbsp;12000/(S+5); if S&ge;11, the pseudo-ID will be
+"heavy" (<tt>{average}</tt> detection, distinguishing <tt>{good}</tt> from
+<tt>{excellent}</tt>, and so forth).
+<li> After completing the Thieves quest, the next quest offered at the Bree
+Mayor's office will be the Wight quest with probability 95% if your Magic
+skill is higher than your Combat skill, 5% if it is lower, and 50% if they
+are equal; otherwise, it will be the Troll quest.
+</ul>
+<p>
+For sub-skills of Magic that correspond to spell schools, see the
+associated <a href="spell-220.html">ToME Spell Spoiler</a>.
+  <dl>
+  <dt><a name="device">Magic-Device (FF)</a></dt>
+  <dd>
+  <p>
+The Magic-Device skill has the following effects:
+  <ul>
+  <li>
+Your <a href="#abil_dev">Magic Device</a> ability is increased by
+(S@20)+(S@(10&times;<a href="#classmod">CM</a>)).
+  <li>
+Using a Wand/Staff of &lt;<i>spell-name</i>&gt;[M|N] is equivalent to
+casting the given spell with spell effect level S+M-L+1, with a minimum
+of&nbsp;0 and a maximum of&nbsp;N, where L&nbsp;is the level of the spell
+on the wand/staff.  See <a href="spell-220.html#effect">the spell
+spoiler</a> for the definition of spell effect level and the effects of the
+spells at different spell effect levels, and for the allowed values
+of&nbsp;M and&nbsp;N for various spells.
+  </ul>
+  </dd>
+  <dt><a name="spellpower">Spell-power</a></dt>
+  <dd>
+  <p>
+For spells in most spell schools, the spell effect level (see notes in
+<a href="spell-220.html#effect">the spell spoiler</a>) is increased
+by&nbsp;S@20.  </dd>
+  <dt><a name="sorcery">Sorcery (NG)</a></dt>
+  <dd>
+  <p>
+The Sorcery skill has the following effects:
+  <ul>
+  <li>
+Many spells can be cast using Sorcery skill instead of the associated
+school skill; see notes in <a href="spell-220.html#sorcery">the spell
+spoiler</a>.
+  <li>
+Your max hit points are reduced by&nbsp;S%.
+  </ul>
+  </dd>
+  <dt><a name="mana">Mana (NG)</a></dt>
+  <dd>
+  <p>
+If&nbsp;S&ge;35, your maximum mana is multiplied by 1+(S-34)//100.  See
+<a href="spell-220.html#mana">the spell spoiler</a> for notes on the effect
+of Mana skill on Mana spells.
+  </dd>
+  <dt><a name="geomancy">Geomancy</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#geomancy">the spell spoiler</a> for notes on the
+effect of Geomancy skill on Geomancy spells.
+    <dl>
+    <dt><a name="fire">Fire (NG)</a></dt>
+    <dd>
+    <p>
+See <a href="spell-220.html#fire">the spell spoiler</a> for notes on the
+effect of Fire skill on Fire spells.
+    </dd>
+    <dt><a name="water">Water (NG)</a></dt>
+    <dd>
+    <p>
+If&nbsp;S&ge;30, you gain the ability to breath underwater.
+See <a href="spell-220.html#water">the spell spoiler</a> for notes on the
+effect of Water skill on Water spells.
+    </dd>
+    <dt><a name="air">Air (NG)</a></dt>
+    <dd>
+    <p>
+If&nbsp;S=50, you gain the ability to breathe without air.  [Note that
+unlike other sources of magical breathing, such as Cloaks of Air, this does
+not also confer the ability to breathe underwater.]
+See <a href="spell-220.html#air">the spell spoiler</a> for notes on the
+effect of Air skill on Air spells.
+    </dd>
+    <dt><a name="earth">Earth (NG)</a></dt>
+    <dd>
+    <p>
+See <a href="spell-220.html#earth">the spell spoiler</a> for notes on the
+effect of Earth skill on Earth spells.
+    </dd>
+    </dl>
+  </dd>
+  <dt><a name="meta">Meta</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#meta">the spell spoiler</a> for notes on the
+effect of Meta skill on Meta spells.
+  </dd>
+  <dt><a name="conveyance">Conveyance (FF)</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#conveyance">the spell spoiler</a> for notes on the
+effect of Conveyance skill on Conveyance spells.
+  </dd>
+  <dt><a name="divination">Divination (FF)</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#divination">the spell spoiler</a> for notes on the
+effect of Divination skill on Divination spells.
+  </dd>
+  <dt><a name="temporal">Temporal</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#temporal">the spell spoiler</a> for notes on the
+effect of Temporal skill on Temporal spells.
+  </dd>
+  <dt><a name="mind">Mind</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#mind">the spell spoiler</a> for notes on the
+effect of Mind skill on Mind spells.
+  </dd>
+  <dt><a name="nature">Nature</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#nature">the spell spoiler</a> for notes on the
+effect of Nature skill on Nature spells.
+  </dd>
+  <dt><a name="udun">Udun</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#udun">the spell spoiler</a> for notes on the
+effect of Udun skill on Udun spells.
+  </dd>
+  <dt><a name="demonology">Demonology</a></dt>
+  <dd>
+  <p>
+The Demonology skill is gained automatically when you acquire the Demon
+Realm corruption.  It has the following effects:
+  <ul>
+  <li> If S&gt;20, you gain resist confusion.
+  <li> If S&gt;30, you gain resist fear.
+  </ul>
+  <p>
+See <a href="spell-220.html#demonology">the spell spoiler</a> for notes on the
+effect of Demonology skill on Demonology spells.
+  </dd>
+  <dt><a name="necromancy">Necromancy (FF)</a></dt>
+  <dd>
+  <p>
+The Necromancy skill has the following effects:
+  <ul>
+  <li> The failure rate for using Necromancy powers is reduced by
+  (S-L)&times;3&nbsp;percent, where L is the "spell level" of the power
+  (subject to a CON-based minimum fail rate; see <a href="#statadj">below</a>.
+  <li> Necromancy powers are affected as follows (P&nbsp;denotes the
+  spell-power boost conferred by a Mage Staff of Power or similar
+  equipment):
+    <ul>
+    <li> The effects of Horrify are based on its power level,
+    N=(2+(S&times;2)/3)d4+P&times;2:  it causes stunning for 1+(3+L/10)dN
+    turns (where L&nbsp;is your experience level) and fear for 1+3d(N/2)
+    turns.  A level-M monster will resist these effects with probability
+    M-1&nbsp;in&nbsp;N, or M-1&nbsp;in&nbsp;11 if&nbsp;N&le;10; separate
+    checks are done for the two effects.  The area of effect is a bolt if
+    S&le;20, a beam if 21&le;S&le;35, a ball of radius 3+S/10 if
+    36&le;S&le;45, or line of sight if S&gt;45.
+    <li> Raise Dead reanimates corpses in a radius of 1+S/10+P/2, and
+    heals monsters in that radius by S&times;3 hit points, increasing max
+    hit points if necessary.
+    <li> The temporary weapon created by Necromantic Teeth lasts
+    200+S&times;3+1d(100+S&times;4) turns.  Any random additional magic is
+    applied as though the weapon were found on dungeon level S&times;2.
+    <li> Absorb Soul lasts 50+S+1d(30+S&times;2) turns; each soul absorbed
+    during that time heals you by 1+M/2+(S@40) hit points, where M&nbsp;is
+    the level of the monster killed.
+    <li> Vampirism fires S/15+P/2+1 bolt effects in the specified
+    direction; each attempts to drain 100 hit points from the affected
+    monster, and if successful, heals you by 100 hit points.  Undead,
+    demons, non-living monsters and monsters displayed as '<tt>E</tt>',
+    '<tt>g</tt>' and '<tt>v</tt>' are not affected.
+    <li> After casting Death, you must kill S+1d(S/2)-S/4-1 monsters to
+    regain life.
+    </ul>
+  <li> The results of a backfire from a failed use of Necromancy powers are
+  affected as follows:
+    <ul>
+    <li> If you are forced into undead form, you must kill S&times;2
+    monsters to regain life.
+    <li> If undead are summoned, they will be greater undead
+    if&nbsp;S&ge;30.
+    <li> If you take damage, the amount is&nbsp;5dS.
+    </ul>
+  </ul>
+  </dd>
+  <dt><a name="runecraft">Runecraft</a></dt>
+  <dd>
+  <p>
+The mana cost of a runespell is increased by P&times;(S/5), where P&nbsp;is
+the sum of the difficulty modifiers of all secondary runes used in the
+runespell (+0 for Self and Arrow, +1 for Ray, +2 for Sphere, +3 for
+Armageddon, +4 for Power Surge).
+  <p>
+<i>[Yes, that's apparently </i>all<i> it does.  This is generally
+considered a bug, and is hoped to be fixed in later versions.  -ed]</i>
+  </dd>
+  <dt><a name="thaumaturgy">Thaumaturgy (FF) (NG)</a></dt>
+  <dd>
+  <p>
+The Thaumaturgy skill has the following effects:
+  <ul>
+  <li>
+  You will have a total of (S@100) Thaumaturgy spells, receiving additional
+  spells as your skill increases.
+  <li>
+  The probability of failure when casting a Thaumaturgy spell of
+  level&nbsp;L is reduced by 3&times;(S-L)&nbsp;percent (subject to an
+  INT-based minimum fail rate; see <a href="#statadj">below</a>).
+  </ul>
+  </dd>
+  <dt><a name="alchemy">Alchemy</a></dt>
+  <dd>
+  <p>
+The most important effects of the Alchemy skill are described in the
+<a href=".www.t-o-m-e.net/docs/essences.php">Essence spoiler</a>
+included in ToME's in-game documentation.  Other effects are as follows:
+  <ul>
+  <li>
+  A temporary artifact will revert after S&times;S&times;3 turns.
+  <li>
+  When extracting essences from an item, you will lose some of the essences
+  with probability 52-S&nbsp;in&nbsp;156.  This probability is checked
+  separately for each type of essence in the item's recipe; the usual
+  number of extracted essences, N, is reduced to either N/2 or N/3, with
+  equal probability.
+  <li>
+  The explosion from an alchemy failure does 3d(L-S) damage, where
+  L&nbsp;is the object's level plus the level of the ego type, if any.
+  <li>
+  If you learn an item's recipe while extracting its essences (this happens
+  with probability 1&nbsp;in&nbsp;3) and S&ge;10, you will also gain full
+  knowledge of the item, as per a Scroll of *Identify*.
+  <li>
+  The various bonuses of a created item (to-hit, to-dam and armor class
+  bonuses, and pval-based bonuses for rings and amulets) are computed as
+  though the object appeared on dungeon level S&times;2.
+  </ul>
+  </dd>
+  </dl>
+</dd>
+<dt><a name="spirituality">Spirituality (FF)</a></dt>
+<dd>
+<p>
+Your <a href="#abil_sav">Saving Throw</a> ability is increased by
+(S@(5&times;<a href="#classmod">CM</a>))+X, where X&nbsp;is a "stat"-based
+adjustment using (S@37) as the "stat index" (see <a href="#statadj">below</a>).
+  <dl>
+  <dt><a name="prayer">Prayer</a></dt>
+  <dd>
+  <p>
+Prayer skill is used to cast god spells; see notes in
+<a href="spell-220.html#godspell">the spell spoiler</a> for its effects.
+Depending on what god you worship, it can also be used to cast spells in
+some other schools, as detailed in <a href="spell-220.html#prayer">the
+spell spoiler</a>.
+  </dd>
+  <dt><a name="druid">Druidistic</a></dt>
+  <dd>
+  <p>
+<i>[This skill is defined in the info files, but AFAICT it is never used in
+the game and no class can ever gain the skill.  It is reportely a relic
+left over from older versions of ToME, in which it apparently gave access
+to spells in the Druidic realm.  It is noted here solely for historical
+interest.  -ed]</i>
+  </dd>
+  <dt><a name="mindcraft">Mindcraft (FF)</a></dt>
+  <dd>
+  <p>
+The Mindcraft skill has the following effects:
+  <ul>
+  <li> The failure rate for using Mindcraft powers is reduced by
+  (S-L)&times;3&nbsp;percent, where L is the "spell level" of the power
+  (subject to a WIS-based minimum fail rate; see
+  <a href="#statadj">below</a>).
+  <li> If S&ge;40, you receive ESP for all monster types.
+  <li> Various mindcraft powers are affected as follows:
+    <ul>
+    <li> Neural Blast does damage (3+(S-1)/4)d(3+S/15).  It fires a beam
+    with probability S&times;2&nbsp;percent; otherwise, it fires a
+    radius-zero ball (different from a bolt in that it can be shot "over" a
+    monster at another behind it).
+    <li> Major Displacement has range&nbsp;S&times;5; Minor Displacement has
+    range&nbsp;10.
+    <li> Pulverise fires a ball of radius&nbsp;(S-20)/8+1 (or 0
+    if&nbsp;S&le;20), doing damage (8+(S-5)/4)d8 at the center.
+    <li> Mindwave does base damage S&times;3/2 in a radius of 2+S/10 around
+    you if S&lt;25.  If S&ge;25, it does S&times;(1+(S-5)/10) damage to all
+    monsters in line of sight.
+    <li> Character Armor lasts S&nbsp;turns.
+    <li> Adrenaline Channeling heals S&nbsp;hit points; its temporary
+    effects (haste, heroism) last 10+1d((S&times;3)/2) turns.
+    <li> Psychic Drain fires a ball of radius (S-25)/10 doing base damage
+    (S/2)d6.
+    <li> Telekinesis does base damage S&times;3 (S&times;4 if S&ge;40) in a
+    radius of 3+S/10 around you.
+    </ul>
+    <p>
+    Other effects described in the
+    <a href=".www.t-o-m-e.net/docs/m_mindcr.php">in-game Mindcraft
+    powers help file</a> are not listed here.
+  </ul>
+  </dd>
+  <dt><a name="music">Music</a></dt>
+  <dd>
+  <p>
+See <a href="spell-220.html#music">the spell spoiler</a> for notes on the
+effect of Music skill on Music spells.
+  </dd>
+  </dl>
+</dd>
+<dt><a name="mlore">Monster-lore (FF)</a></dt>
+<dd>
+<p>
+The Monster-lore skill can be gained or improved by completing a Bounty
+quest from the Beastmaster Shanty.  It has the following effects:
+<ul>
+<li> You will gain (S@120)&nbsp;percent of the usual experience for a
+monster killed by your pet.  (Yes, that's 120% at skill level 50.)
+<li> If S&ge;12, you can turn a pet into a companion, which will follow you
+when you leave the current dungeon level.
+<li> You can have at most 1+(S@6) companions.
+</ul>
+  <dl>
+  <dt><a name="summoning">Summoning (FF)</a></dt>
+  <dd>
+  <p>
+The Summoning skill has the following effects (where M&nbsp;denotes the
+monster level of the corpse or totem being used):
+  <ul>
+  <li> Creating a totem from a corpse will fail with probability
+  M-S&nbsp;percent.
+  <li> A true totem of a non-unique monster will be destroyed upon use with
+  probability (M&times;25)/S&nbsp;percent.  (True totems of unique monsters
+  are always destroyed upon use.)
+  <li> A monster created from a true totem will be a pet with probability
+  (S&times;130)/(M+1)&nbsp;percent if non-unique, or
+  (S&times;70)/(M+1)&nbsp;percent if unique.
+  <li> A monster created from a partial totem costs ((M&times;100)/S)//100
+  mana per turn to maintain.
+  </ul>
+  </dd>
+  <dt><a name="preserv">Corpse-preservation</a></dt>
+  <dd>
+  <p>
+The Corpse-preservation skill can be gained by completing a Bounty quest
+from the Beastmaster Shanty (if you already have the skill, though, a
+Bounty quest won't improve it).  It has the following effects:
+  <ul>
+  <li> A given monster will leave a corpse when killed with probability
+  10+(S@75)&nbsp;percent, unless it is of a monster type that never leaves
+  corpses.
+  <li> When using Possessor power to leave your body to possess a corpse,
+  the probability of your previous-body corpse rotting on departure is
+  75-S-(Sp@25)&nbsp;percent, where Sp&nbsp;is your Possession skill.
+  </ul>
+  </dd>
+  <dt><a name="possession">Possession</a></dt>
+  <dd>
+  <p>
+The Possession skill has the following effects (where L&nbsp;denotes the
+monster level of your possessed body):
+  <ul>
+  <li> When leaving your body to possess a corpse, the probability of your
+  previous-body corpse rotting on departure is 75-(S@25)-Sp&nbsp;percent,
+  where Sp&nbsp;is your Corpse-preservation skill.
+  <li> In order to use the "major" powers of your possessed body, you must
+  have (S@100)&ge;L.  Major powers include most breath, bolt and ball
+  attacks (except fire, frost, acid and lightning), most summoning spells,
+  the more powerful cause-wounds spells, firing rockets and the Hand of
+  Doom.
+  <li> Using a monster power of a possessed body will cost no mana with
+  probability S+X/2&nbsp;in&nbsp;M+L, where M&nbsp;is the base mana cost for
+  the monster power and X&nbsp;is a WIS-based adjustment using the "Max wgt
+  cap" column (see <a href="#statadj">below</a>).
+  <li> Your maximum hit&nbsp;points in your possessed body will be
+  (OH+BH+SBH)/3, where OH&nbsp;is your maximum hit&nbsp;points in your
+  original body, BH&nbsp;is 20+(S@80)&nbsp;percent of your possessed body's
+  maximum hit&nbsp;points, and SBH&nbsp;is the square root of&nbsp;BH,
+  rounded to the nearest integer.
+  </ul>
+  </dd>
+  <dt><a name="symbiosis">Symbiosis (FF)</a></dt>
+  <dd>
+  <p>
+The Symbiosis skill has the following effects:
+  <ul>
+  <li> The failure rate of using a symbiosis power is reduced by
+  (S-L)&times;3&nbsp;percent, where L&nbsp;is the "spell level" of the
+  power (subject to an INT-based minimum fail rate; see
+  <a href="#statadj">below</a>).
+  <li> The probability of failing to charm a never-moving monster is
+  M&nbsp;in&nbsp;S&times;3, where M&nbsp;is the monster's level.
+  <li> The "Heal Symbiote" power heals 15+(S@35)&nbsp;percent of your
+  symbiote's maximum HP level.
+  <li> On any given turn, your symbiote might rebel and attack you if
+  S+(2&times;L)&lt;M, where L&nbsp;is your level and M&nbsp;is your
+  symbiote's monster level.  The probability of it doing so is
+  M-(2&times;L)-S&nbsp;in&nbsp;1000.
+  <li> Your symbiote will take the damage from a given attack instead of
+  you with probability S+5&nbsp;percent.
+  </ul>
+  </dd>
+  <dt><a name="mimicry">Mimicry (FF)</a></dt>
+  <dd>
+  <p>
+The Mimicry skill has the following effects:
+  <ul>
+  <li> When using a Mimicry cloak (Mouse Fur, Feathers Cloak, and the
+  like), the failure rate is reduced by (S@150)&nbsp;percent (subject to a
+  minimum of 2&nbsp;percent), and the duration is increased
+  by&nbsp;(S@1000)&nbsp;turns.
+  <li> When using other mimic powers, the failure probability is decreased
+  by (S-L)&times;3&nbsp;percent, where L&nbsp;is the "spell level" of the
+  power (subject to a DEX-based minimum fail rate; see
+  <a href="#statadj">below</a>), and the duration is
+  50+1d(50+S&times;2)&nbsp;turns (except for Invisibility, for which the
+  duration is 10+S+1d20+P, where P&nbsp;is the spell-power boost conferred
+  by a Mage Staff or Power or similar equipment).
+  <li> The probability of resisting an abomination attack is increased by
+  S&nbsp;percent.
+  </ul>
+  <p>
+The effects of using a Mimicry cloak are also modified by Mimicry skill, as
+follows:
+  <ul>
+  <li> Mouse Fur (mouse):
+    <ul>
+    <li> +5+(S/7) speed
+    <li> +10+(S/5) melee to-hit
+    <li> Melee to-damage bonus reduced to 20% normal
+    <li> +10+(S/5) stealth
+    <li> -5 STR
+    <li> +3 DEX
+    <li> +1 CON
+    <li> Invisibility power if&nbsp;S&ge;30
+    </ul>
+  <li> Feathers Cloak (eagle):
+    <ul>
+    <li> -3 STR
+    <li> +2 DEX
+    <li> +4 CON
+    <li> -1 INT
+    <li> +1 WIS
+    <li> -1 CHR
+    <li> Flight if&nbsp;S&ge;20
+    <li> Free action if&nbsp;S&ge;25
+    </ul>
+  <li> Wolf Pelt (wolf):
+    <ul>
+    <li> +2+(S/20) STR
+    <li> +3+(S/20) DEX
+    <li> -3 INT
+    <li> -2 CHR
+    <li> +10+(S/5) speed
+    <li> Free action
+    <li> Resist fear
+    <li> See invisible if&nbsp;S&ge;15
+    <li> Resist dark if&nbsp;S&ge;30
+    <li> Resist confusion if&nbsp;S&ge;35
+    </ul>
+  <li> Spider Web (spider):
+    <ul>
+    <li> -4 STR
+    <li> +1 DEX
+    <li> +1+(S/5) INT
+    <li> +1+(S/5) WIS
+    <li> -5 CON
+    <li> -10 CHR
+    <li> +5 speed
+    <li> Resist poison, fear and dark
+    <li> Mountain climbing if&nbsp;S&ge;40
+    <li> Make-web power if&nbsp;S&ge;25
+    </ul>
+  <li> Entish Bark (Ent):
+    <ul>
+    <li> -5-(S/10) speed
+    <li> +10+S armor class
+    <li> Resist poison and cold
+    <li> Free action
+    <li> Regeneration
+    <li> See invisible
+    <li> Sensitivity to fire
+    <li> +S/5 STR
+    <li> -S/7 INT
+    <li> -S/7 WIS
+    <li> -4 DEX
+    <li> +S/5 CON
+    <li> -7 CHR
+    <li> Grow-trees power
+    </ul>
+  </ul>
+  <p>
+[Note that when using the corresponding Morphic&nbsp;Oils, these effects
+are computed based on (L&times;2)/3 instead of&nbsp;S, where L&nbsp;is your
+level.]
+  </dd>
+  </dl>
+</dd>
+</dl>
+<h2><a name="abil_eff">Ability effects</a></h2>
+<p>
+Specifying how much a skill level affects an ability level, of course, just
+pushes the question back another stage:  what effect, then, does the
+ability have?  Here we attempt to quantitatively describe some of these
+effects.  We denote by&nbsp;A the ability level of the ability in question.
+<dl>
+<dt><a name="abil_fight">Fighting</a></dt>
+<dd>
+<p>
+A melee attack on a monster will miss with probability
+(C&times;3)/4&nbsp;in&nbsp;A+3&times;H+L, where C&nbsp;is the monster's armor
+class, L&nbsp;is a luck-based modifier in the range -10&le;L&le;10,
+and H&nbsp;is your total to-hit bonus from your weapon, STR, DEX,
+skill-based sources and your current mimic form, if any (this amount is
+displayed on the character screen as '<tt>+&nbsp;To Melee&nbsp;Hit</tt>');
+thus, the Fighting ability roughly acts as a +A//3 to-hit for melee attacks.
+<p>
+[NB:  Actually, you will automatically hit with 5% probability and
+automatically miss with 5% probability; the above probability is applied
+the other 90% of the time.  Also, if you cannot see the monster you are
+attacking, the probability is modified to
+(C&times;3)/4&nbsp;in&nbsp;L+(A+3&times;H+1)/2.]
+</dd>
+<dt><a name="abil_bow">Bows/Throw</a></dt>
+<dd>
+<p>
+A ranged attack on a monster will miss with probability
+(C&times;3)/4&nbsp;in&nbsp;A+3&times;H-D+L, where C&nbsp;is the monster's
+armor class, L&nbsp;is a luck-based modifier in the range -10&le;L&le;10,
+D&nbsp;is the distance to the monster,
+and H&nbsp;is your total to-hit bonus from your launcher, ammo, STR, DEX,
+skill-based sources and your current mimic form, if any (this amount is
+displayed on the character screen as '<tt>+&nbsp;To Ranged&nbsp;Hit</tt>');
+thus, the Bows/Throw ability roughly acts as a +A//3 to-hit for ranged
+attacks.  Note that this ability is only applied when shooting ammo from a
+sling, bow or crossbow, and does not affect the use of boomerangs,
+boulders, or other thrown objects.
+<p>
+[NB:  Actually, you will automatically hit with 5% probability and
+automatically miss with 5% probability; the above probability is applied
+the other 90% of the time.  Also, if you cannot see the monster you are
+attacking, the probability is modified to
+(C&times;3)/4&nbsp;in&nbsp;L+(A+3&times;H-D+1)/2.]
+</dd>
+<dt><a name="abil_sav">Saving Throw</a></dt>
+<dd>
+<p>
+With probability A&nbsp;percent, you will successfully avoid the following
+effects:
+<ul>
+<li> Fear from a terrify attack.
+<li> Paralysis from a paralyze attack or spell or a <tt>TY_CURSE</tt>
+("ancient foul curse") or <tt>DG_CURSE</tt> ("ancient Morgothian curse")
+effect.
+<li> Effects of a blindness, confusion, slow, teleport level or mind-blank
+spell.
+<li> Damage and equipment cursing from a cause-wounds spell or the Hand of
+Doom spell.
+<li> Teleport-level or stat-scrambling affects from a nexus attack.
+<li> Effects of a mind-blast or brain-smash attack.  If you fail your
+initial save on a brain-smash attack, you will get additional chances to
+avoid the resulting INT and WIS loss (though not the other effects).
+<li> Backlash effects from a failed Mindcraft attack on a high-level demon
+or undead.
+<li> The abomination effect of failure when using a Mimicry cloak.
+</ul>
+<p>
+You will also resist sanity blasts from eldritch horror (CthAngband)
+monsters with probability A&nbsp;in&nbsp;M+10, where M&nbsp;is the
+monster's level.  Failing this, you will get additional chances to save
+against the individual effects of the sanity blast.
+<p>
+Note that A&nbsp;is increased to a minimum of&nbsp;95 if you are wearing an
+Amulet of Anti-Magic or other item which produces an anti-magic shell (as
+distinct from the antimagic field generated by Dark Swords).
+</dd>
+<dt><a name="abil_stl">Stealth</a></dt>
+<dd>
+<p>
+A sleeping monster will become "less sleepy" (that is, wake up or come
+closer to waking up) in a given turn with probability
+1&nbsp;in&nbsp;2^(A//3).  Note that the maximum allowed value of the
+Stealth ability is&nbsp;30.
+</dd>
+<dt><a name="abil_perc">Perception</a></dt>
+<dd>
+<p>
+You will automatically search adjacent squares on a given turn with
+probability 1&nbsp;in&nbsp;50-A, or every turn if A&ge;50.
+</ul>
+</dd>
+<dt><a name="abil_srch">Searching</a></dt>
+<dd>
+<p>
+You have an A&nbsp;percent chance per turn spent searching to find an
+adjacent secret door, trap or trapped chest (separate check for each).
+</ul>
+</dd>
+<dt><a name="abil_dis">Disarming</a></dt>
+<dd>
+<p>
+In each turn spent attempting to pick the lock of a door or chest or disarm
+a trap or trapped chest, you will succeed with probability
+A-X&nbsp;percent, with a mininum of 2&nbsp;percent, where X&nbsp;is an
+adjustment based on the difficulty of the lock/trap.
+</ul>
+</dd>
+<dt><a name="abil_dev">Magic Device</a></dt>
+<dd>
+<ul>
+<li> When inscribing on the floor, you will fail to detect the grid's mana
+with probability 3&nbsp;in&nbsp;A-(M/10), where M&nbsp;is the grid's mana.
+<li> You will fail when zapping a rod or activating an activateable object
+with probability 2&nbsp;in&nbsp;A-L, where L&nbsp;is the object's level (to
+a maximum of&nbsp;50 or&nbsp;A-1, whichever is less).  If&nbsp;A-L&le;2,
+you will succeed with probability 1&nbsp;in&nbsp;(4-A+L)&times;3.  For
+bjects with the <tt>EASY_USE</tt> flag (mostly Rods of Simplicity),
+A-L is multiplied by&nbsp;10.
+</ul>
+</dd>
+</dl>
+<p>
+<a name="classmod-tbl">The amount</a> by which some skills increase their
+corresponding ability depends on the class modifier for the class/ability
+combo (denoted&nbsp;CM in the skill description), which are as follows:
+<table frame="VOID" rules="GROUPS" align="CENTER">
+<colgroup><colgroup span="8">
+<thead>
+<tr align="RIGHT"><th align="CENTER">Class</th><th>Disarming</th><th>Magic Device</th><th>Saving Throw</th><th>Stealth</th><th>Searching</th><th>Perception</th><th>Fighting</th><th>Bows/Throw</th></tr>
+</thead>
+<tbody>
+<tr align="RIGHT"><td align="CENTER">Axemaster</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>45</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER">Demonologist</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>45</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER">Haftedmaster</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>45</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER">Polearmmaster</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>45</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER">Swordmaster</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>45</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER">Unbeliever</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>45</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER">Warrior</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>45</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER"></td></tr>
+<tr align="RIGHT"><td align="CENTER">Alchemist</td><td>7</td><td>13</td><td>9</td><td>0</td><td>0</td><td>0</td><td>15</td><td>15</td></tr>
+<tr align="RIGHT"><td align="CENTER">Geomancer</td><td>7</td><td>13</td><td>9</td><td>0</td><td>0</td><td>0</td><td>15</td><td>15</td></tr>
+<tr align="RIGHT"><td align="CENTER">Mage</td><td>7</td><td>13</td><td>9</td><td>0</td><td>0</td><td>0</td><td>15</td><td>15</td></tr>
+<tr align="RIGHT"><td align="CENTER">Necromancer</td><td>7</td><td>13</td><td>9</td><td>0</td><td>0</td><td>0</td><td>15</td><td>15</td></tr>
+<tr align="RIGHT"><td align="CENTER">Runecrafter</td><td>7</td><td>13</td><td>9</td><td>0</td><td>0</td><td>0</td><td>15</td><td>15</td></tr>
+<tr align="RIGHT"><td align="CENTER">Sorceror</td><td>7</td><td>13</td><td>9</td><td>0</td><td>0</td><td>0</td><td>15</td><td>15</td></tr>
+<tr align="RIGHT"><td align="CENTER">Thaumaturgist</td><td>7</td><td>13</td><td>9</td><td>0</td><td>0</td><td>0</td><td>15</td><td>15</td></tr>
+<tr align="RIGHT"><td align="CENTER">Warper</td><td>7</td><td>13</td><td>9</td><td>0</td><td>0</td><td>0</td><td>15</td><td>15</td></tr>
+<tr align="RIGHT"><td align="CENTER"></td></tr>
+<tr align="RIGHT"><td align="CENTER">Archer</td><td>8</td><td>10</td><td>10</td><td>0</td><td>0</td><td>0</td><td>30</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER">Ranger</td><td>8</td><td>10</td><td>10</td><td>0</td><td>0</td><td>0</td><td>30</td><td>45</td></tr>
+<tr align="RIGHT"><td align="CENTER"></td></tr>
+<tr align="RIGHT"><td align="CENTER">Assassin</td><td>15</td><td>10</td><td>10</td><td>0</td><td>0</td><td>0</td><td>40</td><td>30</td></tr>
+<tr align="RIGHT"><td align="CENTER">Rogue</td><td>15</td><td>10</td><td>10</td><td>0</td><td>0</td><td>0</td><td>40</td><td>30</td></tr>
+<tr align="RIGHT"><td align="CENTER"></td></tr>
+<tr align="RIGHT"><td align="CENTER">Bard</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>25</td><td>25</td></tr>
+<tr align="RIGHT"><td align="CENTER">Loremaster</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>25</td><td>25</td></tr>
+<tr align="RIGHT"><td align="CENTER">Mimic</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>25</td><td>25</td></tr>
+<tr align="RIGHT"><td align="CENTER">Monk</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>25</td><td>25</td></tr>
+<tr align="RIGHT"><td align="CENTER">Possessor</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>25</td><td>25</td></tr>
+<tr align="RIGHT"><td align="CENTER">Summoner</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>25</td><td>25</td></tr>
+<tr align="RIGHT"><td align="CENTER">Symbiant</td><td>12</td><td>7</td><td>10</td><td>0</td><td>0</td><td>0</td><td>25</td><td>25</td></tr>
+<tr align="RIGHT"><td align="CENTER"></td></tr>
+<tr align="RIGHT"><td align="CENTER">Dark-Priest</td><td>7</td><td>10</td><td>12</td><td>0</td><td>0</td><td>0</td><td>20</td><td>20</td></tr>
+<tr align="RIGHT"><td align="CENTER">Druid</td><td>7</td><td>10</td><td>12</td><td>0</td><td>0</td><td>0</td><td>20</td><td>20</td></tr>
+<tr align="RIGHT"><td align="CENTER">Mindcrafter</td><td>7</td><td>10</td><td>12</td><td>0</td><td>0</td><td>0</td><td>20</td><td>20</td></tr>
+<tr align="RIGHT"><td align="CENTER">Paladin</td><td>7</td><td>10</td><td>12</td><td>0</td><td>0</td><td>0</td><td>20</td><td>20</td></tr>
+<tr align="RIGHT"><td align="CENTER">Priest(Eru)</td><td>7</td><td>10</td><td>12</td><td>0</td><td>0</td><td>0</td><td>20</td><td>20</td></tr>
+<tr align="RIGHT"><td align="CENTER">Priest(Manwe)</td><td>7</td><td>10</td><td>12</td><td>0</td><td>0</td><td>0</td><td>20</td><td>20</td></tr>
+</tbody>
+</table>
+<p>
+Numeric ability values are translated to the descriptive labels you see on
+the character screen by dividing by the ability's scale factor&nbsp;X and
+selecting a label based on the scaled result, as depicted in the following
+tables.  The additional number in the "<tt>Legendary</tt>" label is
+computed as ((A/X-17)&times;5)/2, so that, for instance,
+"<tt>Legendary[2]</tt>" represents a scaled ability value of&nbsp;18,
+"<tt>Legendary[5]</tt>" represents a value of&nbsp;19, and so forth.
+<table frame="VOID" rules="GROUPS" style="width: 48%; float: left; align: center">
+<colgroup><colgroup>
+<thead>
+<tr><th>Ability</th><th>Scale factor</th></tr>
+</thead>
+<tbody>
+<tr align="CENTER"><td>Fighting</td><td>12</td></tr>
+<tr align="CENTER"><td>Bows/Throw</td><td>12</td></tr>
+<tr align="CENTER"><td>Saving Throw</td><td>6</td></tr>
+<tr align="CENTER"><td>Stealth</td><td>1</td></tr>
+<tr align="CENTER"><td>Perception</td><td>6</td></tr>
+<tr align="CENTER"><td>Searching</td><td>6</td></tr>
+<tr align="CENTER"><td>Disarming</td><td>8</td></tr>
+<tr align="CENTER"><td>Magic Device</td><td>6</td></tr>
+</tbody>
+</table>
+
+<table frame="VOID" rules="GROUPS" style="width: 48%; float: right; align:center">
+<colgroup><colgroup>
+<thead>
+<tr><th>Scaled value</th><th>Label</th></tr>
+</thead>
+<tbody>
+<tr align="CENTER"><td>0-1</td><td>Bad</td></tr>
+<tr align="CENTER"><td>2</td><td>Poor</td></tr>
+<tr align="CENTER"><td>3-4</td><td>Fair</td></tr>
+<tr align="CENTER"><td>5</td><td>Good</td></tr>
+<tr align="CENTER"><td>6</td><td>Very Good</td></tr>
+<tr align="CENTER"><td>7-8</td><td>Excellent</td></tr>
+<tr align="CENTER"><td>9-13</td><td>Superb</td></tr>
+<tr align="CENTER"><td>14-17</td><td>Heroic</td></tr>
+<tr align="CENTER"><td>18+</td><td>Legendary</td></tr>
+</tbody>
+</table>
+<br clear="ALL">
+<h2><a name="statadj">Stat-based adjustments</a></h2>
+<p>
+Some of the effects described above include stat-based adjustments; for
+reference, we list here the numerical amounts of said adjustments.  For
+some purposes (mostly table lookup), a stat value is converted internally
+to a stat index, as delineated in the second column.
+<table frame="VOID" rules="GROUPS" align="CENTER">
+<colgroup><colgroup><colgroup><colgroup><colgroup><colgroup>
+<thead>
+<tr><th>Stat</th><th>Stat index</th><th>Min fail
+rate</th><th>Saving throw adj</th><th>Mana adj</th><th>Max wgt cap
+(&times;10lb)</th><th>Throw adj</th></tr>
+</thead>
+<tbody>
+<tr align="CENTER"><td>3</td><td>0</td><td>99%</td><td>0</td><td>0</td><td>5</td><td>3</td></tr>
+<tr align="CENTER"><td>4</td><td>1</td><td>99%</td><td>0</td><td>0</td><td>6</td><td>4</td></tr>
+<tr align="CENTER"><td>5</td><td>2</td><td>99%</td><td>0</td><td>0</td><td>7</td><td>5</td></tr>
+<tr align="CENTER"><td>6</td><td>3</td><td>99%</td><td>0</td><td>0</td><td>8</td><td>6</td></tr>
+<tr align="CENTER"><td>7</td><td>4</td><td>99%</td><td>0</td><td>0</td><td>9</td><td>7</td></tr>
+<tr align="CENTER"><td>8</td><td>5</td><td>50%</td><td>1</td><td>1</td><td>10</td><td>8</td></tr>
+<tr align="CENTER"><td>9</td><td>6</td><td>30%</td><td>1</td><td>2</td><td>11</td><td>9</td></tr>
+<tr align="CENTER"><td>10</td><td>7</td><td>20%</td><td>1</td><td>2</td><td>12</td><td>10</td></tr>
+<tr align="CENTER"><td>11</td><td>8</td><td>15%</td><td>1</td><td>2</td><td>13</td><td>11</td></tr>
+<tr align="CENTER"><td>12</td><td>9</td><td>12%</td><td>1</td><td>2</td><td>14</td><td>12</td></tr>
+<tr align="CENTER"><td>13</td><td>10</td><td>11%</td><td>1</td><td>2</td><td>15</td><td>13</td></tr>
+<tr align="CENTER"><td>14</td><td>11</td><td>10%</td><td>1</td><td>2</td><td>16</td><td>14</td></tr>
+<tr align="CENTER"><td>15</td><td>12</td><td>9%</td><td>2</td><td>2</td><td>17</td><td>15</td></tr>
+<tr align="CENTER"><td>16</td><td>13</td><td>8%</td><td>2</td><td>2</td><td>18</td><td>16</td></tr>
+<tr align="CENTER"><td>17</td><td>14</td><td>7%</td><td>2</td><td>2</td><td>19</td><td>17</td></tr>
+<tr align="CENTER"><td>18-18/09</td><td>15</td><td>6%</td><td>3</td><td>3</td><td>20</td><td>20</td></tr>
+<tr align="CENTER"><td>18/10-18/19</td><td>16</td><td>6%</td><td>3</td><td>3</td><td>22</td><td>30</td></tr>
+<tr align="CENTER"><td>18/20-18/29</td><td>17</td><td>5%</td><td>3</td><td>3</td><td>24</td><td>40</td></tr>
+<tr align="CENTER"><td>18/30-18/39</td><td>18</td><td>5%</td><td>3</td><td>3</td><td>26</td><td>50</td></tr>
+<tr align="CENTER"><td>18/40-18/49</td><td>19</td><td>5%</td><td>3</td><td>3</td><td>28</td><td>60</td></tr>
+<tr align="CENTER"><td>18/50-18/59</td><td>20</td><td>4%</td><td>4</td><td>4</td><td>30</td><td>70</td></tr>
+<tr align="CENTER"><td>18/60-18/69</td><td>21</td><td>4%</td><td>4</td><td>4</td><td>31</td><td>80</td></tr>
+<tr align="CENTER"><td>18/70-18/79</td><td>22</td><td>4%</td><td>5</td><td>5</td><td>31</td><td>90</td></tr>
+<tr align="CENTER"><td>18/80-18/89</td><td>23</td><td>4%</td><td>5</td><td>6</td><td>32</td><td>100</td></tr>
+<tr align="CENTER"><td>18/90-18/99</td><td>24</td><td>3%</td><td>6</td><td>7</td><td>32</td><td>110</td></tr>
+<tr align="CENTER"><td>18/100-18/109</td><td>25</td><td>3%</td><td>7</td><td>8</td><td>33</td><td>120</td></tr>
+<tr align="CENTER"><td>18/110-18/119</td><td>26</td><td>2%</td><td>8</td><td>9</td><td>33</td><td>130</td></tr>
+<tr align="CENTER"><td>18/120-18/129</td><td>27</td><td>2%</td><td>9</td><td>10</td><td>34</td><td>140</td></tr>
+<tr align="CENTER"><td>18/130-18/139</td><td>28</td><td>2%</td><td>10</td><td>11</td><td>34</td><td>150</td></tr>
+<tr align="CENTER"><td>18/140-18/149</td><td>29</td><td>2%</td><td>11</td><td>12</td><td>35</td><td>160</td></tr>
+<tr align="CENTER"><td>18/150-18/159</td><td>30</td><td>1%</td><td>12</td><td>13</td><td>35</td><td>170</td></tr>
+<tr align="CENTER"><td>18/160-18/169</td><td>31</td><td>1%</td><td>13</td><td>14</td><td>36</td><td>180</td></tr>
+<tr align="CENTER"><td>18/170-18/179</td><td>32</td><td>1%</td><td>14</td><td>15</td><td>36</td><td>190</td></tr>
+<tr align="CENTER"><td>18/180-18/189</td><td>33</td><td>1%</td><td>15</td><td>16</td><td>37</td><td>200</td></tr>
+<tr align="CENTER"><td>18/190-18/199</td><td>34</td><td>1%</td><td>16</td><td>16</td><td>37</td><td>210</td></tr>
+<tr align="CENTER"><td>18/200-18/209</td><td>35</td><td>0%</td><td>17</td><td>17</td><td>38</td><td>220</td></tr>
+<tr align="CENTER"><td>18/210-18/219</td><td>36</td><td>0%</td><td>18</td><td>17</td><td>38</td><td>230</td></tr>
+<tr align="CENTER"><td>18/220+</td><td>37</td><td>0%</td><td>19</td><td>18</td><td>39</td><td>240</td></tr>
+</tbody>
+</table>
+</body>
+</html>
+<h2><a name="changelog">Changelog and credits</a></h2>
+<dl>
+<dt>2005-01-09:</dt>
+<dd>
+<p>
+Added a convenience link to the 2.3.x skill spoiler.
+</dd>
+<dt>2005-01-08:</dt>
+<dd>
+<p>
+<i>[sound F/X:  forehead repeatedly striking desk]</i> Fix the class
+modifier table back to where it's supposed to be.  Turns out I was
+misreading the table from the help files; the class modifiers for Stealth,
+Searching and Perception <em>are</em> still uniformly zero.  <tt>:-}</tt>
+</dd>
+<dt>2005-01-05:</dt>
+<dd>
+<ul>
+<li> It just hit me:  I never did actually mention that Boulder-throwing
+lets you <em>create</em> boulders&#8230; <tt>:-}</tt>
+<li> The Bows/Throw ability, despite its name, does not affect thrown
+boomerangs, boulders or other non-missile weapons.
+</ul>
+</dd>
+<dt>2004-11-11:</dt>
+<dd>
+<p>
+Fixed the damage computation for Boulder-throwing, as
+<a href=".forum.t-o-m-e.net/viewtopic.php?p=41187#41187">noted</a>
+by user Massimiliano Marangio of the
+<a href=".forum.t-o-m-e.net/">ToME forums</a>.
+</dd>
+<dt>2004-09-18:</dt>
+<dd>
+<p>
+Added a note to Air that, unlike Cloaks of Air and the like, magical
+breathing from Air skill 50 does not also confer water breathing.
+</dd>
+<dt>2004-09-14:</dt>
+<dd>
+<p>
+Belatedly update Bearform-combat with the changed speed bonus in 2.2.7.
+</dd>
+<dt>2004-08-02:</dt>
+<dd>
+<p>
+Barehand-combat also provides a bonus to-hit and to-damage when not
+wielding weapons and not wearing heavy armor.
+</dd>
+<dt>2004-07-05:</dt>
+<dd>
+<p>
+The Antimagic destroy-doors power also destroys traps.
+</dd>
+<dt>2004-05-30:</dt>
+<dd>
+<p>
+Bear form actually increases INT and WIS; this is a missed change from
+2.1.2, in which it decreased them.
+</dd>
+<dt>2004-05-21:</dt>
+<dd>
+<p>
+The Saving Throw ability is not in fact capped at 95%, as noted by user
+amaurea of the
+<a href=".www.t-o-m-e.net/forum/index.php">ToME forums</a>.
+</dd>
+<dt>2004-05-16:</dt>
+<dd>
+<p>
+Corrected effects of Critical-hits skill, as noted by RayVuelta.
+</dd>
+<dt>2004-05-13:</dt>
+<dd>
+<p>
+Added effect of Magic-Device skill on using wands and staffs.
+</dd>
+<dt>2004-04-23:</dt>
+<dd>
+<ul>
+<li>
+Added a table of contents.
+<li>
+Expanded and corrected the description for Boulder-throwing.
+<li>
+Assorted small tweaks.
+</ul>
+</dd>
+<dt>2004-03-22:</dt>
+<dd>
+<ul>
+<li>
+Okay, <em>this</em> time I think I've got the bear-form stuff right...
+<tt>:-}</tt>
+<li>
+CSS tweaks.
+</ul>
+</dd>
+<dt>2004-03-19:</dt>
+<dd>
+<ul>
+<li>
+Consolidated melee-style skill effects into a new "Melee styles" entry
+under Combat, including new information on critical-hit probability.
+<li>
+Corrected Bearform-combat info, separating skill-based effects from
+level-based effects.
+<li>
+Morphic-oil effects are based on (level&times;2)/3, not level.
+</ul>
+</dd>
+<dt>2004-02-07:</dt>
+<dd>
+<p>
+Rephrase some of the notation examples to emphasize that divisions, notably
+those in the (S@N) scaling formula, are always rounded down to the nearest
+integer.
+</dd>
+<dt>2004-01-11:</dt>
+<dd>
+<ul>
+<li>
+Expanded the Antimagic section.
+<li>
+Made 'CM' in the skill descriptions a link back to
+<a href="#classmod">the explanation of the class modifier</a>.
+</ul>
+</dd>
+<dt>2004-01-07:</dt>
+<dd>
+<p>
+Be more specific about what counts as worn armor when computing the base
+dodge chance.
+</dd>
+<dt>2003-11-30:</dt>
+<dd>
+<p>
+Added Demonblades to the list of weapons covered by Sword-mastery, as noted
+by Mr Tako.
+</dd>
+<dt>2003-11-05:</dt>
+<dd>
+<p>
+Expanded historical note on Druidistic skill with information provided by
+user LogrusMage of the
+<a href=".www.t-o-m-e.net/forum/index.php">ToME forums</a>.
+</dd>
+<dt>2003-10-12:</dt>
+<dd>
+<p>
+Expanded and corrected the Horrify and Vampirism entries under Necromancy.
+</dd>
+<dt>2003-10-04:</dt>
+<dd>
+<p>
+Added more cross-referencing links for the skills that affect abilities.
+</dd>
+<dt>2003-09-07:</dt>
+<dd>
+<p>
+Added links to my new <a href="spell-220.html">spell spoiler</a> for all
+the spell schools and Prayer.  I think every skill is now covered (except
+for Druidistic, which apparently isn't even used in the game).
+</dd>
+<dt>2003-08-22:</dt>
+<dd>
+<p>
+Belatedly updated the class modifier table for 2.2.x.  Most notably, the
+modifiers for Stealth, Searching and Perception are no longer uniformly
+zero.
+</dd>
+<dt>2003-06-22:</dt>
+<dd>
+<ul>
+<li>
+Updated for 2.2.0.  Changes from 2.1.2 to 2.2.0:
+  <ul>
+  <li>
+  Ricocheting ammo is replaced with piercing shots, which can be turned on
+  or off from the '<tt>m</tt>' menu.
+  <li>
+  Creating ammo now requires the <tt>Ammo creation</tt> ability (hence the
+  name).
+  <li>
+  Boomerangs get an additional bonus to-hit based on Boomerang-mastery
+  skill.
+  <li>
+  Tweaked bear-form effects.
+  <li>
+  Max mana now depends on either INT or WIS, whichever is higher.
+  <li>
+  Added skills Geomancy (empty), Druidistic (empty) and Boulder-throwing;
+  removed Trapping skill.
+  <li>
+  Added Necromantic Teeth power to Necromancy skill and pet-to-companion
+  command to Summoning skill.
+  <li>
+  The chance of free body-power usage for Possessors now depends on a
+  WIS-based stat adjustment, which is added to the stat adjustment table.
+  <li>
+  The duration of cloak-based mimicry has increased, and mimicry effects
+  now depend on Mimicry skill.
+  <li>
+  The Rod-of-Simplicity bug noted under the Magic Device ability has been
+  fixed.
+  </ul>
+<li>
+Other additions and corrections from 2.1.2:
+  <ul>
+  <li>
+  Marked with "(NG)" skills that cause wearing gloves to reduce mana.
+  Fumblefingers-gainable skills are now marked "(FF)".
+  <li>
+  Add CM to various skill modifiers for the Fightning and Bows/Throwing
+  abilities.
+  <li>
+  There is actually a 5% probability of getting the "off" quest after the
+  Thieves quest (Wight if Combat is higher, Trolls if Magic is higher).
+  <li>
+  Critical-hits skill also increases the severity of critical hits.
+  <li>
+  Correct Magic-Device skill modifier to Magic Device ability.
+  <li>
+  Add explicit durations for the non-cloak Mimicry powers.
+  <li>
+  The probability of a monster dropping a corpse actually tops out at 85%
+  with max Corpse-preservation skill.
+  </ul>
+<li>
+Added some cross-referencing links.
+</ul>
+</dd>
+<dt>2003-05-15:</dt>
+<dd>
+<p>
+Added note about mana modifiers for subrace and class to the Magic section.
+</dd>
+<dt>2003-05-07:</dt>
+<dd>
+<p>
+Added Thaumaturgy section.
+</dd>
+<dt>2003-05-04:</dt>
+<dd>
+<ul>
+<li>
+Added Alchemy section and brief Runecraft section.
+<li>
+Assorted tweaks and fixes.
+</ul>
+</dd>
+<dt>2003-03-31:</dt>
+<dd>
+<p>
+Corrected mana cost per turn for maintaining monsters summoned with partial
+totems, as noted by
+<a href=".groups.google.com/groups?selm=b66crr%241ta%241%40murdoch.acc.Virginia.EDU">Kalirion</a>.
+</dd>
+<dt>2003-03-25:</dt>
+<dd>
+<ul>
+<li>
+Added sections for Fighting and Bows/Throw abilities.
+<li>
+Expanded Magic Device entry on rod zapping to note corner case with Rods of
+Simplicity and high-level rods.
+<li>
+Assorted typo corrections.
+</ul>
+</dd>
+<dt>2003-03-12:</dt>
+<dd>
+<ul>
+<li>
+Added notes on skills that can be gained or improved by non-standard means
+(mostly Fumblefingers quests).
+<li>
+Added Necromancy and partial Demonology sections.
+</ul>
+</dd>
+<dt>2003-03-09:</dt>
+<dd>
+<ul>
+<li>
+Corrected Magic Device entry on failure probability when zapping rods.
+<li>
+Corrected radius of Pulverise Mindcraft power.
+</ul>
+</dd>
+<dt>2003-02-19:</dt>
+<dd>
+<p>
+Added an explanation of the number in the "<tt>Legendary[##]</tt>" ability
+label.
+</dd>
+<dt>2003-02-11:</dt>
+<dd>
+<p>
+Expanded the Mindcraft skill section to cover effects on the Mindcraft
+powers.
+</dd>
+<dt>2003-02-09:</dt>
+<dd>
+<ul>
+<li>
+Add Possession skill use to access major body powers, as noted by user
+"<a href=".www.t-o-m-e.net/forum/viewtopic.php?p=4319#4319">Lord
+Dimwit</a>" of the
+<a href=".www.t-o-m-e.net/forum/index.php">ToME forums</a>.
+<li>
+Added class modifier table.
+<li>
+The Boomerang-mastery skill does not, alas, confer extra might or extra
+shots.
+<li>
+Assorted typo corrections.
+</ul>
+</dd>
+</dl>
+<!--
+     FILE ARCHIVED ON 06:29:51 Oct 18, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:41:08 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 99.61
+  exclusion.robots: 0.146
+  exclusion.robots.policy: 0.138
+  RedisCDXSource: 6.028
+  esindex: 0.01
+  LoadShardBlock: 70.641 (3)
+  PetaboxLoader3.datanode: 90.051 (4)
+  CDXLines.iter: 19.657 (3)
+  load_resource: 86.837
+  PetaboxLoader3.resolve: 34.911
+-->

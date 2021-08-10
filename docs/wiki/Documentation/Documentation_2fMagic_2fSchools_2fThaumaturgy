@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Schools/Thaumaturgy - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fSchools">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=fullsearch&amp;value=%2FThaumaturgy&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Schools/Thaumaturgy</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fSchools">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fSchools_2fThaumaturgy">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Intelligence (INT) is the stat affecting failure rate for this skill. <h3 id="head-fc8873d34f72a6dd7f25446a7c39cfeff381c448">Thaumaturgy</h3>
+<p>
+Thaumaturgy is a different type of magic where the spells learnt are not restricted to one school, nor are they read out of spellbooks. Each time an adventurer increases their thaumaturgy school they gain access to a few *random* attack spells, each being automatically "learnt" to a specific casting level. Since they don't need spellbooks, they do not end up with inventory slots being filled up so easily by the necessary items for safe exploration of the dungeon, and can therefore collect more loot. 
+</p>
+<p>
+The downside of this is that they have no ability to choose what spells they learn, and no ability to improve the power of a learnt spell. So, a bolt spell with damage 1d5 will remain at 1d5 damage for the whole game. And the spells learnt are *all* attack spells of some sort (remembering that things like light and stone-to-mud can damage some monsters) - so no teleporting, no identify, no healing spells are learnt. At most, some wall creation. 
+</p>
+<p>
+They use their magics through the 'm' key. They then select a general group of spells, followed by a specific spell. 
+</p>
+<p>
+Thaumaturgy spells can take the form of: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ a bolt, targeted at a single location; 
+</p>
+</li>
+    <li>
+<p>
+ a beam, which hits all monsters in a line; 
+</p>
+</li>
+    <li>
+<p>
+ a ball (either centred on the caster or targetable); 
+</p>
+</li>
+    <li>
+<p>
+ an meteor strike (multiple balls in the vicinity of the caster); 
+</p>
+</li>
+    <li>
+<p>
+ a spell that affects all monsters in line of sight. 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fSchools_2fThaumaturgy.text_html">RefreshCache</a> for this page (cached 2005-11-07 04:25:05)<br>
+<p><a href="./Documentation_2fMagic_2fSchools_2fThaumaturgy?action=edit">EditText</a> of this page (last edited 2005-04-18 13:07:04 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:56:37 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:54 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.218
+  exclusion.robots.policy: 0.202
+  captures_list: 155.116
+  PetaboxLoader3.resolve: 91.942
+  PetaboxLoader3.datanode: 130.629 (4)
+  LoadShardBlock: 113.965 (3)
+  esindex: 0.013
+  load_resource: 122.975
+  CDXLines.iter: 25.863 (3)
+  RedisCDXSource: 10.402
+-->

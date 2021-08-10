@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport139 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport139?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport139?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport139?action=fullsearch&amp;value=BugReport139&amp;literal=1&amp;case=1&amp;context=40">BugReport139</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport139?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport139">View</a></li>
+<li><a title="Diffs" href="./BugReport139?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport139?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport139?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport139?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport139?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport139?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport139?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport139?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport139?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport139">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a class="nonexistent" href="./RedNaga">RedNaga</a>: I am currently playing with a Lv50 Dark elf Thaumaturgist, and a strange thing has happened to my hall of fame entry: last time i saved, i had around 23 millions point, then i open Tome, drove some deeper into Angband, save and...<br>
+ now i have 4278928867 score points!! Beside, my gold amount now appear before the name of the character (only in the hall of fame; all is right in the character screen).<br>
+ <p>
+I don't know if it may be related to the problem, but on the session on which the bug appeared, i reached ten millions gold amount.<br>
+ If i have to guess, it seem to me that the gold amount overflowed somehow into the score. Maybe there are only 7 ciphers available?<br>
+ Anyway, i tried lowering the gold amount by selling and buying artifacts to the Black market, but it didn't help. Even if i am now below 10 millions gold, my score total remain screwed.<br>
+ 
+</p>
+<p>
+If that could matter, i am using a compile done with the IBM version options (no changes to the code, though, i am not a good programmer).<br>
+ 
+</p>
+<p>
+Uuuhh.. since we are here, ...maybe someone could have a suggestion to reduce the score back to normal? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The data structure for the score has only 10 characters for score, gold, and turn numbers. In the function top_twenty() the strings are terminated correctly by setting the last character to 0, but in some other functions this is missing, meaning that with a high score also the gold amount is printed after the score points.  
+</p>
+<p>
+A quick fix is to terminate the strings with 0 and limit the result of total_points() to 999999999 points. 
+</p>
+<p>
+A better approach would be to use more moderate amounts of points in total_points() such that this limit is never reached. 
+</p>
+<p>
+It also seems that there is an overflow error in the code in the line 
+<pre>temp = (temp * mult / 100);
+</pre>where mult is a multiplier between 10 and 200, depending on the birth options choosed. The sum of the points seems otherwise to be lower than 999999999 points. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: By dividing all multiplier values by 5, changing the line to 
+<pre>temp = (temp * mult / 20);
+</pre>and moving the gold component after this line should fix the overflow error, since the maximum points calculated in this line are ~ 30 000 000 * 40 and this is below the 32 bit signed integer limit. Fixed in v2.3.0 (CVS). 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport139?action=refresh&amp;arena=Page.py&amp;key=BugReport139.text_html">RefreshCache</a> for this page (cached 2004-09-24 15:09:04)<br>
+<p><a href="./BugReport139?action=edit">EditText</a> of this page (last edited 2004-09-24 15:09:03 by <span title="dialin-145-254-147-091.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:09:10 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:12 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  CDXLines.iter: 29.305 (3)
+  PetaboxLoader3.datanode: 170.043 (4)
+  LoadShardBlock: 161.097 (3)
+  load_resource: 82.137
+  esindex: 0.013
+  captures_list: 196.37
+  RedisCDXSource: 1.181
+  PetaboxLoader3.resolve: 52.842
+  exclusion.robots: 0.212
+  exclusion.robots.policy: 0.2
+-->

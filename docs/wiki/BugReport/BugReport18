@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport18 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport18?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport18?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport18?action=fullsearch&amp;value=BugReport18&amp;literal=1&amp;case=1&amp;context=40">BugReport18</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport18?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport18">View</a></li>
+<li><a title="Diffs" href="./BugReport18?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport18?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport18?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport18?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport18?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport18?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport18?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport18?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport18?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport18">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+BugReport18 (2.3.0, CVS 05.07.2004): <p>
+When entering the black market: 
+</p>
+<p>
+Melinda Proudfoot begs for your help. &lt;2x&gt;                                       LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_base_level'&nbsp;at&nbsp;line&nbsp;652&nbsp;[file&nbsp;</tt>./lib/core/s_aux. LUA:                                                                             ERROR in lua_call while calling 'get_stick_base_level' from call_lua. Things sho LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_max_level'&nbsp;at&nbsp;line&nbsp;670&nbsp;[file&nbsp;</tt>./lib/core/s_aux.l LUA:                                                                             ERROR in lua_call while calling 'get_stick_max_level' from call_lua. Things shou LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_charges'&nbsp;at&nbsp;line&nbsp;687&nbsp;[file&nbsp;</tt>./lib/core/s_aux.lua LUA:    2:  main of string "return get_stick_charges(85)" at line 1              LUA:                                                                             Examining a Staff of Mana[1|20] (5 charges)... 
+</p>
+<p>
+Then the game goes on without problems. Perhaps related is the fact, that spellbooks in stores are no longer sorted by price (the inertia spellbook comes too late). This is after I ckecked out today's CVS version. I have made "make clean;make" but it didn't help. 
+</p>
+<p>
+Another one in different town, black market: 
+</p>
+<p>
+LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_base_level'&nbsp;at&nbsp;line&nbsp;652&nbsp;[file&nbsp;</tt>./lib/core/s_aux. LUA:                                                                             ERROR in lua_call while calling 'get_stick_base_level' from call_lua. Things sho LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_max_level'&nbsp;at&nbsp;line&nbsp;670&nbsp;[file&nbsp;</tt>./lib/core/s_aux.l LUA:                                                                             ERROR in lua_call while calling 'get_stick_max_level' from call_lua. Things shou LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_charges'&nbsp;at&nbsp;line&nbsp;687&nbsp;[file&nbsp;</tt>./lib/core/s_aux.lua LUA:    2:  main of string "return get_stick_charges(55)" at line 1              LUA:                                                                             Examining a Mage Staff of Spell (1d4) (+11,+14)...                               Examining a Wand of Tidal Wave[1|20] of Plenty (11 charges)...                   
+</p>
+<p>
+After I saved and exited, then restarted the game and loaded, one black market went fine (no sticks there) and in another I got the error again (notic the "Staff of Plenty" --- that was "Staff of Summon [1|25] of Plenty" in reality): 
+</p>
+<p>
+LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_base_level'&nbsp;at&nbsp;line&nbsp;652&nbsp;[file&nbsp;</tt>./lib/core/s_aux. LUA:                                                                             ERROR in lua_call while calling 'get_stick_base_level' from call_lua. Things sho LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_max_level'&nbsp;at&nbsp;line&nbsp;670&nbsp;[file&nbsp;</tt>./lib/core/s_aux.l LUA:                                                                             ERROR in lua_call while calling 'get_stick_max_level' from call_lua. Things shou LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_charges'&nbsp;at&nbsp;line&nbsp;687&nbsp;[file&nbsp;</tt>./lib/core/s_aux.lua LUA:    2:  main of string "return get_stick_charges(85)" at line 1              LUA:                                                                             Examining a Staff of Plenty (5 charges)...                                       
+</p>
+<p>
+Now the best part. Another BM: LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_base_level'&nbsp;at&nbsp;line&nbsp;652&nbsp;[file&nbsp;</tt>./lib/core/s_aux. LUA:                                                                             ERROR in lua_call while calling 'get_stick_base_level' from call_lua. Things sho LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_max_level'&nbsp;at&nbsp;line&nbsp;670&nbsp;[file&nbsp;</tt>./lib/core/s_aux.l LUA:                                                                             ERROR in lua_call while calling 'get_stick_max_level' from call_lua. Things shou LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_charges'&nbsp;at&nbsp;line&nbsp;687&nbsp;[file&nbsp;</tt>./lib/core/s_aux.lua LUA:    2:  main of string "return get_stick_charges(85)" at line 1              LUA:                                                                             LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_base_level'&nbsp;at&nbsp;line&nbsp;652&nbsp;[file&nbsp;</tt>./lib/core/s_aux. LUA:                                                                             ERROR in lua_call while calling 'get_stick_base_level' from call_lua. Things sho LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_max_level'&nbsp;at&nbsp;line&nbsp;670&nbsp;[file&nbsp;</tt>./lib/core/s_aux.l LUA:                                                                             ERROR in lua_call while calling 'get_stick_max_level' from call_lua. Things shou LUA: error: attempt to index field `stick' (a nil value)                         LUA: stack traceback:                                                            LUA:    1:  function <tt>get_stick_charges'&nbsp;at&nbsp;line&nbsp;687&nbsp;[file&nbsp;</tt>./lib/core/s_aux.lua LUA:    2:  main of string "return get_stick_charges(50)" at line 1              LUA:                                                                             Examining a Wand of Inertia Control[51016|-5758] (0 charges)...                  
+</p>
+<p>
+You should have seen the price of this wand! <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> Here it goes: 
+</p>
+<p>
+d) - a Wand of Inertia Control[51016|-5758] (0 charges)  1.0   13734297 
+</p>
+<p>
+I think I will now wipeout the game, checkout again and recompile. Can an old savefile be the problem? Such a nice character. ;&lt; With a checkout from a week ago the old savefile went without problems. 
+</p>
+<p>
+<strong>Comments</strong> 
+</p>
+<p>
+<a href="./amaurea">amaurea</a>: Inertia control does not have a stick field, but some code seems to be expecting it to have it. Could it be that your raw files are out of date? Perhaps another spell used the index inertia control has now, and that spell could be used for sticks. That index could be saved in raw files, and when the black market tries to generate the stick it could try to access the undefined stick field of inertia control. This is only speculation, though - someone who knows how this works should have a look at it. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I had the same problems while testing the script. By adding a new spell, the spell numbers in the scripts were changed, but not the spell numbers stored in k_info.raw. To prevent such errors, always delete the files in the ./lib/data folder when you update ToME (perhaps this should be added to make clean?). This fixes problems with <em>new</em> items. Already existing items cannot be changed and remain broken. 
+</p>
+<p>
+--- Confirmed. I wiped the game out, made a new checkout, recompiled and now no problems in BM and the Intertia spell is liste in a proper place in libraries (at the beginning, as it's expensibe). Thank you for your help. Now what do we do with this bug report? SHould we make a wishlist out of it, to add *.raw automatic wipeout? Or remove completely? 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport18?action=refresh&amp;arena=Page.py&amp;key=BugReport18.text_html">RefreshCache</a> for this page (cached 2004-08-20 15:39:24)<br>
+<p><a href="./BugReport18?action=edit">EditText</a> of this page (last edited 2004-07-05 21:32:01 by <span title="62.79.161.178=62.79.161.178">62</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:22:56 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:55 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 70.352
+  exclusion.robots.policy: 0.149
+  PetaboxLoader3.datanode: 724.001 (4)
+  RedisCDXSource: 182.781
+  load_resource: 119.8
+  exclusion.robots: 0.159
+  esindex: 0.011
+  captures_list: 912.1
+  LoadShardBlock: 702.173 (3)
+  CDXLines.iter: 23.471 (3)
+-->

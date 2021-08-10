@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Annals of the Riftwar - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=fullsearch&amp;value=%2FAnnals+of+the+Riftwar&amp;literal=1&amp;case=1&amp;context=40">Modules/Annals of the Riftwar</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fAnnals_20of_20the_20Riftwar">View</a></li>
+<li><a title="Diffs" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fAnnals_20of_20the_20Riftwar?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fAnnals_20of_20the_20Riftwar?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fAnnals_20of_20the_20Riftwar?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fAnnals_20of_20the_20Riftwar?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fAnnals_20of_20the_20Riftwar?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fAnnals_20of_20the_20Riftwar">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+A module based on the <strong>slightly</strong> *coughcough* Tolkenien works of <a class="interwiki" title="WikiPedia" href=".www.wikipedia.com/wiki/Raymond_E._Feist"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[WikiPedia]" height="16" width="16">Raymond E. Feist</a>. The two worlds of Kelewan and <a class="interwiki" title="WikiPedia" href=".www.wikipedia.com/wiki/Midkemia"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[WikiPedia]" height="16" width="16">Midkemia</a> provide a wide array of monsters, classes, gods and races for use in a module, many of which can be easily adapted to ToME <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Do you want to include a Valheru race ? 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: No. Too cheesy for a startup option. However, quest armours (like Tomas) may allow you to "become" a Valheru, similar to the (old) Vampire Corruption. For the same reason, I'm chary of Greater Path Mages, although disallowing their access to many utility spells would be one way of balancing them out.  
+</p>
+<p>
+<a href="./DarkGod">DarkGod</a>: Been a long time since I read it but I have nice memories of it, I'm looking forward to it <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: Is this a module in the making, or is it a 'proposed' module?  I don't see a link to it so I presume the later.  <img src="./wiki/rightsidebar/img/sad.png" alt=":(" height="15" width="15"> 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: This is listed in module ideas in <a href="./Modules">Modules</a>. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Not yet. It's on my to-do list, although <a href="./Modules_2fAnnals_20of_20the_20Riftwar_2fIdeas">Modules/Annals of the Riftwar/Ideas</a> will gratefully accept suggestions! 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Good suggestions, Massimiliano! I held back from putting in Thun and Cho-Ja, thinking they might be better as monsters rather than Characters, but you're right, they're perfectly valid. And as for demons... you're thinking of the Saaur Loremaster (no relation to ToME Loremasters!) in the Demonking sequence, aren't you? I suppose he'd be a posessor, if we wanted to get technical... 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Well, I read it a long time ago, and I can only remember bits of the series.  
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fAnnals_20of_20the_20Riftwar?action=refresh&amp;arena=Page.py&amp;key=Modules_2fAnnals_20of_20the_20Riftwar.text_html">RefreshCache</a> for this page (cached 2004-08-18 11:28:42)<br>
+<p><a href="./Modules_2fAnnals_20of_20the_20Riftwar?action=edit">EditText</a> of this page (last edited 2004-06-24 23:58:10 by <span title="dialin-145-254-145-239.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:13:28 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:13 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 74.304
+  exclusion.robots.policy: 0.206
+  PetaboxLoader3.datanode: 117.405 (4)
+  RedisCDXSource: 264.994
+  load_resource: 121.589
+  exclusion.robots: 0.221
+  esindex: 0.022
+  captures_list: 420.835
+  LoadShardBlock: 124.537 (3)
+  CDXLines.iter: 25.913 (3)
+-->

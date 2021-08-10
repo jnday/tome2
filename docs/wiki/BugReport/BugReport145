@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport145 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport145?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport145?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport145?action=fullsearch&amp;value=BugReport145&amp;literal=1&amp;case=1&amp;context=40">BugReport145</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport145?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport145">View</a></li>
+<li><a title="Diffs" href="./BugReport145?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport145?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport145?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport145?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport145?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport145?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport145?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport145?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport145?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport145">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I made up a macro, activated with [alt-t] to destroy walls using the ability from boulder throwing and sometimes when I use it ToME crashes. It doesn't do a panic save or something, just crashes. ToME 2.3.0 CVS for windows, on WinXP. <p>
+Can you post the macro ? Look in the file ./lib/user/&lt;character&gt;.prf 
+</p>
+<p>
+ZV: Sure, here it is: <br>
+ # Macro '113' <br>
+ A:\e\e\em@Tear\sdown\sa\swall\sto\screate\sboulders\r <br>
+ P:\[alt-t] <br>
+ 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport145?action=refresh&amp;arena=Page.py&amp;key=BugReport145.text_html">RefreshCache</a> for this page (cached 2004-09-24 11:28:26)<br>
+<p><a href="./BugReport145?action=edit">EditText</a> of this page (last edited 2004-09-24 11:28:25 by <span title="ato63.neoplus.adsl.tpnet.pl"><a href="./ZasVid">ZasVid</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:00:13 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 136.859
+  exclusion.robots: 0.09
+  exclusion.robots.policy: 0.083
+  RedisCDXSource: 1.793
+  esindex: 0.008
+  LoadShardBlock: 111.653 (3)
+  PetaboxLoader3.datanode: 129.348 (4)
+  CDXLines.iter: 20.643 (3)
+  load_resource: 65.431
+  PetaboxLoader3.resolve: 27.964
+-->

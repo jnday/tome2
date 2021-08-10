@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Module Makers Handbook - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=fullsearch&amp;value=%2FModule+Makers+Handbook&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Module Makers Handbook</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fModule_20Makers_20Handbook">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fModule_20Makers_20Handbook?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fModule_20Makers_20Handbook?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fModule_20Makers_20Handbook?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fModule_20Makers_20Handbook?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fModule_20Makers_20Handbook?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fModule_20Makers_20Handbook">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This page will after a while contain information about the Module Makers Handbook (MMH for short). The goal of the MMH is to both help people new to making modules start making modules, and at the same time be a good source of information about T-Engine internals. The MMH is intended for use with the T-Engine in ToME 3.00 and forward, and most of it probably will not apply to any versions prior to this. We will release the MMH both as a downloadable PDF file and as a web page. <h3 id="head-fdebf667212089ea7017a4b5425a561bdb3a30b0"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Todo</h3>
+We have <a class="external" href="./angband.oook.cz/cgi-bin/cvsweb.cgi/tome-mods-guide/todo.txt?rev=HEAD&amp;content-type=text/x-cvsweb-markup&amp;cvsroot=tome"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">a TODO file in CVS</a>. Either dump your suggestions about what we should add to it here, or <a class="external" href="http://web.archive.org/web/20041020105314/mailto:PernAngband@yahoogroups.com"><img src="./wiki/classic/img/moin-email.png" alt="[MAILTO]" height="10" width="14">mail us</a>. <h3 id="head-16e5fc341b51fc499a876f794031412d69a6da26"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>TeX</h3>
+The MMH is written in LaTeX. A good LaTeX package is <a class="external" href=".www.tug.org/tetex/"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">teTeX</a>. For more documentation about the TeX typesetting language, please see <a class="external" href=".www-h.eng.cam.ac.uk/help/tpl/textprocessing/"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">Text Processing using LaTeX</a> at the University of Cambridge's homepage. Also, the newsgroup <a class="external" href="http://web.archive.org/web/20041020105314/news:comp.text.tex"><img src="./wiki/classic/img/moin-news.png" alt="[NEWS]" height="11" width="10">comp.text.tex</a> is a very good place to hunt for help. <p>
+If some of the additional packages needed by the MMH are not available on your system, you can obtain them e.g. from the <a class="external" href=".texcatalogue.sarovar.org/"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">TeX catalogue</a>. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fModule_20Makers_20Handbook?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fModule_20Makers_20Handbook.text_html">RefreshCache</a> for this page (cached 2004-08-02 17:45:58)<br>
+<p><a href="./IdeaArchive_2fModule_20Makers_20Handbook?action=edit">EditText</a> of this page (last edited 2004-07-23 13:41:28 by <span title="217.8.130.247=read.the.disastrous.info">read</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:53:14 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:45:20 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 76.693
+  exclusion.robots: 0.176
+  exclusion.robots.policy: 0.161
+  RedisCDXSource: 1.801
+  esindex: 0.012
+  LoadShardBlock: 50.188 (3)
+  PetaboxLoader3.datanode: 53.634 (4)
+  CDXLines.iter: 21.418 (3)
+  load_resource: 42.59
+  PetaboxLoader3.resolve: 15.899
+-->

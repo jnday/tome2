@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Races/Ent - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fRaces_2fEnt?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fRaces_2fEnt?action=print">
+<link rel="Up" href="/Documentation_2fRaces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fRaces_2fEnt?action=fullsearch&amp;value=%2FEnt&amp;literal=1&amp;case=1&amp;context=40">Documentation/Races/Ent</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fRaces">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fRaces_2fEnt?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fRaces_2fEnt">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fRaces_2fEnt?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fRaces_2fEnt?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fRaces_2fEnt?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fRaces_2fEnt?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fRaces_2fEnt?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fRaces_2fEnt?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fRaces_2fEnt?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fRaces_2fEnt?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fRaces_2fEnt?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fRaces_2fEnt">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>No Spoilers here, please.</strong></em> <p>
+The Ents are a powerful race dating back to the beginning of the world and are the eldest of all animals or plants that inhabit Arda. Spirits of the land, they were summoned to guard the forests of Middle-earth. Being much like trees they are very slow but strong, and very susceptible to fire. As the Shepherds of the Trees, they have the innate ability to cause trees to rise about them for protection. 
+</p>
+<p>
+Stat Modifiers: 
+<div>
+<table>
+<tr>
+<td>
+Strength</td>
+<td>
++10</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td>
+-3</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td>
++2</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td>
+-5</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td>
++11</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td>
+-3</td>
+</tr>
+<tr>
+<td>
+Hit Dice Sides</td>
+<td>
+14</td>
+</tr>
+<tr>
+<td>
+Exp Penalty</td>
+<td>
++110%</td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Skill Bonuses (supplementary to existing skills): 
+<div>
+<table>
+<tr>
+<td>
+Barehand-combat</td>
+<td>
+0.000</td>
+<td>
+[0.200]</td>
+</tr>
+<tr>
+<td>
+Boulder-throwing</td>
+<td>
+0.000</td>
+<td>
+[0.600]</td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Innate Abilities: 
+<div>
+<table>
+<tr>
+<td>
+Ability</td>
+<td>
+Character level</td>
+</tr>
+<tr>
+<td>
+Tree-walking</td>
+<td>
+1</td>
+</tr>
+
+</p>
+</table>
+</div>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fRaces_2fEnt?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fRaces_2fEnt.text_html">RefreshCache</a> for this page (cached 2004-08-05 00:25:34)<br>
+<p><a href="./Documentation_2fRaces_2fEnt?action=edit">EditText</a> of this page (last edited 2004-07-09 17:59:36 by <span title="user-2iverjg.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:53:14 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:39:55 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 19.305
+  exclusion.robots: 0.2
+  exclusion.robots.policy: 0.187
+  esindex: 0.018
+  load_resource: 42.194
+  CDXLines.iter: 17.405 (3)
+  captures_list: 334.191
+  PetaboxLoader3.datanode: 254.818 (4)
+  LoadShardBlock: 294.069 (3)
+  PetaboxLoader3.resolve: 38.669
+-->

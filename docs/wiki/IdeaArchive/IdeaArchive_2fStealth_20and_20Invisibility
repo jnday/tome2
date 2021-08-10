@@ -1,0 +1,269 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Stealth and Invisibility - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=fullsearch&amp;value=%2FStealth+and+Invisibility&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Stealth and Invisibility</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fStealth_20and_20Invisibility">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fStealth_20and_20Invisibility?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fStealth_20and_20Invisibility?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fStealth_20and_20Invisibility?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fStealth_20and_20Invisibility?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fStealth_20and_20Invisibility?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fStealth_20and_20Invisibility">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: At higher effective levels of the Stealth skill (perhaps 30), it would be nice if stealth was of use even against awake monsters. There should be a chance (perhaps 50 + (Skill-30)) that the player will be invisible every turn PROVIDING they meet the following criteria:  
+    <ul>
+
+    <li>
+<p>
+ Light radius is zero (including rings/weapons of fire, etc) 
+</p>
+</li>
+    <li>
+<p>
+ The character's current square is either mist, illusion wall or an unlit square.  
+</p>
+</li>
+    <li>
+<p>
+ The character did not use a magic device, move or cast a spell on previous turns.  
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+This would allow characters (if they're still and not obviously drawing attention to themselves to remain absolutly still. Normal missile use should still be allowed, as should melee. If a character can move around "blind" then they will be able to use that disadvantage to their benefit, especially using hit and run missile tactics.  
+</p>
+<p>
+This might be better applied as a relatively low-cost ability...  
+</p>
+<p>
+2cworth and counting.  
+</p>
+<p>
+<a href="./FedericoOdorizzi">FedericoOdorizzi</a>: I believe it's a thing a bit too complex, and that few would risk going around with a light radius of zero. 
+</p>
+<p>
+Then, imho it will be really a pain to code for if the monster has waken in the last few turns, he'll be even *more* vigilant, to know what has waken him. So this should also be considered. 
+</p>
+<p>
+Then I think the "50 + (Skill-30)" isn't good enough. With it someone with Stealth@30 has a 1/2<sup>k</sup> chance not to be noticed after k turns (that means he won't be able to pass unnoticed for long), and someone with Stealth@50 has only a 1/(1,4286)<sup>k</sup> chance to avoid being noticed. So I'd say this way it won't be useful at all... <img src="./wiki/rightsidebar/img/sad.png" alt=":(" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Hm... Easiest way to implement something like that is to make stealth give invisibility level with Stealth@50 or something similar. Ofcourse, not wearing a light, being in a dark place, and not calling any attention could increase the invisibility level. Also, fighting should break that effects for a few turns. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Federico, I don't think it'd be too hard to code, and I believe that some people might risk 0 light radius IN SPECIFIC CIRCUMSTANCES. e.g. you enter a darkened room and see some orcs over one side. You douse your light (i.e. unwield) and start pinging away with your crossbow. When you've mopped the buggers up (and don't forget, if you actually get within melee range, you will be within their "HAS_LITE" radius and lose your invis), you rewield and go on your merry way. And don't forget, Invisibility has non-stealth aspects too. <a href="./SoulWynd">SoulWynd</a>, I don't want blanket invisibility, I want conditional invisibility. I also (and I'm considering how to code this) want to make various monster attack-spells work less efficiently (or just miss) when cast on a character who is invisible. I think invisibility should actually have a lot more utility than it currently does. 
+</p>
+<p>
+<a href="./FedericoOdorizzi">FedericoOdorizzi</a>: Well, if you enter a room and AFTER see it's full of orcs, it's already too late for all of them could have seen you. Only <strong>if they were asleep</strong> your tactic would work. That could be added: if there's NO light at all and the monsters are sleeping someone attacking  with a ranged attack (boomerang, sling, crossbok, bow, spell) wouldn't be noticed at once, for only after 4-5 turns they'll eventually discover from where someone's shooting. Of course if they are carrying torches they'll discover that sooner. Regarding invisibility, I suppose you're speaking about monsters with no see invisible. If it is so, I agree. About the coding, I think it'd be difficult if you want to take into consideration ALL the aspects of the situation (if the monsters were asleep or not, if they're carrying light, if there are nearby monsters who already noticed you, if you are near to a room where there is light (for then you could be seen, in fact light shouldn't stop at the door of a room, but go also outside!), and more...). Then I also think this shouldn't be an ability you get with Stealth, but something all races and characters should have. The Stealth skill could only make the enemies take more time to notice you. 
+</p>
+<p>
+Then if you have had a look of how stealth works in the source code (I haven't), could you tell me how the skill "stealth" changes the "stealth" you see in the "C" menu? 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Federico, Zizzo's killerbunnes.org site will tell you more than you need to know! It's not 100% up to date for 2.3, but its ability to translate code into comprehensible calculations is unmatched. Also, check the spell spoiler descriptions on how ToME invisibility works, which give a better idea on which monsters "resist" invisibility. As for "all aspects" the only three that need to be checked are the skill level of Stealth, your current light radius and the status of the current terrain square (unlit OR Illusion Wall OR Mist). If it checks each of the three boxes then invisibility = true! The power could be (skill*5/4), to enable high level theives to have good levels of stealth. And I think the ability to melt into the shadows wouldn't necessarily depend on whether the monsters were awake or not. The SMART=1 option for monsters might reduce the chance a bit, but as for the rest! The reason I'm adding it as an adjunct ability for stealth-heavy characters rather than for all chars is because i think that Rogues deserve a bit more utility. This is, of course, a personal view...  
+</p>
+<p>
+Edit: Oh yeah, and also the activity check for spell use, movement etc, could also be part of the check. However, that's not essential. Sniping away with noxious clouds doesn't unbalance or strani credulity TOO much.  
+</p>
+<p>
+<a href="./FedericoOdorizzi">FedericoOdorizzi</a>: I think you should check some more things, then I completely agree (apart the skill*5/4, for it's still too less for someone who invested 50 skill points into stealth! Just do some calculations. I suggest something like [1-(10/skill)] (1 is 100%, 0 or less is 0%), but still I fear we need something more complicate...) 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Don't forget that stealth has its own, intrinsic use apart from the new invisibility idea. The "power" of the invisibility is a bonus, rather than the <em>raison d'etre</em> of the skill. If you consider that the most powerful individual source of invisibility only has a power of 50, then I think you'll agree that this new "free" power is not THAT underpowered. A ring of invisibility has a power of 40, wheras the maximum possible invis power with this is 63 (rounding up). Considering that this can be "stacked", I think the power level is OK.  
+</p>
+<p>
+For mine, complexity is only required if you require highly differentiated effects (the Skill point system as opposed to the Level-up autoskill is a good example) or need to limit the power level (Possession).  
+</p>
+
+    <ul>
+
+ <a href="./FedericoOdorizzi">FedericoOdorizzi</a>: I understand this is not the reason why one should improve his stealth skill, but 5/4*skill is no reason at all to improve it. You have a 50% chance to be "invisible" every turn at level 40 of the skill, and that means you have a chance of (1/2)<sup>10</sup> to be still invisible after 10 turns. So NO chance at all. 
+        <ul>
+
+  <a href="./RavenRed">RavenRed</a>: Yes, but invisibility has different effects from stealth. Stealth makes monsters not wake up, whereas invisibility fritzes with their AI. And the CHANCE of invisibility (which I'm find with raising) is different from the POWER of invisibility. Could you clarify whether you're critising the one or the other?  <p>
+  <a href="./FedericoOdorizzi">FedericoOdorizzi</a>: I'm criticizing the chance, not the power. Ehm, so I suppose you've ment the power all the time, while I ment the chance? 
+</p>
+
+            <ul>
+
+   <a href="./RavenRed">RavenRed</a>: Well fair enough. I think the power level once it DOES kick in is appropriate (especially since it will stack with other forms of invis). In terms of the chance for it kicking in, well that can be tweaked. Maybe 50 + ((Skill-30)*2). This gives a 90 percent chance (at level 50) that in any given turn that you meet the conditions that the stealth invisibility kicks in.  
+            </ul>        </ul>    </ul>
+
+
+<p>
+Simon: Light could come in magical varieties so only the person using the torch/lantern/phial/palantir could see it so they could sneak on monsters. Or the player using stealth might be forced to rely on infravision instead of light(which monsters should used too, unless the player is a cold-blooded undead or maybe a Deathmold). This would balance out a more powerful stealth(i.e. max stealth with invisibility) by forcing the player not to be sure what's out there all the time... 
+</p>
+<p>
+Stealth + invisibility shouldn't be foolproof, but when together they should allow you to kill a strong monster before the other monsters hear a body fall and awaken (i.e. we might need a backstab damage multiplier and +accuracy for exceptionnal stealth used on sleeping monsters; so rogues alone would benefit from killing the strongest monster in the room before fighting the rest). Otherwise rogues/archers are simply weak warriors who can occasionally escape fights or steal. And oh yeah really specialized rogues would kill one monster without awaking the rest more often than once in a blue moon like a non-specialist. 
+</p>
+<p>
+Anyone for a backstab melee damage multiplier for perfect stealth on sleeping monsters? 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Simon, yeah I was thinking of a lite ego-type "of darklite" with a minus to lite radius and a significant extension of infravision range. And for the backstab multiplier, see my <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=4334"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">http://forum.t-o-m-e.net/viewtopic.php?t=4334</a> idea 
+</p>
+<p>
+*** 
+</p>
+<p>
+Great idea the instakill chance with backstab!!! 
+</p>
+<p>
+If I recall my roleplaying game days correctly, the X7 backstab multiplier - against humanoids only, using light blades only - in D&amp;D was balancing rogues against warriors nicely. But making backstab an instakill makes the rogue more useful than the mage against single strong monsters so that rogues have their "niche market" so to speak. 
+</p>
+<p>
+One of the dicy balancing questions: assuming a best-race best-stats character of max skill of stealth and backstab, and a max level of a humanoid non-unique monster, what would be the instakill percentage? And if the monster is succesfully instakilled, what is the percentage chance that monsters are not awaken all around by a death scream? Silent killing, not mere backstab, is the one true power of specialist rogues; this point is important. 
+</p>
+<p>
+It's one thing for Conan the barbarian to go behind an enemy, carefully aim at his throat, and slice his head from behind by using a degree 360 spin to give his 2-hand sword the velocity needed to slice an enemy's head off. If succesful the body and head fall and sure awake most monsters around! That's a "stealthy warrior with some backstab" thing. 
+</p>
+<p>
+A true specialist rogue would go from behind and pierce the target's lungs first to prevent shouting, or skillfully slice the throat off and carry the body to the floor silently to make sure his stealth stays intact(both tactics inspired by the american G.I. style - and requires a smaller blade like the "rambo" knife). This way a skillful rogue can wipe out groups of weak monsters, kill a few somewhat strong monsters before having to fight the rest, or have half a chance of killing the non-unique leader (with maybe 25% chance or so of killing that leader silently). 
+</p>
+<p>
+Ideally could spend 100% of his skill points being both a top warrior and a top rogue, but because of the weapon difference that wouldn't be efficient and even unbelievers with a dark dagger and dark sword available would feel only one melee speciality is better than two. 
+</p>
+<p>
+Traditionnal D&amp;D-style game restrictions on backstab &amp; stealth: 
+</p>
+<p>
+-You can only backstab humanoids, and only those with flesh and a real head. You can't backstab a mold, a golem, a skeleton or the Borshin! But a ringwraith, zombie, vampire, mindflayer, or under som GMs a dragon with a lesser chance of success(i.e. it's a flank stab not a backstab). 
+</p>
+<p>
+-Arrows that do a critical hit or backstab or whatever break more often? 
+</p>
+<p>
+-Only small blades, and arrows! In china and Japan, the historical martial arts masters of the bow did instakills by extreme precision shots to vital organs - thru armor. Archer/rogues (two specialities in need of some help) would benefit from this most. 
+</p>
+<p>
+-Metal armors lower stealth, and many rogues opt for no metal armor at all. This isn't so bad with dragon armor as an option in late game... 
+</p>
+<p>
+-Backstab is a single attack; you never get extra melee rounds when attempting it. That's why the max damage multiplier in D&amp;D was x7. Not an instakill, but not bad! Considering how many rounds D&amp;D and ToME allows, in ToME x15 to x20 would be equivalent. 
+</p>
+<p>
+So how does that balance out? Imagine the following typical situation: 
+</p>
+<p>
+A large vault of 60 Uruk, and an awake poison-immune breeder behind them. 
+</p>
+<p>
+mage tactic: area effect spells until all killed. If not fully ready, teleport out after killing 50 or so and come back after a while(or if all else fails use the rare mana recovery potion). Not worry about the breeders much because globe of light will clean up nicely once Uruks are done. 
+</p>
+<p>
+melee warrior tactic: Melee Uruks until all killed. Use the occasional healing or *healing* potions if not fully ready for them all and then continue melee(this doesn't happen that often with uruks, warriors have lots of HP). Kill breeders by simply going thru the Uruks quick before they breed too much; use expensive wand only if overwhelmed(i.e. fire damage). 
+</p>
+<p>
+ToME rogue, today: shoot breeder with bow first(because reaching the breeder in time is unlikely and noxious cloud wands won't do). Melee 5-10 or so Uruks before they're mostly awake. Flee when half done to use large stack of CCW potions shamelessly stolen from store (rogues aren't as strong as warriors, and need to do this frequently) and set a trap on the way out(if they're implemented well?). Use large stack of noxious cloud wands shamelessly stolen out of the store if all else fails("all else fails" happens to rogue more frequently than warriors or mages). 
+</p>
+<p>
+The current rogue is obviously weaker than the warrior or mage in that situation, despite the fact Uruks tend not to awake as easily as another monster of the same level(at least true with invisible; I've seen in code they're -10 for being orcs or something). Even if classes aren't meant to be equal rogues do need a little help with situation seemingly stacked in a their favor!!! 
+</p>
+<p>
+ToME rogue, balanced: shoot breeder with bow first(no backstab, not humanoid). Backstab 25 orcs before awaking a substantial number of Uruks(why awaking isn't contagious to all same-letter monsters next to the awaking monster, I don't know. This should be implemented IMHO). Wake the rest with poison using one of many stolen noxious cloud wands. Melee the remaining Uruk(all wounded by poison). When there are only a few left but the rogue is quite wounded, either run off to use stack of CCW potions or set a trap. 
+</p>
+<p>
+The main change to balance rogues is the creation of the backstab skill, and I suggest also stealing being a side-effect of very high stealth rather than a skill on its own(or stealing being a subskill of stealth, to make sure stealth rises realistically with high stealing). 
+</p>
+<p>
+Stealing is an important skill but way too skill-expensive in my opinion; and certainly is part of the rogue theme. 
+</p>
+<p>
+*** 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fStealth_20and_20Invisibility?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fStealth_20and_20Invisibility.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:43:03)<br>
+<p><a href="./IdeaArchive_2fStealth_20and_20Invisibility?action=edit">EditText</a> of this page (last edited 2004-09-16 03:19:56 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 21:30:00 May 26, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:47:00 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 135.911
+  exclusion.robots: 0.133
+  exclusion.robots.policy: 0.122
+  RedisCDXSource: 5.076
+  esindex: 0.007
+  LoadShardBlock: 109.587 (3)
+  PetaboxLoader3.datanode: 235.151 (4)
+  CDXLines.iter: 18.61 (3)
+  load_resource: 292.373
+  PetaboxLoader3.resolve: 136.25
+-->

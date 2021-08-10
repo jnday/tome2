@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Theme - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fTheme?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fTheme?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fTheme?action=fullsearch&amp;value=%2FTheme&amp;literal=1&amp;case=1&amp;context=40">Modules/Theme</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fTheme?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fTheme">View</a></li>
+<li><a title="Diffs" href="./Modules_2fTheme?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fTheme?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fTheme?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fTheme?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fTheme?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fTheme?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fTheme?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fTheme?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fTheme?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fTheme">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</a></li>
+<ol>
+<li>
+<a href="#head-06b7ee09b1fffdd88ebc899e58278bebdc4ab538">In this version</a></li>
+</ol>
+
+<li>
+<a href="#head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</a></li>
+<li>
+<a href="#head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</a></li>
+<li>
+<a href="#head-5fda23d62015b99fb2a9f86b38bcdf2bdf7609c8">Author</a></li>
+<li>
+<a href="#head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</a></li>
+<li>
+<a href="#head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</a></li>
+<li>
+<a href="#head-b3fffa6b6a0cec59879e5601a92758f718acd7ab">Known Bugs</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+A module for ToME that tries to get even closer to Tolkien roots. Not canonical or chronologically accurate by any stretch of imagination; like ToME, it combines Ages and personalities and stories, and introduces some `ideas' - for example, what happened to the Ithryn Luin and Elenwe, who is Tom Bombadil, were Glorfindel of Gondolin and Glorfindel of Rivendell the same person, and other points of contention in canon. <p>
+Theme introduces a completely new and more dangerous wilderness map, over 200 new monsters (plus 59 uniques), no Zangband or Cthangband monsters (activating those options does nothing), many new artifacts, objects, and ego items, new gods to worship, new character races, subraces, and subclasses, as well as changes to some existing races and classes. 
+</p>
+<h3 id="head-06b7ee09b1fffdd88ebc899e58278bebdc4ab538">In this version</h3>
+<p>
+This is a a bugfix/update release with some documentation updates, as well as a number of race, class, and God tweaks. 
+</p>
+<p>
+There are currently two simultaneous versions of Theme - one for ToME 2.2.7 and one for the 2.3.0 CVS version. 
+</p>
+<p>
+You can get more information at the <a class="external" href=".www.zionmainframe.ca/tome/theme/"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">Theme site</a>. 
+</p>
+<h2 id="head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</h2>
+1.1.0 a.k.a "Forever There" <h2 id="head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</h2>
+2.2.7 / 2.3.0(CVS) <h2 id="head-5fda23d62015b99fb2a9f86b38bcdf2bdf7609c8">Author</h2>
+<a href="./FuriousOne">FuriousOne</a> <h2 id="head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</h2>
+11/10/2004 <h2 id="head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</h2>
+You can download this module as a <a class="external" href=".modules.t-o-m-e.net/mods/28__theme.zip"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">zip file</a>. (size: 999kB) If you want to play the module with the 2.3.0(CVS) version of ToME, please download at the <a class="external" href=".www.zionmainframe.ca/tome/theme/theme.zip"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">Theme site</a> instead. (size: 1 015 kB) <p>
+The graphical tiles are available as a separate download at the <a class="external" href=".www.zionmainframe.ca/tome/theme/graf.zip"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">Theme site - 727Kb</a>. Note that the pref files distributed with Theme are already configured to work with the Theme tiles. 
+</p>
+<h2 id="head-b3fffa6b6a0cec59879e5601a92758f718acd7ab">Known Bugs</h2>
+<p>
+<a class="interwiki" title="Self" href="./BugReports#head-a797e30923ac1be590300ce6b08e63b4e6dc6688"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Theme bugs</a> 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<a href="./FuriousOne">FuriousOne</a>: Likes? Gripes? Suggestions? Let's hear 'em. =) <p>
+Christopher: No more fog? <img src="./wiki/classic/img/sad.png" alt=":(" height="15" width="15"> I liked that fog... (well, with warriors anyway) 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: I liked it too, but too many people were complaining about it, because it does tend to get annoying the further you descend. If I could keep the fog from getting thicker as you go lower, I would have left it in. But the last levels of the Barrow-downs would just be solid fog most of the time, which was annoying. I'll make a foggy special level soon. &gt;:) 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I learned this a few days ago: In d_info.txt, floor tiles are defined with L-lines and wall tiles with A-lines, e.g. 
+<pre>L:88:94:89:2:199:4
+L:0:95:5
+</pre>The first line defines the features and distribuition of the features on the first level (e.g.,dirt 94%, grass 2%, grass with flowers 4%), the second line with only three entries the distribuition on the last level (e.g. dirt changed to 0%, grass to 95%, grass with flowers to 5%). 
+</p>
+<p>
+If you don't want a change, simply delete the second L-line (or use something more like <tt>L:94:2:4</tt>). 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: Wow, thanks!! That's just what I needed, excellent stuff. <img src="./wiki/classic/img/biggrin.png" alt=":D" height="15" width="15"> [Added later: Fog is back.] 
+</p>
+<p>
+<a href="./ChrisAmes">ChrisAmes</a>: Yay for the fog! <img src="./wiki/classic/img/smile.png" alt=":-)" height="15" width="15"> 
+</p>
+<hr>
+ <p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I found the Map of Thror and the Key of Thorin and went walking around Erebor and its surroundings with them. I didn't find anything unusual (except Ringil! :)). Do the map and the key do anything at this point or am I missing something? I'm still playing 0.0.9 since my swordmaster keeps stubbornly  staying alive. (I'm not sure about this, but I have a nagging feeling I may have killed Glaurung twice in this game... Once earlier and once just now...) 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: Not yet! Sorry. I put in the map and key artifacts already because I *am* planning a special level in Erebor for which you will require them both, but it isn't ready yet. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> Congrats on Ringil! It's not any less rare in Theme than it is in ToME so that's amazing! Now, if you could find the sword of Feanor... :P As for Glaurung, I checked and he shouldn't show up more than once. o.O 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I must have had dreamed about Glaurung then. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> Good to know about the map and key. Now I can ditch them for the better loot that must be somewhere in the pile left by Glaurung and his summons. (I miss sorceror's identify spell...) 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: There is a way to - er... AUTO_ID for warriors *looks mysterious*. Just adding that the Map of Thror and Key of Thorin are now guaranteed at certain places the character is bound to visit, and you will not be happy later if you throw them away. &lt;EG&gt; 
+</p>
+<hr>
+ <p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: Has the graphical tiles' allocations been changed?  It was kinda weird seeing horses being portrayed as what used to be a small kobold.  My best suggestion is to have it use the ASCII character directly on the graphical sets (I've always wanted ASCII monsters on graphical features), but I am not sure how easy that is to do. 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: I haven't changed anything to do with graphics, I'm totally rubbish with it and despite Massimilano Marangio's excellent detailed explanations in the Modules and Lua forum, I can't wrap my brain around it. Are a lot of people playing with graphical tiles? <img src="./wiki/classic/img/redface.png" alt=":o" height="15" width="15"> I kind of like the idea of the monsters being ASCII, it would save me a lot of work! :P 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: I'm downloading the latest theme now, and I'll go to work to set the images to things appropriate, or to the ascii character (for graphics mode) that you set (if possible), and then I'll send you the .prf file that I generated.   
+</p>
+<p>
+[Added later]:  Ok, I hope you got them.  It is possible to have ascii monsters.  I fixed the flowers that are displayed as ;'s and &amp;'s, and made all the monsters ascii (including the player).  Anybody want them, I'll link them on <a href="./ReenenLaurie">ReenenLaurie</a>. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Perhaps a little too late, sorry... If you want to use the default character / color (defined in the info files) for a monster, feature, etc, you only need to delete the corresponding lines from the graf-new.prf and graf-xxx.prf files. For example, deleting all R: lines forces the use of the ascii characters for all monsters. 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: Woo! That's handy to know, thank you! And thank you Reenen for doing that; you've got mail. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: No problem MM (and thank you), it's good to let me get more into the intricitacies of ToME, so I've learnt two new stuff today. (I bascially just loaded a ascii graphics game, and dumped the pref file, so it's not as though I put in loads of effort).  
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: There are now tiles for everything and everyone in Theme, so it shouldn't be a problem any longer. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fTheme?action=refresh&amp;arena=Page.py&amp;key=Modules_2fTheme.text_html">RefreshCache</a> for this page (cached 2004-10-19 22:28:26)<br>
+<p><a href="./Modules_2fTheme?action=edit">EditText</a> of this page (last edited 2004-10-19 22:28:22 by <span title="CPE0080c6f2bdab-CM014250042764.cpe.net.cable.rogers.com"><a href="./FuriousOne">FuriousOne</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:53:17 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:29 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 93.828
+  exclusion.robots: 0.098
+  exclusion.robots.policy: 0.089
+  RedisCDXSource: 3.385
+  esindex: 0.008
+  LoadShardBlock: 71.098 (3)
+  PetaboxLoader3.datanode: 63.793 (4)
+  CDXLines.iter: 17.169 (3)
+  load_resource: 30.749
+-->

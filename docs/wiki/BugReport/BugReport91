@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport91 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport91?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport91?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport91?action=fullsearch&amp;value=BugReport91&amp;literal=1&amp;case=1&amp;context=40">BugReport91</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport91?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport91">View</a></li>
+<li><a title="Diffs" href="./BugReport91?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport91?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport91?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport91?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport91?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport91?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport91?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport91?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport91?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport91">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+For the second time in the last few games, I've been locked out of a shop for no good reason I can think of: 
+<pre>You have 2 scrolls of Word of Recall (e).
+Arghhh! I have had enough abuse for one day!
+Out, out, out!
+The doors are locked.
+</pre><p>
+What I was trying to do was buy a whole stack of identity scrolls... 
+</p>
+<p>
+I thought it should be impossible to insult a shopkeeper with haggling off? And I couldn't have stolen something by mistake because that command isn't even accessible in roguelike keys... 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: The same thing just happened to me. 
+</p>
+
+<pre>Buying 3 scrolls of Enchant Weapon To-Hit (e).
+You quickly agree about the price.
+You'd better be kidding!
+Hmmm, nice weather we're having.
+Arghhh! I have had enough abuse for one day!
+Out, out, out!
+</pre><p>
+I think buying a stack of things seems to be the common thread here. I also had haggling off, and by reflex I enter-keyed quickly past any prompts. For me the event took place in a dungeon store. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I have now extra information. The bug is unrelated to stacks, but for me at least it seems to be connected with dungeon stores (in Theme). If anyone is interested, I have a savefile which is about to exhibit this problem. Go to the potion store, try to buy anything, and the problem appears. I haven't tried all the shops, but at least the rare jewelry one has the same problem, but several other's don't, like the speed ring shop, the ordinary jewelry shop, and the rare footwear shop. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: You can send the savefile to me (<a href="http://web.archive.org/web/20041020131324/mailto:m.marangio@web.de">m.marangio@web.de</a>). 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: "in Theme?"  Please distinguish ToME bugs from module bugs more clearly in the future. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: Note that I only confirmed the bug. I assumed the bug was also to be found in the main ToME as the original poster didn't mention otherwise, although after a while I was starting to get suspicions. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I've received the savefile, thank you. There are some errors with the shop owners of the Theme module. One error was reported in the <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=4992"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">forum</a>: max inflate (second number of I-lines) + hated cost (first number of C-lines) should be lesser than 400, otherwise the selling price will be always 1 AU.  
+</p>
+<p>
+Changing the values of the shop-owner in the savefile, Zamin, in the same way (e.g. 180 + 150 = 330 instead of 300 + 300 = 600) seems to fix this bug, but some more testing is needed. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The values of the ow_info.txt file are stored in bytes, i.e. values over 255 produce some wrap-around-errors. One of these errors sets the last_offer variable to a higher value than the auto-haggled price and produces the reported error.  
+</p>
+<p>
+To fix both bugs, all values greater than 200 hese should be replaced e.g. by 190. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: So the original poster must also have been running Theme? 
+</p>
+<p>
+<strong><a href="./JulesBean">JulesBean</a></strong>: No, I was running ToME v2.2.7 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: There are two shop owners without C-lines and some values are also over 200 in the ow_info.txt file of ToME. I've added the two missing C-lines since I got an owner with a purse of 0. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport91?action=refresh&amp;arena=Page.py&amp;key=BugReport91.text_html">RefreshCache</a> for this page (cached 2004-09-20 14:49:01)<br>
+<p><a href="./BugReport91?action=edit">EditText</a> of this page (last edited 2004-09-20 14:49:00 by <span title="dialin-145-254-143-218.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:13:24 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:10 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 5.192
+  exclusion.robots: 0.214
+  exclusion.robots.policy: 0.198
+  esindex: 0.014
+  load_resource: 294.56
+  CDXLines.iter: 19.18 (3)
+  captures_list: 512.893
+  PetaboxLoader3.datanode: 650.622 (4)
+  LoadShardBlock: 484.331 (3)
+  PetaboxLoader3.resolve: 78.985 (2)
+-->

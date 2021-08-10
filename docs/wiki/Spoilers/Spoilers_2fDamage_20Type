@@ -1,0 +1,1009 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Damage Type - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fDamage_20Type?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fDamage_20Type?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fDamage_20Type?action=fullsearch&amp;value=%2FDamage+Type&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Damage Type</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fDamage_20Type?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fDamage_20Type">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fDamage_20Type?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fDamage_20Type?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fDamage_20Type?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fDamage_20Type?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fDamage_20Type?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fDamage_20Type?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fDamage_20Type?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fDamage_20Type?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fDamage_20Type?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fDamage_20Type">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</a></li>
+<li>
+<a href="#head-c71682b0b7cef1770b7b10680900564935e28260">Damage Types List</a></li>
+<ol>
+<li>
+<a href="#head-32608e1e841534c29281d287939bd4a4818a7f71">Acid</a></li>
+<li>
+<a href="#head-78baebfcb4b52665d7e8a9c7826c47b0fa2439f6">Fire</a></li>
+<li>
+<a href="#head-591f787e5e7befacc96f7510577cb169097ec531">Cold</a></li>
+<li>
+<a href="#head-925cf7f28585a8696c1feca60531efe3c08a099e">Electricity</a></li>
+<li>
+<a href="#head-6de0b0c656444c55bac48c2e467aa0f841083cdc">Poison</a></li>
+<li>
+<a href="#head-8e4978d4ef97c5734a291fe4b516c13c4ee5ec8f">Pure Light</a></li>
+<li>
+<a href="#head-9e37fcd74ce97ee95979b13dd630d9f52d6f2e45">Pure Dark</a></li>
+<li>
+<a href="#head-6f606f326c618a99cde9fcfa33b391791f3e3669">Nether</a></li>
+<li>
+<a href="#head-485a04fef4f30ceea6ef847cac18c89c4c730cc6">Nexus</a></li>
+<li>
+<a href="#head-712da99c9c7fffce7442b3b8c5e4630307808b60">Shard</a></li>
+<li>
+<a href="#head-b4e3efeba10e84f7148da9f7efe85e07057d7c7a">Sound</a></li>
+<li>
+<a href="#head-68b8d436c080ba278527fd64b8d436d489894d27">Confusion</a></li>
+<li>
+<a href="#head-2562ca674d6a2a96438624278eb5f5d77ecd7e1f">Chaos</a></li>
+<li>
+<a href="#head-50763c4cb9ed2bce3cad4e8ea31abf2cbd07e45a">Disenchantment</a></li>
+<li>
+<a href="#head-0a2af398fe476e7bf791ae096a749f33bd8cd91b">Ice</a></li>
+<li>
+<a href="#head-41f38a09cc899b75f8a86524ce3fe712e5fe1461">Force</a></li>
+<li>
+<a href="#head-fcc576945a34879740cc3930ba8df1b5d957e47d">Gravity</a></li>
+<li>
+<a href="#head-03de04b177c0c9563d142065e4628161476840be">Inertia</a></li>
+<li>
+<a href="#head-de9b1be49dae27efd757dc48f1ad55ec95a5e9e5">Water</a></li>
+<li>
+<a href="#head-5a585ece401b217448b278f22b417c282da53786">Pure Time</a></li>
+<li>
+<a href="#head-1eab2e77896772f19030f55f716eb8eb35d3dcde">Mana</a></li>
+<li>
+<a href="#head-3df1a8a24cd0d57dda9fa6bba80b035ddc0ceafb">Meteor</a></li>
+<li>
+<a href="#head-4c79f34b1880aa69733e04afdc343d26f69f1606">Plasma</a></li>
+<li>
+<a href="#head-9230f5d3286149c5cfddf21c61294c9f4d4f69ba">Arrows (and Missile)</a></li>
+<li>
+<a href="#head-1a61eb40ec8dc6f74ba74451ed710cb3485c07ab">Disintegration</a></li>
+<li>
+<a href="#head-7a8e458b260f1b19f372508b6d274de113bc86ae">Holy Fire</a></li>
+<li>
+<a href="#head-b68d2946f1971be837ceebdc7a0760c86954e4a3">Hellfire</a></li>
+<li>
+<a href="#head-e8eaa3e92e7f03b33b0030d4ae1a4785358def90">Toxic Waste / Radiation</a></li>
+<li>
+<a href="#head-186cd74009911bf433778c1fafff6ce90dd47b69">Rocket</a></li>
+<li>
+<a href="#head-d96fcd435bf83d6a3bfffd1a2d4dfe878b12761b">Thick poison</a></li>
+<li>
+<a href="#head-e6b47fb2052fc918c0a33301223aeb38f846d9c8">Psi</a></li>
+<li>
+<a href="#head-c9a3ccd0a4619afc1425201973b3646d20f4619d">Psi Drain</a></li>
+<li>
+<a href="#head-d5c53e3e08d26edb69d4944cdf8d485692edcbd8">Destruction</a></li>
+<li>
+<a href="#head-7cae2224560e805802775c9798ac829124f52f66">Wall Destruction</a></li>
+<li>
+<a href="#head-f0b2b40281f506f6d250cf67155ed903ff5a628c">Wall Creation</a></li>
+</ol>
+
+<li>
+<a href="#head-d2fba7ee7b1e8d7921c99c85002f745fc5236a3d">Strategic Considerations</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</h2>
+Below are listed all (at least i think) the damage you might encounter in standard ToME. For any of them the following are noted: 
+    <ul>
+
+    <li>
+<p>
+ The effect on the player 
+</p>
+</li>
+    <li>
+<p>
+ The effect on monsters 
+</p>
+</li>
+    <li>
+<p>
+ The effect on objects lying on the floor 
+</p>
+</li>
+    <li>
+<p>
+ The effect on items worn / carried by the player 
+</p>
+</li>
+    <li>
+<p>
+ The effects on terrain 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+NOTES: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ It is implicit that if a player has a specific resistance against the attack, the damage will be reduced. 
+</p>
+</li>
+    <li>
+<p>
+ When "normal floor" is stated on <em>terrain effects</em> this mean one of the base tile for the dungeon you are currently in. Since they change from dungeon to dungeon, and most dungeons have more than one, no further explaination may be made. 
+</p>
+</li>
+    <li>
+<p>
+ Except when stated differently, all stat losses will not happen if the stat is sustained, and the loss is 'normal' (i.e.: it can be recovered by restoration) 
+</p>
+</li>
+    <li>
+<p>
+ Note that immunities and double resistance will only protect your items <strong>when specifically stated</strong>, ie. an attack that damage equipment like acid does will damage your equipment even if you have acid immunity 
+</p>
+</li>
+    <li>
+<p>
+ Unless otherwise stated, "conditions" (poisoned, stunned, blind, etc...) are cumulative, ie. if you still had 5 turns of stun and you get hit by an attack that would stun you for 10 turns, you will need 15 turns to recover. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-c71682b0b7cef1770b7b10680900564935e28260">Damage Types List</h2>
+<h3 id="head-32608e1e841534c29281d287939bd4a4818a7f71">Acid</h3>
+<strong>Effect on player:</strong> Unless you have acid resistance or immunity, you have a 1 in 13 chance of losing a point of Charisma. If armor is damaged (see below) the damage done is reduced by 50%. <p>
+<strong>Effect on monsters:</strong> Standard elemental damage. Useful as few monsters resist it, and some are especially vulnerable. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy arrows, bolts, bows, swords, axes, hafted weapons, polearms, helms, crowns, shields, boots, gloves, cloaks, body armors, staves, scrolls, chests, eggs and skeletons (the junk type used for ammo creation). 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ A random worn armor piece will be selected and, unless the object is acid-immune (all artifacts are BTW), it will lose a point of bonus. This can reduce the bonus to a negative value, but the overall protection given by the object will never go below 0. This effect is avoided if you have double resistance or immunity. 
+</p>
+</li>
+    <li>
+<p>
+ Unless you have acid immunity or double resistance, any arrow, bolt, bow, sword, axe, hafted weapon, polearm, helm, crown, shield, boots, gloves, cloak, body armor, staff, scroll, chest, egg or skeleton (the junk type used for ammo creation) in your backpack has a 1-3% chance (depending on damage done) of melting unless it is acid-immune. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong>Effect on terrain:</strong> trees and small trees are killed. <h3 id="head-78baebfcb4b52665d7e8a9c7826c47b0fa2439f6">Fire</h3>
+<strong>Effect on player:</strong> Unless you have fire resistance or immunity, you have a 1 in 13 chance of losing a point of Strength. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Standard elemental damage, only really useful against monsters vulnerable to it. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy arrows, hafted weapons, polearms, light sources, gloves, boots, soft armour, cloaks, bows, books, instruments, chests, staves, scrolls and eggs. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you have fire immunity or double resistance, any arrow, hafted weapon, polearm, light source, gloves, boots, soft armour, cloak, bow, book, instrument, chest, staff, scroll or egg in your backpack has a 1-3% chance (depending on damage done) of being destroyed unless it is fire-immune. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ will kill trees and small trees. 
+</p>
+</li>
+    <li>
+<p>
+ ice tiles have a 20% chance of becoming shallow water and 10% chance of becoming dirt. 
+</p>
+</li>
+    <li>
+<p>
+ Normal floor tiles are 15% likely to become ash and 10% likely to become shallow lava. 
+</p>
+</li>
+    <li>
+<p>
+ Sandwalls have a 30% chance of becoming glass walls 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-591f787e5e7befacc96f7510577cb169097ec531">Cold</h3>
+<strong>Effect on player:</strong> Unless you have cold resistance or immunity, you have a 1 in 13 chance of losing a point of strength. <p>
+<strong>Effect on monsters:</strong> Standard elemental damage, many monsters resist it (especially undead), a few are vulnerable. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy potions and eggs. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you have cold immunity or double resistance, any potion or egg you are carrying in your backpack has a 1-3% chance (depending on damage done) of shattering unless it is cold-immune. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> normal floor tiles are 50% likely to turn to ice tiles. <h3 id="head-925cf7f28585a8696c1feca60531efe3c08a099e">Electricity</h3>
+<strong>Effect on player:</strong> Unless you have electricity resistance or immunity, you have a 1 in 13 chance of losing a point of Dexterity. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Standard elemental damage, many monsters resist it. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy rings, wands and eggs. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you have electricity immunity or double resistance, any ring, wand or egg you are carrying in your backpack has a 1-3% chance (depending on damage done) of being destroyed unless it is electricity-immune. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-6de0b0c656444c55bac48c2e467aa0f841083cdc">Poison</h3>
+<strong>Effect on player:</strong> You have a 1 in 13 chance of losing a point of Constitution. Further, you will be poisoned for 10 turns + a random value between 0 and the damage done by the attack. Both effects are avoided by poison resistance. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Poison will poison your foes, but at higher levels that's nearly useless (I think it's 1 damage per round). Some foes resist it, notably undead. Note that poisoned monsters will not regenerate. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried ojbects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-8e4978d4ef97c5734a291fe4b516c13c4ee5ec8f">Pure Light</h3>
+<strong>Effect on player:</strong>  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Unless you have light or blindess resistance, you will be blinded for 2-7 turns (note however that this is *not* cumulative). 
+</p>
+</li>
+    <li>
+<p>
+ If you are sensible to light you take x3 damage. If you have both light resistance and susceptiblity, you will still take around 150% damage. 
+</p>
+</li>
+    <li>
+<p>
+ If you are in temporary wraithform (from spell or artifact activation) it will immediately end. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong>Effect on monsters:</strong> Monsters susceptible to light will take double damage, and only light breathers resist it. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> will light the affected zone <h3 id="head-9e37fcd74ce97ee95979b13dd630d9f52d6f2e45">Pure Dark</h3>
+<strong>Effect on player:</strong> Unless you have dark or blindess resistance, you will be blinded for 2-7 turns (note however that this is *not* cumulative). If you are in permanent wraithform (from worn artifacts or possessed body, not the type that the spectre subrace confers) you will not suffer any damage, and will instead be healed by an equal amount. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Orcs, darkness breathers and any monster susceptible to light will resist it. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> will darken the affected zone <h3 id="head-6f606f326c618a99cde9fcfa33b391791f3e3669">Nether</h3>
+<strong>Effect on player:</strong> Unless you have nether resistance, you will lose 200 xp + 2% of your total xp. Hold life will prevent the loss 75% of the time, reducing it to 200 xp + 0,2% of your total xp otherwise. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Nether spells are usually not very useful, since while only few creatures can resist it, undead are completely immune, and any evil creature is partially resistant. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> trees and small trees are killed <h3 id="head-485a04fef4f30ceea6ef847cac18c89c4c730cc6">Nexus</h3>
+<strong>Effect on player:</strong> Unless you resist nexus, and *only if the damage comes from a monster*, one of the following may happen: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ a 3 in 7 chance of being teleported up to 200 squares away; 
+</p>
+</li>
+    <li>
+<p>
+ a 2 in 7 chance of being teleported to the damaging monster; 
+</p>
+</li>
+    <li>
+<p>
+ a 1 in 7 chance of being teleported to another level (you get a saving throw); 
+</p>
+</li>
+    <li>
+<p>
+ a 1 in 7 chance of having two of your stats exchanged at random (you get a saving throw). 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong>Effect on monsters:</strong> Nexus spells are resisted by some creatures and have no additional effects. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> trees and small trees are killed <h3 id="head-712da99c9c7fffce7442b3b8c5e4630307808b60">Shard</h3>
+<strong>Effect on player:</strong> Unless you have shard resistance, your cut counter will be increased by the full damage done by the attack. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Shard spells make monsters bleed (up to 1+maxhp/50 hp loss per round, and prevents regeneration). This is always useful. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy potions and eggs. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you have shard resistance, there is a 1 in 13 chance of destroying items like cold damage does, but with a 2% chance per object. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> trees and small trees are killed <h3 id="head-b4e3efeba10e84f7148da9f7efe85e07057d7c7a">Sound</h3>
+<strong>Effect on player:</strong> Unless you have sound resistance, you will be stunned for up to 35 turns. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Sound damage can stun opponents, and is only resisted by sound breathers. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy any potion or egg. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you have sound resistance, there is a 1 in 13 chance of items being destroyed like cold damage does, with a 2% chance per object. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-68b8d436c080ba278527fd64b8d436d489894d27">Confusion</h3>
+<strong>Effect on player:</strong> Unless you have confusion resistance, you will be confused for 10-30 turns. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Confusion confuses some monsters. Some giant types are flagged 'stupid' in the code, and are easily confused (like Hrus). Confusion breathers are highly resistant to that damage, while monsters which "cannot be confused" are only partially resistant to damage, but cannot be confused nonetheless. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-2562ca674d6a2a96438624278eb5f5d77ecd7e1f">Chaos</h3>
+<strong>Effect on player:</strong> 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ You will be confused for 10-30 turns unless you have confusion resistance (remember that chaos resistance confers confusion resistance as well). 
+</p>
+</li>
+    <li>
+<p>
+ You will be hallucinated for 0-10 turns unless you resist chaos. 
+</p>
+</li>
+    <li>
+<p>
+ Unless you have chaos *or* nether resistance, you will be drained of 5000 xp + 2% of your xp total. Hold life will prevent the drain 75% of the times, reducing it to 500 xp + 0,2% of your xp total otherwise. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong>Effect on monsters:</strong> Chaos transforms your non-unique opponents into something else, and will confuse them as well. Chaos breathers resist it and demons have a 1-in-3 chance of resisting it. Note that monsters resistant to it can still be confused unless they are specifically impossible to confuse. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy everything except artifacts 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> There is a 1 in 9 chance of destroying carried items both as fire and electricity damage do (with 2% chance per object) unless you have chaos resistance. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-50763c4cb9ed2bce3cad4e8ea31abf2cbd07e45a">Disenchantment</h3>
+<strong>Effect on player:</strong> A random worn armor or weapon (including bow) item is chosen. If it is enchanted, it will lose 1 point of to-hit bonus, 1 point of to-damage bonus, and 1 point of to-AC bonus. Any of these values which is 7 or more has a 20% chance of losing an additional point, but artifacts have a 71% chance or resisting the disenchantment altogheter. Note that this effect may never reduce bonuses below 0. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Disenchantment attacks have no particular effects, but are only resisted by few creatures. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-0a2af398fe476e7bf791ae096a749f33bd8cd91b">Ice</h3>
+<strong>Effect on player:</strong> Cold damage and effects apply (see above), plus your cut counters will be increased by 5-40 unless you have shard resistance, and you will be stunned for 0-15 turns unless you have sound resistance. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Ice makes the floor annoyingly slippery, but is good against fire-related monsters. It may stun opponents or make them bleed. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy potions and eggs. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> your items will be damaged one time by the cold damage as described above, then there is an additional 1 in 12 chance of them being checked again for cold damage, with a 3% damage of shattering. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> same as cold (see above). <h3 id="head-41f38a09cc899b75f8a86524ce3fe712e5fe1461">Force</h3>
+<strong>Effect on player:</strong> The damage is unresistable, and unless you have sound resistance, you will be stunned for 0-20 turns and pushed back 2 steps. If you cannot be pushed at all due to a wall stopping you, you will be crushed and take 150% damage from the attack, reduced to 130% if you are pushed back one step before hitting a wall. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> If fired by the player, force attacks will push monsters away, and can crush them against walls for 150% damage (applicable only if the wall behind the monster is 2 or more squares thick, otherwise it will just push the monster to the other side of a wall which is still useful nonetheless). If fired from another monster, the attack will instead stun the target for around 15 turns. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> any potion or egg in the area of effect will be destroyed. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> trees and small trees are killed <h3 id="head-fcc576945a34879740cc3930ba8df1b5d957e47d">Gravity</h3>
+<strong>Effect on player:</strong> Levitation reduces the damage somewhat (to 2/3 of the original value). You will be teleported up to 5 steps away, and unless you have levitation you will be slowed for 4-8 turns and stunned for up to 35 turns (this last effect may be avoided if you have sound resistance). 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Gravity spells randomly teleport monsters a few squares, sometimes to another room, plus slow and sometimes stun them. This is useful for monsters you DON'T want to fight when crushing against a wall with force keeps things too close or you don't have force.  
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you have levitation, any potion or eggs carried in your backpack has a 2% chance of shattering 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-03de04b177c0c9563d142065e4628161476840be">Inertia</h3>
+<strong>Effect on player:</strong> Damage is unresistable. You will be slowed by -5 to speed for 4-8 turns, even with free action. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Inertia spells slow down almost any monster. Inertia view spells are very useful regardless of their damage! Keep in mind that this effect is *permanent and cumulative*. This allows for some very efficient hit-and-run tactics. The chance of slowing monsters depends on their level and the damage inflicted (higher monster level decreases it, higher damage increases it). Only inertia breathers can resist it. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-de9b1be49dae27efd757dc48f1ad55ec95a5e9e5">Water</h3>
+<strong>Effect on player:</strong> Damage is unresistable. You will be stunned for 0-40 turns unless you have sound resistance, and confused for 5-10 turns unless you have confusion resistance. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Water spirits and elementals are completely immune to this type of damage, and some monsters resist it. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ normal floor tiles have a 35% chance of becoming shallow water and 5% of becoming deep water. 
+</p>
+</li>
+    <li>
+<p>
+ shallow lava tiles have a 15% chance of becoming normal floor 
+</p>
+</li>
+    <li>
+<p>
+ deep lava tiles are 10% likely to become shallow lava and 5% to become normal floor 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-5a585ece401b217448b278f22b417c282da53786">Pure Time</h3>
+<strong>Effect on player:</strong> Damage is resisted only if you have time resistance (that is, the space-time continuum is stabilized). Otherwise you will take full damage, and you will suffer from one of the following: 
+    <ul>
+
+    <li>
+<p>
+ a 50% chance of losing 100 xp + 2% of your xp total (hold life will not protect); 
+</p>
+</li>
+    <li>
+<p>
+ a 40% chance of losing 25% of a random stat (sustain will not protect) 
+</p>
+</li>
+    <li>
+<p>
+ a 10% chance of losing 25% from all stats (sustain will not protect). 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong>Effect on monsters:</strong> Time attacks are only resisted by time breathers, but have no other effects on monsters. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> trees and small trees are killed <h3 id="head-1eab2e77896772f19030f55f716eb8eb35d3dcde">Mana</h3>
+<strong>Effect on player:</strong> Damage is unresistable. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Mana spells are *completely unresistable*. Not even mana breathers resist it. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy everything except artifacts 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-3df1a8a24cd0d57dda9fa6bba80b035ddc0ceafb">Meteor</h3>
+<strong>Effect on player:</strong> Damage is unresistable. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Meteor damage is not resistable. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy any object susceptible to either fire or cold (see above) 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you have shard resistance, you have a 1 in 13 chance of your items being destroyed like cold damage does (with a 2% chance per object). Further, your items will be destroyed by fire as well (with 2% chance too) unless you are immune to it. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> same as fire (see above) <h3 id="head-4c79f34b1880aa69733e04afdc343d26f69f1606">Plasma</h3>
+<strong>Effect on player:</strong> Damage is unresistable, and unless you have sound resistance, you will be stunned up to 35 turns. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Plasma damage is resisted by some monsters, but they are few. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy any object susceptible to either fire or electricity (see above) 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Will destroy objects like acid damage does, with 3% chance per object, unless you have fire resistance or immunity (note that single resistance will be enough). 
+</p>
+<p>
+<strong>Effect on terrain:</strong> same as fire (see above) <h3 id="head-9230f5d3286149c5cfddf21c61294c9f4d4f69ba">Arrows (and Missile)</h3>
+<strong>Effect on player:</strong> Damage is unresistable. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> This damage is simply unresistable, but has no side effects. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-1a61eb40ec8dc6f74ba74451ed710cb3485c07ab">Disintegration</h3>
+<strong>Effect on player:</strong> Unresistable damage. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Does double damage to monsters that are vulnerable to rock removers.  Can only be resisted by uniques, with the chance of resisting going up with the target's level and going down with the breather's level; at target level 40 and breather level 50, the chance of resistance is 50%.  If resisted, the target suffers only 1/8 damage. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy everything except artifacts. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> Destroys all wall types (except permanent walls, lava walls and mountains), trees, dirt, traps, fountains, water, lava, and runes of protection, leaving plain floor in their place. <h3 id="head-7a8e458b260f1b19f372508b6d274de113bc86ae">Holy Fire</h3>
+<strong>Effect on player:</strong> Damage is unresistable. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> No side effects, but evil monsters take double damage, good ones are completely immune and all others resist it. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> any non-artifact cursed object is destroyed. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> same as fire (see above) <h3 id="head-b68d2946f1971be837ceebdc7a0760c86954e4a3">Hellfire</h3>
+<strong>Effect on player:</strong> Damage is unresistable. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Evil monsters take double damage, for all others the damage is unresistable. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> destroy any non-artifact cursed object. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> same as fire (see above) <h3 id="head-e8eaa3e92e7f03b33b0030d4ae1a4785358def90">Toxic Waste / Radiation</h3>
+<strong>Effect on player:</strong> If you have poison resistance, damage will be reduced and nothing else will happen, otherwise you will be poisoned (for 10 turns + a random value between 0 and the damage done by the attack) and you have a 1 in 5 chance of being mutated. This translates to a 25% chance of having two stats exchanged, or in a polymorph the remaining 75% of the times (this is probably a bug, since polymorph can have dire results on ToME characters). 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Monsters which resist poison resist this as well, all others take full damage and have a 1 in 3 chance of being polymorphed. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you are poison resistant, there is a 1 in 6 chance of getting item destruction as per acid (but without armor damage). 
+</p>
+<p>
+<strong>Effect on terrain:</strong> Trees and small trees are killed <h3 id="head-186cd74009911bf433778c1fafff6ce90dd47b69">Rocket</h3>
+<strong>Effect on player:</strong> Shard resistance reduces the damage to 50%. You will be stunned for 0-20 turns unless you have sound resistance and your cut counter will be increased by 50% of the damage inflicted unless you have shard resistance. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Shard breathers resist damage, others get full damage and have a 12% chance of bleeding for 10-25 turns (for area attacks the time is reduced further from the center). 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> Unless you have shard resistance, there is a 1 in 12 chance of destroying items carried like cold damage does. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-d96fcd435bf83d6a3bfffd1a2d4dfe878b12761b">Thick poison</h3>
+<strong>Effect on player:</strong> none (this is a damage type used exlusively by player spells as of 2.3.1) 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Non-living and undead creatures are completely immune. Others get full damage and have a 15% chance of being poisoned for 10-21 turns. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-e6b47fb2052fc918c0a33301223aeb38f846d9c8">Psi</h3>
+<strong>Effect on player:</strong> No damage, instead you'll get temporary ESP for a number of turns equal to the damage the attack would have done. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Mindless monsters (those not detected by telephaty) are immune. Stupid, weird mind (those rarely detected by telepathy) and animal monsters automatically resist, others have a chance based on their level and damage done.<br>
+If the monster is an undead or demon and his level level is at least half of the player level, it has a 50% chance to retailate, avoiding all damage and inflicting instead 1/3 of the original damage on the player, plus a 25% chance of inflicting one of the following conditions on him (all are avoidable with a succesful saving throw): 
+</p>
+
+        <ul>
+
+        <li>
+<p>
+ confuse (even with confusion resist) for 3 turns + a random value from 0 up to the damage done; 
+</p>
+</li>
+        <li>
+<p>
+ stun from 0 up to damage turns; 
+</p>
+</li>
+        <li>
+<p>
+ terrify (unless you have fear resistance) for 3 turns + a random value between 0 and the damage done; 
+</p>
+</li>
+        <li>
+<p>
+ paralyze (unless you have free action) from 0 up to damage turns. 
+</p>
+</li>
+
+        </ul>
+
+
+<p>
+If damage is inflicted (even if the monster resisted) there is a 25% chance of it being confused, stunned, scared or paralyzed (only one) for 3+damage turns. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none 
+</p>
+<h3 id="head-c9a3ccd0a4619afc1425201973b3646d20f4619d">Psi Drain</h3>
+<strong>Effect on player:</strong> None. <p>
+<strong>Effect on monsters:</strong> 
+</p>
+
+    <ul>
+
+ Mindless monsters (those not detected by telepathy) are immune. Stupid, weird mind (those rarely detected by telepathy) and animal monsters automatically resist, others have a chance based on their level and damage done.<br>
+If the monster is an undead or demon and his level level is at least half of the player level, it has a 50% chance to retailate, avoiding all damage and inflicting instead 1/3 of the original damage on the player, plus a loss of spell points from 2 up to 2,5 times the inflicted damage.  If the monster didn't resist, you will gain a number of spell points varying from 1 to 1,2 times the damage done by the attack. 
+    </ul>
+
+
+<p>
+<strong>Effect on ground objects:</strong> none 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none 
+</p>
+<p>
+<strong>Effect on terrain:</strong> none <h3 id="head-d5c53e3e08d26edb69d4944cdf8d485692edcbd8">Destruction</h3>
+<strong>Effect on player:</strong> Unless you have light or blindness resistance, you will be blinded for 10-20 turns. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Any monster hit will be deleted (not destroyed). This mean that you will gain no experience or loot, just like genocide. Unlike it however, it will affect even uniques, which however are not counted as killed (and so may reappear later). 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> well... *anything* will be *deleted* (not destroyed) within the affected area, <strong>even artifacts</strong>!!! 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> it turns all affected area to a random mix of granite walls, quartz veins, magma veins and sandwalls. <h3 id="head-7cae2224560e805802775c9798ac829124f52f66">Wall Destruction</h3>
+<strong>Effect on player:</strong> None. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> Wall destruction will destroy any wall that's not permanent, but will spare trees. Only monsters which are hurt by rock removers will get any damage. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none. 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> destroy walls <h3 id="head-f0b2b40281f506f6d250cf67155ed903ff5a628c">Wall Creation</h3>
+<strong>Effect on player:</strong> none. 
+</p>
+<p>
+<strong>Effect on monsters:</strong> none. 
+</p>
+<p>
+<strong>Effect on ground objects:</strong> none (and squares containing objects are not walled) 
+</p>
+<p>
+<strong>Effect on carried objects:</strong> none. 
+</p>
+<p>
+<strong>Effect on terrain:</strong> any non-permanent open square will be substituted by a stone wall, unless it contain an object or special terrain feature such as a void jumpgate or stairs.  Walls will be created around monsters and traps. If the monster can move, it can walk out of the wall but cannot walk back in. 
+</p>
+<h2 id="head-d2fba7ee7b1e8d7921c99c85002f745fc5236a3d">Strategic Considerations</h2>
+
+    <ul>
+
+    <li>
+<p>
+ If you are worshipping Yavanna, any attack that destroys a tree or a small tree you make you lose piety (50 for a tree, 60 for a small tree), whether the attack was done by you or by a monster. 
+</p>
+</li>
+
+    </ul>
+
+
+<hr>
+ <h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./RedNaga">RedNaga</a></strong>: please note that the page is still incomplete. I will finish, reorganize and reformat it ASAP - <a class="nonexistent" href="./ToDo">ToDo</a>: rework gravity effect on monsters. <p>
+I have some questions: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+wall creation, wall destruction and destruction are not 'real' damage, tough they are treated the same way. Shall i move them back to the thaum page? I really don't know... 
+</p>
+</li>
+    <li>
+<p>
+shall i remove the various 'none' entries to make the page a bit shorter? 
+</p>
+</li>
+    <li>
+<p>
+i wonder if someone could provide a less confused description for how disenchantment work? 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+<strong>Ben-San</strong>: I would recommend leaving Wall Creation, Wall Destruction, and Destruction here as all three are available to non-thaumaturges (the first two through exploding ammunition and the latter through *Destruction* effects). 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: mmmm... i see (i didn't even know that exploding ammo could be wall destr/create), but what i *really* meant is that they are not true *damage* types. What about the various charm/domination/identify etc.. the ToME engine treat most of them like attack that do no damage but have special effects. Maybe another page would be more appropriate? 
+</p>
+<p>
+Another question: shall I add specific info on resistance percentages and damage reduction like <a href="./KhymChanur">KhymChanur</a> has done for disintegration? I left them out because i tought there was no need to be so specific, but if there is request, i can add them back for all attack. Waiting.... 
+</p>
+<p>
+To <a href="./KhymChanur">KhymChanur</a> - are you sure about the terrain effects of disintegration? AFAICT it only affect trees, small trees and normal floor and turn them to ash 30% of the time. 
+</p>
+
+    <ul>
+
+ <strong><a href="./KhymChanur">KhymChanur</a></strong>: Well, there's <em>some</em> breath attack that destroys walls , since my Symbiant's companion GWOPs use it periodically, and it also seems to destroy traps and fountains.  And Melkor once breathed something at me that destroyed runes of protection.  I assumed that it was disintigration, but looking at the code, it only seems to kill trees.  So what is it that GWOPs and Melkor are doing? 
+        <ul>
+
+  <a href="./NerdanelVampire">NerdanelVampire</a>: According to my observation of game messages, disintegration can indeed disintegrate walls. Perhaps the tree-killing and the other action are in different places of the code. 
+        </ul>
+
+
+ <strong><a href="./RedNaga">RedNaga</a></strong>: *Rummage sources* - my! You're right about the floor. I misread the floor feat for the floor *flag*. I'll have to correct things <img src="./wiki/rightsidebar/img/sad.png" alt=":(" height="15" width="15"> . Instead i don't know about walls. As far as i can tell only the Wall Destruction damage dissolves walls, so i'm puzzled (no confusion resistance yet...). 
+    </ul>
+
+
+<p>
+<strong><a href="./BurbLulls">BurbLulls</a></strong>: Could melee damage be counted as a type of damage amongst these? Tulkas' prayers Wave Of Power and Whirlwind both use GF_ATTACK in the script. 
+</p>
+<p>
+<strong><a href="./TheFury">TheFury</a></strong>: There is still a lot of damage types that aren't listed like implosion, wave, wind_mana, and a few others that are listed in the defines.h. They appear to work... 
+</p>
+<p>
+<strong>N<a class="nonexistent" href="./EilStevens">EilStevens</a></strong>: No sense spoiling types that don't exist in the game. 
+</p>
+<p>
+<strong><a href="./TheFury">TheFury</a></strong>: However, it would make the module writers job a bit easier... 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: Well, i agree with Neil about the fact that this is a *ToME* spoiler page and as such there is no much need to list damage types that are never used - i think it would confound simple players - but they could be a nice addition for a *new page* that list only those for module builders (which could be linked from this one *and* from the module builders section) 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Module developers would be advised to write their own damage types instead of  depending on hard-coded ones that might change at any time. 
+</p>
+<p>
+<strong><a href="./TheFury">TheFury</a></strong>: How does one go about writing their own damage types? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Implement a hook for HOOK_GF_EXEC. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: mmm... just asking, but will these "old" damage types stay hard-coded in tome 3 as well, or they will all be passed off to LUA? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I think they will be removed, but I'm not certain. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fDamage_20Type?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fDamage_20Type.text_html">RefreshCache</a> for this page (cached 2005-11-04 20:25:50)<br>
+<p><a href="./Spoilers_2fDamage_20Type?action=edit">EditText</a> of this page (last edited 2005-08-30 07:30:19 by <span title="h224n2fls32o884.telia.com"><a href="./ScrawnyCat">ScrawnyCat</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 07:03:26 Nov 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:38 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.07
+  PetaboxLoader3.resolve: 88.008 (3)
+  LoadShardBlock: 105.886 (3)
+  CDXLines.iter: 32.506 (3)
+  load_resource: 74.664
+  captures_list: 146.022
+  esindex: 0.022
+  exclusion.robots: 0.337
+  PetaboxLoader3.datanode: 70.682 (4)
+  exclusion.robots.policy: 0.315
+-->

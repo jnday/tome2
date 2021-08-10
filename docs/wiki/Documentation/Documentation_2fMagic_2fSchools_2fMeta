@@ -1,0 +1,394 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Schools/Meta - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fSchools_2fMeta?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fSchools_2fMeta?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fSchools">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fSchools_2fMeta?action=fullsearch&amp;value=%2FMeta&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Schools/Meta</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fSchools">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fSchools_2fMeta?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fSchools_2fMeta">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fSchools_2fMeta?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fSchools_2fMeta?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fSchools_2fMeta?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fSchools_2fMeta?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fSchools_2fMeta?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fSchools_2fMeta?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fMeta?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fMeta?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fMeta?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fSchools_2fMeta">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Intelligence (INT) is the stat affecting failure rate for this skill. <h3 id="head-625547ca0009d9d7de6a3c9345dcbec186ebe61a">Meta Spells</h3>
+<p>
+The meta school of magic contains spells where the raw forces of magic are  manipulated by the spell. 
+</p>
+<p>
+There are four spells available for the meta school: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Recharge</strong> (school level 5) Taps on the ambient mana to recharge an object's power (charges or mana). 
+</p>
+</li>
+    <li>
+<p>
+<strong>Disperse Magic</strong> (school level 15) Dispels a lot of magic that can affect you, be it good or bad", 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Spell Level 1: blindness and light. 
+</p>
+</li>
+                <li>
+<p>
+ Spell Level 5: confusion and hallucination. 
+</p>
+</li>
+                <li>
+<p>
+ Spell Level 10: speed (both bad or good) and light speed. 
+</p>
+</li>
+                <li>
+<p>
+ Spell Level 15: stunning, meditation, cuts. 
+</p>
+</li>
+                <li>
+<p>
+ Spell Level 20: hero, super hero, bless, shields, afraid, parasites, and mimicry. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Spellbinder</strong> (school level 20) Stores spells in a trigger. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ When the condition is met all spells fire off at the same time. 
+</p>
+</li>
+                <li>
+<p>
+ This spell takes a long time to cast so you are advised to prepare it in a safe area. 
+</p>
+</li>
+                <li>
+<p>
+ Also it will use the mana for the Spellbinder and the mana for the selected spells. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Inertia Control</strong> (school level 37) Changes the energy flow of a spell to be continuously recasted at a given interval. The inertia controlled spell reduces your maximum mana by four times its cost. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Controllable spells are: 
+</p>
+</li>
+
+                            <ul>
+
+                            <li>
+<p>
+ Armor of Fear 
+</p>
+</li>
+                            <li>
+<p>
+ Banishment 
+</p>
+</li>
+                            <li>
+<p>
+ Disperse Magic 
+</p>
+</li>
+                            <li>
+<p>
+ Disruption Shield 
+</p>
+</li>
+                            <li>
+<p>
+ Elemental Shield 
+</p>
+</li>
+                            <li>
+<p>
+ Ent's Potion 
+</p>
+</li>
+                            <li>
+<p>
+ Essence of Speed 
+</p>
+</li>
+                            <li>
+<p>
+ Fiery Shield 
+</p>
+</li>
+                            <li>
+<p>
+ Flame of Udun 
+</p>
+</li>
+                            <li>
+<p>
+ Globe of Light 
+</p>
+</li>
+                            <li>
+<p>
+ Grow Trees 
+</p>
+</li>
+                            <li>
+<p>
+ Ice Storm 
+</p>
+</li>
+                            <li>
+<p>
+ Invisibility 
+</p>
+</li>
+                            <li>
+<p>
+ Phase Door 
+</p>
+</li>
+                            <li>
+<p>
+ Poison Blood 
+</p>
+</li>
+                            <li>
+<p>
+ Probability Travel 
+</p>
+</li>
+                            <li>
+<p>
+ Recovery 
+</p>
+</li>
+                            <li>
+<p>
+ Regeneration 
+</p>
+</li>
+                            <li>
+<p>
+ Remove Curses 
+</p>
+</li>
+                            <li>
+<p>
+ Reveal Ways 
+</p>
+</li>
+                            <li>
+<p>
+ Sense Hidden 
+</p>
+</li>
+                            <li>
+<p>
+ Sense Monsters 
+</p>
+</li>
+                            <li>
+<p>
+ Shake 
+</p>
+</li>
+                            <li>
+<p>
+ Stone Skin 
+</p>
+</li>
+                            <li>
+<p>
+ Teleportation 
+</p>
+</li>
+                            <li>
+<p>
+ Thunderstorm 
+</p>
+</li>
+                            <li>
+<p>
+ Tidal Wave 
+</p>
+</li>
+                            <li>
+<p>
+ Vapor 
+</p>
+</li>
+                            <li>
+<p>
+ Vision 
+</p>
+</li>
+                            <li>
+<p>
+ Wings of Winds 
+</p>
+</li>
+                            <li>
+<p>
+ Wraithform 
+</p>
+</li>
+
+                            </ul>                </ul>    </ol>
+
+
+<h4 id="head-3ce56f72b52e5daf6171d3ddcb0f5a654e4629c9">Combined Spells</h4>
+<p>
+There is one combined school spell available for the maeta school: 
+</p>
+
+    <ol type="4">
+
+    <li>
+<p>
+<strong>Tracker</strong> (dual school: Meta/Conveyance level 30) Tracks down the last teleportation that happened on the level and teleports you to it. 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Your Meta and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fConveyance"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Conveyance</a> skills must have reached a combined average level of 30 in order to cast this spell. 
+</p>
+</li>
+
+            </ul>    </ol>
+
+
+<h4 id="head-906abc02ff3d872f162af0a481dce9a5c5462baa">God given ability</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-5bd0243a84a97d0e2433360b77f003d1eaa40eb8"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Manwe Sulimo</a> at 1/3 prayer level. 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fSchools_2fMeta?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fSchools_2fMeta.text_html">RefreshCache</a> for this page (cached 2005-11-07 04:15:41)<br>
+<p><a href="./Documentation_2fMagic_2fSchools_2fMeta?action=edit">EditText</a> of this page (last edited 2005-04-18 13:09:58 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:09:04 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:43 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 744.337
+  exclusion.robots: 0.229
+  CDXLines.iter: 30.061 (3)
+  LoadShardBlock: 703.276 (3)
+  esindex: 0.017
+  RedisCDXSource: 4.149
+  exclusion.robots.policy: 0.215
+  load_resource: 996.309
+  PetaboxLoader3.datanode: 632.482 (4)
+  PetaboxLoader3.resolve: 964.57 (2)
+-->

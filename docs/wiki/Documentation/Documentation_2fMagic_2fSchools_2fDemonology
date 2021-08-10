@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Schools/Demonology - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fSchools">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=fullsearch&amp;value=%2FDemonology&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Schools/Demonology</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fSchools">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fSchools_2fDemonology">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fSchools_2fDemonology?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fSchools_2fDemonology?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fDemonology?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fDemonology?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fDemonology?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fSchools_2fDemonology">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Intelligence (INT) is the stat affecting failure rate for this skill. <h3 id="head-9290264b6d5da3e09cfefdd9b0571222beaa76fc">Demonology</h3>
+<p>
+Available only to <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fDemonologist"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">demonologists</a>, or those sufficiently corrupted with demon-like powers, this school contains spells where demonic energies are used to create mainly devastating effects. 
+</p>
+<h4 id="head-195296f115791cff9760f0a55ee2017c28dd994b">Demonic equipment</h4>
+<p>
+Unlike other magic schools, the spells of a Demonologist are not written in spell books, but are contained within items of demonic origin known as Demonblades, Demonshields, and Demonhorns (helms), which, when wielded, allow the Demonologist to cast spells; each piece of equipment holds three spells. 
+</p>
+<h4 id="head-d5690e9371eb38dddc9a067c277657ff8a6546e1">Demonblade spells</h4>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Demon Blade</strong> (school level 1) Imbues your blade with fire to deal more damage. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 30 it deals hell fire damage. 
+</p>
+</li>
+                <li>
+<p>
+ At level 45 it spreads over a 1 radius zone around your target. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Demon Madness</strong> (school level 10) 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Fire 2 balls in opposite directions of either chaos, confusion or charm. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Demon Field</strong> (school level 20) 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Fires a cloud of deadly nexus over a radius of 7. 
+</p>
+</li>
+
+                </ul>    </ol>
+
+
+<h4 id="head-dbede9abdc88835bf289d640af1c6a036c2937c8">Demonshield spells</h4>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Doom Shield</strong> (school level 1) Raises a mirror of pain around you, doing very high damage to your foes that dare hit you, but greatly reducing your armour class. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Demon Cloak</strong> (school level 20) Raises a mirror that can reflect bolts and arrows for a time. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Unholy Word</strong> (school level 25) Kills a pet to heal you. There is a chance that the pet won't die but will turn against you. This chance will decrease with higher spell levels. 
+</p>
+</li>
+
+    </ol>
+
+
+<h4 id="head-0347a9dd957c00e89a6173f36a569295b512162e">Demonhorn spells</h4>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Summon Demon</strong> (school level 5) Summons a leveled demon to your side. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 35 it summons a high demon. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Discharge Minion</strong> (school level 10) The targeted pet will explode in a burst of gravity. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Control Demon</strong> (school level 25) Attempts to control a demon. 
+</p>
+</li>
+</ol>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fSchools_2fDemonology?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fSchools_2fDemonology.text_html">RefreshCache</a> for this page (cached 2005-11-06 05:47:10)<br>
+<p><a href="./Documentation_2fMagic_2fSchools_2fDemonology?action=edit">EditText</a> of this page (last edited 2005-04-18 13:11:55 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:49:22 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:32 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 281.81
+  exclusion.robots: 0.116
+  exclusion.robots.policy: 0.108
+  RedisCDXSource: 9.725
+  esindex: 0.008
+  LoadShardBlock: 248.562 (3)
+  PetaboxLoader3.datanode: 133.824 (4)
+  CDXLines.iter: 19.75 (3)
+  PetaboxLoader3.resolve: 180.07 (2)
+  load_resource: 183.158
+-->

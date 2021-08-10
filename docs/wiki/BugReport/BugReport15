@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport15 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport15?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport15?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport15?action=fullsearch&amp;value=BugReport15&amp;literal=1&amp;case=1&amp;context=40">BugReport15</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport15?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport15">View</a></li>
+<li><a title="Diffs" href="./BugReport15?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport15?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport15?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport15?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport15?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport15?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport15?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport15?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport15?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport15">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+When making myself a pair of leather gloves of power(it's a +str and sort-of-slaying ego), I got myself some randart gloves. <p>
+I even got myself a second and third set!!! 
+</p>
+<p>
+I thought it was cool until I start checking thru my huge pile of attepts at the perfect glove... 
+</p>
+<p>
+ALL THREE ARTIFACTS HAD NO POWERS WHATSOEVER!!! *deep wound thru the brain feeling* 
+</p>
+<p>
+Somehow I expected the gloves to at least have one flag from the ego. There was nothing. 
+</p>
+<p>
+I'm starting to think I'm unlucky (-60) in real life... 
+</p>
+<p>
+Simon: I played 2.3 where the bug is the same. I have 8 empty pairs of gloves (was attempted: gloves of power). Weapons don't seem to get affected by the "empty" effect; they get lots of effects you can't get from an ego(five +stats) but NONE of what I can make with an ego, the one used("of aman") or another. Weapons therefore "feel" incomplete because they don't have any characteristics of the intended ego, but are still useful. 
+</p>
+<p>
+Still, I ran out of gloves to ego and sold my 8 empty pairs for a weak profit and had to walk to the next town and try again to get ideal gloves of power. That was annoying, while this accidental artifacting was probably meant as potentially fun I think. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport15?action=refresh&amp;arena=Page.py&amp;key=BugReport15.text_html">RefreshCache</a> for this page (cached 2004-08-05 00:47:23)<br>
+<p><a href="./BugReport15?action=edit">EditText</a> of this page (last edited 2004-07-29 21:51:23 by <span title="dialin-145-254-144-044.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:32:40 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.242
+  captures_list: 73.523
+  esindex: 0.017
+  RedisCDXSource: 0.747
+  PetaboxLoader3.resolve: 21.221
+  load_resource: 48.727
+  exclusion.robots.policy: 0.226
+  CDXLines.iter: 21.37 (3)
+  LoadShardBlock: 47.661 (3)
+  PetaboxLoader3.datanode: 58.071 (4)
+-->

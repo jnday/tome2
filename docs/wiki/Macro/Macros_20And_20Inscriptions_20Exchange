@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Macros And Inscriptions Exchange - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Macros_20And_20Inscriptions_20Exchange?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Macros_20And_20Inscriptions_20Exchange?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Macros_20And_20Inscriptions_20Exchange?action=fullsearch&amp;value=Macros+And+Inscriptions+Exchange&amp;literal=1&amp;case=1&amp;context=40">Macros And Inscriptions Exchange</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./Macros_20And_20Inscriptions_20Exchange?action=edit">Edit</a></li>
+<li><a title="View" href="./Macros_20And_20Inscriptions_20Exchange">View</a></li>
+<li><a title="Diffs" href="./Macros_20And_20Inscriptions_20Exchange?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Macros_20And_20Inscriptions_20Exchange?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Macros_20And_20Inscriptions_20Exchange?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Macros_20And_20Inscriptions_20Exchange?action=raw">Raw</a></li>
+<li><a title="Print" href="./Macros_20And_20Inscriptions_20Exchange?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Macros_20And_20Inscriptions_20Exchange?action=DeletePage">DeletePage</a></li>
+<li><a href="./Macros_20And_20Inscriptions_20Exchange?action=LikePages">LikePages</a></li>
+<li><a href="./Macros_20And_20Inscriptions_20Exchange?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Macros_20And_20Inscriptions_20Exchange?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Macros_20And_20Inscriptions_20Exchange">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This page is dedicated to simple users who want to discuss macros and inscriptions freely without interfering with the serious work of developpers. <p>
+Raw new ideas come here, and developper-approved perfect documents go under <a href="./Documentation">Documentation</a> 
+</p>
+<p>
+Macro and inscriptions exchange categories should have "\Name" links(with the '\') so that they never interfer with official documentation being worked on. 
+</p>
+<h2 id="head-d791e6fb84373c29b5d64cd56946c6d7112fa842">Macros and inscriptions and related tricks</h2>
+<p>
+<a href="./Macros_20And_20Inscriptions_20Exchange_2fThe_20list_20of_20all_20known_20inscriptions">/The list of all known inscriptions</a>   to be reworked alot 
+</p>
+<p>
+<a href="./Macros_20And_20Inscriptions_20Exchange_2fRod_2drecharging_20macros">/Rod-recharging macros</a>     
+</p>
+<p>
+<a class="nonexistent" href="./Macros_20And_20Inscriptions_20Exchange_2fCommon_20macros_20techniques">/Common macros techniques</a> 
+</p>
+<p>
+<a href="./Macros_20And_20Inscriptions_20Exchange_2fPreventing_20or_20confirming_20actions">/Preventing or confirming actions</a> 
+</p>
+<p>
+<a href="./Macros_20And_20Inscriptions_20Exchange_2fID_20scrolls_20macros">/ID scrolls macros</a> 
+</p>
+<p>
+<a href="./Macros_20And_20Inscriptions_20Exchange_2fSwap_20weapons">/Swap weapons</a> 
+</p>
+<p>
+<a href="./Macros_20And_20Inscriptions_20Exchange_2ffire_20ammo_20at_20nearest_20target_20macro">/fire ammo at nearest target macro</a> 
+</p>
+<p>
+<a href="./Macros_20And_20Inscriptions_20Exchange_2fAdvanced_20macro_20tricks">/Advanced macro tricks</a> 
+</p>
+<h3 id="head-8e0638016573a5a132519f5ce84c3a31894a9da2">Class specific</h3>
+<p>
+<a href="./Macros_20And_20Inscriptions_20Exchange_2fMacros_2c_20inscriptions_2c_20and_20automatizer_20kit_20for_20a_20sorcerer">/Macros, inscriptions, and automatizer kit for a sorcerer</a> 
+</p>
+<h3 id="head-05c2d15aa90bb068c364fac84b8cd83fc9bc4eb2">Outside links</h3>
+<p>
+Some macro and automatizer here: <a class="external" href=".www.hakubi.us/tome/automat.atm">http://www.hakubi.us/tome/automat.atm</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Macros_20And_20Inscriptions_20Exchange?action=refresh&amp;arena=Page.py&amp;key=Macros_20And_20Inscriptions_20Exchange.text_html">RefreshCache</a> for this page (cached 2004-10-08 23:45:02)<br>
+<p><a href="./Macros_20And_20Inscriptions_20Exchange?action=edit">EditText</a> of this page (last edited 2004-10-08 23:45:01 by <span title="modemcable118.99-200-24.mc.videotron.ca"><a href="./SimonSorc">SimonSorc</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:44:09 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:49:14 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 157.209
+  exclusion.robots: 0.141
+  exclusion.robots.policy: 0.13
+  RedisCDXSource: 78.753
+  esindex: 0.008
+  LoadShardBlock: 49.124 (3)
+  PetaboxLoader3.datanode: 59.25 (4)
+  CDXLines.iter: 25.292 (3)
+  load_resource: 44.823
+  PetaboxLoader3.resolve: 21.353
+-->

@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport103 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport103?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport103?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport103?action=fullsearch&amp;value=BugReport103&amp;literal=1&amp;case=1&amp;context=40">BugReport103</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport103?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport103">View</a></li>
+<li><a title="Diffs" href="./BugReport103?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport103?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport103?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport103?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport103?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport103?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport103?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport103?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport103?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport103">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./MayLith">MayLith</a></strong>: [It seems] that I've been on the same DL with [a very late-game unique who doesn't show up until a certain plot event happens]! Savefile available if desired. <p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Known uniques list is carried over from game to game, listing all of the ones who are alive or dead.  If you've ever seen [that guy] at all in a previous game he'll show up on the list. 
+</p>
+<p>
+<strong><a href="./ZasVid">ZasVid</a></strong>: He will show up also if you have ever researched him in beastmaster's shop. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Good point, since it's just an extension of the monster memory. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Good points all. However: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+I've never seen the known uniques list to carry over. I just tested it, in fact, by creating a new character. Her known uniques list is completely empty, as is her monster memory (except for the two townspeople in her line of sight when she was "born".) 
+</p>
+</li>
+    <li>
+<p>
+I've never met the requirements to make [that guy] show up with any character of mine, much less seen him myself. 
+</p>
+</li>
+    <li>
+<p>
+I'm 98% certain I've never researched [that guy] in the Beastmster's shop -- I almost never use it, and I've never had the need to research [that guy]. I usually do my researching over on oook, anyway. 
+</p>
+</li>
+</ol>
+
+</div><div id="footer">
+
+
+<a href="./BugReport103?action=refresh&amp;arena=Page.py&amp;key=BugReport103.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:44:49)<br>
+<p><a href="./BugReport103?action=edit">EditText</a> of this page (last edited 2004-09-02 01:07:09 by <span title="user-2ivek3m.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 21:21:49 Jan 13, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:23 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 156.242
+  exclusion.robots: 0.079
+  exclusion.robots.policy: 0.072
+  RedisCDXSource: 2.257
+  esindex: 0.007
+  LoadShardBlock: 135.682 (3)
+  PetaboxLoader3.datanode: 156.287 (4)
+  CDXLines.iter: 16.357 (3)
+  load_resource: 167.516
+  PetaboxLoader3.resolve: 92.024
+-->

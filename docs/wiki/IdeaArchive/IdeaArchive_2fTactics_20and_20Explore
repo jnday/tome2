@@ -1,0 +1,349 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Tactics and Explore - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fTactics_20and_20Explore?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fTactics_20and_20Explore?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fTactics_20and_20Explore?action=fullsearch&amp;value=%2FTactics+and+Explore&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Tactics and Explore</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fTactics_20and_20Explore?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fTactics_20and_20Explore">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fTactics_20and_20Explore?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fTactics_20and_20Explore?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fTactics_20and_20Explore?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fTactics_20and_20Explore?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fTactics_20and_20Explore?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fTactics_20and_20Explore?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fTactics_20and_20Explore?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fTactics_20and_20Explore?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fTactics_20and_20Explore?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fTactics_20and_20Explore">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Apologies if I've got the wrong end of the stick, but...  <p>
+The Tactics and Explore modes are becoming increasingly important with the modifications of combat and disarming/searching. Perhaps the toggling and display for these modes should be moved to the main screen, rather than the Character info sheet.  
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I'd welcome a display on the main screen -- below MH, I guess. I was originally thinking to suggest something along the following:<br>
+ 
+</p>
+
+    <ul>
+
+ tactic: +4 ... 0 ... -4<br>
+  explore: +4 ... 0 ... -4<br>
+ 
+    </ul>
+
+
+<p>
+However, those are <em>very</em> non-intuitive, and the game can be confusing to newcomers as it is. 
+</p>
+<p>
+Let's see here.... 
+</p>
+<p>
+tactic: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+berserker 
+</p>
+</li>
+    <li>
+<p>
+furious 
+</p>
+</li>
+    <li>
+<p>
+aggressive 
+</p>
+</li>
+    <li>
+<p>
+confident 
+</p>
+</li>
+    <li>
+<p>
+normal 
+</p>
+</li>
+    <li>
+<p>
+careful 
+</p>
+</li>
+    <li>
+<p>
+wary 
+</p>
+</li>
+    <li>
+<p>
+meek 
+</p>
+</li>
+    <li>
+<p>
+coward 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+explore: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+running 
+</p>
+</li>
+    <li>
+<p>
+very fast 
+</p>
+</li>
+    <li>
+<p>
+fast 
+</p>
+</li>
+    <li>
+<p>
+brisk 
+</p>
+</li>
+    <li>
+<p>
+normal 
+</p>
+</li>
+    <li>
+<p>
+leisurely 
+</p>
+</li>
+    <li>
+<p>
+slow 
+</p>
+</li>
+    <li>
+<p>
+very slow 
+</p>
+</li>
+    <li>
+<p>
+slug-like 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+I doubt acronyms would work, and there are not enough characters in that column to have something like "explore: running" or even "E running". Hmmm... maybe the latter, actually... I think that would fit. <em>Frowning thoughtfully and sounds of assorted counting ensue...</em> Hey... it'll fit! <img src="./wiki/rightsidebar/img/biggrin.png" alt=":D" height="15" width="15"> 
+</p>
+<p>
+After some more thought, I'd say add two lines to the main screen:<br>
+ 
+</p>
+
+    <ul>
+
+ T (tactical mode)<br>
+  E (exploration mode)<br>
+ 
+    </ul>
+
+
+<p>
+That'll still leave one blank line at the bottom of the screen, providing symmetry with the blank line above the character's race. 
+</p>
+<p>
+The only thing I don't like about it is that it'd probably drive me crazy to see a setting on the main screen and not be able to <em>change</em> it from there. The main screen commands 't' and 'e' are already taken, but there are still some leftover, unused keys.... maybe '[' and ']'??? 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: i hope not. On some keyboards (like italian) '[' and ']' are obtained by pressing a special key (the right-side Alt), and this is not correctly acnowledged by all programs. I'd suggest '(' and ')' instead, that should be more accessible from any keyboard (? i suppose). Overall, it's a really good idea anyway. You change them often and is very awkward to require entering and leaving char screen (and many times i forgot to change them back, usually with dire results). 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: On English QWERTY keyboards, '(' and ')' are accessed with the shift key (shift+9 and shift+0, respectively), which is likewise incovenient. I picked the '[' and ']' for easy access (typed directly with no combo key). Maybe, though, it's better to keep a control-key in the command sequence, in help prevent accidentally mis-keying. (I can just see it now... fighting Ancagalon or someone and accidentally shifting yourself from <em>running</em> to <em>slug-like</em> and not noticing it.... ugh!!!) 
+    </ul>
+
+
+<p>
+<strong><a href="./RavenRed">RavenRed</a></strong>: In terms of Display, another alternative is to have the lines, and a number of "&gt;" signs which indicate the degree to which they are accelerated/decelerated.  <pre>Tactics: &gt; &gt; &gt; 
+Exploring: &lt; &lt;</pre>
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: I thought of that, too, but the inscrutability remains. Generically low tactics doesn't necessarily imply heightened saving throw/etc. Still, it's better than my first suggestion -- though I have a lingering fear of a dyslexia attack: The arrows pointed <em>which</em> way mean it's more aggressive or faster??? <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> <p>
+ <strong><a href="./RavenRed">RavenRed</a></strong>: &lt;thinks&gt;                 &lt;thinks&gt;                &lt;PANICS!&gt; 
+</p>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: <img src="./wiki/rightsidebar/img/biggrin.png" alt=":D" height="15" width="15"> And when I'm in the middle of some fast/furious fight, it's going to be that much worse.... 
+</p>
+
+    </ul>
+
+
+<p>
+<strong><a href="./PeterWiersig">PeterWiersig</a></strong>: What about <pre>Tactics: +++ 
+Exploring: --</pre>
+</p>
+<p>
+<strong><a href="./VelKrov">VelKrov</a></strong>: But what would "+" correspond to? For example in exploring, does it mean <em>more</em> speed or <em>more</em> careful? IMHO it's the same as in MayLith's dilemma, not everyone would interpret it the same as anyone else does. Perhaps one could set what "+" corresponds to in the display options. <pre>Positive tactics is more aggressive: yes/no 
+Positive exploring is more speed: yes/no</pre>Of course my wording above is not perfect but you get my point. 
+</p>
+<p>
+<strong><a href="./JasonStitt">JasonStitt</a></strong>: But then when people are discussing their settings it will become confusing. Better to have it work one way. Let's see... 12 characters total width to work with. "Aggressive" is 10 by itself. Perhaps new names or abbreviations are called for. 
+</p>
+<p>
+You could swap out the label. Explore (E): 
+</p>
+
+<pre>&lt;---(12)---&gt;
+E:   Fast +4
+E:   Fast +3
+E:   Fast +2
+E:   Fast +1
+E:    Normal
+E:   Slow -1
+E:   Slow -2
+E:   Slow -3
+E:   Slow -4
+</pre><p>
+Tactics (T): 
+</p>
+
+<pre>T:   Bold +4
+...
+T:    Normal
+...
+T:   Meek -4
+</pre><p>
+In context it would look something like this: 
+</p>
+
+<pre>HP   58/  58
+SN   55/  55
+SP   97/  97
+Pt      -656
+
+E:   Fast +3
+T:   Meek -4
+</pre><p>
+While it might be somewhat disappointing to lose out on the "character" of terms like "berserker/running," this is very clear, and it fits. Terms like "careful" and "wary" can be hard for me to tell apart, anyway. 
+</p>
+<p>
+The redundancy between the word and the sign on the number is deliberate, and is meant to make it easier to read the values at a glance. I think just going from Bold 1 to Normal to Meek 1, for example, would not be as easy to read. 
+</p>
+<p>
+As far as hotkeys go, it would be nice to pick two pairs of adjacent keys, which restricts the options significantly. In the original keyset, Ctrl+G and Ctrl+H are unused. Ctrl+K and Ctrl+L are almost unused -- the helpfile says they are, but Ctrl+K is actually another key for "quit." Considering that there are at least two key combos for quit already, Ctrl+K probably doesn't need to be a third and could be repurposed. The disadvantage here is that they lack mnemonics. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Maybe (probably) I could get used to just about anything over time, but personally, I'd look at "Meek -4" and think that that would mean extra-aggressive, via the double negative. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./JasonStitt">JasonStitt</a></strong>: I had seen it the other way -- if you're just glancing over, you can easily see a + or a - and know where you are, and the words are there so you never forget the orientation of the scale. 
+</p>
+<p>
+But if that's a problem there's room for parentheses as well. So it could go from Meek (-4) to Bold (+4). 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fTactics_20and_20Explore?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fTactics_20and_20Explore.text_html">RefreshCache</a> for this page (cached 2005-11-05 20:36:55)<br>
+<p><a href="./IdeaArchive_2fTactics_20and_20Explore?action=edit">EditText</a> of this page (last edited 2005-01-17 21:19:27 by <span title="66.84.197.30"><a href="./JasonStitt">JasonStitt</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 05:26:13 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:47:07 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 205.579
+  exclusion.robots: 0.203
+  exclusion.robots.policy: 0.189
+  RedisCDXSource: 1.875
+  esindex: 0.012
+  LoadShardBlock: 174.562 (3)
+  PetaboxLoader3.datanode: 98.915 (4)
+  CDXLines.iter: 25.406 (3)
+  PetaboxLoader3.resolve: 296.574 (3)
+  load_resource: 298.393
+-->

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport82 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport82?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport82?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport82?action=fullsearch&amp;value=BugReport82&amp;literal=1&amp;case=1&amp;context=40">BugReport82</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport82?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport82">View</a></li>
+<li><a title="Diffs" href="./BugReport82?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport82?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport82?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport82?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport82?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport82?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport82?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport82?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport82?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport82">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Simon: The beastmaster will not give a reward when you bring a monster corpse that has the same name as the one expected but is internally different in the code. <p>
+Novice warriors for example exist in both loner and group varieties. Other examples exist in the forum. 
+</p>
+<p>
+Renaming one of them only makes certain that some other monster is or will be a duplicate (you can't control the module makers, you know). 
+</p>
+<p>
+3 possible fixes: 
+</p>
+<p>
+-Allow identically named monsters to be acceptable to the beastmaster. 
+</p>
+<p>
+-The beastmaster could avoid duplicate name quests entirely. 
+</p>
+<p>
+-Produce a compiler/link error for identically named monsters, so that this error can no longer be introduced in ToME by mods (you can't control their duplicate-name sloppiness if they manage to compile!). 
+</p>
+<hr size="3">
+  <a href="./NeilStevens">NeilStevens</a>: Known, won't be fixed before ToME 3, where I've already told the illustrious maintainer what we need to fix it. <p>
+Well, if someone sent me a patch that added name-checking logic to the Beastmaster quest, I'm sure I'd apply it.  However, the real fix is in ToME 3: allowing monsters to be *optionally* generated in groups, controlled by lua. 
+</p>
+<p>
+Simon: Clever! 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport82?action=refresh&amp;arena=Page.py&amp;key=BugReport82.text_html">RefreshCache</a> for this page (cached 2004-08-13 02:59:33)<br>
+<p><a href="./BugReport82?action=edit">EditText</a> of this page (last edited 2004-08-13 02:59:32 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:24:30 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:55 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  load_resource: 205.77
+  PetaboxLoader3.resolve: 168.542
+  exclusion.robots.policy: 0.131
+  cdx.remote: 0.079
+  exclusion.robots: 0.142
+  LoadShardBlock: 133.884 (3)
+  PetaboxLoader3.datanode: 113.958 (4)
+  CDXLines.iter: 23.982 (3)
+  captures_list: 181.398
+  esindex: 0.01
+-->

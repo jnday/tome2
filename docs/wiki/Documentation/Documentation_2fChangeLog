@@ -1,0 +1,1208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/ChangeLog - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fChangeLog?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fChangeLog?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fChangeLog?action=fullsearch&amp;value=%2FChangeLog&amp;literal=1&amp;case=1&amp;context=40">Documentation/ChangeLog</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fChangeLog?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fChangeLog">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fChangeLog?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fChangeLog?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fChangeLog?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fChangeLog?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fChangeLog?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fChangeLog?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fChangeLog?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fChangeLog?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fChangeLog?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fChangeLog">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This ChangeLog was begun on 2004-06-28. <p>
+<ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-48d8c627be3c12fac8a0a9ddb9ceaa5e126cf358">Goals</a></li>
+<li>
+<a href="#head-335bccb6ef7475a27422a859c2d492551aed6dab">Changelog entry format</a></li>
+<li>
+<a href="#head-8aa57de6dce6ee1c35c6aba7426503281876b258">Changes</a></li>
+<li>
+<a href="#head-f5a3892d9989866ce6d224333b95a07f718566e2">To Do Lists</a></li>
+</ol>
+
+ 
+</p>
+<h2 id="head-2473e96bc614a911821242119918a241a41836d6"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Introduction</h2>
+<a href="./MayLith">MayLith</a>: The foundation text of <a href="./Documentation">Documentation</a> is the in-game help from ToME 2.2.7. <p>
+I began this changelog after having worked on the documentation for several days. I will attempt to play catch-up with what I have already done, but I may miss some things. A concrete diff can be obtained by comparison of the doc files here with the in-game help files from ToME 2.2.7, though you'll get a lot of junk in the diff as a result of differences in formatting. 
+</p>
+<p>
+If you notice errors or inconsistencies, please either correct them and note the change here under <em>specific changes</em>, or note the problem in <a class="nonexistent" href="./Documentation_2fDiscussion">Documentation/Discussion</a>. Thanks! 
+</p>
+<h2 id="head-48d8c627be3c12fac8a0a9ddb9ceaa5e126cf358"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Goals</h2>
+Overall: Make the documentation more helpful, organized, easier to read, and current, while eliminating spoilers. 
+    <ol type="1">
+
+    <li>
+<p>
+Make the help more...helpful. 
+</p>
+</li>
+
+        <ol type="1">
+
+        <li>
+<p>
+Improve readability 
+</p>
+</li>
+
+            <ol type="1">
+
+            <li>
+<p>
+Reorganize the tree and/or munge and/or rewrite as needed to clarify existing content. 
+</p>
+</li>
+            <li>
+<p>
+Correct grammar and spelling; reduce wordiness. 
+</p>
+</li>
+
+            </ol>
+
+
+        <li>
+<p>
+Introduce wiki TOCs, headings and other wiki formatting wherever possible in order to improve readability and browsability. Tables only for tables. 
+</p>
+</li>
+        <li>
+<p>
+Remove outdated material and update with current information wherever possible. 
+</p>
+</li>
+        <li>
+<p>
+Add relevant non-spoily examples to clarify information given. 
+</p>
+</li>
+
+        </ol>
+
+
+    <li>
+<p>
+Remove spoilers. 
+</p>
+</li>
+
+        <ol type="1">
+
+        <li>
+<p>
+Remove game-specific spoilers. 
+</p>
+</li>
+        <li>
+<p>
+Remove references to Angband and/or other roguelikes. 
+</p>
+</li>
+
+        </ol>
+
+
+    <li>
+<p>
+Do all of this while tracking changes very very carefully, so poor <a href="./FearofFours">FearofFours</a> doesn't blow a gasket trying to keep up with it all. 
+</p>
+</li>
+
+    </ol>
+
+
+<h2 id="head-335bccb6ef7475a27422a859c2d492551aed6dab"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Changelog entry format</h2>
+A good changelog entry contains: 
+    <ul>
+
+    <li>
+<p>
+ your name 
+</p>
+</li>
+    <li>
+<p>
+ name of the page you changed 
+</p>
+</li>
+    <li>
+<p>
+ what change(s) you made, <em>in detail</em>. This isn't just a random document. The actual ToME documentation is being modified from this page! If you get a huge list of changes, put something like 'major rewrite', but it helps to point out things even then. 
+</p>
+</li>
+    <li>
+<p>
+ why you changed it (if relevant) 
+</p>
+</li>
+    <li>
+<p>
+ the @<strong></strong>TIME@ 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-8aa57de6dce6ee1c35c6aba7426503281876b258"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Changes</h2>
+<p>
+<a href="./MayLith">MayLith</a>: See <a href="./RecentChanges">RecentChanges</a> for changes prior to creation of this page. I'll try to catch up. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Removed 'winning the game' from 'exploring the dungeon' section 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Moved some old, orphaned pages to their correct location. 
+</p>
+<hr>
+ <a href="./MayLith">MayLith</a>: 
+    <ul>
+
+    <li>
+<p>
+ In-game spoilers / corruptions: stub deleted. should move to spoilers. 
+</p>
+</li>
+    <li>
+<p>
+ In-game spoilers / dungeons: all side/postgame dungeons to spoilers. stub remains for the basic 4 dungeons (for now -- might move it someplace else in tree?) 
+</p>
+</li>
+    <li>
+<p>
+ In-game spoilers / essences: stub deleted. should move to spoilers. 
+</p>
+</li>
+    <li>
+<p>
+ In-game spoilers / luck: stub deleted. moved to <a class="nonexistent" href="./Spoilers_2fLuck">Spoilers/Luck</a>. 
+</p>
+</li>
+    <li>
+<p>
+ In-game spoilers / floor inscriptions: stub stays for now, for basic description -- move it somewhere else in tree? main info to go to spoilers. <strong>NB</strong> item inscriptions remain. 
+</p>
+</li>
+    <li>
+<p>
+ Extra help for new players / wishing: stub deleted. should move to spoilers. 
+</p>
+</li>
+
+    </ul>
+
+
+<hr>
+ <a href="./MayLith">MayLith</a>: 
+    <ul>
+
+    <li>
+<p>
+ "Creating a character" (subheading, not whole section): imported with no changes 
+</p>
+</li>
+    <li>
+<p>
+ Subheadings of "Creating a character" wiki-ized 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ sex -&gt; gender 
+</p>
+</li>
+        <li>
+<p>
+ gender is NOT necessarily fixed throughout the game; changed doc to reflect that 
+</p>
+</li>
+        <li>
+<p>
+ roll -&gt; role 
+</p>
+</li>
+        <li>
+<p>
+ primary stats wikiized; "are always have" -&gt; "always have" 
+</p>
+</li>
+        <li>
+<p>
+ primary skills wikiized; magic devices -&gt; magic device skill; rename racially intrinsic skills 
+</p>
+</li>
+        <li>
+<p>
+ rewrote activations (should these even stay?) 
+</p>
+</li>
+        <li>
+<p>
+ experience: major edit (level-&gt; char level, deleted spoilers, other rewording) 
+</p>
+</li>
+        <li>
+<p>
+ money: major edit (rewrite/format; removed inventory reference) 
+</p>
+</li>
+        <li>
+<p>
+ major edit of armor/inventory area 
+</p>
+</li>
+        <li>
+<p>
+ major edit of mana 
+</p>
+</li>
+        <li>
+<p>
+ major edit of piety 
+</p>
+</li>
+        <li>
+<p>
+ major edit of sanity 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<hr>
+ <a href="./MayLith">MayLith</a>: Doc/Races: Import, almost untouched -- very minor edits for grammar/etc. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: <a href="./Documentation_2fRace_20modifiers">Documentation/Race modifiers</a>: removed the old "restore life" power of skeletons and zombies. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Doc/Classes/Alchemist: Import. Some spelling/punctuation. Tables not included, they don't wikiize well <img src="./wiki/starshine/img/sad.png" alt=":(" height="15" width="15"> 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Doc/Characteristics/Mana: Updated as per <a href="./MassimilianoMarangio">MassimilianoMarangio</a>'s suggestion. 2004-07-24 15:23:49 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: When I say tables/etc not included, I mean: "Starting stat modifiers, starting Skills, innate abilities and starting equipment: Please see the in-game help." 
+</p>
+<p>
+None of these classes below'll have the tables. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Doc/Classes/Alchemist: 'identify'-&gt;'Identify' 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Archer: Import. Some tweaks. Added style note re: ammo  2004-07-24 15:45:13 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Archer: Import, no changes. 2004-07-24 15:51:54 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Axemaster: Import, one carriage return added. 2004-07-24 15:56:23 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Bard: Import, wiki formatting. Added spaces between instruments &amp; spells and their modifiers, eg. Harp(+1) --&gt; Harp (+1). Capitalize "Roman". Explained Roman numerals, rewrote Magic Usage section for clarity. Are there +5 instruments? I can't remember. 2004-07-24 16:13:29 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Dark-Priest: Import, linked to Melkor's name, removed reference to Morgoth (changed Morgoth to Melkor). No other changes. 2004-07-24 16:20:01 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Demonologist: Import. Added some carriage returns, a few commas, etc. 2004-07-24 16:25:56 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Druid: Import, linked to Yavanna's name, a few carriage returns. 2004-07-24 16:30:59 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Geomancer: Import. A carriage return or two. This one appears to need editing but I don't know the class well enough to do it. 2004-07-24 16:35:25 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Haftedmaster: Import. A couple of carriage returns. 2004-07-24 16:39:03 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Loremaster: Import. A couple of carriage returns, wikiize, break up long sentence, subtly indicate all magic schools not always learned. 2004-07-24 16:45:27 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Mage: Import. 2004-07-24 16:48:51 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Mimic: Import. Moderate rewrite. 2004-07-24 16:54:46 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Mindcrafter: Import. Moderate rewrite. 2004-07-24 17:05:14 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Monk: Import. Mod/major rewrite/rearranging. 2004-07-24 17:38:59 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Necromancer: Import, no changes. 2004-07-24 17:42:54 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Paladin: Import, wiki-ize, warrior/priest --&gt; warrior-priest, no other changes. 2004-07-24 17:45:38 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Polearmmaster: Import, one carriage return, no other changes. 2004-07-24 17:50:51 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Priest(Eru): Import, a carriage return or two, wikiize, break up one long sentence. Why are Priest additional-school spells on the god page?? Should they be moved? 2004-07-24 18:00:06 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Priest(Manwe): Import, carriage returns, wikiize, minor rewording/punctuation/capitalization. 2004-07-24 18:06:48 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Ranger: Import, carriage returns, warrior/mage -&gt; warrior-mage, wikiize, minor rewrite due to grammar issues. 2004-07-24 18:22:19 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Rogue: Import, edited pithy saying for grammar, capitalization, minor tweaks, wikiize 2004-07-24 18:22:19 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Runecrafter: Import, added 'broken' warning, no other changes. 2004-07-24 18:25:53 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Sorceror: Import, carriage returns, capitalization, rewording for clarity. 2004-07-24 18:40:27 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Summoner: Import. I think I capitalized one word (?).... 2004-07-24 18:40:27 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Swordmaster: Import. One carriage return. 2004-07-24 18:40:27 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Symbiant: Import, major rewrite. 2004-07-24 18:54:57 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Thaumaturgist: Import, capitalize 'mage'. 2004-07-24 19:28:53 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Unbeliever: Import, capitalize 'Sorcerors' and 'Unbelievers'. 2004-07-24 19:28:53 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Warper: Import, wikiize, grammar. 2004-07-24 19:28:53 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Classes/Warrior: Import, carriarge return. 2004-07-24 19:31:42 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Characteristics: changed 'nomenclature' to 'symbol'; added section "Characteristics with little or no effect on gameplay". (That could probably be named better.) 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Version information: Import, wikiize, grammar (rename-&gt;renamed; "I've decided toinclude some elements"-&gt;"I decided to include some elements". <tt>!McCaffrey</tt> in two places. No other changes. 2004-08-05 17:20:46 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Characteristics: removed the sentence about game effects of weight. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Contact information: Import, wikiize, edit/rearranged. 2004-08-05 18:07:02 
+</p>
+</li>
+    <li>
+<p>
+ Documentation (main page): Deleted stubs for dungeon and floor inscription in-game spoilers. (I'll put them all on one page.) 2004-08-05 18:22:24 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/In-game spoilers: Basically a complete rewrite. Import + book-20.txt, minus lots of spoilers, plus major rewrite. 2004-08-05 19:36:49 
+</p>
+</li>
+    <li>
+<p>
+ Documentation (main page): Deleted subheadings for writing modules (just bullet them); moved version information to bottom of page (just over discussion) 2004-08-05 20:01:09 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Stats: Import, wikiize, remove one hyphenation (in STR). 2004-08-05 20:15:28 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Abilities: Import, wikiize, a couple of very minor edits. 
+</p>
+</li>
+    <li>
+<p>
+ Documentation (main page): Made stat bonus tables/ability tables (in the creating a character section) nonlinkable, with a note to send readers to look at in-game help. If anyone wants to wikiize them, be my guest, but I think it's a waste, especially w/ all the modules now. 2004-08-05 20:37:15 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Combinations of race and class: Import, wikiize, minor rewrite. 2004-08-05 20:48:44 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Abilities: Umm..... we need a section (or something) for the other sort of abilities, e.g. Trapping, Artifact Creation, Tree-walking, etc. 2004-08-07 05:16:30 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Skills/Antimagic: Import, and added detect traps and anti-teleportation effects. (fixed wiki link) 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Races/Wood-Elf: Made a NOTE of the wood elf's archery and modifier changes in 2.3. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Abilities: The abilities tree will temporarily go on this page. Reformatting -- deleted a lot of carriage returns, plus many, many extra spaces that look like an attempt at right-justification. Deleted reference to Angband, and a few minor spelling/etc fixes. Removed confusing references to Searching Frequency (Perception) and Searching Ability (Searching), left it as Perception and Searching. 2004-08-11 17:18:24 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Abilities: Imported bought abilities from ability.txt; wikiized, a few word changes. Added header to the page explaining difference between the two types of abilities. 2004-08-11 17:46:22 
+</p>
+</li>
+    <li>
+<p>
+ Documentation: Deleted stub for "Introduction to the ToME abilities system". It's all on the abilities page itself. (And that page is somewhat temporary, so it'll all have to be reworked later anyway.) 2004-08-11 17:52:10 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Abilities: Added link to table which converts between percentile and linear stats. 2004-08-11 18:13:56 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Fate: Took out spoilers and moved them to Spoilers/Fate. 2004-08-16 00:11:08 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Characteristics: munged Documentation/Stats into this page, and deleted doc/stats. 2004-08-16 00:22:45 
+</p>
+</li>
+    <li>
+<p>
+ Documentation: deleted doc/stats stub; more thoroughly described the doc/characteristics link to make information more easily findable. 2004-08-16 00:27:08 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Characteristics: Mentioned linear stats; explained how to turn linear stats off; linked to conversion table between linear and percentile stats. 2004-08-16 16:20:36 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation (not applicable to in-game help): Reworded warnings on the header, and added new section for user suggestions. User suggestion changes shall not require updates to the changelog. 2004-08-17 05:26:05 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./FearofFours">FearofFours</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation/Characteristics typo kill-&gt; skill. 2004-10-20 11:30:35 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ No actual change to documentation, but an important comment. See Documentation/In-game spoilers. There's macro stuff in there that doesn't belong. Either that or (possibly) we simply rename this section and turn it into a true introductory document... which would follow since I did munge book-20.txt into it. (?) 2004-08-20 03:14:37 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation: renamed the 'introduction to the gods' link slightly. I haven't quite decided how I want to arrange this, but it's going to get changed somehow. 2004-08-22 01:39:45 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Introduction to the Gods of ToME: Initial import of 'gods.txt'. Major rewrite. Nuked reference to Morgoth in Manwe's description line. Imported all the god subpages (g_eru.txt, etc....) *into* this page. (i.e., a munge.) Uhhhhhh do we mention the One Ring (the 'completely abandon you' clause?) Deleted 'Holy Tome' spoilers. Spells --&gt; Prayers. Oog, wiki does NOT like ToME god spell format!!! Moved some stuff from g_*.txt into the main body of the intro, e.g. the subheading 'god-granted spells'. Munged in g_eru.txt, moderate rewrite of that (mostly from shifting stuff up.) 2004-08-22 03:15:33 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Same page... deleted Morgoth reference in import of Manwe and Melkor stuff. 
+</p>
+</li>
+        <li>
+<p>
+ Same page.... finished munge. To-do list on page. 2004-08-22 03:52:46 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Documentation: Deleted individual stubs for all the gods, as they are now munged into page above. 2004-08-22 04:01:40. 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Introduction to the Gods of ToME: Deleted all references to the One Ring. 2004-08-22 05:17:17 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Documentation: Added floor inscription note next to in-game spoilers. Renamed inscriptions heading to item inscriptions. 2004-08-22 14:39:08 
+</p>
+</li>
+    <li>
+<p>
+ Added new stub/description for item inscriptions. 2004-08-22 14:51:09 
+</p>
+</li>
+    <li>
+<p>
+ Created Documentation/Item inscriptions. Moved contents of Macro/Common Macro Techniques/Naming items (which was NOT, NOT part of macrofaq.txt!) to Documentation/Item inscriptions, and massaged it a bit. 2004-08-22 15:03:46 
+</p>
+</li>
+    <li>
+<p>
+ Lots of new writing for Documentation/Item inscriptions. Probably...no... certainly not perfect yet. <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15"> 2004-08-22 17:36:51 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: Content of Documentation/Fate (a subpage of Documentation/Extra help for new players -- and yeah, that needs to be fixed) removed until we get permission from author. 2004-08-24 02:33:19 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: <a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME">Documentation/Introduction to the Gods of ToME</a> Added fire resistance to Melkor's benefits - This was already fixed in ToME 2.3. 2004-08-24 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: <a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME">Documentation/Introduction to the Gods of ToME</a>, Praying vs. Prayers vs. Prayer skill section. Fixed my prose to make the format more uniform and readable. 2004-08-25 01:31:37 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: <a href="./Documentation_2fRace_20modifiers">Documentation/Race modifiers</a>: Moved paragraph at top of page to formal "introduction" section. Added sentence about not all races supporting all race modifiers.  
+</p>
+<p>
+Also, two unlogged link changes were made (<a class="nonexistent" href="./Documentation_2fChangeLog_2fInterWiki">/InterWiki</a> --&gt; <a class="nonexistent" href="./Documentation_2fChangeLog_2fInterWiki">/InterWiki</a> see the diff for details. (This does not affect in-game help.) 2004-08-28 17:34:38 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: <a href="./Documentation_2fExploring_20the_20dungeon">Documentation/Exploring the dungeon</a>: Initial import of dungeon.txt. Parts of it are still a mess. See the page itself for assorted comments/changes, but consider this a major rewrite. bldgs.txt munged into dungeon.txt. 2004-08-31 03:13:30 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: <a href="./Documentation_2fExploring_20the_20dungeon">Documentation/Exploring the dungeon</a>:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Slight refinement of the WOR section.  
+</p>
+</li>
+    <li>
+<p>
+ Fixed anchor for character "dump"s (not related to in-game help.)  
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+2004-09-12 05:02:34 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Started in on the dreaded terrain features. I'm about ready to delete it all... yeccch! 2004-09-12 05:46:28 
+</p>
+</li>
+    <li>
+<p>
+ More terrain features, plus in assorted places I'm inserting wiki links to other sections of the help. FF, I'm putting the helpfile names in parentheses to (hopefully) help you out. 2004-09-13 17:25:49 
+</p>
+</li>
+    <li>
+<p>
+ Objects (armour, etc) don't block line of sight, do they?!?!! Moved them to the 'don't block line of sight" section, with a note that they can stack. 2004-09-13 18:45:53 
+</p>
+</li>
+    <li>
+<p>
+ Under the ASCII monster list, I changed the description of 'p' Human to Human(oid). 
+</p>
+</li>
+    <li>
+<p>
+ Added a 'food' sub-sub-heading to 'within the dungeon'. 2004-09-13 20:08:23 
+</p>
+</li>
+    <li>
+<p>
+ Assorted edits, including Objects (edits plus added Q/A's from the FAQ), Town Buildings (major rework), Creating a Charcter Sheet (mostly new). 2004-09-17 06:06:04  
+</p>
+</li>
+    <li>
+<p>
+ Mining/Digging -- ToME doesn't have rich strikes on every level!!! Other edits and a bit of rearranging. Staircases, ways &amp; doors -- add void jumpgates and shafts. Notes for non-fluent speakers of English at the top. 2004-09-17 06:06:04 
+</p>
+</li>
+    <li>
+<p>
+ Added new stub -- Monsters -- which points to attack.txt. (It seemed like it belonged there. I even wonder if attack.txt should be munged in??? Not sure... 2004-09-17 16:58:44 
+</p>
+</li>
+    <li>
+<p>
+ Pets/Companions -- edited a little. I guess it makes sense to stay...still thinking about that. 2004-09-17 17:13:34 
+</p>
+</li>
+    <li>
+<p>
+ Updated Creating a Character Sheet -- instructions on how to set CategoryCharacterSheet; assorted minor edits; updated ambushing. 2004-09-20 16:44:21 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: <a href="./Documentation_2fFate">Documentation/Fate</a>: Import/edit fatespoi.txt -- we have permission from original author. 2004-09-20 17:18:49 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: <a href="./Documentation">Documentation</a>: Added a basic description of what is in Exploring the Dungeon to the main Doc page, as an aid to browsing. I doubt this would affect in-game help, but there ya go. 2004-09-24 02:39:48 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: <a href="./Documentation_2fExploring_20the_20dungeon">Documentation/Exploring the dungeon</a>: Changed the wording of one line in the section about posting a character sheet since <a href="./CategoryCharacterSheet">CategoryCharacterSheet</a> is included in the Template. 2004-09-24 05:46:36 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fExploring_20the_20dungeon">Documentation/Exploring the dungeon</a>: Posting a character sheet. Clarified category setting. If you are using the template, you don't need to set category. If you aren't, you do need to. 2004-09-24 16:08:50 
+</p>
+</li>
+    <li>
+<p>
+ Documentation/Buildings (subpage of Extra help for new players: Deleted. It was a duplicate of the buildings help in Exploring the Dungeon. 2004-09-24 16:16:54 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation">Documentation</a>: Deleted stub for above page and added reference to Exploring the Dungeon. 2004-09-24 16:16:54 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fExtra_20help_20for_20new_20players">Documentation/Extra help for new players</a>: Deleted links to Doc/Buildings, Wishing, and Gambling. Fixed link to Fates. Ugh. This whole thing needs reworking. Assorted editing. 2004-09-24 16:25:23 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation">Documentation</a>: Deleted ALL stubs under extra help for new players, as they are echoed inside new players. Once rework is done, we can add a text summary back in to help navigation. 2004-09-24 16:25:23 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fExploring_20the_20Dungeon">Documentation/Exploring the Dungeon</a>: Munged gambling.txt into this document, at the bottom of the town section. 2004-09-24 16:54:37 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fExtra_20help_20for_20new_20players">Documentation/Extra help for new players</a>: Deleted link to the ToME FAQ -- the FAQ itself is almost all spoilers. Copied out four Q/A's and placed them directly in Extra Help: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ wrist pain 
+</p>
+</li>
+        <li>
+<p>
+ panic saves (if that still applies??) 
+</p>
+</li>
+        <li>
+<p>
+ Maggot/Proudfoot shouting at me 
+</p>
+</li>
+        <li>
+<p>
+ random quests going away due to permanent levels/always special rooms   Added a FAQ of my own.    Need to follow up on the ToME newbie guide -- I'm not sure if we have permission.. 2004-09-26 01:49:53   Moved FAQ to the <a href="./FrequentlyAskedQuestions">FrequentlyAskedQuestions</a>, deleted FAQ here, and linked to the <a href="./FrequentlyAskedQuestions">FrequentlyAskedQuestions</a>. 2004-09-26 02:24:39 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: <a class="nonexistent" href="./Documentation_2fList_20of_20commands">Documentation/List of commands</a>: starting import/basic wikification. Some very basic updates, e.g. "N" (access Abilities screen) is *not* unused!! 2004-09-26 03:15:05  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ More import. Does the roguelike keyset have a command to take screenshots? Command.txt doesn't say one way or another. 2004-09-27 18:54:31 
+</p>
+</li>
+    <li>
+<p>
+ This doc is littered with references to Angband. Changing those to ToME. 
+</p>
+</li>
+    <li>
+<p>
+ Macro help -- combine this with other macro ref? It seems odd to have it scattered everywhere. 2004-09-27 19:42:06 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Renamed Documentation/List of commands to Doc/Game commands. Changed both Doc and the subdoc to reflect this. Also, /List of options --&gt; /Game options. 2004-09-29 15:22:12 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Extra help for new players: newbie guide deleted. Completely rearranged it. Link to FAQ, now FAQ has the basics of newbie guide in it. 2004-09-29 15:51:16 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Exploring the dungeon: Deleted info on how to create/post char sheet, left link behind. 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Game Commands: Added info on how to create/post character sheet. Not sure this is the final home, but it makes more sense than exploring the dungeon! 2004-09-29 16:05:16 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Abilities --&gt; Doc/Bought abilities (may need renaming later.) 
+</p>
+</li>
+    <li>
+<p>
+ Doc/Abilities under /Creating a character --&gt; Doc/Birth abilities. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-f5a3892d9989866ce6d224333b95a07f718566e2"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>To Do Lists</h2>
+Once documentation for magic schools exists, the following classes need to have their relevant magic classes linked in. If you link something, pleae delete it from this list. Thanks! 
+    <ol type="1">
+
+    <li>
+<p>
+assassin: conveyance, divination, temporal 
+</p>
+</li>
+    <li>
+<p>
+bard: music 
+</p>
+</li>
+    <li>
+<p>
+demonologist: demonology 
+</p>
+</li>
+    <li>
+<p>
+geomancer: geomancy / school of geomancy (?!?!) 
+</p>
+</li>
+    <li>
+<p>
+loremaster: possession, symbiosis, summoning, mimicry 
+</p>
+</li>
+    <li>
+<p>
+mage: magic 
+</p>
+</li>
+    <li>
+<p>
+mimic: mimicry 
+</p>
+</li>
+    <li>
+<p>
+mindcrafter: mindcraft 
+</p>
+</li>
+    <li>
+<p>
+monk: meta, temporal, mind 
+</p>
+</li>
+    <li>
+<p>
+ranger: divination, conveyance, nature 
+</p>
+</li>
+    <li>
+<p>
+rogue: conveyance, divination, temporal 
+</p>
+</li>
+    <li>
+<p>
+sorceror: magic 
+</p>
+</li>
+    <li>
+<p>
+symbiant: symbiosis 
+</p>
+</li>
+    <li>
+<p>
+warper: conveyance, divination, temporal 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+<a class="nonexistent" href="./Documentation_2fGame_20Commands">Documentation/Game Commands</a> - make sure instructions for creating/posting user sheet get linked in properly. (Backlink from exploring the dungeon.) 
+</p>
+<p>
+Other locations of to-do lists: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fAbilities">Documentation/Abilities</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME">Documentation/Introduction to the Gods of ToME</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fExploring_20the_20dungeon">Documentation/Exploring the dungeon</a>  (See also <a class="nonexistent" href="./General_20Discussion_2fAssorted_20documentation_2drelated_20questions">General Discussion/Assorted documentation-related questions</a> for more discussion of Exploring the Dungeon.) 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fChangeLog?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fChangeLog.text_html">RefreshCache</a> for this page (cached 2004-09-29 16:22:37)<br>
+<p><a href="./Documentation_2fChangeLog?action=edit">EditText</a> of this page (last edited 2004-09-29 16:22:35 by <span title="user-uiveq74.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:30:35 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:32 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 154.119
+  exclusion.robots: 0.086
+  exclusion.robots.policy: 0.079
+  RedisCDXSource: 1.516
+  esindex: 0.008
+  LoadShardBlock: 133.528 (3)
+  PetaboxLoader3.datanode: 883.98 (4)
+  CDXLines.iter: 16.811 (3)
+  load_resource: 789.342
+  PetaboxLoader3.resolve: 31.629
+-->

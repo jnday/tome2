@@ -1,0 +1,264 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Races - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fRaces?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fRaces?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fRaces?action=fullsearch&amp;value=%2FRaces&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Races</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fRaces?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fRaces">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fRaces?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fRaces?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fRaces?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fRaces?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fRaces?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fRaces?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fRaces?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fRaces?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fRaces?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fRaces">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The world of ToME offers many races of creatures you can choose from in order to create your character. Each of them has pros and cons. Some races are restricted as to what profession they may be, and each race has its own adjustments to a character's stats and abilities. Most races have intrinsic abilities, which can be accessed via the "U" command. <p>
+Furthermore, there are also <a class="interwiki" title="Self" href="./Spoilers/Subraces"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Subraces</a> which will further define your character. 
+</p>
+<p>
+Experimental races are shown in <em>italics</em>. 
+</p>
+<hr>
+ <ol>
+<li>
+<a href="#head-563f8dfe5531bdbf1fd7fc0419e84140f87bcd99">Elves</a></li>
+<li>
+<a href="#head-49609307701aa1bf262b9b1b85e8b122044447a8">Humans</a></li>
+<li>
+<a href="#head-e06dd6f777e2b48f9e25e25d75beca20450c55e2">Dwarves</a></li>
+<li>
+<a href="#head-8d7bf5bf136e81f9388c1f4eca050d6d94e965d7">Others</a></li>
+</ol>
+
+ <hr>
+ <h4 id="head-563f8dfe5531bdbf1fd7fc0419e84140f87bcd99">Elves</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fDark_20Elf">/Dark Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fRaces_2fElf">/Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fRaces_2fHalf_2dElf">/Half-Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fHigh_2dElf">/High-Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fRaces_2fWood_2dElf">/Wood-Elf</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-49609307701aa1bf262b9b1b85e8b122044447a8">Humans</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fRaces_2fDunadan">/Dunadan</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fHuman">/Human</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fRohanKnight">/RohanKnight</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-e06dd6f777e2b48f9e25e25d75beca20450c55e2">Dwarves</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fDwarf">/Dwarf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fPetty_20Dwarf">/Petty Dwarf</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-8d7bf5bf136e81f9388c1f4eca050d6d94e965d7">Others</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fBeorning">/Beorning</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fEnt">/Ent</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fRaces_2fGnome">/Gnome</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fHobbit">/Hobbit</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fMaia">/Maia</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fThunderlord">/Thunderlord</a> 
+</p>
+</li>
+    <li class="gap">
+<p>
+ <em><a href="./Spoilers_2fRaces_2fDeathmold">/Deathmold</a></em> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fHalf_2dOgre">/Half-Ogre</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fRaces_2fKobold">/Kobold</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fRaces_2fOrc">/Orc</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fTroll">/Troll</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces_2fYeek">/Yeek</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fRaces?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fRaces.text_html">RefreshCache</a> for this page (cached 2005-11-04 22:16:19)<br>
+<p><a href="./Spoilers_2fRaces?action=edit">EditText</a> of this page (last edited 2004-09-10 13:29:14 by <span title="dialin-145-254-147-187.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:00:28 Dec 17, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:53 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 25.191
+  exclusion.robots.policy: 0.315
+  PetaboxLoader3.datanode: 108.494 (4)
+  CDXLines.iter: 30.302 (3)
+  RedisCDXSource: 1.332
+  LoadShardBlock: 53.177 (3)
+  load_resource: 103.35
+  esindex: 0.023
+  captures_list: 95.141
+  exclusion.robots: 0.336
+-->

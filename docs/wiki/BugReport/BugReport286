@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+
+<script type="text/javascript">
+  __wm.wombat("http://wiki.t-o-m-e.net/BugReport286","20090107023550","http://web.archive.org/","web","/_static/",
+	      "1231295750");
+</script>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index">
+
+<title>BugReport286 - ToME Wiki</title>
+
+<script type="text/javascript">
+var gui_editor_link_href = "/BugReport286?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+</script>        
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="./wiki/tome/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="./wiki/tome/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="./wiki/tome/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="./wiki/tome/css/projection.css">
+
+<!-- css only for MSIE browsers -->
+<!--[if IE]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/wiki/tome/css/msie.css">
+<![endif]--><link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport286?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport286?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20" onfocus="searchFocus(this)" onblur="searchBlur(this)" onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit" value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit" value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="./FrontPage"><img src="./wiki/ToME.png" alt="Logo"/> ToME Wiki</a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" title="Click to do a full-text search for this title" href="./BugReport286?action=fullsearch&amp;value=linkto%3A%22BugReport286%22&amp;context=180">BugReport286</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="./RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="./FindPage">FindPage</a></li><li class="wikilink"><a href="./HelpContents">HelpContents</a></li><li class="current"><a href="./BugReport286">BugReport286</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a name="texteditlink" href="./BugReport286?action=edit&amp;editor=text">Edit (Text)</a></li><li><a href="./BugReport286?action=info">Info</a></li><li><a href="./BugReport286?action=AttachFile">Attachments</a></li><li>
+<form class="actionsmenu" method="get" action="">
+<div>
+    <label>More Actions:</label>
+    <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="MyPages">My Pages</option>
+<option value="SubscribeUser">Subscribe User</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="Despam">Remove Spam</option>
+<option value="PackagePages">Package Pages</option>
+    </select>
+    <input type="submit" value="Do">
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="./BugReport286?action=login" id="login">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line874">Garzahd: Mage-types tend to get the "weak" version of pseudo-ID, which labels things as {good} and {cursed} but not as anything else.  <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line874">However, if I set autosquelch to destroy "good" items in a certain type (but not excellent), then they are nuked immediately after the pseudo-ID system labels them as {good}. I have no idea whether these were actually "good" or "excellent" items. <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line874">This would seem to imply that one of two things is wrong: <span class="anchor" id="line-6"></span><ol type="1"><li>An "excellent" item might be autosquelched that I didn't ask for; <span class="anchor" id="line-7"></span></li><li>I'm receiving more information about item quality than I deserve given my skill point arrangement. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span></li></ol><p class="line867"><strong><a href="./RedNaga">RedNaga</a></strong>: confirmed. i just picked up a princess quest reward with a mage and not identified it immediately. Lately, not finding it, i discovered from the message history that it has been pseudo-id'ed as 'good' and got destroyed. <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line874">Now i have added a rule to any problematic item that tell the automatizer to not destroy it unless i have Combat skill high enough to get strong pseudo-id, but this essentially make the automatizer useless for mage-types, since that rule will keep it from destroying even fully identified items. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line874">I can think of two possible solution to this problem: <span class="anchor" id="line-14"></span><ol type="1"><li>Adding a new rule to the automatizer that return true only if the item has been properly identified (via scroll, spell or whatever). This would make rules handling a little more complicate but would allow to build safer rules, or... <span class="anchor" id="line-15"></span></li><li><p class="line862">Change the internal automatizer functions to assume a pseudo id'ed object is 'exceptional' if the character has only weak pseudo-id. Thus it would destroy a good object (assuming all other clauses are met) <strong>if</strong> the character has strong pseudo-id, otherwise it would assume it is exceptional and wait for it to be fully identified). In other words, the automatizer should never destroy a good item if the character has only weak pseudo-id. <span class="anchor" id="line-16"></span></li></ol><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">BugReport286  (last edited 2004-11-30 23:56:24 by <span title="RedNaga @ h213-213-18-245.rm1.albacom.net[213.213.18.245]"><a href="./RedNaga" title="RedNaga @ h213-213-18-245.rm1.albacom.net[213.213.18.245]">RedNaga</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="./moinmoin.wikiwikiweb.de/">MoinMoin Powered</a></li><li><a href=".www.python.org/">Python Powered</a></li><li><a href=".validator.w3.org/check?uri=referer">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 02:35:50 Jan 07, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:33:14 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 271.145
+  exclusion.robots: 0.072
+  exclusion.robots.policy: 0.066
+  RedisCDXSource: 1.955
+  esindex: 0.005
+  LoadShardBlock: 251.158 (3)
+  PetaboxLoader3.datanode: 223.913 (4)
+  CDXLines.iter: 15.783 (3)
+  PetaboxLoader3.resolve: 93.943 (2)
+  load_resource: 95.969
+-->

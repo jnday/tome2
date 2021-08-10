@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport168 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport168?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport168?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport168?action=fullsearch&amp;value=BugReport168&amp;literal=1&amp;case=1&amp;context=40">BugReport168</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport168?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport168">View</a></li>
+<li><a title="Diffs" href="./BugReport168?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport168?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport168?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport168?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport168?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport168?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport168?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport168?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport168?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport168">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: correct me if i'm wrong, but i thought the normal winning procedure was: 
+    <ol type="1">
+
+    <li>
+<p>
+Enter Angband lv99, where there should be Sauron, but <strong>no</strong> stairs down. 
+</p>
+</li>
+    <li>
+<p>
+Kill Sauron, so making the down staircase appear. 
+</p>
+</li>
+    <li>
+<p>
+Enter Angband lv100, to find Morgoth and <strong>no</strong> stairs down. 
+</p>
+</li>
+    <li>
+<p>
+Kill him, then do whatever you like. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If so, than my character has been screwed really bad, because my procedure has been instead: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Entered Angband lv99 and didn't find Sauron (i explored the whole level and had Vision at top level so i don't think i missed some hidden rooms), but found plenty of stairs down. 
+</p>
+</li>
+    <li>
+<p>
+After leaving and reentering lv99 a few times (to lv98, not 100), i finally find Sauron and kill him, but no stairs appear. 
+</p>
+</li>
+    <li>
+<p>
+Descent then into one of the pre-existing stairways, but no trace of Morgoth on lv100 (same as above) 
+</p>
+</li>
+    <li>
+<p>
+Well... after entering and leaving lv100 a few times i run into a <strong>U</strong> lair and got killed... 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If that could matter, this was the same character who encountered Sauron on Mount Doom lv99 (<a href="./BugReport167">BugReport167</a>), but i didn't kill him there, used Destruction instead (bad keypress, in fact :(). 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: See my explanation on <a href="./BugReport167">BugReport167</a>.  All that applies to this one, as well.  Thank you. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport168?action=refresh&amp;arena=Page.py&amp;key=BugReport168.text_html">RefreshCache</a> for this page (cached 2004-09-25 00:17:16)<br>
+<p><a href="./BugReport168?action=edit">EditText</a> of this page (last edited 2004-09-25 00:17:15 by <span title="192.168.0.1"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:16:33 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:42 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 5.9
+  exclusion.robots: 0.215
+  exclusion.robots.policy: 0.2
+  esindex: 0.015
+  load_resource: 57.385
+  CDXLines.iter: 20.066 (3)
+  captures_list: 75.838
+  PetaboxLoader3.datanode: 52.865 (4)
+  LoadShardBlock: 45.866 (3)
+  PetaboxLoader3.resolve: 29.408
+-->

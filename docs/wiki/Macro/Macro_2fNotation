@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Macro/Notation - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Macro_2fNotation?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Macro_2fNotation?action=print">
+<link rel="Up" href="/Macro">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Macro_2fNotation?action=fullsearch&amp;value=%2FNotation&amp;literal=1&amp;case=1&amp;context=40">Macro/Notation</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Macro">Up</a></li>
+<li><a title="Edit" href="./Macro_2fNotation?action=edit">Edit</a></li>
+<li><a title="View" href="./Macro_2fNotation">View</a></li>
+<li><a title="Diffs" href="./Macro_2fNotation?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Macro_2fNotation?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Macro_2fNotation?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Macro_2fNotation?action=raw">Raw</a></li>
+<li><a title="Print" href="./Macro_2fNotation?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Macro_2fNotation?action=DeletePage">DeletePage</a></li>
+<li><a href="./Macro_2fNotation?action=LikePages">LikePages</a></li>
+<li><a href="./Macro_2fNotation?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Macro_2fNotation?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Macro_2fNotation">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-d04b79123019bfd10b5a599b936fc14bb5a5a82c">Single Quotes (')</a></li>
+<li>
+<a href="#head-19d9d025e55157d5815d3e11d48881179c870a90">Double Quotes (")</a></li>
+<li>
+<a href="#head-b28fb9281f5d68afe53ca065bc5c870675a4f157">Parentheses ( )</a></li>
+<li>
+<a href="#head-5eee6f9392c023f5005a08b947c4a2a77be0aa4e">Braces { }</a></li>
+<li>
+<a href="#head-4b57f3c59982d7912efb4851dd095b6c077c37c2">Special Keys</a></li>
+<li>
+<a href="#head-f11e0329a1b42a479624331103fb497b5a856ad5">System abbreviations</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-d04b79123019bfd10b5a599b936fc14bb5a5a82c">Single Quotes (')</h3>
+These are generally used to delimit a single character to be typed in. These shouldn't by typed in themselves. <h3 id="head-19d9d025e55157d5815d3e11d48881179c870a90">Double Quotes (")</h3>
+These are generally used to delimit a sequence of characters to be typed in. These shouldn't by typed in themselves. <h3 id="head-b28fb9281f5d68afe53ca065bc5c870675a4f157">Parentheses ( )</h3>
+These are generally used for single-key Angband commands. <h3 id="head-5eee6f9392c023f5005a08b947c4a2a77be0aa4e">Braces { }</h3>
+These are used to enclose inscriptions. These aren't typed in as part of inscribing an item. They are added by the interface. <h3 id="head-4b57f3c59982d7912efb4851dd095b6c077c37c2">Special Keys</h3>
+The following abbreviations are used in this document. These keys may be named differently or missing on some keyboards. Some keys may be duplicated. These abbreviations shouldn't be typed in literally. For example, when F1 is encountered in a string of keys to press it means to press the F1 function key, not 'F','1', unless otherwise stated. Additional special keys may be listed later. 
+<div>
+<table>
+<tr>
+<td>
+Alt</td>
+<td>
+Alt</td>
+</tr>
+<tr>
+<td>
+Ctrl</td>
+<td>
+Control</td>
+</tr>
+<tr>
+<td>
+Del</td>
+<td>
+Delete</td>
+</tr>
+<tr>
+<td>
+Esc</td>
+<td>
+Escape</td>
+</tr>
+<tr>
+<td>
+Enter</td>
+<td>
+Enter / Return</td>
+</tr>
+<tr>
+<td>
+F1, ...</td>
+<td>
+Function key F1, ...</td>
+</tr>
+<tr>
+<td>
+Shift</td>
+<td>
+Shift</td>
+</tr>
+</table>
+</div>
+<h3 id="head-f11e0329a1b42a479624331103fb497b5a856ad5">System abbreviations</h3>
+Each system that ToME compiles on has a semi-standard 3-letter abbreviation. These are commonly referred to in the source and docs using "xxx" as a "wildcard" standing for any one of them. In this document "***" is used instead because there are actual generic files not associated with any specific system that use "xxx". Sometimes this refers to a feature instead of a specific system: "xxx" is used for a generic / default file, and "new" is used for Adam Bolt's tiles. </div><div id="footer">
+
+
+<a href="./Macro_2fNotation?action=refresh&amp;arena=Page.py&amp;key=Macro_2fNotation.text_html">RefreshCache</a> for this page (cached 2004-08-14 04:55:59)<br>
+<p><a href="./Macro_2fNotation?action=edit">EditText</a> of this page (last edited 2004-06-27 01:02:11 by <span title="user-2iverfa.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:19:06 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:48:59 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 176.815
+  exclusion.robots: 0.123
+  exclusion.robots.policy: 0.113
+  RedisCDXSource: 0.681
+  esindex: 0.011
+  LoadShardBlock: 143.797 (3)
+  PetaboxLoader3.datanode: 57.381 (4)
+  CDXLines.iter: 28.554 (3)
+  PetaboxLoader3.resolve: 143.418 (3)
+  load_resource: 75.577
+-->

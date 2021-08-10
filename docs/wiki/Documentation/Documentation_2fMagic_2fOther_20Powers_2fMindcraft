@@ -1,0 +1,309 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Other Powers/Mindcraft - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fOther_20Powers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=fullsearch&amp;value=%2FMindcraft&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Other Powers/Mindcraft</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fOther_20Powers">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Wisdom (WIS) is the stat affecting failure rate for this skill. <h3 id="head-2e94a3162b3215ef05a997729914076a5932889f">Mindcraft</h3>
+<p>
+Mindcrafting uses the power of the brain to cast it's spells. Therefore neither books nor light are necessary, and as the mindcrafter's skill increases, so do the powers of his mind. At level 45, the mindcrafter gains permanent intrinsic ESP. 
+</p>
+<p>
+The powers are accessed using the 'm' key and then selecting 'Use Mindcraft'; they are cast with spell points, like normal spells, which can be increased as usual through the Magic skill. 
+</p>
+<p>
+There are twelve spells available for the Mindcraft school of powers: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Precognition</strong> (Level 1) Detects monster minds around you. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 5 it also detects traps 
+</p>
+</li>
+                <li>
+<p>
+ At level 15 it also allows you to see invisible monsters for a time. 
+</p>
+</li>
+                <li>
+<p>
+ At level 20 it maps out the surrounding area. 
+</p>
+</li>
+                <li>
+<p>
+ At level 25 it gives you ESP for a time. 
+</p>
+</li>
+                <li>
+<p>
+ At level 30 it also detects objects and treasure. 
+</p>
+</li>
+                <li>
+<p>
+ At level 45 it fully shows the entire level. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Neural blast</strong> (Level 2) Fires a bolt or beam, to stun and damage monsters. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Minor Displacement</strong> (Level 3) Teleports you a short distance. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 25 it grants the ability to create void jumpgates. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Major Displacement</strong> (Level 7) Teleports you a good distance.  
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 30 it also banishes the monsters around you. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Domination</strong> (Level 9) It attempts to dominate the minds of your foes, scaring them. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 30 it attempts to charm monsters. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Pulverise</strong> (Level 11) Fires pure sound at your opponent, crushing their brains. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Character Armour</strong> (Level 13) Raises a physical shield around your body. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 15 it also grants resistance to acid. 
+</p>
+</li>
+                <li>
+<p>
+ At level 20 it also grants resistance to fire. 
+</p>
+</li>
+                <li>
+<p>
+ At level 25 it also grants resistance to cold. 
+</p>
+</li>
+                <li>
+<p>
+ At level 30 it also grants resistance to electricity. 
+</p>
+</li>
+                <li>
+<p>
+ At level 35 it also grants resistance to poison. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Psychometry</strong> (Level 15) Senses the quality of an item. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 40 it identifies an item. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Mindwave</strong> (Level 18) Blasts the minds of monsters close to you. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 25 it affect all monsters in line of sight. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Adrenaline Channeling</strong> (Level 23) Heals you, hastes you and cures you. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Psychic Drain</strong> (Level 25) Drains the life of your foes and adds to your mana reserves. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Telekinesis</strong> (Level 28) Projects a wave of pure telekinetic force from your body, damaging and with a chance of banishing monsters. 
+</p>
+</li>
+</ol>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fOther_20Powers_2fMindcraft.text_html">RefreshCache</a> for this page (cached 2006-01-09 16:02:12)<br>
+<p><a href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft?action=edit">EditText</a> of this page (last edited 2006-01-09 16:02:11 by <span title="dgic113f-erwin.sunderland.ac.uk"><a href="./HarryErwin">HarryErwin</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:27:30 Mar 14, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:01 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 749.966
+  exclusion.robots: 0.111
+  exclusion.robots.policy: 0.103
+  RedisCDXSource: 5.371
+  esindex: 0.008
+  LoadShardBlock: 717.645 (3)
+  PetaboxLoader3.datanode: 759.818 (4)
+  CDXLines.iter: 23.693 (3)
+  load_resource: 114.355
+  PetaboxLoader3.resolve: 22.726
+-->

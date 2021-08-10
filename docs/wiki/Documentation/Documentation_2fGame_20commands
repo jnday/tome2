@@ -1,0 +1,1648 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Game commands - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fGame_20commands?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fGame_20commands?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fGame_20commands?action=fullsearch&amp;value=%2FGame+commands&amp;literal=1&amp;case=1&amp;context=40">Documentation/Game commands</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fGame_20commands?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fGame_20commands">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fGame_20commands?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fGame_20commands?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fGame_20commands?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fGame_20commands?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fGame_20commands?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fGame_20commands?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fGame_20commands?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fGame_20commands?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fGame_20commands?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fGame_20commands">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+temp note -- this page is being imported. search for "close scrutiny" to see where careful reading/editing needs to be done. <h2 id="head-49359565ce6d0262271199f944eac8e9d14568cb"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>List of Commands</h2>
+<hr>
+ <ol>
+<li>
+<a href="#head-49359565ce6d0262271199f944eac8e9d14568cb">List of Commands</a></li>
+<ol>
+<li>
+<a href="#head-22289d0ca3a0f684e76f5c801053a91bce71f150">Command summary</a></li>
+<ol>
+<li>
+<a href="#head-965755df1a5e2c6aa5f219ce2697e23617e59595">Command summary for the original keyset</a></li>
+<li>
+<a href="#head-229bf1e0e51cde6b0c720d612c3d60756490a619">Command summary for the roguelike keyset</a></li>
+</ol>
+
+<li>
+<a href="#head-23fce0a64e18dc82731562b60e1afe76c31b24eb">Special keys</a></li>
+<li>
+<a href="#head-5b8ace295108e6095dbb7f091515cbd7f669f4a2">Command counts</a></li>
+<li>
+<a href="#head-4ba0f1def86bb0d6204b49385f1394da8a97d200">Selection of objects</a></li>
+<li>
+<a href="#head-72e559e099086afd2276469a26e5d344594c4b0c">User pref files</a></li>
+<ol>
+<li>
+<a href="#head-899bd694d29ace1be956ab35177075021977560b">Macros</a></li>
+<li>
+<a href="#head-d76a6428ca9ac90ba70592739416e9b19c454e19">Keymaps</a></li>
+<li>
+<a href="#head-0f48a4ccae951aebb1354bd8b48c57bf48dc6a70">Visuals</a></li>
+<li>
+<a href="#head-88d5e4cac104ffc3f02dd54f2f0f1074fd33fd9b">Colors</a></li>
+</ol>
+
+<li>
+<a href="#head-a53ad3b3d9e866f4ae8edd0f948c336d0c5367a4">Command descriptions</a></li>
+<ol>
+<li>
+<a href="#head-92564fea1f4701796ad3d6f65c58deff5e687a43">Inventory commands</a></li>
+<li>
+<a href="#head-dffbbad0c11ac2851170c475759037d6bd6ab136">Movement commands</a></li>
+<li>
+<a href="#head-0183640badb17472c815202abfc4547354cccdcb">Resting commands</a></li>
+<li>
+<a href="#head-bf58774b55ddf7e1d15de1cee6189d49217d9b07">Searching commands</a></li>
+<li>
+<a href="#head-59d4a66c1e5866ed441789976b2daa5de2702cdf">Alter commands</a></li>
+<li>
+<a href="#head-446ff1fd8099523ecc4eac6895acefffa75dbf31">Spell and prayer commands</a></li>
+<li>
+<a href="#head-f45366666094cef1640ae8859827533538baea0b">Object manipulation commands</a></li>
+<li>
+<a href="#head-6a59714a6cc0d8c45e0d338b9cf98f8b14b6ddce">Magical object commands</a></li>
+<li>
+<a href="#head-1004e44b814f7674d6f7c5d403f8b0e7ea28cb5f">Throwing and missile weapon commands</a></li>
+<li>
+<a href="#head-7877018df8c9b1ff84c2c79335e696b62b4a535e">Looking commands</a></li>
+<li>
+<a href="#head-c44c632a2d7d9f1a2253fa466b65373c32d6a9ea">Message commands</a></li>
+<li>
+<a href="#head-5462551849a579b1f5f6cccacd005667be751da9">Game status commands</a></li>
+<li>
+<a href="#head-253bbe79961356a3050715d13f4c9ee06299b51d">Saving and exiting commands</a></li>
+<li>
+<a href="#head-e9d9a1cfac3c887d51ea50193b842ef5396815dc">User pref file commands</a></li>
+<li>
+<a href="#head-cd0104c0068a673612c3461b60df96a207d51c9f">In-game help commands</a></li>
+<li>
+<a href="#head-e77875cd82686f1be453f970158537c97b3ed7cb">Extra in-game commands</a></li>
+<li>
+<a href="#head-b3a968b2cf7ae7b885f55286653b560003348460">Wizard mode commands</a></li>
+</ol>
+
+<li>
+<a href="#head-2b29ccd0fcfbe54e8591ebc2db2ddae5158400ea">Creating a character sheet</a></li>
+<ol>
+<li>
+<a href="#head-4033edf8e18ba25b64b278839cb7f6235ffaaa66">Posting your character sheet on the wiki</a></li>
+<li>
+<a href="#head-8bf6f41b028340532f26585a974df71c07fc556b">Posting your character sheet on oook</a></li>
+</ol>
+
+</ol>
+
+</ol>
+
+ <hr>
+ ToME commands are entered as an "underlying command" (a single key) plus a variety of optional or required arguments. You may choose how the "keyboard keys" are mapped to the "underlying commands" by choosing one of two standard "keysets", the "original" keyset or the "roguelike" keyset. <p>
+The original keyset is very similar to the "underlying" command set, with a few additions (such as the ability to use the numeric "directions" to "walk" or the "5" key to "stay still"). The roguelike keyset provides similar additions, and also allows the use of the h/j/k/l/y/u/b/n keys to "walk" (or, in combination with the shift or control keys, to run or tunnel), which thus requires a variety of key mappings to allow access to the underlying commands used for walking/running/tunneling. In particular, the "roguelike" keyset includes many more "capital" and "control" keys, as shown below. 
+</p>
+<p>
+Note that any keys that are not required for access to the underlying command set may be used by the user as "command macro" triggers (see below). You may always specify any "underlying command" directly by pressing backslash ("\") plus the "underlying command" key.  This is normally only used in "macro" definitions.  <em>You may often enter "control-keys" as a caret ("<tt>^</tt>") plus the key</em> (so "<tt>^</tt>" + "p" often yields "<tt>^</tt>P"). 
+</p>
+<p>
+Some commands allow an optional "repeat count", which allows you to tell the game that you wish to do the command multiple times, unless you press a key or are otherwise disturbed.  To enter a "repeat count", type '0', followed by the numerical count, followed by the command.  You must type "space" before entering certain commands.  Skipping the numerical count yields a count of 99. An option allows certain commands (open, disarm, tunnel, etc) to auto-repeat. 
+</p>
+<p>
+Some commands will prompt for extra information, such as a direction, an inventory or equipment item, a spell, a textual inscription, the symbol of a monster race, a sub-command, a verification, an amount of time, a quantity, a file name, or various other things.  Normally you can hit return to choose the "default" response, or escape to cancel the command entirely. 
+</p>
+<p>
+Some commands will prompt for a spell or an inventory item.  Pressing space (or '*') will give you a list of choices.  Pressing "-" (minus) selects the item on the floor.  Pressing a lowercase letter selects the given item. Pressing a capital letter selects the given item after verification.  Pressing a numeric digit '#' selects the first item (if any) whose inscription contains "@#" or "@x#", where "x" is the current "underlying command".  You may only specify items which are "legal" for the command.  Whenever an item inscription contains "!*" or "!x" (with "x" as above) you must verify its selection. 
+</p>
+<p>
+In ToME, there are items which occasionally teleport you away, asking for permission first. The recurring "Teleport (y/n)?" can be annoying, and this behavior can be eliminated by inscribing the object which causes the teleportation with "." (or any inscription containing the character "."). With this inscription, the object will no longer teleport you around nor keep asking you. If you want to restore the teleport ability to the object, just remove the "." from its inscription. Note that cursed items which teleport you are unaffected by the inscription. 
+</p>
+<p>
+Some commands will prompt for a direction.  You may enter a "compass" direction using any of the "direction keys" shown below.  Sometimes, you may specify that you wish to use the current "target", by pressing "t" or "5", or that you wish to select a new target, by pressing "*" (see "Target" below). 
+</p>
+<p>
+Original Keyset Directions 
+<div>
+<table>
+<tr>
+<td>
+ 7 </td>
+<td>
+ 8 </td>
+<td>
+ 9 </td>
+</tr>
+<tr>
+<td>
+ 4 </td>
+<td>
+   </td>
+<td>
+ 6 </td>
+</tr>
+<tr>
+<td>
+ 1 </td>
+<td>
+ 2 </td>
+<td>
+ 3 </td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Roguelike Keyset Directions 
+<div>
+<table>
+<tr>
+<td>
+ y </td>
+<td>
+ k </td>
+<td>
+ u </td>
+</tr>
+<tr>
+<td>
+ h </td>
+<td>
+   </td>
+<td>
+ l </td>
+</tr>
+<tr>
+<td>
+ b </td>
+<td>
+ j </td>
+<td>
+ n </td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Each of the standard keysets provides some short-cuts over the "underlying commands".  For example: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Both keysets allow you to "walk" by simply pressing an "original" direction key (or a "roguelike" direction key if you are using the roguelike keyset), instead of using the "walk" command plus a direction. 
+</p>
+</li>
+    <li>
+<p>
+ Both keysets allow the use of the "5" key to "stand still", which is most convenient when using the original keyset. 
+</p>
+</li>
+    <li>
+<p>
+ The roguelike keyset allows you to "run" or "tunnel" by simply holding the shift or control key down (respectively) while pressing a "roguelike" direction key, instead of using the "run" or "tunnel" command plus a direction. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Note that on many systems, it is possible to define "macros" (or "command macros") to various keys, or key combinations, so that it is often possible to make macros which, for example, allow the use of the shift or control modifier keys, plus a numeric keypad key, to specify the "run" or "tunnel" command, with the given direction, regardless of any keymap definitions, by using the fact that you can always, for example, use "\" + "." + "6", to specify "run east". 
+</p>
+<h3 id="head-22289d0ca3a0f684e76f5c801053a91bce71f150"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Command summary</h3>
+<h4 id="head-965755df1a5e2c6aa5f219ce2697e23617e59595"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Command summary for the original keyset</h4>
+
+<div>
+<table>
+<tr>
+<td>
+ a </td>
+<td>
+ Aim a wand </td>
+<td>
+ A </td>
+<td>
+ Activate an artifact </td>
+</tr>
+<tr>
+<td>
+ b </td>
+<td>
+ Browse a book </td>
+<td>
+ B </td>
+<td>
+ Bash a door </td>
+</tr>
+<tr>
+<td>
+ c </td>
+<td>
+ Close a door </td>
+<td>
+ C </td>
+<td>
+ Character description </td>
+</tr>
+<tr>
+<td>
+ d </td>
+<td>
+ Drop an item </td>
+<td>
+ D </td>
+<td>
+ Disarm a trap </td>
+</tr>
+<tr>
+<td>
+ e </td>
+<td>
+ Show equipment list </td>
+<td>
+ E </td>
+<td>
+ Eat some food </td>
+</tr>
+<tr>
+<td>
+ f </td>
+<td>
+ Fire (shoot) an item </td>
+<td>
+ F </td>
+<td>
+ Fuel your lantern/torch </td>
+</tr>
+<tr>
+<td>
+ g </td>
+<td>
+ Stay still (flip pickup) </td>
+<td>
+ G </td>
+<td>
+ Gain new skills </td>
+</tr>
+<tr>
+<td>
+ h </td>
+<td>
+ Hack up a corpse </td>
+<td>
+ H </td>
+<td>
+ Drink from a fountain </td>
+</tr>
+<tr>
+<td>
+ i </td>
+<td>
+ Show inventory list </td>
+<td>
+ I </td>
+<td>
+ Inspect (closely examaine) an item </td>
+</tr>
+<tr>
+<td>
+ j </td>
+<td>
+ Jam a door </td>
+<td>
+ J </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ k </td>
+<td>
+ Destroy an item </td>
+<td>
+ K </td>
+<td>
+ Cure meat </td>
+</tr>
+<tr>
+<td>
+ l </td>
+<td>
+ Look around </td>
+<td>
+ L </td>
+<td>
+ Look around your dungeon map by sector </td>
+</tr>
+<tr>
+<td>
+ m </td>
+<td>
+ Cast a spell / use mental power </td>
+<td>
+ M </td>
+<td>
+ View full dungeon map (condensed) </td>
+</tr>
+<tr>
+<td>
+ n </td>
+<td>
+ Repeat last command </td>
+<td>
+ N </td>
+<td>
+ Access the Abilities screen </td>
+</tr>
+<tr>
+<td>
+ o </td>
+<td>
+ Open a door or chest </td>
+<td>
+ O </td>
+<td>
+ Sacrifice at an altar </td>
+</tr>
+<tr>
+<td>
+ p </td>
+<td>
+ Pray to your god, if you have one </td>
+<td>
+ P </td>
+<td>
+ Access pet commands menu </td>
+</tr>
+<tr>
+<td>
+ q </td>
+<td>
+ Quaff a potion </td>
+<td>
+ Q </td>
+<td>
+ Quit (commit suicide) </td>
+</tr>
+<tr>
+<td>
+ r </td>
+<td>
+ Read a scroll </td>
+<td>
+ R </td>
+<td>
+ Rest for a period </td>
+</tr>
+<tr>
+<td>
+ s </td>
+<td>
+ Search for traps/doors </td>
+<td>
+ S </td>
+<td>
+ Toggle search mode </td>
+</tr>
+<tr>
+<td>
+ t </td>
+<td>
+ Take off equipment </td>
+<td>
+ T </td>
+<td>
+ Dig a tunnel </td>
+</tr>
+<tr>
+<td>
+ u </td>
+<td>
+ Use a staff </td>
+<td>
+ U </td>
+<td>
+ Use a bonus power (if any) </td>
+</tr>
+<tr>
+<td>
+ v </td>
+<td>
+ Throw an item </td>
+<td>
+ V </td>
+<td>
+ See version info </td>
+</tr>
+<tr>
+<td>
+ w </td>
+<td>
+ Wear/wield equipment </td>
+<td>
+ W </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ x </td>
+<td>
+ Engrave the floor </td>
+<td>
+ X </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ y </td>
+<td>
+ Give item to monster </td>
+<td>
+ Y </td>
+<td>
+ Chat with a monster </td>
+</tr>
+<tr>
+<td>
+ z </td>
+<td>
+ Zap a rod, or zap a rod tip to a rod </td>
+<td>
+ Z </td>
+<td>
+ Steal an item </td>
+</tr>
+<tr>
+<td>
+ ! </td>
+<td>
+ Interact with system </td>
+<td>
+ <strong></strong>^A </td>
+<td>
+ Special debug command </td>
+</tr>
+<tr>
+<td>
+ @ </td>
+<td>
+ Interact with macros </td>
+<td>
+ <strong></strong>^B </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ # </td>
+<td>
+ -- unused -- </td>
+<td>
+ <strong></strong>^C </td>
+<td>
+ special - break </td>
+</tr>
+<tr>
+<td>
+ $ </td>
+<td>
+ Record a macro </td>
+<td>
+ <strong></strong>^D </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ % </td>
+<td>
+ Interact with visuals </td>
+<td>
+ <strong></strong>^E</td>
+<td>
+ Toggle choice window </td>
+</tr>
+<tr>
+<td>
+ <tt>^</tt> </td>
+<td>
+ special - control key </td>
+<td>
+ <strong></strong>^F </td>
+<td>
+ Repeat level feeling </td>
+</tr>
+<tr>
+<td>
+ &amp; </td>
+<td>
+ Interact with colors </td>
+<td>
+ <strong></strong>^G </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ * </td>
+<td>
+ Target monster or location </td>
+<td>
+ <strong></strong>^H </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ ( </td>
+<td>
+ -- unused -- </td>
+<td>
+ <strong></strong>^I </td>
+<td>
+ special - tab </td>
+</tr>
+<tr>
+<td>
+ ) </td>
+<td>
+ -- unused -- </td>
+<td>
+ <strong></strong>^J </td>
+<td>
+ special - linefeed </td>
+</tr>
+<tr>
+<td>
+ <strong></strong>{ </td>
+<td>
+ Inscribe an object </td>
+<td>
+ <strong></strong>K </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ <strong></strong>} </td>
+<td>
+ Uninscribe an object </td>
+<td>
+ <strong></strong>^L </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ [ </td>
+<td>
+ -- unused -- </td>
+<td>
+ <strong></strong>^M </td>
+<td>
+ special -- return </td>
+</tr>
+<tr>
+<td>
+ ] </td>
+<td>
+ -- unused -- </td>
+<td>
+ <strong></strong>^N </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ - </td>
+<td>
+ Walk (flip pickup) </td>
+<td>
+ <strong></strong>^O </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ _ </td>
+<td>
+ Re-enter store (if you just exited the store) </td>
+<td>
+ <strong></strong>^P </td>
+<td>
+ Show previous messages </td>
+</tr>
+<tr>
+<td>
+ + </td>
+<td>
+ Alter grid </td>
+<td>
+ <strong></strong>^Q </td>
+<td>
+ Quit to the next midi song </td>
+</tr>
+<tr>
+<td>
+ = </td>
+<td>
+ Set game options </td>
+<td>
+ <strong></strong>^R </td>
+<td>
+ Redraw the screen </td>
+</tr>
+<tr>
+<td>
+ ; </td>
+<td>
+ Walk (with pickup) </td>
+<td>
+ <strong></strong>^S </td>
+<td>
+ Save, do not quit </td>
+</tr>
+<tr>
+<td>
+ : </td>
+<td>
+ Take brief notes </td>
+<td>
+ <strong></strong>^T </td>
+<td>
+ Show time of day </td>
+</tr>
+<tr>
+<td>
+ ' </td>
+<td>
+ -- unused -- </td>
+<td>
+ <strong></strong>^U </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ " </td>
+<td>
+ Enter a user pref command </td>
+<td>
+ <strong></strong>^V </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ , </td>
+<td>
+ Stand still (with pickup) </td>
+<td>
+ <strong></strong>^W </td>
+<td>
+ special -- enter wizard mode </td>
+</tr>
+<tr>
+<td>
+ &lt; </td>
+<td>
+ Go up staircase </td>
+<td>
+ <strong></strong>^X </td>
+<td>
+ Save and quit </td>
+</tr>
+<tr>
+<td>
+ . </td>
+<td>
+ Run </td>
+<td>
+ <strong></strong>^Y </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ &gt; </td>
+<td>
+ Go down staircase </td>
+<td>
+ <strong></strong>^Z </td>
+<td>
+ special - borg command </td>
+</tr>
+<tr>
+<td>
+ \ </td>
+<td>
+ special - bypass keymap </td>
+<td>
+ <strong></strong>| </td>
+<td>
+ Do cmovies </td>
+</tr>
+<tr>
+<td>
+ ` </td>
+<td>
+ special - escape </td>
+<td>
+ ~ </td>
+<td>
+ Display current knowledge </td>
+</tr>
+<tr>
+<td>
+ / </td>
+<td>
+ Identify a symbol </td>
+<td>
+ ? </td>
+<td>
+ Display in-game help </td>
+</tr>
+<tr>
+<td colspan="4">
+ </td>
+<td>
+ Take an HTML screenshot </td>
+</tr>
+</table>
+</div>
+<h4 id="head-229bf1e0e51cde6b0c720d612c3d60756490a619"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Command summary for the roguelike keyset</h4>
+
+<div>
+<table>
+<tr>
+<td>
+ a </td>
+<td>
+ Zap a rod (Activate) </td>
+<td>
+ A </td>
+<td>
+ Activate an artifact </td>
+</tr>
+<tr>
+<td>
+ b </td>
+<td>
+ Walk southwest </td>
+<td>
+ B </td>
+<td>
+ Run southwest </td>
+</tr>
+<tr>
+<td>
+ c </td>
+<td>
+ Close a door </td>
+<td>
+ C </td>
+<td>
+ List the character description </td>
+</tr>
+<tr>
+<td>
+ d </td>
+<td>
+ Drop an item </td>
+<td>
+ D </td>
+<td>
+ Disarm something </td>
+</tr>
+<tr>
+<td>
+ e </td>
+<td>
+ Show equipment list </td>
+<td>
+ E </td>
+<td>
+ Eat some food </td>
+</tr>
+<tr>
+<td>
+ f </td>
+<td>
+ Bash a door (Force) </td>
+<td>
+ F </td>
+<td>
+ Fuel your lantern or torch </td>
+</tr>
+<tr>
+<td>
+ g </td>
+<td>
+ Stay still (flip pickup) </td>
+<td>
+ G </td>
+<td>
+ Gain new skills </td>
+</tr>
+<tr>
+<td>
+ h </td>
+<td>
+ Walk west </td>
+<td>
+ H </td>
+<td>
+ Run west </td>
+</tr>
+<tr>
+<td>
+ i </td>
+<td>
+ Show inventory list </td>
+<td>
+ I </td>
+<td>
+ Inspect (closely examaine) an item </td>
+</tr>
+<tr>
+<td>
+ j </td>
+<td>
+ Walk south </td>
+<td>
+ J </td>
+<td>
+ Run south </td>
+</tr>
+<tr>
+<td>
+ k </td>
+<td>
+ Walk north </td>
+<td>
+ K </td>
+<td>
+ Run north </td>
+</tr>
+<tr>
+<td>
+ l </td>
+<td>
+ Walk east </td>
+<td>
+ L </td>
+<td>
+ Run east </td>
+</tr>
+<tr>
+<td>
+ m </td>
+<td>
+ Cast a spell / use mental power </td>
+<td>
+ M </td>
+<td>
+ View full dungeon map (condensed) </td>
+</tr>
+<tr>
+<td>
+ n </td>
+<td>
+ Walk southeast </td>
+<td>
+ N </td>
+<td>
+ Run southeast </td>
+</tr>
+<tr>
+<td>
+ o </td>
+<td>
+ Open a door or chest </td>
+<td>
+ O </td>
+<td>
+ Use bonus power (if any) </td>
+</tr>
+<tr>
+<td>
+ p </td>
+<td>
+ Pray to your god, if you have one </td>
+<td>
+ P </td>
+<td>
+ Browse a book </td>
+</tr>
+<tr>
+<td>
+ q </td>
+<td>
+ Quaff a potion </td>
+<td>
+ Q </td>
+<td>
+ Quit (commit suicide) </td>
+</tr>
+<tr>
+<td>
+ r </td>
+<td>
+ Read a scroll </td>
+<td>
+ R </td>
+<td>
+ Rest for a period </td>
+</tr>
+<tr>
+<td>
+ s </td>
+<td>
+ Search for traps/doors </td>
+<td>
+ S </td>
+<td>
+ Record a macro </td>
+</tr>
+<tr>
+<td>
+ t </td>
+<td>
+ Fire (Target) an item </td>
+<td>
+ T </td>
+<td>
+ Take off equipment </td>
+</tr>
+<tr>
+<td>
+ u </td>
+<td>
+ Walk northeast </td>
+<td>
+ U </td>
+<td>
+ Run northeast </td>
+</tr>
+<tr>
+<td>
+ v </td>
+<td>
+ Throw an item </td>
+<td>
+ V </td>
+<td>
+ Drink from a fountain </td>
+</tr>
+<tr>
+<td>
+ w </td>
+<td>
+ Wear/wield equipment </td>
+<td>
+ W </td>
+<td>
+ View full dungeon map (condensed) (Where) </td>
+</tr>
+<tr>
+<td>
+ x </td>
+<td>
+ Look around </td>
+<td>
+ X </td>
+<td>
+ Access pet commands menu </td>
+</tr>
+<tr>
+<td>
+ y </td>
+<td>
+ Walk northwest </td>
+<td>
+ Y </td>
+<td>
+ Run northwest </td>
+</tr>
+<tr>
+<td>
+ z </td>
+<td>
+ Aim a wand (Zap) </td>
+<td>
+ Z </td>
+<td>
+ Use a staff (Zap) </td>
+</tr>
+<tr>
+<td>
+ ! </td>
+<td>
+ Interact with system </td>
+<td>
+ <strong></strong>^A </td>
+<td>
+ Special debug command </td>
+</tr>
+<tr>
+<td>
+ @ </td>
+<td>
+ Interact with macros </td>
+<td>
+ <strong></strong>^B </td>
+<td>
+ Tunnel southwest </td>
+</tr>
+<tr>
+<td>
+ # </td>
+<td>
+ Toggle search mode </td>
+<td>
+ <strong></strong>^C </td>
+<td>
+ special - break </td>
+</tr>
+<tr>
+<td>
+ $ </td>
+<td>
+ Hack up a corpse </td>
+<td>
+ <strong></strong>^D </td>
+<td>
+ Destroy item </td>
+</tr>
+<tr>
+<td>
+ % </td>
+<td>
+ Interact with visuals </td>
+<td>
+ <strong></strong>^E</td>
+<td>
+ Toggle choice window </td>
+</tr>
+<tr>
+<td>
+ <tt>^</tt> </td>
+<td>
+ special - control key </td>
+<td>
+ <strong></strong>^F </td>
+<td>
+ Repeat level feeling </td>
+</tr>
+<tr>
+<td>
+ &amp; </td>
+<td>
+ Interact with colors </td>
+<td>
+ <strong></strong>^G </td>
+<td>
+ Sacrifice at an altar </td>
+</tr>
+<tr>
+<td>
+ * </td>
+<td>
+ Target monster or location </td>
+<td>
+ <strong></strong>^H </td>
+<td>
+ Tunnel west </td>
+</tr>
+<tr>
+<td>
+ ( </td>
+<td>
+ Chat with a monster </td>
+<td>
+ <strong></strong>^I </td>
+<td>
+ special - tab </td>
+</tr>
+<tr>
+<td>
+ ) </td>
+<td>
+ -- unused -- </td>
+<td>
+ <strong></strong>^J </td>
+<td>
+ Tunnel south </td>
+</tr>
+<tr>
+<td>
+ <strong></strong>{ </td>
+<td>
+ Inscribe an object </td>
+<td>
+ <strong></strong>K </td>
+<td>
+ Tunnel north </td>
+</tr>
+<tr>
+<td>
+ <strong></strong>} </td>
+<td>
+ Uninscribe an object </td>
+<td>
+ <strong></strong>^L </td>
+<td>
+ Tunnel east </td>
+</tr>
+<tr>
+<td>
+ [ </td>
+<td>
+ Steal an item </td>
+<td>
+ <strong></strong>^M </td>
+<td>
+ Tunnel south </td>
+</tr>
+<tr>
+<td>
+ ] </td>
+<td>
+ Engrave the floor </td>
+<td>
+ <strong></strong>^N </td>
+<td>
+ Tunnel southeast </td>
+</tr>
+<tr>
+<td>
+ - </td>
+<td>
+ Walk (flip pickup) </td>
+<td>
+ <strong></strong>^O </td>
+<td>
+ Cure meat </td>
+</tr>
+<tr>
+<td>
+ _ </td>
+<td>
+ Re-enter store (if you just exited the store) </td>
+<td>
+ <strong></strong>^P </td>
+<td>
+ Show previous messages </td>
+</tr>
+<tr>
+<td>
+ + </td>
+<td>
+ Alter grid </td>
+<td>
+ <strong></strong>^Q </td>
+<td>
+ Quit to the next midi song </td>
+</tr>
+<tr>
+<td>
+ = </td>
+<td>
+ Set game options </td>
+<td>
+ <strong></strong>^R </td>
+<td>
+ Redraw the screen </td>
+</tr>
+<tr>
+<td>
+ ; </td>
+<td>
+ Walk (with pickup) </td>
+<td>
+ <strong></strong>^S </td>
+<td>
+ Save, do not quit </td>
+</tr>
+<tr>
+<td>
+ : </td>
+<td>
+ Take brief notes </td>
+<td>
+ <strong></strong>^T </td>
+<td>
+ Dig a tunnel </td>
+</tr>
+<tr>
+<td>
+ ' </td>
+<td>
+ Give item to monster </td>
+<td>
+ <strong></strong>^U </td>
+<td>
+ Tunnel northeast </td>
+</tr>
+<tr>
+<td>
+ " </td>
+<td>
+ Enter a user pref command </td>
+<td>
+ <strong></strong>^V </td>
+<td>
+ -- unused -- </td>
+</tr>
+<tr>
+<td>
+ , </td>
+<td>
+ Run </td>
+<td>
+ <strong></strong>^W </td>
+<td>
+ special -- enter wizard mode </td>
+</tr>
+<tr>
+<td>
+ &lt; </td>
+<td>
+ Go up staircase </td>
+<td>
+ <strong></strong>^X </td>
+<td>
+ Save and quit </td>
+</tr>
+<tr>
+<td>
+ . </td>
+<td>
+ Stay still (with pickup) </td>
+<td>
+ <strong></strong>^Y </td>
+<td>
+ Tunnel northwest </td>
+</tr>
+<tr>
+<td>
+ &gt; </td>
+<td>
+ Go down staircase </td>
+<td>
+ <strong></strong>^Z </td>
+<td>
+ special - borg command </td>
+</tr>
+<tr>
+<td>
+ \ </td>
+<td>
+ special - bypass keymap </td>
+<td>
+ <strong></strong>| </td>
+<td>
+ Do cmovies </td>
+</tr>
+<tr>
+<td>
+ ` </td>
+<td>
+ special - escape </td>
+<td>
+ ~ </td>
+<td>
+ Display current knowledge </td>
+</tr>
+<tr>
+<td>
+ / </td>
+<td>
+ Identify a symbol </td>
+<td>
+ ? </td>
+<td>
+ Display in-game help </td>
+</tr>
+</table>
+</div>
+<p>
+*** Is there a command to take a screenshot in the roguelike keyset? *** 
+</p>
+<p>
+*** Close scrutiny ends *** 
+</p>
+<h3 id="head-23fce0a64e18dc82731562b60e1afe76c31b24eb"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Special keys</h3>
+Certain special keys may be intercepted by the operating system or the host machine, causing unexpected results.  In general, these special keys are control keys, and often, you can disable their special effects. <p>
+If you are playing on a UNIX or similar system, then Ctrl-C will interrupt Angband.  The second and third interrupt will induce a warning bell, and the fourth will induce both a warning bell and a special message, since the fifth will quit the game, after killing your character.  Also, Ctrl-Z will suspend the game, and return you to the original command shell, until you resume the game with the "fg" command.  There is now a compilation option to force the game to prevent the "double ctrl-z escape death trick". The Ctrl-\ and Ctrl-D and Ctrl-S keys should not be intercepted. 
+</p>
+<p>
+It is often possible to specify "control-keys" without actually pressing the control key, by typing a caret ("<strong></strong>^") followed by the key. This is useful for specifying control-key commands which might be caught by the operating system as explained above. 
+</p>
+<p>
+Pressing backslash ("\")] before a command will bypass all keymaps, and the next keypress will be interpreted as an "underlying command" key, unless it is a caret ("<strong></strong>^"), in which case the keypress after that will be turned into a control-key and interpreted as a command in the underlying angband keyset.  The backslash key is useful for creating macro actions which are not affected by any keymap definitions that may be in force, for example, the sequence "\" + "." + "6" will always mean "run east", even if the "." key has been mapped to a different underlying command. 
+</p>
+<p>
+The "0" and "<strong></strong>^" and "\" keys all have special meaning when entered at the command prompt, and there is no "useful" way to specify any of them as an "underlying command", which is okay, since they would have no effect. 
+</p>
+<p>
+For many input requests or queries, the special character ESCAPE will abort the command.  The "[y/n]" prompts may be answered with "y" or "n", or escape.  The "-more-" message prompts may be cleared (after reading the displayed message) by pressing ESCAPE, SPACE, RETURN, LINEFEED, or by any keypress, if the "quick_messages" option is turned on. 
+</p>
+<h3 id="head-5b8ace295108e6095dbb7f091515cbd7f669f4a2"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Command counts</h3>
+Some commands can be executed a fixed number of times by preceding them with a count.  Counted commands will execute until the count expires, until you type any character, or until something significant happens, such as being attacked.  Thus, a counted command doesn't work to attack another creature.  While the command is being repeated, the number of times left to be repeated will flash by on the line at the bottom of the screen. <p>
+<em>To give a count to a command, type 0, the repeat count, and then the command.</em> 
+</p>
+<p>
+If you want to give a movement command and you are using the original command set (where the movement commands are digits), press space after the count and you will be prompted for the command. 
+</p>
+<p>
+Counted commands are very useful for searching or tunneling, as they automatically terminate on success, or if you are attacked. You may also terminate any counted command (or resting or running), by typing any character. This character is ignored, but it is safest to use a SPACE or ESCAPE which are always ignored as commands in case you type the command just after the count expires. 
+</p>
+<p>
+You can tell ToME to automatically use a repeat count of 99 with commands you normally want to repeat (open, disarm, tunnel, bash, alter, etc) by setting the "always_repeat" option. 
+</p>
+<h3 id="head-4ba0f1def86bb0d6204b49385f1394da8a97d200"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Selection of objects</h3>
+Many commands will also prompt for a particular object to be used. For example, the command to read a scroll will ask you which of the scrolls that you are carrying that you wish to read.  In such cases, the selection is made by typing a letter of the alphabet.  The prompt will indicate the possible letters, and will also allow you to type the key "*", which causes all of the available options to be described.  The list of choices will also be shown in the Choice window, if you are using a windows environment and windows are turned on.  Often you will be able to press "/" to select an object from your equipment instead of your inventory.  Pressing space once will have the same effect as "*", and the second time will cancel the command and run the "i" or "e" command. <p>
+<em>The particular object may be selected by an upper case or a lower case letter.  If lower case is used, the selection takes place immediately.  If upper case is used, then the particular option is described, and you are given the option of confirming or retracting that choice.</em>  Upper case selection is thus safer, but requires an extra key stroke. 
+</p>
+<hr size="8">
+ Text subject to being removed or moved <hr size="8">
+ 
+        <ul>
+
+  Also see the "!*" and "!x" inscriptions, below. 
+        </ul>
+
+
+<p>
+For many commands, <em>you can also use "-" to select an object on the floor where you are standing.</em>  This lets you read scrolls or quaff potions, for example, off the dungeon floor without picking them up. 
+</p>
+<p>
+If you enter a number between 0 and 9, the first item engraved with "@#" where "#" is the number you entered will be selected.  For example, if you have a shovel engraved with "@0" and you type "w" (for wield) and then 0, you will wield the shovel.  This is very useful for macros (see below), since you can use this to select an object regardless of its location in your pack. Multiple numbers can be engraved on the same object; for example, if a sword is engraved with @1@0, then either "w1" or "w0" will wield it.  Normally, you inscribe "@1@0" on your primary weapon, and "@2@0" on your secondary weapon.  <em>Note that an inscription containing "@x#" will act like "@#" but only when the current "ToME command" is "x".</em>  Thus you can put "@z4" on a rod and "@u4" on a staff, and then use both "z4" and "u4" as desired. 
+</p>
+<p>
+Note that any object containing "!x" in its inscription, where "x" is the current "ToME command" (or containing "!*" ever) will induce "verification" whenever that object is "selected".  Thus, inscribing, say, "!f!k!d" on an object will greatly reduce the odds of you "losing" it by accident, and <em>inscribing "!*" on an object</em> will allow you to be very paranoid about the object.  Note that "selling" and "dropping" both use the "d" command. 
+</p>
+<hr size="8">
+ <h3 id="head-72e559e099086afd2276469a26e5d344594c4b0c"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>User pref files</h3>
+The "Interact with macros" command allows you to define or remove "macros", which are  mappings from a single logical keypress to a sequence of keypresses, allowing you to use special keys on the keyboard, such as function keys or keypad keys, possibly in conjunction with modifier keys, to "automate" repetitive multi-keypress commands that you use a lot. <p>
+Since macros represent keypress sequences, and not all keypresses have a printable representation, macro triggers and actions must often be "encoded" into a human readable form.  This is done using several types of encoding, including "\xHH" for character number HH in hexidecimal, "\e" for the "escape" code, "\n" for the "newline" code, "\r" for the "return" code, "\s" for the "space" code, "\\" for backslash, "\<tt>^</tt>" for caret, and "<tt>^</tt>X" for the code for any "control" key "ctrl-X".  Note that the "action" of a macro will not be checked against other macro triggers (unless the macro action contains a "control-backslash"), so you cannot make infinite loops.  You may specify extremely long macros, but you are limited in length by the underlying input mechanisms, which in general limit you to about 1024 keys in both triggers and actions. 
+</p>
+<p>
+The special "\" command (which must be encoded in macros as "\\") is very useful in macros, since it bypasses all keymaps and allows the next keystroke to be considered a command in the underlying ToME command set. For example, a macro which maps Shift-KP6 to "\" + "." + "6" will induce the "run east" behavior, regardless of what keyset the user has chosen, and regardless of what keymaps have been defined. 
+</p>
+<p>
+Macros can be specified in user pref files as a pair of lines, one of the form "A:&lt;str&gt;", which defines the encoded macro action, and one of the form "P:&lt;str&gt;", which defines the encoded macro trigger. 
+</p>
+<p>
+A <em>common example of a macro</em> to cast the first spell in your first spell book at the nearest monster would be: \e\e\em1a*t where \e is an escape (to make sure you are not still within another command), m1 selects the spell book that is inscribed ({) with @m1, a selects the first spell in that book, and *t targets the nearest monster.  
+</p>
+<p>
+More detailed information about specific macros can be found in ****link to macrofaq*****, originally written by Jim Lyon (<a href="http://web.archive.org/web/20041020105434/mailto:jplyon@attglobal.net">jplyon@attglobal.net</a>). 
+</p>
+<h4 id="head-899bd694d29ace1be956ab35177075021977560b"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Macros</h4>
+<h4 id="head-d76a6428ca9ac90ba70592739416e9b19c454e19"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Keymaps</h4>
+<h4 id="head-0f48a4ccae951aebb1354bd8b48c57bf48dc6a70"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Visuals</h4>
+<h4 id="head-88d5e4cac104ffc3f02dd54f2f0f1074fd33fd9b"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Colors</h4>
+<h3 id="head-a53ad3b3d9e866f4ae8edd0f948c336d0c5367a4"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Command descriptions</h3>
+<h4 id="head-92564fea1f4701796ad3d6f65c58deff5e687a43"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Inventory commands</h4>
+<h4 id="head-dffbbad0c11ac2851170c475759037d6bd6ab136"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Movement commands</h4>
+<h4 id="head-0183640badb17472c815202abfc4547354cccdcb"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Resting commands</h4>
+<h4 id="head-bf58774b55ddf7e1d15de1cee6189d49217d9b07"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Searching commands</h4>
+<h4 id="head-59d4a66c1e5866ed441789976b2daa5de2702cdf"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Alter commands</h4>
+<h4 id="head-446ff1fd8099523ecc4eac6895acefffa75dbf31"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Spell and prayer commands</h4>
+<h4 id="head-f45366666094cef1640ae8859827533538baea0b"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Object manipulation commands</h4>
+<h4 id="head-6a59714a6cc0d8c45e0d338b9cf98f8b14b6ddce"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Magical object commands</h4>
+<h4 id="head-1004e44b814f7674d6f7c5d403f8b0e7ea28cb5f"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Throwing and missile weapon commands</h4>
+<h4 id="head-7877018df8c9b1ff84c2c79335e696b62b4a535e"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Looking commands</h4>
+<h4 id="head-c44c632a2d7d9f1a2253fa466b65373c32d6a9ea"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Message commands</h4>
+<h4 id="head-5462551849a579b1f5f6cccacd005667be751da9"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Game status commands</h4>
+<h4 id="head-253bbe79961356a3050715d13f4c9ee06299b51d"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Saving and exiting commands</h4>
+<h4 id="head-e9d9a1cfac3c887d51ea50193b842ef5396815dc"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>User pref file commands</h4>
+<h4 id="head-cd0104c0068a673612c3461b60df96a207d51c9f"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>In-game help commands</h4>
+<h4 id="head-e77875cd82686f1be453f970158537c97b3ed7cb"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Extra in-game commands</h4>
+<h4 id="head-b3a968b2cf7ae7b885f55286653b560003348460"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Wizard mode commands</h4>
+Wizard mode commands are inherently spoily. You have been warned. See the wizard mode commands here: &lt;link to subpage&gt; <hr size="4">
+ Orphan "how to make a character dump" foo -- belongs on this page someplace, not sure yet exactly where. <h3 id="head-2b29ccd0fcfbe54e8591ebc2db2ddae5158400ea"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Creating a character sheet</h3>
+You may like to make a character sheet of your character. A character sheet is useful both for your own reference, and also to share your accomplishments with fellow players. <p>
+To create your character sheet, do the following: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Type "shift + C" to access the character screen 
+</p>
+</li>
+    <li>
+<p>
+ Type "f" for file character (enter a filename composed of "charname.txt") 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+You will find the character sheet file produced by this command sequence in the user folder of ToME (./lib/user or .tome/&lt;version&gt;/tome/user). 
+</p>
+<p>
+ToME players tend to post their character sheets on the ToME wiki and/or on <a href="./angband.oook.cz/">http://angband.oook.cz/</a>, commonly referred to as oook. Both places have advantages: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ On the wiki, it is easy to update and edit your sheet, and the format lends itself to extended discussions about your character. 
+</p>
+</li>
+    <li>
+<p>
+ Oook possesses scoring ladders and is easily searchable by race and class. Players of other roguelikes also post on oook, so you'll get a wider audience there, and if you play more than one roguelike you can even cross-compare your own characters. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Discussion is limited on oook. However, in both places you are given the opportunity to include interesting details about your character. Did she find something very special on dungeon level 2? Or did she have terrible luck and reached dungeon level 60 before finding anything good? Did she have a really scary moment that stands out from the rest of the game? And how *did* she actually defeat her greatest challengers, anyway? 
+</p>
+<h4 id="head-4033edf8e18ba25b64b278839cb7f6235ffaaa66"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Posting your character sheet on the wiki</h4>
+To post your character on the ToME wiki, do the following: 
+    <ul>
+
+    <li>
+<p>
+ Go to <a href="http://web.archive.org./">http://wiki.t-o-m-e.net/</a>. This will take you to the front page of the wiki. 
+</p>
+</li>
+    <li>
+<p>
+ Create a homepage there if you have not done so already. If you need help doing this, scroll down the front page and click on the link to <a href="./Wiki_20Frequently_20Asked_20Questions">Wiki Frequently Asked Questions</a>. There is an entry on that page that will lead you through the process. 
+</p>
+</li>
+    <li>
+<p>
+ Edit your homepage to contain a link to a subpage -- usually the name of your character. If your character's name is "Fred", then you would make that link by typing this: 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<tt>["/Fred"]</tt> 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ After you save your changes, click on your new link. On the lists of links that appear, click on the "<a href="./CharacterSheetTemplate">CharacterSheetTemplate</a>" link. This will bring up a new page with ready-made format. 
+</p>
+</li>
+    <li>
+<p>
+ Bring up your character sheet file in a text editor. Copy and paste it into your new page where directed (between the curly braces), along with any comments you want to make. 
+</p>
+</li>
+    <li>
+<p>
+ Save your changes. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Note: If you do not want to use the template, you will need to set the category for your page. To do so, look for the drop-down box to "Make this page belong to category"... at the bottom of the page and select CategoryCharacterSheet. (If you are using the template, this is done for you automatically.) 
+</p>
+<h4 id="head-8bf6f41b028340532f26585a974df71c07fc556b"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Posting your character sheet on oook</h4>
+To post your character sheet to oook, do the following: 
+    <ul>
+
+    <li>
+<p>
+ Go to <a href="./angband.oook.cz/">http://angband.oook.cz/</a>.  
+</p>
+</li>
+    <li>
+<p>
+ Click on the Angband Ladder link on the lefthand side of the page. 
+</p>
+</li>
+    <li>
+<p>
+ Scroll down to the bottom. 
+</p>
+</li>
+    <li>
+<p>
+ Enter your email address, your character's name, use the browse button to locate your character sheet file, and add any comments you'd like in the textbox. Then click the post it button to submit it. 
+</p>
+</li>
+
+    </ul>
+
+
+<hr size="4">
+ </div><div id="footer">
+
+
+<a href="./Documentation_2fGame_20commands?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fGame_20commands.text_html">RefreshCache</a> for this page (cached 2004-09-29 16:02:32)<br>
+<p><a href="./Documentation_2fGame_20commands?action=edit">EditText</a> of this page (last edited 2004-09-29 16:02:29 by <span title="user-uiveq74.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:54:34 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:19 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.211
+  exclusion.robots.policy: 0.196
+  LoadShardBlock: 202.071 (3)
+  RedisCDXSource: 11.175
+  PetaboxLoader3.datanode: 296.784 (4)
+  captures_list: 240.63
+  PetaboxLoader3.resolve: 662.883
+  CDXLines.iter: 22.943 (3)
+  load_resource: 818.157
+  esindex: 0.015
+-->

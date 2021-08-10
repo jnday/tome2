@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Schools/Temporal - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fSchools">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=fullsearch&amp;value=%2FTemporal&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Schools/Temporal</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fSchools">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fSchools_2fTemporal">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fSchools_2fTemporal?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fSchools_2fTemporal?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fTemporal?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fTemporal?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fTemporal?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fSchools_2fTemporal">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Intelligence (INT) is the stat affecting failure rate for this skill. <h3 id="head-b9970ac60e14bddf290977ede30af99de64f717e">Temporal Spells</h3>
+<p>
+The temporal school of magic contains spells where magic is used to meddle in the relationship between time and space. 
+</p>
+<p>
+There are four spells available for the temporal school: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Magelock</strong> (school level 1) Magically locks a door. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 30 it creates a glyph of warding. 
+</p>
+</li>
+                <li>
+<p>
+ At spell level 40 the glyph can be placed anywhere in the field of vision. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Slow Monster</strong> (school level 10) Magically slows down the passing of time around a monster. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 20 it affects a zone. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Essence of Speed</strong> (school level 15) Magically increases the passing of time around you. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Banishment</strong> (school level 30) Disrupt the space/time continuum in your area and teleports all monsters away. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 15 it also may lock them in a time bubble for some turns. 
+</p>
+</li>
+                <li>
+<p>
+ Your Temporal and Conveyance skills must have reached a combined average level of 30 in order to cast this spell. 
+</p>
+</li>
+
+                </ul>    </ol>
+
+
+<h4 id="head-3ce56f72b52e5daf6171d3ddcb0f5a654e4629c9">Combined Spells</h4>
+<p>
+There is one combined school spell available for the Temporal school: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Grow Trees</strong> (dual school: Temporal/Nature level 6) Makes trees grow extremely quickly around you. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Your <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fNature"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Nature</a> and Temporal skills must have reached a combined average level of 6 in order to cast this spell. 
+</p>
+</li>
+
+                </ul>    </ol>
+
+
+<h4 id="head-906abc02ff3d872f162af0a481dce9a5c5462baa">God given ability</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-8361192ad3ab5a45c7db2288e05efc88d5f826fe"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Yavanna Kementari</a> at 1/6 prayer level. 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fSchools_2fTemporal?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fSchools_2fTemporal.text_html">RefreshCache</a> for this page (cached 2005-11-07 04:19:13)<br>
+<p><a href="./Documentation_2fMagic_2fSchools_2fTemporal?action=edit">EditText</a> of this page (last edited 2005-04-18 13:07:43 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:42:43 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:53 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 107.949
+  exclusion.robots: 0.219
+  exclusion.robots.policy: 0.203
+  RedisCDXSource: 1.008
+  esindex: 0.01
+  LoadShardBlock: 81.203 (3)
+  PetaboxLoader3.datanode: 112.188 (4)
+  CDXLines.iter: 21.996 (3)
+  load_resource: 99.56
+  PetaboxLoader3.resolve: 37.006
+-->

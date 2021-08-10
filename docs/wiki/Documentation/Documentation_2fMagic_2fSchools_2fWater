@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Schools/Water - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fSchools_2fWater?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fSchools_2fWater?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fSchools">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fSchools_2fWater?action=fullsearch&amp;value=%2FWater&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Schools/Water</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fSchools">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fSchools_2fWater?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fSchools_2fWater">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fSchools_2fWater?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fSchools_2fWater?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fSchools_2fWater?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fSchools_2fWater?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fSchools_2fWater?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fSchools_2fWater?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fWater?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fWater?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fWater?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fSchools_2fWater">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Intelligence (INT) is the stat affecting failure rate for this skill. <h3 id="head-f9d316b10740409fe250a113c129ed23e05e3d45">Water Spells</h3>
+<p>
+The water school of magic contains spells where the element of water is used to create the final spell effect. 
+</p>
+<p>
+There are four spells available for the water school: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Geyser</strong> (school level 1) Shoots a geyser of water from your fingertips. Sometimes it can blast through its first target 
+</p>
+</li>
+    <li>
+<p>
+<strong>Vapor</strong> (school level 2) Fills the air with toxic moisture to eradicate annoying creatures. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Ent's Potion</strong> (school level 6) Fills up your stomach (i.e. satisfy hunger). 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 5 it emboldens your heart (boldness). 
+</p>
+</li>
+                <li>
+<p>
+ At level 12 it make you heroic. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Tidal Wave</strong> (school level 16) Summons a monstrous tidal wave that will expand and crush monsters under it's mighty waves. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Ice Storm</strong> (school level 22) Engulfs you in a storm of roaring cold that strikes your foes. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 10 it turns into shards of ice. 
+</p>
+</li>
+
+                </ul>    </ol>
+
+
+<h4 id="head-906abc02ff3d872f162af0a481dce9a5c5462baa">God given ability</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-8361192ad3ab5a45c7db2288e05efc88d5f826fe"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Yavanna Kementari</a> at 1/2 prayer level. 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fSchools_2fWater?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fSchools_2fWater.text_html">RefreshCache</a> for this page (cached 2005-11-07 01:50:34)<br>
+<p><a href="./Documentation_2fMagic_2fSchools_2fWater?action=edit">EditText</a> of this page (last edited 2005-04-18 13:05:36 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:57:49 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 579.48
+  exclusion.robots: 0.108
+  exclusion.robots.policy: 0.1
+  RedisCDXSource: 1.484
+  esindex: 0.007
+  LoadShardBlock: 560.194 (3)
+  PetaboxLoader3.datanode: 569.841 (4)
+  CDXLines.iter: 15.67 (3)
+  load_resource: 75.118
+  PetaboxLoader3.resolve: 44.535
+-->

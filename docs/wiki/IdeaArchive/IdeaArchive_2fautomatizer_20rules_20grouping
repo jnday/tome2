@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/automatizer rules grouping - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=fullsearch&amp;value=%2Fautomatizer+rules+grouping&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/automatizer rules grouping</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fautomatizer_20rules_20grouping">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fautomatizer_20rules_20grouping">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I have like 60 rules for sword-types alone! <p>
+If some macro could unite all sword-types rules by tval (not all SWORDS, all RULES ABOUT SWORDS) under a single rule for "bad", a single rule for "average" and a single rule for "good" swords it would sure make things easier. 
+</p>
+<p>
+The point is a macro that standardizes rules, cleans them up, but doesn't change the effects. It would then be easier to make automatizer files I want to KEEP from one character to the next, while 60 rules just for swords I just want to delete all and start over... 
+</p>
+<p>
+In another order of grouping, the ability to save and load single rules from the game instead of swapping to a text editor  
+</p>
+<h2 id="head-9dc7c8b069f26776a0e7114d155f3cc3aba664ee">chatter</h2>
+<p>
+Some rule condition should be "all sword-types whose hit dice is lower than (3d?) and lower than (?d5)" This would be so much more useful than manipulating 20 sword types or so one by one as we meet them... 
+</p>
+<p>
+A "bad, average or good" category in itself would greatly reduce rule-making time. 
+</p>
+<p>
+Simon: A rule merger is within my coding capacity, but I want some kind of brainstorming before I dive in the coding... 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: Err, you can always do this: 
+</p>
+
+<pre>&lt;rule name="Good Swords" type="pickup" module="ToME"&gt;
+    &lt;and&gt;
+        &lt;or&gt;
+            &lt;tval&gt;30&lt;/tval&gt;
+            &lt;tval&gt;31&lt;/tval&gt;
+            &lt;tval&gt;32&lt;/tval&gt;
+            &lt;tval&gt;xx&lt;/tval&gt;
+            &lt;tval&gt;xx&lt;/tval&gt;
+            ...
+        &lt;/or&gt;
+        &lt;status&gt;good&lt;/status&gt;
+    &lt;/and&gt;
+&lt;/rule&gt;
+</pre><p>
+That's all swords or anything you want to pickup... The point is that you cannot have more than one type of rule... So you need a rule for pick up and another for destroy but you can group all pickups in one rule, all destroys in one rule and so on. 
+</p>
+<p>
+Unless someone invents a new way of handling the rule type, I think that's the only way to save space and make things easier. 
+</p>
+<p>
+Simon: I fear you don't understand. I don't WANT the players to have to bother with learning rule syntax. At least for most items there should be a way to auto-destroy say all good-bad-average broken daggers without having to encounter a good, a bad, and an average broken dagger... having a hit dice based rule would also wipe weak swords right away in one very simple rule! 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: Aha. What's there to learn? If you know logic, you know how that syntax works. I can see your point tho, but the dice based rule? Well, It will be sad if people start complaining the automatizer just destroyed some sentient daggers. Btw, you can make the rules without encountering the items but the thing I dislike is the tval. There should be a list for it instead of numbers. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fautomatizer_20rules_20grouping.text_html">RefreshCache</a> for this page (cached 2004-08-06 21:23:16)<br>
+<p><a href="./IdeaArchive_2fautomatizer_20rules_20grouping?action=edit">EditText</a> of this page (last edited 2004-08-06 21:23:15 by <span title="200-146-146-91.rev.easyband.com.br"><a href="./SoulWynd">SoulWynd</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:30:09 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:44:07 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 211.505
+  exclusion.robots.policy: 0.183
+  PetaboxLoader3.datanode: 226.099 (4)
+  RedisCDXSource: 10.037
+  load_resource: 500.318
+  exclusion.robots: 0.192
+  esindex: 0.01
+  captures_list: 246.609
+  LoadShardBlock: 211.551 (3)
+  CDXLines.iter: 21.458 (3)
+-->

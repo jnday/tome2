@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport72 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport72?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport72?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport72?action=fullsearch&amp;value=BugReport72&amp;literal=1&amp;case=1&amp;context=40">BugReport72</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport72?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport72">View</a></li>
+<li><a title="Diffs" href="./BugReport72?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport72?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport72?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport72?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport72?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport72?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport72?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport72?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport72?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport72">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./KhymChanur">KhymChanur</a>: ToME 2.2.7 <p>
+If I'm in an arena level, there are monsters that I can see (via vision or telepathy) that don't show up on the full-level map. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Not a bug.  The full level map does not show everything on the level.  It can't; it has to compress in order to fit the full map on screen at once. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: Not 100% sure what the problem is, but I assume when pressing 'M'ap the overhead doesn't show all creatures.  If we start using SDL (3.0.0. or later) you could just change fontsize and display everything.  This would (IMO) be one of the biggest improvements over the current more. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: ASCII can't literally compress. Each ASCII character in the 'M'ap represents several squares of the actual game map. So the 'M'ap shows you where stairs are, store entrances (if any), and a general layout of rooms and corridors (if underground) or of terrain (if in the Wilderness), but the fine detail is lost. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport72?action=refresh&amp;arena=Page.py&amp;key=BugReport72.text_html">RefreshCache</a> for this page (cached 2004-08-11 00:34:52)<br>
+<p><a href="./BugReport72?action=edit">EditText</a> of this page (last edited 2004-08-11 00:34:51 by <span title="user-2iverfa.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:29:42 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:40 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 121.39 (2)
+  exclusion.robots.policy: 0.133
+  PetaboxLoader3.datanode: 120.847 (4)
+  RedisCDXSource: 1.088
+  load_resource: 156.398
+  exclusion.robots: 0.143
+  esindex: 0.009
+  captures_list: 131.7
+  LoadShardBlock: 103.597 (3)
+  CDXLines.iter: 24.017 (3)
+-->

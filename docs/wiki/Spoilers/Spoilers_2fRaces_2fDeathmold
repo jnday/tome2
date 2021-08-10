@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Races/Deathmold - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fRaces_2fDeathmold?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fRaces_2fDeathmold?action=print">
+<link rel="Up" href="/Spoilers_2fRaces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fRaces_2fDeathmold?action=fullsearch&amp;value=%2FDeathmold&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Races/Deathmold</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fRaces">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fRaces_2fDeathmold?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fRaces_2fDeathmold">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fRaces_2fDeathmold?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fRaces_2fDeathmold?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fRaces_2fDeathmold?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fRaces_2fDeathmold?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fRaces_2fDeathmold?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fRaces_2fDeathmold?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fRaces_2fDeathmold?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fRaces_2fDeathmold?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fRaces_2fDeathmold?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fRaces_2fDeathmold">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-d4f945a2abc93d343fd04ee81b381d4e490adf40">Intrinsic Attributes</h2>
+<p>
+Level 1: Hold Life<br>
+ Level 1: Resist Nether<br>
+ Level 1: Resist Nexus 
+</p>
+<h2 id="head-dc812752b758972aef424a8f84837913571199c0">Movement</h2>
+<p>
+Deathmolds are the most frustrating race to play early on because of their weird movement. They "blink" instead of walking, which means that they move semi-randomly a few squares at a time. It is generally impossible to move onto any square with an object on it. Traps have no effect if you blink onto them. One exception is that deathmolds can move normally onto a stair if they are adjacent to it. This is one way to pick up objects or get hit by a trap. 
+</p>
+<p>
+Deathmolds do have three powers to make up for this: They can teleport up/down one level; they can teleport to any spot that doesn't have an object, monster or wall on it; and they can teleport objects to their square. 
+</p>
+<p>
+The teleport self abilities mean that a deathmold can get out of almost any situation. Confused, blinded, down to one hp, and surrounded by Great Worms of Power? No problem. Go up, down, or pick a distant spot that looks safe. 
+</p>
+<p>
+***Warning*** No teleport levels are game-ending traps for unprepared deathmolds. Don't do the Bree quest - or most quests - until you have mimicry ability or lots of morphic oils. ***End warning*** 
+</p>
+<p>
+The teleport object ability is limited in distance and in weight- you can't get an object that weighs more than your current character level. You have to be able to target the square that the object is on. If there are monsters in your line of sight, you can only target them or things in one of the eight cardinal directions. */ You can press 'p' to enter "free-targeting" mode even if there are monsters in your line of sight.  /* If there are no monsters in your line of sight, you can target squares that you can't see- for example, inside a vault. You can also get objects from under a monster, unlike the "Recall" spell. 
+</p>
+<p>
+The deathmold abilities take some time to recharge; much more time for a lower level character. This is a major danger for a new character- you teleport away from one monster and then you can't get away again for nearly 100 turns. Even if your powers aren't fully recharged, you can sometimes use them by using your mana or hit points. 
+</p>
+<p>
+Deathmolds have the highest stealth of any race. They can get essentially perfect stealth even at the start by adjusting their tactics and speed. They also have high stats except for charisma and luck, which are terrible. 
+</p>
+<p>
+In some of the quest ends you need to talk to Turgon, Galadriel, etc. You have to walk to the entrances of their dwellings- it doesn't work if you teleport or blink there. By the time that you get to this point you should have found some morphic oils- take one and walk. 
+</p>
+<h2 id="head-8140b2fdc03c86cef2794c47e7134fd884514ce2">Suggested Subrace: Lost Souls</h2>
+<p>
+Deathmolds are by far the easiest race for lost souls. Get stealth on the highest setting and the only monsters you have to worry about are the ones created awake (Zs, Qs, and things in pits). Look for easy kills to get experience and greater vaults to pillage with your get object power. A deathmold lost soul sorceror is ridiculously easy. 
+</p>
+<h2 id="head-cbb6a35c0792d8ac24bab52f2bc9dd7d7854ce0f">Suggested Class: Possessors</h2>
+<p>
+Deathmolds make great possessors. The high stats, hit dice, and stealth carry over, but the weird movement doesn't. I generally look for an agent of the black market corpse, which is the only one in town that moves normally. 
+</p>
+<p>
+Comment: I couldn't get myself a corpse to possess when I tried in 2.2.2 with my deathmold possessor: I just couldn't teleport over a corpse or get one under me. 
+</p>
+<p>
+Answer: You need to use your possession powers to leave your deathmold body. As a disembodied spirit you can move normally. 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./RedNaga">RedNaga</a></strong>: is it worth to mention that they don't have normal equipment slots in their normal form? A deathmold can use a meele weapon, a ranged weapon, four rings, a light source, a body armour, a cloak, a shield, gloves, a tool and some ammo in quiver (plus a symbiote if it has symbiosys). <p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  Yeah, I'd say so, definitely since I don't recall the docs mentioning it.  So the differences from normal are two extra rings, but no helm or boots?  I haven't tried one since forever...hm...maybe back in Pern days? 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: and no amulets too. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fRaces_2fDeathmold?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fRaces_2fDeathmold.text_html">RefreshCache</a> for this page (cached 2005-02-27 14:27:19)<br>
+<p><a href="./Spoilers_2fRaces_2fDeathmold?action=edit">EditText</a> of this page (last edited 2005-01-29 03:39:18 by <span title="68.56.70.223=pcp0011603303pcs.sarast01.fl.comcast.net">pcp0011603303pcs</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:46:55 May 17, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:20 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.128
+  PetaboxLoader3.datanode: 484.632 (4)
+  LoadShardBlock: 570.62 (3)
+  RedisCDXSource: 25.196
+  captures_list: 624.579
+  PetaboxLoader3.resolve: 66.038
+  exclusion.robots: 0.138
+  CDXLines.iter: 24.564 (3)
+  load_resource: 133.6
+  esindex: 0.011
+-->

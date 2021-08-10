@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Race tweak ideas - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fRace_20tweak_20ideas?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fRace_20tweak_20ideas?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fRace_20tweak_20ideas?action=fullsearch&amp;value=%2FRace+tweak+ideas&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Race tweak ideas</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fRace_20tweak_20ideas?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fRace_20tweak_20ideas">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fRace_20tweak_20ideas?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fRace_20tweak_20ideas?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fRace_20tweak_20ideas?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fRace_20tweak_20ideas?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fRace_20tweak_20ideas?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fRace_20tweak_20ideas?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fRace_20tweak_20ideas?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fRace_20tweak_20ideas?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fRace_20tweak_20ideas?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fRace_20tweak_20ideas">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Kobolds: <br>
+ +0.000/+0.200 in sword mastery <br>
+ +1.000/+0.500 in critical hits <br>
+ +1.000/+0.500 in backstabbing <br>
+ This is to emphasize the sneakiness/coniving nature of Kobolds and makes them the superb choice for rogues/assassins/or even swordmasters.  Even though they are weak they would be able to save skill points in combat skills to put into magic-device or prayer or something.  I think this would make them a little more playable, and i know TOME isnt meant to be balanced but c'mon who plays Kobolds, besides me. <p>
+Trolls: <br>
+ +0.000/+0.500 in barehand-combat.<br>
+ They are trolls, i picture big hulking bashing things.<br>
+ 
+</p>
+<p>
+<a href="./FearofFours">FearofFours</a>: I play kobolds! Yeah they would make decent assasins, I think to have 3 modifiers is a bit rich, and I don't see why a whole race would be good at critical hits. I see a possibility of addind +0.000/+0.200 to Sneakiness or even Stealth, but not the others.  The trolls are more justifiable, but it's really a case of their strength (which they already get a bonus for) rather than their skill at barehanded combat. They're not refined kick/punch/jab martial artists are they? They're more crush/smash/crush/smash specialists. 
+</p>
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>: It was meant to be rich, they are just so pathetic.  I don't see why all dwarves can use an axe, or all darkelves are good at magic, but that is not the point.  i meant it as a way to give Kobolds an interesting advantage.  I am testing these changes with a Kobold assassin and it isn't really over powered.  I mean i am pumping all of my skill points into Combat, Weaponmastery, Swordmastery and critical hits and the only thing i have points leftover for are stealth and backstab.  But besides Assassins, Rogues and Swordmasters how would this effect any class.  I guess a kobold priest would get a whole .200 modifier in swordmastery but thats it.  I say raise their EXP penalty to 50%, reduce the critical hit/backstab modifiers to .3 or .2 and make them a specialized class kind of like woodelves.  Maybe then they would be more fun. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Some races are supposed to be weak.  Let's not elevate Kobolds. 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: It's very rich (as a swordmaster would be giving it a further .7 in swordmastery, or an assassin a further bonus to  both swordmastery and critical hits, giving them HUGE bonusses to it (although you say it's not like it, I wouldn't know, you are testing it).  I would much rather elevate rangers up a little.   
+</p>
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>: Okay what about this. <br>
+ Sword-mastery: +1.000/+.000, <br>
+ Critical-hits: +1.000/+.300, <br>
+ Back-stab: +1.000/+.300, <br>
+ EXP penalty +50%, <br>
+ 
+</p>
+<p>
+<a href="./ChrisAmes">ChrisAmes</a>: I'm not to sure about Kobolds, but giving trolls a small bonus in haftedmastery seems okay. After all, trolls are just supposed to hit things with clubs and grunt. 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: Well dwarves do traditionally use axes (in my prejudiced mind anyway) and Dark ELves are traditionally quite (offensively) magical - esp in D&amp;D. And yes I know this is not D&amp;D, but anyhow I agree with Chris about trolls getting a + to hafted-mastery, and I'm sorry Tobias but I don't see your current suggestinos as being anymore suitable than the first lot 
+</p>
+<p>
+Nobody: Speaking of modifying races, why are elves so much shorter than humans?? As far as I can tell (from descriptions in the books and from the LotR movies), Elves were usually seen as being tall (at or near the height of most humans, but obviously shorter than things like trolls or the bigger orcs) and thin, not very short. All of the elves that I can remember were always seen as being within the height range of a normal human but thinner and most likely not weighing as much. ...and shouldn't Ents be really huge? I thought I saw their base height as being 72 inches in the p_info the last time I looked, and that REALLY seems off. I'd say 200-ish or so would be much more appropriate, not to mention a huge weight, like way up in the thousands somewhere. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fRace_20tweak_20ideas?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fRace_20tweak_20ideas.text_html">RefreshCache</a> for this page (cached 2005-02-04 22:42:19)<br>
+<p><a href="./IdeaArchive_2fRace_20tweak_20ideas?action=edit">EditText</a> of this page (last edited 2005-02-04 22:42:18 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 15:19:46 Mar 25, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:34 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.1
+  exclusion.robots: 0.266
+  exclusion.robots.policy: 0.251
+  esindex: 0.016
+  load_resource: 1303.465
+  CDXLines.iter: 22.304 (3)
+  captures_list: 116.35
+  PetaboxLoader3.datanode: 86.85 (4)
+  LoadShardBlock: 60.178 (3)
+  PetaboxLoader3.resolve: 1265.932
+-->

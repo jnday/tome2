@@ -1,0 +1,1100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation?action=fullsearch&amp;value=Documentation&amp;literal=1&amp;case=1&amp;context=40">Documentation</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./Documentation?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation">View</a></li>
+<li><a title="Diffs" href="./Documentation?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>To all users</strong></em>: Please read the <a class="interwiki" title="Self" href="./Wiki%20Policy/Documentation"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">wiki's policys regarding documentation</a> before editing Documentation pages. <hr size="3">
+ <ol>
+<li>
+<a href="#head-f1b3cfb4c182b4d6738730198237ce7406a89b34">Documentation for ToME</a></li>
+<ol>
+<li>
+<a href="#head-69163a43cc66c60b73f2f02bdb4c33556f0bbfa5">General information</a></li>
+<li>
+<a href="#head-272dd5bf44551ad953d069f65fecdbd13155a31e">Extra help for new players</a></li>
+<li>
+<a href="#head-eddd2c8bd6fc785996e4000778f509abd46dc069">Creating a character</a></li>
+<li>
+<a href="#head-4d12d89201ab4d5990020e56a851d6253dee011f">Exploring the dungeon</a></li>
+<li>
+<a href="#head-ce16ddbd814ce0a178e40b00543ba8c1986f957c">Attacking monsters and being attacked</a></li>
+<li>
+<a href="#head-2758d72b9b877de52b336861a4a5bff560395862">Game commands</a></li>
+<li>
+<a href="#head-33e8896c29d311ed93528b2d5b512d6d13c8f4f6">Game options</a></li>
+<li>
+<a href="#head-880a9a5d2e8ef808e251d129806f05b9717b205d">Magic: Schools, and Devices</a></li>
+<li>
+<a href="#head-e09212c7d3eaa769fbcf66f82a6263794e715931">Skills</a></li>
+<li>
+<a href="#head-d5b1e0bec18964bc49241f327c930810041701d6">Bought abilities</a></li>
+<li>
+<a href="#head-bbc0b165a9b5ce27fea5ea54143f02fe7fb36a24">Gods</a></li>
+<li>
+<a href="#head-a0c7aebbc04dbba6c95ad7c8c55a5c114ed45e15">Item inscriptions</a></li>
+<li>
+<a href="#head-9033b5faf34c3f8368fbce03c3f47fbf09725107">Automatizer</a></li>
+<li>
+<a href="#head-899bd694d29ace1be956ab35177075021977560b">Macros</a></li>
+<li>
+<a href="#head-326056f1d8ee67a6cdc83acb5d1e6df38f135807">In-game spoilers</a></li>
+<li>
+<a href="#head-fad2b4606a3575f41d1992b556b998d2e7cab991">Writing modules</a></li>
+<li>
+<a href="#head-fa74215e548a8d1c9ca7e19dfbfbefc044348ac3">Writing In-game Documentation</a></li>
+<li>
+<a href="#head-b44ae8134c22cd711b173387e70079a4a13a1767">Version &amp; contact information</a></li>
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+<ol>
+<li>
+<a href="#head-9c74fb571984d7f3e781ea8b013e5f74bcd16389">Change Log</a></li>
+<li>
+<a href="#head-7910009401fcb7a8ba5ec18d9999f1ad61e6b13b">Developer discussion</a></li>
+<li>
+<a href="#head-7fa0a174d9f0cdb4daff4e27c889516ddeb06a90">User suggestions</a></li>
+</ol>
+
+</ol>
+
+ <hr size="4">
+ <h2 id="head-f1b3cfb4c182b4d6738730198237ce7406a89b34">Documentation for ToME</h2>
+<h3 id="head-69163a43cc66c60b73f2f02bdb4c33556f0bbfa5">General information</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fGeneral_20information">/General information</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-272dd5bf44551ad953d069f65fecdbd13155a31e">Extra help for new players</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fExtra_20help_20for_20new_20players">/Extra help for new players</a> Welcome! Recommended reading. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-eddd2c8bd6fc785996e4000778f509abd46dc069">Creating a character</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fCreating_20a_20character">/Creating a character</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Documentation_2fCharacteristics">/Characteristics</a> Primary and secondary stats, armor class, hitpoints, sanity, possessions, mana, piety and more. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Documentation_2fRaces">/Races</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Documentation_2fRace_20modifiers">/Race modifiers</a> aka Subraces 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Documentation_2fClasses">/Classes</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Documentation_2fBirth_20abilities">/Birth abilities</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Documentation_2fCombinations_20of_20race_20and_20class">/Combinations of race and class</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat bonus tables and ability tables: See the in-game help. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-4d12d89201ab4d5990020e56a851d6253dee011f">Exploring the dungeon</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fExploring_20the_20dungeon">/Exploring the dungeon</a>  
+</p>
+<p>
+ This text contains help on: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ The symbols on your map 
+</p>
+</li>
+        <li>
+<p>
+ The town level 
+</p>
+</li>
+        <li>
+<p>
+ The wilderness 
+</p>
+</li>
+        <li>
+<p>
+ Within the dungeon (light, food, objects, digging/mining, stairs etc., monsters, and pets and companions) 
+</p>
+</li>
+        <li>
+<p>
+ How to create a character sheet 
+</p>
+</li>
+        <li>
+<p>
+ Death, dying, winning, and retiring 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-ce16ddbd814ce0a178e40b00543ba8c1986f957c">Attacking monsters and being attacked</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fAttacking_20monsters">/Attacking monsters</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ To-hit 
+</p>
+</li>
+        <li>
+<p>
+ Blows 
+</p>
+</li>
+        <li>
+<p>
+ Damage 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Armor 
+</p>
+</li>
+    <li>
+<p>
+ Resistances and typed attacks 
+</p>
+</li>
+    <li>
+<p>
+ Monster memory 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-2758d72b9b877de52b336861a4a5bff560395862">Game commands</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fGame_20commands">/Game commands</a> Original and roguelike keysets, special keys, user preference files, and complete command descriptions. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-33e8896c29d311ed93528b2d5b512d6d13c8f4f6">Game options</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fGame_20options">/Game options</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Birth / Startup options 
+</p>
+</li>
+        <li class="gap">
+<p>
+ In-game Options 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Option Set 1 -- User Interface 
+</p>
+</li>
+            <li>
+<p>
+ Option Set 2 -- Disturbance 
+</p>
+</li>
+            <li>
+<p>
+ Option Set 3 -- Gameplay 
+</p>
+</li>
+            <li>
+<p>
+ Option Set 4 -- Efficiency 
+</p>
+</li>
+            <li>
+<p>
+ Option Set 5 -- ToME Options 
+</p>
+</li>
+            <li>
+<p>
+ Stacking options 
+</p>
+</li>
+            <li>
+<p>
+ Base delay factor 
+</p>
+</li>
+            <li>
+<p>
+ Hitpoint warning 
+</p>
+</li>
+            <li>
+<p>
+ Autosave options 
+</p>
+</li>
+
+            </ul>
+
+
+        <li class="gap">
+<p>
+ Window flags 
+</p>
+</li>
+        <li>
+<p>
+ Cheating options 
+</p>
+</li>
+        <li>
+<p>
+ Dump options 
+</p>
+</li>
+        <li>
+<p>
+ Load options 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-880a9a5d2e8ef808e251d129806f05b9717b205d">Magic: Schools, and Devices</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fMagic">/Magic</a>- general information on the ToME magic system. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Documentation_2fMagic_2fWands_2c_20Staves_20and_20Rods">/Magic/Wands, Staves and Rods</a>- on these three types of magical device. 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools">/Magic/Schools</a>- on the Primary and Secondary Schools, namely: 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fAir">/Magic/Schools/Air</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fAlchemy">/Magic/Schools/Alchemy</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fConveyance">/Magic/Schools/Conveyance</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fDemonology">/Magic/Schools/Demonology</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fDivination">/Magic/Schools/Divination</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fEarth">/Magic/Schools/Earth</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fFire">/Magic/Schools/Fire</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fGeomancy">/Magic/Schools/Geomancy</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fMana">/Magic/Schools/Mana</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fMeta">/Magic/Schools/Meta</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fMind">/Magic/Schools/Mind</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fNature">/Magic/Schools/Nature</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fNecromancy">/Magic/Schools/Necromancy</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fRunecraft">/Magic/Schools/Runecraft</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fTemporal">/Magic/Schools/Temporal</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fThaumaturgy">/Magic/Schools/Thaumaturgy</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fUdun">/Magic/Schools/Udun</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools_2fWater">/Magic/Schools/Water</a> 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ <a href="./Documentation_2fMagic_2fOther_20Powers">/Magic/Other Powers</a>- about the other powers accessed by the 'm'agic menu. 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fOther_20Powers_2fMimicry">/Magic/Other Powers/Mimicry</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fOther_20Powers_2fMindcraft">/Magic/Other Powers/Mindcraft</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fOther_20Powers_2fMusic">/Magic/Other Powers/Music</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fOther_20Powers_2fPossesion">/Magic/Other Powers/Possesion</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fOther_20Powers_2fSummoning">/Magic/Other Powers/Summoning</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fMagic_2fOther_20Powers_2fSymbiosis">/Magic/Other Powers/Symbiosis</a> 
+</p>
+</li>
+
+            </ul>        </ul>    </ul>
+
+
+<h3 id="head-e09212c7d3eaa769fbcf66f82a6263794e715931">Skills</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Introduction to the ToME skills system 
+</p>
+</li>
+    <li>
+<p>
+ The skills menu 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fSkills">/Skills</a> (the skills themselves) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-d5b1e0bec18964bc49241f327c930810041701d6">Bought abilities</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fBought_20abilities">/Bought abilities</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-bbc0b165a9b5ce27fea5ea54143f02fe7fb36a24">Gods</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME">/Introduction to the Gods of ToME</a> To learn more about Eru Iluvatar, Manwe Sulimo, Yavanna Kementari, Tulkas, and Melkor Bauglir, read on. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-a0c7aebbc04dbba6c95ad7c8c55a5c114ed45e15">Item inscriptions</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fItem_20inscriptions">/Item inscriptions</a> Item inscriptions (@, !, and #) can be extremely handy, or just fun. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Note: Floor inscriptions are introduced in the in-game spoilers, <a class="interwiki" title="Self" href="./Documentation#head-326056f1d8ee67a6cdc83acb5d1e6df38f135807"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">below</a> 
+</p>
+<h3 id="head-9033b5faf34c3f8368fbce03c3f47fbf09725107">Automatizer</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fAutomatizer_20help">/Automatizer help</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ link to Neil's sample automatizer file 
+</p>
+</li>
+
+            </ul>    </ul>
+
+
+<h3 id="head-899bd694d29ace1be956ab35177075021977560b">Macros</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Macro_2fNotation">Macro/Notation</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial">Macro/Quick start tutorial</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fDefinitions">Macro/Quick start tutorial/Definitions</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons">Macro/Quick start tutorial/Swap weapons</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fUsing_20the_20macro_20recorder">Macro/Quick start tutorial/Using the macro recorder</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fPrevent_20unwanted_20use_20of_20an_20item">Macro/Quick start tutorial/Prevent unwanted use of an item</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fSaving_20these_20macros_20and_20keymaps_20for_20reuse">Macro/Quick start tutorial/Saving these macros and keymaps for reuse</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <a href="./Macro_2fOverview">Macro/Overview</a> Overview of item inscriptions, macros, keymaps, and preference files 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques">Macro/Common macro techniques</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fClearing_20the_20command_20buffer">Macro/Common macro techniques/Clearing the command buffer</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fSwap_20weapons">Macro/Common macro techniques/Swap weapons</a> 
+</p>
+</li>
+        <li>
+<p>
+ placeholders for 4.3-5, which seem stupid and/or obsolete (?) 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fFire_20missile_20at_20nearest_20target">Macro/Common macro techniques/Fire missile at nearest target</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fPreventing_20actions">Macro/Common macro techniques/Preventing actions</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fIdentify_20scroll_20macros">Macro/Common macro techniques/Identify scroll macros</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fAction_20verification">Macro/Common macro techniques/Action verification</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fCancel_20targeting">Macro/Common macro techniques/Cancel targeting</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fLoad_20preference_20files_20automatically">Macro/Common macro techniques/Load preference files automatically</a> (is this valid?) 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fBind_20multiple_20macros_20to_20one_20trigger_20key">Macro/Common macro techniques/Bind multiple macros to one trigger key</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fMulti_2dpart_20actions">Macro/Common macro techniques/Multi-part actions</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fEasy_20running">Macro/Common macro techniques/Easy running</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fMacros_20can_20contain_20their_20own_20trigger">Macro/Common macro techniques/Macros can contain their own trigger</a> (?) 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fChanging_20your_20character_27s_20ASCII_20color_20and_20symbol">Macro/Common macro techniques/Changing your character's ASCII color and symbol</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fRecharging_20a_20rod_20using_20a_20recharge_20item_20spell">Macro/Common macro techniques/Recharging a rod using a recharge item spell</a> (??) 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fDisabling_20a_20dangerous_20built_2din_20command">Macro/Common macro techniques/Disabling a dangerous built-in command</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fNaming_20items">Macro/Common macro techniques/Naming items</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20questions">Macro/Common questions</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20problems">Macro/Common problems</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fItem_20inscriptions_20added_20by_20the_20game">Macro/Item inscriptions added by the game</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fKeys_20and_20commands">Macro/Keys and commands</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fPref_20files">Macro/Pref files</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fMacro_20editing_20commands">Macro/Macro editing commands</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fAdvanced_20macro_20techniques">Macro/Advanced macro techniques</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fProblems">Macro/Problems</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fMiscellaneous">Macro/Miscellaneous</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <a href="./Documentation_2fToME_20Macro_20FAQ">/ToME Macro FAQ</a> A guide to macros, keymaps and item inscriptions, should be  refactored into the above 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-326056f1d8ee67a6cdc83acb5d1e6df38f135807">In-game spoilers</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fIn_2dgame_20spoiler">/In-game spoiler</a>s Some general game hints, hopefully not too spoily 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-fad2b4606a3575f41d1992b556b998d2e7cab991">Writing modules</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fLua_20scripting_20help_20menu">/Lua scripting help menu</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fList_20of_20debug_20commands">/List of debug commands</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-fa74215e548a8d1c9ca7e19dfbfbefc044348ac3">Writing In-game Documentation</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fHelpfileFormat">/HelpfileFormat</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-b44ae8134c22cd711b173387e70079a4a13a1767">Version &amp; contact information</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fVersion_20information">/Version information</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fContact_20information">/Contact information</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<h3 id="head-9c74fb571984d7f3e781ea8b013e5f74bcd16389">Change Log</h3>
+
+    <ul>
+
+ <a href="./Documentation_2fChangeLog">/ChangeLog</a> <strong>Spoilers!</strong> (Spoilers are being extracted from Documentation, and thus must be mentioned here.) 
+    </ul>
+
+
+<h3 id="head-7910009401fcb7a8ba5ec18d9999f1ad61e6b13b">Developer discussion</h3>
+Please, posts from moderators and developers only. If you are not one of these, please post in the next section down, User suggestions. Thanks. <p>
+Post your topics in thread style here. Move recently commented threads to the top. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fMagic_20Documentation">/Discussion/Magic Documentation</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fMention_20options_20in_20other_20documentation_20files">/Discussion/Mention options in other documentation files</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question">/Discussion/2.3 Documentation Question</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fRe_2dworking_20in_2dgame_20help">/Discussion/Re-working in-game help</a> Proposal for new structure for in game help 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fMacro_20section">/Discussion/Macro section</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fIn_2dgame_20doc_20vs_2e_20wiki_20doc">/Discussion/In-game doc vs. wiki doc</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fAlphabetical_20index_3f">/Discussion/Alphabetical index?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fAutomatizer_20doc">/Discussion/Automatizer doc</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fMacro_20doc">/Discussion/Macro doc</a> AKA the Macro FAQ, but not really a FAQ 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fIn_2dgame_20spoilers">/Discussion/In-game spoilers</a> Fate of the 2.2.7 In-game spoilers 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-7fa0a174d9f0cdb4daff4e27c889516ddeb06a90">User suggestions</h3>
+This section is for everyone. If you have content you would like to have added to the documentation, please post it here, thread style, newest to the top. There is no guarantee it will be added, but we will certainly look at it. <p>
+General guidelines: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ NO SPOILERS! No references to other games. Also read the top of <a class="interwiki" title="Self" href="./Documentation/ChangeLog"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Documentation/ChangeLog</a>, the Changes/General changes subsection, for the basic mission statement of the documentation. 
+</p>
+</li>
+    <li>
+<p>
+ Indicate where, within the documentation, you think your contribution ought to go. 
+</p>
+</li>
+    <li>
+<p>
+ Please pay attention to spelling, grammar, and general style.  
+</p>
+</li>
+    <li>
+<p>
+ Explain in generality, then give specific example(s) if need be. E.g. if a macro can be assigned to any key, say that, don't imply that it <em>must</em> be @f4. Use the @f4 for an example instead. 
+</p>
+</li>
+    <li>
+<p>
+ Please name your thread something like <tt>["/Suggestion-yaddayadda"]</tt> so it doesn't get confused with the actual documentation. Alternatively, post the information on your own wiki homepage and link back to it from here. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Please post your threaded links below this line: 
+</p>
+<hr>
+ 
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fInscription_20page_20missing_20_27_5e_27">/Discussion/Inscription page missing '^'</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fSubpages_20for_20each_20skill_3f">/Discussion/Subpages for each skill?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fDiscussion_2fMissing_20powers_20in_20the_20outline">/Discussion/Missing powers in the outline</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation?action=refresh&amp;arena=Page.py&amp;key=Documentation.text_html">RefreshCache</a> for this page (cached 2005-03-22 15:44:51)<br>
+<p><a href="./Documentation?action=edit">EditText</a> of this page (last edited 2005-03-22 15:44:51 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 07:29:22 Apr 04, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:37:53 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1173.407
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.077
+  RedisCDXSource: 17.168
+  esindex: 0.006
+  LoadShardBlock: 1139.528 (3)
+  PetaboxLoader3.datanode: 1258.723 (4)
+  CDXLines.iter: 14.965 (3)
+  load_resource: 239.908
+  PetaboxLoader3.resolve: 48.507
+-->

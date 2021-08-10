@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport115 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport115?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport115?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport115?action=fullsearch&amp;value=BugReport115&amp;literal=1&amp;case=1&amp;context=40">BugReport115</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport115?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport115">View</a></li>
+<li><a title="Diffs" href="./BugReport115?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport115?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport115?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport115?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport115?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport115?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport115?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport115?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport115?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport115">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-1baa06b4c8bc2d63f9db4d4cc86a2e2b12a7e893">Problem</h2>
+I've run into this problem more than once. If you macro the escape key (\e) by mistake then delete the macro it results in the escape key becoming really slow to evaluate. For an example, exiting the inventory screen by pressing escape takes over a second on a modern computer (&gt;2ghz)... Ironically, if you macro anything to do a \e,  it is fast and works as normal. 
+    <ul>
+
+ <strong><a href="./JulesBean">JulesBean</a></strong>: This means you have a macro which begins with \e (the trigger, not the replacement). This is a simple   implementation feature of macros: if there is a multi-key macro and one of the initial keys is pressed, the game has to wait an amount of time (and it doesn't matter how fast your computer is, it waits 'real time') to see whether you are going to press the second key. <p>
+ Example: Suppose you macro 'ii' to the identify spell.  Then when you type 'i' the computer waits a second to see if you are going to type anything else. If you type something which is not another 'i' then it immediately processes the first 'i' as the inventory command. If you type another 'i' you get your macro. If you type nothing for a second, it realises nothing else is coming along and executes the 'i' as the normal inventory command. 
+</p>
+<p>
+ The solution to this problem is never to use multi-key triggers, unless the first key is one which you never use for a normal command. 
+</p>
+<p>
+ Unfortunately, under some systems, such as unix-style systems with curses, the cursor keys may well be sent as 'escape' sequences, and this may may the escape key slow (depending what actual character is send by the escape key on your system). 
+</p>
+<p>
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: And here we have another example of why I wanted ToME to move to one, unified SDL interface.  That would allow us to get consistent behavior and improved interface everywhere ToME is run.  It's not going to happen, though, so I don't know what to  suggest. 
+</p>
+
+    </ul>
+
+
+<hr>
+ <p>
+Additionally, Append macros to a file has somewhat a serious bug. It always appends the <strong>whole</strong> macroset to the file, therefore, it adds all the other macros and default keys every time you save your macros creating a huge redundancy in the file. It also wont save if you remove your macro since it will read it from the earlier full saves, resulting in old unwanted macros still active. 
+</p>
+<p>
+This one should be easy to fix. 
+</p>
+
+    <ul>
+
+ <strong><a href="./JulesBean">JulesBean</a></strong>: I prefer 'misfeature' :-P Append macros to a file does <em>exactly what it says on the tin</em>: it appends the macros to a file. I absolutely agree that this is undesirable, causes all hell to break lose if you do it more than once, and provides you with no way to delete macros from the file. It's just not particularly cleverly implemented. <p>
+ FWIW, here is my suggestion for an also slightly hacky but more robust solution: The default .prf file system should automatically load a file called '&lt;Char Name&gt;-automacro.prf' if it exists. The '@' menu should provide the option to overwrite in entirety (not append to!) this file with your custom macro definitions. Additionally, IMO, the standard '^X' to save key should also save your macros. 
+</p>
+<p>
+ Easiness to fix is a relative measure <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> I agree that there are no particularly challenging programming hurdles to leap, but I htink fixing macros properly <strong>will</strong> require quite an investment of time. It's not going to be high on my coding priorities list, I'm afraid.  Anyone who does think about fixing this should consider making a patch for vanilla angband also; I think the macro code is common between the two versions and most variants, and most variants would benefit from having it fixed. 
+</p>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: This thing is really annoying me now. I've tried loading a diferent macroset, restarting ToME, removing any /e macro, etc etc etc. It only goes back to normal if I play a diferent character. <p>
+I just fixed it, but I had to open the .prf file and remove every single instance of it... There were lots because I saved the macros over 10 times... I also removed the redundancy from my .prf file, but it will still grow whenever I save the macros again. 
+</p>
+
+    <ul>
+
+ <strong><a href="./JulesBean">JulesBean</a></strong> Don't do that then! The best work-around I know for the current system is to delete the .prf file before you append to it. If you want to get deeply into prf file magic, note that prf files <em>do</em> have an 'include' feature (I:, I think) which you could use to make things more sane. <p>
+ <strong><a href="./SoulWynd">SoulWynd</a></strong>: It would be just too easy to open the file stream without the append flag and add that function to whatever ^X calls. I mean, that's a two lines fix. 
+</p>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./BugReport115?action=refresh&amp;arena=Page.py&amp;key=BugReport115.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:44:15)<br>
+<p><a href="./BugReport115?action=edit">EditText</a> of this page (last edited 2004-09-08 19:20:02 by <span title="192.168.0.1"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 17:38:20 Jan 20, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:45 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.203
+  captures_list: 89.113
+  esindex: 0.016
+  RedisCDXSource: 0.68
+  PetaboxLoader3.resolve: 55.58
+  load_resource: 94.845
+  exclusion.robots.policy: 0.188
+  CDXLines.iter: 24.384 (3)
+  LoadShardBlock: 60.102 (3)
+  PetaboxLoader3.datanode: 69.478 (4)
+-->

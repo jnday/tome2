@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Races - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fRaces?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fRaces?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fRaces?action=fullsearch&amp;value=%2FRaces&amp;literal=1&amp;case=1&amp;context=40">Documentation/Races</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fRaces?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fRaces">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fRaces?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fRaces?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fRaces?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fRaces?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fRaces?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fRaces?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fRaces?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fRaces?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fRaces?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fRaces">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>Subpages should contain non-spoily information of the type currently contained in the on-line game help. Please put spoiler information in the appropriate place in the <a href="./SpoilerArchive">SpoilerArchive</a>. Thanks.</strong></em> <p>
+During character creation, you can choose from many different races in ToME. Some of these are restricted to only a few professions, and each race as its its own adjustments to a character's stats and abilities. Most races also have intrinsic abilities, which can be accessed via the "U" command. 
+</p>
+<p>
+Experimental character classes are listed in <em>italics</em> and are recommended only for experienced players. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fBeorning">/Beorning</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fDark_20Elf">/Dark Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <em><a href="./Documentation_2fRaces_2fDeath_20Mold">/Death Mold</a></em> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fDunadan">/Dunadan</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fDwarf">/Dwarf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fElf">/Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fEnt">/Ent</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fGnome">/Gnome</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fHalf_2dElf">/Half-Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fHalf_2dOgre">/Half-Ogre</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fHigh_2dElf">/High-Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fHobbit">/Hobbit</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fHuman">/Human</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fKobold">/Kobold</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fMaia">/Maia</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fOrc">/Orc</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fPetty_2dDwarf">/Petty-Dwarf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fRohan_20Knight">/Rohan Knight</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fThunderlord">/Thunderlord</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fTroll">/Troll</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fWood_2dElf">/Wood-Elf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fRaces_2fYeek">/Yeek</a>  
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fRaces?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fRaces.text_html">RefreshCache</a> for this page (cached 2005-11-05 07:09:25)<br>
+<p><a href="./Documentation_2fRaces?action=edit">EditText</a> of this page (last edited 2004-07-09 17:20:47 by <span title="user-2iverjg.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 01:59:40 Dec 23, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:11 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 19.491
+  exclusion.robots: 0.212
+  exclusion.robots.policy: 0.197
+  esindex: 0.013
+  load_resource: 96.446
+  CDXLines.iter: 29.769 (3)
+  captures_list: 146.994
+  PetaboxLoader3.datanode: 120.381 (4)
+  LoadShardBlock: 92.793 (3)
+  PetaboxLoader3.resolve: 28.232
+-->

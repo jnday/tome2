@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Glorantha - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fGlorantha?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fGlorantha?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fGlorantha?action=fullsearch&amp;value=%2FGlorantha&amp;literal=1&amp;case=1&amp;context=40">Modules/Glorantha</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fGlorantha?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fGlorantha">View</a></li>
+<li><a title="Diffs" href="./Modules_2fGlorantha?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fGlorantha?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fGlorantha?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fGlorantha?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fGlorantha?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fGlorantha?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fGlorantha?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fGlorantha?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fGlorantha?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fGlorantha">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I was sitting in the ideas forum today, when Massimiliano Marangio broached the idea of a module set in the world of Glorantha. Now as a player of various P&amp;P RPGs in that world, I thought "hey, cool!", and posted an bulletin announcing that I am prepared to make such a module. (It was also a non-so-subtle request for help). <p>
+<a href=".forum.t-o-m-e.net/viewtopic.php?t=5058&amp;sid=c70450786629fccdc17ac3e75674406c">http://forum.t-o-m-e.net/viewtopic.php?t=5058&amp;sid=c70450786629fccdc17ac3e75674406c</a> 
+</p>
+<p>
+<a class="external" href=".www.glorantha.com/"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">http://www.Glorantha.com</a> 
+</p>
+<p>
+Let me know if you have any thoughts on the matter! 
+</p>
+<p>
+Blackdog 
+</p>
+<hr>
+ <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: As I said in the forum, I will try to help with the module. 
+</p>
+<p>
+<a href="./Modules_2fGlorantha_2fBestiarium">/Bestiarium</a>  
+</p>
+<p>
+<a href="./Modules_2fGlorantha_2fChaotic_20Features">/Chaotic Features</a> 
+</p>
+<p>
+<a href="./Modules_2fGlorantha_2fPlaces">/Places</a> 
+</p>
+<p>
+<a href="./Modules_2fGlorantha_2fRaces">/Races</a> 
+</p>
+<p>
+<a href="./BlackDog">BlackDog</a>: Great -- I'll try to put together a starting point this weekend then. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fGlorantha?action=refresh&amp;arena=Page.py&amp;key=Modules_2fGlorantha.text_html">RefreshCache</a> for this page (cached 2004-08-18 11:28:49)<br>
+<p><a href="./Modules_2fGlorantha?action=edit">EditText</a> of this page (last edited 2004-07-27 21:21:59 by <span title="dialin-145-254-145-031.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:51:19 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:57 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1547.887
+  exclusion.robots: 0.155
+  exclusion.robots.policy: 0.144
+  RedisCDXSource: 3.769
+  esindex: 0.012
+  LoadShardBlock: 1523.37 (3)
+  PetaboxLoader3.datanode: 1537.477 (4)
+  CDXLines.iter: 17.894 (3)
+  load_resource: 122.547
+  PetaboxLoader3.resolve: 42.051
+-->

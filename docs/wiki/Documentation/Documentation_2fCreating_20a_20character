@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Creating a character - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fCreating_20a_20character?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fCreating_20a_20character?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fCreating_20a_20character?action=fullsearch&amp;value=%2FCreating+a+character&amp;literal=1&amp;case=1&amp;context=40">Documentation/Creating a character</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fCreating_20a_20character?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fCreating_20a_20character">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fCreating_20a_20character?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fCreating_20a_20character?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fCreating_20a_20character?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fCreating_20a_20character?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fCreating_20a_20character?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fCreating_20a_20character?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fCreating_20a_20character?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fCreating_20a_20character?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fCreating_20a_20character?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fCreating_20a_20character">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+ToME is a roleplaying game, in which you, the player, control a character in the various dungeons and places of Arda. Perhaps the most important thing you control is the birth of your character, in which you choose or allow to be chosen various attributes that will affect the future life of your character. <p>
+Character creation, or birth, is controlled through a variety of choices as to constraints on the type of character you wish to play, followed by a series of random calculations to generate ("roll up") a random character matching the appropriate constraints. 
+</p>
+<p>
+Once your character has been generated, you will be given the choice to generate a new character obeying the same constraints, and once you have generated more than one character, you can switch back and forth between the two most recent characters, until you are presented with a personality that you feel comfortable with. 
+</p>
+<p>
+You may start the entire process over at any time. 
+</p>
+<p>
+Once you have accepted a character you will asked to provide a name for the character. In general, the actual choice of a name is not important, but do keep in mind that it may have some effect on the game itself. For example, on some machines, the character name determines the filename that will be used to save the character to disk. On others, the character name specifies special "pref" files. And the character name is used on the high score list. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fCreating_20a_20character?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fCreating_20a_20character.text_html">RefreshCache</a> for this page (cached 2005-02-02 10:14:31)<br>
+<p><a href="./Documentation_2fCreating_20a_20character?action=edit">EditText</a> of this page (last edited 2005-02-02 10:14:31 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 14:44:32 Apr 19, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:06 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 110.609
+  exclusion.robots: 0.083
+  exclusion.robots.policy: 0.076
+  RedisCDXSource: 1.589
+  esindex: 0.006
+  LoadShardBlock: 91.189 (3)
+  PetaboxLoader3.datanode: 124.586 (4)
+  CDXLines.iter: 15.809 (3)
+  load_resource: 116.908
+  PetaboxLoader3.resolve: 43.23
+-->

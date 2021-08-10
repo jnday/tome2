@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Races/Dark Elf - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fRaces_2fDark_20Elf?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fRaces_2fDark_20Elf?action=print">
+<link rel="Up" href="/Documentation_2fRaces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fRaces_2fDark_20Elf?action=fullsearch&amp;value=%2FDark+Elf&amp;literal=1&amp;case=1&amp;context=40">Documentation/Races/Dark Elf</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fRaces">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fRaces_2fDark_20Elf?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fRaces_2fDark_20Elf">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fRaces_2fDark_20Elf?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fRaces_2fDark_20Elf?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fRaces_2fDark_20Elf?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fRaces_2fDark_20Elf?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fRaces_2fDark_20Elf?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fRaces_2fDark_20Elf?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fRaces_2fDark_20Elf?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fRaces_2fDark_20Elf?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fRaces_2fDark_20Elf?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fRaces_2fDark_20Elf">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>No spoilers here, please.</strong></em> <p>
+Another dark, cave-dwelling race, likewise unhampered by darkness attacks, the Dark Elves have a long tradition and knowledge of magic. With their  intelligence they can become superb mages or priests, and they have an  inherent magic missile attack available to them at a low level. With their keen sight, they also learn to see invisible things as their relatives  High-Elves do, but at a higher level. 
+</p>
+<p>
+Stat Modifiers: 
+<div>
+<table>
+<tr>
+<td>
+Strength</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td>
++3</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td>
++2</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td>
++2</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td>
+-2</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td>
++1</td>
+</tr>
+<tr>
+<td>
+Hit Dice Sides</td>
+<td>
+9</td>
+</tr>
+<tr>
+<td>
+Exp Penalty</td>
+<td>
++50%</td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Skill Bonuses (supplementary to existing skills): 
+<div>
+<table>
+<tr>
+<td>
+Magic</td>
+<td>
+0.000</td>
+<td>
+0.200</td>
+</tr>
+
+</p>
+</table>
+</div>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fRaces_2fDark_20Elf?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fRaces_2fDark_20Elf.text_html">RefreshCache</a> for this page (cached 2004-08-03 23:35:05)<br>
+<p><a href="./Documentation_2fRaces_2fDark_20Elf?action=edit">EditText</a> of this page (last edited 2004-07-09 17:32:48 by <span title="user-2iverjg.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:30:07 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:39:47 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 84.763
+  exclusion.robots: 0.214
+  exclusion.robots.policy: 0.201
+  RedisCDXSource: 1.7
+  esindex: 0.013
+  LoadShardBlock: 56.762 (3)
+  PetaboxLoader3.datanode: 64.14 (4)
+  CDXLines.iter: 23.067 (3)
+  load_resource: 69.551
+  PetaboxLoader3.resolve: 44.445
+-->

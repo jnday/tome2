@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport120 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport120?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport120?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport120?action=fullsearch&amp;value=BugReport120&amp;literal=1&amp;case=1&amp;context=40">BugReport120</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport120?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport120">View</a></li>
+<li><a title="Diffs" href="./BugReport120?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport120?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport120?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport120?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport120?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport120?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport120?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport120?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport120?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport120">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./MayLith">MayLith</a></strong>: I'm not sure whether this should be considered a problem, but here goes: <p>
+(2.2.7, the standard ToME, with joke, Z and Cthulu monsters turned off.) I just encountered Polyphemus, the Blind Cyclops. His description says he... 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+is the son of a sea-god. 
+</p>
+</li>
+    <li>
+<p>
+was blinded by the warrior Odysseus.  
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+Also, there are extra spaces after the periods in his description. 
+</p>
+<p>
+My understanding is that the world of Middle-earth does not include references to Greek mythology. While it can be argued that <em>anyone</em> might be named Odysseus, I still think that this is a direct reference. This situation may easily be corrected by changing the name of whoever blinded him. 
+</p>
+<p>
+Re: "son of a sea-god"... <em>Are there</em> sea-gods in Middle-earth? Maybe something somewhere in the Silmarillion? I don't know. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Ulmo, The Lord of Waters - "Lord of the seas and one of the greatest of the Valar; in the dark days of the First Age, he kept watch on Elves and Men while the others of his order remained in Valinor. He is famed for bringing Tuor to Gondolin, and so ultimately bringing about the downfall of Morgoth in the War of Wrath." From <a class="external" href=".www.glyphweb.com/arda/default.htm"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">Encyclopaedia of Arda</a>  
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I'm marking this resolved.  Thematic purity is best left to modules. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Fine with me; I just thought I'd point it out. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport120?action=refresh&amp;arena=Page.py&amp;key=BugReport120.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:43:24)<br>
+<p><a href="./BugReport120?action=edit">EditText</a> of this page (last edited 2004-09-10 12:40:10 by <span title="dialin-145-254-147-187.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 22:01:44 Jan 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:51 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 180.522
+  exclusion.robots: 0.156
+  exclusion.robots.policy: 0.145
+  RedisCDXSource: 4.523
+  esindex: 0.013
+  LoadShardBlock: 152.195 (3)
+  PetaboxLoader3.datanode: 202.215 (4)
+  CDXLines.iter: 20.122 (3)
+  load_resource: 127.521
+  PetaboxLoader3.resolve: 64.715
+-->

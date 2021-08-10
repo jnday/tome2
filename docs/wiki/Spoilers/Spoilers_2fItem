@@ -1,0 +1,919 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Item - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fItem?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fItem?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fItem?action=fullsearch&amp;value=%2FItem&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Item</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fItem?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fItem">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fItem?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fItem?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fItem?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fItem?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fItem?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fItem?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fItem?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fItem?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fItem?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fItem">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>Please note: This page is still in the outline stage; please don't start filling out any links yet. See the chatter below. Thanks!</em></strong> <hr>
+ <ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-8ab4df7fc1c94161247285c20361d29134913dd9">Basic items</a></li>
+<ol>
+<li>
+<a href="#head-c2a932ce36c959a9132ba65d47dbd4db7bd4d914">Food items</a></li>
+<li>
+<a href="#head-08f100badc9288602697ead1b58b076d98ad2b84">Potions</a></li>
+<li>
+<a href="#head-6cfefa1488b19123427783b93f8ae0bc51f08b3b">Rods and Staffs</a></li>
+<li>
+<a href="#head-c79dc6889c1f96c69ce4343f2fa853d3e7f4e4e3">Scrolls</a></li>
+<li>
+<a href="#head-e3bf62bb7f5af7ba291b2df1a11d573bdb55d7e9">Trash</a></li>
+<li>
+<a href="#head-632b7a35e960fe477a3375c2db7a365689a338f8">Other items</a></li>
+</ol>
+
+<li>
+<a href="#head-d2682e4a3ba60094d2beb299901b1f249be977f3">Good items</a></li>
+<li>
+<a href="#head-f5cd3c9681bb10b4450f4ed0d98b12c201d19b5d">Better items</a></li>
+<li>
+<a href="#head-f925f9bea399a4c9a234cd8ef31a89c2955d37e0">More information</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-2473e96bc614a911821242119918a241a41836d6"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Introduction</h2>
+<h2 id="head-8ab4df7fc1c94161247285c20361d29134913dd9"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Basic items</h2>
+<h3 id="head-c2a932ce36c959a9132ba65d47dbd4db7bd4d914"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Food items</h3>
+<strong>Give food items its own subpage</strong> 
+    <ul>
+
+    <li>
+<p>
+ Food value of potions 
+</p>
+</li>
+    <li>
+<p>
+ Specific food items 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Athelas 
+</p>
+</li>
+        <li>
+<p>
+ Corpse / Raw meat 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Damage from hacking corpses 
+</p>
+</li>
+            <li>
+<p>
+ Special effects 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ Lembas 
+</p>
+</li>
+        <li>
+<p>
+ Mushroom 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Disease (10d10) 
+</p>
+</li>
+            <li>
+<p>
+ Poison (4d4) 
+</p>
+</li>
+            <li>
+<p>
+ Sickness (4d4) 
+</p>
+</li>
+            <li>
+<p>
+ Unhealth (10d10) 
+</p>
+</li>
+            <li>
+<p>
+ Weakness (5d5) 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ Slime Mold 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-08f100badc9288602697ead1b58b076d98ad2b84"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Potions</h3>
+<em>Give potions section its own subpage</em> 
+    <ul>
+
+    <li>
+<p>
+ Fixed potion colours: Clear(Water), Light Brown(Apple Juice, Morphic Oil), Icky Green(Slime Mold) 
+</p>
+</li>
+    <li>
+<p>
+ General effects 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Food value: link to or from Food 
+</p>
+</li>
+        <li>
+<p>
+ Potion depths; crosslink to Fountains 
+</p>
+</li>
+        <li>
+<p>
+ Potion splash effects 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Specific Potions 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Potions which heal 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Cure foo Insanity 
+</p>
+</li>
+            <li>
+<p>
+ Cure foo Wounds 
+</p>
+</li>
+            <li>
+<p>
+ Slow Poison 
+</p>
+</li>
+            <li>
+<p>
+ Neutralize poison 
+</p>
+</li>
+            <li>
+<p>
+ Curing 
+</p>
+</li>
+            <li>
+<p>
+ Healing,  
+</p>
+</li>
+            <li>
+<p>
+ '*Healing*' 
+</p>
+</li>
+            <li>
+<p>
+ Life 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ Effects of thrown potions 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Death (20d20) 5000 HP damage if quaffed. 
+</p>
+</li>
+            <li>
+<p>
+ Detonations (25d25) 
+</p>
+</li>
+            <li>
+<p>
+ Ruination (20d20) permanent stat loss if quaffed. 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ Potions which cause stat loss 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Weakness (3d12) 
+</p>
+</li>
+            <li>
+<p>
+ Stupidity (3d12?) 
+</p>
+</li>
+            <li>
+<p>
+ Naivety (3d12?) 
+</p>
+</li>
+            <li>
+<p>
+ Clumsiness?? (3d12?) 
+</p>
+</li>
+            <li>
+<p>
+ Sickness (3d12?) 
+</p>
+</li>
+            <li>
+<p>
+ Ugliness (3d12?) 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ Potions which increase stats 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Strength (depth 25) 
+</p>
+</li>
+            <li>
+<p>
+ Intelligence (depth 25) 
+</p>
+</li>
+            <li>
+<p>
+ Wisdom (depth 25) 
+</p>
+</li>
+            <li>
+<p>
+ Dexterity (depth 25) 
+</p>
+</li>
+            <li>
+<p>
+ Constitution (depth 25) 
+</p>
+</li>
+            <li>
+<p>
+ Charisma (depth 20) 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ Salt Water (cures meat &lt;-- doesn't work; when quaffed, causes starving and cures poison) 
+</p>
+</li>
+        <li>
+<p>
+ Poison 
+</p>
+</li>
+        <li>
+<p>
+ Enlightment 
+</p>
+</li>
+        <li>
+<p>
+ '*Enlightment*' 
+</p>
+</li>
+        <li>
+<p>
+ Self Knowledge 
+</p>
+</li>
+        <li>
+<p>
+ '*Self Knowledge*' 
+</p>
+</li>
+        <li>
+<p>
+ Morphic Oils: see Spoilers/Skills/Mimicry 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-6cfefa1488b19123427783b93f8ae0bc51f08b3b"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Rods and Staffs</h3>
+
+    <ul>
+
+    <li>
+<p>
+ General effects 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Recharging success rates 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-c79dc6889c1f96c69ce4343f2fa853d3e7f4e4e3"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Scrolls</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Specific Scrolls 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Artifact Creation  
+</p>
+</li>
+        <li>
+<p>
+ Craftmanship 
+</p>
+</li>
+        <li>
+<p>
+ Enchant foo  
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Enchant Foo dynamics (separate subpage for code description) 
+</p>
+</li>
+
+            </ul>        </ul>    </ul>
+
+
+<h3 id="head-e3bf62bb7f5af7ba291b2df1a11d573bdb55d7e9"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Trash</h3>
+
+    <ul>
+
+ Items useable for ammo creation 
+    </ul>
+
+
+<h3 id="head-632b7a35e960fe477a3375c2db7a365689a338f8"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Other items</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Pieces of God relics 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-d2682e4a3ba60094d2beb299901b1f249be977f3"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Good items</h2>
+<em>Give good items section its own subpage</em> 
+    <ul>
+
+    <li>
+<p>
+ Amulets 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Amulet of Resistance 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Armours 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Adamantite Armour 
+</p>
+</li>
+        <li>
+<p>
+ Dragon Armour 
+</p>
+</li>
+        <li>
+<p>
+ Elven Cloak 
+</p>
+</li>
+        <li>
+<p>
+ Gold Armour 
+</p>
+</li>
+        <li>
+<p>
+ Mithril Armour 
+</p>
+</li>
+        <li>
+<p>
+ Shadow Cloak 
+</p>
+</li>
+        <li>
+<p>
+ Shield of Deflection 
+</p>
+</li>
+        <li>
+<p>
+ Thunderlord Coat 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Diggers 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Gnomish Shovel 
+</p>
+</li>
+        <li>
+<p>
+ Orcish Pick 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Rings 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Ring of Extra Attacks, link to Blows spoiler 
+</p>
+</li>
+        <li>
+<p>
+ Ring of Lordly Protection 
+</p>
+</li>
+        <li>
+<p>
+ Ring of Speed, link to Speed/Energy spoiler 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Weapons 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Blade of Chaos 
+</p>
+</li>
+        <li>
+<p>
+ Bluesteel Blade 
+</p>
+</li>
+        <li>
+<p>
+ Dark Sword 
+</p>
+</li>
+        <li>
+<p>
+ Demonblade 
+</p>
+</li>
+        <li>
+<p>
+ Mace of Disruption 
+</p>
+</li>
+        <li>
+<p>
+ Scythe of Slicing 
+</p>
+</li>
+        <li>
+<p>
+ Shadow Blade 
+</p>
+</li>
+        <li>
+<p>
+ Slaughter Axe 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h2 id="head-f5cd3c9681bb10b4450f4ed0d98b12c201d19b5d"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Better items</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Spoilers_2fEgo_20Item"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Ego items</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Artifacts</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-f925f9bea399a4c9a234cd8ef31a89c2955d37e0"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>More information</h2>
+
+    <ul>
+
+    <li>
+<p>
+ in-game spoiler: Type <tt>^A"1</tt> for an item list 
+</p>
+</li>
+    <li>
+<p>
+ edit files see <a href="./Spoilers_2fItem_2fk_5finfo_2etxt">Spoilers/Item/k_info.txt</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Chatter</h2>
+<strong><a href="./MayLith">MayLith</a></strong>: I just came across another use for this page, and depending on how we implement it, this page could get quite large, so I think it's worth discussing it before doing it: <p>
+Vagabond just gave me permission to carry across his fountain spoiler. While that's now a moot point, he *ALSO* gave me a nice little spoiler on how the Scroll of Enchant Foo works.  
+</p>
+<p>
+Pages like that seem to have an obvious home here. While I don't know that every last little scroll/whatever here has to have its own page, I can think of a bunch of other items that would be worthy... Slime molds, for example. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Or Potions of Salt Water, Ruination, Death... I suggest to create subpages for item types, e.g. Spoiler/Item/Scroll or Spoiler/Item/Potion (for the fountain depths). 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: That makes sense. (I just want to hash this out ahead of time and not mess it up the way the entire Spoiler page got messed up :roll:). 
+</p>
+<p>
+I'd put this sort of list under another subheading just after the Introduction; maybe "Interesting normal items"?? Also, I'd like to keep the individual subpages from being really short, so if they <em>can</em> all go on one page in some cases (like food items and the individual potions) that would be good... 
+</p>
+
+    <ul>
+
+ <a href="./MassimilianoMarangio">MassimilianoMarangio</a>: OK, if the entries will be short. If they become too long, we can move them to proper sub-pages. 
+    </ul>
+
+
+<p>
+Lastly... how much of this is going to change in 3.0? Should we just want until then to do this? Or is it worth it to do it now? 
+</p>
+
+    <ul>
+
+ <a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I would say to do it now for 2.x, even if we only write some entries. The items in the ToME module did not change, but you can use percentual resistances, even for the different melee attacks, so that there could be some radical changes. <p>
+ Added some throwing damages in the list above. 
+</p>
+
+    </ul>
+
+
+<p>
+<a href="./VagaBond">VagaBond</a>: I know some about Craftmanship scrolls (it's actually quite similar to enchant foo, only it has a more steep percentage decrease rate, and a lower maximum) and I know a little secret of fountains too. Ever tried to <strong>Bash</strong> those? Hehheh.. 
+</p>
+
+    <ul>
+
+ And one more thing: don't forget the Enlightment potions! 
+    </ul>
+
+
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: My suggestion would be to start out with whole pages for lots of items, then break out individuals if the text starts to get long (basically, I agree with you MM <img src="./wiki/classic/img/smile4.png" alt=";-)" height="15" width="15"> ) 
+</p>
+<p>
+Re: doing it now for 2.x, good with me; I didn't know how much things are going to change. 
+</p>
+<p>
+Note to <a href="./VagaBond">VagaBond</a>: Your future input will be greatly valued! <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15">  
+</p>
+<p>
+Okay, I've put up a primitive format w/ alphabetization/etc... please don't start filling stuff out yet. I've tried to put down a logical structure; any corrections/expansions appreciated! 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: added two subsections for potions (potions that deal damage when thrown and healing potions), and Potions of Enlightment. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Good one! Uhh.. but what is the difference btw throwing potions, and potion splash effects? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The potions with a high base damage. Splash damage, if any, is added to this, but can also occur if a sound attack shatters a potion, for example. And only Potions of Weakness have a high base damage, perhaps a bug. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Note for <a href="./SimonSorc">SimonSorc</a>: I appreciate your help. However, <em>please</em> don't start putting in definitions yet. The reason is that these are all just placeholders for right now. Also, there is no reason to list every single last item in the DB, such as !oWater. 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: Potions of water have food value and saved me once, so I consider them not completely worthless to know about. I didn't know of it at the time, my potion was not ID and I wouldn't have tried it if I had known its a !oWater ... 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: !oWater are the only Clear potions, and the food value is handled under Food. I've added some stubs in the list above... 
+</p>
+<p>
+<strong><a href="./VagaBond">VagaBond</a></strong>: Maylith, what about the success rate of recharging? Or some interesting (spoily) info about weaponless possessors? <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> Or an idead about a new class, which would combine possession and mimicry (or more like it would make mimicry much more interesting..)  What I really want to say is that I'm a chaotic store of knowledge and ideas, so it is better for You to ask instead of trying to understand what I write <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: LOL! <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> Cool. I know you're new to the wiki; it takes a while to figure out where stuff goes. (And sometimes we end up moving stuff around, anyway.) Well, let's see here... 
+        <ol type="1">
+
+        <li>
+<p>
+This page (or rather, a subpage thereof) would seem to be an admirable home for info on recharging success rates -- What do you say, MM? (Btw, MM... re: your little (accurate) wisecrack about wiki list format not working on the forum: nyah! <img src="./wiki/classic/img/smile4.png" alt=";)" height="15" width="15"> ) Anyway, I put in a stub for it above. (I'm not sure if it's named the best; I can think of other things besides Rods and Staffs that can be recharged, but at least they are not "normal" items.) 
+</p>
+</li>
+        <li>
+<p>
+Spoily info on cool ideas for weaponless possessors should live in <a class="interwiki" title="Self" href="./Spoilers_2fClasses_2fPossessor"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Spoilers/Classes/Possessor</a>. 
+</p>
+</li>
+        <li>
+<p>
+Ideas on new classes, etc, should live in the <a href="./IdeaArchive">IdeaArchive</a>. 
+</p>
+</li>
+
+        </ol>
+
+
+ Also, I did a bunch of alphabetizing and added some more stubs. <p>
+ <strong><a href="./VagaBond">VagaBond</a></strong>: Ok, I'll do my best when I'll have some spare time. Btw, I know wiki quite well, because I have an idea in my mind to make a wiki like note application for myself. 
+</p>
+
+        <ul>
+
+  <strong><a href="./MayLith">MayLith</a></strong>: Interesting.... 
+        </ul>    </ul>
+
+
+<p>
+The thing is that I'm usually somewhat lazy and it is better to ask me about something specific instead of waiting 'till I move my..  
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: <img src="./wiki/classic/img/smile4.png" alt=";)" height="15" width="15"> Looks good. Added also Morphic Oils with a link to the proper Spoiler page. 
+</p>
+<p>
+<strong><a href="./VagaBond">VagaBond</a></strong>: It would be good to have a page about critical hits, and a mention about maces of disruption.. (I can take the critical part.. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> ) 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: There's a stub about Maces of Disruption above. 
+    </ul>
+
+
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Speed, attacks, critical hits, etc. should probabily be explained in own pages, perhaps as subpages of <a class="interwiki" title="Self" href="./Spoilers_2fCharacter_20attribute"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Character attribute</a> 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I agree that main explanations of speed, attacks, crit hits, etc. don't belong here... cross links would be good. Added recommendations for breaking out subpages in some parts. 
+</p>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  So is the outline form of this page finished now?  This wiki and lots of spoiler pages have been sitting around for a long time with people offering to fill out stuff, but most of it has been blocked by mods asking that nothing be put up since the page is "still in outline form".  As I see it, it is pretty much agreed to have subpages for each type of item, and a page has already been created for good equipment but unfortunately isn't yet a subpage of this one. 
+</p>
+<p>
+The Artifacts spoiler pages should have been subpages of this one.  Obviously, it is impossible to move it now, what with the whole massive artifact list filled out.  The Sentient Weapons one could still be moved.  The Ego Items spoiler page should be a subpage of this one (and which would also be quite easy). 
+</p>
+<p>
+At the very least, on the main Spoilers page all spoilers related to items should be categorized as subpages of this one, even if their link structure isn't such. 
+</p>
+<p>
+I can do most of this, unless some wiki officials want to say no. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fItem?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fItem.text_html">RefreshCache</a> for this page (cached 2005-11-24 18:07:29)<br>
+<p><a href="./Spoilers_2fItem?action=edit">EditText</a> of this page (last edited 2005-11-24 18:07:29 by <span title="sentinel1.wheaton.edu"><a href="./FeathinSilyar">FeathinSilyar</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 02:12:39 Nov 25, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:47 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 106.501
+  exclusion.robots: 0.087
+  exclusion.robots.policy: 0.081
+  RedisCDXSource: 14.147
+  esindex: 0.007
+  LoadShardBlock: 71.733 (3)
+  PetaboxLoader3.datanode: 85.324 (4)
+  CDXLines.iter: 17.843 (3)
+  load_resource: 90.855
+  PetaboxLoader3.resolve: 46.399
+-->

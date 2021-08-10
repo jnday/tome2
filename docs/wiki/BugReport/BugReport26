@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport26 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport26?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport26?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport26?action=fullsearch&amp;value=BugReport26&amp;literal=1&amp;case=1&amp;context=40">BugReport26</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport26?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport26">View</a></li>
+<li><a title="Diffs" href="./BugReport26?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport26?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport26?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport26?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport26?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport26?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport26?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport26?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport26?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport26">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+(Anonymous): Reflection doesn't reflect arrows/bolts/magic from traps.  Also, reflection seems 'broken' after loading savefile, and must be restarted by removing and rewearing item granting reflection. <p>
+<strong><a class="nonexistent" href="./XandorTikroth">XandorTikroth</a></strong>: Well, as for the traps, it's not like you know that they're coming, especially if you just hit one that you didn't sense before.  Perhaps there should be two rules: 
+</p>
+<p>
+1) If you step onto a previously unsensed trap that fires (say) a Mana Bolt at you, if you have reflection, it should have a very good chance to hit you since you were "surprised" by it 
+</p>
+<p>
+2) If you step onto a trap as a result of having already sensed it, but accidentally triggering it due to a failed attempt at disarming it, you should have a 1/2 to a 2/3 chance of reflecting it (I also think that maybe this should be related to the weight of the sheild and the str/dex of the character) 
+</p>
+<p>
+I don't know how hard it would be to implement these rules, or even if you can, but it would be interesting to see.  I think also that if your character is wearing the Ring of Precognition, that it should grant the wearer knowledge of the traps on that level, since it gives knowledge of other stuff... 
+</p>
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>:  Isn't "Reflection" more of an enchantment that is placed on a shield....i mean if it was dependent on the characters ability to see and actually **block** the incoming projectile than how would amulets of reflection work.  Maybe we could just make all shields (re)deflect projectiles based on their size.  For example where the (xx%) is chance to deflect projectile, small shield[+2 +4](2%) or Large Shield of reflection [+5 +5] (25%) or even the dark elven shield of standing out like a sore thumb(-5 -10) (-50%), making the person **easier** to hit 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport26?action=refresh&amp;arena=Page.py&amp;key=BugReport26.text_html">RefreshCache</a> for this page (cached 2004-09-08 22:50:50)<br>
+<p><a href="./BugReport26?action=edit">EditText</a> of this page (last edited 2004-09-08 22:50:49 by <span title="128.205.249.127=ubppp249-127.dialin.buffalo.edu">ubppp249-127</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:51:42 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:32:46 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 50.598
+  exclusion.robots.policy: 0.13
+  PetaboxLoader3.datanode: 1556.432 (4)
+  RedisCDXSource: 4.23
+  load_resource: 1553.912
+  exclusion.robots: 0.14
+  esindex: 0.014
+  captures_list: 90.615
+  LoadShardBlock: 64.165 (3)
+  CDXLines.iter: 18.752 (3)
+-->

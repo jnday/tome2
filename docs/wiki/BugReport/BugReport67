@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport67 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport67?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport67?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport67?action=fullsearch&amp;value=BugReport67&amp;literal=1&amp;case=1&amp;context=40">BugReport67</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport67?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport67">View</a></li>
+<li><a title="Diffs" href="./BugReport67?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport67?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport67?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport67?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport67?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport67?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport67?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport67?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport67?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport67">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>:  Okay, follow along with me here:  the damage for walking on certain terrain types like lava is applied in function <tt>apply_effect()</tt> in <tt>src/dungeon.c</tt>, specifically lines 1122-1124: 
+<pre>                                /* Apply damage */
+                                project( -100, 0, y, x, dam, f_ptr-&gt;d_type[i],
+                                         PROJECT_KILL | PROJECT_HIDE);
+</pre><tt>project()</tt> calls <tt>project_p()</tt> in <tt>src/spells1.c</tt> to affect the player, passing through the -100 argument as <tt>who</tt>.  This in turn takes to lines 7288-7298 in <tt>project_p()</tt>: 
+<pre>        /* Did the dungeon do it? */
+        if (who == -100)
+        {
+                sprintf(killer, "%s",
+                        d_name + d_info[dungeon_type].name);
+        }
+        if (who == -101)
+        {
+                sprintf(killer, "%s",
+                        f_name + f_info[cave[p_ptr-&gt;py][p_ptr-&gt;px].feat].name);
+        }
+</pre><tt>killer</tt> is passed on through <tt>take_hit()</tt> as the string that, in the event of death, is used in the "killed by" line of the character dump.  As we see here, a -100 value of <tt>who</tt> uses the dungeon name, leading to death messages like "killed by Barrow-Downs on level 1 of Barrow-Downs".  I think we want to use a value of -101 for <tt>who</tt> in <tt>apply_effect()</tt>, yielding AFAICT "killed by deep lava on level 1 of Barrow-Downs"; indeed, that seems to be the entire <em>raison d'être</em> for the -101 value in the first place. <p>
+As a related smallish suggestion, for the <tt>who&nbsp;==&nbsp;-100</tt> case (damage by dungeon), it'd be neat to have a bit more verbose cause of death than just the dungeon name.  It could be added, for instance, as an extra argument to the <tt>E:</tt> line in the dungeon definition in <tt>lib/edit/d_info.txt</tt>; for Cirith Ungol, for instance, we might have: 
+<pre>N:9:Cirith Ungol
+[...]
+E:4d4:20:POISON:the deadly vapors of Cirith Ungol
+</pre>
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: I like it!! 
+</p>
+<p>
+This is vaguely akin to the suggestion I made <a class="interwiki" title="Self" href="./IdeaArchive/Atmosphere:%20Item%20history"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">here</a> about expanded item histories. 
+</p>
+<p>
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>:  Okay, I've put up <a class="external" href="./www.killerbunnies.org/angband/tome-deathtxt.diff"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">a patch</a> that fixes the bug and adds the described feature.  It's against 2.2.6, but should apply cleanly to 2.2.7.  If you just want to fix the bug and not add the feature, there should be enough context between the patch and the above details to see how and where to fix the bug (it should be a one-line change, I believe). 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Great! <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15"> Hmm.... do we need a Patch section for the wiki? And if so, where should it go? (Otherwise, only the folks who read this bug report are going to see your link....) 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Only the ToME developers need patches, and we have two who read the bug section.  Third party ToME development should go into modules, not into the C sources, so I do not want this wiki to encourage that. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Ah, okay. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport67?action=refresh&amp;arena=Page.py&amp;key=BugReport67.text_html">RefreshCache</a> for this page (cached 2004-08-16 15:33:43)<br>
+<p><a href="./BugReport67?action=edit">EditText</a> of this page (last edited 2004-08-16 15:33:42 by <span title="user-2ivelfu.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:02:13 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:29 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.188
+  captures_list: 282.389
+  esindex: 0.009
+  RedisCDXSource: 6.264
+  PetaboxLoader3.resolve: 56.925
+  load_resource: 171.307
+  exclusion.robots.policy: 0.175
+  CDXLines.iter: 16.373 (3)
+  LoadShardBlock: 256.801 (3)
+  PetaboxLoader3.datanode: 210.321 (4)
+-->

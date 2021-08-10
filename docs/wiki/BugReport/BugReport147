@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport147 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport147?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport147?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport147?action=fullsearch&amp;value=BugReport147&amp;literal=1&amp;case=1&amp;context=40">BugReport147</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport147?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport147">View</a></li>
+<li><a title="Diffs" href="./BugReport147?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport147?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport147?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport147?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport147?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport147?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport147?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport147?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport147?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport147">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Hobbit Loremaster in 2.3.0 CVS 9/24/04  Unable to wield any melee weapons, happens with Eru or No God.  Able to wield missile weapons Doesn't seem to matter the type of melee weapon. Other race loremasters seem to be able to wield melee ok. Doesn't seem to affect hobbits in other classes either. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Duplicated bug report (See <a href="./BugReport44">BugReport44</a>). This is because the Weaponmastery skill of Hobbits is negative. They start in Barehanded combat mode and the code only allows changing the combat mode with a positive Weaponmastery skill (or e.g. a positive Barehanded-combat skill for unarmed combat). 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Good catch.  So this isn't a bug, I guess, and should be filed as resolved? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I think weapon combat should always be available when the player has hands to wield weapons, even if the Weaponmastery skill is 0 (think of the Sorceror and his magestaff), independently of other available skills. 
+</p>
+<p>
+Hmm, funny question: what happens if a character learns barehanded combat later? Does it forget how to fight in melee or how to wield a mage staff? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Very funny issue, now that you put it that way.  I don't know what to suggest.  Let's make the illustrious maintainer decide! 
+</p>
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>:  I would think that there is nothing preventing them from wielding a weapon, possibly for resists or whatever.  Yet maybe if Weaponmastery is negative you always get the "You do not feel comfortable wielding this weapon" message and suffer similar penalties.  Is it possible to code it so that if you gain weaponmastery this goes away? Like if you stopped worshipping Eru you could then wield non-hafted weapons.  Same premise, slightly different implementation. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>:  I don't see why one should be able to "wield" a weapon that one doesn't know how to use. 
+</p>
+<p>
+Simon: More precisely, we don't see why one should be able to "wield" a weapon *effectively* that one doesn't know how to use. Arguably Frodo would be able to squat a tiny spider on a wall with a mace if he pounds the wall often enough. Also if his mace activates for illuminating a room, he should be able to activate it(given an easy activation flag and many attempts). Not to mention extra light range. 
+</p>
+<p>
+I'm for allowing Hobbit Loremaster to wield weapons. Afterall, even level 50 sorcerers with agonizing melee penalties can wield some sword for an activation or light range. It's not fair to single out a single race/class combo for a total restriction like this. 
+</p>
+<p>
+Let Frodo the loremaster wield anything he wants, at a penalty like (-7, -7) until he reaches weaponmastery=0. It's much less puzzling to players than the total restriction. Even if you keep the weird weapon restriction, some kind of warning is definitively in order. 
+</p>
+<p>
+And thank you for solving a small mystery. Funmblefingers is a Spectre(able to appear from nowhere) Hobbit Loremaster(clumsy with his weapons). I'm still trying to figure out his god... and wondering if Hobbit Loremasters should drop their swords too(aggravating 12 mushroom patches in the process)!   *maniacal laughter* 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport147?action=refresh&amp;arena=Page.py&amp;key=BugReport147.text_html">RefreshCache</a> for this page (cached 2004-09-25 01:16:40)<br>
+<p><a href="./BugReport147?action=edit">EditText</a> of this page (last edited 2004-09-25 01:16:39 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:14:54 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:24 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 113.582
+  exclusion.robots: 0.067
+  exclusion.robots.policy: 0.062
+  RedisCDXSource: 1.377
+  esindex: 0.006
+  LoadShardBlock: 94.717 (3)
+  PetaboxLoader3.datanode: 112.63 (4)
+  CDXLines.iter: 15.696 (3)
+  load_resource: 287.216
+  PetaboxLoader3.resolve: 99.067
+-->

@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Classes/Rogue - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fClasses_2fRogue?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fClasses_2fRogue?action=print">
+<link rel="Up" href="/Documentation_2fClasses">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fClasses_2fRogue?action=fullsearch&amp;value=%2FRogue&amp;literal=1&amp;case=1&amp;context=40">Documentation/Classes/Rogue</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fClasses">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fClasses_2fRogue?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fClasses_2fRogue">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fClasses_2fRogue?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fClasses_2fRogue?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fClasses_2fRogue?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fClasses_2fRogue?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fClasses_2fRogue?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fClasses_2fRogue?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fClasses_2fRogue?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fClasses_2fRogue?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fClasses_2fRogue?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fClasses_2fRogue">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>No spoilers here, please. <p>
+NO SPOILERS HERE!</em></strong> 
+</p>
+<p>
+A Rogue is a jack of all trades, but the master of none. With the notable exception of Archery and Monster-related skills, Rogues are capable of adapting to almost any situation. Their strong point lies in stealth and careful planning. Where a Warrior would simply hack away (and risk being hacked up himself) or where a  Mage would Manathrust, a Rogue would awaken a monster with a swift dagger in the back, or would wait for the creature to be killed by the line of traps she had previously laid between her and her opponent. 
+</p>
+<p>
+Rogues have access to the following magic schools: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fConveyance"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Conveyance</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fDivination"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Divination</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2ftemporal"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Temporal</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Starting stat modifiers, starting Skills, innate abilities and starting equipment: Please see the in-game help. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fClasses_2fRogue?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fClasses_2fRogue.text_html">RefreshCache</a> for this page (cached 2005-03-21 16:35:01)<br>
+<p><a href="./Documentation_2fClasses_2fRogue?action=edit">EditText</a> of this page (last edited 2005-03-21 16:35:01 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 19:44:06 May 03, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:38:29 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 341.588
+  exclusion.robots: 0.07
+  exclusion.robots.policy: 0.065
+  RedisCDXSource: 2.967
+  esindex: 0.007
+  LoadShardBlock: 319.992 (3)
+  PetaboxLoader3.datanode: 376.877 (4)
+  CDXLines.iter: 16.63 (3)
+  load_resource: 147.8
+  PetaboxLoader3.resolve: 62.052
+-->

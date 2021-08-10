@@ -1,0 +1,396 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Hobbit - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fHobbit?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fHobbit?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fHobbit?action=fullsearch&amp;value=%2FHobbit&amp;literal=1&amp;case=1&amp;context=40">Modules/Hobbit</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fHobbit?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fHobbit">View</a></li>
+<li><a title="Diffs" href="./Modules_2fHobbit?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fHobbit?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fHobbit?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fHobbit?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fHobbit?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fHobbit?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fHobbit?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fHobbit?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fHobbit?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fHobbit">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</a></li>
+<ol>
+<li>
+<a href="#head-06b7ee09b1fffdd88ebc899e58278bebdc4ab538">In this version</a></li>
+</ol>
+
+<li>
+<a href="#head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</a></li>
+<li>
+<a href="#head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</a></li>
+<li>
+<a href="#head-d2a52548bd0852b99153ddd79a1f550f70674c7d">Authors</a></li>
+<li>
+<a href="#head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</a></li>
+<li>
+<a href="#head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</a></li>
+<li>
+<a href="#head-b3fffa6b6a0cec59879e5601a92758f718acd7ab">Known Bugs</a></li>
+<li>
+<a href="#head-47ac11fb9e58309623cb3bce082e6938dae0cc73">Original Suggestions</a></li>
+<ol>
+<li>
+<a href="#head-89eabb1765a764a2bd69e9df0f9832a4a3787f54">Dungeons</a></li>
+<li>
+<a href="#head-b6f59f08fd6d58c6725e21a9ec24e068148ec586">Characters</a></li>
+<li>
+<a href="#head-ebea5fed56a86b76ab1f13df6e85df2941b562c6">Monsters</a></li>
+<li>
+<a href="#head-861edba00547bc9ce7a08df78d4378766418179f">Suggestions</a></li>
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+<p>
+A basic, linear (no wilderness), simplified ToME, following the trail of the Hobbit. You start out in Hobbiton, on a quest to destroy Smaug the Golden and end his reign of terror over Erebor and the surrounding region, but who knows what else might happen... 
+</p>
+<h3 id="head-06b7ee09b1fffdd88ebc899e58278bebdc4ab538">In this version</h3>
+<p>
+Fixed bugs reported on the wiki. 
+</p>
+<h2 id="head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</h2>
+<p>
+0.1.1 aka "On the Doorstep" 
+</p>
+<h2 id="head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</h2>
+<p>
+2.3.0 
+</p>
+<h2 id="head-d2a52548bd0852b99153ddd79a1f550f70674c7d">Authors</h2>
+<p>
+Original ideas by <a href="./RavenRed">RavenRed</a> Module implementation by <a href="./FuriousOne">FuriousOne</a> 
+</p>
+<h2 id="head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</h2>
+<p>
+07/11/2004 
+</p>
+<h2 id="head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</h2>
+<p>
+You can download this module as a <a class="external" href=".modules.t-o-m-e.net/mods/37__hobbit.zip"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">zip file</a>. (size: 438kB) 
+</p>
+<h2 id="head-b3fffa6b6a0cec59879e5601a92758f718acd7ab">Known Bugs</h2>
+<p>
+<a class="interwiki" title="Self" href="./BugReports#head-b567fd5abc1a2dae8e240f74be63cae9976e0c43"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Hobbit bugs</a> 
+</p>
+<h2 id="head-47ac11fb9e58309623cb3bce082e6938dae0cc73">Original Suggestions</h2>
+<p>
+This is only a very rough guide. Any suggestions/additions are welcome 
+</p>
+<h3 id="head-89eabb1765a764a2bd69e9df0f9832a4a3787f54">Dungeons</h3>
+
+    <ul>
+
+    <li>
+<p>
+ N.B. Linear dungeon structure. When a character reaches the bottom of a dungeon, they move on to the 'next' dungeon phase/sequence.  
+</p>
+</li>
+    <li class="gap">
+<p>
+ Hobbitton / The Lone Lands - Initial Town Level gives way to 10 wilderness-style (Think Land Of Rhun) levels leading to Dungeon Guardians of the Three Stone Trolls (Somewhat toned down from their ToME implementation).  
+</p>
+</li>
+    <li>
+<p>
+ Rivendell - Town Level 
+</p>
+</li>
+    <li>
+<p>
+ Misty Mountains - Five Mountain levels leading to... 
+</p>
+</li>
+    <li>
+<p>
+ Orc Caves - Ten levels. At level Five a special level with Azog and company.  
+</p>
+</li>
+    <li>
+<p>
+ Flee! - Five Forest levels with Lots of Wargs and Orcs. Leading to... 
+</p>
+</li>
+    <li>
+<p>
+ Beorn's Home - Town Level (though with limited supplies of scrolls etc) 
+</p>
+</li>
+    <li>
+<p>
+ Mirkwood - Ten levels of Spiders, beasties and hostile elves. 
+</p>
+</li>
+    <li>
+<p>
+ Captured by Elves - Five levels within the Elf city, trying to escape.  
+</p>
+</li>
+    <li>
+<p>
+ Esgaroth - Town Level 
+</p>
+</li>
+    <li>
+<p>
+ The Lonely Mountain - Twenty Levels of All of the above monsters, out for your blood! Finishing with a truly terrible Smaug.  
+</p>
+</li>
+    <li>
+<p>
+ The Battle of the Five Armies - Firstly about a hundred turns of Elves and Men against the dwarves, and then... the Orcs and Wargs arrive (Lead by Bolg, son of Azog)! Massively outnumbered, you, the men, elves and dwarves must struggle to survive. A couple of hundred turns later, Eagles arrive. If only it's in time... 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-b6f59f08fd6d58c6725e21a9ec24e068148ec586">Characters</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Races 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Hobbits 
+</p>
+</li>
+        <li>
+<p>
+ Elves 
+</p>
+</li>
+        <li>
+<p>
+ Dwarves 
+</p>
+</li>
+        <li>
+<p>
+ Humans 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Classes 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Warrior 
+</p>
+</li>
+        <li>
+<p>
+ Burglar 
+</p>
+</li>
+        <li>
+<p>
+ Mage 
+</p>
+</li>
+        <li>
+<p>
+ Archer 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+(Yes, they've been deliberately simplified) 
+</p>
+<h3 id="head-ebea5fed56a86b76ab1f13df6e85df2941b562c6">Monsters</h3>
+<p>
+Pared Back to Tolkienian minimums and toughened up. More HP, so you can't cut through as wide a swathe of them as in current ToME. Less magic, more melee.  
+</p>
+<h3 id="head-861edba00547bc9ce7a08df78d4378766418179f">Suggestions</h3>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<a href="./ChrisAmes">ChrisAmes</a>: That would be a bit boring for experienced players I think (the simplicity) but very fun for beginners! 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I'd love to see this module.  I doubt it'd bore me. 
+</p>
+<p>
+<strong><a href="./FuriousOne">FuriousOne</a></strong>: I'd actually take this on, if I knew how to make towns appear in a dungeon without wilderness.. only as special levels I guess? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I think you'd need a hook. 
+</p>
+<p>
+<strong><a href="./FuriousOne">FuriousOne</a></strong>: I would need a new hook or I would need to use an existing hook? *looks at list of hooks* Nope, no HOOK_MAKE_DUNGEON_LEVEL_BE_A_TOWN <img src="./wiki/rightsidebar/img/biggrin.png" alt=":D" height="15" width="15"> Well, it can be done with special levels, the only catch being that the towns would disappear the minute a character left their 'level'. :x 
+</p>
+<p>
+<a href="./DarkGod">DarkGod</a>: That's a very interresting idea IMO. Not too hard to make yet with lot of potential. /me ponders a "ToME 2 Collector" release with ToME and some modules .. mh .. Anyway for towns you should be able to hack around with HOOK_LEVEL_END_GEN. A tad ugly .. but still. You'll need to manualy load the town. I dont have time to check now but it should be possible, bug me about it today on IRC when you see me. 
+</p>
+
+    <ul>
+
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: That's the hook I had in mind. 
+    </ul>
+
+
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Another possibility is to use on the same level a persistent special level for the map and a random dungeon town for the stores ... I'm not sure if this will work... 
+</p>
+<p>
+<a href="./FearofFours">FearofFours</a>: I'd love to help out with this if needs be. 
+</p>
+<p>
+<a href="./DarkGod">DarkGod</a>: And no word of recall I suppose(it wouldnt work with dungeon towns anyway). And if there is nothing existing to allow it I'll add the hooks/stuff needed to 2.3, it shouldnt be hard at all. Or maybe you planned it for 3.0 ? 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I suppose if the dungeons were handled like a chain of Morias and the towns were all on the surface separated from each other by impassable terrain, Word of Recall would work. Of course, there is that long-standing Moria bug which may or may not be a problem in this case... 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: This bug was half fixed in 2.3, the other half (<a href="./BugReport218">BugReport218</a>) is still open. 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: I would disallow word of recall as well - it would have been a bit -er- anticlimactic if Bilbo just recalled to Bag End when he needed something. I think the easiest way to do this would be to simply get rid of Recall items in k_info. o.O 
+</p>
+<p>
+<a href="./DarkGod">DarkGod</a>: I agree there should be no WoR. And yes the linearity can be made with moria-like dungeons(the standing bug is for recall so you dont care). 
+</p>
+
+    <ul>
+
+ <strong><a href="./RavenRed">RavenRed</a></strong>: Originally, I thought that the dungeons could be a series of "branch dungeons" (i.e. the only 'mainline' dungeon was the first Lone Lands section). The player could them emerge into other towns, which were then automatically set as the recall towns. And while WoR is not a Hobbit-type theme, you'd need to make food/foodlike substances, teleport scrolls and healing potions VERY common to get around its ommisson 
+    </ul>
+
+
+<p>
+<a href="./FuriousOne">FuriousOne</a>: Ok, I've started work on the module already. One note, though - my version of the Battle of the Five Armies will not involve any fighting between Dwarves and Elves and Men, simply because it never came to blows in the book. They were going to fight, but they did not - because Bolg and the Wargs came. Now if I could figure out how to make a bunch of Eagles show up in the middle of a level. <img src="./wiki/rightsidebar/img/ohwell.png" alt=":\" height="15" width="15"> 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I'm not sure if this works with NO_NEW_MONSTER on, but you could use a timer (started perhaps with HOOK_LEVEL_END_GEN ?) and place the eagles manually after it expires. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Yes, it works, but I don't know how to test if a special level is loaded. This <a href="./Modules_2fHobbit_2fscript">/script</a> is called on each visit of the given dungeon / level. I think similar scripts can also be used to create levels with monster spawner (ant nests, open void portals, etc.) 
+</p>
+<p>
+<strong><a href="./RavenRed">RavenRed</a></strong>: My Word! I feel like the little boy who set a pebble rolling down the mountain, only to see an avalanche at the bottom! Can't wait to give it a go! 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: Any further development in this module?  I see it's only 0.1.1 or something, so how much of what I read there are implemented?  I've been reading Hobbit now, and I'd love to play, but if it's not really working yet... 
+</p>
+<p>
+<strong><a href="./BucketMan">BucketMan</a></strong>: I've just downloaded it. It's completely playable, so I'm moving it from 'Ideas' to 'Modules' 
+</p>
+<p>
+Jac: Is this module still under development.  If it is, and I hope so, because I am enjoying it, then I have a suggestion: remove the XP prerequisite for the various dungeons.  In my latest game, I fought and then increasingly fled through Mirkwood, only to arrive at Dale at character level 31.  I was then unable to enter the next dungeon ("You do not feel experienced enough to enter").  However, due to the linear format, I was unable to go back to Mirkwood to collect more XP.  End of game. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fHobbit?action=refresh&amp;arena=Page.py&amp;key=Modules_2fHobbit.text_html">RefreshCache</a> for this page (cached 2005-04-19 05:06:50)<br>
+<p><a href="./Modules_2fHobbit?action=edit">EditText</a> of this page (last edited 2005-04-19 05:06:50 by <span title="211.26.193.94=gateway.dhs.vic.gov.au">gateway</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 02:13:11 May 05, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:06 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 224.363
+  exclusion.robots: 0.156
+  exclusion.robots.policy: 0.145
+  RedisCDXSource: 3.647
+  esindex: 0.01
+  LoadShardBlock: 197.806 (3)
+  PetaboxLoader3.datanode: 220.067 (4)
+  CDXLines.iter: 19.609 (3)
+  load_resource: 787.111
+  PetaboxLoader3.resolve: 697.702
+-->

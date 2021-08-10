@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">363</script><title>GeneralDiscussion/Effects of Range on Archery - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=fullsearch&amp;value=%2FEffects+of+Range+on+Archery&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Effects of Range on Archery</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Does anyone have any idea whether range (any range inside maximum range, I mean) has any effect on either accuracy or damage or missile weapons? And whether Archery or <a class="nonexistent" href="./FooMastery">FooMastery</a> skill has any effect on that range. Thanks!  <p>
+Edit: Ahhh... Killerbunnies to the rescue again. It modifies to-hit... D is the distance to the monster... <a class="external" href=".killerbunnies.org/angband/skill-220.html#abil_bow"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">http://killerbunnies.org/angband/skill-220.html#abil_bow</a>... Well that answers ONE question. The other question is whether it affects damage and whether Foomastery affects range outside of affecting the Ability score...  
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The maximum range is 10 + 5*M, where M is the final multiplier of the weapon (base multiplier + extra might). You can obtain a bonus of +3 to the extra might multiplier with the foo_mastery skill (i.e. increase the range by +15). The range does not affect damage. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: So the theoretical limit on range with a non-magic Heavy XBow would be 45. A second, related question is what the absolute limit on perception is. Could you (theoretically) fire a bolt outside of your visual range? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Yes. You can try this in the plains. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Here's a somewhat associated question: Does the blast radius on exploding ammos vary at all? Either per char level, distance fired, or ammo type? (And the second, idea-type question: <em>Should</em> it?)) 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The base damage of an exploding ammo is twice the damage of the ammunition (e.g. an exploding Arrow (1d4) (+0,+0) has a base damage of 2d4).  The blast radius and the damage of the exploding ammunition depends only on the specific type. Light ammo (e.g. pebbles) deal half this amount in a radius 2 zone, normal ammo (e.g. arrows, bolts, iron shots) the base damage in a radius 3 zone, heavy ammo (e.g. seeker arrows and bolts, mithril shots) twice this damage in a radius 4 zone. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: Ermmm... what about piercing?  What's that effect on damage (piercing)? And what does ricochet do (in terms of damage)? 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery.text_html">RefreshCache</a> for this page (cached 2004-08-02 10:51:50)<br>
+<p><a href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery?action=edit">EditText</a> of this page (last edited 2004-07-22 16:10:18 by <span title="dialin-145-254-145-236.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:13:15 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:41 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.898
+  esindex: 0.011
+  CDXLines.iter: 21.315 (3)
+  load_resource: 63.527
+  exclusion.robots: 0.197
+  captures_list: 290.829
+  LoadShardBlock: 263.531 (3)
+  PetaboxLoader3.datanode: 263.535 (4)
+  exclusion.robots.policy: 0.176
+-->

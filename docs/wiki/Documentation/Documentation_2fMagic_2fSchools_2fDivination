@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Schools/Divination - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fSchools_2fDivination?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fSchools_2fDivination?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fSchools">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fSchools_2fDivination?action=fullsearch&amp;value=%2FDivination&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Schools/Divination</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fSchools">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fSchools_2fDivination?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fSchools_2fDivination">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fSchools_2fDivination?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fSchools_2fDivination?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fSchools_2fDivination?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fSchools_2fDivination?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fSchools_2fDivination?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fSchools_2fDivination?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fDivination?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fDivination?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fDivination?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fSchools_2fDivination">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Intelligence (INT) is the stat affecting failure rate for this skill. <h3 id="head-eb337792e52ce3138e70c75c7004394a06ef027b">Divination Spells</h3>
+<p>
+The divination school of magic contains spells where magic is used to  psychically gain information about things. 
+</p>
+<p>
+There are six spells available for the divination school: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Sense Monsters</strong> (school level 1) Detects all monsters near you. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 30 it allows you to sense monster minds for a while. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Sense Hidden</strong> (school level 5) Detects the traps in a certain radius around you. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 15 it allows you to sense invisible for a while. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Identify</strong> (school level 8) Asks for an object and identifies it. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 17 it identifies all objects in the inventory. 
+</p>
+</li>
+                <li>
+<p>
+ At spell level 27 it identifies all objects in the inventory and in a radius on the floor, as well as probing monsters in that radius. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Reveal Ways</strong> (school level 9) Detects the doors/stairs/ways in a certain radius around you. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Vision</strong> (school level 15) Detects the layout of the surrounding area. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 25 it maps and lights the whole level. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Greater Identify</strong> (school level 35) Asks for an object and fully identifies it, providing the full list of powers (*ID*). Cast at yourself it will reveal your powers (Self Knowledge) 
+</p>
+</li>
+
+    </ol>
+
+
+<h4 id="head-906abc02ff3d872f162af0a481dce9a5c5462baa">God given ability</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-830bd605821ee79b05019df0d67000cd17c87ff6"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Eru Illuvatar</a> at 2/3 prayer level. 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fSchools_2fDivination?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fSchools_2fDivination.text_html">RefreshCache</a> for this page (cached 2005-11-04 13:46:08)<br>
+<p><a href="./Documentation_2fMagic_2fSchools_2fDivination?action=edit">EditText</a> of this page (last edited 2005-04-18 13:11:35 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:29:31 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:37 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.21
+  captures_list: 295.087
+  esindex: 0.013
+  LoadShardBlock: 194.705 (3)
+  CDXLines.iter: 24.385 (3)
+  load_resource: 3724.661
+  RedisCDXSource: 71.52
+  PetaboxLoader3.datanode: 235.694 (4)
+  exclusion.robots: 0.224
+  PetaboxLoader3.resolve: 3610.856
+-->

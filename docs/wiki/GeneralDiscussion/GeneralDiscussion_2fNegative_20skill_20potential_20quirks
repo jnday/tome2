@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Negative skill potential quirks - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=fullsearch&amp;value=%2FNegative+skill+potential+quirks&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Negative skill potential quirks</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em>[I debated whether to put this under <a href="./BugReports">BugReports</a>, but I don't think it quite qualifies.  Feel free to relocate this if I've erred. -- <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>]</em> <p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  I've been examining the skills code pursuant to updating the skill spoiler for 2.3.x, and I've come across a potential ambiguity which might cause negative skills to be handled differently on different computers.  The basic <tt>get_skill()</tt> function remains unchanged: 
+<pre>s16b get_skill(int skill)
+{
+        return (s_info[skill].value / SKILL_STEP);
+}
+</pre>except that <tt>s_info[skill].value</tt> can now be negative.  This can lead to a problem described in section&#160;6.3.5 of the ANSI/ISO&#160;C standard, which says: 
+</p>
+
+        <ul>
+
+  <em>[...]</em> If either <em>[integer]</em> operand is negative, whether the result of the <tt>/</tt> operator is the largest integer less than or equal to the algebraic quotient or the smallest integer greater than or equal to the algebraic quotient is implementation-defined, as is the sign of the result of the <tt>%</tt> operator.  If the quotient <tt>a/b</tt> is representable, the expression <tt>(a/b)*b&nbsp;+&nbsp;a%b</tt> shall equal <tt>a</tt>. 
+        </ul>
+
+
+<p>
+Translated to English, this means that if <tt>s_info[i].value</tt> is -2900, then it's implementation-defined (ie. depends on the computer and/or the compiler) whether <tt>get_skill(i)</tt> will return -2 or -3&#8212;and, for the same reason, whether eg. <tt>get_skill_scale(i,&nbsp;100)</tt> will return -5 or -6.  If the intent is to round toward zero on both sides, we should probably disambiguate it with something like this: 
+<pre>s16b get_skill(int skill)
+{
+        s16b temp = abs(s_info[skill].value) / SKILL_STEP;
+        return temp * (s_info[skill].value &lt; 0 ? -1 : 1);
+}
+</pre>and similarly for <tt>get_skill_scale()</tt>. 
+</p>
+<p>
+This is also related to the funky display of negative skills, and there's a potential for skill values to be displayed incorrectly.  The key is the relationship between <tt>/</tt> and <tt>%</tt> described in the standard quote above.  <tt>dump_skills()</tt> has the following code: 
+<pre>       fprintf(fff, "%-50s%02ld.%03ld [%01d.%03d]",
+               buf, s_info[i].value / SKILL_STEP, s_info[i].value % SKILL_STEP,
+               s_info[i].mod / 1000, s_info[i].mod % 1000);
+</pre>and <tt>print_skills()</tt> has similar code.  Now, suppose again that <tt>s_info[i].value</tt> is -2900.  If the compiler evaluates <tt>-2900/1000</tt> as -2, then it's required to evaluate <tt>-2900%1000</tt> as -900, leading to the now-familiar odd formatting of "<tt>-02.-900</tt>".  If the compiler evaluates <tt>-2900/1000</tt> as -3, however, it's required to evaluate <tt>-2900%1000</tt> as 100, causing the code to print a skill value of "<tt>-03.100</tt>", which is better formatted but wrong.  Again, we can fix this by pulling out the leading minus separately and using <tt>abs()</tt> everywhere else, something like this: 
+<pre>       fprintf(fff, "%-49s%c%02ld.%03ld [%01d.%03d]",
+               buf, (s_info[i].value &lt; 0 ? '-' : ' '),
+        abs(s_info[i].value) / SKILL_STEP, abs(s_info[i].value) % SKILL_STEP,
+               s_info[i].mod / 1000, s_info[i].mod % 1000);
+</pre>which should properly format as "<tt>-02.900</tt>" in both cases.  The code in <tt>print_skills()</tt> can be fixed similarly.  I'm assuming here that <tt>s_info[i].mod</tt> can't be negative; if it can, similar corrective measures will be required. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Good finds.  Since DG already took care of my next thing to do in ToME, this will probably be my new next thing to do. 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  Another thing on this front that will need to be looked at is this line from <tt>src/xtra1.c</tt>: 
+<pre>        p_ptr-&gt;skill_sav += adj_wis_sav[get_skill_scale(SKILL_SPIRITUALITY, 37)];
+</pre>If the Spirituality skill is negative, this may try to access data outside the <tt>adj_wis_sav[]</tt> array, with unpredictable results.  The lowest value in the array is zero, so I suppose we could use that for negative skill values&#8212;or apply a negative modification in that case if we <em>really</em> wanted to be mean&#8230; <img src="./wiki/rightsidebar/img/devil.png" alt=">:>" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: Neil, I've already fixed this in tome_230_branch.  Thanks to Zizzo for pointing out the subtle trap on various platforms. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fNegative_20skill_20potential_20quirks.text_html">RefreshCache</a> for this page (cached 2005-11-13 21:24:52)<br>
+<p><a href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks?action=edit">EditText</a> of this page (last edited 2005-05-18 22:43:21 by <span title="209.142.155.49=wooledge.org">wooledge</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:40:36 Mar 17, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:42:37 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.datanode: 242.971 (4)
+  CDXLines.iter: 20.473 (3)
+  exclusion.robots: 0.85
+  LoadShardBlock: 164.153 (3)
+  PetaboxLoader3.resolve: 48.937
+  exclusion.robots.policy: 0.831
+  captures_list: 225.836
+  esindex: 0.026
+  load_resource: 196.453
+  cdx.remote: 0.281
+-->

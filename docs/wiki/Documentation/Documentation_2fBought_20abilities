@@ -1,0 +1,584 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Bought abilities - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fBought_20abilities?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fBought_20abilities?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fBought_20abilities?action=fullsearch&amp;value=%2FBought+abilities&amp;literal=1&amp;case=1&amp;context=40">Documentation/Bought abilities</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fBought_20abilities?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fBought_20abilities">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fBought_20abilities?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fBought_20abilities?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fBought_20abilities?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fBought_20abilities?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fBought_20abilities?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fBought_20abilities?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fBought_20abilities?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fBought_20abilities?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fBought_20abilities?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fBought_20abilities">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MayLith">MayLith</a>: This page describes the abilities which you can view and/or buy by typing shift+n. These abilities may well be renamed as talents in the future, but in the meantime, I'm referring to them as "bought" abilities. <hr>
+ <ol>
+<li>
+<a href="#head-2e70e399a4dd69eac0bab15f073cd5551832dae7">"Bought" abilities</a></li>
+<ol>
+<li>
+<a href="#head-bab2dad4b0784bf7e604aa0f4d20ed995bf67ce5">Spread blows</a></li>
+<li>
+<a href="#head-ca38d75289790f90b6f89d4ce046740cb12371bd">Tree walking</a></li>
+<li>
+<a href="#head-c2e5f21e7926ab27e1a89b57df902087d4699af5">Perfect casting</a></li>
+<li>
+<a href="#head-1c88fabfc785659d37cc5911f0d88f971aeaa7cd">Extra Max Blow(1)</a></li>
+<li>
+<a href="#head-b37c9427f140befa9b42039431cb79414dbb6565">Extra Max Blow(2)</a></li>
+<li>
+<a href="#head-6bf91894f39aeba058a5dc2b21fba9b7faaa6b04">Ammo creation</a></li>
+<li>
+<a href="#head-77f0c7b84aa87c7243d08dec0f5462678ab0b8de">Touch of death</a></li>
+<li>
+<a href="#head-3b871789c07fba082c45f1c540453140918ce609">Artifact Creation</a></li>
+<li>
+<a href="#head-c0e459de14c9ba5e0a8a5e3eb4e86b7c2a606115">Far reaching attack</a></li>
+<li>
+<a href="#head-efc5d7f691e44381658dc7120a641d3d4cf94c48">Trapping</a></li>
+<li>
+<a href="#head-579e38d93b084c632cc8693056661e9ae7b93c14">Undead Form</a></li>
+</ol>
+
+<li>
+<a href="#head-5765b751b3fd3a951cfd97c264a8c5cd5a764e7c">Temp section: Stuff to be linked</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-2e70e399a4dd69eac0bab15f073cd5551832dae7">"Bought" abilities</h2>
+As well as spending your skill points on skills, you can also choose to spend them on abilities. Abilities are bought once, and then have a permanent effect. You cannot  continue adding skill points into them, (which you can with skills) as there would be no way that these abilities can improve. They are a "one-off purchase". <p>
+As a consequence of this, they are often quite powerful abilities and can cost quite a few skill points to buy. Most abilities have a prerequisite skill or stat level which you must reach before being able to buy. 
+</p>
+<p>
+For instance, you can invest in the Tree-walking ability. This will allow you to pass through dense undergrowth. In order to purchase this skill, you must first have your Nature skill at 20 or greater, and then it will cost you 7 skill points to buy. This means you have to "save up" enough skill points in order to be able to afford this ability. 
+</p>
+<p>
+You can access the Ability screen by pressing 'N'. Scroll up and down the abilities and then navigate right to buy selected ability. 
+</p>
+<p>
+Adapt your character with skills and abilities in order to make it unique, playable, and maybe even powerful enough to win the game! 
+</p>
+<p>
+Here follows a list of all the available abilities for 2.2.x. For a conversion table between linear and percentile stats, see the relevant entry in the <a href="./FrequentlyAskedQuestions">FrequentlyAskedQuestions</a>. 
+</p>
+<h3 id="head-bab2dad4b0784bf7e604aa0f4d20ed995bf67ce5">Spread blows</h3>
+If a monster dies to your attack but you still have blows left you won't lose the full turn, allowing you to attack some other monster in the same turn. 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Weaponmastery skill@30, Dex@17</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+5 skill points</td>
+</tr>
+</table>
+</div>
+<p>
+Warriors (of all types) gain this ability for free at character level 25. 
+</p>
+<h3 id="head-ca38d75289790f90b6f89d4ce046740cb12371bd">Tree walking</h3>
+Allows you to walk in dense forest. 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Nature skill@20</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+7 skill points</td>
+</tr>
+</table>
+</div>
+<p>
+Ents and Wood Elves are born with this ability. 
+</p>
+<h3 id="head-c2e5f21e7926ab27e1a89b57df902087d4699af5">Perfect casting</h3>
+Allows you to reach 0% failure rate on spells. 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Magic skill@35</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+6 skill points</td>
+</tr>
+</table>
+</div>
+<p>
+Priests and Mages (of all types) are born with this ability. 
+</p>
+<h3 id="head-1c88fabfc785659d37cc5911f0d88f971aeaa7cd">Extra Max Blow(1)</h3>
+Increases your max possible blows number by 1. 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Combat skill@10</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+7 skill points</td>
+</tr>
+</table>
+</div>
+<p>
+Warriors (of all types) and Paladins are born with this ability. Rogues (of all types) gain this ability for free at character level 10. 
+</p>
+<h3 id="head-b37c9427f140befa9b42039431cb79414dbb6565">Extra Max Blow(2)</h3>
+Increases your max possible blows number by 1 (Cumulative with  Extra Max Blow(1)). 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Combat skill@20, Extra Max Blow(1)</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+7 skill points</td>
+</tr>
+</table>
+</div>
+<p>
+Warriors (of all types) are born with this ability. 
+</p>
+<h3 id="head-6bf91894f39aeba058a5dc2b21fba9b7faaa6b04">Ammo creation</h3>
+Allows you to create shots, arrows and bolts from various materials. 
+    <ul>
+
+    <li>
+<p>
+ You can always make shots. 
+</p>
+</li>
+    <li>
+<p>
+ At Archery level 10 you can start making arrows. 
+</p>
+</li>
+    <li>
+<p>
+ At Archery level 20 you can start making bolts. 
+</p>
+</li>
+
+    </ul><div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Archery skill@10</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+8 skill points</td>
+</tr>
+</table>
+</div>
+<p>
+Archers (of all types) gain this ability for free at character level 2. 
+</p>
+<h3 id="head-77f0c7b84aa87c7243d08dec0f5462678ab0b8de">Touch of death</h3>
+Your melee blows can insta-kill, but you only receive 1/3 of the experience for that kill. 
+    <ul>
+
+    <li>
+<p>
+ You must activate this skill from your 'm' menu. 
+</p>
+</li>
+
+    </ul><div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Necromancy skill@50, Combat skill@40, DEX@30, STR@30</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+15 skill points</td>
+</tr>
+</table>
+</div>
+<h3 id="head-3b871789c07fba082c45f1c540453140918ce609">Artifact Creation</h3>
+In combination with a high alchemy skill this ability will let you design your very own artifacts. 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Alchemy@40, INT@35, WIS@35</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+70 skill points <em>(yes, really!)</em></td>
+</tr>
+</table>
+</div>
+<h3 id="head-c0e459de14c9ba5e0a8a5e3eb4e86b7c2a606115">Far reaching attack</h3>
+You can attack an enemy one square far using a long polearm. At high levels of Polearm-mastery skill, you can even hit two enemies at once. 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Combat@15, Polearm-mastery@15</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+10 skill points</td>
+</tr>
+</table>
+</div>
+<h3 id="head-efc5d7f691e44381658dc7120a641d3d4cf94c48">Trapping</h3>
+Enables you to set traps which harm monsters. 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Disarming@15</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+10 skill points</td>
+</tr>
+</table>
+</div>
+<p>
+Rogues are born with this ability. 
+</p>
+<h3 id="head-579e38d93b084c632cc8693056661e9ae7b93c14">Undead Form</h3>
+With this ability your character receives a small amount of Death Points (DP) when they 'die'. Every normal (+0 speed) turn, one DP is lost; you can regain it like you would do with Hit Points. If you manage to kill enough monsters before your DP goes below 0, your character is brought back to life. 
+<div>
+<table>
+<tr>
+<td>
+Prereq</td>
+<td>
+Necromancy@30, INT@25</td>
+</tr>
+<tr>
+<td>
+Cost</td>
+<td>
+15 skill points</td>
+</tr>
+</table>
+</div>
+<p>
+Necromancers gain this ability for free at character level 25. 
+</p>
+<h2 id="head-5765b751b3fd3a951cfd97c264a8c5cd5a764e7c">Temp section: Stuff to be linked</h2>
+Skills:  
+    <ul>
+
+    <li>
+<p>
+ sneakiness 
+</p>
+</li>
+    <li>
+<p>
+ magic-device 
+</p>
+</li>
+    <li>
+<p>
+ disarming 
+</p>
+</li>
+    <li>
+<p>
+ archery 
+</p>
+</li>
+    <li>
+<p>
+ weapon-mastery 
+</p>
+</li>
+    <li>
+<p>
+ spirituality 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<a href="./MayLith">MayLith</a>: Ooooh, we have a problem here. The above are abilities, but where do we describe (and what do we label) 'abilities' like Trapping, Artifact Creation, Tree-walking, etc? Or do we rename this page, or????? <p>
+<a href="./SoulWynd">SoulWynd</a>: If they're done, you could link directly to them or if not, I think they should be a subpage of this one. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: I disagree. This page came from the "starting abilities" portion of birth.txt. Actual abilities (e.g. trapping) are denoted in ability.txt. 
+</p>
+<p>
+Trapping, etc. need to be bought in order to acquire them, which makes them <em>very</em> different from the basic game abilities. It's illogical to put bought abilities as a subpage to birth abilities, not to mention potentially very confusing to someone new to the game. 
+</p>
+<p>
+The question is, what do we call the abilities on this page. "Those things you see on the first page of the character sheet"? (Okay, that was tongue in cheek.) Birth Abilities? Birth Attributes? Basic Abilities? Essential Abilities? Essential Attributes? Primary Abilities? (But then attributes are STR, INT....) 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: Hard call there. They are somewhat a mix of abilities with skills. Maybe General Abilities, or General Skills? 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Exactly...it's a hard call. Skills are something different again, I wouldn't go that route. (I added a few more ideas to my previous post.)  
+</p>
+<p>
+Let's see here...time for a thesaurus. Synonyms/related words for 'ability' that might (possibly) work: talent, aptitude, mastery, competency, proficiency. 
+</p>
+<p>
+Another way to do this would be to have the fork on this page -- both the birth abilities and bought abilities, in a tree, (rather than having one as a subpage) e.g.  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Birth abilities 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ fighting 
+</p>
+</li>
+        <li>
+<p>
+ shooting 
+</p>
+</li>
+        <li>
+<p>
+ ... etc .... 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Bought abilities 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Trapping 
+</p>
+</li>
+        <li>
+<p>
+ Tree-walking 
+</p>
+</li>
+        <li>
+<p>
+ ... etc .... 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+But that preferably as last ditch. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: They just need to be renamed from abilities on the ToME side.  Renaming it here without being synced there won't do any good.  It's the illustrious maintainer who's input is needed here. 
+</p>
+<p>
+Since the words skills and abilities are already taken, though, the only word left I think is talents. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: I was thinking talent or competency, but the fewer syllables the better, IMHO. So which group is going to be renamed to talents? The bought abilities? 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: I would let the ToME-native abilities keep the name ability. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: In the meantime, I'll just put the fork on this page, and split it up later once something is done about it on the ToME side. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: With ToME 2.3 I've made the internal abilities a lot less important.  Hopefully they're on the way to just disappearing from the UI. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Works for me. However, I have a question: Shall the wiki documentation be backwards-compatible, once we shift to 2.3 and beyond? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>:  I don't think so.  What reason don't people have to upgrade? 
+</p>
+<p>
+<a href="./ChrisAmes">ChrisAmes</a>: Maybe I'm just sticking my nose where it doesn't belong (I'm just a standard player) but I think the wiki shouldn't be backwards compatible. However, people might not want to upgrade because they didn't like the new changes. 
+</p>
+
+        <ul>
+
+  <strong><a href="./NeilStevens">NeilStevens</a></strong>: People who choose not to upgrade because they don't like the differences shoudln't need to have the differences documented, I say. <p>
+  <strong><a href="./MayLith">MayLith</a></strong>: True, but what about folks who haven't upgraded yet for other reasons? For example, I haven't gotten the 2.3 CVS yet, because I want to win the game with my current character.    Maybe it's time to run another one of those "what version are you playing" polls. Not to inform any decision about the wiki, but just for the sake of reference. 
+</p>
+<p>
+  <strong><a href="./NeilStevens">NeilStevens</a></strong>: 2.3 isn't out yet.  Once 2.3 is out, then 2.2 documentation on here is obsolete. People who don't move to it after finishing current characters are on their own.  Keeping 2.2 documentation is no more useful as accepting 2.2 bug reports. 
+</p>
+
+        </ul>
+
+
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: There could be a file with the major changes that affect gameplay (e.g. skill changes, new spells, new special levels, etc.) without bugfixes, typos etc. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Uh.... I thought that was already in each release? 
+    </ul>
+
+
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Yes, but the major changes are perhaps not easily found. I meant to delete all the small fixes and corrections and to better describe the major gameplay changes. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: That seems like a good solution. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fBought_20abilities?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fBought_20abilities.text_html">RefreshCache</a> for this page (cached 2004-12-15 18:52:23)<br>
+<p><a href="./Documentation_2fBought_20abilities?action=edit">EditText</a> of this page (last edited 2004-10-02 00:59:09 by <span title="user-uiven0d.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 22:36:16 Mar 20, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  load_resource: 96.458
+  PetaboxLoader3.resolve: 30.571
+  exclusion.robots.policy: 0.15
+  cdx.remote: 0.114
+  exclusion.robots: 0.161
+  LoadShardBlock: 82.761 (3)
+  PetaboxLoader3.datanode: 121.557 (4)
+  CDXLines.iter: 24.668 (3)
+  captures_list: 122.941
+  esindex: 0.013
+-->

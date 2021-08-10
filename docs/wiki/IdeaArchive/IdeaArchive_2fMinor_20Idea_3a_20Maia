@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Minor Idea: Maia - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=fullsearch&amp;value=%2FMinor+Idea%3A+Maia&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Minor Idea: Maia</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fMinor_20Idea_3a_20Maia">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Just an idea... Maiar should have a penalty, bringing their Prayer mod to [0.000], since it's effectively a "dead" skill for them.  <p>
+<a href="./RavenRed">RavenRed</a>: Prayer's still useless. Maiar cannot worship gods. It's good for (marginally) raising Spirituality/Saving Throw, but that's about it.  
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I've removed the skill in ToME 2.3.0 (CVS) 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Have I ever told you I want to bear your children? ;-) 
+</p>
+<p>
+(Er... I am actually male, BTW :D) 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: And here I was, thinking you were a Beorning..... &lt;eg&gt; 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Or Beornette... :-) 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: So, hm, maiar wont be able to raise their saving throw? 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Good point. Maybe Maiar should get spirituality automatically (at a low mod) to ensure that they have a chance to raise this stat?  
+</p>
+<p>
+Simon: maybe prayer and spirituality should be the same skill? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Prayer is used to cast spells from the God school (useless for a Maia), Spirituality is used to increase the saving throw, and Maia can increase it as usual. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Just to ask a silly question - all classes will now get Spirituality as a raisable skill? (with the nixing of the "Abilities") 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Yes, even Archers and Rangers (but this was a bug imo). 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: See <a href="./NeilStevens_2fHotaru">NeilStevens/Hotaru</a> for a sample character sheet showing a ToME 2.3 CVS polearmmaster. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fMinor_20Idea_3a_20Maia.text_html">RefreshCache</a> for this page (cached 2004-08-05 12:38:11)<br>
+<p><a href="./IdeaArchive_2fMinor_20Idea_3a_20Maia?action=edit">EditText</a> of this page (last edited 2004-08-05 12:38:10 by <span title="lsanca1-ar51-4-42-017-130.lsanca1.dsl-verizon.net"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:36:33 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:45:12 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 78.671
+  exclusion.robots: 0.134
+  exclusion.robots.policy: 0.124
+  RedisCDXSource: 1.653
+  esindex: 0.009
+  LoadShardBlock: 52.648 (3)
+  PetaboxLoader3.datanode: 53.084 (4)
+  CDXLines.iter: 21.36 (3)
+  load_resource: 57.158
+  PetaboxLoader3.resolve: 28.373
+-->

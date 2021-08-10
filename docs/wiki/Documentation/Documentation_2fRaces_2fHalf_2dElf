@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Races/Half-Elf - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fRaces_2fHalf_2dElf?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fRaces_2fHalf_2dElf?action=print">
+<link rel="Up" href="/Documentation_2fRaces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fRaces_2fHalf_2dElf?action=fullsearch&amp;value=%2FHalf-Elf&amp;literal=1&amp;case=1&amp;context=40">Documentation/Races/Half-Elf</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fRaces">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fRaces_2fHalf_2dElf?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fRaces_2fHalf_2dElf">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fRaces_2fHalf_2dElf?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fRaces_2fHalf_2dElf?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fRaces_2fHalf_2dElf?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fRaces_2fHalf_2dElf?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fRaces_2fHalf_2dElf?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fRaces_2fHalf_2dElf?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fRaces_2fHalf_2dElf?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fRaces_2fHalf_2dElf?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fRaces_2fHalf_2dElf?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fRaces_2fHalf_2dElf">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>No Spoilers here, please.</strong></em> <p>
+Half-elves tend to be smarter and faster than humans, but not as strong.  Half-elves are slightly better at searching, disarming, saving throws,  stealth, bows, and magic, but they are not as good at hand weapons. Half- elves may choose any class and do not receive any intrinsic abilities. 
+</p>
+<p>
+Stat Modifiers: 
+<div>
+<table>
+<tr>
+<td>
+Strength</td>
+<td>
+0</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td>
++1</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td>
++1</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td>
++1</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td>
++1</td>
+</tr>
+<tr>
+<td>
+Hit Dice Sides</td>
+<td>
+9</td>
+</tr>
+<tr>
+<td>
+Exp Penalty</td>
+<td>
++10%</td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Skill Bonuses (supplementary to existing skills): None 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fRaces_2fHalf_2dElf?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fRaces_2fHalf_2dElf.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:44:08)<br>
+<p><a href="./Documentation_2fRaces_2fHalf_2dElf?action=edit">EditText</a> of this page (last edited 2004-07-09 18:09:53 by <span title="user-2iverjg.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:10:27 May 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:39:57 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  load_resource: 133.027
+  PetaboxLoader3.resolve: 82.841
+  exclusion.robots.policy: 0.174
+  cdx.remote: 0.087
+  exclusion.robots: 0.184
+  LoadShardBlock: 144.722 (3)
+  PetaboxLoader3.datanode: 159.615 (4)
+  CDXLines.iter: 22.901 (3)
+  captures_list: 176.88
+  esindex: 0.011
+-->

@@ -1,0 +1,334 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Items and Skills *long* - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=fullsearch&amp;value=%2FItems+and+Skills+%2Along%2A&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Items and Skills *long*</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Just a bit of a topic starter considering that Skills can now be raised and lowered by items (as per the CVS changes.txt). What kind of bonuses or penalties could items have? Starting off, I haven't even considered magical/ego/artifact items, but have been considering how normal items could affect a character's skill levels. A few thoughts... 
+    <ul>
+
+    <li>
+<p>
+ Armour 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Headgear - Small Penalties to Stealth (maybe -2.000 for an iron/steel/dragon helm), and perhaps a -4.000 to Sneakiness in general to account for the fact that you might not quite be able to see that Arrow Trap... 
+</p>
+</li>
+            <li>
+<p>
+ Boots - Stealth Penalties only. Perhaps -1.000 for Hard Leather boots, with a big jump to -4.000 for Iron-Shod.  
+</p>
+</li>
+            <li>
+<p>
+ Handgear - Disarming Penalties seem the most obvious penalties to apply here. -1.000 for Leather, -3.000 for gauntlets and -5.000 for  Cesti. The Mages penalty to spellcasting with handgear could also be re-implemented as a Penalty to the Magic skill. Contrarily, they could offer a bonus to Barehand combat, as they allow your strikes to be a bit heavier.  
+</p>
+</li>
+            <li>
+<p>
+ Body Armour - For mine, there should be three types of penalty for armour. Firstly, to stealth, which would be a fairly steady progression from -1.000 for Hard Leather Armour to -10.000 for Full Plate. Secondly, to Weaponmastery. These should be fairly mild, as it IS designed for weapon use. The threshhold could be a bit higher than the current implementation of Hard Lather Armour. Perhaps start at Leather Scale Mail with a -1.000 penalty and move up to -5.000 for full plate (Oh, and Barehand penalties should be DOUBLE those of Weaponmastery). The third is a higher penalty, this time applied to Archery. Heavy armour should interfere with the precision and flexibility required for proper bow-work. The variance for mine, should be from -1.000 to -10.000. The magic penalty could also be used as with Handgear 
+</p>
+</li>
+            <li>
+<p>
+ Shields - Perhaps a small bonus or penalty to Weaponmastery. A small shield allows you to deflect blows without parrying them, therefore increasing your offensive ability, whilst a large metal shield is a bloody great weight to be swinging about, so provides somewhat of a hindrance. As I said, I think the potential changes should be small.  
+</p>
+</li>
+
+            </ul>
+
+
+    <li class="gap">
+<p>
+ Weaponry  I'm a bit loath to go into this, but my thoughts are that some weapons could be easier to use than others. For example, a Two-Handed sword could be significantly more difficult to use than a Rapier, which may even have a small bonus to Swordmastery. Size might not always be the penalty, though. A Flail (for example) could  be a bit harder to use than a Mace, whereas a Great-Axe would be harder than a Hatchet. However, I realise that a world of "balance" issues lie within weaponry, so I'll leave it at that.  
+</p>
+</li>
+    <li class="gap">
+<p>
+ Other Items 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Light Sources - Apart from Torches, should have a penalty to Stealth equal to their light radius, though possibly a bonus to Sneakiness (in terms of better Perception/Searching).  
+</p>
+</li>
+        <li>
+<p>
+ Cloaks - Minor Bonus to stealth?  
+</p>
+</li>
+        <li>
+<p>
+ Ammo - The higher types of ammo could give a bonus to Archery or FooMastery. Sheaf Arrows or Rounded Pebbles could maybe give a -1.000 penalty, wheras Flight Arrows or Mithril Shots could give a +1.000 bonus. 
+</p>
+</li>
+        <li>
+<p>
+ Lockpicks/Theives Kit - A new Item type, which could give large (+5.000 to +10.000) bonuses to Disarming and picking locks. This item might even be necessary for the Trapping Talent.  
+</p>
+</li>
+        <li>
+<p>
+ Mage Staves - Strictly a weapon, but deserves its own place. Could give a magic bonus or a combat penalty.  
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+Part 2: Ego (is not a dirty word) 
+</p>
+<p>
+The scope for ego-items is (as previously mentioned) immense. More than that, it allows for far more nuanced and balanced egos, with significant trade-offs available, even if you don't want a zero-sum item. When you combine this with the ability to give bonuses and penalties to INDIVIDUAL stats as well (in the new 3.0.0.), then the scope advances even further. Here are a few ideas... 
+</p>
+<p>
+(also nicked from <a class="external" href="http://web.archive.org./GeneralDiscussion_2fYet_20another_203_2e0_2e0_20question"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">http://wiki.t-o-m-e.net/GeneralDiscussion_2fYet_20another_203_2e0_2e0_20question</a>) 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Weapons - Whilst Weapons are already well-catered for in egos, perhaps just a <strong>couple</strong> more... <img src="./wiki/starshine/img/smile.png" alt=":-)" height="15" width="15"> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Swords "Of Fencing" (Swordmastery [+5.000] Critical Hits [+2.000]) Limited, perhaps,  to weapons under 10lbs, it could perhaps also give a bonus to Dodging, to simulate the lightly armed Errol Flynn type of Character.  
+</p>
+</li>
+        <li>
+<p>
+ Dagger/Shadow Blade "of Treachery" (Stealth [+5.000] Backstabbing [+10.000]) The Assassin's best friend. Could also have (say) a 33% chance to get a poison brand as well.  
+</p>
+</li>
+        <li>
+<p>
+ Hafted Weapon "of Bludgeoning" (Haftedmastery -[-3.000] Stunning Blows [+6.000]). It's big, it's heavy, it handles like a Shopping Trolley pulled by Clydesdales, but it hits bloody hard.  
+</p>
+</li>
+        <li>
+<p>
+ Launcher "of Archery (Archery [+10.000] Weaponmastery [-5.000]) Great for pinging away at a distance, but mighty inconvenient when they get up close.  
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Melee Weapon "Of Melee"(Weaponmastery  [+10.000] Archery [-5.000]) The inverse. ("Come over 'ere and I'll 'ave you, so I will!") 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Whip "Of Beastmastery" (Monster-lore [+3.000] Mind [+2.000]) Animal ESP. Yes, now you can control those pesky Sabre-Tooth Tigers with ease! 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Armour 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Shoes "Of Padded Soles" (Stealth [+1.000]) not available for Iron-Shod boots, these will allow you to pad around like a cat.  
+</p>
+</li>
+        <li>
+<p>
+ "Open Faced" Helms (Iron / Steel / Dragon- (Sneakiness [+4.000]) to compensate for the visibility issue and [-2] AC to reflect the reduced protection. 
+</p>
+</li>
+        <li>
+<p>
+ Robes "Of Magery" (Magic [+3.000] Meta [+2.000] Combat [-3.000]. Resists Disenchantment. For the Wizard who wants to look the part.  
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Amulets/Rings - Big range of possibilities here. A few minor ideas... 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ "Of Antimagic" - Instead of a base antimagic shell, it could provide a bonus to Antimagic, with the limitations that apply to possessing that skill (i.e. none of your magic skills work). This gives it utility for Unbelievers as well as annoyance to Mages.  
+</p>
+</li>
+        <li>
+<p>
+ "Ring Of Fire/Ice/Acid/Lightning" could also give a bonus to the applicable elemental magic school.  
+</p>
+</li>
+        <li>
+<p>
+ "Amulet Of Trickery" (Sneakiness [+2.000] Disarming [+3.000] Stealing [+5.000]) If you want to ACT like a thief... 
+</p>
+</li>
+        <li>
+<p>
+ "Amulet of Holiness" (Spirituality [+3.000] Prayer [+3.000] Sneakiness [-4.000]) (+X WIS and -Y INT) If you want to be a scion of the Valar, you'll have to give up those theiving ways and stop asking so many questions.  
+</p>
+</li>
+        <li>
+<p>
+ "Amulet of the Dead"  (Necromancy [+4.000] Corpse-Preservation [+3.000]) For all those for whom death is merely a lifestyle choice.  
+</p>
+</li>
+        <li>
+<p>
+ "Amulet of Mold" (Symbiosis [+3.000] Nature [+2.000]) (-3 CHR) "What's that THING growing on your chest?!" "That's not a thing, that's my Amulet..." 
+</p>
+</li>
+        <li>
+<p>
+ "Amulet of the Mechanist" (Magic-Device [+3.000] Disarming [+3.000] Magic [-2.000]) (+2 INT -2 WIS) To think mechanically, you must abandon the metaphysical...  
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+... and so on and so forth...  
+</p>
+<p>
+Skill-Mods don't have to become the new be-all and end-all to the way items, egos and amulets work, but they open up a new area of play and ways to play the game....  
+</p>
+<p>
+2cworth and counting... 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: dewikized FooMastery. Very interesting. I disagree with the ammo mods, no comment yet regarding the rest -- still thinking about it. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fItems_20and_20Skills_20_2along_2a.text_html">RefreshCache</a> for this page (cached 2004-08-12 00:33:37)<br>
+<p><a href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a?action=edit">EditText</a> of this page (last edited 2004-08-12 00:33:35 by <span title="ncao.vtcif.telstra.com.au"><a href="./RavenRed">RavenRed</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:20:05 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:44:54 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 131.76
+  exclusion.robots: 0.076
+  exclusion.robots.policy: 0.07
+  RedisCDXSource: 8.428
+  esindex: 0.008
+  LoadShardBlock: 94.366 (3)
+  PetaboxLoader3.datanode: 71.087 (4)
+  CDXLines.iter: 26.308 (3)
+  load_resource: 112.544
+  PetaboxLoader3.resolve: 72.783
+-->
