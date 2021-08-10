@@ -2952,7 +2952,7 @@ ofn.lStructSize = sizeof(OPENFILENAME);
 			}
 
 			/* Build the pathname of the score file */
-			path_build(buf, sizeof(buf), ANGBAND_DIR_APEX, "scores.raw");
+			path_build(buf, sizeof(buf), "./.tome/2.3/theme", "scores.raw");
 
 			/* Hack - open the score file for reading */
 			highscore_fd = fd_open(buf, O_RDONLY);
@@ -4090,7 +4090,8 @@ static void init_stuff(void)
 
 	char path[1024];
 
-	strcpy(path, DEFAULT_PATH);
+	//strcpy(path, DEFAULT_PATH);
+	strcpy(path, "./");
 
 	/* Get program name with full path */
 	//GetModuleFileName(hInstance, path, 512);
@@ -4124,6 +4125,11 @@ static void init_stuff(void)
 	validate_dir(path);
 
 	/*** Initialise the file paths ***/
+
+#ifdef PRIVATE_USER_PATH
+#undef PRIVATE_USER_PATH
+#endif
+#define PRIVATE_USER_PATH "./.tome"
 
 	/* Start with standard ones */
 	init_file_paths(path);

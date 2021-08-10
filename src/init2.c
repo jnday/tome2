@@ -174,8 +174,13 @@ void init_file_paths(char *path)
 		char user_path[1024];
 
 		/* Get an absolute path from the file name */
-		path_parse(user_path, 1024, PRIVATE_USER_PATH);
-		strcat(user_path, USER_PATH_VERSION);
+
+		/* hack for relative path in windows */
+		strcpy(user_path, "./.tome");
+		strcat(user_path, USER_PATH_VERSION"/");
+
+		/* user_path should = "./.tome/2.3/" at this point     */
+
 		ANGBAND_DIR_USER = string_make(user_path);
 		ANGBAND_DIR_NOTE = string_make(user_path);
 		ANGBAND_DIR_CMOV = string_make(user_path);
@@ -2741,7 +2746,7 @@ void init_angband(void)
 	/*** Verify (or create) the "high score" file ***/
 
 	/* Build the filename */
-	path_build(buf, 1024, ANGBAND_DIR_APEX, "scores.raw");
+	path_build(buf, 1024, "./.tome/2.3/theme", "scores.raw");
 
 	/* Attempt to open the high score file */
 	fd = fd_open(buf, O_RDONLY);
