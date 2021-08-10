@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport99 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport99?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport99?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport99?action=fullsearch&amp;value=BugReport99&amp;literal=1&amp;case=1&amp;context=40">BugReport99</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport99?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport99">View</a></li>
+<li><a title="Diffs" href="./BugReport99?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport99?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport99?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport99?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport99?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport99?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport99?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport99?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport99?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport99">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  This is a small but annoying one:  the message when a monster's spell is blocked by your anti-magic field is currently f.i. "<tt>Your&nbsp;anti-magic&nbsp;field&nbsp;disrupts&nbsp;The&nbsp;Illusionist&nbsp;spell.</tt>", which is wrong in two ways:  "<tt>The</tt>" shouldn't be capitalized, and "<tt>Illusionist</tt>" should be possessive.  It's worse when you can't see the monster whose spell was blocked; the resulting message is "<tt>Your&nbsp;anti-magic&nbsp;field&nbsp;disrupts&nbsp;It&nbsp;spell.</tt>" <p>
+Fortunately, <tt>monster_desc()</tt> in <tt>src/monster2.c</tt> already does everything we need to fix this, as manifested in <a class="external" href="./www.killerbunnies.org/angband/tome-antimsg.diff"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">this patch</a>.  With this in place, the above messages become "<tt>Your&nbsp;anti-magic&nbsp;field&nbsp;disrupts&nbsp;the&nbsp;Illusionist's&nbsp;spell.</tt>" and "<tt>Your&nbsp;antimagic&nbsp;field&nbsp;disrupts&nbsp;something's&nbsp;spell.</tt>".  If you prefer "<tt>...&nbsp;disrupts&nbsp;its&nbsp;spell.</tt>" in the latter case, I believe it should be sufficient to change the <tt>0x06</tt> parameter to <tt>monster_desc()</tt> in the patch to <tt>0x02</tt>, though I haven't tested this. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: What does "f.i." stand for? 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  "For instance".  Dunno if it's common usage, just something I picked up somewhere, I think. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Ah, thank you! (e.g. is probably a better/more widely known abbreviation for that.) 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport99?action=refresh&amp;arena=Page.py&amp;key=BugReport99.text_html">RefreshCache</a> for this page (cached 2004-08-31 04:47:24)<br>
+<p><a href="./BugReport99?action=edit">EditText</a> of this page (last edited 2004-08-31 04:47:23 by <span title="user-2ivekgq.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:51:25 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:20 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 140.076
+  exclusion.robots: 0.212
+  exclusion.robots.policy: 0.199
+  RedisCDXSource: 32.644
+  esindex: 0.015
+  LoadShardBlock: 72.162 (3)
+  PetaboxLoader3.datanode: 69.779 (4)
+  CDXLines.iter: 29.56 (3)
+  load_resource: 48.606
+  PetaboxLoader3.resolve: 22.027
+-->

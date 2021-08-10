@@ -1,0 +1,627 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>DayInTheLifeArchive - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./DayInTheLifeArchive?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./DayInTheLifeArchive?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./DayInTheLifeArchive?action=fullsearch&amp;value=DayInTheLifeArchive&amp;literal=1&amp;case=1&amp;context=40">DayInTheLifeArchive</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./DayInTheLifeArchive?action=edit">Edit</a></li>
+<li><a title="View" href="./DayInTheLifeArchive">View</a></li>
+<li><a title="Diffs" href="./DayInTheLifeArchive?action=diff">Diffs</a></li>
+<li><a title="Info" href="./DayInTheLifeArchive?action=info">Info</a></li>
+<li><a title="Subscribe" href="./DayInTheLifeArchive?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./DayInTheLifeArchive?action=raw">Raw</a></li>
+<li><a title="Print" href="./DayInTheLifeArchive?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./DayInTheLifeArchive?action=DeletePage">DeletePage</a></li>
+<li><a href="./DayInTheLifeArchive?action=LikePages">LikePages</a></li>
+<li><a href="./DayInTheLifeArchive?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./DayInTheLifeArchive?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./DayInTheLifeArchive">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>Warning</strong></em>: <a class="nonexistent" href="./DitLs">DitLs</a> are inherently spoily. If you don't want to be spoiled, please leave now! <p>
+A DitL is "A Day in the Life"; in other words, the journaled progress of a given character. The purposes of a DitL are: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ to share your experiences with others, as an addition to our knowledge base 
+</p>
+</li>
+    <li>
+<p>
+ to seek assistance and/or commentary for your character 
+</p>
+</li>
+    <li>
+<p>
+ to express yourself 
+</p>
+</li>
+    <li>
+<p>
+ most of all, to have fun! 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+This page is also the one to use to link to other ToME-related creative efforts, such as fan fiction, haikus, original artwork, etc. 
+</p>
+<p>
+Please play nice: Do not modify text that the DitL or fanfic author has shared, other than to place footnotes and/or anchors -- your actual commentary should be below the main body of text. (Moderators reserve the right to edit if necessary.) Anything else you add to an existing thread should be in a Chatter section, at least until we've evolved a better method. Please feel free to make relevant suggestions on <a href="./Wiki_20Suggestions">Wiki Suggestions</a>. 
+</p>
+<p>
+<ol>
+<li>
+<a href="#head-c3bb6a63ffddc29e160baf5ff4c9821803018169">Recommendations for creating a DitL thread</a></li>
+<li>
+<a href="#head-e2561c2c43a023726b5ff3f41e0dde17bbd6cd3a">Day in the Life (DitL) Threads</a></li>
+<li>
+<a href="#head-a53e8179d5d8374a3b7d9c792c127cb05aab431b">Fan Fiction Threads</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ 
+</p>
+<h3 id="head-c3bb6a63ffddc29e160baf5ff4c9821803018169">Recommendations for creating a DitL thread</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Writing a DitL will vastly slow down the progress of your character, if you're doing it right. You have been warned. (On the other hand, common acclaim suggests that DitL'ing may save your character's life many times.) 
+</p>
+</li>
+    <li>
+<p>
+ Please note the game version in your thread heading. 
+</p>
+</li>
+    <li>
+<p>
+ If your DitL is from a ToME module rather than the main game, please note that in the thread heading. Once we get enough threads from modules, we can subclassify.  
+</p>
+</li>
+    <li>
+<p>
+ Specify the race and class of your character, and tell us who you are. 
+</p>
+</li>
+    <li>
+<p>
+ Writing format is up to you. Some people write in fan fiction format, others are matter-of-fact, while still others fall in-between. Be yourself! What would you want to read if you were the reader, rather than the writer? 
+</p>
+</li>
+    <li>
+<p>
+ Please pay attention to spelling, grammar, capitalization, and appropriate language. When in doubt, please see the <a class="external" href="http://web.archive.org./Style_20Guide"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">Style Guide</a> or ask a moderator. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+IMPORTANT:  
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+If you are copying over a thread from the forum, please copy only your own posts. Yes, this does break up discussion, but it is a copyright issue. 
+</p>
+</li>
+    <li>
+<p>
+Please mark a copied thread as (copied), so that readers can look back to the original thread via the Arkive if they want to read all the missing commentary. 
+</p>
+</li>
+
+    </ol>
+
+
+<h3 id="head-e2561c2c43a023726b5ff3f41e0dde17bbd6cd3a">Day in the Life (DitL) Threads</h3>
+Thank you for sharing! Please add new threads at the bottom of the list. <p>
+The original <a class="external" href=".www.t-o-m-e.net/forum/viewtopic.php?t=4344"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">arkive</a> from the forum lists the other Day in the Life stories not yet included here. Arkive threads copied here contain numerous comments which have not, for copyright reasons, been copied to the wiki. Therefore,   for additional information, consult the Arkive. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Day in the life of <a href="./DayInTheLifeArchive_2fCrayn">/Crayn</a> a Beorning (sort-of) demonologist by <a href="./TobiasParker">TobiasParker</a> 
+</p>
+</li>
+    <li>
+<p>
+ DITL: <a href="./DayInTheLifeArchive_2fBlackwood">/Blackwood</a> the Evil Ent Axemaster (By <a href="./RavenRed">RavenRed</a>) 
+</p>
+</li>
+    <li>
+<p>
+ Day in the life of <a href="./DayInTheLifeArchive_2fSlappy">/Slappy</a>, a Wood-Elf Monk, by <a href="./MayLith">MayLith</a>. This is the original/first DitL. v2.2.6-7. Copied. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20a_20troll_20warrior">/Day in the life of a troll warrior</a> by <a href="./NeilStevens">NeilStevens</a>. Copied. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fThe_20probably_20brief_20afterlife_20of_20Gumbo">/The probably brief afterlife of Gumbo</a>, a Lost Soul Sorcerer, by <a href="./PaulMoore">PaulMoore</a>. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20Sparky">/Day in the life of Sparky</a>, a Gnome Demonologist, by <a href="./ElIott">ElIott</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20the_20deadtastic_20Grim">/Day in the life of the deadtastic Grim</a>, a Theme-moduley Dark-Elven necromancer, by <a href="./BurbLulls">BurbLulls</a>. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20an_20Avowedly_20Evil_20and_20Avaricious_20Avari_20Mindcrafter">/Day in the life of an Avowedly Evil and Avaricious Avari Mindcrafter</a> by <a href="./RavenRed">RavenRed</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20short_20life_20of_20quite_20a_20few_20lost_20souls">/Day in the short life of quite a few lost souls</a> by Da Alchemist 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20Life_3a_20The_20Journal_20of_20Reginald_20F_2e_20Rugglesby">/Day in the Life: The Journal of Reginald F. Rugglesby</a>, a Gnome Summoner, by <a href="./JinxTycho">JinxTycho</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20many_20lives_20of_20Forsythia">/Day in the many lives of Forsythia</a>, a Lost Soul Eru Priest, by <a href="./MayLith">MayLith</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20my_20first_20wearer_20and_20my_20true_20maker">/Day in the life of my first wearer and my true maker</a>, by Zen the everlasting torch of the magi 
+</p>
+</li>
+    <li>
+<p>
+ The (Comparatively Brief) Adventures of <a href="./DayInTheLifeArchive_2fZizzo_20the_20Yeek_20Hermit_20Sorceror">/Zizzo the Yeek Hermit Sorceror</a>, by <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a> (v2.2.6, copied) 
+</p>
+</li>
+    <li>
+<p>
+ The Excellent Adventures of <a href="./DayInTheLifeArchive_2fBjorn_20the_20Beorning_20Warper">/Bjorn the Beorning Warper</a>, by <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a> (v2.2.6, copied) 
+</p>
+</li>
+    <li>
+<p>
+ The Bogus Journies of <a href="./DayInTheLifeArchive_2fParallel_20Bjorn">/Parallel Bjorn</a>, a Non-Continuation Continuation&#8482; of the previous DitL, by <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a> (v2.2.6, copied) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20Zippy">/Day in the life of Zippy</a>: Barrow Downs through the mid-level Town Quests, a Zombie Hobbit Warper, by <a href="./ElIott">ElIott</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20Zippy2">/Day in the life of Zippy2</a>: Mordor through Angband, a Zombie Hobbit Warper, by <a href="./ElIott">ElIott</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20Zippy3">/Day in the life of Zippy3</a>: Mount Doom and Beyond, a Zombie Hobbit Warper, by <a href="./ElIott">ElIott</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=5476"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">The Final Days of Cirad</a>: An Endgame (I hope) Day in the Life of a Wood-Elf Eru Priest, by <a href="./MayLith">MayLith</a>. (v.2.2.7, link only) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20Gandalf_2c_20the_20Wizard">/Day in the life of Gandalf, the Wizard</a>: attempt to role-play Gandalf in Theme by <a href="./ZasVid">ZasVid</a> 
+</p>
+</li>
+    <li>
+<p>
+ A DitL Three-Pack&#8482; by <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a> (all v2.2.7): 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ The Bitter Tales of <a href="./DayInTheLifeArchive_2fGathraka_20the_20Tribeless_2c_20the_20Orc_20Barbarian_20Unbeliever">/Gathraka the Tribeless, the Orc Barbarian Unbeliever</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fGathraka_20the_20Tribeless_2c_20part_202">/Gathraka the Tribeless, part 2</a> 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ Mind Out of Time:  The Adventures of <a href="./DayInTheLifeArchive_2fLisa_20Alexander_2c_20the_20Human_20Mindcrafter">/Lisa Alexander, the Human Mindcrafter</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fLisa_20Alexander_2c_20part_202">/Lisa Alexander, part 2</a> 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ The Foretold Tales of <a href="./DayInTheLifeArchive_2fTrilogy_2c_20the_20Half_2dElf_20Geomancer">/Trilogy, the Half-Elf Geomancer</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fTrilogy_2c_20part_202">/Trilogy, part 2</a> 
+</p>
+</li>
+
+            </ul>        </ul>
+
+
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20Braya_27s_20first_20possessed">/Day in the life of Braya's first possessed</a>: Lost Soul <a class="nonexistent" href="./DeathMold">DeathMold</a> Possessor called Braya hangs onto his first possessed soul as a journalist. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20Braya_27s_20first_20possessed_3a_20Out_20of_20Mandos">/Day in the life of Braya's first possessed: Out of Mandos</a>: Braya and the tortured soul get out of Mandos as an Ancient Multi-Hued Dragon. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20life_20of_20Sim">/Day in the life of Sim</a> the Lost Soul Symbiant. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fAdventures_20of_20a_20handicapped_20Ent_20sorceror_20DeafLeaf">/Adventures of a handicapped Ent sorceror DeafLeaf</a> (v. 2.3.1) by Bandobras <a href="./DayInTheLifeArchive_2fDeafLeaf1">1</a> <a href="./DayInTheLifeArchive_2fDeafLeaf3">3</a> <a href="./DayInTheLifeArchive_2fDeafLeaf3_2fsection_203c">3c</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDay_20in_20the_20Life_20of_20Yannir">/Day in the Life of Yannir</a>, the Themed, Jokes-on High Elf Lost Soul Sorceror. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fMoving_20toward_20maturity">/Moving toward maturity</a>: Ewan's first DitL, telling the late(ish) game story of Ero, the <a class="nonexistent" href="./RohanKnight">RohanKnight</a> sling-using archer. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fGet_20me_20out_20of_20here_21">/Get me out of here!</a>: Ewan again, now experimenting with a Lost Soul <a class="nonexistent" href="./DeathMold">DeathMold</a> Sorceror, for something completely different and likely shortlived... 
+</p>
+</li>
+
+                                        <ul>
+
+                                        <li>
+<p>
+ And now expanding beyond the first tale (successful but boring) to a second (who has some really cool kit after hanging around rather longer on HoM 98, including my first staff of Wish!).  Probably no more interesting as an adventure, but perhaps indicative of what one can expect with slightly prolonged scumming. 
+</p>
+</li>
+
+                                        </ul>    </ul>
+
+
+<h3 id="head-a53e8179d5d8374a3b7d9c792c127cb05aab431b">Fan Fiction Threads</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fThe_20Lonely_20Hearts_27_20Club_20Gruel_20and_20Beer">/The Lonely Hearts' Club Gruel and Beer</a> by <a href="./NerdanelVampire">NerdanelVampire</a>. A romantic comedy, believe it or not. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="external" href="./www.killerbunnies.org/angband/ladder/xtra/acceptance.html"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">Acceptance</a> by <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>.  The unlikeliest of allies... 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fDarkness_20and_20Light">/Darkness and Light</a> by <a href="./FuriousOne">FuriousOne</a>. An Ogre encounters a practicing thaumaturgist. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fA_20Natural_20Oddity">/A Natural Oddity</a> by <a href="./BurbLulls">BurbLulls</a>. An Orc has a rather odd experience in Fangorn... 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2fMordor_20Sixty_20Four">/Mordor Sixty Four</a> by <a href="./TheFalcon">TheFalcon</a>. A battle with Druj turns nasty... 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./DayInTheLifeArchive_2f_27Twas_20the_20Night_20Before_20Solstice">/'Twas the Night Before Solstice</a> by <a href="./MayLith">MayLith</a>. Originally posted to the forum on December 24, 2004. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h3>
+<a href="./MayLith">MayLith</a>: Will the forum website continue to exist? If so, we can link directly to the non-copied existing stories there, which would be extremely convenient. In that situation, I'd recommend copying over the text of Z's arkive to this location and making links out of that list. <p>
+Ideally, I'd like to see this top page contain:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ an introduction to the whole concept of DitL'ing a character 
+</p>
+</li>
+    <li>
+<p>
+ an index to the stories we've done (starting out with the arkive, and newer ones after that) 
+</p>
+</li>
+    <li>
+<p>
+ perhaps a link to a Thread-like page where DitL generalities could be discussed 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+It would be very nice if the links to individual stories could somehow be datestamped to show when they've been updated. If that is possible, a boilerplate example of how to do that should also be on this page, IMHO. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: It took me less than 30m I guess to do yours.  But that is a lot for the amount that's been going around. (30x30 = 900m) 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Thank you!!! 
+</p>
+<p>
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>: One thing I've been wondering about is the various discussion subthreads interspersed through most if not all of the DitLs in the forum.  I notice those were left out of Slappy's tale above, and that's probably fine for copying over existing finished DitLs from the forum; 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Actually, that's a problem. I really hadn't checked Slappy's tale, but there are issues with copying over other peoples' posts. 
+    </ul>
+
+
+<p>
+but if the forum eventually goes the way of the dodo, or even if it doesn't, we'll likely have DitLs starting and progressing here on the wiki. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Ideally, all new DitLs should begin here on the wiki. 
+    </ul>
+
+
+<p>
+Will we want discussion threads for those, and if so, how should it be implemented?  Perhaps something as simple as a "Chatter" section like this one at the bottom of the DitL page? 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: To be honest, I hadn't noticed the discussion subthreads where missing from Slappy's tale; I was just very appreciative that it had been copied over. The thing is, what I noticed with Slappy was that some of the side discussion seemed to be quite useful to some readers. In a mature wiki, maybe that discussion shouldn't <em>remain</em> in a DitL, but the high points could be distilled out into FAQs, Documentation, Strategy and/or Spoilers as necessary... if it had to be. Personally, I find that the comments from readers add welcome personality and flavor to the tale itself, so I'd just as soon NOT split it out (though copying over sounds like a good idea.) 
+</p>
+<p>
+As for the format, I don't know. One thing I like about the original forum is the ease of quoting part of a previous post and then making a comment. That can be done here, too, but more awkwardly. A "Chatter" section is better than nothing, for sure, but the nice thing about a DitL forum thread is that comments by readers are almost always germane to a specific section the story. For a third person to try to re-index between a Chatter comment and some obscure place in the story sounds almost impossibly obscure.  
+</p>
+<p>
+Hmmmm... *sounds of mulling* The only alternative I can think of is to use a Chatter section, and the commenters implant footnotes (linked to Chatter) into the actual DitL, without changing anything else on the DitL itself. Would that work?  
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: That would seem to be an excellent use of the footnote system. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: The only thing I don't like about footnoting it all is that, as I said, the mid-stream commenting really does add a lot to the flavor of a !DitL. I'm still torn about that one. 
+    </ul>
+
+
+<p>
+<a href="./MayLith">MayLith</a>: See <a class="interwiki" title="Self" href="./Wiki_20Frequently_20Asked_20Questions#footnoteFAQ"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">the Wiki FAQ</a> on how to create footnotes. 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: I'm going to try and do some of the DiTLs / prettify existing ones next week. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Wonderful! Just watch the commentary... we're going to have to figure out how to do that one. :? 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: I guess I'll leave the commentary alone for a while, since I wouldn't want to use others' words without their permission, and that's quite a few people. However, perhaps we should leave links to the forum threads for now (maybe under an <strong>Original thread:</strong> heading) and figure out how to deal with them later. For new DiTLs, we can use the footnotes, obviously:) 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: *nods* I wish I could copy Slappy over in full, as there's a LOT of discussion in there, but that's how it goes. (And btw, I formally give <a href="./ReenenLaurie">ReenenLaurie</a> retroactive permission for copying her over <img src="./wiki/classic/img/smile4.png" alt=";-)" height="15" width="15"> Plus many thanks.)  
+</p>
+<p>
+Regarding the existing forum <a class="nonexistent" href="./DitLs">DitLs</a>, I think probably the *easiest* thing to do (with <a href="./ZasVid">ZasVid</a>'s permission) is to echo and amplify upon the Arkive here -- i.e.: 
+</p>
+
+    <ul>
+
+ <strong><a href="./ZasVid">ZasVid</a></strong>: you all have my permission to use Arkive as you see fit <img src="./wiki/classic/img/smile.png" alt=":-)" height="15" width="15">     <li>
+<p>
+For uncopied threads, link from here to the forum post 
+</p>
+</li>
+    <li>
+<p>
+For copied threads, include within the posting a link back to the original forum post 
+</p>
+</li>
+    <li>
+<p>
+For original to the wiki threads, footnotes work, or we can evolve something else. I still have reservations that footnotes will prove to be very annoying, but, we'll see. We can try it, anyway! 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Things to think about: For sizeable <a class="nonexistent" href="./DitLs">DitLs</a>, the commentary can get quite long. At what point do we break it up into a separate page (if that even happens?) And if we're using a footnote system, that'll break every single footnote.....urgh...... 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  My current plan, when I eventually put up a DitL on the wiki, is to put a Chatter section after each piece as I put it up, and delete empty Chatter sections as I go.  That would probably be closest to how it worked on the forum. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: That is a very good idea. If you named them Chatter1, Chatter2 (or whatever) you could then still use a TOC, and retain any chatter you wanted, or delete (as you say) a chatter heading that doesn't get any entries. 
+</p>
+<p>
+<strong><a href="./StarweaverBlue">StarweaverBlue</a></strong>: An idea for handling long long threads: when writing, break off each page after 20,000 or 40,000 words (I have no idea what would be considered "too big"), into a foostory/part2 page. Repeat. Link the pages together reasonably and keep links to the most recent part or two on line for the story in the index here. Doing this will keep the chatter with the relevant parts without fuss even if you're using footnotes and space-epoxy. 
+</p>
+<p>
+<strong><a href="./FuriousOne">FuriousOne</a></strong>: Good idea. I just attempted to prettify /Slappy and, well, it's tres long and le cumbersome to edit, as they say in France. Perhaps we could even come up with a series of templates for DiTLs - if we expect people to use the Wiki rather than the fora for DiTLs (and the fora are, at this point, admittedly more convenient for this kind of thing ;))...  It would make posting a DiTL a bit more involved, I guess. We could have 'Character information', 'CL 0 - 25' 'Midgame' and 'Late game' - these are just what comes to mind off the top of my head, I'll have to mull over a little more. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Merci bien for helping, Furiosity. I've been mulling this one quite a lot, too. As for templating...that's a good thought.  Personally, I feel more *comfortable* DitL'ing on the forum. Even though footnoting/etc is possible on the wiki, it's cumbersome as all get-out and (I think) detrimental to feedback, especially for those who just want to make a quick relevant comment and are not well-versed in wiki.  
+</p>
+<p>
+The one thing I keep coming back to is using the forum for DiTL'ing and just indexing them here to make them more findable. (And yes, this goes totally against the whole purpose of the wiki, and maybe someday we can figure out how to make it work here.) 
+</p>
+<p>
+Another idea is this one: When you first create a DitL on the forum, include a "standard disclaimer" which says that the thread will eventually be copied <em>in toto</em> to the wiki, so anyone who posts automatically gives permission for that. At the bottom of each posted installment, a brief reminder of that could be made.... or something.... 
+</p>
+<p>
+(just assorted musings before I hie myself off to work... I hate 12-9 shifts!) 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  One more question:  The expressed preference for forum DitLs (expressed to me, at least) was for smaller segments posted more frequently as opposed to longer segments posted less frequently.  Does that carry over to the wiki, or is this format better suited to putting up more story at once?  Shorter segments would mean more opportunity to insert Chatter sections, but that by the same token might make the story flow too choppy (which was unavoidable on the forum, and so less of an issue).  Thoughts? 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Hmm... I think I still prefer <em>relatively</em> short segments. The reason for this is that I had trouble reading a few extremely long-segmented DiTLs over on the forum. Well, no, I can read just fine. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> What I mean is, reading them was more like sitting back with a book. While I love to read books, when I'm on the forum or on the wiki there are many posts/threads to read and I'd just as soon not spend 45 minutes reading one monster post after another. 
+</p>
+<p>
+OTOH, there's at least one poster (I forget who) who wanted no comments at all and was quite concerned about flow. That's fine, too. I just think if you're going to post that way, you ought to warn your readers. 
+</p>
+<p>
+Also, I just had an idea a few minutes ago. What if we had a round-robin story-writing thing? We could post a sign-up list, and then each person could do their writing and cross their name off the list and let the next person go.... or something... maybe do it all on different pages (no peeking) and combine it at the end.... anyway.... I have to get back to work. Later! 
+</p>
+<p>
+<strong><a href="./LandrusTheAstonished">LandrusTheAstonished</a></strong>: I do have a Very Stupid Question&#8482; - what are all the trademarks about as in Bad Thing&#8482;? I recognize, what it should mean and I have seen it all over different places in blogs and so on, but I am curious were this originated from. Does anybody know this? The orogin of those trademarks? Maybe a page dedicated to this? 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  That'd be me, I suppose&#8230; <img src="./wiki/classic/img/redface.png" alt=":o" height="15" width="15">  Mostly humorous affectation, at least in my case, but it draws some of its heritage from <a class="external" href=".www.catb.org/~esr/jargon/html/0/TM.html"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">a bit of hacker jargon</a>.  And Now You Know&#8482;. <img src="./wiki/classic/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./LandrusTheAstonished">LandrusTheAstonished</a></strong>: Hmm, not exactly you alone. At least the "Bad Thing&#8482;" is wildly used in newsgroups mailinglists and so on. So I thought it shared some more common thought. See <a class="external" href=".www.catb.org/~esr/jargon/html/B/Bad-Thing.html"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">hacker jargon: Bad Thing</a>. 
+</p>
+</div><div id="footer">
+
+
+<a href="./DayInTheLifeArchive?action=refresh&amp;arena=Page.py&amp;key=DayInTheLifeArchive.text_html">RefreshCache</a> for this page (cached 2005-03-05 04:15:52)<br>
+<p><a href="./DayInTheLifeArchive?action=edit">EditText</a> of this page (last edited 2005-02-28 15:44:28 by <span title="yale128036117123.med.yale.edu">EwanMcNay</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 04:18:22 Mar 09, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:48 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 158.705
+  exclusion.robots: 0.094
+  exclusion.robots.policy: 0.086
+  RedisCDXSource: 15.912
+  esindex: 0.008
+  LoadShardBlock: 116.986 (3)
+  PetaboxLoader3.datanode: 151.996 (4)
+  CDXLines.iter: 22.682 (3)
+  load_resource: 80.187
+  PetaboxLoader3.resolve: 20.587
+-->

@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Skill gains - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fSkill_20gains?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fSkill_20gains?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fSkill_20gains?action=fullsearch&amp;value=%2FSkill+gains&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Skill gains</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fSkill_20gains?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fSkill_20gains">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fSkill_20gains?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fSkill_20gains?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fSkill_20gains?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fSkill_20gains?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fSkill_20gains?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fSkill_20gains?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fSkill_20gains?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fSkill_20gains?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fSkill_20gains?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fSkill_20gains">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I wanted to make a ranger, and I thought... why should a ranger buy tree walking?  (Shouldn't it come by itself?) <p>
+Currently if your skill in demonology is &gt; 25 you gain resist confusion. 
+</p>
+<p>
+How about at nature skill 20 you gain tree walking?  I know it has a prerequisite at the moment... but flying is just like tree walking, so tree walking is not really worth all that much.  Let people with big enough nature skill (not from sorcery) gain tree walking. 
+</p>
+<p>
+I also thought that trapping seems to be a natural ranger ability.  So, how about disarm at 15, and nature at 15 you gain (or ala dual school level 30) gain trapping for free.  Trapping however seemed from Wastrels victory to have enourmous potential, albeit by tedious preperation. 
+</p>
+<p>
+While I am on rangers... (This should be reported in bugs though)... It says in the description of a ranger that it is able in hand to hand combat as well, but doesn't gain anything extra to Combat or weaponmastery. 
+</p>
+<p>
+Now, I want to suggest that other skills do the same. 
+</p>
+<p>
+How about combat adds Combat@10 to your hit dice.  (Then remove some of the huge +'s some classes get to Hit dice).  The inverse of sorcery?  Currently warriors gain res fear at level 30 (25?), why not connect this to combat rather? 
+</p>
+<p>
+Fire magic school at 25 gives resist fire.  And immunity at 50.  Same for all the others.  (Though immunity might be too much, but in 300 gain extra resist at your school's ability). 
+</p>
+<p>
+Conveyance  might give the ability of swap posistion (though I think it's a spell already). 
+</p>
+<p>
+Mind would give confusion resistance, and / or maybe chaos. 
+</p>
+<p>
+Meta could be disenchantment resistance. 
+</p>
+<p>
+There can be lots of possibilities if you think about them... 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Yeah, some interesting ones there. I'm redoing Mindcrafters at the mo' and turning them into a school magicians variant, and I've been wondering what abilities high levels of certain skill (Magic Schools especially) should bestow. However, I think a lot of them should be bestowed by way of cheaper Talents rather than for free. Perhaps the resistances could be "bought" for a low cost (say 3-4 points) at Skill Level 35-40. So you can cover the Resists intrinsically if you're prepared to sacrifice points for it. Trapping... well I tend to agree with you, but think that perhaps it should be restricted to Rogues (for mine, an underpowered class) as a free ability..+.  
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fSkill_20gains?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fSkill_20gains.text_html">RefreshCache</a> for this page (cached 2004-08-12 03:08:46)<br>
+<p><a href="./IdeaArchive_2fSkill_20gains?action=edit">EditText</a> of this page (last edited 2004-08-12 03:08:44 by <span title="ncao.vtcif.telstra.com.au"><a href="./RavenRed">RavenRed</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:14:50 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:54 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1246.618
+  exclusion.robots: 0.077
+  exclusion.robots.policy: 0.071
+  RedisCDXSource: 1.54
+  esindex: 0.009
+  LoadShardBlock: 1224.187 (3)
+  PetaboxLoader3.datanode: 1212.321 (4)
+  CDXLines.iter: 18.604 (3)
+  load_resource: 164.491
+  PetaboxLoader3.resolve: 125.486
+-->

@@ -1,0 +1,1279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Skills/Mimicry - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fSkills_2fMimicry?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fSkills_2fMimicry?action=print">
+<link rel="Up" href="/Spoilers_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fSkills_2fMimicry?action=fullsearch&amp;value=%2FMimicry&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Skills/Mimicry</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fSkills_2fMimicry?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fSkills_2fMimicry">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fSkills_2fMimicry?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fSkills_2fMimicry?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fSkills_2fMimicry?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fSkills_2fMimicry?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fSkills_2fMimicry?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fSkills_2fMimicry?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fSkills_2fMimicry?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fSkills_2fMimicry?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fSkills_2fMimicry?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fSkills_2fMimicry">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-5d3ef4b3b3ad677e0b936570c4844b154ddddffe">Mimicry</h2>
+<h2 id="head-944b46078941d6bb66dfff0ff43314b8d261d97c">Mimic shapes</h2>
+The mimic shapes changed slightly in ToME 2.3.0 and 3.0.0. Information about the 2.2.7 version are available in the <a class="external" href="./www.killerbunnies.org/angband/skill-220.html">ToME 2.2.x Skill Spoiler Page</a>. <p>
+For shapeshifting through the Mimicry skill, Level is always the Mimicry skill level and Duration is Mimicry skill@1000 + 50.  
+</p>
+<p>
+A shapeshiftig can be ended by: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ using the Mimicry power again, 
+</p>
+</li>
+    <li>
+<p>
+ the Disperse Magic spell at level 20, 
+</p>
+</li>
+    <li>
+<p>
+ the building action <em>Morph restoration</em>. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-7687a1481d440b21e4dffde2866235d9e617d549">Nature Realm</h3>
+<h4 id="head-573dd2c2ed953b97e3c31f3090925fe92109b779">Mouse</h4>
+<em>Mice are small, fast and very stealthy</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mimicry while wearing a Mouse Fur 
+</p>
+</li>
+    <li>
+<p>
+ Available by quaffing a Morphic Oil [Mouse] 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = 2/3 of the character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration 20 - 40 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR -5, DEX +3, CON +1 
+        </ul>
+
+
+    <li>
+<p>
+ Boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed + 5 + (level/7) 
+</p>
+</li>
+        <li>
+<p>
+ Melee to hit bonus + 10 + (level/5) 
+</p>
+</li>
+        <li>
+<p>
+ Melee to damage bonus is divided by 5. 
+</p>
+</li>
+        <li>
+<p>
+ Stealth ability + 10 + (level/5) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Powers 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Invisibility at level 30 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-0af99bc6a304e3cb601d31ecdf545bbe6a663826">Eagle</h4>
+<em>Eagles are master of the air, good hunters with excellent vision</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mimicry while wearing a Feathers Cloak 
+</p>
+</li>
+    <li>
+<p>
+ Available by quaffing a Morphic Oil [Eagle] 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = 2/3 of the character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration 10 - 50 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR -3, DEX + 2 + (level/15), CON + 4 + (level/20),   INT -1, WIS +1, CHR -1 
+        </ul>
+
+
+    <li>
+<p>
+ Boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Levitation 
+</p>
+</li>
+        <li>
+<p>
+ Speed + 2 + (level/6) 
+</p>
+</li>
+        <li>
+<p>
+ Fly and See Invisible at level 20 
+</p>
+</li>
+        <li>
+<p>
+ Free Action at level 25 
+</p>
+</li>
+        <li>
+<p>
+ Resist Electricity at level 30 
+</p>
+</li>
+        <li>
+<p>
+ Electric Sheet at level 40 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-5b7c6cb41497b133dfac39dccd346e44530679ee">Wolf</h4>
+<em>Wolves are masters of movement, strong and have excellent eyesight</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mimicry while wearing a Wolf Pelt 
+</p>
+</li>
+    <li>
+<p>
+ Available by quaffing a Morphic Oil [Wolf] 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = 2/3 of the character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration 10 - 50 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR 2 + (level/20), DEX + 3 + (level/20), INT -3, CHR -2 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed + 10 + (level/5) 
+</p>
+</li>
+        <li>
+<p>
+ Free Action 
+</p>
+</li>
+        <li>
+<p>
+ Resist Fear 
+</p>
+</li>
+        <li>
+<p>
+ Resist Cold at level 10 
+</p>
+</li>
+        <li>
+<p>
+ See Invisible at level 15 
+</p>
+</li>
+        <li>
+<p>
+ Resist Dark at level 30 
+</p>
+</li>
+        <li>
+<p>
+ Resist Confusion at level 35 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-7d09d488b5d724ce60a92626090aae74d75df435">Spider</h4>
+<em>Spiders are clever and become good climbers</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mimicry while wearing a Spider Web 
+</p>
+</li>
+    <li>
+<p>
+ Available by quaffing a Morphic Oil [Spider] 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = 2/3 of the character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration 10 - 50 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR -4, DEX + 1 + (level/8), INT + 1 + (level/5),   WIS + 1 + (level/5), CON -5, CHR -10 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed + 5 
+</p>
+</li>
+        <li>
+<p>
+ Resist Poison 
+</p>
+</li>
+        <li>
+<p>
+ Resist Fear 
+</p>
+</li>
+        <li>
+<p>
+ Resist Dark 
+</p>
+</li>
+        <li>
+<p>
+ Climb Webs 
+</p>
+</li>
+        <li>
+<p>
+ Climb Mountains at level 40 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Powers 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Spit Webs at level 25 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-8be023a4875a3feb65a5092c89753d53033e2767">Elder Ent</h4>
+<em>Ents are powerful tree-like beings dating from the dawn of time</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mimicry while wearing an Entish Bark 
+</p>
+</li>
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR + (level/5), DEX -4, INT - (level/7), WIS - (level/7),   CON + (level/5), CHR -7 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed - 5 - (level / 10) 
+</p>
+</li>
+        <li>
+<p>
+ Armour bonus + 10 + level 
+</p>
+</li>
+        <li>
+<p>
+ Resist Poison 
+</p>
+</li>
+        <li>
+<p>
+ Resist Cold 
+</p>
+</li>
+        <li>
+<p>
+ Free Action 
+</p>
+</li>
+        <li>
+<p>
+ Regenerate 
+</p>
+</li>
+        <li>
+<p>
+ See Invisible 
+</p>
+</li>
+        <li>
+<p>
+ Sensible to Fire 
+</p>
+</li>
+        <li>
+<p>
+ Tree Walking 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Powers 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Grow Trees 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-7fdd5fd4a8d594b6cc0ecb23beda9d71bfb5e18f">Vapour</h4>
+<em>A sentient cloud, darting around</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mimicry while wearing a Cloak of Mist 
+</p>
+</li>
+    <li>
+<p>
+ Available by quaffing a Morphic Oil [Vapour] 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = 2/3 of the character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration 10 - 40 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR -4, DEX +5, CON -4, CHR -10 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed + 5 
+</p>
+</li>
+        <li>
+<p>
+ Armour bonus + 40 + level 
+</p>
+</li>
+        <li>
+<p>
+ To hit bonus -40 
+</p>
+</li>
+        <li>
+<p>
+ Stealth ability +10 + (level/5) 
+</p>
+</li>
+        <li>
+<p>
+ Resist Poison 
+</p>
+</li>
+        <li>
+<p>
+ Immune to Cold 
+</p>
+</li>
+        <li>
+<p>
+ Resist Shards 
+</p>
+</li>
+        <li>
+<p>
+ Free Action 
+</p>
+</li>
+        <li>
+<p>
+ Regenerate 
+</p>
+</li>
+        <li>
+<p>
+ Sensible to Fire 
+</p>
+</li>
+        <li>
+<p>
+ Levitation 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-2602590405fc2fdaf971017afdbfd563166a6c71">Serpent</h4>
+<em>Serpents are fast, lethal predators</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mimicry while wearing a Snakeskin Cloak 
+</p>
+</li>
+    <li>
+<p>
+ Available by quaffing a Morphic Oil [Serpent] 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = 2/3 of the character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration 15 - 20 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR +(level/8), DEX -4, INT -6, WIS -6, CON +(level/7), CHR -6 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed + 10 + (level/6) 
+</p>
+</li>
+        <li>
+<p>
+ Armour bonus + 3 + (level/8) 
+</p>
+</li>
+        <li>
+<p>
+ Resist Poison 
+</p>
+</li>
+        <li>
+<p>
+ Free Action at level 25 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-8461649bb067ab96d13809e4bff5259ccf17cde7">Mumak</h4>
+<em>A giant, elaphantine form</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mimicry while wearing a Mumak Hide 
+</p>
+</li>
+    <li>
+<p>
+ Available by quaffing a Morphic Oil [Mumak] 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = 2/3 of the character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration 15 - 20 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR +(level/4), DEX -5, INT -8, WIS -4, CON +(level/3), CHR -10 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed - 5 - (level/10) 
+</p>
+</li>
+        <li>
+<p>
+ Armour bonus+ 10 + (level/6) 
+</p>
+</li>
+        <li>
+<p>
+ Damage bonus + 5 + (2*level)/3 
+</p>
+</li>
+        <li>
+<p>
+ Resist Fear at level 10 
+</p>
+</li>
+        <li>
+<p>
+ Resist Confusion at level 25 
+</p>
+</li>
+        <li>
+<p>
+ Free Action at level 30 
+</p>
+</li>
+        <li>
+<p>
+ Resist Nexus at level 35 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-8d7bf5bf136e81f9388c1f4eca050d6d94e965d7">Others</h3>
+<h4 id="head-c61977afa701a7f9e52eaade38164a3d12924e0f">Abomination</h4>
+<em>Abominations are failed experiments of powerful wizards.</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through mis-used Mimicry powers 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration = 30 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Available through the RBE_ABOMINATION attack 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = 50 
+</p>
+</li>
+        <li>
+<p>
+ Duration = damage of the attack 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  All stats (STR, DEX, INT, WIS, CON, CHR) -10 
+        </ul>
+
+
+    <li>
+<p>
+ Other effects 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed - 10 
+</p>
+</li>
+        <li>
+<p>
+ Aggravate 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-7b9f56b445e86e6a3c8212077d155af244bb66e9">Bear</h4>
+<em>A fierce, terrible bear</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through the Turn into Bear power of Beornings only 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration 150 + level * 10 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR + (level/11), INT +(level/11), WIS +(level/11),   DEX -1, CON +(level/11), CHR -10 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Speed - 5 + (level/5) 
+</p>
+</li>
+        <li>
+<p>
+ Armour bonus + 5 + (2*level)/3 
+</p>
+</li>
+        <li>
+<p>
+ Free Action at level 10 
+</p>
+</li>
+        <li>
+<p>
+ Regenerate at level 20 
+</p>
+</li>
+        <li>
+<p>
+ Resist Confusion at level 30 
+</p>
+</li>
+        <li>
+<p>
+ Resist Nexus at level 35 
+</p>
+</li>
+        <li>
+<p>
+ Uses the Bearform-combat in melee 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-de8e3af8571abda99c77b59a8d4bbc3ebbe44060">Balrog</h4>
+<em>A corrupted maia</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through the Melkor spell <em>Flame of Udun</em> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = spell level of the Flame of Udun spell 
+</p>
+</li>
+        <li>
+<p>
+ Duration = spell level@30 + 5 + 1d15 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Available through the full set of Balrog corruptions 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration = level / 2 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR +5+(level/5), DEX +(level/10), INT +(level/10),   WIS -5-(level/10), CON +5+(level/5), CHR -5-(level/10) 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Immune to Fire 
+</p>
+</li>
+        <li>
+<p>
+ Immune to Electricity 
+</p>
+</li>
+        <li>
+<p>
+ Immune to Acid 
+</p>
+</li>
+        <li>
+<p>
+ Resist Poison 
+</p>
+</li>
+        <li>
+<p>
+ Resist Dark 
+</p>
+</li>
+        <li>
+<p>
+ Resist Chaos 
+</p>
+</li>
+        <li>
+<p>
+ Hold Life 
+</p>
+</li>
+        <li>
+<p>
+ Levitation 
+</p>
+</li>
+        <li>
+<p>
+ Regeneration 
+</p>
+</li>
+        <li>
+<p>
+ Fire Sheat 
+</p>
+</li>
+        <li>
+<p>
+ +1 Bonus Blow 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-2804f8e4ec72774ed5355597a828309107bfa6f0">Maia</h4>
+<em>A near god-like being</em> 
+    <ul>
+
+    <li>
+<p>
+ Available through the Manwe spell <em>Avatar</em> only 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Level = character level 
+</p>
+</li>
+        <li>
+<p>
+ Duration = spell level@20 + 1d10 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Stat mods 
+</p>
+</li>
+
+        <ul>
+
+  STR +5+(level/5), DEX +5+(level/5), INT +5+(level/5),   WIS +5+(level/5), CON +5+(level/5), CHR +5+(level/5) 
+        </ul>
+
+
+    <li>
+<p>
+ Other boni 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Immune to Fire 
+</p>
+</li>
+        <li>
+<p>
+ Immune to Electricity 
+</p>
+</li>
+        <li>
+<p>
+ Immune to Acid 
+</p>
+</li>
+        <li>
+<p>
+ Immune to Cold 
+</p>
+</li>
+        <li>
+<p>
+ Resist Poison 
+</p>
+</li>
+        <li>
+<p>
+ Resist Light 
+</p>
+</li>
+        <li>
+<p>
+ Resist Dark 
+</p>
+</li>
+        <li>
+<p>
+ Resist Chaos 
+</p>
+</li>
+        <li>
+<p>
+ Hold Life 
+</p>
+</li>
+        <li>
+<p>
+ Levitation 
+</p>
+</li>
+        <li>
+<p>
+ Regeneration 
+</p>
+</li>
+        <li>
+<p>
+ +2 Bonus Blows 
+</p>
+</li>
+</ul>
+
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fSkills_2fMimicry?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fSkills_2fMimicry.text_html">RefreshCache</a> for this page (cached 2005-11-04 15:37:08)<br>
+<p><a href="./Spoilers_2fSkills_2fMimicry?action=edit">EditText</a> of this page (last edited 2004-11-21 12:47:08 by <span title="dialin-145-254-145-102.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 02:05:07 Nov 25, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:49 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 140.24
+  exclusion.robots: 0.119
+  exclusion.robots.policy: 0.11
+  RedisCDXSource: 2.57
+  esindex: 0.008
+  LoadShardBlock: 112.17 (3)
+  PetaboxLoader3.datanode: 87.201 (4)
+  CDXLines.iter: 22.421 (3)
+  PetaboxLoader3.resolve: 60.566 (2)
+  load_resource: 96.216
+-->

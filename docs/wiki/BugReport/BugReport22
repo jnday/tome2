@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport22 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport22?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport22?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport22?action=fullsearch&amp;value=BugReport22&amp;literal=1&amp;case=1&amp;context=40">BugReport22</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport22?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport22">View</a></li>
+<li><a title="Diffs" href="./BugReport22?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport22?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport22?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport22?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport22?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport22?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport22?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport22?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport22?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport22">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+BugReport22:  <p>
+2.3.0 CVS of Jul 5 
+</p>
+<p>
+First ten turns of life of an Ent lostsoul. I find a potion, ID it (!oSelfKnowledge) and quaff.                      
+</p>
+<p>
+The screen shows the usual things; I'm unlucky, I see invisible, etc. At the end it says I resist fire. Not "sensitive", as the "C" screen says, and as I expect, being an Ent, but "resistant".  
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Equipment? 
+</p>
+<p>
+Bandobras: Nope. And the "C" screen says "sensitive", not "resistant". Perhaps some random hardware bug. We'll see. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Cannot reproduce this. Did you perhaps quaff a Potion of Resistance or a Potion of Resist Heat?  
+</p>
+<p>
+Bandobras: I reproduce it constantly. Ent sorceror, worshiping Melkor, lostsoul. On the first turn after character generation I enter debug commands, create !oSelfKnowledge, quaff and see "resistant to fire", despite the "C" screen saying "sensitive". Works also on the 2nd turn, e.g. after praying. The compile is after a fresh     chekcout, so no old raw files aroung. Savefile is fresh, too. I tried tis with exactly the same character, but worshiping Eru, and this time "vulnerable". Hmmm...  
+</p>
+<p>
+Bandobras: Now I see.  
+</p>
+<p>
+p_ptr-&gt;resist_fire = TRUE; 
+</p>
+<p>
+after 
+</p>
+<p>
+GOD(GOD_MELKOR) 
+</p>
+<p>
+in xtra1.c. 
+</p>
+<p>
+The bug lies in that this is not documented, is not shown in the "C" screen, and moreover not even shown in the wizard mode! While we are at that, could I make a wish that the knowledge of item's effects be handled in TOME such as it is in new Vanillia? I mean, why should I *ID* boots of levitation to learn they grant levitation (the same for boots of stability). And why should I quaff !ofSelfKnowledge to learn my god grants me some resistance? Let us leave the secrets in true artifacts and in items that have random powers, I think the rest should be visible, as in Vanillia.  
+</p>
+<p>
+Thank you for your help. Now what do we do with this bug? Is there a section for whishlist items? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I've added the flags given by the gods to the '@' column and added a line to the help file for Melkor. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: The section for wishlist items is the <a href="./IdeaArchive">IdeaArchive</a> (for the game) and Wiki Suggestions (for the wiki itself.) 
+</p>
+<p>
+A very minor point: I agree with you about Boots of Levitation, but I disagree re: Boots of Stability. An inexperienced player might not know what "Stability" translates to in the game. Does it provide "Hold Sanity"? Does it make you resistant to fear and/or confusion? Does it keep you from being knocked off your feet?.... etc. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport22?action=refresh&amp;arena=Page.py&amp;key=BugReport22.text_html">RefreshCache</a> for this page (cached 2004-08-02 16:34:07)<br>
+<p><a href="./BugReport22?action=edit">EditText</a> of this page (last edited 2004-08-02 16:34:05 by <span title="user-uiveq8f.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:36:51 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:31:45 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 130.794
+  exclusion.robots: 0.088
+  exclusion.robots.policy: 0.08
+  RedisCDXSource: 19.245
+  esindex: 0.008
+  LoadShardBlock: 89.137 (3)
+  PetaboxLoader3.datanode: 112.611 (4)
+  CDXLines.iter: 19.882 (3)
+  load_resource: 69.466
+  PetaboxLoader3.resolve: 38.491
+-->

@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/ToME Macro FAQ - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fToME_20Macro_20FAQ?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fToME_20Macro_20FAQ?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fToME_20Macro_20FAQ?action=fullsearch&amp;value=%2FToME+Macro+FAQ&amp;literal=1&amp;case=1&amp;context=40">Documentation/ToME Macro FAQ</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fToME_20Macro_20FAQ?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fToME_20Macro_20FAQ">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fToME_20Macro_20FAQ?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fToME_20Macro_20FAQ?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fToME_20Macro_20FAQ?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fToME_20Macro_20FAQ?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fToME_20Macro_20FAQ?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fToME_20Macro_20FAQ?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fToME_20Macro_20FAQ?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fToME_20Macro_20FAQ?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fToME_20Macro_20FAQ?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fToME_20Macro_20FAQ">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Copyright 2000 Jim Lyon and others. Redistribution of unaltered copies of this document is permitted without restriction. Distribution of altered copies is permitted without restriction as long as the alteration does not significantly alter the content. (For example, translation and conversion to another format is permitted.) Distribution of all other altered copies is permitted as long as credit for previous authors is maintained, the contact information is replaced with that of the alterer, and redistribution is not further restricted. <p>
+Original Angband Macro FAQ by Jim Lyon (<a href="http://web.archive.org/web/20041020134007/mailto:jplyon@attglobal.net">jplyon@attglobal.net</a>) 09-Dec-2000. Compiled from usenet postings to r.g.r.a. and Angband source &amp; documentation. 
+</p>
+<p>
+Edited for <a href="./PernAngband">PernAngband</a> V5.x.x by Dawnmist with permission from Jim Lyon August 2001. Formatting for ToME 2.2.x wiki (June 2004) by <a href="./MayLith">MayLith</a>. 
+</p>
+<h3 id="head-aa07953722cf47f5ac8305861bc6173a9a42cc5c">About this FAQ</h3>
+<p>
+This FAQ is mean to be a companion to the standard ToME help files for using inscriptions, macros, and keymaps. The ToME help files which also describe them are listed in the "References" section. 
+</p>
+<p>
+This documentation is for ToME, version 4.2.x. <em><a href="./MayLith">MayLith</a>: uhh???</em> 
+</p>
+<p>
+<strong>SPOILER ALERT</strong> 
+</p>
+<p>
+This document gives some information on how the game does or doesn't work that might be considered spoiling. Most players advanced enough to use macros probably won't notice. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fIntroduction">/Introduction</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fQuick_20start_20tutorial">/Quick start tutorial</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fOverview">/Overview</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fCommon_20macros_20and_20techniques">/Common macros and techniques</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fCommon_20questions">/Common questions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fCommon_20problems">/Common problems</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fItem_20inscriptions_20added_20by_20the_20game">/Item inscriptions added by the game</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fKeys_20and_20commands">/Keys and commands</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fPref_20files">/Pref files</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fMacro_20editing_20commands">/Macro editing commands</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fAdvanced_20macro_20techniques">/Advanced macro techniques</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fProblems">/Problems</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fToME_20Macro_20FAQ_2fMiscellaneous">/Miscellaneous</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fToME_20Macro_20FAQ?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fToME_20Macro_20FAQ.text_html">RefreshCache</a> for this page (cached 2004-08-04 08:32:00)<br>
+<p><a href="./Documentation_2fToME_20Macro_20FAQ?action=edit">EditText</a> of this page (last edited 2004-06-27 00:50:00 by <span title="user-2iverfa.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:40:07 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:40:26 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.095
+  exclusion.robots: 0.132
+  exclusion.robots.policy: 0.123
+  esindex: 0.009
+  load_resource: 679.691
+  CDXLines.iter: 17.409 (3)
+  captures_list: 85.284
+  PetaboxLoader3.datanode: 731.703 (4)
+  LoadShardBlock: 63.356 (3)
+-->

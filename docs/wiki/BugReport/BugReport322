@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport322 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport322?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport322?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport322?action=fullsearch&amp;value=BugReport322&amp;literal=1&amp;case=1&amp;context=40">BugReport322</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport322?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport322">View</a></li>
+<li><a title="Diffs" href="./BugReport322?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport322?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport322?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport322?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport322?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport322?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport322?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport322?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport322?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport322">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+There appear to be some serious typos in the subrace section of <tt>lib/p_info.txt</tt>.  For instance, here's the definition of the Spectre subrace: 
+<pre>S:N:2:Spectre
+S:D:B:Spectres only partially exist in the mortal world and so they can
+S:D:B:pass through walls. They are somewhat physically weak.
+S:S:-5:1:1:2:-3:-6:-3:105
+S:K:2:8:7:2:2:7:-5:-2
+S:P:-4:80:3
+S:M:50:15:0:0:-10:-5:0:0:-10:-5
+S:E:0:0:0:0:0:0
+S:A:Human | Half-Elf | Elf | Hobbit | Gnome | Dwarf |
+S:A:Orc | Troll | Dunadan | High-Elf | Half-Ogre | Beorning |
+S:A:Kobold | Petty-Dwarf | Dark-Elf | RohanKnight | Yeek | Wood-Elf |
+S:C:F:Warrior | Archer
+S:G:UNDEAD | NO_CUT | NO_FOOD | SEMI_WRAITH | NO_SUBRACE_CHANGE
+S:R:1:0
+S:F:SEE_INVIS | HOLD_LIFE |
+S:F:SLOW_DIGEST | RES_COLD | RES_POIS | RES_NETHER |
+S:O:70:32:2d3
+R:k:+200:+000:Disarming
+R:k:+800:+000:Magic-Device
+R:k:+700:+000:Spirituality
+R:k:+2000:+000:Stealth
+R:k:+200:+000:Sneakiness
+R:k:-500:+000:Weaponmastery
+R:k:-200:+000:Archery
+</pre>Those <tt>R:k:</tt> lines are supposed to be <tt>S:k:</tt>, yes?  <tt>R:k:</tt> would, I think, just apply it to the last defined race, Maia.  I've done a few tests to confirm my suspicions:  this, for instance, is the starting skill allocation for a level-1 Maia Warrior: 
+<pre> - Combat                                        02.000 [0.800]
+          - Weaponmastery                        00.500 [0.850]
+                   . Sword-mastery               00.000 [0.400]
+                   . Axe-mastery                 00.000 [0.400]
+                   . Hafted-mastery              00.000 [0.400]
+                   . Polearm-mastery             00.000 [0.400]
+          . Archery                              00.500 [0.600]
+          . Antimagic                            00.000 [0.550]
+ - Sneakiness                                    01.400 [0.900]
+          . Stealth                              03.000 [0.400]
+          . Disarming                            01.500 [0.900]
+ - Magic                                         01.000 [0.300]
+          . Magic-Device                         02.000 [1.150]
+ . Spirituality                                  01.500 [0.400]
+ . Monster-lore                                  00.000 [0.500]
+</pre>IINM, Weaponmastery should be 1.000 here; I think we're getting the -0.500 from the Hermit subrace, the last one with an <tt>R:k</tt> line for Weaponmastery.  And here's the starting skill allocation for a Human Barbarian Warrior: 
+<pre> - Combat                                        02.000 [0.800]
+          - Weaponmastery                        01.000 [0.850]
+                   . Sword-mastery               00.000 [0.400]
+                   . Axe-mastery                 00.000 [0.400]
+                   . Hafted-mastery              00.000 [0.400]
+                   . Polearm-mastery             00.000 [0.400]
+          . Archery                              01.000 [0.600]
+          . Antimagic                            00.000 [0.550]
+ - Sneakiness                                    01.000 [0.900]
+          . Stealth                              00.000 [0.400]
+          . Disarming                            01.000 [0.900]
+ - Magic                                         01.000 [0.300]
+          . Magic-Device                         01.000 [1.150]
+ - Spirituality                                  01.000 [0.400]
+          . Prayer                               00.000 [0.500]
+ . Monster-lore                                  00.000 [0.500]
+</pre>IINM, Magic-Device should be 0.000 here; the -1.000 modifier that should have come from the Barbarian subrace got applied to the Maia race instead&#8212;and then overwritten by the Hermit's +1.000 modifier, which explains the Maia Warrior's 2.000 Magic-Device level. <p>
+Changing the <tt>R:k:</tt> lines in the subrace section to <tt>S:k:</tt> appears to fix these anomalies. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport322?action=refresh&amp;arena=Page.py&amp;key=BugReport322.text_html">RefreshCache</a> for this page (cached 2005-01-06 03:22:01)<br>
+<p><a href="./BugReport322?action=edit">EditText</a> of this page (last edited 2005-01-06 03:21:59 by <span title="adsl-065-081-085-051.sip.rdu.bellsouth.net"><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 05:52:17 Apr 12, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:33:53 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 75.951
+  exclusion.robots: 0.163
+  exclusion.robots.policy: 0.15
+  RedisCDXSource: 1.882
+  esindex: 0.014
+  LoadShardBlock: 47.444 (3)
+  PetaboxLoader3.datanode: 54.66 (4)
+  CDXLines.iter: 22.934 (3)
+  load_resource: 71.763
+  PetaboxLoader3.resolve: 42.756
+-->

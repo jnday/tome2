@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Classes/Mindcrafter - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fClasses_2fMindcrafter?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fClasses_2fMindcrafter?action=print">
+<link rel="Up" href="/Spoilers_2fClasses">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fClasses_2fMindcrafter?action=fullsearch&amp;value=%2FMindcrafter&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Classes/Mindcrafter</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fClasses">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fClasses_2fMindcrafter?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fClasses_2fMindcrafter">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fClasses_2fMindcrafter?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fClasses_2fMindcrafter?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fClasses_2fMindcrafter?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fClasses_2fMindcrafter?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fClasses_2fMindcrafter?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fClasses_2fMindcrafter?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fClasses_2fMindcrafter?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fClasses_2fMindcrafter?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fClasses_2fMindcrafter?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fClasses_2fMindcrafter">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+(Written for 2.2.7. 2.3.0 will change the balance issues talked of here.) <p>
+A mindcrafter is like a warrior mage - except that they don't do magic. They have access to the bookless <a class="nonexistent" href="./Skills_2fMindcraft">Skills/Mindcraft</a> skill which works like magic but isn't. Still, a mindcrafter is well advised to invest in <a class="nonexistent" href="./Skills_2fMagic">Skills/Magic</a> to get some more mana. Maximizing Magic will not usually be necessary since the mindcraft skill takes less mana than mage spells. 
+</p>
+<p>
+In the early game a mindcrafter should make good use of Precognition to avoid being surprised by monsters and to detect traps. Precognition is a great "spell", particularly on higher levels. It will be probably be your most used one during the entire game. You should use a combination of melee and the first mindcraft distance attacks. Mindblast, while weak, is good in the early game for monster that are not mindless, smart, or stupid. Pulverize does more damage and works against nearly any monster, and when it levels it becomes a ball, which makes it even more powerful against groups of monsters. Also, casting minor displacement in a bind can save you. 
+</p>
+<p>
+In the midgame a mindcrafter's mental attack powers are at their most effective. Soon after getting line-of-sight mindwave one should be able to take down orc pits with a few castings. Later one can demolish troll pits with ease. This is good to do for fun, profit, and experience points. 
+</p>
+<p>
+In the late game plentiful demons and undeads are not safe to mindwave, and in <a href="./Spoilers_2fDungeons_2fAngband">Spoilers/Dungeons/Angband</a> everything starts to have a huge number of hitpoints anyway. Mindcraft attacks simply do not scale that high. Consequently, one needs to kill monsters the warrior way and use mindcraft for detection, combat boosting (you'll need that), and teleportation. Buying both extra attack abilities and maximizing <a class="nonexistent" href="./Skills_2fWeaponmastery">Skills/Weaponmastery</a> is recommended. High-level minor displacement creates void jumpgates, which is a good idea to keep in mind. Monsters can't use void jumpgates, but the player can. 
+</p>
+<p>
+Since a mindcrafter will end up more than half warrior, Tulkas is the most recommendable god for him or her. 
+</p>
+<p>
+(how about Fumble Finger's mindcraft skill instead of the class? How much is worth it?) 
+</p>
+<p>
+^Fumble Finger's mindcraft skill is worth a LOT, especially to warriors.  Detection, haste, double resist, void gate creation, identify and enlightenment later on.  And the most expensive of the spells is only 20SP! 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fClasses_2fMindcrafter?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fClasses_2fMindcrafter.text_html">RefreshCache</a> for this page (cached 2004-09-16 17:27:20)<br>
+<p><a href="./Spoilers_2fClasses_2fMindcrafter?action=edit">EditText</a> of this page (last edited 2004-09-16 17:27:19 by <span title="66.166.248.154=h-66-166-248-154.mclnva23.covad.net">h-66-166-248-154</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:54:18 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:59:14 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 283.255
+  exclusion.robots: 0.139
+  exclusion.robots.policy: 0.123
+  RedisCDXSource: 0.858
+  esindex: 0.009
+  LoadShardBlock: 254.519 (3)
+  PetaboxLoader3.datanode: 265.571 (4)
+  CDXLines.iter: 23.851 (3)
+  load_resource: 103.592
+  PetaboxLoader3.resolve: 55.013
+-->

@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/A little bit poisoned? - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=fullsearch&amp;value=%2FA+little+bit+poisoned%3F&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/A little bit poisoned?</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fA_20little_20bit_20poisoned_3f">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Poison should be implemented a little bit differently so that your poison counter CAN be increased when you have Poison RESISTANCE but not when you have Poison IMMUNITY. In the new Percentile Resistance system, your poison counter would be reduced by the percentile resistance you currently possess. This makes poison a more persistent problem than it currently is, where one resist sees you absolutley right for the whole kit and kaboodle. With the Percentile "Attack" system in CVS, this can also simulate an innocuous, but highly poisonous bite as well as the foul, but not-quite-fatal teeth of Tom The Stone Troll (90/10 split... just for flavour!) <p>
+<a href="./NeilStevens">NeilStevens</a>: Gameplay changes just for flavor? 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Bad wording on my part. What I <em>meant</em> was that the flavour can be enhanced with a variety of damage proportions. A rattlesnake could do almost no Pierce damage, but a lot of poison counter damage. The Stone Troll example was a bit more whimsy than sense. A better example is the claws of a rotting corpse (that are incidentally rather than actively poisonous), which would do a smaller amount of poison damage, as it's more putrescence than venom...  
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: "Poison counter" damage?  Next you'll be having us rename them Marsh Vipers. 
+</p>
+<p>
+Seriously, though, this still is a gameplay change made just for flavor.  A major one, at that, if we combine new poison melee with a need for a new form of immunity. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: For mine, it's putting Poison in a different category to other damage types. Rather than having the poison counter (well fine Mr Neil, sir, tell me what to call it and I will! :) ) as a sideeffect of poison damage, it's the MAIN effect of the GF type. Other types of damage would be applied immediately, but Poison takes TIME to kill you. (though not necessarily a lot of time). It's not just flavour, it does have a gameplay effect and justification.  
+</p>
+<p>
+Da Alchemist comment: Wow. Next you'll be implementing the yearly-reccuring effect of Shelob's special venom! You amaze me! But seriously the poison could be tracked by two variables: how long it will last and how much damage it does per turn. Some poisons are FAST but short-lived while other are just an annoyance but a long-lived one. Is this too complex? 
+</p>
+<p>
+Percentage-based resistance. Cool! 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Er... the above two pars aren't mine, BTW. Well I was seeing the per-turn damage as a progression of the amount left on the "Damage Counter". EG 1-10=1 HP per turn, 10-30=2HP per turn. 40-70=4HP 70-100=8HP per turn. Yes... that's meant to be exponential... 
+</p>
+<p>
+Da alchemist: sort of like the cuts system, all the way to mortal wounds? Yeah poison always seemed silly at high levels with only 1 HP lost per round... in fact enough fire/acid to burn/melt a plate mail in one round on the ground should be a partly persistant effect too, with a different time-delayed damage pattern... 
+</p>
+<p>
+In programmer's terms, code can be made to do this quickly and efficiently if an actual class is used for delayed damage and a sorted chained list is used so you don't have to check for end or change of effect level every turn for every effect! 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: To Clarify... This makes the relative poison resistance more valuable. e.g. If you get hit by a poison attack with a power of 100 and you have POISON=66, your poison counter will only go up to 44 rather than 100. This means that on the next turn you will lose 8HP and that your poison counter will go down by 1 (though the rate of recovery from poison could be linked to CON). Chug that CCW potion NOW, boy! Should you survive long enough for the counter to go down to 70 (240HP later) then you will start to lose 4HP per turn (another 120HP later) until your counter reaches 40, etc. Wheras if you resist the attack to the tune of 66 Poison 'hits', then you will have 4 turns of loss at 4HP per turn, then moving down to 20 turns of loss at 2HP per turn, etc... this would make poison an ongoing issue, but a managable one. When you compare the overall losses from no resistance to resistance, it's 420 to 76. If you had POISON=100 (i.e. Immunity) the loss would be zero. This would make poison more dangerous, even to high level characters, and make sure that one source of poison resist wasn't enough to make a player relaxed about its effects.  
+</p>
+<p>
+Da alchemist: so how will alchemy work in relation to percentage resistance? 100% resist will be available but at the cost of huge amounts of XP (the current XP cost of poison resist is ridiculously low)? 
+</p>
+<p>
+<a href="./amaurea">amaurea</a>: (to Da alchemist): Alchemists as you think of them are not planned for tome3, which is where the percentile resists are. (to <a href="./RavenRed">RavenRed</a>): First you say that the counter only starts at 44, but then you write as if it started at 100, it seems. Or am I misunderstanding something? I like your idea, and I hope poison is implemented like this. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Amaurea, what I meant is that if you apply 100 points of poison damage to a character without poison resistance (which by default is 66), then 100 points will be applied. If a character with Poison Resist of 66 is hit with exactly the same attack, then only 44 of those 100 points will "penetrate" the character's resistance and poison the character. I've always thought that the current implementation of being "resistant" to poison was too close to being immune to it.  
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fA_20little_20bit_20poisoned_3f.text_html">RefreshCache</a> for this page (cached 2004-08-02 16:01:40)<br>
+<p><a href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f?action=edit">EditText</a> of this page (last edited 2004-07-10 04:48:34 by <span title="nmpp-p-144-134-53-170.prem.tmns.net.au"><a href="./RavenRed">RavenRed</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:48:36 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 167.604
+  exclusion.robots: 0.126
+  exclusion.robots.policy: 0.118
+  RedisCDXSource: 1.397
+  esindex: 0.008
+  LoadShardBlock: 144.372 (3)
+  PetaboxLoader3.datanode: 274.324 (4)
+  CDXLines.iter: 19.178 (3)
+  load_resource: 155.055
+-->

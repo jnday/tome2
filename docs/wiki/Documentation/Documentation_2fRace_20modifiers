@@ -1,0 +1,783 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Race modifiers - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fRace_20modifiers?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fRace_20modifiers?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fRace_20modifiers?action=fullsearch&amp;value=%2FRace+modifiers&amp;literal=1&amp;case=1&amp;context=40">Documentation/Race modifiers</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fRace_20modifiers?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fRace_20modifiers">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fRace_20modifiers?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fRace_20modifiers?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fRace_20modifiers?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fRace_20modifiers?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fRace_20modifiers?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fRace_20modifiers?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fRace_20modifiers?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fRace_20modifiers?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fRace_20modifiers?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fRace_20modifiers">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>This page should contain non-spoily information of the type currently contained in the on-line game help. Please put spoiler information in the appropriate place in the <a href="./SpoilerArchive">SpoilerArchive</a>.</strong></em> Thanks.  <hr>
+ <ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-1dd4129242adcb132dd7949ec8cba52555cde859">Classical</a></li>
+<li>
+<a href="#head-110239ffbbd126ade3292572780c4f7e7bbab8d8">Barbarian</a></li>
+<li>
+<a href="#head-2d015b626a67c4f736cc6c3a7cd912b9595aeb52">Hermit</a></li>
+<li>
+<a href="#head-f1622b3720900c9d8a83f3089cb22c9808fc5aa7">Lost Soul</a></li>
+<li>
+<a href="#head-4337ef337ecbae01528ec15aa4029353fd42657c">Skeleton</a></li>
+<li>
+<a href="#head-b5b98ecb2d20a2d9af7f1d9dd996f8bc620ea402">Spectre</a></li>
+<li>
+<a href="#head-490b32463c2e3d6e0f9bcbbab9a331b11de143b3">Zombie</a></li>
+<li>
+<a href="#head-729c85d6be47b19f31c07ca50eff8b2b355c0c90">Vampire</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-2473e96bc614a911821242119918a241a41836d6"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Introduction</h3>
+There are many different race modifiers from which you can choose in ToME. Each one adjusts a character's stats and abilities. Most also grant intrinsic abilities. Some modifiers are race-restricted. If you are not asked for a race modifier during character creation, it is because your race only supports the classical form. Likewise, some races do not support all modifiers. <h3 id="head-1dd4129242adcb132dd7949ec8cba52555cde859"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Classical</h3>
+<p>
+<a href="./Classical">Classical</a> is the normal, classical character of your chosen race. 
+</p>
+
+<div>
+<table>
+<tr>
+<td colspan="2" align="center">
+Stat Modifiers</td>
+</tr>
+<tr>
+<td>
+Strength</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Hit Dice</td>
+<td align="center">
++0 sides</td>
+</tr>
+<tr>
+<td>
+Exp penalty</td>
+<td align="center">
+none</td>
+</tr>
+</table>
+</div>
+<p>
+A classical character begins the game with: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Some rations 
+</p>
+</li>
+    <li>
+<p>
+ Some torches 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-110239ffbbd126ade3292572780c4f7e7bbab8d8"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Barbarian</h3>
+<p>
+<a href="./Barbarian">Barbarian</a>s are hardy members of their race. They are fierce in combat, and their wrath is feared throughout the world. Combat is their life, and they learn to feel no fear. Barbarians are, however, suspicious of magic, which makes  magic devices fairly hard for them to use, and also makes it impossible for  them to play Mages. 
+</p>
+
+<div>
+<table>
+<tr>
+<td colspan="2" align="center">
+Stat Modifiers</td>
+</tr>
+<tr>
+<td>
+Strength</td>
+<td align="center">
++2</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td align="center">
+-3</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td align="center">
+-2</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td align="center">
++1</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td align="center">
++1</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td align="center">
+-3</td>
+</tr>
+<tr>
+<td>
+Hit Dice</td>
+<td align="center">
++1 side</td>
+</tr>
+<tr>
+<td>
+Exp penalty</td>
+<td align="center">
++25%</td>
+</tr>
+</table>
+</div>
+<p>
+A barbarian character begins the game with: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Some rations 
+</p>
+</li>
+    <li>
+<p>
+ Some torches 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-2d015b626a67c4f736cc6c3a7cd912b9595aeb52"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Hermit</h3>
+<p>
+<a href="./Hermit">Hermit</a>s live retired from the world. Spending long hours studying, they  weaken their physical side while they strengthen their spiritual powers.  Thus they get higher mana reserves but are much worse at physical combat. 
+</p>
+
+<div>
+<table>
+<tr>
+<td colspan="2" align="center">
+Stat Modifiers</td>
+</tr>
+<tr>
+<td>
+Strength</td>
+<td align="center">
+-3</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td align="center">
++1</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td align="center">
++1</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td align="center">
+-3</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td align="center">
+-3</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td align="center">
++1</td>
+</tr>
+<tr>
+<td>
+Hit Dice</td>
+<td align="center">
+- 3 sides</td>
+</tr>
+<tr>
+<td>
+Exp penalty</td>
+<td align="center">
++20%</td>
+</tr>
+</table>
+</div>
+<p>
+A hermit begins the game with: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Some rations 
+</p>
+</li>
+    <li>
+<p>
+ Some torches 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-f1622b3720900c9d8a83f3089cb22c9808fc5aa7"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Lost Soul</h3>
+<p>
+<em>This is a difficult modifier.  Your character will almost always die quickly. It's probably best only to play it after you have some experience with normal characters.</em> 
+</p>
+<p>
+There are haunting whispers of souls that have come back from the Halls of Mandos, for purposes unknown.  These are called <a href="./Lost_20Soul">Lost Soul</a>s, for it is presumed that their real body died off long ago, leaving only a soul to wander forever... or until killed again. 
+</p>
+<p>
+Lost Souls start at level 98 of the Halls of Mandos.  Very few ever make it out again.  Those that do can continue as a fairly normal character, but with the advantage of any treasure and experience gained. 
+</p>
+
+<div>
+<table>
+<tr>
+<td colspan="2" align="center">
+Stat Modifiers</td>
+</tr>
+<tr>
+<td>
+Strength</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Hit Dice</td>
+<td align="center">
++0 sides</td>
+</tr>
+<tr>
+<td>
+Exp penalty</td>
+<td align="center">
+none</td>
+</tr>
+</table>
+</div>
+<p>
+A Lost Soul starts the game with: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Some torches. 
+</p>
+</li>
+    <li>
+<p>
+ Over thirty scrolls of Identify. 
+</p>
+</li>
+    <li>
+<p>
+ Over twenty scrolls of Satisfy Hunger. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-4337ef337ecbae01528ec15aa4029353fd42657c"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Skeleton</h3>
+<p>
+As undead beings,<a class="interwiki" title="Self" href="./Skeleton"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">skeleton</a>s need to worry very little about poison or  attacks that can drain life. They do not really use eyes for perceiving  things, and are thus not fooled by invisibility. Their bones are resistant to sharp shrapnels (not much to cut there), and they will quickly become resistant to cold. 
+</p>
+<p>
+It is very hard for skeletons to eat food or drink potions. Although the magical effects of these will affect the skeleton even without entering the  skeleton's (non-existent) belly, the potion / food itself will fall  through the skeleton's jaws, giving no nutritional benefit. 
+</p>
+
+<div>
+<table>
+<tr>
+<td colspan="2" align="center">
+Stat Modifiers</td>
+</tr>
+<tr>
+<td>
+Strength</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td align="center">
+-2</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td align="center">
+-2</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td align="center">
++0</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td align="center">
++1</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td align="center">
+-4</td>
+</tr>
+<tr>
+<td>
+Hit Dice</td>
+<td align="center">
++0 sides</td>
+</tr>
+<tr>
+<td>
+Exp penalty</td>
+<td align="center">
++45%</td>
+</tr>
+</table>
+</div>
+<p>
+A skeletal character begins the game with: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Some scrolls of satisfy hunger 
+</p>
+</li>
+    <li>
+<p>
+ Some torches 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-b5b98ecb2d20a2d9af7f1d9dd996f8bc620ea402"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Spectre</h3>
+<p>
+Another powerful undead creature: the <a class="interwiki" title="Self" href="./Spectre"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">spectre</a> is a ghastly apparition, surrounded by an unearthly glow. They exist only partially on our plane of existence: half-corporeal, they can pass through walls, though  this requires a sacrifice of some of their life-force. As a result  they cannot rest whilst passing through a wall.  
+</p>
+<p>
+As undead, they have a firm hold on their life force, see invisible, and resist poison and cold. They also resist nether.  Spectres make superb spellcasters, but their physical form is very weak.  Like Zombies, Spectres gain almost no nutrition from ordinary food. 
+</p>
+
+<div>
+<table>
+<tr>
+<td colspan="2" align="center">
+Stat Modifiers</td>
+</tr>
+<tr>
+<td>
+Strength</td>
+<td align="center">
+-5</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td align="center">
++4</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td align="center">
++4</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td align="center">
++2</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td align="center">
+-3</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td align="center">
+-6</td>
+</tr>
+<tr>
+<td>
+Hit Dice</td>
+<td align="center">
+-3 sides</td>
+</tr>
+<tr>
+<td>
+Exp penalty</td>
+<td align="center">
++80%</td>
+</tr>
+</table>
+</div>
+<p>
+A spectral character begins the game with: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Some scrolls of satisfy hunger 
+</p>
+</li>
+    <li>
+<p>
+ Some torches 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-490b32463c2e3d6e0f9bcbbab9a331b11de143b3"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Zombie</h3>
+<p>
+Much like Skeletons, <a href="./Zombie">Zombie</a>s too are undead horrors: they are resistant to life-draining attacks, they become resistant to cold-based attacks (actually  earlier than skeletons), resist poison and can see invisible, but are vulnerable to cuts (unlike skeletons). They gain very little nutrition from the food of mortals. However, Zombies are, as the name implies, practically mindless. 
+</p>
+<p>
+IMPORTANT: Zombies are NOT resistant to Nether as stated in 2.2.7! 
+</p>
+
+<div>
+<table>
+<tr>
+<td colspan="2" align="center">
+Stat Modifiers</td>
+</tr>
+<tr>
+<td>
+Strength</td>
+<td align="center">
++2</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td align="center">
+-6</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td align="center">
+-6</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td align="center">
++1</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td align="center">
++4</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td align="center">
+-5</td>
+</tr>
+<tr>
+<td>
+Hit Dice</td>
+<td align="center">
++3 sides</td>
+</tr>
+<tr>
+<td>
+Exp penalty</td>
+<td align="center">
++45%</td>
+</tr>
+</table>
+</div>
+<p>
+A zombie character begins the game with: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Some scrolls of satisfy hunger 
+</p>
+</li>
+    <li>
+<p>
+ Some torches 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-729c85d6be47b19f31c07ca50eff8b2b355c0c90"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Vampire</h3>
+<p>
+One of the mightier undead creatures, the <a href="./Vampire">Vampire</a> is an awe-inspiring  sight. Yet this mighty creature has a serious weakness: the bright rays of sun are its bane, and it will need to flee the surface to the deep  recesses of the earth until the sun finally sets. Darkness, on the other  hand, only makes the Vampire stronger.  
+</p>
+<p>
+As undead, the Vampire has a firm  hold on its life force and resists nether attacks. The Vampire also  resists cold and poison based attacks. It is, however, susceptible to its  perpetual hunger for fresh blood, which can only be satiated by sucking  the blood from a nearby monster, which is the Vampire's special power.  
+</p>
+<p>
+It should be noted that the vampires are so sensitive to daylight that even  certain artifact light items which are filled with daylight will hurt them if they try to wield the items. Fortunately, the vampires do not really  need these items, since they radiate an aura of 'dark light' of their own. Light resistance will, in any case, protect the vampire from the adverse  effects of sunlight. 
+</p>
+
+<div>
+<table>
+<tr>
+<td colspan="2" align="center">
+Stat Modifiers</td>
+</tr>
+<tr>
+<td>
+Strength</td>
+<td align="center">
++3</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td align="center">
++2</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td align="center">
+-3</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td align="center">
+-2</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td align="center">
++1</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td align="center">
+-4</td>
+</tr>
+<tr>
+<td>
+Hit Dice</td>
+<td align="center">
++1 side</td>
+</tr>
+<tr>
+<td>
+Exp penalty</td>
+<td align="center">
++100%</td>
+</tr>
+</table>
+</div>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fRace_20modifiers?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fRace_20modifiers.text_html">RefreshCache</a> for this page (cached 2004-08-28 17:29:40)<br>
+<p><a href="./Documentation_2fRace_20modifiers?action=edit">EditText</a> of this page (last edited 2004-08-28 17:29:37 by <span title="user-2iveklu.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:19:26 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:13 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 664.239
+  exclusion.robots: 0.096
+  exclusion.robots.policy: 0.09
+  RedisCDXSource: 112.721
+  esindex: 0.004
+  LoadShardBlock: 535.345 (3)
+  PetaboxLoader3.datanode: 706.015 (4)
+  CDXLines.iter: 14.548 (3)
+  load_resource: 344.897
+  PetaboxLoader3.resolve: 70.116
+-->

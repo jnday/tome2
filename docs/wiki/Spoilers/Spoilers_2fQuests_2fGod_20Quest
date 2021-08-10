@@ -1,0 +1,373 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Quests/God Quest - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fQuests_2fGod_20Quest?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fQuests_2fGod_20Quest?action=print">
+<link rel="Up" href="/Spoilers_2fQuests">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fQuests_2fGod_20Quest?action=fullsearch&amp;value=%2FGod+Quest&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Quests/God Quest</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fQuests">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fQuests_2fGod_20Quest?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fQuests_2fGod_20Quest">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fQuests_2fGod_20Quest?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fQuests_2fGod_20Quest?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fQuests_2fGod_20Quest?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fQuests_2fGod_20Quest?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fQuests_2fGod_20Quest?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fQuests_2fGod_20Quest?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fQuests_2fGod_20Quest?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fQuests_2fGod_20Quest?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fQuests_2fGod_20Quest?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fQuests_2fGod_20Quest">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-9ffe681b8f15ee85e25e7fa304b8b2e3ea8a524f">Introduction / Overview</a></li>
+<li>
+<a href="#head-9299ec900a320e937019253254ee86809f943858">Getting a God quest</a></li>
+<li>
+<a href="#head-55da3d75825d3187c3e1b3af3012c6ea0993bf7e">Finding the Lost Temple</a></li>
+<li>
+<a href="#head-dc66fe0e484a2caba7222d287d20756d37d2489b">Finding the piece of God relic (or not!)</a></li>
+<ol>
+<li>
+<a href="#head-52cf23242b599bbc117b300fa53e99f2a5f3956e">How the piece gets generated</a></li>
+<li>
+<a href="#head-a486a2c8b1fcd9f873cd2c9a740c0ca5ced9894c">Telling your God about it (finishing the quest)</a></li>
+<li>
+<a href="#head-ffe1a61b3e2bfb0b02d4a9aa014e4d45b700cb43">Missing the piece (failing the quest)</a></li>
+<li>
+<a href="#head-088c2e45585de6d014815dc6764bd973d1f6e7f0">Advice for not missing the piece</a></li>
+<li>
+<a href="#head-b575e2a32dc730fe4903b352142fc1f3ff786f07">Two ways out if you fail a quest</a></li>
+</ol>
+
+<li>
+<a href="#head-e1ae4e218404a32844195a2c9a09a643533ae4d5">The reward</a></li>
+<li>
+<a href="#head-3a7fc994cdbefad2ed5265d8893a2dd655019623">Features of Lost Temples</a></li>
+<li>
+<a href="#head-42397c8fc558e7df97c2ccaa6e831fd9ec134ae7">Helpful items</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-9ffe681b8f15ee85e25e7fa304b8b2e3ea8a524f">Introduction / Overview</h2>
+When you gain a character level in ToME, your God (if you worship one) may possibly ask you to regain a piece of a broken relic for him. The piece is hidden somewhere in a lost temple. Your God will tell you the temple's approximate location. If you retrieve the piece (frequently referred to as the "relic"), your God will teach you to pray better -- i.e., give you skill points in Prayer. <p>
+You do not have to be actively praying in order to get a God quest; you just have to worship one, either by selecting a God during character generation, or choosing one later on by worshipping at an altar. 
+</p>
+<p>
+If you worship no God, you will never receive a God quest. The rest of this page presumes you are worshipping a God. 
+</p>
+<h2 id="head-9299ec900a320e937019253254ee86809f943858">Getting a God quest</h2>
+There are a total of 5 God quests possible. They are sequential; you are effectively going deeper (or higher) in the same dungeon, a.k.a. the Lost Temple. <p>
+Each time you gain a character level, you have a 1:5 chance of getting a God quest. If you get one, you will not be offered any more God quests until you succeed with your current one. If you successfully find the relic, then the next time you gain a character level, you get a chance at another quest. 
+</p>
+<p>
+There is no guarantee you'll get all 5 God quests before hitting CL50. 
+</p>
+<h2 id="head-55da3d75825d3187c3e1b3af3012c6ea0993bf7e">Finding the Lost Temple</h2>
+You will be told general directions to the Lost Temple in terms of distance and relative compass direction from two landmarks in ToME: 
+    <ul>
+
+    <li>
+<p>
+ If you worship Melkor, the landmarks are Angband and Mordor. 
+</p>
+</li>
+    <li>
+<p>
+ If you worship any other God, the landmarks are Bree and Minas Anor. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+The entrance to the Lost Temple shows up as a purple '&gt;', like any other dungeon entrance. It is best to search for it in the Overland map. 
+</p>
+<p>
+The entrance to the Lost Temple persists, whether or not you succeed in your quest. If you do succeed, then later get another quest, the first entrance will disappear and you'll have to hunt down the new one. 
+</p>
+<p>
+You cannot "Thunderlord" into a Lost Temple. 
+</p>
+<h2 id="head-dc66fe0e484a2caba7222d287d20756d37d2489b">Finding the piece of God relic (or not!)</h2>
+The piece of God relic is a purple '~'. It is typically lying on the floor somewhere (though see below.) <h3 id="head-52cf23242b599bbc117b300fa53e99f2a5f3956e">How the piece gets generated</h3>
+Each time a level of the Lost Temple is generated, it has a 1 in 5 chance of containing the relic.  However, if the relic has not been generated by the time the fifth level is created, then it <em>will</em> be placed on the fifth level. <p>
+Statistically, the relic is <em>most</em> likely to be generated on the fifth level.  (In fact, the odds are 20% that it will be on the 1st level; 16% on the 2nd; 12.8% on the 3rd; 10.24% on the 4th; and 40.96% on the 5th.  These are the odds <em>up front</em>, before any levels have been generated.)  However, if you intend to find the relic, you <strong>must</strong> search each level. 
+</p>
+<h3 id="head-a486a2c8b1fcd9f873cd2c9a740c0ca5ced9894c">Telling your God about it (finishing the quest)</h3>
+To let your God know you've found it, all you need to do is pick it up. Once you pick it up, it vanishes. (Presumably, your God has taken it from you.) You have to get out on your own. <h3 id="head-ffe1a61b3e2bfb0b02d4a9aa014e4d45b700cb43">Missing the piece (failing the quest)</h3>
+If the piece is generated, this is your only chance to get it. It will never be generated again. If you go up or down a stairway, or recall out of a level that contains the piece of God relic, you have failed the quest. You will be notified that you failed the God quest when you next enter the Lost Temple... and you will never get another quest. <h3 id="head-088c2e45585de6d014815dc6764bd973d1f6e7f0">Advice for not missing the piece</h3>
+
+    <ul>
+
+    <li>
+<p>
+ "Always small levels" is helpful on God quests -- but the levels are typically still relatively large. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Check individual temple advice/information, below. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Once you search a level, even if you go out of the Lost Temple and back in, the relic might be generated on that same level. Search again, knowing you at least avoided the extra danger of being at a higher (or lower) dungeon level! 
+</p>
+</li>
+    <li class="gap">
+<p>
+ The relic might be under a terrain feature (not under all Gods, but happens under Melkor and possibly others), so check everything. Scrolls of Object Detection are useful, assuming you get/destroy every single item you see and read one to make sure you didn't miss the relic. Then you can read a Scroll of Magic Mapping to mark the place as cleared. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Monsters might hide the relic from view by standing on it, and apparently from the code they might pick it up (the code is supposed to notify you if it happens). 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Turning on the option "Map remembers all torch-lit grids" (under game-play options) will let you keep track of which tiles you've already seen.  If you're reduced to a brute-force search of the whole level (no potions of enlightenment), this option will <em>greatly</em> improve your chances of not screwing up. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If your god's temple may contain Imps and other monsters that can "gesture at your feet" to teleport you off the level, then you should strongly consider having nexus resistance before embarking on the quest.  Nexus resistance prevents you from being teleported off the level. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-b575e2a32dc730fe4903b352142fc1f3ff786f07">Two ways out if you fail a quest</h3>
+
+    <ol type="1">
+
+    <li>
+<p>
+If you fail a God quest, you could wish for a piece of a relic if you find a Staff of Wishing. Be careful of your wording! You want to wish for a "piece of the relic of &lt;god&gt;". 
+</p>
+</li>
+    <li class="gap">
+<p>
+You can use Potions of Lose Memories to decrease your experience enough to lose a character level or two, to give yourself a chance to get another God quest. 
+</p>
+</li>
+
+    </ol>
+
+
+<h2 id="head-e1ae4e218404a32844195a2c9a09a643533ae4d5">The reward</h2>
+Each of the first 4 God quests reward you with 5 skill points in Prayer. <p>
+The 5th quest gives you 10 skill points in prayer. 
+</p>
+<p>
+Note that these are skill points (affected by your skill point modifier), so Priests benefit the most. 
+</p>
+<h2 id="head-3a7fc994cdbefad2ed5265d8893a2dd655019623">Features of Lost Temples</h2>
+Monsters are <em>levelled</em> in the Lost Temples! Beware... especially if you should run into a unique, or, worse (better?) a vault. <p>
+Other features of Lost Temples are God-specific: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Melkor: All glass walls, some to a lot of lava. 
+</p>
+</li>
+    <li>
+<p>
+ Eru: Large open areas interspersed with granite-walled rooms. 
+</p>
+</li>
+    <li>
+<p>
+ Manwe: Mist borders around some rooms. Many invisible monsters. 
+</p>
+</li>
+    <li>
+<p>
+ Tulkas: Typical dungeon corridors and rooms with granite walls. 
+</p>
+</li>
+    <li>
+<p>
+ Yavannah: Forests, with possible water streamers.  Undead, demonic and artificial monsters. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-42397c8fc558e7df97c2ccaa6e831fd9ec134ae7">Helpful items</h2>
+
+    <ul>
+
+    <li>
+<p>
+ A digger. <em><strong>Always carry a means of digging when you go adventuring!</strong></em> 
+</p>
+</li>
+    <li>
+<p>
+ Means of levitation or flight. The last thing you want to do is fall through a pit trap to the next level and thereby potentially fail the quest (if the piece was on the level you just fell from). 
+</p>
+</li>
+    <li>
+<p>
+ Means of object detection. *Lots* of Scrolls of Object Detection are popular. Eru spells, Rods of Detection, Potions of Enlightenment, etc. are also handy. 
+</p>
+</li>
+    <li>
+<p>
+ Means of mapping, to make to make sure you don't miss a secret passage to a room. Scrolls of Magic Mapping, Potions of Enlightenment, Eru spells, etc. 
+</p>
+</li>
+    <li>
+<p>
+ Means of healing. (Did we mention the monsters are levelled?) 
+</p>
+</li>
+    <li>
+<p>
+ Means of teleportation. (Did we mention the monsters are levelled?) 
+</p>
+</li>
+    <li>
+<p>
+ Means of coping with breeders. (Did we mention the monsters are levelled?) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>  Several things on this page.  Under "Two ways out if you fail a quest", it lists using means of losing levels/regaining them.  Isn't that not for after <em>failing</em> a quest, but after not getting them all?  Then, differences between the quests still need to be finished, and IIRC they aren't all levelled the same.  Melkor, I'm pretty sure, is not levelled at all, and some are normally levelled, and then isn't one (Manwe?) double-levelled?  Lastly, the description of Melkor's temples seems like it would fit Manwe better, though IIRC Manwe's walls are made of hailstone?  Most of the reason I'm not making most of these changes myself is since I've been playing Theme so long I hardly remember anymore what is normal and what is Theme, but if no-one else fills this out I'll run a couple wizards to determine it all in a couple days. 
+</p>
+<p>
+<strong><a href="./BsVeteran">BsVeteran</a></strong>: Confirming Feathin's point on Melkor quests not being levelled. (I haven't done God quests other than early ones of Melkor and Eru though.) 
+</p>
+<p>
+The description of Melkor quest levels is inaccurate. Suggestion (detailed): "Glass-walled rooms on small levels, 1 screen long or wide. Enhanced range of visibility but no targeting through glass. Passable nether mist feature, occasionally drains experience but does not obscure objects. Lava streamers cause fire damage, and fire resistance/immunity helps." 
+</p>
+<p>
+Eru's quest levels are arena levels - better terminology than "large open levels". Recommendations for searching Eru's quest levels could include a means of disrupting LOS of levelled casters, such as growing trees or creating stone walls. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: As far as i can remember you are notified of failing the quest immediately after leaving the level in which the relic was if you didn't find it. Further, the "Potion of Lose Memories" trick i think it's considered a bug, and thus will (has been?) probably fixed. 
+</p>
+<p>
+And yes, the levelling is different between gods - i don't know them all, but in Tulkas temples *all* monsters are generated at *double* the dungeon level, while in Eru temples the generation seems to be more randomized - some monsters aren't leveled at all, others are, but at different levels that seem to top out at the same as Tulkas (i.e. double the dungeon level) - i *think* Manwe has a behaviour similar to Eru, but i can't quite be sure (someone confirm?) 
+</p>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  Just confirmed with a debug char that in 2.3.2 it is still possible to do the lose levels/restore levels trick. 
+</p>
+<p>
+<strong><a href="./BobVin">BobVin</a></strong>: Be sure to *completely* search each level before leaving it.  Also, pay attention to your status window.  On my character's first God quest, I must have missed the "failure" message, because the relic appeared in inventory instead of being immediately claimed by my character's God.  Apparently, finding the relic on your *second* pass through a level still counts as a quest failure. 
+</p>
+<p>
+<strong><a href="./HarryErwin">HarryErwin</a></strong>: What level is the God Quest? 
+</p>
+<p>
+Code diving suggests that it starts at 2/3 the level of the player character, but targets are levelled up to double that. So a player character at level 28 can expect to encounter level 36 critters. 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  The monster leveling varies with your god.  What you observed applies for Manwe and Tulkas; in Eru quests, monsters are leveled randomly to between half the dungeon level and twice the dungeon level, and in Melkor and Yavanna quests, they're leveled randomly to between half the dungeon level and the dungeon level. 
+</p>
+<p>
+Oh, and to be more precise, the first level of the quest dungeon is 2/3 your level at the time you receive the quest.  It doesn't get worse if you gain a few levels before attempting the quest (thankfully, or most of my characters would be either dead or atheist&#8230;). 
+</p>
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>:  I think you should state precisely that you never need to go beyond the first level.  Just exit and then return to the toplevel,  that way the Dlevel never goes up.  These quests are annoying as it is. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fQuests_2fGod_20Quest?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fQuests_2fGod_20Quest.text_html">RefreshCache</a> for this page (cached 2005-12-20 21:50:59)<br>
+<p><a href="./Spoilers_2fQuests_2fGod_20Quest?action=edit">EditText</a> of this page (last edited 2005-12-20 21:50:59 by <span title="67.20.254.47=ny-amherst-C4-1-bg3a-7-47.bflony.adelphia.net">ny-amherst-C4-1-bg3a-7-47</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 04:21:02 Dec 28, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:00:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  load_resource: 133.999
+  PetaboxLoader3.resolve: 52.705
+  exclusion.robots.policy: 0.134
+  cdx.remote: 0.11
+  exclusion.robots: 0.143
+  LoadShardBlock: 71.104 (3)
+  PetaboxLoader3.datanode: 93.243 (4)
+  CDXLines.iter: 18.246 (3)
+  captures_list: 130.241
+  esindex: 0.011
+-->

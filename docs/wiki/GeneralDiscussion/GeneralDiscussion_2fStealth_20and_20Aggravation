@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Stealth and Aggravation - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=fullsearch&amp;value=%2FStealth+and+Aggravation&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Stealth and Aggravation</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fStealth_20and_20Aggravation">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fStealth_20and_20Aggravation">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: The recent ML discussions on stealth have me wondering whether stealth and aggravation are going to be the same thing with the new Factions system. In other words... as far as I understand the old aggravation, it basically gives you zero stealth, and monsters have a 1 in 1 chance of waking up whenever you're around. Will the new aggravate also render all monsters within range HOSTILE to you as well (i.e. change their factional status)? Or does Aggravation currently work like this, and I'm being obtuse? <p>
+<a href="./JulesBean">JulesBean</a>: Pre-3.0 Aggravation makes all friendlies hostile. IMHO, 3.0 should be more general (e.g. I think necromancer's undead 'pets' should be immune to this effect, since they are mostly mindless and totally in the necromancer's thrall. You could also make a case for 'weak' summons to be immune since they are only supposed to be simalcrums). 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fStealth_20and_20Aggravation.text_html">RefreshCache</a> for this page (cached 2004-08-02 07:47:22)<br>
+<p><a href="./GeneralDiscussion_2fStealth_20and_20Aggravation?action=edit">EditText</a> of this page (last edited 2004-07-29 06:50:48 by <span title="212.18.250.99=212.18.250.99">212</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:08:25 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:42:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 167.973
+  exclusion.robots: 0.118
+  exclusion.robots.policy: 0.109
+  RedisCDXSource: 19.744
+  esindex: 0.011
+  LoadShardBlock: 126.214 (3)
+  PetaboxLoader3.datanode: 1253.995 (4)
+  CDXLines.iter: 18.807 (3)
+  load_resource: 1175.589
+-->

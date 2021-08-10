@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport14 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport14?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport14?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport14?action=fullsearch&amp;value=BugReport14&amp;literal=1&amp;case=1&amp;context=40">BugReport14</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport14?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport14">View</a></li>
+<li><a title="Diffs" href="./BugReport14?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport14?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport14?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport14?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport14?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport14?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport14?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport14?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport14?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport14">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Describe BugReport14 here. <h4 id="head-1baa06b4c8bc2d63f9db4d4cc86a2e2b12a7e893"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Problem</h4>
+<p>
+When I bought my new GeForceFX 5200 and 1600x1200 LCD panel, it was of course to enhance my *band experience <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15">  So imagine my dismay when the game crashed whenever I tried an HTML screendump !  Even worse, when I attempted to screendump after dying (at the standard prompt), then not only did the game crash, but the savefile got corrupted, but in a strange way.  The game would allow me to create a new character on the corrupted savefile, but it wouldn't save the new character to that savefile.  The next time the game was run, that savefile would simply say "$PREVIOUS_CHARACTER is dead", where $PREVIOUS_CHARACTER is the name of the dead character when the savefile got corrupted. 
+</p>
+<h4 id="head-7826a6a3a0b18014184f0c7dd030abe9d8403edf"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Reason, Possible Solutions</h4>
+<p>
+Normally I maximize the TOME window when I play (with "always generate small maps", the entire map is in view, and the game never scrolls).  When I tried to screendump (with a living character) with a large window, it would crash the game -- but the savefile remained intact.  However, when I un-maximized the window, the screendump worked fine. 
+</p>
+<p>
+So I browsed through the code a bit, and I noticed that z-term.h defines the width,height of a terminal as bytes.  Which probably means my window is larger than 255x255 characters.  So I was thinking, why not just change them into unsigned shorts ?  The reason I didn't just go ahead and try it is because several computations in other files have comments that seem to rely on the assumption that maxwidth = 255.  The quick fix is of course to check to see whether the terminal width &gt; 255 before attempting to screendump, and just silently not produce the screendump (but also silently not crash). 
+</p>
+<p>
+<a href="./amaurea">amaurea</a>: The savefile trouble you describe makes it sound like tome managed to create a panic save. A panic save is always loaded instead of the normal save, and as long as it is there the game will see the old character. Try deleting the .pnc file. I have the impression that the screen and level size code is pretty old and full of assumptions that make it difficult to change. It could probably use a clean up. The 255 limit is found many places, for example in voidgates, where the target x,y is encoded as x+256*y, or something like that. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport14?action=refresh&amp;arena=Page.py&amp;key=BugReport14.text_html">RefreshCache</a> for this page (cached 2004-08-16 13:12:16)<br>
+<p><a href="./BugReport14?action=edit">EditText</a> of this page (last edited 2004-07-04 10:48:39 by <span title="62.79.161.178=62.79.161.178">62</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:06:40 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:13 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 213.23
+  exclusion.robots: 0.129
+  exclusion.robots.policy: 0.118
+  RedisCDXSource: 130.741
+  esindex: 0.012
+  LoadShardBlock: 57.014 (3)
+  PetaboxLoader3.datanode: 67.721 (4)
+  CDXLines.iter: 21.619 (3)
+  load_resource: 61.29
+  PetaboxLoader3.resolve: 25.085
+-->

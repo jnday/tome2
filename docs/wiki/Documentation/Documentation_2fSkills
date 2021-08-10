@@ -1,0 +1,489 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Skills - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fSkills?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fSkills?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fSkills?action=fullsearch&amp;value=%2FSkills&amp;literal=1&amp;case=1&amp;context=40">Documentation/Skills</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fSkills?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fSkills">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fSkills?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fSkills?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fSkills?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fSkills?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fSkills?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fSkills?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fSkills?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fSkills?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fSkills?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fSkills">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Skills are the primary means of character development in ToME. <p>
+<em><strong>Subpages should contain non-spoily information: the type currently contained in the on-line game help. Please put spoiler information in the appropriate place in the <a href="./SpoilerArchive">SpoilerArchive</a>.</strong></em> Thanks.  
+</p>
+<hr size="3">
+ <ol>
+<li>
+<a href="#head-2f307d3d6551541d1821a3b2e754b3140a495e46">ToME 2.2.7 Skills</a></li>
+<ol>
+<li>
+<a href="#head-af169bb89cfba4132f718ecc225adb9a91f8bdcf">Combat</a></li>
+<li>
+<a href="#head-79f5fcf8b5e571510e4fe5b7c258d92efbea1f3e">Sneakiness</a></li>
+<li>
+<a href="#head-e6791be7eed7865c6ea8fbf4d2b565ec77d74c36">Magic</a></li>
+<li>
+<a href="#head-83b872f91098f2978f1fd9f1de045ee2d4fd45a4">Spirituality</a></li>
+<li>
+<a href="#head-07f7591d6f308510f066cdcf36949193f4636a0e">Monster-lore</a></li>
+</ol>
+
+</ol>
+
+ <hr size="3">
+ <h2 id="head-2f307d3d6551541d1821a3b2e754b3140a495e46">ToME 2.2.7 Skills</h2>
+<h3 id="head-af169bb89cfba4132f718ecc225adb9a91f8bdcf">Combat</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fCombat">/Combat</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fWeaponmastery">/Weaponmastery</a> 
+</p>
+</li>
+
+                    <ul>
+
+                    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fSword_2dmastery">/Sword-mastery</a> 
+</p>
+</li>
+
+                            <ul>
+
+                            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fCritical_2dhits">/Critical-hits</a> 
+</p>
+</li>
+
+                            </ul>
+
+
+                    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fAxe_2dmastery">/Axe-mastery</a>  
+</p>
+</li>
+                    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fHafted_2dmastery">/Hafted-mastery</a> 
+</p>
+</li>
+
+                            <ul>
+
+                            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fStunning_2dblows">/Stunning-blows</a> 
+</p>
+</li>
+
+                            </ul>
+
+
+                    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fPolearm_2dmastery">/Polearm-mastery</a> 
+</p>
+</li>
+
+                    </ul>
+
+
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fArchery">/Archery</a> 
+</p>
+</li>
+
+                    <ul>
+
+                    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fSling_2dmastery">/Sling-mastery</a> 
+</p>
+</li>
+                    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fBow_2dmastery">/Bow-mastery</a> 
+</p>
+</li>
+                    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fCrossbow_2dmastery">/Crossbow-mastery</a> 
+</p>
+</li>
+                    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fBoomerang_2dmastery">/Boomerang-mastery</a> 
+</p>
+</li>
+
+                    </ul>
+
+
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fBarehand_2dcombat">/Barehand-combat</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fBoulder_2dthrowing">/Boulder-throwing</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fSkills_2fAntimagic">/Antimagic</a> 
+</p>
+</li>
+
+            </ul>    </ul>
+
+
+<h3 id="head-79f5fcf8b5e571510e4fe5b7c258d92efbea1f3e">Sneakiness</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fSneakiness">/Sneakiness</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fStealth">/Stealth</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fDisarming">/Disarming</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fBackstab">/Backstab</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fSkills_2fStealing">/Stealing</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fDodging">/Dodging</a> 
+</p>
+</li>
+
+            </ul>    </ul>
+
+
+<h3 id="head-e6791be7eed7865c6ea8fbf4d2b565ec77d74c36">Magic</h3>
+<em>Italics</em> denotes the primary magic schools 
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fSkills_2fMagic">/Magic</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a href="./Documentation_2fSkills_2fMagic_2dDevice">/Magic-Device</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fSkills_2fSpell_2dpower">/Spell-power</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a href="./Documentation_2fSkills_2fSorcery">/Sorcery</a> 
+</p>
+</li>
+            <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fMana">/Mana</a></em> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fGeomancy">/Geomancy</a> 
+</p>
+</li>
+
+                    <ul>
+
+                    <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fFire">/Fire</a></em> 
+</p>
+</li>
+                    <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fWater">/Water</a></em> 
+</p>
+</li>
+                    <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fAir">/Air</a></em> 
+</p>
+</li>
+                    <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fEarth">/Earth</a></em> 
+</p>
+</li>
+
+                    </ul>
+
+
+            <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fMeta">/Meta</a></em> 
+</p>
+</li>
+            <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fConveyance">/Conveyance</a></em> 
+</p>
+</li>
+            <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fDivination">/Divination</a></em> 
+</p>
+</li>
+            <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fTemporal">/Temporal</a></em> 
+</p>
+</li>
+            <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fMind">/Mind</a></em> 
+</p>
+</li>
+            <li>
+<p>
+ <em><a class="nonexistent" href="./Documentation_2fSkills_2fNature">/Nature</a></em> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fDemonology">/Demonology</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fNecromancy">/Necromancy</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fRunecraft">/Runecraft</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fThaumaturgy">/Thaumaturgy</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fAlchemy">/Alchemy</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fUdun">/Udun</a> 
+</p>
+</li>
+
+            </ul>    </ul>
+
+
+<h3 id="head-83b872f91098f2978f1fd9f1de045ee2d4fd45a4">Spirituality</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fSkills_2fSpirituality">/Spirituality</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fPrayer">/Prayer</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fMindcraft">/Mindcraft</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fMusic">/Music</a> 
+</p>
+</li>
+
+            </ul>    </ul>
+
+
+<h3 id="head-07f7591d6f308510f066cdcf36949193f4636a0e">Monster-lore</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fSkills_2fMonster_2dlore">/Monster-lore</a> 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fSummoning">/Summoning</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fCorpse_2dpreservation">/Corpse-preservation</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fPossession">/Possession</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fSymbiosis">/Symbiosis</a> 
+</p>
+</li>
+            <li>
+<p>
+ <a class="nonexistent" href="./Documentation_2fSkills_2fMimicry">/Mimicry</a> 
+</p>
+</li>
+</ul>
+
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fSkills?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fSkills.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:42:46)<br>
+<p><a href="./Documentation_2fSkills?action=edit">EditText</a> of this page (last edited 2004-11-12 17:33:28 by <span title="dialin-145-254-143-106.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 03:22:40 Apr 21, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:12 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 116.496
+  exclusion.robots: 0.093
+  exclusion.robots.policy: 0.086
+  RedisCDXSource: 1.768
+  esindex: 0.007
+  LoadShardBlock: 94.081 (3)
+  PetaboxLoader3.datanode: 82.129 (4)
+  CDXLines.iter: 17.29 (3)
+  load_resource: 168.955
+  PetaboxLoader3.resolve: 31.511
+-->

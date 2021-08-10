@@ -1,0 +1,306 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/In-game spoiler - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fIn_2dgame_20spoiler?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fIn_2dgame_20spoiler?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fIn_2dgame_20spoiler?action=fullsearch&amp;value=%2FIn-game+spoiler&amp;literal=1&amp;case=1&amp;context=40">Documentation/In-game spoiler</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fIn_2dgame_20spoiler?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fIn_2dgame_20spoiler">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fIn_2dgame_20spoiler?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fIn_2dgame_20spoiler?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fIn_2dgame_20spoiler?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fIn_2dgame_20spoiler?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fIn_2dgame_20spoiler?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fIn_2dgame_20spoiler?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fIn_2dgame_20spoiler?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fIn_2dgame_20spoiler?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fIn_2dgame_20spoiler?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fIn_2dgame_20spoiler">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Middle-earth is vast and mysterious, full of dangers but also full of rewards for the brave. This page contains a few mild spoilers in order to help you get started. <p>
+<em><strong>If you are not a moderator or game developer, please do not edit this page! Thank you. </strong></em> 
+</p>
+<hr>
+ <ol>
+<li>
+<a href="#head-686e00163995353f74804e1205c6b64a37d25b4b">The towns and dungeons</a></li>
+<li>
+<a href="#head-bcb2dbced84e5104371bcbadc7db9085e0e06fb5">Other strange and frightening places</a></li>
+<li>
+<a href="#head-4aad2c0f42e4932f5565b4895d4ef9fce2aa8949">Equipment issues</a></li>
+<li>
+<a href="#head-899bd694d29ace1be956ab35177075021977560b">Macros</a></li>
+<ol>
+<li>
+<a href="#head-10b07e42427f4f18854b747f7fec756e7ca16057">Keystroke macro (The Hard Way)</a></li>
+<li>
+<a href="#head-043a7aa40c9413f75c9d9c1f834a81f77dd716de">Macro recorder (The Easy Way)</a></li>
+</ol>
+
+<li>
+<a href="#head-896d4fbd48be52cb56e32bbd064f743efdbab087">Floor inscriptions</a></li>
+<li>
+<a href="#head-ab797d7d3602907cb681b8985c8345832cffd1f4">Temporary discussion section</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-686e00163995353f74804e1205c6b64a37d25b4b">The towns and dungeons</h3>
+You begin your sojourn in a small village named Bree, in the western part of Middle-earth. Here you will also find the entrance to the Barrow-Downs, a fairly safe and simple dungeon, equivalent to dungeon levels 1-10. <p>
+When the Barrow-Downs become too easy for you and Bree too small, you might consider going to Lothlorien, the land of Galadriel.  
+</p>
+<p>
+New adventurers should know that pressing &lt; and &gt; switches the wilderness view between a normal scale and a much larger map. This 'overland travel' map makes travelling safer (usually) and faster. Note well: take a lot of food with you for wilderness travel, since it is a very long journey.  
+</p>
+<p>
+You'll have to head south-east following the mountain's chain, then walk around the forest of Fangorn to head north to finally find your destination. The Forest of Mirkwood (another dungeon, levels 11-33) can be found to the northeast of Lothlorien. 
+</p>
+<p>
+If you survive this dangerous dungeon, you should head south, following the Anduin river. There, near the dark land of Mordor, you will find the great town of Gondor, Minas Anor. From there you can pay a visit to the land of Mordor (dungeon levels 34-66), which is east of Minas Anor. Mordor is a hot, cavernous area fraught with danger; only wary adventurers will get through this region safely. 
+</p>
+<p>
+After Mordor, you should travel to Gondolin, the hidden town of the Noldor, which lies northeast of Bree. From this city, you will be able to attack Angband, which is north-west-west of Gondolin. Only the most successful of adventurers usually make it this far. The great dungeon of Angband spans levels 67 to 127, and contains fearsome enemies within whom you must defeat if you wish to save Middle-earth! 
+</p>
+<h3 id="head-bcb2dbced84e5104371bcbadc7db9085e0e06fb5">Other strange and frightening places</h3>
+<p>
+Other strange and frightening places in Middle Earth await exploration by the valiant adventurer, but their locations, dangers and rewards are secret. You will have to find them yourself! 
+</p>
+<p>
+Rumor has it that one of these dungeons contains an evil Necromancer who is in league with those who wish to destroy Middle-earth... 
+</p>
+<h3 id="head-4aad2c0f42e4932f5565b4895d4ef9fce2aa8949">Equipment issues</h3>
+Beware adventurer! Successful exploration of the dungeons requires careful preparation. There are some items you will need badly:  
+    <ol type="1">
+
+    <li>
+<p>
+A light source. And light sources usually burn out... 
+</p>
+</li>
+    <li>
+<p>
+A source of nourishment. 
+</p>
+</li>
+    <li>
+<p>
+Good combat equipment. Sometimes the weapon and armour you inherited from birth are not good enough for the nasties inside the dungeons. 
+</p>
+</li>
+    <li>
+<p>
+<em>Always carry a means of digging with you!</em> There is much rock and rubble in the dungeons which you cannot clear with your hands. A shovel or other digging item will usually suffice. 
+</p>
+</li>
+
+    </ol>
+
+
+<h3 id="head-899bd694d29ace1be956ab35177075021977560b">Macros</h3>
+Spellcasters might find that pressing 4 keys (at least) to cast a spell is a lot, they are right. That is why there are macros. You can access the macro screen by pressing @. See the <a class="external" href="http://web.archive.org./Documentation#head-899bd694d29ace1be956ab35177075021977560b"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">Macro documentation</a> for detailed information. <p>
+Briefly, there are two ways to do macros: The hard way and the easy way. 
+</p>
+<h4 id="head-10b07e42427f4f18854b747f7fec756e7ca16057">Keystroke macro (The Hard Way)</h4>
+Every adventurer should know how to create a basic spell macro: 
+    <ol type="1">
+
+    <li>
+<p>
+Press @ to enter the macro screen. 
+</p>
+</li>
+    <li>
+<p>
+Press 4 to create a new macro. 
+</p>
+</li>
+    <li>
+<p>
+Press the key to bind the macro to, usually one uses the F* keys (you can combine 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+them with the ctrl, shift, ... keys too) 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Enter the key sequence to be done for the macro. 
+</p>
+</li>
+    <li>
+<p>
+Press 2 to save the macro. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+Now a problem that might arise, imagine your macro looks like: mcaa*t to cast manathrust spell ('m' to use skill, 'c' for cast a spell skill, 'a' for first book, 'a' for first spell, *t to target the first monster). This macro will break if you gain a new skill so that "Cast a spell" is no more the skill 'c', or if you get a new book. There is a way around that. When the game asks for a skill or a spell it allows you to press @ to enter the skill/spell name directly, so your macro would become: 
+</p>
+<p>
+m@Cast a spell\r@Manathrust\r*t 
+</p>
+<p>
+Now this will always work as long as one of your books have the spell in it. 
+</p>
+<h4 id="head-043a7aa40c9413f75c9d9c1f834a81f77dd716de">Macro recorder (The Easy Way)</h4>
+This time you will only use the macro recorder. To do that: 
+    <ol type="1">
+
+    <li>
+<p>
+Press $ to start it.  
+</p>
+</li>
+    <li>
+<p>
+Every key you now press will be recorded. We recommended you initialize your macro by pressing Escape key a few times. This will prevent game messages from ruining your intended macro actions. 
+</p>
+</li>
+    <li>
+<p>
+We also recommend that, whenever possible, you take advantage of the @ key when selecting skills or objects. It will ensure that your macro always uses the intended object/skill, even if it moves about in your inventory. 
+</p>
+</li>
+    <li>
+<p>
+Once all keys are pressed, press $ again to stop the recorder. If you are satisfied with your macro, you will be prompted to press the key to bind your new macro to. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+As in the Hard Way, you must use the macro screen if you want to permanently save your macros. 
+</p>
+<h3 id="head-896d4fbd48be52cb56e32bbd064f743efdbab087">Floor inscriptions</h3>
+Any adventurer in ToME has the ability to inscribe magical words on the floor. These inscriptions can be highly useful. <p>
+Some rare scrolls will teach you words in other languages. You would be wise to commit them to memory, if you are so lucky. From them, you can work to derive a spell formula, which you can then inscribe on the floor with the 'x' command. 
+</p>
+<p>
+The inscription accesses the inherent mana in the floor in order to cast that spell when you and/or a monster walks over it. Not all inscriptions are triggered by monsters, and not all can be triggered by the player. Different inscriptions have different minimum mana requirements. 
+</p>
+<h3 id="head-ab797d7d3602907cb681b8985c8345832cffd1f4">Temporary discussion section</h3>
+<a href="./MayLith">MayLith</a>: Gah. Alright, this was a lot of work, but I've: 
+    <ol type="1">
+
+    <li>
+<p>
+combined the contents of the beginner's parchment (book-20.txt) plus the original in-game spoilers (dunspoil.txt and inscrip.txt),  
+</p>
+</li>
+    <li>
+<p>
+ruthlessly ripped out anything that looked like a major spoiler. I may have yanked too much... OTOH, maybe there's too much about the dungeons and towns?  
+</p>
+</li>
+    <li>
+<p>
+rewrote most of what was left from the first two operations. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+First effort, anyway... suggestions/contributions welcome. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: *blink blink* What was I thinking?!?!! I don't know why I put basic macro help in here. Wait, no, yes I do. It was part of book-20.txt. The macro portion of this page needs to be put back with the rest of the macros. Either that, or this entire page should be munged into some generalized introductory page, with an allusion to macros (perhaps a watered down version of what I placed here) and then a link to the actual macro guide. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fIn_2dgame_20spoiler?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fIn_2dgame_20spoiler.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:43:28)<br>
+<p><a href="./Documentation_2fIn_2dgame_20spoiler?action=edit">EditText</a> of this page (last edited 2004-08-20 03:08:48 by <span title="user-uivenfc.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:01:05 Apr 21, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 106.355
+  exclusion.robots: 0.112
+  exclusion.robots.policy: 0.102
+  RedisCDXSource: 2.963
+  esindex: 0.008
+  LoadShardBlock: 80.02 (3)
+  PetaboxLoader3.datanode: 109.039 (4)
+  CDXLines.iter: 20.23 (3)
+  load_resource: 92.583
+  PetaboxLoader3.resolve: 30.135
+-->

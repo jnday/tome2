@@ -1,0 +1,533 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Classes/Sorceror - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fClasses_2fSorceror?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fClasses_2fSorceror?action=print">
+<link rel="Up" href="/Spoilers_2fClasses">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fClasses_2fSorceror?action=fullsearch&amp;value=%2FSorceror&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Classes/Sorceror</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fClasses">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fClasses_2fSorceror?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fClasses_2fSorceror">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fClasses_2fSorceror?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fClasses_2fSorceror?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fClasses_2fSorceror?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fClasses_2fSorceror?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fClasses_2fSorceror?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fClasses_2fSorceror?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fClasses_2fSorceror?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fClasses_2fSorceror?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fClasses_2fSorceror?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fClasses_2fSorceror">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-ef3fb2f5fb56d4fec81b8e06dc1000536a121444">Hitpoints; mana; recommended races and subclasses</a></li>
+<ol>
+<li>
+<a href="#head-b6aefa416a74b13d1f03755ad598a2e575a6a9f5">A second view on Ents. Is the intrinsics and the +63 HP worth the -5 speed?</a></li>
+</ol>
+
+<li>
+<a href="#head-10b5ac90b9e58c9f5d88501baa7afe1adae996b6">Skill point allocation</a></li>
+<li>
+<a href="#head-bbc0b165a9b5ce27fea5ea54143f02fe7fb36a24">Gods</a></li>
+<ol>
+<li>
+<a href="#head-edd3a813141bc3ee4ca43ecdad595efa316f4dd1">Eru</a></li>
+<li>
+<a href="#head-d132df232235661d4694b9df66817554beb95acc">Melkor</a></li>
+</ol>
+
+<li>
+<a href="#head-904a3494f4b073637abc2fec2ea8291bbe7417bf">Spellbooks and inscribable items</a></li>
+<li>
+<a href="#head-1dc043bb8eb5646851ff808477bb5d3573739f1c">Money</a></li>
+<li>
+<a href="#head-e1a56767d14bea49ea6de43c8dc4cdac9e9e3714">Know thy enemies</a></li>
+<li>
+<a href="#head-472b374fd01142620c36a0e7b52681f1d0b6f357">Useful spells and spell combinations</a></li>
+<li>
+<a href="#head-badd4e1896ee4134d5cedd888cad3656e7420452">Start kit and melee</a></li>
+<li>
+<a href="#head-dd7c16c2b509f0a864c04f459cce3ca4415b887f">Assorted strategies</a></li>
+<li>
+<a href="#head-e306b37ddf4c570209f286c1482b0082314ef0e6">ToMEnet</a></li>
+<li>
+<a href="#head-740352143889f95511505c041d095e9c1ba52be3">A fun plan - untested</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-ef3fb2f5fb56d4fec81b8e06dc1000536a121444">Hitpoints; mana; recommended races and subclasses</h2>
+Sorcerers end up with 50% of their maxHP permanently lost at sorcery level 50. The to-hit(melee and ranged) and to-dam(melee) penalty is so heavy you will have to progressively forget melee as you gain sorcery skill. This is the main challenge of this class, and forces you to pay attention to what you're doing! But believe me it's worth it compared to plain mages... <p>
+Also remember a hit dice is a random roll (i.e. 1d11 for Dwarf is an average of 6, which is eventually reduced to 3 by the sorcery skill penalty). Considering that the hit dice penalty for being a hermit is hid dice 3 for an average of 1.5, halved to 0.75 HP per level (i.e. -38 HP at level 50) and +20% mana of hermit is too good to pass up I expect most sorcerers to choose hermit - and sometimes spectre (+5% mana) for variety. 
+</p>
+<p>
+Take Lord Dimwit's advice and try to have over 600 HP at all times in Angband no matter the cost. Because some breaths can't be resisted! This is the "above all else" need in Angband once you have the resists/immunities. 
+</p>
+<p>
+Your race should have both good hit points and meaningful mana. But your sorcerer at high levels will be in much more trouble for having 1 mana than for having 1 HP; more so than any other class. 
+</p>
+<p>
+According to killerbunnies, the max mana for a hermit mage is 766 (regardless of race, at max stats, doesn't count effect of +% mana equipment or the 16% mana bonus at mana skill = 50). This means any race without a mana penalty can effectively reach the same maxmana; only the subrace can make any difference at high level. 
+</p>
+<p>
+Because of the race-independance of the max mana, races having high HP and capable of being hermit are naturally favored. Other considerations are the high-stats but slow leveling races and special abilities: 
+</p>
+<p>
+Dwarves: the secret passage ability, which is a semi-targeted teleport -you'll often know where you end up- you can it use while wearing the anchor of space time. This lets you wear boots of speed instead of boots of jumping, for that teleport away from danger when you have no mana left. The blindness resist is nice as blind sorcerers can't do much. 
+</p>
+<p>
+Dark elf: +0.200 to magic skill. This doesn't result in more magic, just a few more spare skill points. 
+</p>
+<p>
+DON'T take the Zombie, Skeleton, or Barbarian subraces (or warrior races that can't be Hermits), you need mana too much! The vampire subrace is almost OK, as long as you can stand the opening-game annoyances involved and the fact you're not hermit (all that for half a hitdie which means 0.25 HP per level more than standard - may you enjoy your vampire powers). 
+</p>
+<p>
+Rowanknights: The anti-Ent strategy... speed! They start at +3 speed and go for +12 as they level, and can light speed jump at level 30+ for a whopping speed boost up to +50 for a while (adding the permanent +12 that's +62 speed). This is the part where you can get more-than-occasional double rounds on all monsters in the game without exception! And unexpectedly enough they can be hermits. The speed is so good that you might consider wearing one less speed ring (there is a diminushing return on high speed) to wear other ring types. Rowanknight sorcerers are an official Lord Dimwitt ultimate win strategy(tm) for people who have difficulty being ultimate winners. However, the hit dice is average (10) and they level slowly. Their stealth is quite low, you might as well wear aggravating items *grin*. But they're still better <tt>^d^d^d^d^d^d</tt> more liked by a particular author than Ents! 
+</p>
+<p>
+Death molds: I hear death mold lost soul sorcerers are easy to get out of Mandos (they also have incredible stealth and +10 WIS and +10 CON and high hit dice). However the weird movement is truly annoying and mostly duplicates sorcerer spells. Not being hermits hurts once out of mandos. 
+</p>
+<p>
+Yeek: Yeek Hermit or Spectre Sorcerers are considered a challenge, but doing 20 or 30 of those (they die FAST) will train you to be very, very careful with your "real" Sorcerer. If you intend to dive in the Void someday, this is necessary training... 
+</p>
+<p>
+Dunadan, high elf: you level twice as slow, but get a marginal increase in stats - very marginal at high levels. If you can tolerate slow leveling, see thunderlords. 
+</p>
+<p>
+Thunderlords: best overall choice (high stats, high hitdice, special abilities, an attack left for when you lose spellbooks, some resists, hermit available). Hovever they level incredibly slowly... 
+</p>
+<p>
+Ents: Ents: The -5 speed is truly annoying. The reason for choosing hermit Ents (high hit dice of 11) is halved by your sorcerer skill. Their racial abilities duplicate sorcerer-available spells and they level slowly. Not really better than average. Ents are nice for mages, but not quite sorceror material. 
+</p>
+<p>
+Ent bottom line -- I always thought the "hit points per level" were a constant, rather than a dice roll, but whatever. I certainly find Ent Hermits to be vastly more durable than Dark Elven Vampires, which are I assume about on par with Human Hermits. They level slightly *faster* than Rohan Knights. They're less cliched than Rohan Knights. <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> Although the huge bonuses to strength and constitution mean nothing after statgain, they help more of your characters *reach* statgain. The increased hit die keeps helping longer than the speed penalty keeps hurting in my experience. The useless Barehanded and Boulders are no worse than an RK Sorceror's useless Weaponmastery. And you can never, never be caught without the grow trees/treewalking combo, no matter what your spellbook mix or your skill point decisions. 
+</p>
+<p>
+Ent vs Rowanknights bottom line - the hit dice of Ent sorcerers is different from a rowanknight sorcerers by 4. That's an average of 2.5 with 1.25 once the sorcery skill penalty applies. At level 50 that's +63 HP. That's nice but not much. Since I've been an avid user of the tree growing spell with all my non-Ent characters (using diggers and later flying/levitation, once a wood elf and once buying tree walking), I can tell you being an Ent isn't such an advantage... and they level as slowly as rowanknights, too. An Ent hermit sorcerer depends on finding very good equipment in late game, more so than any other race. *IF* they get it they're an average choice. If not... then the +17 speed difference between an Ent and a rowanknight will speak for itself. 
+</p>
+<h3 id="head-b6aefa416a74b13d1f03755ad598a2e575a6a9f5">A second view on Ents. Is the intrinsics and the +63 HP worth the -5 speed?</h3>
+(Dissenting opinion from <a href="./ErisDiscordia">ErisDiscordia</a>: The -5 speed is an illusory problem. In the early game Grow Trees plus Treewalking plus great durability and acceptable magical striking power (INT) make up for it; as the game goes on, these become obsolete, but so does a 5-point speed difference. The fire susceptibility is perhaps a greater problem, as it changes the usual "shoulds" regarding fire to straitjacketing "musts." But then there's Melkor...) <p>
+Rebuttal to <a href="./ErisDiscordia">ErisDiscordia</a>: grow trees is available at very low sorcery levels. Nothing prevents any sorcerer from raising nature skill to 20 and buy treewalking if you don't fly by the time your level is high enough (or just dig trees as necessary). Mimicry can also get you web creation and webwalking which serves the same effect - if not more since web might be more terrain versatile. The secret passage ability of dwarves is 2/3 of the usefulness of Ent's racial powers at no great cost. The -5 speed means that my first two Ent sorcerers got killed in Angband because monsters were just a tiny bit faster than me so I could get X2 rounds of multiple breaths without having time to react - fire breaths who double damage I might add. The "fire immunity or death" factor isn't exagerated, and without being faster than monsters you still need double the HP to survive the occasional double breath attack round. My third Ent sorcerer got by only by using the scroll of deincarnation and getting a corpse without those annoyances! Now if Ents were lucky (they're -2 luck) I might have the ring of flare by now and better speed rings like I had on most of my sorcerers... Ents generally rule as mages but not as sorcerers... 
+</p>
+<p>
+Counter-rebuttal to simon: the Grow Trees spell costs money, possibly patience (scumming for it), weight, and an inventory slot (unless you really like the remaining Nature spells; whatever). (Not that you have to worry about weight if even hermit sorcerorhood doesn't take your early-game strength too low... like, say, if you're an Ent.) Treewalking costs skillpoints -- one of the most valuable resources in the game -- and requires you to reach at least level 16 first (so you can raise sorcery to 20). As for flight intrinsics in objects, these usually come at the cost of reduced usefulness in other respects. Wings of Winds, meanwhile, has the usual disadvantages attached to it being a spell. As for spider webs, these cost an inventory slot that can be put to much better use unless you find some good ego or randart spider web... which is hardly a given. What you were doing in Angband with an Ent without fire immunity is a mystery to me... isn't there a guaranteed artifact that provides fire immunity? And for that matter, I've found a randart that provides fire immunity, and I'm nowhere near Angband (but then, I'm diving slowly). As for speed... with Essence of Speed (which I'd be using even as a Rohan Knight), I'm at +40 speed at level 41; considering that some void divers speak of ensuring that they have +40 speed, isn't this really enough? I will admit, though, that gaining speed also costs inventory slots, and that much of my speed equipment has been the fruit of my insisting on wearing luck-boosting equipment, which itself costs slots (but is worth every letter of them). But really, the vast majority of the speed gain comes from Essence of Speed, not equipment. And once I reach 44 or 45 speed, will I really be worse off than I would be at 49-50? 
+</p>
+<p>
+There is a [[Spoilers/Speed]] chart somewhere in the code for this. Sometimes raising 5 speed, near the limit, changes nothing (the base unit is 10% of an action, you can't increase by less) or adds only 10% of an action per normal non-speed-boosted turn (up to 4.9 actions per round for speed=69 - for normal timing actions). The truly important thing is not to let the enemy get a double round of attack, ever, by equaling or surpassing its speed. (With the few HP sorcerers have, the 1 point of speed that gets you on even speed is beyond priceless as it totally prevent frequent death from double turns of multiple-unavoidable-breaths). 
+</p>
+<p>
+Sorcerers get nature as part of sorcery. It's only treewalking they don't get(grow trees is a very very early spell because of its double-magic-school nature). So it's only about levitation since the skill cost just for treewalking is too high. Grow trees spellbooks, including fireproof ones, start showing up early enough for me not to buy them in most games. 
+</p>
+<p>
+Simon: Comparative chart: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+ Ent                              </td>
+<td>
+     Rohanknights </td>
+</tr>
+<tr>
+<td>
+ slow levelers                    </td>
+<td>
+     slow levelers </td>
+</tr>
+<tr>
+<td>
+ early game easier(hide in trees) </td>
+<td>
+     early game easier(+3 speed) </td>
+</tr>
+<tr>
+<td>
+ end game easier(hide in trees)   </td>
+<td>
+     end game easier(+50 speed to flee or cast spells twice more) </td>
+</tr>
+<tr>
+<td>
+ -5 speed                         </td>
+<td>
+     +12 speed. That's 17 speed more than Ents!! </td>
+</tr>
+<tr>
+<td>
+ Higer STR allows you to carry more,<br>
+ sparing some early game  speed.  </td>
+<td>
+ </td>
+</tr>
+<tr>
+<td>
+ +63 more HP at level 50          </td>
+<td>
+     Nope. </td>
+</tr>
+<tr>
+<td>
+ Tree intrinsics, Can't lose the spellbook! </td>
+<td>
+ 1 inventory slot for grow tree spells. One levitation object(easy) </td>
+</tr>
+<tr>
+<td>
+                                            </td>
+<td>
+ or just dig trees when you don't need them anymore. Sometimes I use </td>
+</tr>
+<tr>
+<td>
+                                            </td>
+<td>
+ the levitation spell but levitation is usually part of my kit from </td>
+</tr>
+<tr>
+<td>
+                                            </td>
+<td>
+ an otherwise cool object. </td>
+</tr>
+<tr>
+<td>
+ Fire immune or die; Trone or Melkor grant it </td>
+<td>
+ Fire resist or die. Immunity is extra nice, but I can rush an ultimate win without it </td>
+</tr>
+<tr>
+<td>
+ Ent luck has a -2 mod.                     </td>
+<td>
+ No luck changes </td>
+</tr>
+<tr>
+<td>
+ +11 to CON; less items to wear for maxCON  </td>
+<td>
+ "only" +4. Get aura of confusion instead, not bad! </td>
+</tr>
+<tr>
+<td>
+                                            </td>
+<td>
+ Masters of light speed (+50 speed) get out of trees/corner, cast big spell, hide again. This totally prevents double rounds of attack against the player even if only +3 worth of speed items are owned (assumes running for +4 and +12 for character level 50). This saves you from scatter item traps deaths, if you put grow trees on more than one worn item. </td>
+</tr>
+</table>
+</div>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: About HP: Ents have +11 CON, Rohan Knights "only" +4. This means Ents have generally a higher bonus to hit points due to CON (a quick check in debug mode: A level 50 ent hermit sorceror has CON 34 and ~340 hp, a Rohan Knight hermit sorceror has CON 27 and ~200 hp). This means that Rohan Knights must wear more items with a CON bonus to reach the limit 40 or 18/220. 
+</p>
+<p>
+True, but in my rush-ultimate-win mindset the total of speed items I'm willing to wear have been harder to get than the total +CON items I'm willing to wear(as you all know, sometimes a two wonderful items want the same slot). People who scum more might have a better balance of speed and CON than I do. 
+</p>
+<hr>
+ <p>
+Simon: I've started an Ent hermit sorcerer worshipping Melkor - thanks for the flameproof trick. I'd now rate Ents as a better than average sorcerer but still not great. As an ultimate win "rusher" I have no patience to scum +17 worth more of speed rings to prevent with double attacks from leveled gravity/water hound packs. For someone patient, Ents might be good or even equal to rowanknights or thunderlords(thunderlords fly - so it's all about saving one inv slot and +33 HP for losing 5 speed if you prefer Ents laugh. And they can flee using the straight road to compensate for slower leveling). 
+</p>
+<p>
+As wearing the robe of great luck(I'm just about to kill Sauron), I finally got myself the "not die by hands of mortals" fate. Keep updated to see if Ents are ultimate winner rush material or not!! 
+</p>
+<p>
+Final result of my Ent hermit sorcerer: 
+</p>
+<p>
+Not buying grow tree spellbook:           232 gold and an inventory slot saved(until I got the nature tome anyhow). 
+</p>
+<p>
+Speed ring +16:                           0 gold   {100% discount} 
+</p>
+<p>
+Getting the one ring to mount Doom:       11 detonation potions and 8 huge stacks of wands to drain 
+</p>
+<p>
+Actually dropping the ring in:            priceless 
+</p>
+<p>
+Escaping mount Doom:                      there are things 'grow trees' can't buy. For the rest, there is Rowanknights! 
+</p>
+<p>
+Ent - the best character for dying and dumping stuff on mount Doom! Now if only I can remember which of 6 piles of stuff are from my first Ent (an alchemist) when I go back I'd be in business... 
+</p>
+<p>
+By the way. Luck might get more speed rings to show up but neither luck nor dungeon level makes the ring better(if it were so, they'd be +28 speed rings in the void). The formula is 1d10 + supercharge by +1 with probability 50% and always retry if succesful. 
+</p>
+<p>
+For example, a speed ring +20 -- roll a 10 and 10 supercharges -- is about one in 10240 occurence. +15 would be one in 320. So even if theorically speed is unlimited, there is a very very very long scumming to do if you want to get say +17 speed more than normal without sacrificing more equipment slots to speed. 
+</p>
+<h2 id="head-10b5ac90b9e58c9f5d88501baa7afe1adae996b6">Skill point allocation</h2>
+You'll have lots of skill points to spare, but do not take up any of the ordinary schools of magic on top of it, because this would add you nothing at sorcery level 50 with rare exceptions(*). Pump your magic to 50 because the more mana the better (remember to plan where you put skill points so you don't 'overflow' and lose a skill point by learning a magic school after magic skill is maxed). Take one of thaumaturgy (for blindness/darkness situations and killing small critters with few mana), mindcraft, necromancy, stealth, mimicry (hint: spider form can block the line of sight of enemies with webs and on it) as you see fit. That, and some Fumblefinger skills -- Symbiosis is ideal, as it gives you extra hitpoints and the occasional summoning! <p>
+Spell power is essential to reach the total spell power of 50(sorcery = 50) + 20 (spell power skill at 50) + whatever staff/staves you're wearing which helps a lot against big monsters, but it also means higher mana cost so most of your spells become overkill for small critters even quicker. This is the reason spells and abilities that are weaker but cost less mana can be so useful (i.e. thaumaturgy, mindcraft) in the 20 first few levels or so. 
+</p>
+<p>
+Having a high magic device skill is redundant to your spells unless you find the artefact rod tip of Home coming, which is a true life-saver, or a genocide randart for when you run out of mana (don't worry too much about dying from it if you have undead form - hehehe). 
+</p>
+<p>
+Get your saving throw up with some spirituality. This is a lifesaver against monster spells that "cause foo wounds." I'm not sure against which other spells the saving throw bonus helps, but it helps, see other spoilers. 
+</p>
+<p>
+(*) The rare exceptions are: 50 in Mana gives +15% max mana, 30 in Water gives water-breathing, 50 in Air gives No-Air Breathing (in version 2.3.0 that doesn't include water breathing), and a few points in nature allow you to buy the treewalking ability (which gets useless once you fly). 
+</p>
+<h2 id="head-bbc0b165a9b5ce27fea5ea54143f02fe7fb36a24">Gods</h2>
+<h3 id="head-edd3a813141bc3ee4ca43ecdad595efa316f4dd1">Eru</h3>
+...note that some spells aren't covered by sorcery, notably God school spells. <p>
+Eru worship has been a favorite for many sorcerers even if you get only one non-sorcery duplicate spell (warding glyph - kinda useful); this is due to added mana (+35% at top piety), 70% chance of resurrect with high piety (hi, Gandalf!) and not being able to use anything but a mage staff anyway. Also, even god spells that mostly duplicate sorcery have their uses. For example, casting See the Music when entering a level instead of Vision (if you're into that) in a level where you're immediately under threat, but don't plan to leave, gives you more SP for the upcoming battle.  
+</p>
+<p>
+Eru's easy piety gain is also nice. Running in circles with 20 ancient dragons in your backpack for quick piety gain is cheating, and is punished by starving to death before you get a chance to eat. 
+</p>
+<h3 id="head-d132df232235661d4694b9df66817554beb95acc">Melkor</h3>
+You can worship Melkor for the drain spell at Udun level 1, which is totally worth it (it even drains rods without destroying them). Switch to Eru after you destroy the ring for Eru's benefits while keeping your Udun spells intact. (Including genocide and stuff. Not bad for a level 1 Udun skill.) Although Melkor's god spells (except Curse) aren't worth much for a sorceror, keep in mind that he grants some pretty nice intrinsics with high piety. Ent sorcerors will especially appreciate the fire immunity. However, so will other sorcerors, as fire immunity protects your books, not just you. <p>
+Since foo elven sorcerors are quite popular, never forget that "Melkor hates elves!" (Piety leaks faster for Elven worshippers of Melkor.) 
+</p>
+<h2 id="head-904a3494f4b073637abc2fec2ea8291bbe7417bf">Spellbooks and inscribable items</h2>
+Once every 3 dungeons, you will lose most or all of your non-fireproof spellbooks at once due to a trap or fire breath (some thieves steal them as well). You should have spells needed for survival inscribed on any inscribable item you can find. <p>
+It also helps to have a few backup copies of high-level rare tomes in your home in case you lose them. 
+</p>
+<p>
+There is a quest to get a special spellbook with 3 spells of your choice, you should plan in advance for what to put in it... this book can't be burned or stolen, so put the necessities of life in it. (i.e. maybe manatrust, an area effect spell, and word of recall). A scatter items or steal item trap can still send it to the other side of the dungeon so your ent's potion spell belongs on an inscribed item instead... 
+</p>
+<h2 id="head-1dc043bb8eb5646851ff808477bb5d3573739f1c">Money</h2>
+Invest in a spellbook of Identify early; it will make up for itself within two or three dungeon visits at most. You may want to inscribe it on an object for the free fireproofing. Don't inscribe it on an object you'll be keeping for a long time, however; inscribable slots are too valuable for that. <p>
+Rings/amulets of spell can be sold for more money if you put a spell with a level as high as possible in it. You can stack rings of spell in your home until you are ready to buy something very expensive (you'll get way more money by waiting until you have higher level spells you can transcribe). Alternatively, just sell the thing immediately. Depending on your playstyle, the first levels you find foos of spell on may be among the last levels where you ever really have to care about making money. 
+</p>
+<h2 id="head-e1a56767d14bea49ea6de43c8dc4cdac9e9e3714">Know thy enemies</h2>
+Know what some tough monsters are immune/resistant/weak to. This makes you more effective. The ID spell will probe within a certain radius at high level and that can help you learn just how effective your attack spells are. You can also use the beastmaster's hut for info. Some of your spells cannot be resisted (e.g. Manathrust); learn which ones before you go against monster types who can potentially have all or any resists/immunities (undead/demons/dragons/golems come to mind). If it's too late for that, note that Thunderstorm, though weak, emits three types of damage; nice for a "shotgun" approach. <h2 id="head-472b374fd01142620c36a0e7b52681f1d0b6f357">Useful spells and spell combinations</h2>
+Manathrust is *great*. Globe of light is nice for the first 20 levels... anything else depends on books you find and your playing style. Noxious cloud works great for a variety of "grouped" enemies for a pretty long time, but be sure to have a backup for enemies immune to it, and be aware their spectrum will continuously widen as you go on. <p>
+When in the very deep dungeon, lack of use of your trap-detection spells and other divination-types will be your main cause of death, just after multiple breaths received in the same round. (The worst case - groups of water/gravity hounds - can only be detected and avoided, short of genocide, to avoid receiving multiple non-resistable breaths in the same round!!) And don't always trust spells to stay invisible, they run out at annoying times!!! 
+</p>
+<p>
+Probability Travel is the sort of spell that can save your hide several times an hour once you get to Moria, especially if you're short on HP or resists. It sends you to the "nearest open area on the other side of a wall" when you enter a wall. And if there's no "open area on the other side," it *makes* one -- a 1x1 room at the edge of the level. It's like having an extra spellbinder, only better. (More maintenance required too, though.)  
+</p>
+<p>
+Angband advice: Put a long-range teleport, a big healing spell, a resistence-type spell, and another healing spell in your spell bind! It will save you up to 10 times per hour. Necromancy (for undead form) is almost a necessity for when that fails... 
+</p>
+<p>
+I'm suspecting that +% life items will be more effective on sorcerers; +50% life doubles your life when you're at 50% from the start. Normal characters would get at 150% which is for them 3/2 instead of double. Take this into account when seeing +%life items!! 
+</p>
+<h2 id="head-badd4e1896ee4134d5cedd888cad3656e7420452">Start kit and melee</h2>
+Any (3d3) or (2d6) weapon is useful for surviving until level 5. 
+    <ul>
+
+ <strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: Bah. A sorceror can do just fine even in the opening without ever using melee for kills. Whatever. 
+    </ul>
+
+
+<p>
+Somewhere after that they become progressively pointless since your sorcery skill eats away your fighting ability. You can still kill breeders by melee if needed for 20 levels or so by using berserk. (But globe of light or noxious cloud will usually be a better option.) 
+</p>
+<p>
+Keep a stock of sleep potions (or whatever) to throw at monsters or whatever gives you a break when your mana is low. Inscribe them !* to make sure you don't quaff them... 
+</p>
+<p>
+Sorcery makes you very versatile in spellcasting at the cost of hit points. You'd be well-advised to wear whatever you can find to help your constitution or add percents to your life, perhaps even at the cost of having a resist less if you're not in a magic-heavy dungeon or quest (it's a no brainer for the weapons of greater life; +100% hit points, or wear a weapon for a resist? Only wizardry staves might be better). 
+</p>
+<p>
+Artifacts and ego items which are +% life or +% mana are almost necessary to survive to level 50. Having a single melee attack or a resist missing can instakill you much more often than any other class, so despite nice AC bonuses of other items, beware of missing resists!! Being blind (no spells but thaumaturgy, no scrolls), confused (no spells but the remove magic effects one), or paralyzed (frequently results in death of starvation or quick death) come to mind of course; but instakilled by a single breath attack is worse! 
+</p>
+<p>
+AC mostly useful in melee anyhow, so go for resists over AC always. For other things like +CON, +%Mana and +%life it can be a tough choice... 
+</p>
+<p>
+Once you're a great, semi-phenomenal cosmic transcendental all-powerful sorcerer you shouldn't let monsters close enough to melee, ever. (Most of the time, anyway. Remember Gandalf and the Balrog's whip? Sure you do. Eru is still angry about that.) 
+</p>
+<p>
+TRICK: weapons of life or greater life can be improved with craftsmanship scrolls; the +% life may go up (this works on staffs of power/spell too but there is some kind of hardcoded limit somewhere and it seems rather low). 
+</p>
+<h2 id="head-dd7c16c2b509f0a864c04f459cce3ca4415b887f">Assorted strategies</h2>
+Seek out a dungeon town early to buy Restore Mana potions, as you can never have too many of them. Or stick with Melkor's evil drain spell and some stacks of cheap wands with many charges... <p>
+In an instant-doom-next-turn situation, what can save you is a potion of healing, a scroll of teleport (you'll run out of mana... and scrolls don't FAIL even after your brain got smashed to 3 INT 3 WIS), a teleport level scroll/junkart to deal with excess breeders with breath attacks in small levels, and remember that Thunderlord recall only works next turn! All this because sometimes your bind spells heal you, heal you, and teleports you somewhere deadly so you're back at 23 HP but without the bind spell... 
+</p>
+<p>
+You might want to wear the robe of great luck if you can still cover all your resists; and MAYBE, if you're lucky enough, you'll get the "never die by the hand of mortals" fate. Meaning hounds no longer breathe at or attack you among others! (-; 
+</p>
+<p>
+Because of how efficient sorcerers are with spells, they rarely get substantial problems from monsters exactly next to them(i.e. AC can be less of a factor so special powers from robes are much more important). It's more about large groups (like hounds), breath attacks (like hounds), unresistable attacks (like water/gravity hound's breath), and monsters who can't be tricked into rushing in one by one (like hounds, unless you use strategy). Single dragon and giant group problems are for warriors problems! 
+</p>
+<p>
+Warriors would benefit less from this special fate because they have more trouble fighting immortals (at least at high dungeon level). The robe of great luck leaves them too exposed to melee attacks, unless they wear it only when using stairs(to get more and better artifacts generated) which isn't long enough to substantially augment the chance of the 'never die...' fate. 
+</p>
+<h2 id="head-e306b37ddf4c570209f286c1482b0082314ef0e6">ToMEnet</h2>
+If you're playing ToMEnet you might want to get a nice staff from your other characters if you can't find a really good one; trade it for one big ego melee weapon you've been stacking (you have no use for those and they won't disappear from your ToMEnet house like an artifact). Trading really good stuff is half the fun! <h2 id="head-740352143889f95511505c041d095e9c1ba52be3">A fun plan - untested</h2>
+If I can breathe without air with air skill = 50, I'll get to possess the watcher in the water corpse (using the scroll of deincarnation) without having to worry about the lack of air-giving item slot that make that corpse a poor choice for a void diver. A watcher with 3 staves of wizardry, 3 randarts shield with at least an immunity each, and at least 4 rings of speed... *large grin*  (does 3 staves mean I cast spells in 40% of normal time? 20% with mimicry +arms? We'll see...) <p>
+This fun plan has come to a halt due to the possessor maxmana bug/issue. I'll fix that when I'm done with my other bugs, so that my fun plan might work. 
+</p>
+<p>
+Also, the ring of phasing grants magic breathing too; it's better to use that if you find it than to spend enough skill to get air=50 ... 
+</p>
+<p>
+In any case I wonder why shop owners don't react to my, er, new possessions? That must be because they're not for sale! 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+Simon: The original author, Da Alchemist, is no longer playing ToME. 
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: My understanding is that he lost his internet connection. I'd bet he's probably still playing. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> <p>
+ Simon: Nope. He couldn't reinstall the game because the example for installing ToME was removed from the wiki. After weeks of pleading for having the correct BSD install syntax, he abandonned. It's a shame because he's a professional programmer and wanted to help, even if it's on Windows and definitively not BSD... 
+</p>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Sorry, but that makes no sense to me whatsoever. A professional programmer would not have trouble instaling ToME on Windows, nor should anyone else. It's a no-brainer. Download the zip file, unzip it somewhere handy, make a shortcut link to the executable if you feel like it, and it's done. I'm not doubting your statement that he's a professional, but something *very* strange is going on there. 
+</p>
+
+        <ul>
+
+  Simon: you, like many before, have misunderstood a clear question written by Da Alchemist on the forum and the wiki and what I wrote here. He lacked info on how to install it on FreeBSD (not Windows), which is what he has at home and he's new to FreeBSD (i.e. the new user level of knowledge - difficulty in installing 2.3.0 CVS). I'm as astonished as he was at so many people misunderstanding this simple question! When he had shown me how in many Emails and postings he clarified the question and re-clarified it for people who misunderstood it more than once, I didn't believe him at first. <p>
+  The silly tragedy was that he was the one who introduced the exact command on how to do that to the wiki but couldn't remember how he did it when ToME went corrupted on him and his command was deleted from the wiki. He thought 'diffs' would give him all history of the page(history is ill-indicated on this wiki) and thought only one diff back was kept. By the time I told him it wasn't the case he had moved to another game project and never looked back. 
+</p>
+<p>
+  I almost left myself when <a href="./MayLith">MayLith</a> said I had to be concise despite my handicap (his "hyperlexia is not a real word" rant under death fate spoiler). 
+</p>
+
+            <ul>
+
+   <strong><a href="./MayLith">MayLith</a></strong>: A few things: 
+                    <ol type="1">
+
+                    <li>
+<p>
+I said "but please attempt to be more concise", and then (with emphasis) "work on being concise, please". I did not say you "had to be" concise. 
+</p>
+</li>
+                    <li>
+<p>
+I apologize for saying that hyperlexia is not a real word. Merriam-Webster doesn't cover all terms, and that was what I checked. I should have checked my Dorland's. 
+</p>
+</li>
+                    <li>
+<p>
+<a class="external" href=".www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=238350"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">The link to hyperlexia</a> you provided on the death fates page leads to a page describing precocious/compulsive reading among young children with various aspects of autism. Neither it, nor the associated clinical synopsis, mentions non-concise or compulsive writing. Nothing on <a href=".www.hyperlexia.org/">http://www.hyperlexia.org/</a> or the very clinical (and extremely interesting) <a href=".www.hyperlexia.org/hyperlexia.html">http://www.hyperlexia.org/hyperlexia.html</a> does, either. (In fact, the latter shows that hyperlexics have extreme difficulties in expressing themselves, expressing accurate reading comprehension, and transmitting information accurately.) After having read that entire page (and some others -- I've been reading for a while now), I have to say that it doesn't sound at all like you. Maybe you have a disability, but it doesn't seem like hyperlexia to me. Either that, or you've had years-long and rather expensive therapy, in which case my hat is off to you. 
+</p>
+</li>
+
+                    </ol>            </ul>        </ul>    </ul>
+
+
+<p>
+But despite the shortcomings of the wiki (no sub-editing like wikipedia) and shortcomings of a few people, I still enjoy contributing to the wiki even if I play much less than before. I don't have high hopes for anything getting as good as what I have on my other wikis but it's still nice to be here. 
+</p>
+<p>
+Open questions: Is there other magic school side-effects you don't get with sorcery skill = 50? Even if it's just good for buying an ability like treewalking? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: No. There are some commented out (i.e. not available and not coded) powers: Elemental shapes at skill level 50 in the elemental schools fire, water, earth, air and a test for fire school level &gt;= 35, but without an effect. 
+</p>
+<p>
+<strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: Various typographical and grammatical corrections, plus addition of my opinions and information on race/subrace, the spirituality skill, Eru, Melkor, Money (esp. the ID spell), and useful spells/combos. A host of small changes, so please excuse my not going into more detail. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Thanks, Eris. (Please watch your blockquoting, though!) This entire page is a mess... any help to refine the prose here and introduce more organization beyond the basic structure I introduced would be great. 
+    </ul>
+
+
+<p>
+Simon: added more details on race choice and how the race-independant maxmana leads calculating players to choose warrior races that have the hermit subrace allowed instead of normal Elves, Hobbits, or Gnomes. It's counter-intuitive but it's there despite the fact the HP gain is marginal because of the 50% penalty... 
+</p>
+<p>
+Perhaps ToME should have per-race 'mana dice' or mana bonuses? One would expect a Troll to have less mana than a high elf... 
+</p>
+<p>
+<strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: ENTS SHALL HAVE THEIR WAY!!! Err, ahem. 
+</p>
+<p>
+<strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: Frothed at the mouth a bit. Moved Ents to the end of the Races section so they don't get in the way of the other races. Considered moving them to a subpage, but decided it was too hasty a decision.  
+</p>
+<p>
+&lt;rant&gt;BTW who is it who keeps leaving out spaces before parentheses(like this)? I *HATE* that.&lt;/rant&gt; 
+</p>
+<p>
+Simon: I'm starting to think aura of confusion is a good alternative to tree-growing in 2/3 of situations. I'm still not over my tree-growing addiction for providing a map of what can be walked on for a certain special level... 
+</p>
+<p>
+And ah yes. Ents make superb alchemists. Too bad you can't play an alchemist-sorcerer because of all those annoying 'class' thingys... I wish ToME was classless. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fClasses_2fSorceror?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fClasses_2fSorceror.text_html">RefreshCache</a> for this page (cached 2004-10-03 22:57:08)<br>
+<p><a href="./Spoilers_2fClasses_2fSorceror?action=edit">EditText</a> of this page (last edited 2004-10-03 22:57:05 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:15:27 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:59:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 402.563
+  exclusion.robots: 0.098
+  exclusion.robots.policy: 0.091
+  RedisCDXSource: 4.448
+  esindex: 0.009
+  LoadShardBlock: 373.95 (3)
+  PetaboxLoader3.datanode: 89.016 (4)
+  CDXLines.iter: 21.192 (3)
+  load_resource: 68.127
+  PetaboxLoader3.resolve: 37.19
+-->

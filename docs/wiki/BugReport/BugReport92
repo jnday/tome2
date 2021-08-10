@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport92 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport92?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport92?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport92?action=fullsearch&amp;value=BugReport92&amp;literal=1&amp;case=1&amp;context=40">BugReport92</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport92?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport92">View</a></li>
+<li><a title="Diffs" href="./BugReport92?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport92?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport92?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport92?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport92?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport92?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport92?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport92?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport92?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport92">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+This is not exactly a bug but I don't know if it was intentional or not. When you are pick a skill after completing the lost sword quest, 3 things may happen: 
+    <ol type="1">
+
+    <li>
+<p>
+You have the skill and the gain rate is equal or above 0.500. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ In this case you gain 3 times your skill mod. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+You don't have the skill at all 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Here you gain 0.300 mod and 1 point in the skill 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+You have the skill but the gain rate is under 0.500 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ This is what I find wrong, you gain 3 times what fumblefingers is increasing your mod. This means you gain 0.300 points in the skill and 0.100 in the gain rate. 
+</p>
+</li>
+
+        </ul>    </ol>
+
+
+<p>
+Now I think you should gain like in number 2, this means, three times your actual skill mod. For an example, here's a progression of gains from 0 to 0.500 as it is now: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+ Gained points </td>
+<td>
+ Gained Mod </td>
+<td>
+ Total Skill </td>
+<td>
+ Total mod </td>
+</tr>
+<tr>
+<td>
+ 1.000 </td>
+<td>
+ 0.300 </td>
+<td>
+ 1.000 </td>
+<td>
+ 0.300 </td>
+</tr>
+<tr>
+<td>
+ 0.300 </td>
+<td>
+ 0.100 </td>
+<td>
+ 1.300 </td>
+<td>
+ 0.400 </td>
+</tr>
+<tr>
+<td>
+ 0.300 </td>
+<td>
+ 0.100 </td>
+<td>
+ 1.600 </td>
+<td>
+ 0.500 </td>
+</tr>
+<tr>
+<td>
+ 1.500 </td>
+<td>
+ 0.000 </td>
+<td>
+ 3.100 </td>
+<td>
+ 0.500 </td>
+</tr>
+</table>
+</div>
+<p>
+And here's what I think it was meant to be: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+ Gained points </td>
+<td>
+ Gained Mod </td>
+<td>
+ Total Skill </td>
+<td>
+ Total mod </td>
+</tr>
+<tr>
+<td>
+ 1.000 </td>
+<td>
+ 0.300 </td>
+<td>
+ 1.000 </td>
+<td>
+ 0.300 </td>
+</tr>
+<tr>
+<td>
+ 1.200 </td>
+<td>
+ 0.100 </td>
+<td>
+ 2.200 </td>
+<td>
+ 0.400 </td>
+</tr>
+<tr>
+<td>
+ 1.500 </td>
+<td>
+ 0.100 </td>
+<td>
+ 3.700 </td>
+<td>
+ 0.500 </td>
+</tr>
+<tr>
+<td>
+ 1.500 </td>
+<td>
+ 0.000 </td>
+<td>
+ 5.200 </td>
+<td>
+ 0.500 </td>
+</tr>
+</table>
+</div>
+<p>
+-- <a href="./SoulWynd">SoulWynd</a> 2004-08-20 23:04:23 
+</p>
+<h2 id="head-fce06e20e5f7f74aacccab40b59b75a56c8f7305">Comments</h2>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: I believe that the progress is 1.000 (.3), 1.300 (.4), 1.700 (.5). 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: I'm fairly sure that the current behaviour is exactly as it is intended. If you get a bonus to your skill mod then you only receive a small bonus to your current skill points. 
+</p>
+<p>
+<strong>Bandobras</strong>: Re <a href="./ReenenLaurie">ReenenLaurie</a> --- I believe the progress is as <a href="./SoulWynd">SoulWynd</a> said. Re <a href="./FearofFours">FearofFours</a> --- then why you receive large bonus to points when you receive the largest bonus to mod from 0.000 to 0.300? I remeber the behaviour was startling me, too, when I was a new player and I still find it illogical. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport92?action=refresh&amp;arena=Page.py&amp;key=BugReport92.text_html">RefreshCache</a> for this page (cached 2004-08-28 16:59:02)<br>
+<p><a href="./BugReport92?action=edit">EditText</a> of this page (last edited 2004-08-28 16:59:01 by <span title="212.76.33.69=prosie12.aster.pl">prosie12</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:14:50 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:11 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 172.883
+  exclusion.robots: 0.255
+  exclusion.robots.policy: 0.238
+  RedisCDXSource: 16.568
+  esindex: 0.021
+  LoadShardBlock: 128.147 (3)
+  PetaboxLoader3.datanode: 132.496 (4)
+  CDXLines.iter: 23.998 (3)
+  load_resource: 79.527
+-->

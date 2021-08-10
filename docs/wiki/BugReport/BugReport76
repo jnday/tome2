@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport76 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport76?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport76?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport76?action=fullsearch&amp;value=BugReport76&amp;literal=1&amp;case=1&amp;context=40">BugReport76</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport76?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport76">View</a></li>
+<li><a title="Diffs" href="./BugReport76?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport76?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport76?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport76?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport76?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport76?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport76?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport76?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport76?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport76">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The wand of digging of Thrain loses artifact status when it hit wand-wasting type traps. <p>
+It also can't be recharged by alchemy (maybe it counts as a "of plenty" wand?). 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: I'm not sure this is a bug.  Traps are also capable of destroying artifact armor and weapons. 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: My thrain got wasted... it's truely bad news.  Could you pretty pretty please make him invulnerable to it?  (Or get us another way of making wands indestructable (not very likely)). 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: It's no worse news than if Trone, Razorback, or Mage Staff of Wizardry +6 got destroyed, heh. Seriously, though, in ToME 3 we'll have a class that depends on sticks, so we'll have to make sticks less vulnerable in general.  The traps will stay though. 
+</p>
+<p>
+<strong><a href="./JulesBean">JulesBean</a></strong>: I had Maedhros blasted by a trap once... it surely isn't a bug that some traps can affect artifacts. (Any more than it's a bug that Nazgul can affect artifacts). I agree that in general the 'weaker' traps shouldn't affect artifacts, though. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Well, I don't know the code, but I don't think this is a bug. The Wand of Thrain should have a better save than most wands vs. wand-wasting traps, but shouldn't be invulnerable. The standard artifact disclaimer says it can't be harmed by fire, acid, electricity or cold. Wasting isn't one of those four. I've had VERY nice weapons and armors get turned into blasted paste.... that's just one of the dangers of the game, unless we want to make some select artifacts even more immune than others.... and that's a game dev sort of subject. 
+</p>
+<p>
+Re: alchemy, I haven't the faintest. 
+</p>
+<p>
+Dryad: that's OK recharge scrolls are a good workaround and I just figured out I can make them! 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport76?action=refresh&amp;arena=Page.py&amp;key=BugReport76.text_html">RefreshCache</a> for this page (cached 2004-08-28 13:25:47)<br>
+<p><a href="./BugReport76?action=edit">EditText</a> of this page (last edited 2004-08-28 13:25:46 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:53:05 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:45 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 223.36
+  exclusion.robots: 0.14
+  exclusion.robots.policy: 0.13
+  RedisCDXSource: 16.68
+  esindex: 0.008
+  LoadShardBlock: 178.289 (3)
+  PetaboxLoader3.datanode: 277.071 (4)
+  CDXLines.iter: 24.183 (3)
+  load_resource: 220.815
+  PetaboxLoader3.resolve: 60.45
+-->

@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport88 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport88?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport88?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport88?action=fullsearch&amp;value=BugReport88&amp;literal=1&amp;case=1&amp;context=40">BugReport88</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport88?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport88">View</a></li>
+<li><a title="Diffs" href="./BugReport88?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport88?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport88?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport88?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport88?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport88?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport88?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport88?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport88?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport88">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+-- <a href="./ReenenLaurie">ReenenLaurie</a> 2004-08-16 07:52:40 I created several elven cloaks (in wizard) and read scrolls of artifact creation on them, at various depths, etc.  All did not gain any flags.  But it does not say 'Already an ego item'. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: All randart parts for cloaks have a maximum pval value of 0 (besides Stealth, but Elven cloaks have it already), i.e. the problem is related to the following and should be fixed with the same change. 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>:  In the same vain, rings of speed gets nothing (though on my version at home they gain searching).  Amulets of trickery always gains stats (randomly)... but never any extra resistances. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: This problem was mentioned in the <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=1696"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">forum</a>. Basically a randart with a pval &gt; 0 cannot get resistances etc., since the maximum pval for these randart parts is set to 0 (last number in the C-lines). 
+</p>
+<p>
+This code line from randart.c 
+<pre>if ((ra_ptr-&gt;max_pval &lt; o_ptr-&gt;pval)) ok = FALSE;
+</pre>should become 
+<pre>if ((0 &lt; ra_ptr-&gt;max_pval) &amp;&amp; (ra_ptr-&gt;max_pval &lt; o_ptr-&gt;pval)) ok = FALSE;
+</pre>
+</p>
+<p>
+The pval dependent parts for rings have a maximum pval of 5, i.e. a ring of Speed (+6) or better cannot gain any additional stat bonus, etc. Try it with a Ring of Speed (+4) instead. 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>:  After digging through source code etc.  My guess (I am guessing as I am not familiar with how ToME does things) is that when the new Mimic cloaks were added for 2.3  the ra_info.txt file remained unchanged.  I don't know if you have to change anything, but I think that might be a place to start looking.  Though all artifacts should be affected then, and that didn't seem to be the case. 
+</p>
+<p>
+It could have something to do with the ra_gen[] variable... I dunno. 
+</p>
+<p>
+<strong><a href="./ZasVid">ZasVid</a></strong>: IIRC elven cloaks and rings of speed (maybe depending on pval) weren't getting any new flags in 2.2.x too.  In ra_info.txt file randart flags seem to be given to every item with given tval, so adding more Mimic cloaks shouldn't affect Elven Cloaks (esp. that mimic cloaks are in fact different versions of the same item, with different names defined in mimic.lua). 
+</p>
+
+    <ul>
+
+ <strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: I would assume the code didn't change from 2.2.x to 2.3 so that would explain it... though we can look forward to better things to come!  (whistles happily) 
+    </ul>
+
+
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: (<a href="./ZasVid">ZasVid</a> was faster) Mimic cloaks share tval (35) and sval (100), the exact type is stored in an additional variable. Adding new typed don't change the tval/sval based artifact creation. 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: Cool! So the bug is found! Thank you, thank you, thank you!  I can then look out to a CVS version with this fixed soon?   
+</p>
+<p>
+(Later): Oh and by the way... so I see the extra blows (with limit extra blows) max is 2... can't it be 3?  Pretty please?  Though I guess that is a design desicion and not a 'bug' fix.  Especially since we can't get extra blows from diggers anymore...  
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Added the additional check in the actual CVS version.  
+</p>
+<p>
+<strong><a href="./JulesBean">JulesBean</a></strong>: I'm curious: if the extra blows limit is +2, where do all these +9 speed/extra blows randarts I see on people's character sheets come from? An earlier version which didn't have this limit, or? 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: The line where limit_blows are assigned is here <tt>add_random_ego_flag(o_ptr,&nbsp;ra_ptr-&gt;fego,&nbsp;&amp;limit_blows);</tt> and inside add_random_ego_flag, we have <tt>*limit_blows&nbsp;=&nbsp;!(*limit_blows);</tt> which means, if it gains BLOWS twice it can have absurd amounts of blows.  This can be changed to <tt>*limit_blows&nbsp;=&nbsp;true</tt> but I am not sure if it'll mess anything else up then.   I am only starting to look into the code now (and it is quite old code as well (2.2.3) is the last version I downloaded, and I can't seem to get my CVS program to go through my proxie). 
+</p>
+<p>
+That, or it slips by with some other method which I am not sure of. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The flag limit_blows is only set for a few ego items, but e.g. not for Weapons of Extra Attacks. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport88?action=refresh&amp;arena=Page.py&amp;key=BugReport88.text_html">RefreshCache</a> for this page (cached 2004-08-20 15:37:06)<br>
+<p><a href="./BugReport88?action=edit">EditText</a> of this page (last edited 2004-08-20 15:37:05 by <span title="dialin-145-254-146-237.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:52:02 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:00 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 118.915
+  exclusion.robots: 0.181
+  exclusion.robots.policy: 0.157
+  RedisCDXSource: 4.388
+  esindex: 0.014
+  LoadShardBlock: 87.193 (3)
+  PetaboxLoader3.datanode: 79.647 (4)
+  CDXLines.iter: 23.065 (3)
+  PetaboxLoader3.resolve: 49.182 (2)
+  load_resource: 59.675
+-->

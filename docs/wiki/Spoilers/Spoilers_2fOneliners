@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Oneliners - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fOneliners?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fOneliners?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fOneliners?action=fullsearch&amp;value=%2FOneliners&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Oneliners</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fOneliners?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fOneliners">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fOneliners?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fOneliners?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fOneliners?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fOneliners?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fOneliners?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fOneliners?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fOneliners?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fOneliners?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fOneliners?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fOneliners">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Some important spoilers fit well into a category, and most of those make great oneliners. <p>
+So add your one-line spoilers and after a while we'll have cool stuff to add to the rumor file, as an option for people who like to be spoiled in-game. 
+</p>
+<h2 id="head-ac10b38b7ded090840f3474a815e992342a11231">The Oneliners</h2>
+
+    <ul>
+
+    <li>
+<p>
+ Only the rod of home summoning can access extra homes in dungeon towns. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Confusingly enough, chaos resistance also protect against confusion! 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Thieves hate invisible adventurers. But they hate the anchor even more.  
+</p>
+</li>
+    <li class="gap">
+<p>
+ If *Destruction* and genocide won't do, try polymorph or chaos Thaumaturgy. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Hitting a sandwall with a firebolt will turn it into a glass wall.  Useful trick for spellcasters, perhaps... 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Shops tend to restock overnight; if you arrive in a town after sundown, hit up all the stores before you check into the inn! 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Ringwraiths hate water so much that they refuse to step upon it. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-a7ac62e706ed6993b73b59d8adeefee138199cd4">Misc stuff</h2>
+<p>
+Some spoilers neither fit into categories nor do they make oneliners. 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Don't be afraid to give every single different kind of spoiler its own page, even if there is only one line to say about it NOW.  Separate pages give room for chatter and expansion.   New pages are a cheap, virtually unlimited resource.  Prefer small, separate pages to large, disorganized ones. 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: in some cases it's a one-liner and wouldn't expand into a category at all. And I do want an in game spoiler rumor file. But Neil is right; anything that might grow above 1 line probably deserves its own category. Perhaps a new rumor file would be better placed elsewhere (and let's face it, a rumor file IS disorganised by design)? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: A rumor file is a fine idea, by the way.  A rumor file  would just contain hints, though, duplicating things found elsewhere.  So really this page should be split up and deleted. Move the rumors into a rumor page, and move the one-line spoilers into their own pages. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fOneliners?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fOneliners.text_html">RefreshCache</a> for this page (cached 2005-11-04 22:06:17)<br>
+<p><a href="./Spoilers_2fOneliners?action=edit">EditText</a> of this page (last edited 2005-08-04 14:41:51 by <span title="host81-134-204-124.in-addr.btopenworld.com"><a href="./TimmyBravo">TimmyBravo</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 02:00:09 Nov 25, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:51 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 0.805
+  captures_list: 337.619
+  exclusion.robots.policy: 0.241
+  PetaboxLoader3.resolve: 29.572
+  esindex: 0.011
+  CDXLines.iter: 20.023 (3)
+  PetaboxLoader3.datanode: 336.169 (4)
+  load_resource: 62.14
+  exclusion.robots: 0.255
+  LoadShardBlock: 313.02 (3)
+-->

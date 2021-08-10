@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">284</script><title>BugReport56 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport56?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport56?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport56?action=fullsearch&amp;value=BugReport56&amp;literal=1&amp;case=1&amp;context=40">BugReport56</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport56?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport56">View</a></li>
+<li><a title="Diffs" href="./BugReport56?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport56?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport56?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport56?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport56?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport56?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport56?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport56?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport56?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport56">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+SLAY and *SLAY* flags: unable to know which is strongest <p>
+I found some nice artifacts, but I have a hard time deciding which flag is better: 
+</p>
+<p>
+Which is better? The "is a great bane" types or the "fights X with holy fury" types? If I have an idea about which one is better, I look at another slay type and the wording isn't the same so I'm confused again. 
+</p>
+<p>
+With egos you can always check for double stars around the slay name, but for artifacts you can't. I should n't have to look at how much damage it deals and use a calculator to find out if I'm having a SLAY or a *SLAY* (the damage difference cannot be assumed to be superior in *SLAY* because of how it's calculated - in daggers with a lot of +DAM a *SLAY* is almost irrelevant) 
+</p>
+<p>
+Perhaps the exact SLAY multiplier should be in the description, for the same reason damage is in the description. 
+</p>
+<hr>
+LEVEL FEELINGS: unable to sort important ones <p>
+I have the same problem with level feelings. Except for the few boring level ones, I can't tell at all if "your feel your luck is turning" is better than "you have a superb feeling about this level". I won't be able to sort ANY of those except the boring in other means than code diving, and even after that I'll have no clues to remember which feeling is best and which is close to boring... 
+</p>
+<p>
+Maybe "you feel your luck is turning" could mean lots of mean monsters OR lots of treasure OR both; but others  messages are unclear... 
+</p>
+<p>
+Keep in mind my native tongue is french, maybe this language thing is silly to english people. Or maybe cultural differences make it mean something in one english dialect and the opposite in another english dialect(only a linguist would know for sure)... in any case a simple text correction would clear things up. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: "is a great bane" and "holy fury" are two entirely different slays.  Comparing them directly makes no sense. 
+</p>
+<p>
+Also, sorting these is meant to be done with the weapon comparison service (in the case of weapon slays) and user experience/trial and error (in the case of the deliberately vague and misleading level feelings).  Marking as resolved. 
+</p>
+<p>
+I'd even say the specific answers to your questions here would be just flat-out spoilers! 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: See <a href="./Spoilers_2fLevel_20Feelings">Spoilers/Level Feelings</a> for a list of possible level feelings. 
+</p>
+<p>
+Simon: I still think level feelings should be color-coded like the abilities, to get a fair idea of what is at extremes at least.  
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Good idea! You may want to post it in the <a href="./IdeaArchive">IdeaArchive</a>. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport56?action=refresh&amp;arena=Page.py&amp;key=BugReport56.text_html">RefreshCache</a> for this page (cached 2004-08-06 06:02:56)<br>
+<p><a href="./BugReport56?action=edit">EditText</a> of this page (last edited 2004-08-06 06:02:55 by <span title="dialin-145-254-146-126.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:05:22 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:13 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.714
+  esindex: 0.012
+  CDXLines.iter: 18.381 (3)
+  load_resource: 193.782
+  exclusion.robots: 0.14
+  captures_list: 83.179
+  PetaboxLoader3.resolve: 49.292
+  LoadShardBlock: 59.602 (3)
+  PetaboxLoader3.datanode: 193.72 (4)
+  exclusion.robots.policy: 0.13
+-->

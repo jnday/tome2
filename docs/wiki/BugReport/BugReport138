@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport138 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport138?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport138?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport138?action=fullsearch&amp;value=BugReport138&amp;literal=1&amp;case=1&amp;context=40">BugReport138</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport138?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport138">View</a></li>
+<li><a title="Diffs" href="./BugReport138?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport138?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport138?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport138?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport138?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport138?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport138?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport138?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport138?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport138">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Kavlax the Many Headed, when possessed, has only head equipment slot, which *is* misleading, because both his name and description imply manyheadedness, so one would expect at least 2 heads (adding additional head wouldn't disrupt anything much, he has wimpy hp which could be balancing factor for having the best equipment-wise body). <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: This was also posted on the old <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=3516"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">bug forum</a>, without an answer... 
+</p>
+<p>
+<strong><a href="./StarweaverBlue">StarweaverBlue</a></strong>: If possesion is a mental thing, maybe you're only getting one of the heads under your control and the others are laying around limp? (Would also explain his general suckyness that I've herad about.) Anyone have any thoughts on how the mind of a multi-headed (and multi-brained?) creature works? <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: according to the disney-type legends, heads have distinct personalities and argue all the time. But you wouldn't get that in a serious theme; in Dungeons&amp;Dragons Tiamat has 5 heads and the only argument is how the player will survive different 5 breaths at once? (-; 
+</p>
+<p>
+Seriously. Give Kavlax some heads according to theme(someone read Tolkien and count heads), and boost his stats a bit so he doesn't feel weak for his level (I'd be against lowering his level - unless theme makes him a baby or weakling). 
+</p>
+<p>
+He's definitively not overpowered for possessors even with 3 or 4 heads... 
+</p>
+<p>
+Possessors are used to controlling greater Kraken's 3 heads, this shouldn't be different. 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: Just a comment - Kavlax is <strong>not</strong> a Tolkienian monster. Reading Tolkien won't help you much. AFAIK, no dragon had more than one head on Arda. The only dragons to whom Tolkien referred by name (in canon) were Ancalagon, Smaug, and Glaurung.  
+</p>
+
+    <ul>
+
+ <strong><a href="./ZasVid">ZasVid</a></strong>: And Scatha the Worm. 
+    </ul>
+
+
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Itangast is listed in the MECCG, as well as some other dragons not in ToME.  
+</p>
+
+    <ul>
+
+ <strong><a href="./FuriousOne">FuriousOne</a></strong>: AFAIK Scatha and Ithangast were mentioned in the HoME works by Christopher Tolkien, not by JRR himself, but I might be wrong. I was referring to what's considered canonical (Hobbit, Silmarillion, LoTR - though Scatha might have been in the Silmarillion).  [/split hair] <p>
+ <strong><a href="./ZasVid">ZasVid</a></strong>: Scatha was mentioned in Appendices to LotR, in the one about rulers of Rohan (or about dwarves). 
+</p>
+
+    </ul>
+
+
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I've always wondered how the critter in the movie <em>Willlow</em> would stack up to a 2-headed hydra or any of the Tolkienien dragons. I mean, obviously it wasn't too smart, but still...  
+</p>
+
+    <ul>
+
+ Rool: Rats! Big rats!  Franjean: What? What? Oh, Rool, you and your stupid rat dreams. 
+    </ul>
+
+
+<p>
+(I couldn't find a good quote relevant to that little scene... ah well.) 
+</p>
+
+    <ul>
+
+ <a href="./SimonSorc">SimonSorc</a>: I guess he's the dragon equivalent of Frodo; mostly something to be ashamed of. <p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Since when was Frodo someone to be ashamed of? <img src="./wiki/rightsidebar/img/tongue.png" alt=":-?" height="15" width="15"> 
+</p>
+<p>
+ Frodo couldn't survive the barrows-down on his own, even if we give him that longsword we're all thinking of. And he's no mage either. I'm suspecting yeek ancestry, while Kavlax must had a level 1 sickly yeek as a rolemodel to imitate. (-; 
+</p>
+<p>
+ <strong><a href="./FuriousOne">FuriousOne</a></strong>: Actually, Frodo was the one who was responsible for saving the other hobbits from the wights - if it hadn't been for his stamina, he never would have called for Tom Bombadil. As for him not being able to manage it on his own - he was barel clvl5 at the time, in ToME terms. :P No character can take on the Wight-king of the Barrow-downs at that character level. <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Frodo made it to Mt Doom beyond all expectations, even if he did have a bit of help. The others at the Council of Elrond were far more intent upon arguing with one another. Frodo was the one who stood up and took responsibility for the destruction of the One. 
+</p>
+
+        <ul>
+
+  <strong><a href="./RavenRed">RavenRed</a></strong>: Powerdiving in Wizard-mode and removing the one from the source files is <em>hardly</em> laudable behaviour. Next you're going to say that Bilbo's CharDump (AKA "There and Back Again" or "The Hobbit") wasn't edited! I'm appalled that we're condoning this... <p>
+  <strong><a href="./MayLith">MayLith</a></strong>: So basically, you're dissing the entire Lord of the Rings series. 
+</p>
+
+            <ul>
+
+   <strong><a href="./RavenRed">RavenRed</a></strong>: In relation to ToME, yes! Let's face it, Tolkien was an apalling coder. <img src="./wiki/rightsidebar/img/smile4.png" alt=";-)" height="15" width="15"> (Though, to give him his due, he did invent his own language) This is getting extremely silly, I'm stopping now...  
+                            <ul>
+
+       <strong><a href="./FuriousOne">FuriousOne</a>:</strong> Considering that Tolkien's work <em>inspired</em> ToME, that's a little... enh.. not going there, either :P 
+                            </ul>
+
+
+   <a href="./SimonSorc">SimonSorc</a>: When I said barrows-down, I meant the dungeon not the quest! I took the name in the in-game spoilers; I systematically skip it. Does it have another name? <p>
+   And oh yeah. Due to popular demand, I will no longer diss Frodo. And I will actually read Tolkien, not just web pages about it and the forums who tend to humor him; and Kavlax the many-headed has one brain for how many heads again (just to be on topic)?? 
+</p>
+
+                <ul>
+
+    <strong><a href="./MayLith">MayLith</a></strong>: <em><strong>WHAT?!!?!</strong></em> You haven't <em>read</em> Tolkien?!? Shame, shame, shame on you, that a) you are missing out on a fantastic experience, b) that you are passing judgement on things when you don't know what you are talking about. I thought you were hyperlexic. Go read Tolkien. Immediately. You'll love it. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+                </ul>
+
+
+   Oops, looks like Maylith is responding to <a href="./RavenRed">RavenRed</a> and not me. 
+                <ul>
+
+    <strong><a href="./MayLith">MayLith</a></strong>: Yes, I was responding to Ravenred. 
+                </ul>
+
+
+   Oh, well, I won't take back my apology for Frodo. And like Gandalf said, Hobbits are amazing creatures! He just needs a few stat potion that's all - quite normal for clev5. <p>
+   (how did you come to the clev 5 idea? Why not 10 or 1?) 
+</p>
+
+                <ul>
+
+    <strong><a href="./FuriousOne">FuriousOne</a></strong>: Well, when they were at the Barrow-downs in the book, the hobbits hadn't done much but flee in terror, hadn't killed anyone, and didn't even have any weapons! But they did make it through the Old Forest (hmm, now I will have to make a point of having a char go through the Old Forest without killing anything). At level 10, any char can reasonably kill a worthy foe, but at level 5 not yet. <img src="./wiki/rightsidebar/img/biggrin.png" alt=":D" height="15" width="15"> 
+                </ul>            </ul>        </ul>    </ul>
+
+
+<p>
+Kavlax the many-headed but one-brained: Can we get back on topic please? I need my other heads to be counted (insert cheesy educative game music)! Can you help? 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Back to Kavlax. I agree with <a href="./StarweaverBlue">StarweaverBlue</a>. If a one-brained creature possesses a manyheaded one.... I think your "wiring" isn't suited to control all the different heads independently. At best, all the heads would be trying to do the same thing. Magic or no, the sensory input of lots of heads trying to do their own thing simultaneously would probably cause a major sanity hit for a possessor who was originally single-headed. Hey... there's an idea!  
+</p>
+<p>
+For possession of multiple-headed critters, you could either: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Control one head very well (i.e. the current situation) 
+</p>
+</li>
+    <li>
+<p>
+Control all heads for more damage/etc, but take a sanity hit for each round you do so. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+<strong><a href="./BurbLulls">BurbLulls</a></strong>: Why should all the heads need full poesession if all you're doing is putting helmets/amulets on them? Their physical benefits should still be present! 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: why not stick with the status quo rules and make Kavlax many headed for purpose of equipment slots just like Krakens already are? For Valar's sake, it's the FUN option and it's already in the game!! And Kavlax being not too powerful anyhow, this isn't unbalancing. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport138?action=refresh&amp;arena=Page.py&amp;key=BugReport138.text_html">RefreshCache</a> for this page (cached 2004-10-14 21:58:43)<br>
+<p><a href="./BugReport138?action=edit">EditText</a> of this page (last edited 2004-10-14 21:58:42 by <span title="modemcable118.99-200-24.mc.videotron.ca"><a href="./SimonSorc">SimonSorc</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:52:49 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:10 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 175.575
+  exclusion.robots: 0.177
+  exclusion.robots.policy: 0.164
+  RedisCDXSource: 6.214
+  esindex: 0.012
+  LoadShardBlock: 143.889 (3)
+  PetaboxLoader3.datanode: 121.441 (4)
+  CDXLines.iter: 21.395 (3)
+  load_resource: 172.904
+  PetaboxLoader3.resolve: 98.304
+-->

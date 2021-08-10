@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/*Spectre* subrace - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=fullsearch&amp;value=%2F%2ASpectre%2A+subrace&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/*Spectre* subrace</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2f_2aSpectre_2a_20subrace">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2f_2aSpectre_2a_20subrace">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./amaurea">amaurea</a>: How about a more spectre-like version of the spectre subrace? Spectres are etheral creatures held together solely by their own will, and not by any physical substance. They should therefor have no hp (permanent max hp of 1), but have a permanent disruption shield, so they take damage with their sp. <p>
+This means that a spectre can't heal with normal healing potions or healing spells, only with potions of mana and such. It also means that a spectre must be careful not to tire its mind too much (use too much sp), as this makes its 'body' more vulnerable. To compensate they should have a bit more sp than a normal char. 
+</p>
+<p>
+We could also give them full wraithform, which spectres traditionally have. 
+</p>
+<p>
+Christopher: Sounds cool. I'd say give them a *lot* more sp than normal as it would be their health anand mana. Maybe someone could put it in a mod. (looks around pleadingly) 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: Two thumbs up for this idea. Altho, I also think they shouldn't be able to wear any equipment or rather, only ragged/broken stuff and iten enchantments should work the oposite to them... a (-60, -60) {cursed} broken sword would turn into a +60 +60 normal sword while they're using it, with the bad effects turned into good effects... If they attempt to wear an item considered good, the effects become negative. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2f_2aSpectre_2a_20subrace.text_html">RefreshCache</a> for this page (cached 2004-08-13 04:50:59)<br>
+<p><a href="./IdeaArchive_2f_2aSpectre_2a_20subrace?action=edit">EditText</a> of this page (last edited 2004-08-13 04:50:58 by <span title="200-146-148-176.rev.easyband.com.br"><a href="./SoulWynd">SoulWynd</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:25:15 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:57 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 138.706
+  exclusion.robots: 0.128
+  exclusion.robots.policy: 0.118
+  RedisCDXSource: 3.427
+  esindex: 0.011
+  LoadShardBlock: 107.047 (3)
+  PetaboxLoader3.datanode: 101.876 (4)
+  CDXLines.iter: 25.14 (3)
+  load_resource: 67.362
+  PetaboxLoader3.resolve: 38.273
+-->

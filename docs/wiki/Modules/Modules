@@ -1,0 +1,499 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules?action=fullsearch&amp;value=Modules&amp;literal=1&amp;case=1&amp;context=40">Modules</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./Modules?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules">View</a></li>
+<li><a title="Diffs" href="./Modules?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules?action=LikePages">LikePages</a></li>
+<li><a href="./Modules?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+See <a href=".modules.t-o-m-e.net/">http://modules.t-o-m-e.net/</a> for another modules list <hr size="3">
+ <ol>
+<li>
+<a href="#head-bfb3246ad7e8f2aced29012fc254ae5fc272e6b0">Modules for ToME 2</a></li>
+<li>
+<a href="#head-61642667d3c45ae52a31351ae6cf27a946019b00">Modules for ToME 3</a></li>
+<li>
+<a href="#head-19a980af723c30e25ff5a915e3230b365e73ebbe">Module Editor</a></li>
+<li>
+<a href="#head-12e66e350586926a1dee42658553b0525f6f12ad">Module Ideas</a></li>
+<ol>
+<li>
+<a href="#head-1854f8c67f9739df18bfd8437866d05d2d8e4345">Other computer games</a></li>
+<li>
+<a href="#head-5b01e91ca981407797500554ee5e3d46f18b62bf">Other roguelikes</a></li>
+</ol>
+
+<li>
+<a href="#head-258dad55cfea1ed90573f315bd20393b2c10d57b">Legal Issues</a></li>
+<li>
+<a href="#head-0be8c5f4a493a729741e24ab478637b07d047072">Module Concepts</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr size="3">
+ <h2 id="head-bfb3246ad7e8f2aced29012fc254ae5fc272e6b0">Modules for ToME 2</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Modules_2fAdamant">/Adamant</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fAnnals_20of_20Ea">/Annals of Ea</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2faWESoME">/aWESoME</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fClass_2b_2b">/Class++</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fIntets_20Hevn">/Intets Hevn</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fMagic_20Eater">/Magic Eater</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fNarnia_20ToME">/Narnia ToME</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fNorseband">/Norseband</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fPhantasy">/Phantasy</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fScroll">/Scroll</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fSylent">/Sylent</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fTheme">/Theme</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fToME_3aCompetition">/ToME:Competition</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fToME_3aRecentered">/ToME:Recentered</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fTome_20and_20a_20half">/Tome and a half</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fToME_20Plus">/ToME Plus</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fToMK">/ToMK</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fZodiac">/Zodiac</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fZoneband">/Zoneband</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-61642667d3c45ae52a31351ae6cf27a946019b00">Modules for ToME 3</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Modules_2fArda">/Arda</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fLonely_20Town">/Lonely Town</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fZothiqband">/Zothiqband</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-19a980af723c30e25ff5a915e3230b365e73ebbe">Module Editor</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Modules_2fScribe_20for_20TOME2">/Scribe for TOME2</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-12e66e350586926a1dee42658553b0525f6f12ad">Module Ideas</h2>
+<p>
+This is a list of proposed module ideas. Feel free to add your own... 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Modules_2fAge_20of_20Myth">/Age of Myth</a> : When the Earth was young and mankind was only one of it's races... 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fAnnals_20of_20the_20Riftwar">/Annals of the Riftwar</a> : Feistian 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fChill_20Out_20Mod">/Chill Out Mod</a> : Play after heavy ToME sessions 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fColdfire">/Coldfire</a> : Based on the books by C. S Friedman 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fDragon_20Ball">/Dragon Ball</a> : Based of the TV series Dragon Ball, DBZ and DBGT. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fDrangBand">/DrangBand</a> : The Dragon Tower is in turmoil, it's faith is in your hands 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fGalactic_20Center">/Galactic Center</a> : Science fiction mod based on the books by Benford 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fGlorantha">/Glorantha</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Modules_2fGreek_20Myth">/Greek Myth</a> : Fight the Minotauros, Lernaen Hydra, Medusa... in the proper setting 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fHero_20Pingis">/Hero Pingis</a> : You are caught between battling great forces, but you can still make a difference. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fHobbit">/Hobbit</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Modules_2fKing_20Arthur">/King Arthur</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fMalazan_20Empire">/Malazan Empire</a> : Based on Steven Erikson's epic series 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fMars">/Mars</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Modules_2fNaheulbeuk">/Naheulbeuk</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fPokemod">/Pokemod</a> : Pokemon mod! 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fSecret_20Texts">/Secret Texts</a> : Yet another fantasy book based mod 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fSoUL">/SoUL</a> : Soul of Unending Life 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fThief_3a_20The_20Dark_2c_20Deadly_2c_20Metal_20Age">/Thief: The Dark, Deadly, Metal Age</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fTime_20of_20Heroes">/Time of Heroes</a> : A superhero module 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fToH">/ToH</a> : Tales/Troubles of Hyrule ; a module based on the legend of Zelda. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fToME_3aBard">/ToME:Bard</a> : Ideas for improving the Bard class 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Modules_2fToSM">/ToSM</a> : Tales of the Slime Molds 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fUrbanTerror">/UrbanTerror</a> : A moderm setting, an old plot, life will never be the same... 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fVeniss">/Veniss</a> : Explore the horrors of Veniss Underground 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fWheel_20of_20Time">/Wheel of Time</a> : Based on Robert Jordan's epic series 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-1854f8c67f9739df18bfd8437866d05d2d8e4345">Other computer games</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Modules_2fArcanum">/Arcanum</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Modules_2fFallout">/Fallout</a> : A post-nuclear war module 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Modules_2fMorrowind">/Morrowind</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Modules_2fWolfenstein">/Wolfenstein</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-5b01e91ca981407797500554ee5e3d46f18b62bf">Other roguelikes</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./RogueLike/Angband">Angband</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Modules_2fLarn">/Larn</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./RogueLike/Moria">Moria</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./RogueLike/Rogue">Rogue</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./RogueLike/ZAngband">ZAngband</a> <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-258dad55cfea1ed90573f315bd20393b2c10d57b">Legal Issues</h2>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Aren't those modules based on modern books, games, and/or television series going to run into the same type of problem that was had with <a href="./PernAngband">PernAngband</a>? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Any developer would have to become familiar with the relevant law.  In the US, a parody is allowed, so a game that made a parody of the given work would be fine.   Whether the above would be entertaining in parody form is another question, though. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Hm, I can understand the distinction, but in an odd way that's going straight past law right into Zen koan land. <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> No, I'm not making fun, just pondering. So do you think it might be a problem? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Not for us.  If there's a legal problem it'll be for whoever distributes the module, and the local laws will apply to the author.  Given the wide geographic distribution of ToME's players, we can't generalize the laws relevant to these module ideas. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Works for me. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: By the way, it looks like someone could make a Pernband module without getting sued since Anne <a class="nonexistent" href="./McCaffrey">McCaffrey</a> has <a class="external" href=".www.annemccaffrey.org/fan-fiction-rules.html">changed her mind</a>. I wouldn't make or play such a module though. I have zero interest in Pern and have liked none of <a class="nonexistent" href="./McCaffrey">McCaffrey</a>'s stories I have read. 
+</p>
+<h2 id="head-0be8c5f4a493a729741e24ab478637b07d047072">Module Concepts</h2>
+<p>
+<a href="./Modules_2fTime_20Travel">/Time Travel</a> 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: What is the difference between a module idea and a module concept? Should I move Hero Pingis to concepts? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I placed Time Travel in Module Concepts because it's a general discussion of game concepts that modules can use, rather than  an idea for a specific module. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules?action=refresh&amp;arena=Page.py&amp;key=Modules.text_html">RefreshCache</a> for this page (cached 2005-04-03 09:53:14)<br>
+<p><a href="./Modules?action=edit">EditText</a> of this page (last edited 2005-04-03 09:53:14 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:01:28 Apr 04, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:07 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.206
+  PetaboxLoader3.datanode: 51.797 (4)
+  LoadShardBlock: 32.527 (3)
+  RedisCDXSource: 1.031
+  captures_list: 58.625
+  PetaboxLoader3.resolve: 32.435
+  exclusion.robots: 0.222
+  CDXLines.iter: 21.064 (3)
+  load_resource: 63.598
+  esindex: 0.017
+-->

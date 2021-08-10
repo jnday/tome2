@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Color coded level feelings - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=fullsearch&amp;value=%2FColor+coded+level+feelings&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Color coded level feelings</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fColor_20coded_20level_20feelings">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fColor_20coded_20level_20feelings">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Simon: Since I got confused so bad about the level feelings I actually had them in reverse of what they are, I think we should color code them like the abilities. <p>
+For example, the "you feel your luck is turning" sounds better than "you have a superb feeling" to ALL people who I've talked to whose native tongue is French from Quebec (6 people). Yet english people believed the reverse was true most of the time. 
+</p>
+<p>
+Ideally we should have a colored word saying what the level feeling is somewhere in the left paner or status bar. 
+</p>
+<p>
+Examples: 
+</p>
+<p>
+Feeling: PANIC! {in red}  (as in, you're above your head in unusual things. You will probably die if you stay) 
+</p>
+<p>
+Feeling: lucky {in green}     (risk and/or rewards! Don't tell them if it's monsters or items!) 
+</p>
+<p>
+Feeling: hopeful {in yellow}      (some risks, some rewards, nothing really outstanding) 
+</p>
+<p>
+Feeling: dull {in gray}                (Boring!) 
+</p>
+<h2 id="head-ed430a046f786f6f90fb3a3bad72b302f878c6a0"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>some chatter</h2>
+<p>
+Simon: The level of the character should be included in calculations, so that greater vaults of out of depth level 8 monsters in a level 2 dungeon guarding a level 3 randart would register as dull for the level 47 character who is there just because of the beastmaster. The level 1 player would however get a red feeling. 
+</p>
+<p>
+Fates should be stated when known. I didn't pay to get my fate known just to NOT being reminded what it is when I enter the level! This prevents micromanagement and constant looking at the quest screen before using stairs...  (especially for level 1 things; sometimes I get 12 at once and one might be an artifact) 
+</p>
+<p>
+Level feelings should UPDATE once in a while, so that when I got/killed the special stuff I know I'm done. When the preserve mode is off I *never* know for sure if the level contained *2* artifacts... 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: The colors are going to be debatable. To me, yellow is more of a "warning" color than is green. (U.S. traffic lights use red for stop, yellow for caution, and green for go.)  
+</p>
+<p>
+I disagree with the level updating -- It makes it too easy to scum a level. (Neil convinced me.) 
+</p>
+<p>
+Personally, I like the way Z's level feelings are done. See <a class="interwiki" title="Self" href="./IdeaArchive/Expand%20level%20feelings"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">here</a> for some discussion Neil and I had. 
+</p>
+<p>
+Simon: In any case you're refering to Zangband (Z's level feelings)? 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Only in part. I had another idea as well, but Neil talked me out of it. <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15"> Link fixed.  
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fColor_20coded_20level_20feelings.text_html">RefreshCache</a> for this page (cached 2004-08-06 21:43:17)<br>
+<p><a href="./IdeaArchive_2fColor_20coded_20level_20feelings?action=edit">EditText</a> of this page (last edited 2004-08-06 21:43:16 by <span title="user-uivenh8.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:57:40 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:44:22 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 521.323
+  exclusion.robots: 0.172
+  exclusion.robots.policy: 0.159
+  RedisCDXSource: 12.495
+  esindex: 0.014
+  LoadShardBlock: 480.532 (3)
+  PetaboxLoader3.datanode: 179.296 (4)
+  CDXLines.iter: 24.23 (3)
+  PetaboxLoader3.resolve: 443.408 (3)
+  load_resource: 205.588
+-->

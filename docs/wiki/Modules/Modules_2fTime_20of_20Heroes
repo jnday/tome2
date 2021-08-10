@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Time of Heroes - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fTime_20of_20Heroes?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fTime_20of_20Heroes?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fTime_20of_20Heroes?action=fullsearch&amp;value=%2FTime+of+Heroes&amp;literal=1&amp;case=1&amp;context=40">Modules/Time of Heroes</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fTime_20of_20Heroes?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fTime_20of_20Heroes">View</a></li>
+<li><a title="Diffs" href="./Modules_2fTime_20of_20Heroes?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fTime_20of_20Heroes?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fTime_20of_20Heroes?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fTime_20of_20Heroes?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fTime_20of_20Heroes?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fTime_20of_20Heroes?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fTime_20of_20Heroes?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fTime_20of_20Heroes?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fTime_20of_20Heroes?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fTime_20of_20Heroes">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+Time of Heroes would let you play a superhero in a modern-world-like setting.  The origin of the hero would serve as the race, and the type of hero as the class.  Also could allow for much customisability.  In a way, it makes more sense than regular ToME, since somehow your human character is far beyond the normal abilities of any human before you are done. <h2 id="head-86b392fada9d8732a0805ff30657ad1fe0d5b8ce">Hero Origins (Races)</h2>
+Alien--An alien being sent to earth for some reason (Superman, Martian Manhunter, Hawkman) <p>
+Extra-dimensional--a creature from another dimension with powers altering normal time and space (<a class="nonexistent" href="./BatMite">BatMite</a>, Beyonder,) 
+</p>
+<p>
+Intervention--a normal human given powers by some entity, alien or divine, in order to serve some purpose (Wonder Woman, Green Lantern) 
+</p>
+<p>
+Mutant--Granted powers by natural mutations (x-men) 
+</p>
+<p>
+Accident--a lab experiment or accident gone wrong (Incredible Hulk, Flash, Atom, Daredevil) 
+</p>
+<p>
+Cyborg--uses robotics to grant stength and endurance, either built into their body or worn as a suit.  Starts with low stats, but states are upgraded by equiping special components.  (Cyborg, War Machine, Iron Man, Cabal) 
+</p>
+<p>
+Trained--a normal human with above-average speed, strength and stamina, who has pushed and trained his abilities to the point of seeming superhuman (Batman, Green Arrow) 
+</p>
+<p>
+Genius--A super genius.  Invents what he needs and manipulates others to aid him.  Powers come from his own experiments. (Lex Luthor, Mr. Fantastic, Puppet Master, Mad Hatter) 
+</p>
+<h2 id="head-ed1846afee3be21521286932b99e2aeae9e6414a">Classes</h2>
+Tank--Able to give and absorb massive amounts of damage.  Slow, but powerful, with hand-to-hand combat and bolder throwing. (Thing, The Incredible Hulk, Juggernaut) <p>
+Warrior--A trained warrior.  Often uses weapon combat and dodges attacks rather than aborbs them. (Batman, Thor, Wonder Woman, Spider Man) 
+</p>
+<p>
+Defender--Uses healing/defensive powers (Invisible Woman, Jean Grey) 
+</p>
+<p>
+Crusader--Trained in use of both powers and physical combat.  Fights for a purpose (Cyclops, Angel, Ice Man) 
+</p>
+<p>
+Environmenal Manipulator--alters the environment around him(or her) by changing the weather, temperature, time, or other factors (Storm) 
+</p>
+<p>
+Direct attackers--their powers are directly offensive (Bishop, Human Torch) 
+</p>
+<p>
+Manipulators--project or manipulate objects, either real or illusional (Firestorm, Green Lantern) 
+</p>
+<p>
+Telepath--uses mental powers (Prof. X) 
+</p>
+<p>
+Shape Changer--alters own form, shape, or appearance to adapt to situations (Mr. Fantastic, Morph, Mystique) 
+</p>
+<p>
+Magician--an actual fantasy-type witch, wizard, magician, or sorceress. (Dr. Strange) 
+</p>
+<h2 id="head-70440046a3dc2e079f23ee1c57dfa76669b732aa">Notes</h2>
+Heroes are used as examples to clarify what I mean--I am not intending them to be used in the game.  Feel free to add new examples or hero origins/classes.  Also, I am working on Narnia, so feel free to take this up yourself if you are interested. <p>
+<strong>Zonk</strong>: Did some other work. By the way, I'm sure I will use some(actually most)of the ideas that you mentioned, cat. 
+</p>
+<p>
+<strong>2 races/origins</strong>: Parahuman, Trained 
+</p>
+<p>
+<strong>9 subraces/modifiers</strong>: Classical, Well-Known, Daring, Nimble, Young, Gifted, Lucky, Cursed, Ferocious 
+</p>
+<p>
+<strong>3 classes</strong>: Warrior(somewhat different from ToME ones), Martial-Artist and Brick. 
+</p>
+<p>
+<strong>5 superpowers</strong>: Actually skills. They are Super-Strength, Super-Toughness, Hyper-Speed ,Hyper-Reflexes and Regeneration. 
+</p>
+<p>
+<strong>1 new ability</strong>:  Tremor(allows you to cause earthquakes with radius based on your strength, prerequisite is Strength 25+) 
+</p>
+<p>
+If anybody wants to help me with ideas or other things, he is welcome! 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Some time ago, I've started to write a <a class="external" href=".modules.t-o-m-e.net/script.php?id=24">script</a> for the old ZAngband mutations. Perhaps you can use them for the mutants, but they are still far from finished. 
+</p>
+<p>
+<strong>Zonk</strong>: Some of the mutations might be useful, thanks. By the way, I just realized that to truely be able to enjoy this mod(when it will be playable)we will have to wait for 3.0.0, since it's too easy to reach the maximum in stats, and I plan to allow for almost infinite strength and other things...But I DID manage to implement bonuses for strength and constitution and dexterity scores above 40...even if the actual value shown is still 40. It's an ugly hack, but it works. So, every Strength point above 40 is +2 damage, every Constitution point &gt; 40 is +2.5% Hps and every Dexterity point above 40 is +2 Armor Class. 
+</p>
+<p>
+Also, another thing I planned was 'knockback'...Basically, a way to add some force damage to bare-handed attacks of the player and the monsters...So when a super-strong player fights a super-strong monster they might both be flyiiing againist the walls(might make sense, since their strength is incredibily higher than their mass) 
+</p>
+<p>
+<a class="nonexistent" href="./CatwhoWalksbyhimself">CatwhoWalksbyhimself</a>: Some nifty ideas, Zonk.  I am glad you are the one who took this project. If you every need anything, let me know. 
+</p>
+<p>
+One idea I had thought of.  Use intelligence to represent energy levels for the "spells" used to represent some powers.  Use wisdom to represent spell points for actual mistical type spells, since their are actual wizards in the comic book words. 
+</p>
+<p>
+Feel free, Zonk, to alter my description above to match your current mod, in other words, change the race/class names and descriptions as needed. 
+</p>
+<p>
+<strong>'<a href="./MayLith">MayLith</a></strong>: Renamed one subrace (plus fixed a spelling error.) 
+</p>
+<p>
+<strong>'<a class="nonexistent" href="./CatwhoWalksbyhimself">CatwhoWalksbyhimself</a></strong>: Added one class that I had forgotten. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fTime_20of_20Heroes?action=refresh&amp;arena=Page.py&amp;key=Modules_2fTime_20of_20Heroes.text_html">RefreshCache</a> for this page (cached 2005-01-24 09:12:55)<br>
+<p><a href="./Modules_2fTime_20of_20Heroes?action=edit">EditText</a> of this page (last edited 2005-01-24 09:12:53 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 22:17:17 May 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:46 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.295
+  exclusion.robots.policy: 0.264
+  captures_list: 1914.842
+  PetaboxLoader3.resolve: 60.119
+  PetaboxLoader3.datanode: 2458.059 (4)
+  LoadShardBlock: 1732.318 (3)
+  esindex: 0.011
+  load_resource: 829.865
+  CDXLines.iter: 22.242 (3)
+  RedisCDXSource: 15.311
+-->

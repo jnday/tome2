@@ -1,0 +1,218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Treasure Chest - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fTreasure_20Chest?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fTreasure_20Chest?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fTreasure_20Chest?action=fullsearch&amp;value=%2FTreasure+Chest&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Treasure Chest</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fTreasure_20Chest?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fTreasure_20Chest">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fTreasure_20Chest?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fTreasure_20Chest?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fTreasure_20Chest?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fTreasure_20Chest?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fTreasure_20Chest?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fTreasure_20Chest?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fTreasure_20Chest?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fTreasure_20Chest?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fTreasure_20Chest?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fTreasure_20Chest">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-245b83300f68be76c7919796e7624e2bbbc7bd29">Chest types</a></li>
+<li>
+<a href="#head-d711a74808fbdfcf5189b387ea8ea0900e53802b">Traps</a></li>
+<li>
+<a href="#head-afd98071416af2851132325f72c611e65405796a">Chance of cool objects in chests</a></li>
+<li>
+<a href="#head-5f2cbd107037ed23248e5058a7a64cd6bae05468">Miscellaneous</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ Treasure chests are a small joy to find, assuming you can survive the traps! <p>
+Chests found in level 1 are not trapped. In any other level, always expect a trap. 
+</p>
+<h3 id="head-245b83300f68be76c7919796e7624e2bbbc7bd29">Chest types</h3>
+<p>
+There are 3 kinds of chests, each of which has two sizes. 
+</p>
+<p>
+Small wooden chests have 2 items. On average, 75% of them contain money.<br>
+ Large wooden chests have 2 items. They contain only items, never money. 
+</p>
+<p>
+Small iron chests have 4 items. On average, 75% of them contain money.<br>
+ Large iron chests have 4 items. They contain only items, never money. 
+</p>
+<p>
+Small steel chests have 6 items. On average, 75% of them contain money.<br>
+ Large steel chests have 6 items. They contain only items, never money. 
+</p>
+<h3 id="head-d711a74808fbdfcf5189b387ea8ea0900e53802b">Traps</h3>
+<p>
+If your disarming skill/spells/equipment is no good, it might be better to simply open a trapped chest. This allows the trap to harm you only once (and it opens the chest). Failures to disarm it (or open it) may cause you to get hit multiple times. Keep in mind some traps might kill you outright and sometimes it's better to leave them alone (or bring them home for later). 
+</p>
+<p>
+The exception, of course, is chests that explode and become empty ruined chests without giving away anything. 
+</p>
+<p>
+Traps can be detected with ID scrolls or search skills. However, even *ID* scrolls won't reveal the nature of the trap if you haven't seen it in action yet. 
+</p>
+<p>
+Some traps might ruin the chest and its contents. Other chest traps can be useful, like the psi trap that can be used to detect monsters (including the lost hobbit) - see the trap spoiler for more. Keep those Traps of Calling Out to get quest monsters near you during lost sword quests. (-; 
+</p>
+<h3 id="head-afd98071416af2851132325f72c611e65405796a">Chance of cool objects in chests</h3>
+<p>
+The short answer: objects from chests are generated as if you were 10 dungeon levels deeper than the chest was found at - except for wands/staves. This allows deeper item types and almost +2 better AC/to-hit/damage bonuses on average - only if bonuses are present. Wear lucky items if you have them handy before opening chest to get somewhat better items or bonuses. 
+</p>
+<p>
+The long answer: Unlike a monster's drop, a chest's contents is not determined until you open it. Chests do, however, keep track of the level they were found at. Knowing this will help you remember which chests will probably have better treasure. This level-found-at value remains stable so there is no loss if you open chests in the safety of town (except for wands/staves, which have their levels decided at creation time). 
+</p>
+<p>
+The only way to alter your chance at cool items is to wear lucky items when you open the chest (you'll get more ego/randart items if you change luck category. See luck spoiler)  
+</p>
+<p>
+If you're insisting on a good level for a wand/staff (not including mage staff) you'll however need to open the chest in the deepest dungeon level available. There might or might not be a limit where going deeper doesn't help the sticks get more levels. 
+</p>
+<p>
+Due to the weight of chests, people usually open them on the spot - even if they have a robe of great luck at home and are about to recall anyways. This is a mistake if you're needy for items that are VERY out of depth compared to the chest, but otherwise is no big deal. Wearing objects which add only a total of +5 luck won't make much of a difference anyway, but is nice if you have them in inventory. 
+</p>
+<p>
+Objects from a chest are generated 10 levels deeper/better than the chest. So those slaughter axes that start showing up around level 70 might be found in a level 60 chest (from dungeon level 60) without having to get a lucky out-of-depth object. You can still roll a broken dagger (-2, -4) and paper armor [4, -14] {cursed}, but it's worth a shot if you really need items from a level you dare not go to yet. 
+</p>
+<p>
+You'll also get the to-hit, to-damage, and AC bonus as if the objects were from 10 dungeon levels deeper than the chest. This means an average slightly above (+1.76, +1.76) on weapons and [+1.76] on armor compared to an average object found on the same level as the chest. 
+</p>
+<p>
+Around dungeon level 85 for items not found on the dungeon floor or monsters, and at dungeon level 75 for chests, the hit/damage/AC bonuses on items is maximum (except MAYBE wands and staves who are calculated in hard to read weird code that may or may not take that limit). A few rare artifacts might still be out of depth there (in some modules?). 
+</p>
+<p>
+The DL 85 limit means that a deep-void chest isn't better than an Angband level 75 chest; if not for that limit, Void objects would be overpowered or the maximum (+15, +15) non-ego weapons would be only found in the Void! 
+</p>
+<p>
+I've found junkarts in chests, and it seems from the code that random and fixed artifacts are also possible. 
+</p>
+<h3 id="head-5f2cbd107037ed23248e5058a7a64cd6bae05468">Miscellaneous</h3>
+<p>
+* Some body types (like dragons) can't open doors, and they can't open chests either. Keep chests for later or ignore them (especially the small ones - 75% chance of gold - boring). 
+</p>
+<p>
+* Disarming chests while blind, confused, hallucinating, or having no light is possible, but not recommended unless you want the trap activated. 
+</p>
+<p>
+* You gain 1 XP opening a chest by hand, and more XP disarming a trap with the skill rather than magic (the nastier the trap, the more XP you get). This can really help if you're a lost soul looking to gain your first character level, but it might instantly kill you almost as often as not reaching level 2 before your first melee attack. 
+</p>
+<p>
+* Some players insist on not being in a dungeon with lots of loot on the floor at the very moment they reach level 45 so they can be teleported to that town quest *ADD LINK* (and perhaps even start the quest) without the risk of losing loot. Having a few chests to disarm at home can help you reach that goal if you can't find XP potions. 
+</p>
+<p>
+* Ignoring, not opening, or destroying a chest has no influence on creation of artifacts later (even with preserve mode turned off), as items are generated at chest-opening time. 
+</p>
+<p>
+* You can get a gender trap on a chest, but since you don't see the color of the trap there is no way to guess what an unknown trap is - unless you had the bad luck of having your gender changed already! So keeping a chest at home to get your gender back (in case of unwanted-gender-trap triggering) requires you having being unwanted-gendered and recovering from it thru a trap. So this is a very rare accomplishment to have a preferred-gender trapped chest at home!!! 
+</p>
+<p>
+* "mage staff" counts as a weapon for the purpose of this page, not a spellcasting wand/staff. 
+</p>
+<h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h3>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: It's in from cmd2.c instead of object?.c like I expected. Oh well. 
+</p>
+<p>
+I'm gonna look at some characters dump now to see if chests can have all artifact types in them. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: <em>Very nicely done</em>, Simon. I made some edits for clarity/"tightening", and posted a few questions for you under "cool objects" and "miscellaneous". Please feel free to delete my named comments as you further refine the page. 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: Thanks for the newbie-unclear stuff spotting. Anything else? 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fTreasure_20Chest?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fTreasure_20Chest.text_html">RefreshCache</a> for this page (cached 2005-11-05 10:03:50)<br>
+<p><a href="./Spoilers_2fTreasure_20Chest?action=edit">EditText</a> of this page (last edited 2004-12-11 07:23:10 by <span title="modemcable123.242-202-24.mc.videotron.ca"><a href="./SimonSorc">SimonSorc</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:13:37 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:41:01 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 3.512
+  exclusion.robots.policy: 3.5
+  RedisCDXSource: 0.611
+  esindex: 0.012
+  PetaboxLoader3.datanode: 129.54 (4)
+  LoadShardBlock: 52.963 (3)
+  PetaboxLoader3.resolve: 36.581
+  load_resource: 129.868
+  captures_list: 77.537
+  CDXLines.iter: 17.829 (3)
+-->

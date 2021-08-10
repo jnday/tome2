@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport177 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport177?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport177?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport177?action=fullsearch&amp;value=BugReport177&amp;literal=1&amp;case=1&amp;context=40">BugReport177</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport177?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport177">View</a></li>
+<li><a title="Diffs" href="./BugReport177?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport177?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport177?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport177?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport177?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport177?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport177?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport177?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport177?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport177">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./MayLith">MayLith</a></strong>: v2.2.7. I just tried out the Ring of Precognition on the Rare Jewelry Shop in Gondolin. It did not work correctly -- for example, the Ring told me there were two ROS and a Amulet of Doom in the shop, when those were not present at all. <p>
+According to the Ring of Precog: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Indestructible Amulet of Reflection 
+</p>
+</li>
+    <li>
+<p>
+ Indestructible Ring of Acid 
+</p>
+</li>
+    <li>
+<p>
+ Indestructible Amulet of Doom 
+</p>
+</li>
+    <li>
+<p>
+ Indestructible Ring of Speed (2x) 
+</p>
+</li>
+    <li>
+<p>
+ Amulet of Weaponmastery 
+</p>
+</li>
+    <li>
+<p>
+ Amulet of Trickery 
+</p>
+</li>
+    <li>
+<p>
+ Cursed Amulet of Charisma 
+</p>
+</li>
+    <li>
+<p>
+ Indestructible Ring of Slaying 
+</p>
+</li>
+    <li>
+<p>
+ Indestructible Amulet of Antimagic 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Actual shop contents: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Ring of Acid (x 3) 
+</p>
+</li>
+    <li>
+<p>
+ Ring of Ice 
+</p>
+</li>
+    <li>
+<p>
+ Indestructible Ring of Slaying 
+</p>
+</li>
+    <li>
+<p>
+ Ring of Invisibility 
+</p>
+</li>
+    <li>
+<p>
+ Indestructible Amulet of Anti-Magic 
+</p>
+</li>
+    <li>
+<p>
+ Amulet of Resistance 
+</p>
+</li>
+    <li>
+<p>
+ Amulet of Sustenance 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+This is weird, because the number of items is different, so it's not just an indexing problem. I'm not particularly bothered about it, but thought I'd report it in case it was related to a larger issue. I've found repeated instances of this sort of problem with shops, too. I'm not so sure about dungeon levels. 
+</p>
+<p>
+<strong><a href="./ZasVid">ZasVid</a></strong>: I don't think it's an issue in the dungeon. I've once compared whole vault content displayed by precog with actual content and it was nearly fully compatible. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: So far I <em>think</em> I've seen a Unique precogged who I simply *could not* find. (And small levels are on, too.) Maybe they were just avoiding me... I forget who it was anymore. 
+</p>
+<p>
+Simon: the thing listed by the ring might be what actually was in the shop!!! Shops get their content updated only when you enter them. Try going to the shop first so the shop is already updated, and then do whatever you need to do for the precognition ring to work (does it activate or something?). Then you know if you have a real bug - assuming the time of day for shop updating isn't reached during the testing(i.e. test twice if not sure). 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport177?action=refresh&amp;arena=Page.py&amp;key=BugReport177.text_html">RefreshCache</a> for this page (cached 2004-10-03 22:45:41)<br>
+<p><a href="./BugReport177?action=edit">EditText</a> of this page (last edited 2004-10-03 22:45:40 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:05:02 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:52 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 78.515
+  exclusion.robots: 0.143
+  exclusion.robots.policy: 0.135
+  RedisCDXSource: 1.636
+  esindex: 0.01
+  LoadShardBlock: 52.174 (3)
+  PetaboxLoader3.datanode: 61.627 (4)
+  CDXLines.iter: 21.021 (3)
+  load_resource: 67.229
+  PetaboxLoader3.resolve: 36.887
+-->

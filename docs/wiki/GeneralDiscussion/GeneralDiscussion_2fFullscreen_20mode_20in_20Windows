@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Fullscreen mode in Windows - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=fullsearch&amp;value=%2FFullscreen+mode+in+Windows&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Fullscreen mode in Windows</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: I like playing fullscreen in ASCII mode, and i remember that old Dos versions had a command line options to allow this. Is this possible in the Windows version too, without having to recompile with IBM options every time (i'm lazy, BTW :))? <p>
+<strong><a href="./MayLith">MayLith</a></strong>: Uhhh... do you want the map window to cover the whole screen, or all of your assorted game windows to cover the whole screen? If the former, just use the maximize button. For the latter, just stretch your assorted game windows to how you like it, and save the game. 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: Hm I think you mean true full screen, without a titlebar right,? Sorry, can;t be done in windows, you could try a DOS compile if you can get one up and running. 
+</p>
+<p>
+<strong><a href="./StarweaverBlue">StarweaverBlue</a></strong>: Actually, you could come close, though it would be tricky. Make the windows taskbar not always-on-top, and then grab the titlebar of the angband window by the lowest possible pixel and push it up off the screen. You could probably do even better tweaking with the saved window coords in the ini file. 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: Good point SWB. That sounds like the way forward for <a class="nonexistent" href="./RedNaga">RedNaga</a>. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: That's how I normally play when I'm using my (little) laptop, though I don't push the titlebars off the screen. I overlap the game windows so the titlebars are covered by other windows, though I don't push the top one off the screen -- too annoying to get back if I push it too far. 
+</p>
+<p>
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: Sorry for the delay... anyway i meant in fact true fullscreen (the letters are bigger and, on some monitors, like mine, more clear and less fatiguing for the eyes).<br>
+ Also, i couldn't make a DOS compile since version 2.2.0 (maybe even before, i'm not sure), but i would also feel satisfied with an IBM (no graphics) compile... only problem is that it seem to create some strange bugs (reported elsewhere) that don't happen with the Windows compile.<br>
+ Sigh... i guess i will have to arrange for the window maximise solution. Thanks anyway to you all. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fFullscreen_20mode_20in_20Windows.text_html">RefreshCache</a> for this page (cached 2004-09-24 23:45:27)<br>
+<p><a href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows?action=edit">EditText</a> of this page (last edited 2004-09-24 23:45:26 by <span title="h213-213-18-220.rm1.albacom.net">RedNaga</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:22:14 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:45 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.189
+  captures_list: 601.529
+  esindex: 0.017
+  LoadShardBlock: 571.123 (3)
+  CDXLines.iter: 21.94 (3)
+  load_resource: 175.981
+  RedisCDXSource: 1.892
+  PetaboxLoader3.datanode: 528.735 (4)
+  exclusion.robots: 0.204
+  PetaboxLoader3.resolve: 188.833 (2)
+-->

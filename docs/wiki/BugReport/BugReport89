@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport89 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport89?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport89?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport89?action=fullsearch&amp;value=BugReport89&amp;literal=1&amp;case=1&amp;context=40">BugReport89</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport89?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport89">View</a></li>
+<li><a title="Diffs" href="./BugReport89?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport89?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport89?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport89?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport89?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport89?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport89?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport89?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport89?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport89">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The Deathmold's inherent "blink" movement goes roughly in the direction you chose, if it's a cardinal direction (up, down, left, right).  But if you "move" in a diagonal direction, the blink appears to be completely random. </div><div id="footer">
+
+
+<a href="./BugReport89?action=refresh&amp;arena=Page.py&amp;key=BugReport89.text_html">RefreshCache</a> for this page (cached 2004-08-16 20:10:21)<br>
+<p><a href="./BugReport89?action=edit">EditText</a> of this page (last edited 2004-08-16 20:10:20 by <span title="199.2.101.145=terryburgess.wireless.tstar.net">terryburgess</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:53:23 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:06 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.979
+  exclusion.robots: 0.214
+  exclusion.robots.policy: 0.2
+  esindex: 0.016
+  load_resource: 131.305
+  CDXLines.iter: 24.865 (3)
+  captures_list: 125.056
+  PetaboxLoader3.datanode: 109.361 (4)
+  LoadShardBlock: 93.683 (3)
+  PetaboxLoader3.resolve: 76.585
+-->

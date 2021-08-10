@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Artifacts - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fArtifacts?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fArtifacts?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fArtifacts?action=fullsearch&amp;value=%2FArtifacts&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Artifacts</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fArtifacts?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fArtifacts">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fArtifacts?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fArtifacts?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fArtifacts?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fArtifacts?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fArtifacts?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fArtifacts?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fArtifacts?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fArtifacts?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fArtifacts?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fArtifacts">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+An artifact is a unique item which cannot be destroyed, and is often more powerful than ordinary items.  Many of them can be activated for various effects, but they must be identified before activation is possible. <p>
+You might potentially drop an artifact (intentionally or not), and thus lose it forever. To avoid accidentally dropping an artifact you want to keep, you might want to <a class="interwiki" title="Self" href="./Documentation/Item%20inscriptions">inscribe</a> it. Some artifacts, however, are cursed to greater or lesser extent, and these resist being dropped. The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Power_20'The_20One_20Ring'">Ring of Power 'The One Ring'</a> can only leave your inventory in one of two ways.  
+</p>
+<p>
+Artifacts can be fantastic, good, mediocre, wretched, or death in a bottle...sometimes quite literally, in the case of a junkart of Death.  
+</p>
+<p>
+<ol>
+<li>
+<a href="#head-a90ec6cbc0e9f1cf6c0a8dd9615ceda7afd5c31e">True Artifact</a></li>
+<li>
+<a href="#head-6b90c23970a08c020b6f72f6ab1fe8865e615024">Random Artifact</a></li>
+<li>
+<a href="#head-81feeb3ca3a16af8b9c651e5efbb159b633a4bb7">Fixed Artifact</a></li>
+<li>
+<a href="#head-aa69ca7f03e0bbea4a95532eb6c5728313a5bcb7">Junk Artifact</a></li>
+<li>
+<a href="#head-cdddb5b56cbf322e55fbcbb8136e50ce27885220">Modification of Artifacts</a></li>
+<li>
+<a href="#head-565bd2381f46593bd56b06360983a32d31ca8dfc">Mathom House</a></li>
+</ol>
+
+ 
+</p>
+<p>
+<em>The headings below should probably eventually become subpages due to the sheer amount of information involved. -- <a href="./MayLith">MayLith</a></em> 
+</p>
+<h4 id="head-a90ec6cbc0e9f1cf6c0a8dd9615ceda7afd5c31e">True Artifact</h4>
+True artifacts are artifacts that are built into the ToME, and thus might show up in different games with the exact same name and properties (though most artifacts aren't guaranteed to show up in any particular game).  Pretty much any ordinary object that you use in ToME can come in artifact form. <p>
+A list of true artifacts can be seen at <a href="./Spoilers_2fArtifacts_2fArtifactList">/ArtifactList</a> 
+</p>
+<p>
+<em>NOTE</em>: True artifacts are sometimes called "known" artifacts since they are the only type of artifacts that show up in the "Known Artifacts" list. 
+</p>
+<h4 id="head-6b90c23970a08c020b6f72f6ab1fe8865e615024">Random Artifact</h4>
+Random artifacts are, like the name implies, random, including their properties, and even name; since they are random, no two games will have the exact same random artifacts (although it's not impossible for random artifacts from different games to randomly receive the same set of properties). Random artifacts can range from being no better than normal items, to being better than even the best known artifacts.  If you want to brag about a particularly good artifact, go to <a href="./Best_20Random_20Artifacts">Best Random Artifacts</a>. <h4 id="head-81feeb3ca3a16af8b9c651e5efbb159b633a4bb7">Fixed Artifact</h4>
+A "fixed" artifact is an artifact which are guaranteed to be on certain special levels, be the reward for certain non-random quests, or be dropped by certain unique or dungeon guardian monsters; the artifacts dropped by uniques and dungeon guardians might be a random artifact, while all the others are true artifacts. <p>
+A list of some fixed artifacts are (<em>Please don't list the all here!</em>): 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ fixed quest/trueart -- The Sling of Farmer Maggot 
+</p>
+</li>
+    <li>
+<p>
+ special level/trueart -- The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSet_20of_20Leather_20Gloves_20'Cammithrim'">Set of Leather Gloves 'Cammithrim'</a> (<a href="./Deathwatch">Deathwatch</a>) 
+</p>
+</li>
+    <li>
+<p>
+ dungeon guardian/randart -- Old Man Willow 
+</p>
+</li>
+    <li>
+<p>
+ dungeon guardian/trueart -- The Minotaur of the Labyrinth 
+</p>
+</li>
+    <li>
+<p>
+ unique/randart -- Ringwraiths (rings of power) 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-aa69ca7f03e0bbea4a95532eb6c5728313a5bcb7">Junk Artifact</h4>
+<a href="./Spoilers_2fJunkarts">Spoilers/Junkarts</a> Junkarts appear as junk items ("<strong>~</strong>") with strange descriptions.  They are bit heavy (5 pounds each) and are simply carried in your inventory, since they are not wieldable.  Their only useful property is their activation, but a good junkart is well worth the burden. Junkart activations can range from extremely good (light absorption, great for killing Ringwraiths) to extremely bad (death!). They only recharge while being carried; the recharge time, which varies depending on the activation, is not displayed, even after being *Identified*. <p>
+There is a fixed list of names for junkarts, but the activation for a given junkart is assigned by the <a class="nonexistent" href="./RNG">RNG</a>. Thus 'Kelek's Wormhole Machine' may activate for Satisfy Hunger in one game, but activate for something completely different in another game. You will never know what you've got until you have *Identify*'d your junkart. So: 
+</p>
+<p>
+ALWAYS, always, <em><strong>always *Identify*</strong></em> a junkart before you activate it!  
+</p>
+<h4 id="head-cdddb5b56cbf322e55fbcbb8136e50ce27885220">Modification of Artifacts</h4>
+Positive 
+    <ul>
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Scroll_20of_20Craftmanship">Scroll of Craftmanship</a> 
+</p>
+</li>
+    <li>
+<p>
+ Scroll of Enchant / *Enchant* foo 
+</p>
+</li>
+    <li>
+<p>
+ Enhancement in town 
+</p>
+</li>
+    <li>
+<p>
+ Alchemy skill use 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Negative 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Foo of disenchantment 
+</p>
+</li>
+    <li>
+<p>
+ Blasting damage by Ringwraiths/etc. 
+</p>
+</li>
+    <li>
+<p>
+ Scrolls of Curse weapon/armour 
+</p>
+</li>
+    <li>
+<p>
+ Traps of Curse weapon/armour 
+</p>
+</li>
+    <li>
+<p>
+ Accidentally destroying the rod tip of home summoning (doesn't count as an artifact when attached to a rod). 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-565bd2381f46593bd56b06360983a32d31ca8dfc">Mathom House</h4>
+You can give objects to this museum, but cannot take them back. The purpose is often to remember funny or odd objects, have an interesting character dump without wasting space in the homes for it, and have a sort of list of what alchemy flags you have *ID* so far when you're an alchemist. Mathom houses full of junkarts are a common form of self-entertainment. <p>
+In Tolkien's books, the Mathom house was a museum of objects named "Mathoms" (priceless useless treasures), which end up there after years of Hobbits giving it to each other as presents, because they don't have enough value to be kept, but are too valuable to throw away. It is a common Hobbit joke to give someone a bookcase for all the Mathom books he borrowed but never returned... (-; 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fArtifacts?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fArtifacts.text_html">RefreshCache</a> for this page (cached 2005-11-05 10:07:58)<br>
+<p><a href="./Spoilers_2fArtifacts?action=edit">EditText</a> of this page (last edited 2005-11-05 10:07:57 by <span title="p1144-ipad204sapodori.hokkaido.ocn.ne.jp"><a href="./VeryFoobar">VeryFoobar</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 04:09:09 Nov 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:29 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 425.405
+  exclusion.robots: 0.086
+  exclusion.robots.policy: 0.078
+  RedisCDXSource: 1.653
+  esindex: 0.008
+  LoadShardBlock: 404.289 (3)
+  PetaboxLoader3.datanode: 555.392 (4)
+  CDXLines.iter: 17.191 (3)
+  load_resource: 335.724
+  PetaboxLoader3.resolve: 110.005
+-->

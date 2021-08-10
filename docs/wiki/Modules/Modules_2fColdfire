@@ -1,0 +1,241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Coldfire - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fColdfire?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fColdfire?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fColdfire?action=fullsearch&amp;value=%2FColdfire&amp;literal=1&amp;case=1&amp;context=40">Modules/Coldfire</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fColdfire?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fColdfire">View</a></li>
+<li><a title="Diffs" href="./Modules_2fColdfire?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fColdfire?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fColdfire?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fColdfire?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fColdfire?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fColdfire?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fColdfire?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fColdfire?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fColdfire?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fColdfire">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-d8baf8fd782413d654510fb0481ec2c17e89be88"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Coldfire</h2>
+<p>
+I (<a href="./NerdanelVampire">NerdanelVampire</a>) gave this module idea some serious thought, but decided to go with <a href="./Modules_2fZothiqband">Modules/Zothiqband</a> instad. Anyone is free to implement and improve on this. 
+</p>
+<h3 id="head-70c07ec18ef89c5309bbb0937f3a6342411e1fdd"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>World</h3>
+<p>
+The game takes place on an alien world called Erna. Human settlers arrived here several centuries previously, only to be surprised by Erna's unusual properties. The humans were almost destroyed and lost most of their technology, which they have only recently started to recover. But they have also discovered magic and the powers of various godlings. Erna is a place where the world can respond to thoughts and beliefs, up to and including creating gods for one to worship. 
+</p>
+<p>
+Weapons are mainly medieval. Firearms exist, but they are unreliable, and may blow up unless you control your subconscious. (There could be a skill for this.) 
+</p>
+<h3 id="head-9af3f864702b18442f886c277dd5608a4b2c8795"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Races</h3>
+<p>
+Humans 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ East (good with magic and magic items) 
+</p>
+</li>
+    <li>
+<p>
+ West (good with technology) 
+</p>
+</li>
+    <li>
+<p>
+ Adept (innate see invisible, good at magic, low sanity) 
+</p>
+</li>
+    <li>
+<p>
+ Terata 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Rakh (natives of Erna) 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ East (barbaric with good stats and stealth) 
+</p>
+</li>
+    <li>
+<p>
+ West (better skills) 
+</p>
+</li>
+    <li>
+<p>
+ Dark One (psychic vampires) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Faeborn 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Vampire 
+</p>
+</li>
+    <li>
+<p>
+ Spectre 
+</p>
+</li>
+    <li>
+<p>
+ (various) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-ed1846afee3be21521286932b99e2aeae9e6414a"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Classes</h3>
+<p>
+Including: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Warrior priest (One God) 
+</p>
+</li>
+    <li>
+<p>
+ Priest (other gods) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-e6791be7eed7865c6ea8fbf4d2b565ec77d74c36"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Magic</h3>
+<p>
+On Erna magic (fae) is an external substance that flows like liquid. Human practitioners use this earth fae and the power of their spells is dependent on the concentration of fae. Damage spells flow best downstream in the fae, and detection spells detect what is upstream. 
+</p>
+<p>
+Spell: Sacrifice. You destroy an item and use the power to cast another spell you know. This is a low-level spell that can get really powerful with a high skill and item worth. Sacrificing cheap items is essentially useless with this spell. 
+</p>
+<p>
+Rakh practitioners use the tidal fae, which does not flow but changes in power constantly with the time (lots of die sides), and faeborn creatures have their own innate powers. 
+</p>
+<p>
+Some rare objects can store fae for future tapping. 
+</p>
+<h4 id="head-942078ca2d04f25545a316c123a392c4d5d339fd"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Special</h4>
+<p>
+Depending either on a virtue system or the combination of the player's class, subrace, and wisdom, faeborn creatures of varying type will appear at times near any human player character, summoned by the darkness in their subconscious. 
+</p>
+<p>
+Coldfire should be implemented as a damage type. 
+</p>
+<h4 id="head-36d4b773518bffc64872b68f81d4007314d1042c"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Plot</h4>
+<p>
+There are several villains that need to be gotten rid off (the Hunter and the Undying Prince, just to mention the most prominent two) and an invasion to be prevented. Gradually you begin to notice the influence of Callesta behind the scenes. You need to kill Callesta to save the world, which is kind of difficult, since he regenerates from your violent thoughts. Finally you hear the terrible news: someone has named the Unnamed, and it has decided to invade Erna to cover it in eternal suffering. You are the only one who can stop it. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fColdfire?action=refresh&amp;arena=Page.py&amp;key=Modules_2fColdfire.text_html">RefreshCache</a> for this page (cached 2004-08-11 02:56:30)<br>
+<p><a href="./Modules_2fColdfire?action=edit">EditText</a> of this page (last edited 2004-07-23 20:09:37 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:34:13 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:29 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.222
+  exclusion.robots.policy: 0.206
+  LoadShardBlock: 76.421 (3)
+  RedisCDXSource: 145.894
+  PetaboxLoader3.datanode: 109.919 (4)
+  captures_list: 249.415
+  PetaboxLoader3.resolve: 69.454
+  CDXLines.iter: 22.151 (3)
+  load_resource: 144.288
+  esindex: 0.015
+-->

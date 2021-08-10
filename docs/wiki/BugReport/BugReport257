@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+
+<script type="text/javascript">
+  __wm.wombat("http://wiki.t-o-m-e.net/BugReport257","20081007100322","http://web.archive.org/","web","/_static/",
+	      "1223373802");
+</script>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index">
+
+<title>BugReport257 - ToME Wiki</title>
+
+<script type="text/javascript">
+var gui_editor_link_href = "/BugReport257?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+</script>        
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="./wiki/tome/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="./wiki/tome/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="./wiki/tome/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="./wiki/tome/css/projection.css">
+
+<!-- css only for MSIE browsers -->
+<!--[if IE]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/wiki/tome/css/msie.css">
+<![endif]--><link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport257?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport257?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20" onfocus="searchFocus(this)" onblur="searchBlur(this)" onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit" value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit" value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="./FrontPage"><img src="./wiki/ToME.png" alt="Logo"/> ToME Wiki</a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" title="Click to do a full-text search for this title" href="./BugReport257?action=fullsearch&amp;value=linkto%3A%22BugReport257%22&amp;context=180">BugReport257</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="./RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="./FindPage">FindPage</a></li><li class="wikilink"><a href="./HelpContents">HelpContents</a></li><li class="current"><a href="./BugReport257">BugReport257</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a name="texteditlink" href="./BugReport257?action=edit&amp;editor=text">Edit (Text)</a></li><li><a href="./BugReport257?action=info">Info</a></li><li><a href="./BugReport257?action=AttachFile">Attachments</a></li><li>
+<form class="actionsmenu" method="get" action="">
+<div>
+    <label>More Actions:</label>
+    <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="MyPages">My Pages</option>
+<option value="SubscribeUser">Subscribe User</option>
+<option value="show" disabled class="disabled">------------</option>
+<option value="Despam">Remove Spam</option>
+<option value="PackagePages">Package Pages</option>
+    </select>
+    <input type="submit" value="Do">
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="./BugReport257?action=login" id="login">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line874">Kalirion:  Dropping a hypnotized pet and releasing it levels it up by one level.  Recalling to a dungeon and dropping it and releasing it can level it up by multiple levels.  Specifically, every time I recalled from town to Tulkas' temple level 33, and dropped/released the symbiote, it leveled up by around 15 levels.  In order to keep getting the large jumps, I needed to recall back to town, and then back to the dungeon again, but still got a level 137 Trapper in no time.  Otherwise if dropping/releasing in the same dungeon over and over it levels by 1 level again.  Haven't tried it in other dungeons, maybe the auto-leveling of Tulkas' temple has something to do with it.  When this type of leveling happens, the pet's hitpoints stay at their original level, but Probing reveals that other traits like AC, speeed, and attacks all increase. <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867"><strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  <em>[sound F/X:  source diving]</em> Looks like the symbiote's experience points are being double-counted on release, hence the level gain.  The bug is still present in v2.3.2; I've put together <a class="http" href="./www.killerbunnies.org/angband/tome-symlevel.diff">a patch</a> that appears to fix the problem. <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line862">Now, the monster-leveling effect of the temple is a separate issue (though it was likely compounding the bug and making it worse).  I haven't tested the patch in that situation yet; the intended behavior is that the level of the released symbiote will be the larger of its level when it was hypnotized and the level it got leveled to when it was generated.  Which means that releasing your symbiote in a monster-leveling dungeon is still a quick way to level up your symbiote quickly (mitigated somewhat in that it will gain no extra hitpoints in the process).  I'm not sure what the correct behavior is here; if we want to prevent the symbiote from leveling in this case, that will probably require a new parameter to <tt class="backtick">place_monster_one()</tt> in <tt class="backtick">src/monster2.c</tt> to disable dungeon-based monster leveling. <span class="anchor" id="line-6"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">BugReport257  (last edited 2005-10-26 01:59:05 by <span title="ZizzoTheInfinite @ adsl-065-081-085-051.sip.rdu.bellsouth.net[65.81.85.51]"><a href="./ZizzoTheInfinite" title="ZizzoTheInfinite @ adsl-065-081-085-051.sip.rdu.bellsouth.net[65.81.85.51]">ZizzoTheInfinite</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="./moinmoin.wikiwikiweb.de/">MoinMoin Powered</a></li><li><a href=".www.python.org/">Python Powered</a></li><li><a href=".validator.w3.org/check?uri=referer">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:03:22 Oct 07, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:32:42 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 92.797
+  exclusion.robots: 0.19
+  exclusion.robots.policy: 0.16
+  RedisCDXSource: 0.966
+  esindex: 0.011
+  LoadShardBlock: 67.615 (3)
+  PetaboxLoader3.datanode: 84.147 (4)
+  CDXLines.iter: 20.751 (3)
+  load_resource: 1023.663
+  PetaboxLoader3.resolve: 972.492
+-->

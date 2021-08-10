@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Classes - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fClasses?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fClasses?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fClasses?action=fullsearch&amp;value=%2FClasses&amp;literal=1&amp;case=1&amp;context=40">Documentation/Classes</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fClasses?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fClasses">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fClasses?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fClasses?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fClasses?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fClasses?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fClasses?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fClasses?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fClasses?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fClasses?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fClasses?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fClasses">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>Subpages should contain non-spoily information of the type currently contained in the on-line game help. Please put spoiler information in the appropriate place in the <a href="./SpoilerArchive">SpoilerArchive</a>. Thanks.</strong></em> <p>
+Once a race has been chosen, you will need to pick a class. A class is your "profession": what you do best. Some classes will not be available to certain races, for instance, a Troll cannot become a Paladin. For the first few adventures it is suggested that you run a warrior or rogue. Spell casting generally requires a more experienced player that is familiar with survival techniques. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fAlchemist">/Alchemist</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fArcher">/Archer</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fAssassin">/Assassin</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fAxemaster">/Axemaster</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fBard">/Bard</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fDark_2dPriest">/Dark-Priest</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fDemonologist">/Demonologist</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fDruid">/Druid</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fGeomancer">/Geomancer</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fHaftedmaster">/Haftedmaster</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fLoremaster">/Loremaster</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fMage">/Mage</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fMimic">/Mimic</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fMindcrafter">/Mindcrafter</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fMonk">/Monk</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fNecromancer">/Necromancer</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fPaladin">/Paladin</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fPolearmmaster">/Polearmmaster</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fPossessor">/Possessor</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fPriest_28Eru_29">/Priest(Eru)</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fPriest_28Manwe_29">/Priest(Manwe)</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fRanger">/Ranger</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fRogue">/Rogue</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fRunecrafter">/Runecrafter</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fSorceror">/Sorceror</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fSummoner">/Summoner</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fSwordmaster">/Swordmaster</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fSymbiant">/Symbiant</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fThaumaturgist">/Thaumaturgist</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fUnbeliever">/Unbeliever</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fWarper">/Warper</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fClasses_2fWarrior">/Warrior</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fClasses?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fClasses.text_html">RefreshCache</a> for this page (cached 2005-11-05 07:09:27)<br>
+<p><a href="./Documentation_2fClasses?action=edit">EditText</a> of this page (last edited 2005-03-22 15:25:06 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:27:50 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:13 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 95.393
+  exclusion.robots: 0.1
+  exclusion.robots.policy: 0.092
+  RedisCDXSource: 1.956
+  esindex: 0.009
+  LoadShardBlock: 74.275 (3)
+  PetaboxLoader3.datanode: 143.535 (4)
+  CDXLines.iter: 16.852 (3)
+  load_resource: 138.728
+  PetaboxLoader3.resolve: 35.512
+-->

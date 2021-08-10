@@ -1,0 +1,406 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Effects from eating corpses - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=fullsearch&amp;value=%2FEffects+from+eating+corpses&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Effects from eating corpses</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fEffects_20from_20eating_20corpses">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fEffects_20from_20eating_20corpses?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fEffects_20from_20eating_20corpses?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fEffects_20from_20eating_20corpses?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fEffects_20from_20eating_20corpses?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fEffects_20from_20eating_20corpses?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fEffects_20from_20eating_20corpses">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Eating corpses can be extremely hazardous to one's health -- especially when the corpse in question is a Unique. Eating from a corpse in ToME can grant beneficial effects, hurt you badly... or even kill you. Some effects may be beneficial <em>if</em> you survive your dinner. So, let the diner beware! <hr>
+ <ol>
+<li>
+<a href="#head-2c1c91ef2c364e57a166fe749853e2a1f8f33e7a">Effects from just hacking corpses</a></li>
+<li>
+<a href="#head-40c4a79035b156a231ffdafaa63e8c2d77263b55">Effects from eating hacked meats</a></li>
+<li>
+<a href="#head-6ae415a59f40f715f2c01e98eac39c560e15df09">Effects from eating non-unique corpses</a></li>
+<li>
+<a href="#head-299610eb0d0d805e843fa6e9c62f11ca216a66cd">Effects from eating unique corpses</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-2c1c91ef2c364e57a166fe749853e2a1f8f33e7a">Effects from just hacking corpses</h2>
+Hacking a red dragon bat corpse gave resist fire.  Depending on the corpse weight, you can get temp resist to fire, cold, acid and/or electricity just from hacking a corpse.  All the bad stuff that can happen when you eat a corpse can occur when you hack one too. <p>
+In general, hacking the corpse of a monster that has a breath attack will release a <em>tremendously</em> powerful attack against you, of the damage type caused by that breath.  The amount of damage caused by the release depends on the corpse's weight, <em>not</em> on the monster's level, hit points, etc.  The amount of damage you take from this attack may be <em>much</em> greater than the amount you would have taken from the monster's breath while it was alive.  Immunity or double resistance to the element in question is strongly advised. 
+</p>
+<h2 id="head-40c4a79035b156a231ffdafaa63e8c2d77263b55">Effects from eating hacked meats</h2>
+You get food value from eating hacked meats, but nothing else. <p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: You sure about that?  I seem to remember otherwise, but I may be mistaken. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Yup! I'm sure. I doublechecked the food value just now. And I'm positive you don't get additional effects: I had Ulfang's corpse (see below) and tried hacking him, as I thought it'd be quite handy to have a pile of meats along for the resists. Eating them did nothing (other than getting full.) 
+</p>
+<p>
+Could it be that that was what the "cure meat" thing (which doesn't work) was supposed to do? 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: Curing meat decreases the spoilage counter, or something like that.  Let's see... 
+</p>
+
+    <ul>
+
+ 
+<pre>        case SV_POTION_SALT_WATER:
+                {
+                        q = "You salt the meat.";
+                        cure = 200 * num;
+        ...
+        /* Cure the meat */
+        o_ptr-&gt;timeout += cure / o_ptr-&gt;number;</pre>
+    </ul>
+
+
+<p>
+Over in dungeon.c, there's a piece of code that should "decay" the meat.  I don't know whether there are bugs in this code, since I haven't done much with meat myself. 
+</p>
+<h2 id="head-6ae415a59f40f715f2c01e98eac39c560e15df09">Effects from eating non-unique corpses</h2>
+
+    <ul>
+
+    <li>
+<p>
+ Dragons, dragonflies, dragon bats 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Red, blue, green, white, black: Resistance to the relevant element(s). 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Aether hounds: RBase, RPois, <a class="nonexistent" href="./ProtEvil">ProtEvil</a>.  Still tastes bad, though <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</li>
+    <li>
+<p>
+ Patriarch summons several pets, usually half decent ones! <strong><a href="./ArcherElf">ArcherElf</a></strong> 
+</p>
+</li>
+    <li>
+<p>
+ Knight Templar: RBase, RPois, <a class="nonexistent" href="./ProtEvil">ProtEvil</a>, summon pet angel (if the current dungeon permits). 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-299610eb0d0d805e843fa6e9c62f11ca216a66cd">Effects from eating unique corpses</h2>
+Base Uniques: 
+    <ul>
+
+    <li>
+<p>
+ Azog, King of the Uruk-Hai:  Resist poison. 
+</p>
+</li>
+    <li>
+<p>
+ Ar-Pharazon the Golden:  Summon pets. 
+</p>
+</li>
+    <li>
+<p>
+ Beorn, the Shape-Changer:  No effects. 
+</p>
+</li>
+    <li>
+<p>
+ Boldor, King of the Yeeks:  Resist acid; summon one pet. 
+</p>
+</li>
+    <li>
+<p>
+ Bolg, Son of Azog:  Resist poison. 
+</p>
+</li>
+    <li>
+<p>
+ Brodda, the Easterling:  No effects 
+</p>
+</li>
+    <li>
+<p>
+ Bullroarer the Hobbit:  No effects 
+</p>
+</li>
+    <li>
+<p>
+ Draebor, the Imp:  Resist fire, cold and poison. 
+</p>
+</li>
+    <li>
+<p>
+ Drauguin, Sire of All Werewolves:  Resist poison; Summon pets. 
+</p>
+</li>
+    <li>
+<p>
+ Durin's Bane: Resist fire. 
+</p>
+</li>
+    <li>
+<p>
+ Fangorn the Treebeard, Lord of the Ents:  No effects. 
+</p>
+</li>
+    <li>
+<p>
+ Glaurung, Father of the Dragons:  Resist fire. 
+</p>
+</li>
+    <li>
+<p>
+ Gorbag, the Orc Captain:  Resist poison. 
+</p>
+</li>
+    <li>
+<p>
+ Grishnakh, the Hill Orc:  Resist poison. 
+</p>
+</li>
+    <li>
+<p>
+ Kavlax, the Many-Headed:  Resist acid, fire, electricity, cold. 
+</p>
+</li>
+    <li>
+<p>
+ Lagduf, the Snaga:  No effects 
+</p>
+</li>
+    <li>
+<p>
+ Lokkak, the Ogre Chieftan:  Resist poison. 
+</p>
+</li>
+    <li>
+<p>
+ Lugdush, the Uruk:  Resist poison.  
+</p>
+</li>
+    <li>
+<p>
+ Mughash, the Kobold King:  No effects 
+</p>
+</li>
+    <li>
+<p>
+ Nar, the Dwarf:  Resist fire, cold, and poison. 
+</p>
+</li>
+    <li>
+<p>
+ Orfax, Son of Boldor:  Resist acid; Summon one pet. 
+</p>
+</li>
+    <li>
+<p>
+ Scatha, the Worm:  Resist cold. 
+</p>
+</li>
+    <li>
+<p>
+ Shagrat, the Orc Captain:  Resist poison. 
+</p>
+</li>
+    <li>
+<p>
+ Smeagol:  No effects 
+</p>
+</li>
+    <li>
+<p>
+ The Necromancer of Dol Guldur:  Resist fire, cold, electricity; Summon an undead pet.  
+</p>
+</li>
+    <li>
+<p>
+ The Tarrasque:  Resist fire and cold. 
+</p>
+</li>
+    <li>
+<p>
+ Ugluk, the Uruk:  Resist fire, cold, and poison. 
+</p>
+</li>
+    <li>
+<p>
+ Ulfang, the Black:  Resist electricity, fire, and cold; Summon a number of pets. 
+</p>
+</li>
+    <li>
+<p>
+ Ulfast, Son of Ulfang:  No effects 
+</p>
+</li>
+    <li>
+<p>
+ Vort, the Kobold Queen:  No effects 
+</p>
+</li>
+    <li>
+<p>
+ Wormtongue, Agent of Saruman:  No effects 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Joke Uniques: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ The Insane Player:  Resist fire, cold, acid, electricity, poison. 
+</p>
+</li>
+    <li>
+<p>
+ The Philosophy Teacher:  Lose sanity, lose XP; corpse gains black aura? 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./MayLith">MayLith</a></strong>: Hrmmm... Perhaps this page should be renamed to 'Effects from hacking <em><strong>and</strong></em> eating corpses'??? <p>
+(part of the discussion moved to <a href="./Modules_2fZothiqband_2fCannibal">Modules/Zothiqband/Cannibal</a>) 
+</p>
+<p>
+<strong><a href="./RavenRed">RavenRed</a></strong>: Minor idea... every bite snatched from a dungeon corpse could maybe provide a 1000 pt piety hit to worshippers of Eru, Manwe, Tulkas and Yavanna (though maybe only a 500 pt one for Yav, she believes more in the cycle-of-life bit... <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> ) 
+</p>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  1000 piety hit sounds a bit high...How about the level of the monster, multiplied by 5 if it is sentient? 
+</p>
+<hr>
+ <p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  I just hacked meats off of a Mature Black Dragon, and eating the hacked meats provided acid resistance.  Tried hacking then off of some uniques and their meats were inert.  Perhaps monster meats convey whatever the corpse does, and uniques don't?  Could probably be an unexpected result of some coding, or perhaps intended since many unique corpses have very powerful effects. 
+</p>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  Eating hacked meat from Glaurung gives fire resistance, so it works for some uniques as well. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: Mmmm.... i hacked some meat from a fire hound and it gave me resist fire - i brought the remaining meat with me for a while and when i ate it again i *didn't* get resist fire! I seem to remember also that hacked meat does rot away after some time - i think the resistance goes away as well after some time, but much before the meat spoils - either that or a very nasty bug! <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+I think it should be worthy to mention here the dangers of <strong>hacking</strong> meat in first place! (i.e. mostly the possibility that hacking a breather will shower you with his breath element for an amount of damage that is related to the corpse weight, and can thus be *huge* even with low level monsters) 
+</p>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  Yeah, I crossed my fingers before hacking Glaurung, but I had fire immunity and some 1000 hp.  He hit with fire and then poison, and with poison resistance that did some 250 or so damage.  Generally, if you need the meat for a resistance, you'll die trying to get it.  I expect that Glaurung's meat gives poison resistance as well, but it wouldn't show since I have poison resistance already and there isn't a double stack for that like there is for fire resistance.  It probably makes it quite easy to not notice lots of resistances when eating meats. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: i don't think you can get greater resists from eating corpses, but you should get a message on temporary poison resist if you get it - at least you get it when you quaff a potion of resistance! Poison damage is reduced in the same way as other ones if you have double resistance. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fEffects_20from_20eating_20corpses?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fEffects_20from_20eating_20corpses.text_html">RefreshCache</a> for this page (cached 2005-11-04 20:23:11)<br>
+<p><a href="./Spoilers_2fEffects_20from_20eating_20corpses?action=edit">EditText</a> of this page (last edited 2005-09-10 13:36:42 by <span title="wooledge.org"><a href="./GreyCat">GreyCat</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:29:00 Nov 05, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:39 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 91.127
+  exclusion.robots: 0.119
+  exclusion.robots.policy: 0.111
+  RedisCDXSource: 1.729
+  esindex: 0.009
+  LoadShardBlock: 62.943 (3)
+  PetaboxLoader3.datanode: 91.63 (4)
+  CDXLines.iter: 22.898 (3)
+  load_resource: 79.304
+  PetaboxLoader3.resolve: 29.504
+-->

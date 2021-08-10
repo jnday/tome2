@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/aWESoME - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2faWESoME?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2faWESoME?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2faWESoME?action=fullsearch&amp;value=%2FaWESoME&amp;literal=1&amp;case=1&amp;context=40">Modules/aWESoME</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2faWESoME?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2faWESoME">View</a></li>
+<li><a title="Diffs" href="./Modules_2faWESoME?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2faWESoME?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2faWESoME?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2faWESoME?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2faWESoME?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2faWESoME?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2faWESoME?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2faWESoME?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2faWESoME?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2faWESoME">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+<p>
+a Wilderness-Enhanced Sight of Middle Earth 
+</p>
+<p>
+THIS MODULE WILL BE DEDICATED TO ALL THOSE WHO LOVE WILDERNESS TRAVELLING AS MUCH AS DUNGEON CRAWLING 
+</p>
+<p>
+aWESoME is the customized version that I'm actually using for playing ToME. I'd like to share it with you in the hoping it becomes the replacement for standard ToME <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> ...at least until the arriving of ToME 3 <img src="./wiki/rightsidebar/img/sad.png" alt=":-(" height="15" width="15"> ;-))) 
+</p>
+<p>
+I don't care about races, classes, skill, spells, powers, monsters, items and gods. All this stuff is currently good enough for my taste. 
+</p>
+<p>
+My concern was about wilderness. It's both the best and the worst point of ToME. I still remember how I enjoyed exploring it when I was a newbie. But eventually the Middle-earth layout became too know, so I started adding new features just to keep me involved in the game. 
+</p>
+<p>
+aWESoME is built upon the editing of wf_info.txt and w_info.txt. I'm a 16x16 tiles die-hard, so I've designed new tiles for my new features. They are separately <a class="external" href=".modules.t-o-m-e.net/modules/package.php?id=10"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">downloadable</a>. If you are an ASCII user, please let me know if something looks weird. aWESoME is not intended to support 8x8 tiles. 
+</p>
+<p>
+Since I want aWESoME to keep close to standard ToME, any other change is just a matter of nitpicking. You can find the detailed list in awesome/changes.txt 
+</p>
+<h2 id="head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</h2>
+0.1.3 <h2 id="head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</h2>
+2.2.7 <h2 id="head-5fda23d62015b99fb2a9f86b38bcdf2bdf7609c8">Author</h2>
+<a href="http://web.archive.org/web/20041020105709/mailto:llesinto@hotmail.com">llesinto@hotmail.com</a> <h2 id="head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</h2>
+03/07/2004 <h2 id="head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</h2>
+You can download this module as a <a class="external" href=".modules.t-o-m-e.net/mods/10__aWESoME.zip"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">zip file</a>. <p>
+Size    639 kB 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2faWESoME?action=refresh&amp;arena=Page.py&amp;key=Modules_2faWESoME.text_html">RefreshCache</a> for this page (cached 2004-08-03 21:34:47)<br>
+<p><a href="./Modules_2faWESoME?action=edit">EditText</a> of this page (last edited 2004-07-12 18:20:05 by <span title="dialin-145-254-147-072.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:57:09 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:22 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.151
+  captures_list: 480.272
+  esindex: 0.01
+  LoadShardBlock: 455.223 (3)
+  CDXLines.iter: 17.789 (3)
+  load_resource: 91.014
+  RedisCDXSource: 4.024
+  PetaboxLoader3.datanode: 105.267 (4)
+  exclusion.robots: 0.19
+  PetaboxLoader3.resolve: 27.844
+-->

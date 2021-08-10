@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Stealth and Range - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fStealth_20and_20Range?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fStealth_20and_20Range?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fStealth_20and_20Range?action=fullsearch&amp;value=%2FStealth+and+Range&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Stealth and Range</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fStealth_20and_20Range?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fStealth_20and_20Range">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fStealth_20and_20Range?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fStealth_20and_20Range?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fStealth_20and_20Range?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fStealth_20and_20Range?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fStealth_20and_20Range?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fStealth_20and_20Range?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fStealth_20and_20Range?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fStealth_20and_20Range?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fStealth_20and_20Range?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fStealth_20and_20Range">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./RavenRed">RavenRed</a></strong>: Just a quick query as to the way in which stealth works. Zizzo's killerbunnies provides the calculation, but I was wondering whether the range from the character to the monster makes for a graduated calculation, or if the standard stealth calculation is applied whenever a char enters a monster's perception range REGARDLESS of the distance from the monster. Thanks in advance.  </div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fStealth_20and_20Range?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fStealth_20and_20Range.text_html">RefreshCache</a> for this page (cached 2004-09-24 02:25:12)<br>
+<p><a href="./GeneralDiscussion_2fStealth_20and_20Range?action=edit">EditText</a> of this page (last edited 2004-09-24 02:25:12 by <span title="144.139.75.72"><a href="./RavenRed">RavenRed</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:10:25 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:42:59 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 74.99
+  exclusion.robots: 0.167
+  exclusion.robots.policy: 0.155
+  RedisCDXSource: 0.828
+  esindex: 0.01
+  LoadShardBlock: 45.466 (3)
+  PetaboxLoader3.datanode: 46.069 (4)
+  CDXLines.iter: 23.68 (3)
+  load_resource: 31.95
+-->

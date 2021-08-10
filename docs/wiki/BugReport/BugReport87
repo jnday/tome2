@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport87 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport87?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport87?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport87?action=fullsearch&amp;value=BugReport87&amp;literal=1&amp;case=1&amp;context=40">BugReport87</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport87?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport87">View</a></li>
+<li><a title="Diffs" href="./BugReport87?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport87?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport87?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport87?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport87?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport87?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport87?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport87?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport87?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport87">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The {foo} in your pack appears to be cursed (or was it average?). Anyhow I was wearing it, it wasn't in the pack... <hr>
+ <p>
+Tries to wear a drum, while already wearing another drum {cursed}: "the drum you are shooting with appears to be cursed"...   well I'm not *shooting* with a drum anytime soon! 
+</p>
+<p>
+I vaguely recall something silly about the tool slot, but I can't remember if it was the notify. Maybe it was just the vampiric/earthquake-causing digger that caused my weapons to make earthquakes?? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: An error similar to those above: While wearing a cursed climbing set and trying to wear another tool: "the climbing set you are carrying in your pack seems to be cursed". 
+</p>
+<p>
+These bugs seem to be related to an outdated describe_use() function. There are missing slots and instruments need another message: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ instrument: The drum you are "playing" appears to be cursed. 
+</p>
+</li>
+    <li>
+<p>
+ ammo: The arrows you are "carring in your quiver" ... 
+</p>
+</li>
+    <li>
+<p>
+ tool: The shovel / climbing set you are "using as a tool" ... 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Fixed in ToME 2.3.0. Perhaps there are some other issues, but this fix should solve the reported problems. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport87?action=refresh&amp;arena=Page.py&amp;key=BugReport87.text_html">RefreshCache</a> for this page (cached 2004-09-21 10:31:38)<br>
+<p><a href="./BugReport87?action=edit">EditText</a> of this page (last edited 2004-09-21 10:31:37 by <span title="dialin-145-254-144-006.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:44:30 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:59 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 384.088
+  exclusion.robots: 0.113
+  exclusion.robots.policy: 0.103
+  RedisCDXSource: 6.441
+  esindex: 0.01
+  LoadShardBlock: 359.723 (3)
+  PetaboxLoader3.datanode: 90.811 (4)
+  CDXLines.iter: 15.482 (3)
+  PetaboxLoader3.resolve: 60.453 (2)
+  load_resource: 53.329
+-->

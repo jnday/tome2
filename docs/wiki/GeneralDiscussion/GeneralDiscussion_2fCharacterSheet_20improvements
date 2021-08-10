@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/CharacterSheet improvements - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=fullsearch&amp;value=%2FCharacterSheet+improvements&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/CharacterSheet improvements</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fCharacterSheet_20improvements">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fCharacterSheet_20improvements">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The character sheet put on oook is kinda unpersonal. <p>
+Couldn't we get a 5 or 10 lines rant in character dumps, so that people may express themselves a bit? 
+</p>
+<p>
+The average character sheet has probably 2 or 3 elements worth really really seeing. Let the player point which ones(i.e. his best randart amulet is based on an amulet of adornment so it is listed as not magic). 
+</p>
+<p>
+...that and how he got his possessor to be an ultimate winner using the you-know-what corpse(who has a catastrophic flaw for the ultimate end game). I'm still puzzled about that one, and how he had only 30 HP damage during the last round where he did the ultimate win. 
+</p>
+<p>
+...Some people play odd character class/race combos, I'd like to have some comments on why and how you managed to cope with that. 
+</p>
+<p>
+...How long does it takes for an alchemist to make that +22 speed ring? This is a worthy thing to mention in a char dump/sheet. 
+</p>
+<p>
+In any case adding a 5 or 10 line optional rant to the character dump/sheet shouldn't be too hard to code!!! 
+</p>
+<hr size="3">
+ <p>
+What do you think? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I don't think commentary belongs on the sheet. It belongs on the wiki instead. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: What Neil said. The template is just the starting point. The whole point of putting the character sheet on the wiki in the first place is so that you can personalize it all you want.  
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: In any case, the sheet is a text file. It's not like it's hard for anyone to open and edit it. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Even darkgod edited some of his character sheets for oook. But the whole point of posting on the wiki is that you don't HAVE to edit the text file or add "rants" to it or anything! Just import it, then edit in whatever you want. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fCharacterSheet_20improvements.text_html">RefreshCache</a> for this page (cached 2004-09-26 04:58:52)<br>
+<p><a href="./GeneralDiscussion_2fCharacterSheet_20improvements?action=edit">EditText</a> of this page (last edited 2004-09-26 04:58:51 by <span title="user-uiver05.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:07:18 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:35 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 120.352
+  exclusion.robots: 0.165
+  exclusion.robots.policy: 0.153
+  RedisCDXSource: 2.056
+  esindex: 0.013
+  LoadShardBlock: 88.35 (3)
+  PetaboxLoader3.datanode: 54.235 (4)
+  CDXLines.iter: 25.592 (3)
+  load_resource: 53.141
+  PetaboxLoader3.resolve: 22.659
+-->

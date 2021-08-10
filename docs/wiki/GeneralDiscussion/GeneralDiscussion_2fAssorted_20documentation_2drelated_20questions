@@ -1,0 +1,356 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Assorted documentation-related questions - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=fullsearch&amp;value=%2FAssorted+documentation-related+questions&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Assorted documentation-related questions</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./MayLith">MayLith</a></strong>: Okay, I have some questions about things that have cropped up in my overhaul of the documentation (specifically, <a class="nonexistent" href="./Documentation_2fExploring_20the_20Dungeon">Documentation/Exploring the Dungeon</a>). I'd like some input. However, keep in mind that this would just be input; what actually winds up going into the documentation may be something else. <img src="./wiki/starshine/img/smile4.png" alt=";)" height="15" width="15"> 
+    <ul>
+
+    <li>
+<p>
+ Does Mordor have an experience block to enter it? I can't remember. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <strong><a href="./SoulWynd">SoulWynd</a></strong>: Level 15 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Titanium walls??!? I've seen references to this before, but... a) wha? b) is it still valid? It seems to be only referencing pane transitions, but I don't know for sure. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <strong><a href="./SoulWynd">SoulWynd</a></strong>: Well, I checked the features file and there's no such thing. 
+</p>
+</li>
+        <li>
+<p>
+ <strong><a href="./StarweaverBlue">StarweaverBlue</a></strong>: This one has me interested, too. I thought it might have come from Moria, but there's nothing in the Moria docs that even mentions the cellular dungeon phenomenon. I guess one of the early Angband doc-writers invented the concept to explain this, but AFAIK it's never been mentioned in the code. I'd think some of the dragons could melt Titanium, anyway . . . . 
+</p>
+<p>
+  As for a replacement concept, perhaps the world's crust (by some game-specific tangent to the creation myths) is based on irregularly stacked lattices of magically impregnable stone (think of a globe wrapped in a hundred or so layers of impossibly thin window screen, none of the layers quite lined up with each other). Won't help much for the overworld . . . though I'd like to try adding edge-joined dungeons later on sometime. (Hope this isn't too long.) 
+</p>
+</li>
+        <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Titanium is gone, gone, gone. I'm still curious about where the reference came from, though -- I don't remember it from Moria, either. (Though it's been a looooong time.) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Mining -- do any of the low DL dungeons in fact have mine-able treasure? I've never found any except quite deep... Then again, I haven't exactly searched very hard either. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MassimilianoMarangio">MassimilianoMarangio</a>: In ToME 2.x, only Angband and Mordor (both hardcoded) and the Sandworms Lair (flag SAND_VEIN) contain treasure streamer. 
+</p>
+</li>
+        <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: I've modified that section rather heavily to reflect that. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Direct quote from dungeon.txt: "Each level has at least one up staircase and at least two down staircases. There are no exceptions to this rule." I can't see how this statement is compatible with Princess quests and some special levels. Is this outdated, or is there (on a given princess quest level) some hidden down staircase buried under rock someplace?? (I think/hope the former, but I'll ask anyway.)  If this *is* outdated, then what is the new standard? I would think "at least one up and one down (quests being met)", but are there any other conditions? 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./MassimilianoMarangio">MassimilianoMarangio</a>: There are always 5 down stairs to a branching dungeon and 5 up stairs to the father dungeon. Normally a level has 3 or 4 down stairs and possibly 1 down shaft as well as 1 or 2 up stairs and possibly one up shaft. Some unusual rooms may also contain random stairs. 
+</p>
+</li>
+        <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: How does this work with Princess quests and special levels?? 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Special levels are loaded from a map (the stair on the starting position is added / changed by the code), and on quest levels (i.e. princess quests, but not lost sword quests) only up stairs are created. 
+</p>
+</li>
+        <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Ah, okay. So basically, dungeon.txt is inaccurate: there <em>are</em> exceptions to the rule...namely, the four you just mentioned. <img src="./wiki/starshine/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./MassimilianoMarangio">MassimilianoMarangio</a>:  The stairs and shafts are also only created if some conditions are fulfilled, e.g. on the last dungeon level there is no down stair, unless the dungeon has the flag FORCE_DOWN (e.g. Moria). 
+</p>
+</li>
+        <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: ...which is when you wind up with a staircase that takes you back to the last town you were in, yes??  Hm, I wonder how much of this would be considered spoily.... 
+</p>
+</li>
+        <li>
+<p>
+ <strong><a href="./ErisDiscordia">ErisDiscordia</a></strong> Spoily or not, th'fact is that that part of the help is indeed confusing and should be changed, even if just to say "Normally, each level has at least one up staircase and at least two down staircases. There are a few special exceptions to this rule." 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: If I wasn't going to be changing it, why would I would be discussing it in the first place? 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ <strong> <a href="./ErisDiscordia">ErisDiscordia</a></strong> What was really confusing for me as a newbie (not that I'm not now), however, was the blankety-blank mining references you mention above. I couldn't figure out for quite a while why I was so dumb as to not see the treasure that was allegedly all around me in the walls. I really should dive back into the help and take notes to give you a newbie's-eye view of it. 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Already fixed...along with about a zillion other things. Many more to go, but just because I haven't gotten there yet doesn't mean I won't. 
+</p>
+</li>
+            <li>
+<p>
+ <strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: I have a feeling you gave the above two answers after reading the last bit of what I wrote and getting offended... please understand, I'm just trying to advise "yes, please DO change these." It wasn't clear at the time I wrote that you'd gone ahead and done so. (Thanks for that, by the way.) 
+</p>
+</li>
+            <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Thank you for the clarification. I did indeed give the two above answers after reading your last bit, but what I wrote above was not in retaliation, just information.I'm not into retaliation; it's childish.  FWIW, I admit that reading your posts after the <em>many</em> hours I've spent on trying to correct/improve the documentation was a tetch irritating. As you say, you didn't know, though you could have checked first. At any rate, you might want to browse through <a href="./Documentation">Documentation</a> to see what I have been working on. (Please don't edit it, though!) Also, if there are more areas I've not gotten to yet which you would like to call out from a newbie POV, please feel free to list them. 
+</p>
+</li>
+
+            </ul>        </ul>    </ul>
+
+
+<p>
+<strong> <a href="./ErisDiscordia">ErisDiscordia</a></strong> One thing I can tell you right now is that the 'highly intuitive and advanced help navigation system' in ToME, isn't. TAB to go forward a link, but SHIFT-TAB doesn't go backwards? <a class="nonexistent" href="./PgUp">PgUp</a> and <a class="nonexistent" href="./PgDwn">PgDwn</a> don't go up and down a page? And don't get me started by saying "we had to make it work on calculators and toasters" or whatever you newfangled open-source fanatics babble about nowadays... JUST KIDDING, and of course I realize you personally probably didn't program the help UI, but if you do nowadays or if the one who does is reading this, well... 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Please be polite. Rudeness veiled by a "just kidding" is still rudeness.  At any rate, I don't know of any place in the help where it claims itself to be the things you are quoting. In which file did you see that? 
+</p>
+</li>
+    <li>
+<p>
+ <strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: I wasn't trying to be rude, and indeed the just kidding was meant to make it clear that the section above was a joke. Sorry for being so obtuse; translated into plain English the above means "I have a hunch that in some cases the obvious help navigation keys are not being used because they are not supported by all places to which ToME is/may be ported, especially certain less mainstream platforms, as this is a reason I have seen given in the past for not supporting obvious keys in a roguelike's main interface or elsewhere." 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Now THAT is far more understandable. <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+</li>
+
+        </ul>
+
+
+ I also certainly didn't mean to state that the help was literally claiming to be highly intuitive, etc. Sorry; I've just been so frustrated in any attempt to use the help controls in the past that I got a little worked up from the memory of that frustration.  
+        <ul>
+
+        <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Sarcasm is sometimes useful for burning up frustration, but it has little place in software or documentation development, especially when those involved are not face-to-face and smilies aren't employed. <img src="./wiki/starshine/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+</li>
+
+        </ul>
+
+
+ BTW do all of the controls given on the help-about-help work? I can't tell if some are broken or if I'm just not using them right... will add more after I can take notes on specific examples, but basically I have in mind things like searching. 
+        <ul>
+
+        <li>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Do you mean the subsection "using the online help" in the file "general.txt"? I haven't gotten there yet, but I'll put it on my list to doublecheck. I haven't had problems with searching in the past. (You do realize that searching only works within file you're currently in?) Please do give me some more-specific examples, that'd help. I don't have anything to do with the game UI, but it'll at least help those who do. 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+...... &lt;Long pause&gt;. Okay, I've found at least one bug with searching. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: I'm reading the help stuff on the wiki right now and writing up notes -- suggestions, comments, typos found, etc. It's going to be quite long. Where should I put it when I'm done? Here, a subpage of here, e-mail, or something else? 
+</p>
+</li>
+    <li class="gap">
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: You can put it here if you like. I'll take all the proofreading help I can get, but please realize that the Doc is a work in progress. A lot of things I've had to start and then stop again because something *else* had to be done first... and once I get it all actually *up* on the wiki, I may rearrange the whole thing, as there is a lot of duplication. <img src="./wiki/starshine/img/smile4.png" alt=";-)" height="15" width="15"> (Case in point: I'm going to have to completely redo the in-game spoilers (even more than I already did) because we're now re-writing book20.txt.) 
+</p>
+</li>
+    <li class="gap">
+<p>
+ <strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: As a boss of mine very long ago used to say, it seems you're a little "too close to the problem." That is, you've become so involved in your work that it's distorted your viewpoint, inasmuch as you're telling me about a rewrite of book20.txt, when it's not certain that I'll know what book20.txt means. And indeed, I don't know what it means. What does it mean? (Other than being a filename somewhere in the ToME folder structure, and apparently in the \help folder in particular.) 
+</p>
+</li>
+
+        <ul>
+
+  <strong><a href="./MayLith">MayLith</a></strong>: Oh, I'm so sorry! book20.txt contains the text of that scroll that everyone starts out with when they first create their character. The scratch version is at  <a class="interwiki" title="Self" href="./MayLith/scratch-book20.txt"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">MayLith/scratch-book20.txt</a>.  
+        </ul>    </ul>
+
+
+<p>
+One comment, maybe out of place. I beg you, please *do* ensure that anyone who wants to spoil themselves in-game will still have a chance to do so, just as ToME has offered so far. Some players like to spoil themselves as much as possible as early as possible, so they can concentrate on other RL aspects that they find more fun than "unravelling secrets." 
+</p>
+<p>
+Well, at least *I* do. <img src="./wiki/starshine/img/smile3.png" alt=":-))" height="15" width="15"> 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: The trend seems to be that in-game documentation will be non-spoily, whereas anything goes here on the wiki. If you don't like that, I recommend that you take it up with <a href="./NeilStevens">NeilStevens</a>. (Me, personally, I can see it both ways.) <p>
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: The in-game docs do have a spoiler sub-tree, so that it's hard to accidentally spoil yourself.  That's all that's important.  My first win in Pernangband and my character ~10 steps from winning in Nethack both came without any spoilers at all.  I just want other players to have the same opportunity. 
+</p>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: I think presenting the opportunity is great. But, the new in-game spoilers have had most of their teeth pulled out. (Probably strung on the necklace of an orc dancing about somewhere in Moria, come to think of it....) 
+</p>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions.text_html">RefreshCache</a> for this page (cached 2004-09-29 04:21:11)<br>
+<p><a href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions?action=edit">EditText</a> of this page (last edited 2004-09-29 04:21:10 by <span title="user-2iverdu.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:52:23 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:32 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 188.959
+  exclusion.robots: 0.184
+  exclusion.robots.policy: 0.171
+  RedisCDXSource: 2.186
+  esindex: 0.016
+  LoadShardBlock: 160.914 (3)
+  PetaboxLoader3.datanode: 162.408 (4)
+  CDXLines.iter: 21.896 (3)
+  load_resource: 61.25
+  PetaboxLoader3.resolve: 35.191
+-->

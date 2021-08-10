@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Dungeons/Angband - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fDungeons_2fAngband?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fDungeons_2fAngband?action=print">
+<link rel="Up" href="/Spoilers_2fDungeons">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fDungeons_2fAngband?action=fullsearch&amp;value=%2FAngband&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Dungeons/Angband</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fDungeons">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fDungeons_2fAngband?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fDungeons_2fAngband">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fDungeons_2fAngband?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fDungeons_2fAngband?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fDungeons_2fAngband?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fDungeons_2fAngband?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fDungeons_2fAngband?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fDungeons_2fAngband?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fDungeons_2fAngband?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fDungeons_2fAngband?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fDungeons_2fAngband?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fDungeons_2fAngband">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-786c008b8389f06878d37e397aa4ecbe40014568">Angband</a></li>
+<ol>
+<li>
+<a href="#head-88b84613be17fbf7fe72074c1b64bd1b6662185a">Getting there</a></li>
+<li>
+<a href="#head-39ba207367e9a35c17ac8024ee9dd89086381e89">Wilderness level</a></li>
+<li>
+<a href="#head-d6cc4c4d69f3d083096aa2a25266aac68d088a4b">Angband and recalling</a></li>
+<li>
+<a href="#head-0bf97933445c8f20d5906fb9add0ec53d4fa1314">The dungeon</a></li>
+<li>
+<a href="#head-086483559fef764f6d40ae772241f1c4d758b7cf">The monsters</a></li>
+<li>
+<a href="#head-f5dbdd774bac44a54f5837be709d5aba68e38595">Things you will need in Angband</a></li>
+<li>
+<a href="#head-a82a447c9ce2ccbe1cb941a93bb080c11848aed8">Special Levels</a></li>
+<li>
+<a href="#head-2a463d20445e93fef5cbe860b788f1ab6845bb7c">Boss Monsters</a></li>
+<li>
+<a href="#head-75fabb5a96311113ca298de2d0ecaaa2aae1996e">General Advice</a></li>
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-786c008b8389f06878d37e397aa4ecbe40014568">Angband</h2>
+This is it, the one and only, and if you chose 98 quests upon character creation, this is where you'll pay for it. In spades. <h3 id="head-88b84613be17fbf7fe72074c1b64bd1b6662185a">Getting there</h3>
+Angband is due north of Bree, 16 steps through Overland travel if you have mountain climbing, a few more if you don't, as you'll have to detour around the mountains surrounding the Orc Cave. <h3 id="head-39ba207367e9a35c17ac8024ee9dd89086381e89">Wilderness level</h3>
+The wilderness level of Angband is frequented by dragons (baby, young and mature; I've never seen an Ancient there) as well as other monsters of similar level. You may also encounter one of the Windlords there. Windlords are tremendously chatty co-aligned monsters. <h3 id="head-d6cc4c4d69f3d083096aa2a25266aac68d088a4b">Angband and recalling</h3>
+You can recall out and back in to Angband, but you cannot teleport into it via Thunderlord's Guild or reset recall to it. You can't use probability travel, either.  <p>
+If your recall destination has been set to a dungeon other than Angband, you need to do one of two things: 
+</p>
+<p>
+You enter (from wilderness) the first level of Angband (67 / 3350') and... 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+...hoof it all the way back down again. 
+</p>
+</li>
+    <li>
+<p>
+...cast recall (scroll, rod or spell) and answer 'no' at the prompt "Do you wish to reset recall to this level? (y/n)". Wait until it yanks you to the surface, and then recall back to the depth you were at previously. 
+</p>
+</li>
+
+    </ol>
+
+
+<h3 id="head-0bf97933445c8f20d5906fb9add0ec53d4fa1314">The dungeon</h3>
+Physically, the dungeon is fairly typical -- rectangular rooms with 1-square-wide corridors. The walls are granite. There are no mountains. Single (frequently nasty) traps, and single fountains. <p>
+You can genocide in Angband, but as usual, let the user beware. 
+</p>
+<h3 id="head-086483559fef764f6d40ae772241f1c4d758b7cf">The monsters</h3>
+All monsters in Angband are levelled.  This means that every monster you encounter will be far tougher than any of its brethren that you might have previously encountered elsewhere, just as on a God quest, but Angband is deeper than any God quest. The list of monsters includes summoners, breeders, powerful melee-ers, and groups of breathers. To add insult to injury, you will not receive a commensurately increased number of experience points by killing them. A few more XP, yes, but only an insignificant number. <h3 id="head-f5dbdd774bac44a54f5837be709d5aba68e38595">Things you will need in Angband</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The basics (d'oh) 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Food (Junkarts of Satisfy Hunger are <em>very</em> handy.) 
+</p>
+</li>
+        <li>
+<p>
+ Light 
+</p>
+</li>
+        <li>
+<p>
+ A digger (as always) 
+</p>
+</li>
+        <li>
+<p>
+ Levitation 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ A means of... 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Healing -- lots of it 
+</p>
+</li>
+        <li>
+<p>
+ Identify and *ID* 
+</p>
+</li>
+        <li>
+<p>
+ Teleport/other means of escape and/or avoidance 
+</p>
+</li>
+        <li>
+<p>
+ Trap detection and disarming 
+</p>
+</li>
+        <li>
+<p>
+ Monster detection (especially for those levelled monsters whose breath you would like to avoid!) 
+</p>
+</li>
+        <li>
+<p>
+ Double resist (e.g. Potions of Resistance, the Character Armour spell, etc.) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Speed, the more the better 
+</p>
+</li>
+    <li>
+<p>
+ Immunities (highly recommended, especially fire). Otherwise, your entire piles of CCW and Healing potions will be long gone before you've gotten very far. 
+</p>
+</li>
+    <li>
+<p>
+ Extra copies of spellbooks, if that applies and you don't have Fire immunity 
+</p>
+</li>
+    <li>
+<p>
+ As many resists covered as possible by equipment 
+</p>
+</li>
+    <li>
+<p>
+ Armor class (though resists and avoidance are more important) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-a82a447c9ce2ccbe1cb941a93bb080c11848aed8">Special Levels</h3>
+There are three. They are one-time, no-teleport levels. 
+    <ol type="1">
+
+    <li>
+<p>
+<a class="interwiki" title="Self" href="./Spoilers/Dungeons/TheCrypt"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">The Crypt</a>, at DL 70. 
+</p>
+</li>
+    <li>
+<p>
+<a class="interwiki" title="Self" href="./Spoilers/Dungeons/DimGates"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">The Dimensional Gates, aka DimGates</a>, at DL 85. 
+</p>
+</li>
+    <li>
+<p>
+<a class="interwiki" title="Self" href="./Spoilers/Dungeons/Nameless"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Nameless</a>, at DL 95. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If you requested lots of random quests at character creation, you may get a Princess or FF quest proclamation when you enter one of these levels. The Princess room will not until you leave the level and then come back again. FF quests <em><strong>can</strong></em> occur, though! This means that if you have a FF quest for, say, 20 Great Storm Wyrms on DL 70, you will have to contend with those monsters as well as those normally found in The Crypt. 
+</p>
+<h3 id="head-2a463d20445e93fef5cbe860b788f1ab6845bb7c">Boss Monsters</h3>
+
+    <ul>
+
+    <li>
+<p>
+ Sauron, who may be present at DL 99 or deeper. He can also appear on DL 99 at Mount Doom. 
+</p>
+</li>
+    <li>
+<p>
+ Morgoth, who may be present at DL 100 or deeper, but only after Sauron has been finally killed. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-75fabb5a96311113ca298de2d0ecaaa2aae1996e">General Advice</h3>
+It would be a good idea to have your character maxxed out, or nearly so, before attempting this dungeon. If you can't take out an Ancient Dragon with one or two spells or blows, you might want to think again. <p>
+Excessive sightseeing is a good way to get yourself dead in Angband. Be cautious and paranoid, get the job done, and move on. A vault with OOD monsters in a dungeon where the monsters are <em>already</em> levelled? Maybe not... 
+</p>
+<p>
+If you have the Anchor of Space-Time (or even an Amulet of Anti-Teleportation, a very weak second-best), bring it along by all means, even if you carry it as a swap. 
+</p>
+<p>
+For additional hints, see <a href="./Spoilers_2fLord_20Dimwit_27s_20Advanced_20Strategy_20Guide">Spoilers/Lord Dimwit's Advanced Strategy Guide</a>. 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fDungeons_2fAngband?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fDungeons_2fAngband.text_html">RefreshCache</a> for this page (cached 2005-11-04 19:33:49)<br>
+<p><a href="./Spoilers_2fDungeons_2fAngband?action=edit">EditText</a> of this page (last edited 2005-07-07 02:17:07 by <span title="wbar3.wdc2-4.15.244.35.wdc2.elnk.dsl.genuity.net"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:14:34 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:41:41 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 132.916
+  exclusion.robots: 0.111
+  exclusion.robots.policy: 0.102
+  RedisCDXSource: 1.985
+  esindex: 0.01
+  LoadShardBlock: 104.615 (3)
+  PetaboxLoader3.datanode: 89.628 (4)
+  CDXLines.iter: 21.433 (3)
+  PetaboxLoader3.resolve: 88.398 (2)
+  load_resource: 110.924
+-->

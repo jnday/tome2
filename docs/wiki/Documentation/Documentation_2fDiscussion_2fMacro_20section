@@ -1,0 +1,315 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">649</script><title>Documentation/Discussion/Macro section - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fDiscussion_2fMacro_20section?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fDiscussion_2fMacro_20section?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fDiscussion_2fMacro_20section?action=fullsearch&amp;value=%2FMacro+section&amp;literal=1&amp;case=1&amp;context=40">Documentation/Discussion/Macro section</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./Documentation_2fDiscussion_2fMacro_20section?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fDiscussion_2fMacro_20section">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fDiscussion_2fMacro_20section?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fDiscussion_2fMacro_20section?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fDiscussion_2fMacro_20section?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fDiscussion_2fMacro_20section?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fDiscussion_2fMacro_20section?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fDiscussion_2fMacro_20section?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fDiscussion_2fMacro_20section?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fDiscussion_2fMacro_20section?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fDiscussion_2fMacro_20section?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fDiscussion_2fMacro_20section">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Massimiliano Marangio: I have copied the pages listed in the Macros section to the top level page <a href="./Macro">Macro</a>. The links can also be simplyfied to e.g. <tt>/Notation</tt> instead of <tt>Macro/Notation</tt>. To avoid to mantain two pages, the page <a href="./Macro">Macro</a> can be included in <a href="./Documentation">Documentation</a> with <tt>[[Include(Macro)]]</tt>, see below: <div id="Include_Macro" lang="en" dir="ltr">
+<hr>
+ <em><strong>This section on Macros is part of the formal ToME documentation. Please do not edit any part of it unless you are a game developer, a moderator, or have been given explicit permission to do so. A means of allowing general users to suggest additions to documentation is currently being evolved. Thank you.</strong></em> <hr>
+ 
+    <ul>
+
+    <li>
+<p>
+ <a href="./Macro_2fNotation">Macro/Notation</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial">Macro/Quick start tutorial</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fDefinitions">Macro/Quick start tutorial/Definitions</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fSwap_20weapons">Macro/Quick start tutorial/Swap weapons</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fUsing_20the_20macro_20recorder">Macro/Quick start tutorial/Using the macro recorder</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fPrevent_20unwanted_20use_20of_20an_20item">Macro/Quick start tutorial/Prevent unwanted use of an item</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fQuick_20start_20tutorial_2fSaving_20these_20macros_20and_20keymaps_20for_20reuse">Macro/Quick start tutorial/Saving these macros and keymaps for reuse</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <a href="./Macro_2fOverview">Macro/Overview</a> Overview of item inscriptions, macros, keymaps, and preference files 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques">Macro/Common macro techniques</a>     
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fClearing_20the_20command_20buffer">Macro/Common macro techniques/Clearing the command buffer</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fSwap_20weapons">Macro/Common macro techniques/Swap weapons</a> 
+</p>
+</li>
+        <li>
+<p>
+ placeholders for 4.3-5, which seem stupid and/or obsolete (?) 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fFire_20missile_20at_20nearest_20target">Macro/Common macro techniques/Fire missile at nearest target</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fPreventing_20actions">Macro/Common macro techniques/Preventing actions</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fIdentify_20scroll_20macros">Macro/Common macro techniques/Identify scroll macros</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fAction_20verification">Macro/Common macro techniques/Action verification</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fCancel_20targeting">Macro/Common macro techniques/Cancel targeting</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fLoad_20preference_20files_20automatically">Macro/Common macro techniques/Load preference files automatically</a> (is this valid?) 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fBind_20multiple_20macros_20to_20one_20trigger_20key">Macro/Common macro techniques/Bind multiple macros to one trigger key</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fMulti_2dpart_20actions">Macro/Common macro techniques/Multi-part actions</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fEasy_20running">Macro/Common macro techniques/Easy running</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fMacros_20can_20contain_20their_20own_20trigger">Macro/Common macro techniques/Macros can contain their own trigger</a> (?) 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fChanging_20your_20character_27s_20ASCII_20color_20and_20symbol">Macro/Common macro techniques/Changing your character's ASCII color and symbol</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fRecharging_20a_20rod_20using_20a_20recharge_20item_20spell">Macro/Common macro techniques/Recharging a rod using a recharge item spell</a> (??) 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fDisabling_20a_20dangerous_20built_2din_20command">Macro/Common macro techniques/Disabling a dangerous built-in command</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20macro_20techniques_2fNaming_20items">Macro/Common macro techniques/Naming items</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20questions">Macro/Common questions</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fCommon_20problems">Macro/Common problems</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fItem_20inscriptions_20added_20by_20the_20game">Macro/Item inscriptions added by the game</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fKeys_20and_20commands">Macro/Keys and commands</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fPref_20files">Macro/Pref files</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fMacro_20editing_20commands">Macro/Macro editing commands</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Macro_2fAdvanced_20macro_20techniques">Macro/Advanced macro techniques</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fProblems">Macro/Problems</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fMiscellaneous">Macro/Miscellaneous</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <a class="nonexistent" href="./Macro_2fToME_20Macro_20FAQ">/ToME Macro FAQ</a> A guide to macros, keymaps and item inscriptions, should be  refactored into the above 
+</p>
+</li>
+</ul>
+
+</div>
+<div class="include-link"><a class="include-page-link" href="./Macro">[Macro]</a><a class="include-edit-link" href="./Macro?action=edit&amp;backto=Documentation%2FDiscussion%2FMacro+section"><img src="./wiki/rightsidebar/img/moin-edit.png" alt="Edit" height="12" width="12"></a></div> <p>
+<strong><a href="./MayLith">MayLith</a></strong>: *Blinks* How did you do that??? 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fDiscussion_2fMacro_20section?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fDiscussion_2fMacro_20section.text_html">RefreshCache</a> for this page (cached 2004-09-26 02:01:03)<br>
+<p><a href="./Documentation_2fDiscussion_2fMacro_20section?action=edit">EditText</a> of this page (last edited 2004-09-26 02:01:02 by <span title="user-2ivelo1.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:29:19 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:43 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.515
+  esindex: 0.015
+  CDXLines.iter: 23.932 (3)
+  load_resource: 496.645
+  exclusion.robots: 0.202
+  captures_list: 143.9
+  PetaboxLoader3.resolve: 35.142
+  LoadShardBlock: 114.266 (3)
+  PetaboxLoader3.datanode: 160.62 (4)
+  exclusion.robots.policy: 0.188
+-->

@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Possession tweaks and ideas - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=fullsearch&amp;value=%2FPossession+tweaks+and+ideas&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Possession tweaks and ideas</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fPossession_20tweaks_20and_20ideas">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-d3d9c3eaf1f8e78c867a4bd11af2c74a84591dad">Minor Tweaks</h2>
+<h3 id="head-f0333bbaf7006bf085a79a83fe3d001ce44c141f">Possessor HPs</h3>
+<p>
+HP in a possessed body is determined by a formula which averages three quantities: your natural HP, the HP of the monster <strong>scaled</strong>, and the square root of scaled monster HP. The HP of the monster is scaled down according to your possession skill; only at possession skill 50 is it 100% of the monster HP. This prevents low level chars/chars who have just picked up a few points of possession from possessing a big monster corpse and getting silly HP. (Note that the high level monsters have many more HP than high level players; this is less true at low levels though). 
+</p>
+<p>
+However, it also has the effect that a low level character possessing a low level monster has really low HPs. 
+</p>
+<p>
+I propose that the scaling factor be based not on your possession skill, but on a comparison between your possession skill and the monster's level, details to be determined. Then possessors using really powerful monsters at low skill levels are still penalised, but a level 2 possessor in a level 2 monster corpse won't have quite such painfully low HP. 
+</p>
+<h3 id="head-86ba5b2c91a31538158a9807ff509184786e1a5f">Possessor intrinsics</h3>
+<p>
+The possession code is shared largely with the symbiosis code, and this may be the cause of some strange anomalies. When possessing you don't get all the intrinsics you would expect: for example, possessing a flying monster you don't get to fly (you get levitation, though). Possessing a red dragon you don't get resist fire. 
+</p>
+<p>
+I propose that possessor should in principle get access to most of the intrinsics of their body. However, this could be a little overpowered (if a GWoP corpse gives you resist everything...). One way to limit it would be to grant particular intrinsics at particular possession levels: a novice possessor can't fly in a dragon's body, but at possession level 25 the more experience possessor can. 
+</p>
+<h3 id="head-753556515f6d85b480b70d2f0dcf754dd26d66bb">Big Changes</h3>
+<p>
+I have some ideas for some substantial changes to possession that I don't have time to write about now, but I'll put them here when I have the chance. 
+</p>
+<h3 id="head-e3f5b66b9dfd8614211a02504f2c14b190df9f87">Low mana warning</h3>
+<p>
+I think it would be really nice to have the game give you a warning message when attempting to use a body's power that could use more mana than you have in storage.  I have lost quite a few bodies, usually followed by a quick death, because of failing to pay attention to my mana reserves.  Yes, I know that using a body's power will often not use up any mana, but the risks are definitely great enough for a y/n confirmation, the kind that spellcasters get. 
+</p>
+<h3 id="head-3c0d3d74875b6ca2a1c5aa168f5f8eb019ac8db7">Seperate "body power" mana store</h3>
+<p>
+The way things currently stand, possessors are not able to make use of any but the lowest levels spells from other groups/skills due to their mana being limited by the body.  I don't know if any body exists (aside from player) that gives more than 25 SP, most of the "caster" bodies are below 20, and quite a few have a grand total of 1!!!!  On the other hand, if the body had no effect on the max mana storage, high level powers would become overly cheap.  So I suggest a seperate mana store to be used just for the body.  Like piety, for example. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fPossession_20tweaks_20and_20ideas.text_html">RefreshCache</a> for this page (cached 2004-09-13 16:18:52)<br>
+<p><a href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas?action=edit">EditText</a> of this page (last edited 2004-09-13 16:18:51 by <span title="66.166.248.154=h-66-166-248-154.mclnva23.covad.net">h-66-166-248-154</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:50:35 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:30 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 79.126
+  exclusion.robots: 0.087
+  exclusion.robots.policy: 0.079
+  RedisCDXSource: 0.535
+  esindex: 0.007
+  LoadShardBlock: 53.598 (3)
+  PetaboxLoader3.datanode: 72.47 (4)
+  CDXLines.iter: 22.153 (3)
+  load_resource: 192.506
+  PetaboxLoader3.resolve: 140.296
+-->

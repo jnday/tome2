@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Expand level feelings - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fExpand_20level_20feelings?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fExpand_20level_20feelings?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fExpand_20level_20feelings?action=fullsearch&amp;value=%2FExpand+level+feelings&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Expand level feelings</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fExpand_20level_20feelings?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fExpand_20level_20feelings">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fExpand_20level_20feelings?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fExpand_20level_20feelings?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fExpand_20level_20feelings?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fExpand_20level_20feelings?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fExpand_20level_20feelings?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fExpand_20level_20feelings?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fExpand_20level_20feelings?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fExpand_20level_20feelings?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fExpand_20level_20feelings?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fExpand_20level_20feelings">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MayLith">MayLith</a>: Just a flight of fancy...  <p>
+Split the level feelings in two, but concatenate them. (Or do two sentences if that's easier.) 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+item feelings (derived from generated items only) 
+</p>
+</li>
+    <li>
+<p>
+room / monster feelings (derived from generated rooms and OOD monsters) 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+Examples:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ You have a superb feeling about what you might find here, but you sense a soul-chilling aura pervading your surrounds. 
+</p>
+</li>
+    <li>
+<p>
+ You have a hunch about what you might find here, but you feel strangely safe. 
+</p>
+</li>
+    <li>
+<p>
+ You are ambivalent about what you might find here, but something makes you hug the walls as you proceed. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./NeilStevens">NeilStevens</a>: That would remove the entire element of suspense in them!  Suddenly they go from a generic rating of interest, with a large degree of suspense (Is it the Phial?  Is it Lorgan?), to a handy helper for level scummers. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Mmmm, true...I did say it was a flight of fancy &lt;g&gt;. What if you tweaked the ratings so that very bad items also produced a "good" feeling"? Just playing with the concept... maybe it's unworkable. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Insufficient, I say.  The nifty thing about the level feelings to me is that they capture two equal and opposite forces describing a level.  They describe items on the floor, which are good and encourage a full exploration fo the level, but they also describe monsters on the floor, which are bad and discourage full exploration of the level. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: I can live with that. If we don't test the limits of the ideas, then what's the purpose... but if further perusal shows the existing status to be the best, then that's good, too.  
+</p>
+<p>
+Then again, you are assuming that the players have half a brain and avoid exploring when there are nasty monsters about. Would a good "item" feeling make someone stick their neck out despite a nasty monster/room feeling??  Maybe so. Might make things even more dangerous...  I have a tendency to not avoid nasty monsters. Well, except for those thrice-blessed money pits...and perhaps a few others.  
+</p>
+<p>
+Just thinking aloud. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Yes, and by telling you the charm of the existing feelings, I'm just giving you something new to think about. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: So you're implying I haven't already relished the charm of the existing feelings? &lt;g&gt; (Nevermind, <em><strong>I'm just joking!!!</em></strong>)  
+</p>
+<p>
+No, seriously, I do like the existing feelings. 
+</p>
+<p>
+What really led me to start thinking about all this in the first place is that the feelings in Z are reversed. There, very "good" levels give you a scary feeling, which to me is a little more realistic (and fun). Any <em>character</em> (not player) who sees a cluster of levelled Hrus and Great Bile Worms (or whatever) bearing down on him/her and thinks "How superb!" is... a little... warped, imho. &lt;g&gt; 
+</p>
+<p>
+Simon: as mentioned in another thread, level feelings should be color coded. By order of danger of course. And monsters that are only half the level of the player shouldn't be allowed to count no matter how out of depth they are! 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fExpand_20level_20feelings?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fExpand_20level_20feelings.text_html">RefreshCache</a> for this page (cached 2004-08-06 22:19:50)<br>
+<p><a href="./IdeaArchive_2fExpand_20level_20feelings?action=edit">EditText</a> of this page (last edited 2004-08-06 22:19:49 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:58:46 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:44:38 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 150.676
+  exclusion.robots: 0.154
+  exclusion.robots.policy: 0.143
+  RedisCDXSource: 0.718
+  esindex: 0.011
+  LoadShardBlock: 116.085 (3)
+  PetaboxLoader3.datanode: 127.273 (4)
+  CDXLines.iter: 29.041 (3)
+  load_resource: 31.402
+-->

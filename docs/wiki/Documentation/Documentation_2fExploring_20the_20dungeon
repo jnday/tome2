@@ -1,0 +1,2137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Exploring the dungeon - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fExploring_20the_20dungeon?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fExploring_20the_20dungeon?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fExploring_20the_20dungeon?action=fullsearch&amp;value=%2FExploring+the+dungeon&amp;literal=1&amp;case=1&amp;context=40">Documentation/Exploring the dungeon</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fExploring_20the_20dungeon?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fExploring_20the_20dungeon">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fExploring_20the_20dungeon?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fExploring_20the_20dungeon?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fExploring_20the_20dungeon?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fExploring_20the_20dungeon?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fExploring_20the_20dungeon?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fExploring_20the_20dungeon?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fExploring_20the_20dungeon?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fExploring_20the_20dungeon?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fExploring_20the_20dungeon?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fExploring_20the_20dungeon">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top"/> <em><strong>To all users</strong></em>: If you are not a game developer or a moderator, please leave the content of this page alone. You may contribute via <a class="interwiki" title="Self" href="./Documentation#head-7fa0a174d9f0cdb4daff4e27c889516ddeb06a90"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">User suggestions</a>, where anyone is welcome to contribute a thread. Thank you! -- <a href="./MayLith">MayLith</a> <p>
+<em><strong>Subpages should contain non-spoily information of the type currently contained in the in-game help. Please put spoiler information in an appropriate place in the <a href="./SpoilerArchive">SpoilerArchive</a>.</strong></em> Thanks. 
+</p>
+<hr>
+ <ol>
+<li>
+<a href="#head-51c78e0f6aa266421b446b4beaaa87e4237c73b7">Notation and introduction</a></li>
+<li>
+<a href="#head-49ca50af52ed7d4c1f182f0bde500aa895a5c506">The symbols on your map</a></li>
+<ol>
+<li>
+<a href="#head-a13a99b4663860a80c3a6575736db58c031d0e8d">Features that do not block line of sight</a></li>
+<ol>
+<li>
+<a href="#head-983fd7bc323e2dee1f0042e9a93e162ae8403859">Stores</a></li>
+<li>
+<a href="#head-66bf2faa05a1c784ab843a62d65f73791ed9c098">Doors and Ways</a></li>
+<li>
+<a href="#head-a797151e98d79d947b5352ef10663d2034060cc2">Straight Road</a></li>
+<li>
+<a href="#head-e7d721bc9ae7b128f19dab520b601060c798771c">Terrain</a></li>
+<li>
+<a href="#head-72a83add2c5ede877c10d23f302d3e17accbadab">Objects</a></li>
+</ol>
+
+<li>
+<a href="#head-42bfb244b56f0ec4f6c6f377d21d60d2646b6f57">Features that block line of sight</a></li>
+<ol>
+<li>
+<a href="#head-a3818a1a6983d510ee6fa7dc62c827c31afd5c82">Doors</a></li>
+<li>
+<a href="#head-7bdb09781a3f23885cd43177c0508b375cb1b7e9">Rubble</a></li>
+<li>
+<a href="#head-c0cfa915c3da65c2300e8e7e9a4c5b2948991869">Wall-type structures</a></li>
+<li>
+<a href="#head-06beda1f7fe3af723daf367342e124caaa954e1b">Mountains</a></li>
+<li>
+<a href="#head-ebea5fed56a86b76ab1f13df6e85df2941b562c6">Monsters</a></li>
+</ol>
+
+</ol>
+
+<li>
+<a href="#head-56f385dcbd70bbf1df637a43aa6edd8c012b0ed3">The Town Level</a></li>
+<ol>
+<li>
+<a href="#head-3d8443d42c2dcd2a3fa43edc40b7cf6ca7b88b57">Townspeople</a></li>
+<li>
+<a href="#head-0d3b507e4130c5d27c405730360414320d89849b">Town buildings</a></li>
+<ol>
+<li>
+<a href="#head-f359905f80f6d8486aa762d49beb5df103e3a32b">Basic stores</a></li>
+<li>
+<a href="#head-b46cb2001ab81c0ae999fe855cd2c0470df3260a">Other shops and services</a></li>
+<li>
+<a href="#head-4743ae8f8d503bd8096da7f73e4c2fbdc819fcce">Gambling</a></li>
+</ol>
+
+</ol>
+
+<li>
+<a href="#head-a76b2e057e7a86c9928026bee95ace8e0454efed">The wilderness, the wilderness map, overland travel, and ambushing</a></li>
+<li>
+<a href="#head-174af95f888fdb4f6b26b038e8ba73348280bb19">Within the dungeon</a></li>
+<ol>
+<li>
+<a href="#head-a36ef8aba22905e2d2efbf1ac1d6230d5761859d">Light</a></li>
+<li>
+<a href="#head-35b259290ec3acbb839d14cd18752dfb010f79ec">Food</a></li>
+<li>
+<a href="#head-f5679916118fabfa62f35b2c3c1fb53aa700cb68">Objects found in the dungeon</a></li>
+<ol>
+<li>
+<a href="#head-b9b5e9da94a289af5fb6f7c3c04a8446e592229f">Where all this stuff came from</a></li>
+<li>
+<a href="#head-cbf3b71a5f9a07db548159b1711bb2d0cfaae00d">Picking up items, pack overflow, and load capacity</a></li>
+<li>
+<a href="#head-e42cefa20e018e9ed382e906bc226e027c694d95">Objects requiring special commands</a></li>
+<ol>
+<li>
+<a href="#head-3c85a9565fd83591565f5b919b728dfc13ce6b08">Scrolls of Word of Recall</a></li>
+</ol>
+
+<li>
+<a href="#head-c8d4d3b63f1fa456636de52cae56973a4ef343e2">Inscription overview</a></li>
+<li>
+<a href="#head-8570f47a3477c277ede0d463adfa969837f371bb">Colour of inventory slot letters</a></li>
+<li>
+<a href="#head-34c03012cfe4ffa30cea1a12c7e845cda7e64284">Cursed objects</a></li>
+</ol>
+
+<li>
+<a href="#head-ce5ec26563afc2d9ce4e71c4046423178d3ea5d7">Digging and mining</a></li>
+<li>
+<a href="#head-197cb96868c50b059b3625b8cce4e63c0de5491e">Stairs, Ways, shafts, void jumpgates, and secret doors</a></li>
+<ol>
+<li>
+<a href="#head-5929db7afa392a3e8a7f37af448cdb1a7afb88c1">Stairs, Ways, and shafts</a></li>
+<li>
+<a href="#head-ef3f8d97e16fb198e6fd996dab98fcfabd5f53d2">Void jumpgates</a></li>
+<li>
+<a href="#head-a44f65ea9828ce7f536a32dd88aff30cffa6c531">Secret doors</a></li>
+</ol>
+
+<li>
+<a href="#head-ebea5fed56a86b76ab1f13df6e85df2941b562c6-2">Monsters</a></li>
+<li>
+<a href="#head-5f846f3d6398a5366bd1e3e8f64fdce2e7b62adf">Pets and companions</a></li>
+</ol>
+
+<li>
+<a href="#head-dc316d294e300e8acde9062812de0476c759a186">The bottom line</a></li>
+<ol>
+<li>
+<a href="#head-f388744de65c3b6306e78770146be0756f7a6cca">Upon death and dying</a></li>
+<li>
+<a href="#head-61f3e4c01b60ec1e8035ec1399d5f2a54c5ac401">Winning the game</a></li>
+<li>
+<a href="#head-b6f3a338f5a6038d37226e10a1c806c023951a83">Retiring after a win</a></li>
+<li>
+<a href="#head-c509380fc5ea1d26f5f3381d7f2f7d3c0fe0d911">Posting your character</a></li>
+</ol>
+
+<li>
+<a href="#head-f92e3150c3723a71ef15a79444015d74ea49bb51">Documentation dev chatter</a></li>
+<li>
+<a href="#head-e24696f6e1199f9d406a835274d191bb17adeba0">To-do list</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-51c78e0f6aa266421b446b4beaaa87e4237c73b7"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Notation and introduction</h2>
+Notation: 
+    <ul>
+
+    <li>
+<p>
+ (temporary) anything surrounded by ******'s needs linking or other attention 
+</p>
+</li>
+    <li>
+<p>
+ Notes for those not very fluent in English: 
+</p>
+</li>
+
+        <ol type="1">
+
+        <li>
+<p>
+The word "character" has at least two meanings, which include symbols and personae. To avoid confusion, usage in this document will be: 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ "character" = any letter or punctuation mark that you can type, or any ASCII symbol that you see on your screen 
+</p>
+</li>
+            <li>
+<p>
+ "Character" = your roleplaying persona 
+</p>
+</li>
+
+            </ul>
+
+
+        <li>
+<p>
+ToME uses the word "way" in two senses. To avoid confusion, usage in this document will be: 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ "way" = a means of doing something 
+</p>
+</li>
+            <li>
+<p>
+ "Way" = a passage between one place and another, usually in a forested area (game specific) 
+</p>
+</li>
+
+            </ul>        </ol>
+
+
+    <li>
+<p>
+ You will occasionally see text files referenced. These references are for the convenience of our game documentarian. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+After you have <a class="interwiki" title="Self" href="./Documentation#head-eddd2c8bd6fc785996e4000778f509abd46dc069"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">created your character</a> (birth.txt), you will begin your ToME adventure. Symbols appearing on your screen will represent Middle-earth's terrain (ground or floor), walls, objects, features, and creatures lurking about. In order to direct your Character through her adventure, you will enter single-character <a class="interwiki" title="Self" href="./Documentation#head-6ff18dd00c3da6f87280e1ec432549babfd82612"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">commands</a> (command.txt). 
+</p>
+<h2 id="head-49ca50af52ed7d4c1f182f0bde500aa895a5c506"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>The symbols on your map</h2>
+The "@" symbol represents your Character and only your Character. <p>
+Symbols on your map can be broken down into three categories: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+Features of the world, such as walls, floor, doors, and traps 
+</p>
+</li>
+    <li>
+<p>
+Objects which can be picked up, such as treasure, weapons, magical devices, etc. 
+</p>
+</li>
+    <li>
+<p>
+Creatures, which may or may not move about the dungeon, but are mostly harmful to your Character's well being. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+Some symbols are used to represent more than one type of entity, and some symbols are used to represent entities in more than one of the above categories. 
+</p>
+<p>
+You do not need to remember all of the symbols and their meanings. The "slash" command ("/") will identify any character appearing on your map. See the <a class="interwiki" title="Self" href="./Documentation#head-6ff18dd00c3da6f87280e1ec432549babfd82612"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">list of commands</a> (command.txt) for details. 
+</p>
+<p>
+Note that you can use a *****user pref file -- subhead of command.txt***** to change any of these symbols to something you are more comfortable with. 
+</p>
+<p>
+Beware! The wiki cannot reproduce coloured ASCII symbols. Since symbol colouration is crucial to symbol identification, we strongly recommend consultation of the in-game help since it can show coloured symbols. 
+</p>
+<h3 id="head-a13a99b4663860a80c3a6575736db58c031d0e8d"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Features that do not block line of sight</h3>
+<h4 id="head-983fd7bc323e2dee1f0042e9a93e162ae8403859"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Stores</h4>
+Numerals and the '+' sign signify entrances to shops. To enter a shop, walk into the entrance. 
+<div>
+<table>
+<tr>
+<td>
+1</td>
+<td>
+Entrance to General Store</td>
+<td>
+6</td>
+<td>
+Entrance to the Magic Shop</td>
+</tr>
+<tr>
+<td>
+2</td>
+<td>
+Entrance to Armoury</td>
+<td>
+7</td>
+<td>
+Entrance to the Black Market</td>
+</tr>
+<tr>
+<td>
+3</td>
+<td>
+Entrance to Weapon Smith</td>
+<td>
+8</td>
+<td>
+Entrace to your Home</td>
+</tr>
+<tr>
+<td>
+4</td>
+<td>
+Entrance to Temple</td>
+<td>
+9</td>
+<td>
+Entrance to the Bookstore</td>
+</tr>
+<tr>
+<td>
+5</td>
+<td>
+Entrance to Alchemy Shop</td>
+<td>
++</td>
+<td>
+Entrance to another building</td>
+</tr>
+</table>
+</div>
+<p>
+The '+' entrance for another building may be one of a number of colors, but will not be purple. See Town Buildings, below, for more information on buildings. 
+</p>
+<p>
+When in <a href="#wilderness-travel">wilderness travel</a>, towns are represented by a white '*'. 
+</p>
+<h4 id="head-66bf2faa05a1c784ab843a62d65f73791ed9c098"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Doors and Ways</h4>
+
+<div>
+<table>
+<tr>
+<td>
+'</td>
+<td>
+a door -- either open or broken</td>
+<td>
+purple +</td>
+<td>
+void jumpgate</td>
+</tr>
+<tr>
+<td>
+purple &gt;</td>
+<td>
+dungeon entrance</td>
+</tr>
+<tr>
+<td>
+white &gt;</td>
+<td>
+staircase down</td>
+<td>
+white &lt;</td>
+<td>
+staircase up</td>
+</tr>
+<tr>
+<td>
+brown &gt;</td>
+<td>
+shaft down</td>
+<td>
+brown &lt;</td>
+<td>
+shaft up</td>
+</tr>
+<tr>
+<td>
+yellow &gt;</td>
+<td>
+quest entrance</td>
+<td>
+yellow &lt;</td>
+<td>
+quest exit</td>
+</tr>
+<tr>
+<td>
+red &gt;</td>
+<td>
+quest down</td>
+<td>
+red &lt;</td>
+<td>
+quest up</td>
+</tr>
+</table>
+</div>
+<h4 id="head-a797151e98d79d947b5352ef10663d2034060cc2"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Straight Road</h4>
+
+<div>
+<table>
+<tr>
+<td>
+white *</td>
+<td>
+straight road start or exit</td>
+</tr>
+<tr>
+<td>
+light blue, dark blue, or grey *</td>
+<td>
+section of the straight road</td>
+</tr>
+<tr>
+<td>
+grey *</td>
+<td>
+corrupted section of the straight road</td>
+</tr>
+</table>
+</div>
+<h4 id="head-e7d721bc9ae7b128f19dab520b601060c798771c"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Terrain</h4>
+'^' may indicate an identified trap -- colours will vary. <p>
+'.' indicates floor space. It may also indicate many other things, depending on colour, including: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ floor space, hidden trap, or ice (white) 
+</p>
+</li>
+    <li>
+<p>
+ grass (green) 
+</p>
+</li>
+    <li>
+<p>
+ sand (yellow) 
+</p>
+</li>
+    <li>
+<p>
+ ash (dark grey) 
+</p>
+</li>
+    <li>
+<p>
+ dirt or mud (brown) 
+</p>
+</li>
+    <li>
+<p>
+ floor (red -- and sometimes lava) 
+</p>
+</li>
+    <li>
+<p>
+ cobblestone road (white) 
+</p>
+</li>
+    <li>
+<p>
+ nether mist (violet) 
+</p>
+</li>
+    <li>
+<p>
+ glass wall (cyan) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+A light green ';' is grass with flowers, while a dark green '#' is a small tree. 
+</p>
+<p>
+Water is represented by '~'. It may be: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ shallow (light blue) 
+</p>
+</li>
+    <li>
+<p>
+ deep (dark blue) 
+</p>
+</li>
+    <li>
+<p>
+ tainted (brown) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+If you have shimmer turned on ****link/refine this****, water may shift between light and dark blue, regardless of its depth. 
+</p>
+<p>
+Fountains are represented by '_'. It may be: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ flowing (white) 
+</p>
+</li>
+    <li>
+<p>
+ empty (dark grey) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+'#' represents lots of things, including:: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Pools of lava: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ shallow (umber) 
+</p>
+</li>
+        <li>
+<p>
+ deep (red) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Dark pits (dark grey) 
+</p>
+</li>
+    <li>
+<p>
+ Illusion walls (white) 
+</p>
+</li>
+    <li>
+<p>
+ Small trees (dark green) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Assorted others: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Underground tunnels may be an umber '^' or a light grey '#' 
+</p>
+</li>
+    <li>
+<p>
+ Violet ; - Monster trap 
+</p>
+</li>
+    <li>
+<p>
+ Yellow ; - A glyph of warding 
+</p>
+</li>
+    <li>
+<p>
+ Yellow + - A web 
+</p>
+</li>
+    <li>
+<p>
+ Red * - An explosive rune 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Altars are represented by '0'. They may be: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ of Darkness (dark grey) 
+</p>
+</li>
+    <li>
+<p>
+ of Force (red) 
+</p>
+</li>
+    <li>
+<p>
+ of Being (white) 
+</p>
+</li>
+    <li>
+<p>
+ of Winds (cyan) 
+</p>
+</li>
+    <li>
+<p>
+ of Nature (dark green) 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-72a83add2c5ede877c10d23f302d3e17accbadab"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Objects</h4>
+The colours of objects vary.  <p>
+Objects do not block the line of sight, but may stack on top of one another, with the one on top hiding others beneath it.  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Q: I'm standing on a pile of items. How do I see what's in the pile without picking it all up, moving it, or destroying it all? 
+</p>
+</li>
+    <li>
+<p>
+ A: 
+</p>
+</li>
+
+        <ol type="1">
+
+        <li>
+<p>
+Stand on the pile in question 
+</p>
+</li>
+        <li>
+<p>
+Type shift + i (examine) 
+</p>
+</li>
+        <li>
+<p>
+Type - (examine items on floor) 
+</p>
+</li>
+        <li>
+<p>
+Type * (expand list of items on floor) 
+</p>
+</li>
+        <li>
+<p>
+(as needed) Type letter associated with item to look at it more closely. 
+</p>
+</li>
+
+        </ol>    </ul>
+
+
+<p>
+Objects may also obscure stairs, Ways and void jumpgates. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Q: I'm standing on a pile of items. Is there a command to see if there is a stair beneath the pile? 
+</p>
+</li>
+    <li>
+<p>
+ A: Stairs, void jumpgates and Ways that obscured by clutter still function. You are advised to take a good hard look at your surroundings before creating lots of dungeon clutter. You can see if there is a stair beneath the pile with either of these methods: 
+</p>
+</li>
+
+        <ol type="1">
+
+        <li>
+<p>
+Pick up, move, or eliminate the pile. 
+</p>
+</li>
+        <li>
+<p>
+Press l (look), then select the square you wish to inquire about. Press &lt;enter&gt;; it will scroll through everything on the ground, and eventually it ends with "It is in a Void Jumpgate", or whatever. 
+</p>
+</li>
+
+        </ol>    </ul>
+
+
+<p>
+Objects may include: 
+<div>
+<table>
+<tr>
+<td>
+ ! </td>
+<td>
+A potion or flask</td>
+<td>
+ , </td>
+<td>
+Food, or a mushroom</td>
+</tr>
+<tr>
+<td>
+ ? </td>
+<td colspan="3">
+A scroll, book, map, parchment, rune or runestone</td>
+</tr>
+<tr>
+<td>
+ ~ </td>
+<td colspan="3">
+Lights, tools, chests, junk ( sticks, skeletons etc), junkarts, etc</td>
+</tr>
+<tr>
+<td>
+ $ </td>
+<td>
+Gold or gems</td>
+<td>
+ * </td>
+<td>
+An essence or a boulder</td>
+</tr>
+<tr>
+<td>
+ o </td>
+<td>
+An egg</td>
+<td>
+ ` </td>
+<td>
+A trapping kit or climbing set</td>
+</tr>
+<tr>
+<td>
+ - </td>
+<td>
+A wand, rod, or rod tip</td>
+<td>
+ = </td>
+<td>
+A ring</td>
+</tr>
+<tr>
+<td>
+ " </td>
+<td>
+An amulet</td>
+<td>
+ _ </td>
+<td>
+A staff</td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Weaponry: 
+<div>
+<table>
+<tr>
+<td>
+ / </td>
+<td>
+A pole-arm or music instrument</td>
+<td>
+ \ </td>
+<td>
+A hafted weapon or digger</td>
+</tr>
+<tr>
+<td>
+ | </td>
+<td colspan="3">
+An edged weapon</td>
+</tr>
+<tr>
+<td>
+ } </td>
+<td>
+A slight, bow or crossbow</td>
+<td>
+ { </td>
+<td>
+A shot, arrow, bolt or boomerang</td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Armour: 
+<div>
+<table>
+<tr>
+<td>
+ ( </td>
+<td>
+Soft armour or a cloak</td>
+<td>
+ } </td>
+<td>
+A shield</td>
+</tr>
+<tr>
+<td>
+ [ </td>
+<td>
+Hard armour</td>
+<td>
+ ] </td>
+<td>
+Miscellaneous armour</td>
+</tr>
+
+</p>
+</table>
+</div>
+<h3 id="head-42bfb244b56f0ec4f6c6f377d21d60d2646b6f57"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Features that block line of sight</h3>
+<h4 id="head-a3818a1a6983d510ee6fa7dc62c827c31afd5c82"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Doors</h4>
+Non-secret, non-open doors are represented by a '+'. They may be: 
+    <ul>
+
+    <li>
+<p>
+ closed, locked, or jammed (umber) 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-7bdb09781a3f23885cd43177c0508b375cb1b7e9"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Rubble</h4>
+Piles of fallen rubble occur here and there. It appears as a white ';'. You can dig in it <em>if</em> you have a digger -- which you should have acquired before you ever left Bree! <h4 id="head-c0cfa915c3da65c2300e8e7e9a4c5b2948991869"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Wall-type structures</h4>
+Wall-type structures are represented by '#'. They may be: 
+    <ul>
+
+    <li>
+<p>
+ a normal wall, an ice wall, or a secret door (white) 
+</p>
+</li>
+    <li>
+<p>
+ a sand wall (yellow) 
+</p>
+</li>
+    <li>
+<p>
+ a large tree (light green) 
+</p>
+</li>
+    <li>
+<p>
+ a dead tree (dark grey) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Walls sometimes vary in their structure. A mineral vein running through a wall will appear as a white '%'. Treasure within a mineral vein will appear as an umber '*'. 
+</p>
+<h4 id="head-06beda1f7fe3af723daf367342e124caaa954e1b"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Mountains</h4>
+Mountains appear as '^'. They may be: 
+    <ul>
+
+    <li>
+<p>
+ a mountain chain (umber) 
+</p>
+</li>
+    <li>
+<p>
+ a high mountain chain (white) 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-ebea5fed56a86b76ab1f13df6e85df2941b562c6"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Monsters</h4>
+The friends and monsters you may encounter are usually represented by ASCII characters: 
+<div>
+<table>
+<tr>
+<td>
+ $ </td>
+<td>
+Creeping Coins</td>
+<td>
+ , </td>
+<td>
+Mushroom Patch</td>
+</tr>
+<tr>
+<td>
+ a </td>
+<td>
+Giant Ant</td>
+<td>
+ A </td>
+<td>
+Angelic being</td>
+</tr>
+<tr>
+<td>
+ b </td>
+<td>
+Giant Bat</td>
+<td>
+ B </td>
+<td>
+Bird</td>
+</tr>
+<tr>
+<td>
+ c </td>
+<td>
+Giant Centipede</td>
+<td>
+ C </td>
+<td>
+Canine</td>
+</tr>
+<tr>
+<td>
+ d </td>
+<td>
+Dragon</td>
+<td>
+ D </td>
+<td>
+Ancient Dragon</td>
+</tr>
+<tr>
+<td>
+ e </td>
+<td>
+Floating Eye</td>
+<td>
+ E </td>
+<td>
+Elemental</td>
+</tr>
+<tr>
+<td>
+ f </td>
+<td>
+Feline</td>
+<td>
+ F </td>
+<td>
+Dragon Fly</td>
+</tr>
+<tr>
+<td>
+ g </td>
+<td>
+Golem</td>
+<td>
+ G </td>
+<td>
+Ghost</td>
+</tr>
+<tr>
+<td>
+ h </td>
+<td>
+Humanoids</td>
+<td>
+ H </td>
+<td>
+Hybrid</td>
+</tr>
+<tr>
+<td>
+ i </td>
+<td>
+Icky-Thing</td>
+<td>
+ I </td>
+<td>
+Insect</td>
+</tr>
+<tr>
+<td>
+ j </td>
+<td>
+Jelly</td>
+<td>
+ J </td>
+<td>
+Snake</td>
+</tr>
+<tr>
+<td>
+ k </td>
+<td>
+Kobold</td>
+<td>
+ K </td>
+<td>
+Killer Beetle</td>
+</tr>
+<tr>
+<td>
+ l </td>
+<td>
+Giant Louse</td>
+<td>
+ L </td>
+<td>
+Lich</td>
+</tr>
+<tr>
+<td>
+ m </td>
+<td>
+Mold</td>
+<td>
+ M </td>
+<td>
+Multi-Headed Hydra</td>
+</tr>
+<tr>
+<td>
+ n </td>
+<td>
+Naga</td>
+<td>
+ N </td>
+<td>
+(unused)</td>
+</tr>
+<tr>
+<td>
+ o </td>
+<td>
+Orc</td>
+<td>
+ O </td>
+<td>
+Ogre</td>
+</tr>
+<tr>
+<td>
+ p </td>
+<td>
+Human(oid)</td>
+<td>
+ P </td>
+<td>
+Giant Human(oid)</td>
+</tr>
+<tr>
+<td>
+ q </td>
+<td>
+Quadruped</td>
+<td>
+ Q </td>
+<td>
+Quylthulg</td>
+</tr>
+<tr>
+<td>
+ r </td>
+<td>
+Rodent</td>
+<td>
+ R </td>
+<td>
+Reptile/Amphibian</td>
+</tr>
+<tr>
+<td>
+ s </td>
+<td>
+Skeleton</td>
+<td>
+ S </td>
+<td>
+Spider/Scorpion/Tick</td>
+</tr>
+<tr>
+<td>
+ t </td>
+<td>
+Townsperson</td>
+<td>
+ T </td>
+<td>
+Troll</td>
+</tr>
+<tr>
+<td>
+ u </td>
+<td>
+Minor demon</td>
+<td>
+ U </td>
+<td>
+Major demon</td>
+</tr>
+<tr>
+<td>
+ v </td>
+<td>
+Vortex</td>
+<td>
+  V </td>
+<td>
+Vampire</td>
+</tr>
+<tr>
+<td>
+ w </td>
+<td>
+Worm or Worm Mass</td>
+<td>
+ W </td>
+<td>
+Wight/Wraith</td>
+</tr>
+<tr>
+<td>
+ x </td>
+<td>
+(unused)</td>
+<td>
+ X </td>
+<td>
+Xorn/Xaren</td>
+</tr>
+<tr>
+<td>
+ y </td>
+<td>
+Yeek</td>
+<td>
+ Y </td>
+<td>
+Yeti</td>
+</tr>
+<tr>
+<td>
+ z </td>
+<td>
+Zombie/Mummy</td>
+<td>
+ Z </td>
+<td>
+Zephyr Hound</td>
+</tr>
+</table>
+</div>
+<h2 id="head-56f385dcbd70bbf1df637a43aa6edd8c012b0ed3"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>The Town Level</h2>
+The town level in Bree is where you will begin your adventure. The town consists of townspeople and several buildings, most of which have an entrance. Bree is protected by a deep chasm which almost entirely surrounds the town. There are a few gates where you may leave and enter. Outside the gates lie unclaimed lands and wilderness where beasts still run wild. <p>
+The first time you appear in town (at "birth") it will be daytime -- unless your Character is undead -- but please note that the sun will rise and set (rather instantly) as time passes. (See <a href="#light">light</a>, below.) 
+</p>
+<p>
+There are several towns in Middle-earth. If you survive the dangers of the Barrow Downs, Bree will eventually become too small for you. Other towns will have different facilities. 
+</p>
+<h3 id="head-3d8443d42c2dcd2a3fa43edc40b7cf6ca7b88b57"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Townspeople</h3>
+The town contains many people. There are the street urchins, young children who will mob an adventurer for money and at times seem to come out of the woodwork. Blubbering idiots are a harmless but constant annoyance. Cheerful drunks sometimes wander about the town singing, and are of no threat to anyone. Sneaky dastards on the take for the local black market are always greedily eyeing your backpack for potential new "purchases". And finally, what town would be complete without a swarm of devil-may-care warriors who pick fights just for the fun of it? <p>
+When you are first starting out, you should avoid most townspeople as much as possible while you wander from store to store. Fights will break out, though, so be prepared. Since your Character grew up in this world of intrigue, no experience is granted for killing townsfolk. 
+</p>
+<h3 id="head-0d3b507e4130c5d27c405730360414320d89849b"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Town buildings</h3>
+Your Character will begin her adventure with some basic supplies and some gold with which to purchase more supplies at the local stores. <p>
+Store entrances are represented by a number from 1 to 9, or by a '+'. To enter an open store, move onto the entrance. 
+</p>
+<p>
+Once inside a store, you will see: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ the name of the store 
+</p>
+</li>
+    <li>
+<p>
+ the name and race of the store owner 
+</p>
+</li>
+    <li>
+<p>
+ the maximum amount of cash that the store owner will pay for any one item 
+</p>
+</li>
+    <li>
+<p>
+ an (incomplete) list of available commands. Note that many of the commands which work in the dungeon work in the stores as well, but some do not, especially those which involve "using" objects. 
+</p>
+</li>
+    <li>
+<p>
+ The store may or may not have inventory. Some stores offer services instead of or in addition to items (e.g. the Mayor's Office and the Soothsayer.) If items are for sale, you will see the store inventory, listed along with tentative prices. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+If there are items for sale, you can barter with the owner for items you can afford. When bartering, you enter prices you will pay (or accept) for some object. You can either enter the absolute amount, or precede a number with a plus or minus sign to give a positive or negative increment on your previous offer. Be warned, though, that the owners can take offense very easily, and may even throw you out for a while if you insult them too often. If you should ever manage to haggle a store owner down to his final offer and you make a purchase, the tentative price of that item will become "fixed". 
+</p>
+<p>
+If you consistently bargain well in a store, the store owner will eventually recognise that you are a superb haggler and will make an immediate final offer instead of haggling with you. Items which cost less than 10 gold pieces do not count, as haggling well with these items is usually either very easy or almost impossible. The more expensive the item is, the less likely the store owner is to assume that you are a good haggler. Note that you may disable haggling with a ******software option*******, though this will cost you a 10% "sales tax" on all purchases for which the store owner would have required you to haggle. 
+</p>
+<p>
+Stores do not always have everything in stock. As the game progresses, store inventories are naturally replenished in the course of business, so check them from time to time. Also, if you sell an item, it may be sold to another customer while you are off adventuring, so do not expect to be able to get back something you have sold to a store. 
+</p>
+<p>
+Store owners will not buy harmful, cursed, or useless items. If an object is unidentified, they will pay you a base price for it. Once bought, they will immediately identify the object. If it is a good object, they will add it to their inventory. If it was a bad bargain, they simply throw the item away. In any case, you may receive some knowledge of the item if another is encountered. 
+</p>
+<h4 id="head-f359905f80f6d8486aa762d49beb5df103e3a32b"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Basic stores</h4>
+The basic stores in ToME include: 
+    <dl>
+
+    <dt> General Store ("1")</dt><dd>
+<p>
+The General Store sells foods, drinks, some clothing, torches, lamps, oil, shovels, picks, and spikes. All of these items and some others can be sold back to the General store for money. 
+</p>
+</dd>
+    <dt> The Armoury ("2")</dt><dd>
+<p>
+The Armoury is where the town's armour is fashioned. All sorts of protective gear may be bought and sold here. 
+</p>
+</dd>
+    <dt> The Weaponsmith's Shop ("3")</dt><dd>
+<p>
+The Weaponsmith's Shop is where the town's weapons are fashioned. Hand and missile weapons may be purchased and sold here, along with arrows, bolts, and shots. 
+</p>
+</dd>
+    <dt> The Temple ("4")</dt><dd>
+<p>
+The Temple deals in healing and restoration potions, as well as bless scrolls, word of recall scrolls, some approved priestly weapons, and priest spell books. 
+</p>
+</dd>
+    <dt> The Alchemy shop ("5")</dt><dd>
+<p>
+The Alchemy Shop deals in all types of potions and scrolls. 
+</p>
+</dd>
+    <dt> The Magic User's Shop ("6")</dt><dd>
+<p>
+The Magic User's Shop deals in all sorts of rings, wands, amulets, and staves, as well as spell books. 
+</p>
+</dd>
+    <dt> The Black Market ("7")</dt><dd>
+<p>
+The Black Market will sell and buy anything that is not cursed at extortionate prices. It occasionally has VERY good items for sale.  
+</p>
+</dd>
+    <dt> Your Home ("8")</dt><dd>
+<p>
+This is your house. You can store objects here which you cannot currently carry on your travels, or which will need at a later date. You do not get a home automatically; you must earn it. 
+</p>
+</dd>
+    <dt> The Bookstore ("9")</dt><dd>
+<p>
+The Bookstore deals in all sorts of magical books. You can purchase and sell spellbooks for spellcasters and priests here. 
+</p>
+</dd>
+
+    </dl>
+
+<h4 id="head-b46cb2001ab81c0ae999fe855cd2c0470df3260a"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Other shops and services</h4>
+In addition to the basic stores, some towns may also have other buildings with shops or services. The entrances to these are represented by a '+'. These shops may include: 
+    <dl>
+
+    <dt> Mayor's Office/Castle</dt><dd>
+<p>
+The home office for the town. Characters looking for work other than exploring the dungeon should visit here. 
+</p>
+</dd>
+    <dt> Pet Shop</dt><dd>
+<p>
+Great place to purchase eggs and get pets. 
+</p>
+</dd>
+    <dt> The Soothsayer</dt><dd>
+<p>
+To discover what <a class="interwiki" title="Self" href="./Documentation/Fate"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">fates</a> lie in store for you. 
+</p>
+</dd>
+    <dt> The Inn</dt><dd>
+<p>
+Wine, dine, rest and relax! 
+</p>
+</dd>
+    <dt> The Nest</dt><dd>
+<p>
+Thunderlords are masters of teleportation, and will consent to bear you to your chosen dungeon destination for a fee. 
+</p>
+</dd>
+    <dt> Beastmaster Shanty</dt><dd>
+<p>
+For those who enjoy trophy hunting, and to research that strange animal you saw during your adventures. 
+</p>
+</dd>
+    <dt> Fighters Hall</dt><dd>
+<p>
+The place to reforge weapons and armour. 
+</p>
+</dd>
+    <dt> Rangers Guild</dt><dd>
+<p>
+The place to reforge distance weapons and their ammunition. 
+</p>
+</dd>
+    <dt> Library</dt><dd>
+<p>
+For information of all kinds. 
+</p>
+</dd>
+    <dt> Gambling House</dt><dd>
+<p>
+See below for the rules, before playing. The games are not rigged; they are just naturally difficult. 
+</p>
+</dd>
+    <dt> Tower of Magery/Wizards Spire</dt><dd>
+<p>
+The wizards will identify your items or recharge your magical items for a fee. 
+</p>
+</dd>
+    <dt> Inner temple/Priests Circle</dt><dd>
+<p>
+A place of healing. 
+</p>
+</dd>
+    <dt> Paladin guild</dt><dd>
+<p>
+Some healing and enchantments available. 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+Please note that some shops may offer the same or similar services, but have different names. 
+</p>
+<p>
+Some of these shopkeepers may offer quests to sufficiently capable adventurers; the Mayor's office is the obvious place to start. Go into every building you can find, as quests may pop up in unexpected places. 
+</p>
+<p>
+All buildings are made of stone and are unlikely to move around. 
+</p>
+<h4 id="head-4743ae8f8d503bd8096da7f73e4c2fbdc819fcce"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Gambling</h4>
+There are four gambling games available in gambling centers. They are: 
+    <dl>
+
+    <dt> Between</dt><dd>
+<p>
+Three 12-sided dice rolled; 2 black, 1 red. The red die must be between both black to win. If the red die matches a black die, you lose. Pays 3 to 1. 
+</p>
+</dd>
+    <dt> Craps</dt><dd>
+<p>
+Two dice are rolled. On first roll, a 7 or 11 wins. A 2,3 or 12 loses. Otherwise roll until the first roll is matched (win) or a 7 is rolled (loss). Pays 2 to 1. 
+</p>
+</dd>
+    <dt> Wheel</dt><dd>
+<p>
+Pick a number from 0-9. If the number shows on wheel after it stops spinning, you win. Pays 10 to 1. 
+</p>
+</dd>
+    <dt> Slots</dt><dd>
+<p>
+Three dice rolled. Matches win gold. Numbers are: 1=Lemon, 2=Orange, 3=Sword, 4=Shield, 5=Plum, 6=Cherry 
+</p>
+<p>
+ Slots payoffs are as follows: 
+<div>
+<table>
+ <tr>
+<td>
+Cherry Cherry Lemon</td>
+<td>
+2-1</td>
+<td>
+Cherry Cherry Orange</td>
+<td>
+3-1</td>
+<td>
+Cherry Cherry Sword</td>
+<td>
+4-1</td>
+</tr>
+ <tr>
+<td>
+Cherry Cherry Shield</td>
+<td>
+5-1</td>
+<td>
+Cherry Cherry Plum</td>
+<td>
+6-1</td>
+</tr>
+ <tr>
+<td>
+Lemon Lemon Lemon</td>
+<td>
+4-1</td>
+<td>
+Orange Orange Orange</td>
+<td>
+16-1</td>
+<td>
+Sword Sword Sword</td>
+<td>
+6-1</td>
+</tr>
+ <tr>
+<td>
+Shield Shield Shield</td>
+<td>
+25-1</td>
+<td>
+Plum Plum Plum</td>
+<td>
+9-1</td>
+<td>
+Cherry Cherry Cherry</td>
+<td>
+36-1</td>
+</tr>
+
+</p>
+</table>
+</div>
+</dd>
+
+    </dl>
+
+<p>
+<a id="wilderness-travel"/> <h2 id="head-a76b2e057e7a86c9928026bee95ace8e0454efed"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>The wilderness, the wilderness map, overland travel, and ambushing</h2>
+Between the towns, the hand of civilisation has not tamed the lands, and wild creatures run rampant. The wilderness is worth exploring. Hidden within it are several interesting locations, with the four main ones for any adventurer --- Barrow Downs, Mirkwood, Mordor and Angband -- each being located at or near one of the main towns of Middle-earth. These locations should generally be explored consecutively, as each one increases in difficulty from the point where the previous dungeon finished. Invisible forces of good will prevent a very inexperienced character from entering the most dangerous places. 
+</p>
+<p>
+The wilderness can also be a good place to go when you are seeking a change from the scenery of the dungeons, or just a bit of fast experience. 
+</p>
+<p>
+Be warned -- some creatures found in the Wilderness can be quite dangerous, and travel through the wilderness can be time-consuming. If you want to travel to another town, there is an overview map (called the "wilderness map") that can be accessed by going up "&lt;" from the town level. This is sometimes referred to as "overland travel". During overland travel, your character still has to actually walk through each square of the normal view even though you only see the end result of her moving from one 4x4 panel to the next. Given this, food consumption will appear to be much higher than normal in the wilderness map, and it is recommended that you prepare carefully before undertaking such travel.  
+</p>
+<p>
+While traveling on the wilderness map, a Character weak for the area she travels into may find herself ambushed by the monsters (natural or otherwise) living there.  In an ambush, the Character is forced out of overland travel into the center of an area filled with an unusual number of monsters coming at her. She will not be able to re-enter the wilderness map until she leaves that area. Because of this, a Character should always be prepared to fight when traveling, and should stick to well-traveled paths until at a high power level. 
+</p>
+<p>
+All of the special locations can be seen as downstairs ("&gt;") on the wilderness map, while towns appear as "*"s. This makes it <em>much</em> easier to find your way from one interesting place to another. 
+</p>
+<p>
+The "Adventurer's Guide to Middle-earth" (a parchment that <em>every</em> character begins the game with) contains details about the towns and some of the dungeons, including rough directions on how to get there. 
+</p>
+<h2 id="head-174af95f888fdb4f6b26b038e8ba73348280bb19"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Within the dungeon</h2>
+Once your character is adequately supplied with food, light, armor, and weapons, she is ready to enter the Barrow Downs. Move on top of the '&gt;' symbol and use the "Down" command ("&gt;"). (See the help on staircases and ways, below, for more information.) <p>
+Your character will descend a staircase and arrive somewhere on the first level of the Barrow Downs dungeon. Each level of any dungeon is fifty feet high (thus dungeon level "Lev 1" is often called "50 ft"), and is divided into rectangular regions several times larger than the screen. 
+</p>
+<p>
+****** link to how to toggle between feet and levels ***** 
+</p>
+<p>
+Once you leave a dungeon level by a staircase, you will never again find your way back to that specific region (map) again, but there are an infinite number of other regions at that same "depth" that you can explore, should you wish to. Therefore, be careful to collect all the treasure you intend to take with you before you leave, because if you do not, you may never find it again. Monsters <em>can</em> use the stairways, and if they are not killed, you may eventually encounter them again. 
+</p>
+<p>
+In the dungeon, there are many things to find, but your Character must survive many horrible and challenging encounters to discover treasures and take them safely back to the town to sell, or to keep and use. 
+</p>
+<p>
+<a id="light"/> <h3 id="head-a36ef8aba22905e2d2efbf1ac1d6230d5761859d"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Light</h3>
+The dungeon is inherently a dark place. Sometimes areas in a dungeon are lighted (imagine magical torch sconces on the walls, or some such), but in general you need to carry a source of light with you. The deeper you go, the less often you will find already-lighted rooms. If a room is not lit and you are not carrying a functional light source, you will not be able to see. This will affect searching, picking locks, disarming traps, reading scrolls, casting spells, browsing books, etc., so be very careful not to run out of light! 
+</p>
+<p>
+A Character usually wields a torch or lamp in order to supply her own light. Torches and lamps burn fuel, and once that fuel is expended, they stop supplying light. You will be warned as the torch or lamp approaches this point. You may use the "Fuel" command ("F") to refuel your lantern (with flasks of oil) or your torch (with other torches, or just drop the old one and carry a new one). You are strongly encouraged to carry extra torches or flasks of oil, as appropriate, so that you can replenish your light source. 
+</p>
+<h3 id="head-35b259290ec3acbb839d14cd18752dfb010f79ec"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Food</h3>
+As she travels, your Character will of course need to eat to sustain herself, so don't forget to bring a source of food or other sustenance along. <h3 id="head-f5679916118fabfa62f35b2c3c1fb53aa700cb68"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Objects found in the dungeon</h3>
+<h4 id="head-b9b5e9da94a289af5fb6f7c3c04a8446e592229f"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Where all this stuff came from</h4>
+The dungeon is full of objects just waiting to be picked up and used. How did they get there? Well, the main source for useful items are all the foolish adventurers (like you?) who preceeded you. The monsters scatter the remains and treasures of those who have been killed -- both adventurers and their conquests -- throughout the dungeon. Other items may have been placed there by evil entities who enjoy a good joke at your expense, or are the collected and/or personal treasures of an entity you encounter. <h4 id="head-cbf3b71a5f9a07db548159b1711bb2d0cfaae00d"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Picking up items, pack overflow, and load capacity</h4>
+You pick up objects by moving on top of them and typing "g" for get. (*****You can turn on autopickup in options "="******). You can carry up to 23 different types of items in your backpack, while wearing and wielding up to 12 others. Although you are limited to 23 different types of items, each type of item may actually be a "pile" of up to 99 identical items. <p>
+If you somehow manage to stuff 24 items into your pack, for example, by removing a helmet from your head while your pack is full, then your pack will "overflow" and the most recently added item will fall out and onto the ground. 
+</p>
+<p>
+While you can potentially carry many items, your strength will determine how much you can carry effectively. As your load strains you to your limit, you movement will become slower and you will become an easier target. Note that there is no upper bound on how much weight you can carry if you do not mind being slow. 
+</p>
+<h4 id="head-e42cefa20e018e9ed382e906bc226e027c694d95"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Objects requiring special commands</h4>
+Many objects found within the dungeon frequently have special commands for their use. Wands must be Aimed, staves must be Used, scrolls must be Read, and potions must be Quaffed.  You may, in general, not only use items in your pack, but also items on the ground, if you are standing on top of them. For a detailed list of the commands to use objects, see the <a class="interwiki" title="Self" href="./Documentation#head-6ff18dd00c3da6f87280e1ec432549babfd82612"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">commands help</a> (command.txt). <p>
+At some point in your travels, you may encounter a chest. Chests are complex objects which frequently are locked and/or trapped. Once opened, you may discover treasure or other objects inside. Many of the commands that apply to traps or doors also apply to chests, but they will not work if you are carrying the chest -- you must leave it on the floor, or place it there, for the commands to work. 
+</p>
+<p>
+<a id="Word-of-Recall"/> <h5 id="head-3c85a9565fd83591565f5b919b728dfc13ce6b08"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Scrolls of Word of Recall</h5>
+One item in particular will be discussed here. The scroll of "Word of Recall" (frequently referred to as "WOR") can be found within the dungeon or bought at the temple in town. It acts in one of two ways, depending on your current location: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+If read within the dungeon: 
+</p>
+</li>
+
+        <ol type="1">
+
+        <li>
+<p>
+If you have never read a WOR before (i.e. you entered a dungeon on foot, descended a few levels, and then read your very first WOR), you will be transported to the Wilderness entrance of that dungeon. 
+</p>
+</li>
+        <li>
+<p>
+If you have read a WOR before, you will be transported back to the last place you read a WOR -- usually, a town. 
+</p>
+</li>
+
+        </ol>
+
+
+    <li>
+<p>
+If read in town, it will teleport you back down to the deepest level of the dungeon which your character has previously been on. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+This behaviour makes the scroll very useful for getting back to the deeper dungeon levels. 
+</p>
+<p>
+<em>Please note</em>: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Once you read a WOR scroll, it takes a while for the spell to act. Do not expect it to save you in a time-urgent crisis. 
+</p>
+</li>
+    <li>
+<p>
+ Reading a second scroll before the first has had a chance to take effect will cancel both scrolls. 
+</p>
+</li>
+    <li>
+<p>
+ Since an accidental descent to a new depth (via a trapdoor, for example) may result in the game memory of the Word of Recall dungeon depth being 'broken' (meaning that the next Word of Recall in town will take you back deeper than you would like to go), there is a new feature in ToME which allows you to read a scroll of Word of Recall on a different level and 'reset' the recall depth to that level (instead of the deepest level). 
+</p>
+</li>
+    <li>
+<p>
+ Some dungeons cannot be recalled into, though you can still recall out. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-c8d4d3b63f1fa456636de52cae56973a4ef343e2"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Inscription overview</h4>
+Objects of any sort may be "inscribed" with a textual inscription of your choice. Inscriptions appear appended to the name of the object, with their content enclosed with curly braces ("{}"). <p>
+These inscriptions may be merely for fun, to add information, or to allow you to interact with macros. Please see the help for ****inscriptions*** for more information. 
+</p>
+<p>
+The game sometimes introduces inscriptions of its own ("fake" or "pseudo" inscriptions) to help you keep track of your possessions: 
+</p>
+
+    <dl>
+
+    <dt> {empty}</dt><dd>
+<p>
+Wands and staves which are known to be empty will be inscribed with "empty". 
+</p>
+</dd>
+    <dt> {tried}</dt><dd>
+<p>
+Objects which have been tried at least once but haven't been identified yet will be inscribed with "tried". 
+</p>
+</dd>
+    <dt> {cursed}</dt><dd>
+<p>
+Cursed objects are inscribed with "cursed". 
+</p>
+</dd>
+    <dt> {broken}</dt><dd>
+<p>
+Broken objects may be inscribed with "broken". 
+</p>
+</dd>
+    <dt> {discount, e.g. "25% off"}</dt><dd>
+<p>
+Any item purchased at a discount (implying that it is slightly substandard) will be inscribed with the discount given at the store. 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+Note that these inscriptions cannot be removed, though they can be hidden by a real inscription if you so desire. 
+</p>
+<p>
+Also, a character may sometimes notice that something in her inventory or equipment list seems to be magical. Higher level characters, or better skilled ones, are much more likely to notice this type of thing than low level characters. The way this information is noted is a message from the game about the item, along with the appearance of a "fake" inscription on the object in question. Examples of such inscriptions include {good} and {cursed}. You can increase your ability to recognize armor and weapons as being magical by increasing your *****Combat skill*****. You can increase your ability to sense particularly well-enchanted magical items (potions, scrolls, wands etc.) by increasing your *****Magic skill*******. If you increase these skills to a suitably high level, you will gain a heightened method of perceiving magical aspects of your inventory/equipment items, which tells you the quality of an item in greater detail. 
+</p>
+<h4 id="head-8570f47a3477c277ede0d463adfa969837f371bb"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Colour of inventory slot letters</h4>
+The colour of the letter that identifies each item in your backpack can tell you something about its magical status. Grey indicates the item has not been identified yet. After identification, the colour changes to one of the following: 
+<div>
+<table>
+<tr>
+<td>
+ white </td>
+<td>
+ normal </td>
+</tr>
+<tr>
+<td>
+ blue </td>
+<td>
+ ego item </td>
+</tr>
+<tr>
+<td>
+ yellow </td>
+<td>
+ artifact </td>
+</tr>
+<tr>
+<td>
+ green </td>
+<td>
+ artifact which is part of a set of artifacts </td>
+</tr>
+</table>
+</div>
+<p>
+And lastly, a final warning: not all objects are what they seem. The line between tasty food and annoying mushroom is a fine one, and sometimes a potion will reach out and bite you... 
+</p>
+<h4 id="head-34c03012cfe4ffa30cea1a12c7e845cda7e64284"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Cursed objects</h4>
+Some objects, mainly armour and weapons, have had curses laid upon them. These horrible objects will look like any other normal item, but will detract from your character's stats or abilities if worn. They will also be impossible to remove until the curse itself is broken. Some items are so heavily cursed that even this will not work, and more potent methods are needed. <p>
+If you wear or wield a cursed item, you will immediately sense that something is wrong. The item will also be pseudo-inscribed with {cursed} after you recognize that it is cursed. 
+</p>
+<p>
+Shopkeepers will refuse to buy any item which is known to be cursed. 
+</p>
+<h3 id="head-ce5ec26563afc2d9ce4e71c4046423178d3ea5d7"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Digging and mining</h3>
+It is possible for you to be trapped within the dungeon. You will not be able to dig your way out without a digging tool (shovel, pick, or other means of digging). It is <em><strong>absolutely essential</em></strong> to always carry some kind of digging tool, even when you are not planning on tunnelling for treasure. <em><strong>Do not leave the town level of Bree without a digger!</strong></em> <p>
+Picks and shovels have a digging ability expressed as "(+&lt;num&gt;)", e.g. (+2). The higher the number, the better the digging ability of the tool. Diggers are effective against rubble, trees, and many walls. Rubble and veins may hide treasure; trees do not. 
+</p>
+<p>
+You dig in something with the dig (shift + t) command. Thorough digging removes one ASCII square (i.e. tile) of what is being dug. This may require multiple attempts depending on how good your digger is. Once the square is removed, you will be informed if you found anything there. If another diggable square exists beyond the area you just dug, you can begin the process again.  
+</p>
+<p>
+Some dungeons contain rich strikes which may be found only by mining it out of the walls. Quartz veins are the richest, yielding the most metals and gems, but magma veins may also hide hoards within them. When digging rock, granite is much harder to dig through than quartz or magma veins, so it is much faster to follow a vein exactly and dig around the granite. There is also a *****game option for highlighting magma and quartz***** within the walls, which makes this easier. 
+</p>
+<p>
+If the Character has a scroll, staff, or spell of treasure location, she can immediately locate all strikes of treasure within a vein shown on the screen. This makes mining much easier and more profitable.  
+</p>
+<h3 id="head-197cb96868c50b059b3625b8cce4e63c0de5491e"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Stairs, Ways, shafts, void jumpgates, and secret doors</h3>
+Stairs, Ways, and shafts are ways to move between dungeon levels. <p>
+Void jumpgates and secret doors are some means to move about on the same dungeon level. 
+</p>
+<h4 id="head-5929db7afa392a3e8a7f37af448cdb1a7afb88c1"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Stairs, Ways, and shafts</h4>
+Staircases are the means by which you enter a dungeon, go deeper in it, or climb up to a shallower depth.  <p>
+The symbols for up and down staircases are the same as the commands to use them.  A "&lt;" represents an up-staircase and a "&gt;" represents a down-staircase. You must move your Character over the staircase before you can use it. You use it by typing the same character as the staircase itself (either "&lt;" or "&gt;".) 
+</p>
+<p>
+In flat environments such as forests, Ways replace staircases. On the map, Ways are identical to staircases and behave the same way. 
+</p>
+<p>
+Yellow down stairs and Ways are quest entrances. 
+</p>
+<p>
+Shafts are also represented by "&lt;" or "&gt;", but are brown. They work similarly to stairs and Ways, but if you use one, you might traverse more than dungeon level all in one go as a result. 
+</p>
+<p>
+Each level has at least one up staircase and at least two down staircases. There are no exceptions to this rule. (******* Is this true, even on special levels??? I don't think so *******) You may have trouble finding some well hidden secret doors, or you may have to dig through obstructions to get to them, but you can always find the stairs if you look hard enough.  
+</p>
+<p>
+Stairs, impenetrable walls, and shop entrances cannot be destroyed by any means, although their locations can occasionally alter under the right circumstances. 
+</p>
+<h4 id="head-ef3f8d97e16fb198e6fd996dab98fcfabd5f53d2"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Void jumpgates</h4>
+A void jumpgate appears on your map as a violet '+'. Jumpgates always occur in pairs. To activate a jumpgate, stand on it and type "&gt;". You will instantly appear on top of its paired jumpgate, which will be somewhere else on the same dungeon level. <h4 id="head-a44f65ea9828ce7f536a32dd88aff30cffa6c531"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Secret doors</h4>
+Many secret doors are used within the dungeon to confuse and demoralise foolish adventurers, but with luck and lots of concentration, you can find them. Secret doors sometimes hide rooms, corridors, or even large sections of a dungeon level, while other times they simply hide small empty closets or even dead ends. Secret doors always look like granite walls, just as undetected traps always look like normal floors. <p>
+Creatures in the dungeon will generally know and use these secret doors, and can often be counted on to leave them open behind them when they pass through. 
+</p>
+<p>
+For historical reasons, secret doors are never locked. 
+</p>
+<h3 id="head-ebea5fed56a86b76ab1f13df6e85df2941b562c6-2"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Monsters</h3>
+There are, of course, creatures of ill repute in town, wilderness, and dungeon, most of whom mean you no good at all. To learn more of how to combat them, please see <a class="interwiki" title="Self" href="./Documentation#head-ce16ddbd814ce0a178e40b00543ba8c1986f957c"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">Attacking monsters and being attacked</a> (attack.txt). <h3 id="head-5f846f3d6398a5366bd1e3e8f64fdce2e7b62adf"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Pets and companions</h3>
+In the course of the game, you may meet friendly monsters who will help you defeat your enemies. There are several different types of friendly monsters; you can determine which type your friend is by 'l'ooking at it: 
+    <dl>
+
+    <dt> Neutral</dt><dd>
+<p>
+This monster will not help you by attacking other monsters, but nor will it attack you. 
+</p>
+</dd>
+    <dt> Co-aligned</dt><dd>
+<p>
+This monster will attack enemy monsters for you, but you will not gain any experience for its kills. 
+</p>
+</dd>
+    <dt> Pet</dt><dd>
+<p>
+This monster will attack enemy monsters for you, and you will gain experience from its kills. The amount of experience you gain is determined by the level of your <a class="interwiki" title="Self" href="./Documentation/Skills/Monster-lore"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">Monster-lore skill</a>. This monster will gain levels and experience of its own, but will not follow you if you leave the dungeon level or other map area. 
+</p>
+</dd>
+    <dt> Companion</dt><dd>
+<p>
+This monster is just like a pet, but in addition, it will loyally follow you from one dungeon level to the next, and from dungeon to dungeon. 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+Your Monster-lore skill also determines the maximum amount of pets and companions you can have at any one time. 
+</p>
+<p>
+Pets, companions and co-aligned creatures cannot deliver killing blows to uniques or quest monsters. You must do this yourself. 
+</p>
+<p>
+You can give commands to pets and companions to make them more useful, using the 'P' command. The list of available commands is as follows: 
+</p>
+
+    <dl>
+
+    <dt> dismiss companions</dt><dd>
+<p>
+Dismisses your companions. They can be difficult to get rid of otherwise. 
+</p>
+</dd>
+    <dt> dismiss pets</dt><dd>
+<p>
+Dismisses pets. You will be given the opportunity to dismiss all current pets, or if you answer no to that first question, to dismiss specific pets. 
+</p>
+</dd>
+    <dt> call pets</dt><dd>
+<p>
+Calls your pets (and companions) to you. 
+</p>
+</dd>
+    <dt> follow me</dt><dd>
+<p>
+Asks your pets (and companions) to follow you. They do have minds of their own, and may not be able to travel as fast as you can. 
+</p>
+</dd>
+    <dt> seek and destroy</dt><dd>
+<p>
+Selecting this will cause your pets and companions to wander further from you, looking for enemies to kill. 
+</p>
+</dd>
+    <dt> allow/disallow open doors</dt><dd>
+<p>
+Selecting this toggles whether your pets and companions can open doors. 
+</p>
+</dd>
+    <dt> allow/disallow pickup items</dt><dd>
+<p>
+Selecting this toggles whether your pets and companions can pick up items. Disallowing it will cause the monster to drop any items he is carrying on the floor. 
+</p>
+</dd>
+    <dt> give target to a friend</dt><dd>
+<p>
+Selecting this will cause one of your pets or companions to attack your current target. 
+</p>
+</dd>
+    <dt> give target to all friends</dt><dd>
+<p>
+Causes all pets or companions to attack your current target. 
+</p>
+</dd>
+    <dt> friend forget target</dt><dd>
+<p>
+All your friends will follow their normal attack patterns, neglecting any targets you have given them. 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+While friendly, friendly monsters will not generally tolerate abuse. If you harm a friendly monster, there is a chance it could become angry and turn on you. 
+</p>
+<h2 id="head-dc316d294e300e8acde9062812de0476c759a186"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>The bottom line</h2>
+<h3 id="head-f388744de65c3b6306e78770146be0756f7a6cca"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Upon death and dying</h3>
+If your character's hitpoints falls below zero, she has died, and in most situations she cannot be restored back to life. The game will display an ASCII tombstone commemorating your character. You will also be given the option to view and save a record of your character and all her identified kit. <p>
+Your character will leave behind a reduced save file, which contains only the monster memory and your option choices. If you create a new character using that file, she will be generated with the same stats and monster memory, but she will restart at character level 1 with none of the treasures you had accumulated. 
+</p>
+<p>
+In this way, death in ToME is permanent. You cannot simply "reload from the last save" as in most other contemporary games. Death is permanent... just as it is in real life, in fact. 
+</p>
+<h3 id="head-61f3e4c01b60ec1e8035ec1399d5f2a54c5ac401"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Winning the game</h3>
+<em><strong>Notice: More detail than this shall only be found within the <a href="./SpoilerArchive">SpoilerArchive</a>. Please do not elaborate here!</strong></em> <p>
+ToME is a game which can be won. 
+</p>
+<p>
+In order to win, a final enemy must be defeated. In order to defeat it, many conditions must first be met. If you explore widely enough and delve deep enough, you will eventually encounter that enemy on the field of battle. 
+</p>
+<p>
+Should you survive your battle with that enemy, you will receive the status of WINNER. You may continue to play and save the game if you wish, and you might even listen to the rumours of an even more insidious creature residing in a truly deathly realm.... 
+</p>
+<h3 id="head-b6f3a338f5a6038d37226e10a1c806c023951a83"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Retiring after a win</h3>
+After you have won and are ready to retire, simply "commit suicide" (control + shift + Q) to record your character as a winner on your high score list. <h3 id="head-c509380fc5ea1d26f5f3381d7f2f7d3c0fe0d911"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Posting your character</h3>
+Many players like to post their character for others to see. Please see <a href="./Documentation_2fGame_20commands">Documentation/Game commands</a> for instructions on how to do this. <h2 id="head-f92e3150c3723a71ef15a79444015d74ea49bb51"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Documentation dev chatter</h2>
+<strong><a href="./MayLith">MayLith</a></strong>: First of all, this is a MAJOR rewrite, and it's not done yet. I've done a lot of editing off-line, but I finally needed to get it onto the wiki. This is the first-off. Now's the time to start figuring out: 
+    <ol type="1">
+
+    <li>
+<p>
+what's really a spoiler and what's not (see below), 
+</p>
+</li>
+    <li>
+<p>
+rearranging, moving and/or deleting sections as needed, 
+</p>
+</li>
+    <li>
+<p>
+identifying items that should be linked, 
+</p>
+</li>
+    <li>
+<p>
+general improvements and clarifications. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+Please, if you are not a game developer or moderator, leave this page alone. Suggestions are welcome over on <a class="interwiki" title="Self" href="./Documentation#head-7fa0a174d9f0cdb4daff4e27c889516ddeb06a90"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">User suggestions</a> or <a class="nonexistent" href="./WikiSuggestions">WikiSuggestions</a>. Thanks. 
+</p>
+<p>
+Lots of questions/comments: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Assorted rewriting here and there (sorry FF... consider this one a major rewrite) 
+</p>
+</li>
+    <li>
+<p>
+ Anything surrounded by ***'s needs to be linked or otherwise looked at. 
+</p>
+</li>
+    <li>
+<p>
+ Town/Buildings section: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Munged "bldg.txt" into the towns/buildings section 
+</p>
+</li>
+        <li>
+<p>
+ Instructions on how to scum a store, deleted. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Objects found within dungeon: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Objects found within dungeon -- removed specific detail for the good pseudo-ID 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Winning the game -- Is that vague enough? I tried. If it's not, please suggest or create alternatives. Thanks. 
+</p>
+</li>
+
+        <ul>
+
+  <strong><a href="./NeilStevens">NeilStevens</a></strong>: Suggestion: 
+                <ul>
+
+    When you start the game, you have a quest: You must venture to the tower Dol Guldur in Mirkwood, and drive out the Necromancer inside.  The game may not be over after that, though.... 
+                </ul>
+
+
+  <strong><a href="./MayLith">MayLith</a></strong>: I'll munge that in with the rest of it?? <p>
+  <strong><a href="./NeilStevens">NeilStevens</a></strong>: I meant the suggestion as a replacement, not as an addition.  If you think it's too little, prepend this: 
+</p>
+
+            <ul>
+
+   ToME is a quest-oriented game.  You are given tasks to complete, and by doing so the plot, and your character development, will proceed.  Beware not to take on quests ill-prepared, though. 
+            </ul>
+
+
+  <strong><a href="./MayLith">MayLith</a></strong>: Still seems overly vague to me, but hey, if that's the way you want it... <img src="./wiki/starshine/img/smile4.png" alt=";-)" height="15" width="15"> <p>
+  <strong><a href="./NeilStevens">NeilStevens</a></strong>:  You really think so?  Do we need more details on the Necromancer quest? 
+</p>
+<p>
+  <strong><a href="./MayLith">MayLith</a></strong>: For the Necromancer, no, I think what you wrote was fine. I was thinking more along the lines of vague allusions to Sauron and Morgoth. I can understand (and even agree with!) not wanting to say anything directly, but anyone who's read Tolkien -- or watched the movies for that matter -- will know about the One and Sauron. That's why I wrote the "winning the game" section the way I did. It implies there is an enemy to be beat, without naming him. A newbie who knows nothing about Tolkien would think that "enemy" was the Necromancer.... (especially as I had in the back of my head adding a line on how to check for quests, or a cross-link to the part of the doc that talks about that.) Anyway, I'm more than willing to be flexible about this, I'm just trying to shake it (well, all the Doc actually) upside down til all the foo falls out. <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+  While I'm thinking of it:  
+</p>
+
+            <ul>
+
+            <li>
+<p>
+ How do you like the character sheet section I just wrote? 
+</p>
+</li>
+
+            </ul>        </ul>
+
+
+    <li class="gap">
+<p>
+ More info (from dungeon.txt) -- provisionally deleted; this is not a master page 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Cross reference other answers from the page: <a class="interwiki" title="Self" href="./GeneralDiscussion/Assorted%20documentation-related%20questions"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">General Discussion/Assorted documentation-related questions</a>. <a id="bottom"/> 
+</p>
+<h2 id="head-e24696f6e1199f9d406a835274d191bb17adeba0"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>To-do list</h2>
+review wilderness section <p>
+pets and companions section -- keep or move? 
+</p>
+<p>
+numbers of stairways up and down 
+</p>
+<p>
+link to: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ user preference file / subhead of command.txt 
+</p>
+</li>
+    <li>
+<p>
+ shimmer turned on  
+</p>
+</li>
+    <li>
+<p>
+ disable haggling option 
+</p>
+</li>
+    <li>
+<p>
+ gambling rules 
+</p>
+</li>
+    <li>
+<p>
+ panes? 
+</p>
+</li>
+    <li>
+<p>
+ toggling between feet and levels 
+</p>
+</li>
+    <li>
+<p>
+ turn on autopickup 
+</p>
+</li>
+    <li>
+<p>
+ inscriptions 
+</p>
+</li>
+    <li>
+<p>
+ combat skill 
+</p>
+</li>
+    <li>
+<p>
+ magic skill 
+</p>
+</li>
+    <li>
+<p>
+ game option for highlighting magma and quartz 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fExploring_20the_20dungeon?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fExploring_20the_20dungeon.text_html">RefreshCache</a> for this page (cached 2004-09-29 16:01:56)<br>
+<p><a href="./Documentation_2fExploring_20the_20dungeon?action=edit">EditText</a> of this page (last edited 2004-09-29 16:01:52 by <span title="user-uiveq74.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:32:08 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:16 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 217.45
+  exclusion.robots: 0.176
+  exclusion.robots.policy: 0.162
+  RedisCDXSource: 46.369
+  esindex: 0.01
+  LoadShardBlock: 144.301 (3)
+  PetaboxLoader3.datanode: 130.303 (4)
+  CDXLines.iter: 23.002 (3)
+  load_resource: 104.312
+  PetaboxLoader3.resolve: 57.739
+-->

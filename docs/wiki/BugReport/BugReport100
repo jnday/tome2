@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport100 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport100?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport100?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport100?action=fullsearch&amp;value=BugReport100&amp;literal=1&amp;case=1&amp;context=40">BugReport100</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport100?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport100">View</a></li>
+<li><a title="Diffs" href="./BugReport100?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport100?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport100?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport100?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport100?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport100?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport100?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport100?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport100?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport100">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Things that kill the endgame uniques on one round: <p>
+* version 2.2.7 Runecraft while using all your mana at once. The failure rate is 95% but one shot kills Morgy or Melky right away according to the forum. The runes of protection might even protect you for a while so you can make many attempts. 
+</p>
+<p>
+* version 2.2.7 Rings of extra attacks (+238): in alchemy if you need too many XP to raise the pval of an item, it overflows and XP need becomes negative; pval needs a cap. The other alchemy overpowering is fixed in 2.3 
+</p>
+<p>
+* version 2.x Summoning many chain summoners with irresistible breath attacks has occasionally killed Morgoth in one round or two. If it takes more than that, the player isn't in any real danger of being attacked by morgy anyway... 
+</p>
+<p>
+* version 2.x De-hypnotizing lots of Q's before the final fight leads to unlimited summoning as well; except all monsters are loyal. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: This is too many things to put in one bug, and none of these are a bug anyway.  All classes and races are not equal.   If you find summoners and symbiants too easy, don't use them! 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport100?action=refresh&amp;arena=Page.py&amp;key=BugReport100.text_html">RefreshCache</a> for this page (cached 2004-08-30 18:07:44)<br>
+<p><a href="./BugReport100?action=edit">EditText</a> of this page (last edited 2004-08-30 18:07:43 by <span title="192.168.0.1"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 00:57:01 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:20 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 178.054
+  exclusion.robots: 0.117
+  exclusion.robots.policy: 0.108
+  RedisCDXSource: 8.493
+  esindex: 0.013
+  LoadShardBlock: 150.116 (3)
+  PetaboxLoader3.datanode: 74.036 (4)
+  CDXLines.iter: 16.739 (3)
+  load_resource: 76.241
+  PetaboxLoader3.resolve: 43.79
+-->

@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Zombie corruptions - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fZombie_20corruptions?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fZombie_20corruptions?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fZombie_20corruptions?action=fullsearch&amp;value=%2FZombie+corruptions&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Zombie corruptions</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fZombie_20corruptions?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fZombie_20corruptions">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fZombie_20corruptions?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fZombie_20corruptions?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fZombie_20corruptions?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fZombie_20corruptions?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fZombie_20corruptions?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fZombie_20corruptions?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fZombie_20corruptions?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fZombie_20corruptions?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fZombie_20corruptions?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fZombie_20corruptions">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-7fd26d925c53fa0c24d939a72316643bb34384d1">Zombie corruptions</h2>
+<h3 id="head-26546bea6e8e2b7d6ac5191f825bffec4c12021e">Still blood</h3>
+Shadow of death makes your blood circulate hardly at all. This makes thinking and reacting harder, but slows your digestion: -1 to int, -1 to dex. <h3 id="head-38b10adde1819f51de2f391a2e957cdd4587f174">Cold blood</h3>
+Your body temperature is the same as that of your  surroundings. This makes movement slower, but makes you tougher: -clvl/10 to speed, -1 to dex, +2 to con, +3 to hit die (reroll  life), -2 chr <h3 id="head-ec04063d1e2568e4cfa6b79092937f75c9f0ab7b">Stale blood</h3>
+Your body is decaying. This makes you skin rot  and peel off, weakenes your muscles and greatly readuces your  intellect. This condition is not healthy. -5 to int, -6 to  wis, -3 to str, -3 to con, -5 speed, -5 chr, hp drain, black  breath. When you die in this condition you are resurrected,  but gain the last corruption, making you a full blown zombie. <h3 id="head-592258c236752e79894ccc0a9132547d02ba6305">Dead blood</h3>
+You have died and returned as a zombie. The nether  forces that sustain your unlife fill your dead muscles with  unnatural strength and accuracy, and since you don't depend  much on your body's condition it takes a lot to hurt you.  +5+clvl/10 to speed, +4 to con, +6 to str, +5 to con <hr size="3">
+ <a href="./amaurea">amaurea</a>: We need a set of corruptions most of the subraces. I have tried to come up with a set for zombies, but it is not complete. I think Cold blood needs to be replaced, and we should have two corruptions before Stale blood, I think. <p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I took the liberty of editing in the Still blood corruption. The idea is somewhat based on Necromancy in Naat by <a href="./Clark_20Ashton_20Smith">Clark Ashton Smith</a> and what happens to Yadar. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fZombie_20corruptions?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fZombie_20corruptions.text_html">RefreshCache</a> for this page (cached 2005-11-06 20:50:43)<br>
+<p><a href="./IdeaArchive_2fZombie_20corruptions?action=edit">EditText</a> of this page (last edited 2004-07-23 15:42:56 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:23:02 Jun 01, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:47:41 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 105.805
+  exclusion.robots: 0.077
+  exclusion.robots.policy: 0.07
+  RedisCDXSource: 5.16
+  esindex: 0.008
+  LoadShardBlock: 81.386 (3)
+  PetaboxLoader3.datanode: 83.298 (4)
+  CDXLines.iter: 16.9 (3)
+  load_resource: 70.078
+  PetaboxLoader3.resolve: 42.782
+-->

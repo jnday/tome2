@@ -1,0 +1,415 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">221</script><title>Spoilers/Level Feelings - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fLevel_20Feelings?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fLevel_20Feelings?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fLevel_20Feelings?action=fullsearch&amp;value=%2FLevel+Feelings&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Level Feelings</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fLevel_20Feelings?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fLevel_20Feelings">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fLevel_20Feelings?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fLevel_20Feelings?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fLevel_20Feelings?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fLevel_20Feelings?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fLevel_20Feelings?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fLevel_20Feelings?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fLevel_20Feelings?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fLevel_20Feelings?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fLevel_20Feelings?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fLevel_20Feelings">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-5c7c8ccd677292a46a27d53be224a912086a68f8">Level Feelings</a></li>
+<li>
+<a href="#head-83456183eda9a368bd76593f2c7590f0e8b63db2">Level Rating</a></li>
+<li>
+<a href="#head-26aa068da642d212d2f81c8b462341b255141848">Option auto_scum</a></li>
+<li>
+<a href="#head-2048efa48a77ce85107e4b82bf497e80b41227f2">Non-standard level feelings</a></li>
+<li>
+<a href="#head-9f093c029b125e79eaa453a4beca1fc3a86f1195">Changing level feelings</a></li>
+</ol>
+
+ <h2 id="head-5c7c8ccd677292a46a27d53be224a912086a68f8">Level Feelings</h2>
+When you first enter a new dungeon level, you get a sense, or feeling, of just how interesting that dungeon level is. That feeling describes the "goodness" of the generated level. A better feeling indicates a more unusual dungeon layout, better items, and more out of depth monsters. <p>
+These feelings are, from stronger to weaker: 
+</p>
+
+    <ul>
+
+
+<div>
+<table>
+ <tr>
+<td>
+ Feeling                                      </td>
+<td align="center">
+Rating</td>
+</tr>
+ <tr>
+<td>
+ "You have a superb feeling about this level" </td>
+<td align="center">
+&gt; 100</td>
+</tr>
+ <tr>
+<td>
+ "You have an excellent feeling..."           </td>
+<td align="center">
+81 - 100</td>
+</tr>
+ <tr>
+<td>
+ "You have a very good feeling..."            </td>
+<td align="center">
+61 -  80</td>
+</tr>
+ <tr>
+<td>
+ "You have a good feeling..."                 </td>
+<td align="center">
+41 -  60</td>
+</tr>
+ <tr>
+<td>
+ "You feel strangely lucky..."                </td>
+<td align="center">
+31 -  40</td>
+</tr>
+ <tr>
+<td>
+ "You feel your luck is turning..."           </td>
+<td align="center">
+21 -  30</td>
+</tr>
+ <tr>
+<td>
+ "You like the look of this place..."         </td>
+<td align="center">
+11 -  20</td>
+</tr>
+ <tr>
+<td>
+ "This level can't be all bad..."             </td>
+<td align="center">
+1 -  10</td>
+</tr>
+ <tr>
+<td>
+ "What a boring place..."                     </td>
+<td align="center">
+0</td>
+</tr>
+</table>
+</div>
+
+    </ul>
+
+
+<p>
+Using the command "Repeat level feeling (^F)" will repeat the original level feeling. 
+</p>
+<p>
+There are also some nonstandard level feelings, which are described <a href="#nonstandard-level-feelings">below</a>. 
+</p>
+<h2 id="head-83456183eda9a368bd76593f2c7590f0e8b63db2">Level Rating</h2>
+The dungeon level's feeling depends upon the level's rating. The rating is calculated by adding together the following number of points for each room, item or monster feature that is generated: 
+    <ul>
+
+    <li>
+<p>
+ Room generation 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Monster nest: +10 
+</p>
+</li>
+        <li>
+<p>
+ Monster pit: +10 
+</p>
+</li>
+        <li>
+<p>
+ Lesser Vault: depends on vault, usually +2,...,+10 
+</p>
+</li>
+        <li>
+<p>
+ Random Vault: +10 
+</p>
+</li>
+        <li>
+<p>
+ Greater Vault: depends on vault, usually +20,...,+45 
+</p>
+</li>
+        <li>
+<p>
+ Special Level: +40 (only useful if the flag DESC is not used) 
+</p>
+</li>
+        <li>
+<p>
+ Random Princess Quest: +10 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Item generation 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Dragon Armour: +30 
+</p>
+</li>
+        <li>
+<p>
+ Dragon Shield or Helm: +5 
+</p>
+</li>
+        <li>
+<p>
+ Ring of Speed: +25 
+</p>
+</li>
+        <li>
+<p>
+ Ring of Lordly Protection: +5 
+</p>
+</li>
+        <li>
+<p>
+ Amulet of the Magi: +25 
+</p>
+</li>
+        <li>
+<p>
+ Blood of Life: +25 
+</p>
+</li>
+        <li>
+<p>
+ Fixed Artifact: +10 (+20 if value &gt; 50000) 
+</p>
+</li>
+        <li>
+<p>
+ Random Artifact: +40 
+</p>
+</li>
+        <li>
+<p>
+ Ego item: depends on ego type, +0 for bad types, otherwise +1,...,+60 
+</p>
+</li>
+        <li>
+<p>
+ Out of depth item: +level difference 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Monster generation 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Out of depth unique: +2 times level difference 
+</p>
+</li>
+        <li>
+<p>
+ Out of depth monster: +level difference 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+An actual example:  
+</p>
+
+        <ul>
+
+  <pre>You enter DL41 of Mordor. It is a Fumblefingers quest level for 13 Great Crystal 
+drakes. There is a minature vault on the level. Castamir the Usurper is also 
+there. The drakes drop, among other things, three randarts and a ROS +7. 
+
+Great Crystal drakes are native to DL45. 13*(45-41) = 13*4 = +52
+Castamir is a unique native to DL38, so he is not out of depth: +0
+small vault: let's say +5
+3 randarts: 3*40 = +120
+ROS: +25
+plus whatever other ego items, nests, etc. were also present
+
+total: A minimum of 52 + 5 + 120 + 25 = 202</pre>
+        </ul>
+
+
+<p>
+Monsters and items created later don't affect the level rating. For example, you might still run into a unique monster on a level with the feeling "What a boring place...", but that would mean the monster appeared after level generation. 
+</p>
+<h2 id="head-26aa068da642d212d2f81c8b462341b255141848">Option auto_scum</h2>
+This birth option forces the generation of good levels in the dungeon. The minimum "goodness" of the level is based on the dungeon level, so the deeper you go, the better the level will be. For example, with auto_scum turned on, boring levels are never generated, and starting with dungeon level 40, only good or better levels are generated. <h2 id="head-2048efa48a77ce85107e4b82bf497e80b41227f2">Non-standard level feelings</h2>
+<a id="nonstandard-level-feelings" some levels are described with a non-standard level feeling: <ul>
+
+    <li>
+<p>
+ "You feel that you will meet your fate here" when you are on a level where you meet a fate (not in a special / quest level). 
+</p>
+</li>
+    <li>
+<p>
+ "Looks like a typical quest level" when you are in a quest level. 
+</p>
+</li>
+    <li>
+<p>
+ If the flag DESC is set, Special levels will have their own feelings. E.g. "This level looks filled with evilness" for <a class="interwiki" title="Self" href="./Spoilers/Dungeons/Deathwatch"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Deathwatch</a>. 
+</p>
+</li>
+    <li>
+<p>
+ "You hear the sound of a market" when you are on a level with a random dungeon town. 
+</p>
+</li>
+    <li>
+<p>
+ "Looks like any other level" when you spent fewer than 1000 turns on the previous dungeon level. 
+</p>
+</li>
+    <li>
+<p>
+ If you are playing with preserve mode turned off, you obtain a special feeling "You feel there is something special about this level" whenever 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ a fixed artifact is created on the level  
+</p>
+</li>
+        <li>
+<p>
+ monster pits, nests, or vaults are created (sometimes) 
+</p>
+</li>
+        <li>
+<p>
+ the level is a special level 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h2 id="head-9f093c029b125e79eaa453a4beca1fc3a86f1195">Changing level feelings</h2>
+A function tied to HOOK_FEELING can override a feeling (if the function returns TRUE) or add a few lines to the standard feeling (if the function returns FALSE). For example, the first case is used in the Thieves quest in Bree (see q_thief.c), the second case in the random quests (see q_rand.c). </div><div id="footer">
+
+
+<a href="./Spoilers_2fLevel_20Feelings?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fLevel_20Feelings.text_html">RefreshCache</a> for this page (cached 2005-11-04 22:07:01)<br>
+<p><a href="./Spoilers_2fLevel_20Feelings?action=edit">EditText</a> of this page (last edited 2004-08-01 00:03:06 by <span title="user-2ivelou.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:30:28 Nov 05, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:49 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 103.388
+  RedisCDXSource: 0.865
+  PetaboxLoader3.resolve: 21.569
+  load_resource: 95.821
+  PetaboxLoader3.datanode: 76.008 (4)
+  exclusion.robots: 0.228
+  CDXLines.iter: 29.477 (3)
+  esindex: 0.016
+  LoadShardBlock: 66.846 (3)
+  exclusion.robots.policy: 0.21
+-->

@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport246 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport246?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport246?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport246?action=fullsearch&amp;value=BugReport246&amp;literal=1&amp;case=1&amp;context=40">BugReport246</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport246?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport246">View</a></li>
+<li><a title="Diffs" href="./BugReport246?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport246?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport246?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport246?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport246?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport246?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport246?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport246?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport246?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport246">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./RedNaga">RedNaga</a></strong>: i noticed that skills that start with negative value (like stealth for thunderlords, etc...) will be reset to 0 after first entering the skills page. <p>
+This is an excerpt from the char dump of a brand new character (a wood elf archer, if that matter): 
+</p>
+<pre>Skills (points left: 0) 
+ - Combat                                        01.000 [0.800]
+          . Weaponmastery                        -1.-500 [0.500]
+          - Archery                              05.000 [0.850]
+                   . Sling-mastery               00.000 [0.500]
+                   . Bow-mastery                 00.000 [0.500]
+                   . Crossbow-mastery            00.000 [0.500]
+                   . Boomerang-mastery           00.000 [0.500]
+ - Sneakiness                                    01.800 [0.900]
+          . Stealth                              05.000 [0.400]
+          . Disarming                            01.500 [0.900]
+ - Magic                                         00.000 [0.200]
+          . Magic-Device                         01.600 [1.100]
+ - Spirituality                                  04.000 [0.400]
+          . Prayer                               00.000 [0.500]
+ . Monster-lore                                  00.000 [0.500]
+</pre><p>
+As you can note, weaponmastery is negative as it should be, and by adding skill points to it it does not show any increase until you reach a positive value (notice, however the "bad" format -1.-500). 
+</p>
+<p>
+The following is instead an excerpt from a char dump of the same character after entering and leaving skill screen ('G' command, to make it clear) without adding anything, just escaping it immediately: 
+</p>
+<pre>Skills (points left: 0) 
+ - Combat                                        01.000 [0.800]
+          . Weaponmastery                        00.000 [0.500]
+          - Archery                              05.000 [0.850]
+                   . Sling-mastery               00.000 [0.500]
+                   . Bow-mastery                 00.000 [0.500]
+                   . Crossbow-mastery            00.000 [0.500]
+                   . Boomerang-mastery           00.000 [0.500]
+ - Sneakiness                                    01.800 [0.900]
+          . Stealth                              05.000 [0.400]
+          . Disarming                            01.500 [0.900]
+ - Magic                                         00.000 [0.200]
+          . Magic-Device                         01.600 [1.100]
+ - Spirituality                                  04.000 [0.400]
+          . Prayer                               00.000 [0.500]
+ . Monster-lore                                  00.000 [0.500]
+</pre><p>
+As you may note, Weaponmastery has been reset to 0! 
+</p>
+<p>
+I'm not sure since i don't have the 2.3.0 code, but as of 2.2.7 code, there is a suspicious bit of code in the function "recalc_skills_theory" in file "skills.c": 
+</p>
+<pre> /* It cannot go below 0 */ 
+  if (s_info[i].value &lt; 0) s_info[i].value = 0;
+</pre><p>
+That look much like a safety code to ensure that skills did not drop negative by error, quite right since in 2.2.7 i seem to understand there were no negative skills. Maybe this was just not removed. I hope this help. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: I don't want to seem intrusive, but this bug is still there in the 2.3.0 version which has been just released, and since no one ever replied, i'm not even sure if someone actually read this. BTW this look like a major bug to me. I mean, what is the sense of having huge negative skills if they are just going to be zeroed as soon as you gain a level and enter the skill screen?<br>
+ The bug might have looked purely visual (only in the character dump), but i tried further and the skill value are actually reset. I.e. adding points bring them to positive values.<br>
+ Lastly, i don't know if the bug is in the code above (i'm not a really good programmer), but i can confirm this piece of code is still in place in the 2.3.0 sources. 
+</p>
+
+    <ul>
+
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: You're not ignored.  The reason we have a bug database, though, is so that developers don't have to jump and fix things as soon as they're reported.  That wouldn't be possible for a side hobby project like ToME. <p>
+ <strong><a href="./RedNaga">RedNaga</a></strong>: i'm sorry, but i just thought this would be the kind of bug that would have to be resolved before releasing an "official" (non CVS) version, since it actually invalidate the whole negative skills penalty if exploited (and you're essentially forced to exploit it, since you would hardly assign all your skill points to negative skills right away). 
+</p>
+<p>
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: For some stupid reason it never occurred to me to test loading and saving.  Try <tt>tome_230_branch</tt> on <a href="./CVS">CVS</a>, please, and see if your issue is fixed in 2.3.1 (CVS).  <a href="./BugReport294">BugReport294</a> seems to be related to this one, if I'm reading correctly what you're all saying. 
+</p>
+<p>
+ <strong><a href="./RedNaga">RedNaga</a></strong>: It's not needed to load and save. Just enter the skill screen, leave it, re-enter it and add skill points to the supposedly-negative skill, you will see it will raise immediately. As for <a href="./BugReport294">BugReport294</a>, i don't think it is related, and anyway i'm playing the windows official version, downloaded directly from the site. Have you tried already commenting out the code above? I would do it myself, but i'm not very good at it and i never managed to compile a working windows version. 
+</p>
+
+    </ul>
+
+
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I read it :), but I'm not involved in coding this game (though I wish I had time to do so!) One thing I would say, though, is this: Is it an actual bug in the skill code, or in the display <em>of</em> the skills? I don't know the answer, but I know there've been some display issues, so that probably needs to be checked, too. Thanks for reporting the issue. 
+</p>
+
+    <ul>
+
+ <strong><a href="./RedNaga">RedNaga</a></strong>: As i said above, i tested further and, though i don't know for sure if the problem is in the bit of code shown above (this is just a guess), it *is* an actual skill bug. I.e. you can raise stealth for a thunderlord, for example, by simply entering and leaving skill screen, then re-entering it and assigning skill points. <p>
+ <strong>Bandobras</strong>: Confirmed. And still there in <tt>tome_230_branch</tt>. And has nothing to do with saving/loading. 
+</p>
+
+    </ul>
+
+
+<p>
+<strong><a class="nonexistent" href="./LukeHaub">LukeHaub</a></strong>: That peice of code shown above is the source of the bug but i don't think that's all of it. I did a check and that isn't the only safeguard stopping the skills from being less than zero. 
+</p>
+<p>
+<strong>Bandobras</strong>: There is a list of code pieces related to that done by <a href="./amaurea">amaurea</a>. But LUA code was not inspected there.  
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Fixed. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport246?action=refresh&amp;arena=Page.py&amp;key=BugReport246.text_html">RefreshCache</a> for this page (cached 2005-11-07 11:27:58)<br>
+<p><a href="./BugReport246?action=edit">EditText</a> of this page (last edited 2004-12-29 23:00:07 by <span title="192.168.0.1"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:40:24 Mar 17, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:32:28 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 236.52
+  exclusion.robots: 0.208
+  exclusion.robots.policy: 0.191
+  RedisCDXSource: 1.18
+  esindex: 0.01
+  LoadShardBlock: 207.296 (3)
+  PetaboxLoader3.datanode: 219.367 (4)
+  CDXLines.iter: 24.606 (3)
+  load_resource: 59.899
+  PetaboxLoader3.resolve: 25.298
+-->

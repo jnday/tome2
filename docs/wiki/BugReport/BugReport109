@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport109 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport109?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport109?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport109?action=fullsearch&amp;value=BugReport109&amp;literal=1&amp;case=1&amp;context=40">BugReport109</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport109?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport109">View</a></li>
+<li><a title="Diffs" href="./BugReport109?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport109?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport109?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport109?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport109?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport109?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport109?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport109?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport109?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport109">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Version 2.3.0 Copyright issue! <p>
+Most (maybe all) non-player thunderlords in the game use fire, not thunder; this is most obvious during the thunderlord quest. This is a leftover from the dragonrider copyright issue, where dragonriders were turned into thunderlords and were supposed to be using lightning-based attacks from now on. 
+</p>
+<p>
+Renaming them firelords won't please a certain copyright-holder... )-; 
+</p>
+<p>
+The fix would be to turn fire breath into lightning type effects taken from the same code as for players, or even lightning breath if one doesn't care it doesn't work like the thunderlord-player ability. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Actually, I didn't intend them to use lightning when I renamed them.   I was just hurriedly removing all the remaining Pern-ish one night (Because I was tired of them, not because we were being forced to. The forced renaming was already done.)  I don't see that they have to use lightning, either; thunder refers to a sound, not necessarily the sound from lightning. 
+</p>
+<p>
+If we did make them use lightning that would make the game much harder, because lightning immunity is rarer. 
+</p>
+<p>
+Simon: a lightning spell, cast not too frequently, might do the trick (the danger level of the quest is 80 if I recall, it deserves a little special). Or couldn't we turn this around and player thunderlords get to choose which breath they have on character creation? 
+</p>
+<p>
+Or we can stick with the NPC-player inconsistency. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport109?action=refresh&amp;arena=Page.py&amp;key=BugReport109.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:44:49)<br>
+<p><a href="./BugReport109?action=edit">EditText</a> of this page (last edited 2004-09-06 05:02:37 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:07:53 Jan 18, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:37 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 184.187
+  exclusion.robots: 0.916
+  CDXLines.iter: 31.5 (3)
+  LoadShardBlock: 143.883 (3)
+  esindex: 0.024
+  RedisCDXSource: 2.657
+  exclusion.robots.policy: 0.893
+  load_resource: 100.955
+  PetaboxLoader3.datanode: 180.616 (4)
+  PetaboxLoader3.resolve: 41.707
+-->

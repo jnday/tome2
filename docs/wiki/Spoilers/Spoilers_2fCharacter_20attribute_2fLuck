@@ -1,0 +1,475 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Character attribute/Luck - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=print">
+<link rel="Up" href="/Spoilers_2fCharacter_20attribute">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=fullsearch&amp;value=%2FLuck&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Character attribute/Luck</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fCharacter_20attribute">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fCharacter_20attribute_2fLuck">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fCharacter_20attribute_2fLuck?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fCharacter_20attribute_2fLuck?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fCharacter_20attribute_2fLuck?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fCharacter_20attribute_2fLuck?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fCharacter_20attribute_2fLuck?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fCharacter_20attribute_2fLuck">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em>"You've got to ask yourself one question: do I feel lucky? Well do ya punk?"</em> -- Clint Eastwood (Dirty Harry) <hr>
+ <ol>
+<li>
+<a href="#head-c9f57af9aeb1c8f9aab41d408caf7f5891239800">Starting luck</a></li>
+<li>
+<a href="#head-72e4c870309b0aaef61e80f369017539df2d6545">Descriptions</a></li>
+<li>
+<a href="#head-4eb6ed9f04a69c76d694fb5bc660bd16c3fd2144">Items affecting luck</a></li>
+<li>
+<a href="#head-d4826fcba04e3b45b6a526c45612ddf5793e3d27">What does it affect</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-c9f57af9aeb1c8f9aab41d408caf7f5891239800"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Starting luck</h2>
+<p>
+The starting luck is a random number between -5 and 5, modified depending on race and subrace. Most races start with no luck points. Those that start with luck are listed below from most luck to least luck. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Hobbit (+5) 
+</p>
+</li>
+    <li>
+<p>
+ Maia (+4) 
+</p>
+</li>
+    <li>
+<p>
+ Gnome, Dunadan, Thunderlord (+2) 
+</p>
+</li>
+    <li>
+<p>
+ Beorning (+1) 
+</p>
+</li>
+    <li>
+<p>
+ Half-Ogre, Dark Elf, Ent (-2) 
+</p>
+</li>
+    <li>
+<p>
+ Orc (-3) 
+</p>
+</li>
+    <li>
+<p>
+ Troll (-4) 
+</p>
+</li>
+    <li>
+<p>
+ Petty Dwarf, <a class="nonexistent" href="./DeathMold">DeathMold</a>, Yeek (-5) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Most subraces start with no luck points. Those that start with luck are listed below from most luck to least luck. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Barbarian (+1) 
+</p>
+</li>
+    <li>
+<p>
+ Spectre, Skeleton (-3) 
+</p>
+</li>
+    <li>
+<p>
+ Zombie (-4) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+So, a Hobbit has a starting luck between 0 and 10, a Beorning Barbarian starts with -3,...,7 luck points, while a Yeek Zombie starts with -14,...,-4 luck points. 
+</p>
+<h2 id="head-72e4c870309b0aaef61e80f369017539df2d6545"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Descriptions</h2>
+Drinking a potion of self-knowledge will tell you how lucky or unlucky your character is. 
+<div>
+<table>
+<tr>
+<td>
+ DESCRIPTION        </td>
+<td>
+ VALUE         </td>
+</tr>
+<tr>
+<td>
+ incredibly unlucky </td>
+<td>
+ less than -27 </td>
+</tr>
+<tr>
+<td>
+ extremely unlucky  </td>
+<td>
+ less than -18 </td>
+</tr>
+<tr>
+<td>
+ very unlucky       </td>
+<td>
+ less than -9  </td>
+</tr>
+<tr>
+<td>
+ unlucky            </td>
+<td>
+ less than 0   </td>
+</tr>
+<tr>
+<td>
+ normal luck        </td>
+<td>
+ 0             </td>
+</tr>
+<tr>
+<td>
+ lucky              </td>
+<td>
+ more than 0   </td>
+</tr>
+<tr>
+<td>
+ very lucky         </td>
+<td>
+ more than 9   </td>
+</tr>
+<tr>
+<td>
+ extremely lucky    </td>
+<td>
+ more than 18  </td>
+</tr>
+<tr>
+<td>
+ incredibly lucky   </td>
+<td>
+ more than 27  </td>
+</tr>
+</table>
+</div>
+<p>
+Luck &lt; -30 is treated as -30, and luck &gt; 30 is treated as +30. 
+</p>
+<h2 id="head-4eb6ed9f04a69c76d694fb5bc660bd16c3fd2144"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Items affecting luck</h2>
+Elven cloaks give a bonus to luck. <p>
+Only one type of ego item is lucky, or perhaps that should be unlucky: all Morgul items have -10 luck. 
+</p>
+<p>
+Artifacts can affect your luck. Beware: not all artifacts give you good luck. Listed below are the artifacts which affect your luck. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPhial_20of_20Galadriel"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Phial of Galadriel</a> (+4) 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fArkenstone_20of_20Thrain"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Arkenstone of Thrain</a> (+3) 
+</p>
+</li>
+    <li>
+<p>
+ The Ring of Power 'Narya' (+1) 
+</p>
+</li>
+    <li>
+<p>
+ The Ring of Power 'Nenya' (+2) 
+</p>
+</li>
+    <li>
+<p>
+ The Ring of Power 'Vilya' (+3) 
+</p>
+</li>
+    <li>
+<p>
+ The Metal Cap of Thengel (+3) 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fShadow_20Cloak_20of_20Luthien"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Shadow Cloak of Luthien</a> (+2) 
+</p>
+</li>
+    <li>
+<p>
+ The Set of Cesti of Fingolfin (+4) 
+</p>
+</li>
+    <li>
+<p>
+ The Long Sword 'Anduril' (+4) 
+</p>
+</li>
+    <li>
+<p>
+ The Long Bow of Bard (+2) 
+</p>
+</li>
+    <li>
+<p>
+ The Mage Staff of Eternity (+12) 
+</p>
+</li>
+    <li>
+<p>
+ The Harp of Maglor (+3) 
+</p>
+</li>
+    <li>
+<p>
+ The Drum of the Sky (+2) 
+</p>
+</li>
+    <li>
+<p>
+ The Harp of Daeron (+1) 
+</p>
+</li>
+    <li>
+<p>
+ The Long Sword of Eternity (+10) 
+</p>
+</li>
+    <li>
+<p>
+ The Robe of Great Luck (+60) 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fHeavy_20Crossbow_20of_20Eternity"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Heavy Crossbow of Eternity</a> (+5) 
+</p>
+</li>
+    <li>
+<p>
+ The Iron Helm of Knowledge (-6) 
+</p>
+</li>
+    <li>
+<p>
+ The Shield of Deflection of Gil-galad (+5) 
+</p>
+</li>
+    <li>
+<p>
+ The Set of Gauntlets of Eol (+3) 
+</p>
+</li>
+    <li>
+<p>
+ The Demonblade of Gothmog (-20) 
+</p>
+</li>
+    <li>
+<p>
+ The Long Sword 'Durandil' (+3) 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPhial_20of_20Undeath"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Phial of Undeath</a> (-5) 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Phasing"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Ring of Phasing</a> (+15) 
+</p>
+</li>
+    <li>
+<p>
+ The Blue Stone 'Toris Mejistos' (+2) 
+</p>
+</li>
+    <li>
+<p>
+ The Silver Bolt 'Stone-biter' (+3) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+In ToME 2.3.0 and 3.0.0 also 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ The Elven Cloak 'Mellyrn' (+4) 
+</p>
+</li>
+    <li>
+<p>
+ The Set of Cesti 'Skycleaver' (+1) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-d4826fcba04e3b45b6a526c45612ddf5793e3d27"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>What does it affect</h2>
+<p>
+It affects your chance to-hit in ranged combat and melee combat. 
+</p>
+<p>
+It affects your chance of critical hits in ranged combat and melee combat. 
+</p>
+<p>
+It affects your chance of being missed by a monster attack. This effectively changes armour class by -13 (incredibly unlucky) to +13 (incredibly lucky). 
+</p>
+<p>
+It affects the rarity of special objects, artifacts, and ego items. 
+</p>
+<p>
+It affects the number of wishes on a staff of wishing. 
+</p>
+<p>
+It affects the base level for applying magic to an item. 
+</p>
+<p>
+It affects the chance of an item being good or great. 
+</p>
+<p>
+It affects the chance of creating a special object. 
+</p>
+<p>
+It prevents the death fate if you are lucky. 
+</p>
+<p>
+It affects the number of skill points you receive when quaffing the <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPotion_20of_20Learning"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Potion of Learning</a>. 
+</p>
+<p>
+Written for ToME 2.0 by Chris Hadgis 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Chatter</h2>
+After verification, Hobbits are the only ones to never get death fates because their luck isn't negative (unless they wear something unlucky, or use an unlucky subclass). Hobbit Barbarians to guarantee positive luck are not allowed. <p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  Don't Vampires have negative luck too?  And another Question: When the demonset is completed, the pval of the blade goes to +7.  I *know* that the luck is still negative, but is it -7, or still -20?   It says -20 in the *ID* description, but it also decreases my speed, str and con by -20, which is +7. 
+</p>
+<p>
+<a href="./amaurea">amaurea</a>: The Demonblade of Gothmog gets +7 to speed, str and con, and stays at -20 to luck. This is a hack in tome2, but will be naturally supported in tome3. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Vampires had a -3 modifier to luck, but not in the actual versions of the game. The Demonblade of Gothmog bug is already known, see <a href="./BugReport13">BugReport13</a>. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fCharacter_20attribute_2fLuck?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fCharacter_20attribute_2fLuck.text_html">RefreshCache</a> for this page (cached 2004-09-29 17:16:30)<br>
+<p><a href="./Spoilers_2fCharacter_20attribute_2fLuck?action=edit">EditText</a> of this page (last edited 2004-09-29 17:16:29 by <span title="dialin-145-254-144-193.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:39:33 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:59:07 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 295.942
+  exclusion.robots: 0.091
+  exclusion.robots.policy: 0.084
+  RedisCDXSource: 15.804
+  esindex: 0.008
+  LoadShardBlock: 259.528 (3)
+  PetaboxLoader3.datanode: 185.57 (4)
+  CDXLines.iter: 18.168 (3)
+  load_resource: 148.412
+  PetaboxLoader3.resolve: 33.317
+-->

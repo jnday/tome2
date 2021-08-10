@@ -1,0 +1,410 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Floor inscriptions - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fFloor_20inscriptions?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fFloor_20inscriptions?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fFloor_20inscriptions?action=fullsearch&amp;value=%2FFloor+inscriptions&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Floor inscriptions</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fFloor_20inscriptions?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fFloor_20inscriptions">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fFloor_20inscriptions?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fFloor_20inscriptions?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fFloor_20inscriptions?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fFloor_20inscriptions?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fFloor_20inscriptions?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fFloor_20inscriptions?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fFloor_20inscriptions?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fFloor_20inscriptions?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fFloor_20inscriptions?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fFloor_20inscriptions">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top" <h2 id="head-65bd407cfd3ca2ac580016a32523939f18ffa2d1">Floor Inscriptions</h2>
+<ol>
+<li>
+<a href="#head-65bd407cfd3ca2ac580016a32523939f18ffa2d1">Floor Inscriptions</a></li>
+<ol>
+<li>
+<a href="#head-bad2b42f78c4a830779584a6d9343babfdd621f8">Light up the Room</a></li>
+<li>
+<a href="#head-9d019f59047a1dcde7f5ebef2fa813ff0d09b309">Darkness in Room</a></li>
+<li>
+<a href="#head-3749c8439c7a7ed11b7cd056ffe6087f7fe71155">Storm</a></li>
+<li>
+<a href="#head-0f8cc4f34d7f062324d03aa0aea031c22c11c1c9">Protection</a></li>
+<li>
+<a href="#head-dab1541d213c9e5e7173b0071774eff33e092ed9">Dwarven summoning</a></li>
+<li>
+<a href="#head-fe95bfd734c57a531d4434ad35f9466c94d92be3">Open Chasm</a></li>
+<li>
+<a href="#head-b695480e2ef5302ed48aead786b653408efaf450">Blast of Black Fire</a></li>
+</ol>
+
+<li>
+<a href="#head-8fb937b602b4f2ef21c7fab00ac15de3b3ba49ea">Discussion</a></li>
+</ol>
+
+ <p>
+It is possible to inscribe words on the floor in ToME. If you happen to be lucky and inscribe a spell formula from another language, the inscription will use the floor's mana to cast that spell when either you walk over it, a  monster walks over it, or both walk over it. Not all inscriptions are triggered by monsters, and not all can be triggered by the player. 
+</p>
+<p>
+In order to write an inscription in another language, you must first have found and read a parchment with some of that language's words upon it. So, just  copying the inscriptions here won't work unless you have read the words on a  parchment first. 
+</p>
+<h3 id="head-bad2b42f78c4a830779584a6d9343babfdd621f8">Light up the Room</h3>
+
+<div>
+<table>
+<tr>
+<td>
+ Inscription:      </td>
+<td>
+ 'ure nimir' (sun shine)      </td>
+</tr>
+<tr>
+<td>
+ Parchment:        </td>
+<td>
+ Numenorean for Beginners (I) </td>
+</tr>
+<tr>
+<td>
+ Triggered by:     </td>
+<td>
+ Player, Monster              </td>
+</tr>
+<tr>
+<td>
+ Grid Mana Needed: </td>
+<td>
+ 30                           </td>
+</tr>
+<tr>
+<td>
+ Effect:           </td>
+<td>
+ Lights up the current room   </td>
+</tr>
+</table>
+</div>
+<h3 id="head-9d019f59047a1dcde7f5ebef2fa813ff0d09b309">Darkness in Room</h3>
+
+<div>
+<table>
+<tr>
+<td>
+ Inscription:      </td>
+<td>
+ 'lomi gimli' (night stars)   </td>
+</tr>
+<tr>
+<td>
+ Parchment:        </td>
+<td>
+ Numenorean for Beginners (II)</td>
+</tr>
+<tr>
+<td>
+ Triggered by:     </td>
+<td>
+ Player, Monster              </td>
+</tr>
+<tr>
+<td>
+ Grid Mana Needed: </td>
+<td>
+ 10                           </td>
+</tr>
+<tr>
+<td>
+ Effect:           </td>
+<td>
+ Casts the room into darkness </td>
+</tr>
+</table>
+</div>
+<h3 id="head-3749c8439c7a7ed11b7cd056ffe6087f7fe71155">Storm</h3>
+
+<div>
+<table>
+<tr>
+<td>
+ Inscription:      </td>
+<td>
+ 'dulgi bawiba' (black winds)  </td>
+</tr>
+<tr>
+<td>
+ Parchment:        </td>
+<td>
+ Advanced Lessons of Numenorean</td>
+</tr>
+<tr>
+<td>
+ Triggered by:     </td>
+<td>
+ Player, Monster               </td>
+</tr>
+<tr>
+<td>
+ Grid Mana Needed: </td>
+<td>
+ 40                            </td>
+</tr>
+<tr>
+<td>
+ Effect:           </td>
+<td>
+ Electrical Ball of energy released around the inscription </td>
+</tr>
+</table>
+</div>
+<h3 id="head-0f8cc4f34d7f062324d03aa0aea031c22c11c1c9">Protection</h3>
+
+<div>
+<table>
+<tr>
+<td>
+ Inscription:      </td>
+<td>
+ 'pedo mellon a minno' (say friend and enter) </td>
+</tr>
+<tr>
+<td>
+ Parchment:        </td>
+<td>
+ Advanced Lessons of Sindarin  </td>
+</tr>
+<tr>
+<td>
+ Triggered by:     </td>
+<td>
+ Monster                       </td>
+</tr>
+<tr>
+<td>
+ Grid Mana Needed: </td>
+<td>
+ 8                             </td>
+</tr>
+<tr>
+<td>
+ Effect:           </td>
+<td>
+ Prevents a monster from stepping on the affected square </td>
+</tr>
+</table>
+</div>
+<h3 id="head-dab1541d213c9e5e7173b0071774eff33e092ed9">Dwarven summoning</h3>
+
+<div>
+<table>
+<tr>
+<td>
+ Inscription:      </td>
+<td>
+ 'Baruk Khazad! Khazad aimenu!' (Axes of the Dwarves, the Dwarves are upon you!) </td>
+</tr>
+<tr>
+<td>
+ Parchment:        </td>
+<td>
+ Khuzdul - The Hidden Tongue of the Dwarves </td>
+</tr>
+<tr>
+<td>
+ Triggered by:     </td>
+<td>
+ Player </td>
+</tr>
+<tr>
+<td>
+ Grid Mana Needed: </td>
+<td>
+ 100 </td>
+</tr>
+<tr>
+<td>
+ Effect:           </td>
+<td>
+ Generates friendly Dwarven Warriors to help your cause </td>
+</tr>
+</table>
+</div>
+<h3 id="head-fe95bfd734c57a531d4434ad35f9466c94d92be3">Open Chasm</h3>
+
+<div>
+<table>
+<tr>
+<td>
+ Inscription:      </td>
+<td>
+ 'dunna hrassa' (black precipice) </td>
+</tr>
+<tr>
+<td>
+ Parchment:        </td>
+<td>
+ Nandorin for Dummies </td>
+</tr>
+<tr>
+<td>
+ Triggered by:     </td>
+<td>
+ Monster </td>
+</tr>
+<tr>
+<td>
+ Grid Mana Needed: </td>
+<td>
+ 50 </td>
+</tr>
+<tr>
+<td>
+ Effect:           </td>
+<td>
+ Creates a bottomless hole in the floor that monsters (and potentially objects) fall down </td>
+</tr>
+</table>
+</div>
+<h3 id="head-b695480e2ef5302ed48aead786b653408efaf450">Blast of Black Fire</h3>
+
+<div>
+<table>
+<tr>
+<td>
+ Inscription:      </td>
+<td>
+ 'burz ghash ronk' (black fire pool) </td>
+</tr>
+<tr>
+<td>
+ Parchment:        </td>
+<td>
+ Advanced Lessons of Orcish </td>
+</tr>
+<tr>
+<td>
+ Triggered by:     </td>
+<td>
+ Player, Monster </td>
+</tr>
+<tr>
+<td>
+ Grid Mana Needed: </td>
+<td>
+ 60 </td>
+</tr>
+<tr>
+<td>
+ Effect:           </td>
+<td>
+ Releases a ball of Hellfire around the inscription </td>
+</tr>
+</table>
+</div>
+<h2 id="head-8fb937b602b4f2ef21c7fab00ac15de3b3ba49ea">Discussion</h2>
+<p>
+Johenius:  Is using floor inscriptions considered cheating? I've seen a few DitL'ers using them, but always considered it a bit scummy... 
+</p>
+<p>
+<strong>ZV</strong>:Why, no. They're not too powerful, it ain't very easy to get them, not every grid has enough mana to use them and it can be bothersome to type them (yeah, I know, macros). 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Remember also that using an inscription takes a lot of time (e.g. 3 rounds for a character with speed 0). 
+</p>
+<p>
+<strong><a href="./HarryErwin">HarryErwin</a></strong>: Is there any reason to keep the parchments? 
+</p>
+
+    <ul>
+
+ <a href="./VelKrov">VelKrov</a>: None. Just be sure to read them. 
+    </ul>
+
+
+<p>
+<a id="bottom" < p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fFloor_20inscriptions?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fFloor_20inscriptions.text_html">RefreshCache</a> for this page (cached 2005-11-04 20:26:58)<br>
+<p><a href="./Spoilers_2fFloor_20inscriptions?action=edit">EditText</a> of this page (last edited 2005-08-19 10:19:16 by <span title="170.252.160.1=poffw1001.accenture.com">poffw1001</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:27:29 Nov 05, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:44 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.174
+  exclusion.robots.policy: 0.162
+  captures_list: 115.12
+  PetaboxLoader3.resolve: 57.256 (2)
+  PetaboxLoader3.datanode: 94.889 (4)
+  LoadShardBlock: 79.515 (3)
+  esindex: 0.012
+  load_resource: 93.932
+  CDXLines.iter: 28.889 (3)
+  RedisCDXSource: 0.65
+-->

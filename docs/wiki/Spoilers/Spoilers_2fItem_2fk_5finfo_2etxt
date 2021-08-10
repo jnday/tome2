@@ -1,0 +1,308 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Item/k_info.txt - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=print">
+<link rel="Up" href="/Spoilers_2fItem">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=fullsearch&amp;value=%2Fk_info.txt&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Item/k_info.txt</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fItem">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fItem_2fk_5finfo_2etxt">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fItem_2fk_5finfo_2etxt">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-9aa2757dee2f394c7cb41bb3ea30865383fad03b">Format of the entries</h2>
+The format of the items in this file is always the same: 
+<pre>N: serial number : &amp; object name~
+G: symbol : colour
+I: tval : sval : pval [: pval2]
+W: depth : rarity : weight : cost
+P: base armor class : base damage : plus to-hit : plus to-dam : plus to-ac
+A: depth/rarity : depth/rarity : etc
+F: flag | flag | etc
+f: obvious flag | obvious flag | etc
+D: description
+</pre>the following additional lines can also be contained: 
+<pre>T: tval : sval
+Z: granted power
+a: activation
+</pre>
+    <dl>
+
+    <dt> N</dt><dd>
+<p>
+indicates the beginning of an entry. The serial number must increase for each new item. The '&amp;' and '~' symbols are used to include articles and pluralisation, respectively, as necessary to ensure grammatical correctness in object descriptions. 
+</p>
+</dd>
+    <dt> G</dt><dd>
+<p>
+is for graphics - symbol and colour. There are 15 colours, as follows: 
+</p>
+
+<div>
+<table>
+ <tr>
+<td>
+ D - Dark Gray   </td>
+<td>
+ w - White      </td>
+<td>
+ s - Gray        </td>
+<td>
+ o - Orange    </td>
+</tr>
+ <tr>
+<td>
+ r - Red         </td>
+<td>
+ g - Green      </td>
+<td>
+ b - Blue        </td>
+<td>
+ u - Brown     </td>
+</tr>
+ <tr>
+<td>
+ W - Light Gray  </td>
+<td>
+ v - Violet     </td>
+<td>
+ y - Yellow      </td>
+<td>
+ R - Light Red </td>
+</tr>
+ <tr>
+<td>
+ G - Light Green </td>
+<td>
+ B - Light Blue </td>
+<td>
+ U - Light Brown </td>
+<td>
+               </td>
+</tr>
+</table>
+</div>
+<p>
+ Another colour, "d", is used for "flavoured" items. 
+</p>
+<p>
+ Note that the default symbol and colour can be changed through the use of pref files, which is used e.g. for the graphic modes. 
+</p>
+</dd>
+    <dt> I</dt><dd>
+<p>
+is for basic information. The tval is for the type of item, the sval identifies the subtype and the pval indicates the amount of effect the item has, if applicable (e.g. the bonus to speed of a Ring of Speed). 
+</p>
+<p>
+ There can be an optional fourth value, pval2, used e.g. to store the fuel of a torch or the spell of a staff. In this last case you can use the format <tt>SPELL=Manathrust</tt> instead of the numeric spell index. 
+</p>
+<p>
+ Normally, the tval, sval pair should be unique for each item. The maximum usable value is 255, but flavoured items are limited to the number of available flavours: 
+</p>
+
+<div>
+<table>
+ <tr>
+<td>
+ tval                  </td>
+<td>
+ maximum number </td>
+</tr>
+ <tr>
+<td>
+                       </td>
+<td>
+ (sval 0 - number-1) </td>
+</tr>
+ <tr>
+<td>
+ TV_RING               </td>
+<td>
+ 62 </td>
+</tr>
+ <tr>
+<td>
+ TV_AMULET             </td>
+<td>
+ 34 </td>
+</tr>
+ <tr>
+<td>
+ TV_STAFF              </td>
+<td>
+ 35 </td>
+</tr>
+ <tr>
+<td>
+ TV_WAND, TV_ROD       </td>
+<td>
+ 39 </td>
+</tr>
+ <tr>
+<td>
+ TV_POTION, TV_POTION2 </td>
+<td>
+ 66 </td>
+</tr>
+ <tr>
+<td>
+ TV_SCROLL             </td>
+<td>
+ 55 </td>
+</tr>
+ <tr>
+<td>
+ TV_FOOD               </td>
+<td>
+ 32 (*)</td>
+</tr>
+</table>
+</div>
+<p>
+ (*) only the first 32 items with sval 0 - 31, the mushrooms, are flavoured. Other items are handled normally. 
+</p>
+<p>
+ Note also that there are some hard-coded interpretation of the sval of an item, e.g. the sval of a tome or music instrument is also the spell list defined in spells.lua. 
+</p>
+</dd>
+    <dt> W</dt><dd>
+<p>
+is for extra information. Depth is the depth the object is normally found at and defines what level the object is, rarity determines how common the object is (currently unused, thanks to the A: allocation lines), weight is in tenth-pounds and cost is the item's base value. 
+</p>
+</dd>
+    <dt> P</dt><dd>
+<p>
+is for power information. The items base armour class, its base damage in the form XdY and bonuses to-hit, to-dam and to-ac. 
+</p>
+</dd>
+    <dt> A</dt><dd>
+<p>
+is for allocation - depth and rarity, in pairs (the larger rarity the more rare the item is). This allows an item to have up to 4 natural depths and rarities. It is used to ensure that certain vital items such as food and identify scrolls are found throughout the dungeon. The "allocation" depth need not match the depth as specified in the W: line, it can be shallower or deeper. 
+</p>
+</dd>
+    <dt> F</dt><dd>
+<p>
+is for flags. These are fairly self-explanatory. As many F: lines may be used as are needed to specify all the flags and flags are separated by the '|' symbol. A list of all flags can be found in defines.h or in object.pkg (don't use the prefix TR#_). 
+</p>
+</dd>
+    <dt> f</dt><dd>
+<p>
+is used for obvious flags in the same manner, e.g. a two-handed weapon has the flag <tt>MUST2H</tt> both as a normal as well as an obvious flag. 
+</p>
+</dd>
+    <dt> D</dt><dd>
+<p>
+is for description. As many D: lines may be used as are needed to describe the object. 
+</p>
+</dd>
+    <dt> T</dt><dd>
+<p>
+is used only for <tt>NORM_ART</tt> artifacts (e.g. artifacts directly defined in k_info.txt). This line stores the tval and sval of the base object type of the artifact, i.e. only items of this type can be improved to this artifact during the item generation. 
+</p>
+</dd>
+    <dt> Z</dt><dd>
+<p>
+can be used to store the name of one granted power that can be used while wearing the item. A list of all 62 hard-coded power names can be found in tables.c, the code is in powers.c. Additional powers can be added in a Lua script by using add_power(). 
+</p>
+</dd>
+    <dt> a</dt><dd>
+<p>
+can be used to define the activation of an item. The <tt>ACTIVATE</tt> flag should be set, as well as the <tt>ACTIVATE_NO_WIELD</tt> flag if the item should be activated without wearing it. This line comes in two forms: <tt>a:HARDCORE=number</tt> or <tt>a:SPELL=spell</tt> for a hard-coded or Lua scripted activation, respectively. 
+</p>
+<p>
+ A list of all hard-coded activations can be found in defines.h (don't use the ACT_ prefix). A Lua activation is a normal spell with the additional field <tt>["activation"]</tt> that stores the recharge time of the activation (see e.g. scpt/s_stick.lua). 
+</p>
+</dd>
+</dl>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fItem_2fk_5finfo_2etxt.text_html">RefreshCache</a> for this page (cached 2005-11-05 03:29:04)<br>
+<p><a href="./Spoilers_2fItem_2fk_5finfo_2etxt?action=edit">EditText</a> of this page (last edited 2004-10-12 14:45:28 by <span title="dialin-145-254-144-143.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 01:30:09 Nov 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:00:42 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2459.004
+  exclusion.robots: 0.313
+  CDXLines.iter: 35.536 (3)
+  LoadShardBlock: 2273.138 (3)
+  esindex: 0.025
+  RedisCDXSource: 141.814
+  exclusion.robots.policy: 0.292
+  load_resource: 150.255
+  PetaboxLoader3.datanode: 2358.157 (4)
+  PetaboxLoader3.resolve: 41.976
+-->

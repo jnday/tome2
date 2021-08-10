@@ -1,0 +1,554 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Base Object types with ego properties - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=fullsearch&amp;value=%2FBase+Object+types+with+ego+properties&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Base Object types with ego properties</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Base object types with ego properties <p>
+<ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-21d278837034557e7a9b46210d42d6e7b8075142">Terminology</a></li>
+<li>
+<a href="#head-f32d0645a8333f8a2fde36f8bf8e7f5d041c3cdb">Weapons</a></li>
+<ol>
+<li>
+<a href="#head-ce3f44c0310cdcac9a2b874f60bdda88088ad185">Swords</a></li>
+<li>
+<a href="#head-fe711a0da33b4859e18ea633d65f0b4537798528">Hafted weapons</a></li>
+<li>
+<a href="#head-add8329d9620426865f5157440fc550b74d56675">Polearms</a></li>
+<li>
+<a href="#head-d75f36f88797a19683a1b68037a0b63ba522f4c3">Axes</a></li>
+<li>
+<a href="#head-8f5125e09a7e9e06f3a9b1374b97a29c835719ac">Missiles</a></li>
+</ol>
+
+<li>
+<a href="#head-fab9348c4fd97f1532546f4568509f4d87280769">Armour</a></li>
+<ol>
+<li>
+<a href="#head-5401ecf82370e72fb397ff7d446791f3703bf695">Dragon Scale Mails</a></li>
+</ol>
+
+<li>
+<a href="#head-43a05d5a45c42630158baadcc756a4dcaf80b28b">Light Sources</a></li>
+<li>
+<a href="#head-844d36a564b400787859c105eb0d3745ec3cedba">Musical Instruments</a></li>
+<li>
+<a href="#head-3c207b0fc8313b2e4f9fccb1cfab15cf16f28e2c">Demonic Equipment</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ 
+</p>
+<hr>
+ <h2 id="head-2473e96bc614a911821242119918a241a41836d6"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Introduction</h2>
+There are some items in the game which, although they are not ego items, share certain of their abilities. <p>
+These items can form the bases of ego items; as examples, Thunderlord Coats of Resist Acid, Polished Dragon Scale Mails of Immunity and Frozen Bluesteel Blades (*Defender*) spring to mind. 
+</p>
+<p>
+You can read a scroll of Artifact Creation on these items provided they have no ego prefixes or suffixes. 
+</p>
+<p>
+Please note:  
+</p>
+<p>
+These items are considered by the game to be normal objects, unless they have plusses (or minuses) or form ego items. Automatizer settings can destroy them if it is not configured correctly. (just as they can destroy anything else, but I feel it bears a special mention here). 
+</p>
+<h2 id="head-21d278837034557e7a9b46210d42d6e7b8075142"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Terminology</h2>
+<p>
+For ease of use, I have copied the relevant parts of the Terminology from <a href="./Spoilers_2fEgo_20Item">Spoilers/Ego Item</a>. 
+</p>
+<p>
+Vorpal effects 
+</p>
+
+    <ul>
+
+ "Your weapon cuts deep into &lt;the monster&gt;!" Doubles base weapon damage; with small probability, can do triple damage or higher.  
+    </ul>
+
+
+<p>
+Cause wounds 
+</p>
+
+    <ul>
+
+ "&lt;The monster&gt; is bleeding." The weapon can give a monster wounds; it will take extra damage from bleeding each turn until the wounds heal.  
+    </ul>
+
+
+<p>
+Vampiric (-N%) 
+</p>
+
+    <ul>
+
+ Drains life from your foes when you hit them. Reduces your hit points by N%. Provides resistance to life draining. 
+    </ul>
+
+
+<h2 id="head-f32d0645a8333f8a2fde36f8bf8e7f5d041c3cdb"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Weapons</h2>
+<h3 id="head-ce3f44c0310cdcac9a2b874f60bdda88088ad185"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Swords</h3>
+<p>
+Blades of Chaos (6d5) 
+</p>
+
+    <ul>
+
+ It provides resistance to chaos. Causes random chaotic effects. 
+    </ul>
+
+
+<p>
+Necromantic Teeth (1d4)  
+</p>
+
+    <ul>
+
+ Vampiric. Can only be made through the Necromancy skill power of the same name. 
+    </ul>
+
+
+<p>
+Dark Sword (3d7) 
+</p>
+
+    <ul>
+
+ Produces an antimagic field with strength (percentage chance of spell suppression within radius) from 10% to 50% and radius 1 to 11 depending on your skill level in the Antimagic skill. 
+    </ul>
+
+
+<p>
+Shadow Blade (4d4) (+N stealth) 
+</p>
+
+    <ul>
+
+ It provides resistance to darkness. Increases stealth by N. 
+    </ul>
+
+
+<p>
+Bluesteel Blade (1d6) 
+</p>
+
+    <ul>
+
+ Can cause vorpal effects. 
+    </ul>
+
+
+<h3 id="head-fe711a0da33b4859e18ea633d65f0b4537798528"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Hafted weapons</h3>
+<p>
+Maces of Disruption (5d8) 
+</p>
+
+    <ul>
+
+ Does extra damage against undead. 
+    </ul>
+
+
+<h3 id="head-add8329d9620426865f5157440fc550b74d56675"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Polearms</h3>
+<p>
+Scythes of Slicing (8d4) 
+</p>
+
+    <ul>
+
+ Can cause vorpal effects. Can cause wounds. 
+    </ul>
+
+
+<h3 id="head-d75f36f88797a19683a1b68037a0b63ba522f4c3"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Axes</h3>
+<p>
+Slaughter Axe (5d7) 
+</p>
+
+    <ul>
+
+ Extra damage against animals. 
+    </ul>
+
+
+<h3 id="head-8f5125e09a7e9e06f3a9b1374b97a29c835719ac"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Missiles</h3>
+<p>
+Silver Arrow (3d4) 
+</p>
+
+    <ul>
+
+ Extra damage against evil creatures. 
+    </ul>
+
+
+<p>
+Silver Bolt (3d5) 
+</p>
+
+    <ul>
+
+ Extra damage against evil creatures. 
+    </ul>
+
+
+<h2 id="head-fab9348c4fd97f1532546f4568509f4d87280769"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Armour</h2>
+<p>
+Elven Cloak [4] (+N to stealth) 
+</p>
+
+    <ul>
+
+ Increases stealth and luck by N. 
+    </ul>
+
+
+<p>
+Shadow Cloak [6] (+N to stealth) 
+</p>
+
+    <ul>
+
+ It provides resistance to darkness and light. Increases stealth by N. 
+    </ul>
+
+
+<p>
+Thunderlord Coat [9] 
+</p>
+
+    <ul>
+
+ It provides resistance to fire. It provides resistance to cold. 
+    </ul>
+
+
+<h3 id="head-5401ecf82370e72fb397ff7d446791f3703bf695"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Dragon Scale Mails</h3>
+<p>
+All dragon scale mails allow you to fly. 
+</p>
+<p>
+All breath effects described herein are radius 2 ball spells of the specified element with the stated base damage (in parentheses) at the centre, half damage in all squares in radius 1, and one third damage at radius 2. 
+</p>
+<p>
+Black Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to acid.  Can be activated for breathing acid (130) every 90+d90 turns. 
+    </ul>
+
+
+<p>
+Blue Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to lightning.  Can be activated for breathing lightning (100) every 90+d90 turns. 
+    </ul>
+
+
+<p>
+White Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to cold.  Can be activated for breathing cold (110) every 90+d90 turns. 
+    </ul>
+
+
+<p>
+Red Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to fire.  Can be activated for breathing fire (200) every 90+d90 turns. 
+    </ul>
+
+
+<p>
+Green Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to poison.  Can be activated for breathing poison gas (150) every 90+d90 turns. 
+    </ul>
+
+
+<p>
+Multi-Hued Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to acid, fire, cold and lightning.  Can be activated for breathing one of acid, cold, lightning or fire (250) every 60+d60 turns with equal probability. 
+    </ul>
+
+
+<p>
+Pseudo Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to light and darkness.  Can be activated for breathing one of light or darkness (200) every 60+d90 turns with equal probability. 
+    </ul>
+
+
+<p>
+Law Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to sound and shards.  Can be activated for breathing one of sound or shards (230) every 60+d90 turns with equal probability. 
+    </ul>
+
+
+<p>
+Bronze Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to confusion.  Can be activated for breathing confusion (120) every 90+d90 turns. 
+    </ul>
+
+
+<p>
+Gold Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to sound.  Can be activated for breathing sound (130) every 90+d90 turns. 
+    </ul>
+
+
+<p>
+Chaos Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to chaos and disenchantment.  Can be activated for breathing one of chaos or disenchantment (220) every 60+d90 turns with equal probability. 
+    </ul>
+
+
+<p>
+Balance Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to chaos, disenchantment, sound and shards.  Can be activated every 90+d90 turns for breathing one of chaos, disenchantment or (one of sound or shards - either is equally likely) with equal probability. Base damage is 130. 
+    </ul>
+
+
+<p>
+Power Dragon Scale Mail [30] 
+</p>
+
+    <ul>
+
+ It provides resistance to acid, fire, cold, lightning, poison, nether, nexus, chaos, light, darkness, shards, sound, disenchantment and confusion.  Can be activated for breathing the elements (magic missile) (300) every 60+d90 turns. 
+    </ul>
+
+
+<h2 id="head-43a05d5a45c42630158baadcc756a4dcaf80b28b"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Light Sources</h2>
+<p>
+Dwarven Lantern 
+</p>
+
+    <ul>
+
+ Provides radius-2 light. Does not require fuel. 
+    </ul>
+
+
+<p>
+Feanorian Lamp 
+</p>
+
+    <ul>
+
+ Provides radius-3 light. Does not require fuel. 
+    </ul>
+
+
+<h2 id="head-844d36a564b400787859c105eb0d3745ec3cedba"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Musical Instruments</h2>
+<p>
+Horn (+N) 
+</p>
+
+    <ul>
+
+ Increases constitution by N. 
+    </ul>
+
+
+<p>
+Drum (+N) 
+</p>
+
+    <ul>
+
+ Increases strength by N. 
+    </ul>
+
+
+<p>
+Harp (+N) 
+</p>
+
+    <ul>
+
+ Increases charisma by N. 
+    </ul>
+
+
+<h2 id="head-3c207b0fc8313b2e4f9fccb1cfab15cf16f28e2c"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Demonic Equipment</h2>
+<p>
+Demonblade (4d6) 
+</p>
+
+    <ul>
+
+ Extra damage against demons. 
+    </ul>
+
+
+<p>
+Demonshield [5] 
+</p>
+
+    <ul>
+
+ Increases regenerative powers. 
+    </ul>
+
+
+<p>
+Demonhorn [2] 
+</p>
+
+    <ul>
+
+ Provides radius-2 light. 
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Chatter</h2>
+<strong><a href="./TimmyBravo">TimmyBravo</a></strong> Should I be putting rings and amulets here? <p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong> Nope, not on this same page.  Take a look at <a href="./Spoilers_2fItem">Spoilers/Item</a>s, actually this page should be the subpage of that one, and there should be a separate subpage then for amulets and rings. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fBase_20Object_20types_20with_20ego_20properties.text_html">RefreshCache</a> for this page (cached 2005-11-24 17:50:32)<br>
+<p><a href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties?action=edit">EditText</a> of this page (last edited 2005-11-24 17:50:32 by <span title="sentinel1.wheaton.edu"><a href="./FeathinSilyar">FeathinSilyar</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:26:49 Dec 26, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:33 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  CDXLines.iter: 20.249 (3)
+  exclusion.robots.policy: 0.181
+  LoadShardBlock: 243.747 (3)
+  PetaboxLoader3.datanode: 276.711 (4)
+  load_resource: 125.045
+  esindex: 0.01
+  captures_list: 268.453
+  PetaboxLoader3.resolve: 30.862
+  exclusion.robots: 0.191
+  RedisCDXSource: 0.636
+-->

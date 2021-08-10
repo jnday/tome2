@@ -1,0 +1,1741 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+
+
+<script type="text/javascript">
+  __wm.wombat("http://www.killerbunnies.org:80/angband/spell-230.html","20051106021600","http://web.archive.org/","web","/_static/",
+	      "1131243360");
+</script>
+
+<style type="text/css">
+BODY { color: black; background: white; }
+DT { font-weight: bold; margin-top: 1em; margin-bottom: 1em; }
+DT.school { font-size: 110%; }
+</style>
+<title>The (Not Yet) Comprehensive ToME 2.3.x Spell Spoiler</title>
+</head>
+<body>
+<h1>The (Not Yet) Comprehensive ToME 2.3.x Spell Spoiler</h1>
+<p><i><small>[Last modified 2005-11-05.  See
+<a href="#changelog">below</a> for recent changes.]</small></i>
+<p>
+This spoiler attempts to describe quantitatively the effects of all
+player-castable spells in the 2.3.0 thru 2.3.2 release versions of ToME.
+It is an outgrowth of my <a href="skill-230.html">ToME skill spoiler</a>;
+trying to include all this information in the skill spoiler just made it
+too verbose, so I broke it out into this new spoiler.
+<p>
+<i>[<strong>NOTE:</strong>  This version is (intended to be) correct for
+ToME v2.3.0 thru v2.3.2.  For versions 2.2.0 thru 2.2.7 of ToME, see
+<a href="spell-220.html">the 2.2.x version</a> of this spoiler.</i>
+<p>
+<i>[<strong>FURTHER NOTE:</strong>  The changes in this version relative to
+the 2.2.x version are still considered preliminary; I've only examined the
+source code for these versions, not actually played any characters in
+them yet.]</i>
+<h2>Table of contents</h2>
+<p> <i><a href="#notation">[skip table of contents]</a></i>
+<ul>
+<li> <a href="#notation">Terminology and notation</a>
+<li> <a href="#effects">Spell effects</a>
+<li> <a href="#schools">School spells</a>
+  <ul>
+  <li> <a href="#mana">Mana</a>
+  <li> <a href="#geomancy">Geomancy</a>
+  <li> <a href="#fire">Fire</a>
+  <li> <a href="#water">Water</a>
+  <li> <a href="#air">Air</a>
+  <li> <a href="#earth">Earth</a>
+  <li> <a href="#meta">Meta</a>
+  <li> <a href="#conveyance">Conveyance</a>
+  <li> <a href="#divination">Divination</a>
+  <li> <a href="#temporal">Temporal</a>
+  <li> <a href="#mind">Mind</a>
+  <li> <a href="#nature">Nature</a>
+  <li> <a href="#udun">Udun</a>
+  <li> <a href="#demonology">Demonology</a>
+  <li> <a href="#music">Music</a>
+  </ul>
+<li> <a href="#godspell">God spells</a>
+  <ul>
+  <li> <a href="#eru">Eru Iluvatar</a>
+  <li> <a href="#manwe">Manwe Sulimo</a>
+  <li> <a href="#tulkas">Tulkas</a>
+  <li> <a href="#melkor">Melkor Bauglir</a>
+  <li> <a href="#yavanna">Yavanna Kementari</a>
+  </ul>
+<li> <a href="#misc_effects">Miscellaneous spell effects</a>
+  <ul>
+  <li> <a href="#super">Blessing, heroism, super-heroism</a>
+  <li> <a href="#ccs">Charming, confusion, stunning, slowing</a>
+  <li> <a href="#invis">Invisibility</a>
+  <li> <a href="#mlevel">Leveled monsters</a>
+  </ul>
+<li> <a href="#statadj">Stat-based adjustments</a>
+<li> <a href="#changelog">Changelog and credits</a>
+</ul>
+<h2><a name="notation">Terminology and notation</a></h2>
+<p>
+<a name="effect">The primary determiner</a> of a spell's effect is the
+spell's <i>spell effect level</i>, denoted&nbsp;E; E&nbsp;is computed as
+your skill level in the spell's school minus the level of the spell, plus
+one, plus any bonuses conferred by your equipment or (depending on the
+spell school) your <a href="#spellpower">Spell-power skill</a>.  This level
+is the number displayed in the "Level" column when browsing spellbooks.
+For most purposes, E&nbsp;is rounded down to the nearest integer; where
+necessary, we will use&nbsp;Eu to denote the unrounded value.
+<p>
+We also define a "scaled" spell effect level (E@N), defined as
+(Eu&times;N)/50, rounded down to the nearest integer.  As a further
+refinement, we define (E@N:M) to be the larger of (E@N) and&nbsp;M.
+<p>
+Further notation:
+<ul>
+<li> A&times;B denotes multiplication; for instance 5&times;6 evaluates
+to&nbsp;30.
+<li> NdM is the standard "dice" notation; for instance, 3d6 denotes the sum
+of three independent uniformly distributed random integers from&nbsp;1
+to&nbsp;6, or three six-sided dice.  For more complicated forms, we will
+use parentheses, as in (A&times;B)d(C+D/2).
+</ul>
+<h2><a name="effects">Spell effects</a></h2>
+<p>
+Some spell effects will require some additional description, both of their
+effects and of how they will be denoted in spell descriptions.  All effect
+durations are specified as multiples of 10&nbsp;game turns (equivalent to
+one player turn at normal speed).
+<ul>
+<li>
+A <i>targeted effect</i> denotes a bolt, beam or ball effect that can be
+targeted at a particular square with the targeting command '<tt>*</tt>', or
+can be cast in one of the eight cardinal directions and will affect the
+first monster hit (except for beams, which will continue through).  For
+ball effects, the targeted or affected location will be the center of the
+ball.
+<li>
+A <a name="ball"><i>ball effect</i></a> will be described with a radius and
+a base damage.  It does the base damage at the center of the ball, half
+damage at squares of distance&nbsp;1 from the center, one-third damage at
+squares of distance&nbsp;2 from the center, and so on up to the specified
+radius.
+<li>
+A <a name="cloud"><i>cloud effect</i></a> will be described with a radius,
+a base damage and a duration.  Initially, a <a href="#ball">ball effect</a>
+is performed with the specified radius and base damage; every 10&nbsp;game
+turns after that for the specified duration, full base damage is done at
+each square affected by the initial ball effect, if it is currently in the
+player's line of sight.  [The line-of-sight requirement is intended to
+prevent a tactic considered cheesy by the game designers:  step briefly
+into line of sight of a bunch of dangerous monsters, cast a cloud-effect
+spell, then duck back out of line of sight and wait safely while the cloud
+effect kills off the monsters.]
+<li>
+A <a name="wave"><i>wave effect</i></a> will be described with an initial
+radius, a base damage and a duration.  Initially, a <a href="#ball">ball
+effect</a> is performed with the initial radius and specified base damage,
+and the initial radius is stored as a variable&nbsp;R; every 10&nbsp;game
+turns after that for the specified duration, all squares in line of sight
+of the player that are of distance&nbsp;R or&nbsp;R+1 from the original
+center of the effect take full base damage, and R&nbsp;is incremented
+by&nbsp;1.  The wave effect has some variants:
+  <ul>
+  <li>
+  In a <i>persistent wave effect</i>, all squares within radius&nbsp;R+1 of
+  the original center take damage every 10&nbsp;game turns.
+  <li>
+  In a <i>directed wave effect</i>, only one "quadrant" of the wave takes
+  damage, centered around one of the eight cardinal direction; for
+  instance, if the wave is directed northeast, only squares between due
+  north and due east of the original center take damage.
+  </ul>
+<li>
+A <a name="storm"><i>storm effect</i></a> will be described with a radius,
+a base damage, and a duration.  Initially, a <a href="#ball">ball
+effect</a> is performed with the specified radius and base damage; every
+10&nbsp;game turns after that for the specified duration, every square in
+the player's line of sight at the specified distance from the player's
+current position takes the specified base damage.
+<li>
+A <a name="wall"><i>wall effect</i></a> will be described with a duration
+and a damage.  Initially, a beam effect is performed with the specified
+damage; every 10&nbsp;game turns after that for the specified duration, the
+specified damage is done at each square affected by the initial beam
+effect, if it is currently in the player's line of sight.
+<li>
+A <a name="shield"><i>shield effect</i></a> will be described with a
+duration, an optional damage, and an optional armor class change.  For the
+duration of the spell, the player's armor class will be increased by the
+specified amount, if any, and any monster that hits the player in melee
+will receive the specified damage, if any.
+<li>
+A <a name="projection"><i>projection effect</i></a> will be specified with
+a duration, a radius, and a base damage.  For the duration of the spell,
+every time the player hits a monster with a weapon, a <a href="#ball">ball
+effect</a> will be performed centered on the monster, with the specified
+radius and base damage.  Barehand-combat and bearform-combat attacks do not
+trigger projection effects.
+</ul>
+<h2><a name="schools">School spells</a></h2>
+<p>
+Spell schools can have the following annotations:
+<ul>
+<li>
+<a name="sorcery">Spells in schools marked "SO"</a> can be cast with
+Sorcery skill; the minimum required skill level and spell effect level are
+computed using the larger of your school skill and your Sorcery skill.
+<li>
+<a name="spellpower">Spells in schools marked "SP"</a> receive a bonus to
+spell effect level of (Sp&times;20)/50, rounded down to the nearest
+integer, where Sp&nbsp;is your unrounded skill level in Spell-power.  For
+multi-school spells, all schools must be so marked to receive the bonus.
+<li>
+<a name="prayer">Spells in schools marked</a> "&lt;<i>god-name</i>&gt;@M/N"
+can be cast with Prayer skill if you worship the specified god; the minimum
+required skill level and spell effect level are computed using the larger
+of your school skill, the Sorcery skill (if so marked), and (Pr&times;M)/N
+rounded down to the nearest integer, where Pr is your unrounded skill level
+in Prayer.
+</ul>
+<p>
+Spells are listed as "Spell Name (level A, mana B:C, fail D%)".  A&nbsp;is
+the spell's level; your skill level in the school's skill (or Sorcery or
+Prayer, as noted above) must be at least this high to cast the spell.
+B&nbsp;and&nbsp;C denote a varying mana cost scaled by spell effect level;
+the mana cost at spell effect level&nbsp;E is B+(E@(C-B)).  C&nbsp;will be
+omitted if it is equal to&nbsp;B, in which case the spell has constant mana
+cost.  D&nbsp;is the spell's base failure probability; this probability is
+reduced by 3&times;(E-1)&nbsp;percent, and by 3&times;(F-1)&nbsp;percent,
+where F&nbsp;is an adjustment amount based on the school's spell stat
+(usually INT), as listed <a href="#statadj">below</a>.  The minimum fail
+rate is also determined by the spell stat.
+<p>
+Some spells are multi-school; this will be noted in the spell annotation
+described above as "School1+School2".  For multi-school spells, the minimum
+required skill level and spell effect level are computed based on the
+average of your skill levels in the coresponding school skills
+(substituting Sorcery or Prayer where appropriate, as described above).
+<p>
+Some spells will have the additional annotation "IC M;N"; this is used with
+the <a href="#inertiacontrol">Inertia Control</a> spell, and is explained
+therein.
+<p>
+<a name="sticks">Some spells</a> are available via wands and staffs, as a
+Wand/Staff of &lt;<i>spell-name</i>&gt;[M|N].  As detailed in the
+Magic-Device section of <a href="skill-230.html#device">the skill
+spoiler</a>, using such a wand or staff is equivalent to casting the spell
+at spell effect level E=S+M-L+1, with a minimum of&nbsp;0 and a maximum
+of&nbsp;N, where L&nbsp;is the spell's level and S&nbsp;is your skill level
+in Magic-Device rounded down to the nearest integer; this is the number
+displayed as "Spell level" in the description of the wand/staff via the
+'<tt>I</tt>'nspect command.  Spells that are available via wands or staffs
+will have the annotation "[M1-M2|N1-N2]", where&nbsp;M1 and&nbsp;M2 are the
+minimum and maximum allowed values of&nbsp;M for the spell, and similarly
+for&nbsp;N1 and&nbsp;N2.
+<p>
+As with effect durations, all spell durations are specified as multiples of
+10&nbsp;game turns.
+<dl>
+<dt class="school"><a name="mana">Mana (SO,SP,Eru Iluvatar@1/2)</a></dt>
+<dd>
+  <dl>
+  <dt>Manathrust (level 1, mana 1:25, fail 10%, [1-20|15-33])</dt>
+  <dd>
+  <p>
+Casts a targeted bolt of mana with damage (3+E)d(1+(E@20:1)).
+  </dd>
+  <dt>Remove Curses (level 10, mana 20:40, fail 30%, IC 1;10, [1-5|15-50])</dt>
+  <dd>
+  <p>
+Uncurses all carried items.  If&nbsp;E&ge;20, also removes heavy curses, as
+per a Scroll of *Remove Curse*.
+  </dd>
+  <dt>Elemental Shield (level 20, mana 17:20, fail 40%, IC 2;25)</dt>
+  <dd>
+  <p>
+Confers temporary resistance to fire, cold, lightning and acid, each with a
+separate duration of 15+E+1d10.
+  </dd>
+  <dt>Disruption Shield (level 45, mana 50, fail 90%, IC 9;10)</dt>
+  <dd>
+  <p>
+If&nbsp;E&ge;5, the player will be near-invulnerable for the duration of
+the spell, taking no damage from any attack or damaging effect with
+probability 12&nbsp;in&nbsp;13.  If&nbsp;E&lt;5, for the duration of the
+spell any damage taken by the player will lower mana instead of hit points
+if the player has nonzero mana.  The duration of the spell is
+3+(E@10:1)+1d5; the spell also terminates immediately if the player attacks
+any monster, throws anything, casts any spell, or activates any
+skill-based, racial or ability-based power.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="geomancy">Geomancy (SP)</a></dt>
+<dd>
+<p>
+Note that in addition to the usual skill level requirements for casting
+Geomancy spells, you must also have a skill level of at least&nbsp;1 in the
+Fire, Air, Earth and Water skills, and you must be wielding a Mage Staff.
+Some Geomancy spells have a higher minimum skill level in one of the
+subskills of Geomancy; this will be noted in the spell annotation as
+"&lt;<i>skill-name</i>&gt;:N".
+<p>
+The effects of many Geomancy spells depend on your skill level in the
+subskills of Geomancy.  We define a "scaled" skill level
+(&lt;<i>skill-name</i>&gt;@N), analogous to the scaled spell effect level
+notation, defined as (S&times;N)/50, rounded down to the nearest integer,
+where S&nbsp;is your unrounded skill level in the named skill.  For
+notational convenience, the notation (&lt;<i>skill-name</i>&gt;@50), which
+works out to your skill level in the named skill rounded down to the
+nearest integer, will be shortedned to (&lt;<i>skill-name</i>&gt;).
+<p>
+Some Geomancy effects are common to multiple spells:
+<ul>
+<li> A <a name="floorchange"><i>floor-change effect</i></a> changes an
+affected square to a random floor type (hence the name).  The possible
+floor types depend on your skill level in the subskills of Geomancy:
+  <ul>
+  <li> Sand, if (Fire)&ge;1.
+  <li> Shallow lava, if (Fire)&ge;8.
+  <li> Deep lava, if (Fire)&gt;18.
+  <li> Shallow water, if (Water)&ge;1.
+  <li> Deep water, if (Water)&ge;8.
+  <li> Ice, if (Water)&ge;18.
+  <li> Grass, if (Earth)&ge;1.
+  <li> Grass with flowers, if (Earth)&ge;8.
+  <li> Dark pit, if (Earth)&ge;18.
+  </ul>
+<p>
+The resulting floor type is chosen as follows:  First, one of the above
+possibilities is chosen, with equal probability.  If the skill level check
+succeeds and a probability check of 2&times;S&nbsp;percent succeeds (where
+S&nbsp;is your unrounded skill level in the corresponding skill), then that
+floor type is used; otherwise, another floor type is chosen in the same
+fashion until both checks succeed.
+<li> A <a name="wallchange"><i>wall-change effect</i></a> changes an
+affected square to a random wall type (hence the name).  The possible wall
+types depend on your skill level in the subskills of Geomancy:
+  <ul>
+  <li> Sandwall, if (Fire)&ge;1.
+  <li> Trees, if (Water)&ge;1.
+  <li> Ice wall, if (Water)&ge;12.
+  <li> Granite wall, if (Earth)&ge;1.
+  </ul>
+<p>
+The resulting wall type is chosen in the same manner as for the
+floor-change effect above.
+</ul>
+  <dl>
+  <dt>Call the Elements (level 1, mana 2:10, fail 10%)</dt>
+  <dd>
+  <p>
+Fires a <a href="#ball">ball effect</a> of radius&nbsp;1+(E@5);
+if&nbsp;E&ge;17, the ball can be targeted, otherwise it is centered on the
+player.  A <a href="#floorchange">floor-change effect</a> is applied to all
+floor squares in the affected area.  Can be cast while blind.
+  </dd>
+  <dt>Channel Elements (level 3, mana 3:30, fail 20%)</dt>
+  <dd>
+  <p>
+The effect of the spell depends on the terrain type at the player's location:
+  <ul>
+  <li> Grass:  Heals 5+(Earth@20)&nbsp;percent of the player's hit points.
+  <li> Grass with flowers:  Heals 5+(Earth@30)&nbsp;percent of the player's
+  hit points.
+  <li> Dark pit:  Fires a targeted bolt doing damage 10d(Earth).  The
+  damage is of type nether if&nbsp;(Earth)&ge;18, dark otherwise.
+  <li> Shallow water:  Fires a targeted bolt (if&nbsp;(Water)&lt;8) or beam
+  (if&nbsp;(Water)&ge;8) doing damage 3d(Water).  The damage is of type
+  water if&nbsp;(Water)&lt;18, otherwise it is of type "wave" (the target
+  takes water damage and is pushed away from the player).
+  <li> Deep water:  Same as shallow water, except that damage done is
+  5d(Water).
+  <li> Ice:  If&nbsp;(Water)&ge;12, fires a targeted
+  <a href="#ball">ball</a> of ice with radius&nbsp;3 and base damage
+  (Water@340); otherwise, fires a targeted bolt of ice doing damage
+  3d(Water).
+  <li> Sand:  Casts a <a href="#shield">shield effect</a> with duration
+  E+1d20+(Air) and damage (5+(Fire@20))d(5+(Fire@14)).  The damage type
+  depends on your spell effect level for the Fire spell Fiery Shield
+  (denoted here Ef): unresistable if&nbsp;Ef&ge;15, fire if&nbsp;Ef&lt;15.
+  Also inflicts blindness for the same duration.
+  <li> Shallow lava:  Fires a targeted bolt doing damage (Fire@30)d15.  The
+  damage is hellfire if&nbsp;(Fire)&ge;15, fire otherwise.
+  <li> Deep lava:  fires a targeted <a href="#ball">ball effect</a> with
+  radius&nbsp;3 and base damage (Fire@30)d15.  THe damage is hellfire
+  if&nbsp;(Fire)&ge;15, fire otherwise.
+  <li> No effect for other floor types.
+  </ul>
+  <p>
+The player's square is converted to type floor (or to grass if it was
+originally grass with flowers).  Can be cast while blind.
+  </dd>
+  <dt>Vaporize (level 4, Air:4, mana 3:30, fail 15%)</dt>
+  <dd>
+  <p>
+Casts a <a href="#cloud">cloud effect</a> centered on the player with
+radius&nbsp;1+(E@4:1) and duration 10+(E@20:1).  The damage type and base
+damage depend on the terrain type at the player's location:
+  <ul>
+  <li> Grass:  Damage type poison, base damage 5+(Earth@100).
+  <li> Grass with flowers:  Damage type poison, base damage 5+(Earth@150).
+  <li> Dark pit:  Damage type dark, base damage 5+(Earth@200).
+  <li> Shallow water:  Damage type water, base damage 5+(Water@100).
+  <li> Deep water:  Damage type water, base damage 5+(Water@150).
+  <li> Ice:  Damage type water, base damage 5+(Water@100).
+  <li> Sand:  Damage type light, base damage 5+(Fire@200).
+  <li> Shallow lava:  Damage type fire (holy fire if&nbsp;E&ge;20), base
+  damage 5+(Fire@100).
+  <li> Deep lava:  Damage type fire (holy fire if&nbsp;E&ge;20), base
+  damage 5+(Fire@150).
+  <li> No effect for other floor types.
+  </ul>
+  <p>
+The terrain at the player's location is converted to type floor.  Can be
+cast while blind.
+  </dd>
+  <dt>Geolysis (level 7, Earth:7, mana 15:40, fail 15%)</dt>
+  <dd>
+  <p>
+Tunnels in the specified direction for distance 5+(E@12:1), starting at the
+player's location and stopping if a non-tunnelable wall square is hit.  A
+<a href="#floorchange">floor-change effect</a> is applied at each square
+along the tunneling path; a <a href="#wallchange">wall-change effect</a> is
+applied to all tunnelable wall squares adjacent to the tunneling path.  At
+each square along the tunneling path, there is a 20% chance of a branch
+forming; the branch will be one&nbsp;third the length of the original
+tunneling path and angled 45&nbsp;degrees off the original path (equal
+probability for either side), and is otherwise generated in the same manner
+as the original path, including the possibility of further sub-branches.
+Can be cast while blind.
+  </dd>
+  <dt>Dripping Tread (level 10, Water:10, mana 15:25, fail 15%)</dt>
+  <dd>
+  <p>
+Each time the player moves, a <a href="#floorchange">floor-change effect</a>
+is applied to the square the player just left.  Last for 10+E+1d15 moves.
+Can be canceled by re-casting the spell while it is in effect.  Can be cast
+while blind.
+  </dd>
+  <dt>Grow Barrier (level 15, Earth:12, mana 15:50, fail 20%)</dt>
+  <dd>
+  <p>
+Casts a <a href="#ball">ball effect</a> of radius&nbsp;1; the ball is
+targeted if&nbsp;E&ge;20, otherwise it is centered on the player.  A
+<a href="#wallchange">wall-change effect</a> is applied at each affected
+square (except the player's location).  Can be cast while blind.
+  </dd>
+  <dt>Elemental Wave (level 15, mana 15:50, fail 20%)</dt>
+  <dd>
+  <p>
+Casts a directed persistent <a href="#wave">wave effect</a> centered on the
+player with initial radius&nbsp;zero and duration 6+(E@20:1).  The base
+damage and damage type depend on the floor type adjacent to the player in
+the selected direction:
+  <ul>
+  <li> Grass:  Damage type poison, base damage 10+(Earth@200).
+  <li> Grass with flowers:  Damage type poison, base damage 10+(Earth@300).
+  <li> Shallow water:  Damage type water, base damage 10+(Water@200).
+  <li> Deep water:  Damage type water, base damage 10+(Water@300).
+  <li> Ice:  Damage type water, base damage 10+(Water@200).
+  <li> Sand:  Damage type light, base damage 10+(Fire@400).
+  <li> Shallow lava:  Damage type fire (holy fire if&nbsp;E&ge;20), base
+  damage 10+(Fire@200).
+  <li> Deep lava:  Damage type fire (holy fire if&nbsp;E&ge;20), base
+  damage 10+(Fire@300).
+  <li> No effect for other floor types.
+  </ul>
+  <p>
+The adjacent square in the selected direction is converted to type floor.
+Can be cast while blind.
+  </dd>
+  <dt>Elemental Minion (level 20, mana 40:80, fail 40%)</dt>
+  <dd>
+  <p>
+Summons a friendly monster from an adjacent square.  The type of monster
+summoned is randomly selected from a set of monster types depending on the
+terrain type and your skill level:
+  <ul>
+  <li> Granite wall, magma, quartz:  Earth elemental, Xorn
+  (if&nbsp;(Earth@3)&ge;2), Xaren (if&nbsp;(Earth@3)=3).
+  <li> Dark pit:  Air elemental, Ancient blue dragon
+  (if&nbsp;(Air@4)&ge;2), Great Storm Wyrm (if&nbsp;(Air@4)&ge;3), Sky
+  Drake (if&nbsp;(Air@4)=4).
+  <li> Sandwall, shallow lava, deep lava:  Fire elemental, Ancient red
+  dragon (if&nbsp;(Fire@2)=2).
+  <li> Ice wall, shallow water, deep water:  Water elemental, Water troll
+  (if&nbsp;(Water@3)&ge;2), Water demon (if&nbsp;(Water@3)=3).
+  </ul>
+  <p>
+The monster is leveled to monster level 10+(E@120:1) (see notes on monster
+leveling <a href="#mlevel">below</a>).  The selected adjacent square is
+converted to type floor.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="fire">Fire (SO,SP)</a></dt>
+<dd>
+  <dl>
+  <dt>Globe of Light (level 1, mana 2:15, fail 10%, IC 1;40, [1-15|10-45])</dt>
+  <dd>
+  <p>
+Lights the room if player is in a room.  If&nbsp;E&ge;3, additionally
+casts a <a href="#ball">ball</a> of "weak" light (only affects
+light-sensitive monsters) centered on the player with radius&nbsp;4 and
+base damage&nbsp;10.  If&nbsp;E&ge;15, additionally casts a second ball of
+"strong" light (as breathed by Light hounds, for instance) centered on the
+player with radius&nbsp;5+(E@6:1) and base damage 10+(E@100:1).
+  </dd>
+  <dt>Fire Golem (Fire+Mind, level 7, mana 16:70, fail 40%)</dt>
+  <dd>
+  <p>
+Creates a Fire golem monster (hence the name) under control of the player.
+Requires a torch or brass lantern, which will be used up in the casting
+process.  The golem will be leveled to monster level 7+(E@70:1) (see notes
+on monster leveling <a href="#mlevel">below</a>).
+  <dt>Fireflash (level 10, mana 5:70, fail 35%, [1-15|15-35])</dt>
+  <dd>
+  <p>
+Casts a targeted <a href="#ball">ball</a> with radius&nbsp;2+(E@5:1) and
+base damage 20+(E@500:1).  If&nbsp;E&ge;20, the ball does holy fire damage;
+otherwise, it does fire damage.
+  </dd>
+  <dt>Fiery Shield (level 20, mana 20:60, fail 50%, IC 2;15, [1-10|5-40])</dt>
+  <dd>
+  <p>
+Casts a <a href="#shield">shield effect</a> with duration 10+(E@70:1)+1d20,
+damage (5+(E@15:1))d(5+(E@7:1)), and +10 armor class.  The damage will be
+unresistable if&nbsp;E&ge;8; otherwise it will be fire damage.
+  </dd>
+  <dt>Firewall (level 25, mana 20:100, fail 40%, [1-10|5-40])</dt>
+  <dd>
+  <p>
+Casts a <a href="#wall">wall effect</a> with duration 10+(E@14:1) and
+damage 40+(E@150:1).  The damage is hellfire if&nbsp;E&ge;6, fire
+otherwise.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="water">Water (SO,SP,Yavanna Kementari@1/2)</a></dt>
+<dd>
+  <dl>
+  <dt>Geyser (level 1, mana 1:35, fail 5%)</dt>
+  <dd>
+  <p>
+Fires a targeted bolt or beam doing (E@10:1)d(3+(E@35:1)) water damage.
+The spell will beam with probability 2&times;(E@85:1)&nbsp;percent.
+  </dd>
+  <dt>Vapor (level 2, mana 2:12, fail 20%, IC 1;30)</dt>
+  <dd>
+  <p>
+Casts a <a href="#cloud">cloud</a> of water centered on the player with
+radius&nbsp;3+(E@9), damage 3+(E@20:1), and duration&nbsp;5.
+  </dd>
+  <dt>Ent's Potion (level 6, mana 7:15, fail 35%, IC 1;30)</dt>
+  <dd>
+  <p>
+Increases your food level to maximum.  If&nbsp;E&ge;5, cures fear;
+if&nbsp;E&ge;12, also confers temporary heroism with duration
+25+(E@40:1)+1d25.  See <a href="#super">below</a> for the effects of
+heroism.
+  </dd>
+  <dt>Tidal Wave (level 16, mana 16:40, fail 65%, IC 4;100, [1-10|20-50])</dt>
+  <dd>
+  <p>
+Casts a <a href="#wave">wave effect</a> centered on the player, with
+initial radius&nbsp;zero, base damage 40+(E@200:1), and duration
+6+(E@10:1).  The damage is of type "wave" -- the target takes water damage
+and is pushed away from the center of the wave.
+  </dd>
+  <dt>Ice Storm (level 22, mana 30:60, fail 80%, IC 3;40, [1-5|25-45])</dt>
+  <dd>
+  <p>
+Casts a <a href="#storm">storm effect</a> centered on the player, with
+radius&nbsp;1+(E@3), damage 80+(E@200:1), and duration 20+(E@70:1).  The
+damage is of type ice if&nbsp;E&ge;10, cold otherwise.
+  </dd>
+  </dl>
+<dt class="school"><a name="air">Air (SO,SP,Manwe Sulimo@2/3)</a></dt>
+<dd>
+  <dl>
+  <dt>Noxious Cloud (level 3, mana 3:30, fail 20%, [1-15|25-50])</dt>
+  <dd>
+  <p>
+Casts a targeted <a href="#cloud">cloud effect</a> with radius&nbsp;3, base
+damage 7+(E@150:1) and duration 5+(E@40:1).  If&nbsp;E&ge;30, the cloud
+does "unbreath" damage, affecting all monsters that breathe; otherwise, it
+does poison damage.
+  </dd>
+  <dt>Poison Blood (level 12, mana 10:20, fail 30%, IC 1;35, [1-25|35-50])</dt>
+  <dd>
+  <p>
+Confers temporary poison resistance; if&nbsp;E&ge;15, also confers
+temporary poison brand to any wielded weapon.  The duration is
+25+(E@25:1)+1d30.
+  </dd>
+  <dt>Invisibility (level 16, mana 10:20, fail 50%, IC 1;30)</dt>
+  <dd>
+  <p>
+Confers temporary invisibility, with duration 15+E+1d20 and power E+20 (see
+<a href="#invis">below</a> for notes on invisibility).
+  </dd>
+  <dt>Sterilize (level 20, mana 10:100, fail 50%, IC 1;10, [1-10|20-50])</dt>
+  <dd>
+  <p>
+  For duration 50+(E@70:1), breeding monsters will be unable to breed.
+  <i>[Apparently, the spell duration was intended to be 20+(E@70:1)+1d30,
+  but in what is presumably a bug, the code uses 30 instead of
+  <tt>randint(30)</tt>.]</i>
+  </dd>
+  <dt>Wings of Winds (Air+Conveyance, level 22, mana 30:40, fail 60%, IC 1;10, [1-10|20-50])</dt>
+  <dd>
+  <p>
+If&nbsp;E&ge;16, confers temporary flight, otherwise confers temporary
+levitation.  The duration is 5+(E@25:1)+1d10.
+  </dd>
+  <dt>Thunderstorm (Air+Nature, level 25, mana 40:60, fail 60%, IC 2;15, [1-5|25-50])</dt>
+  <dd>
+  <p>
+Every 10&nbsp;game turns, for duration 25+(E@25:1)+1d10, damage
+(5+(E@10:1))d(10+(E@25:1)) is done to a random hostile monster in line of
+sight.  The damage is done in three parts, each doing one&nbsp;third the
+computed damage (rounded down), with damage types lightning, light and
+sound.
+  </dl>
+</dd>
+<dt class="school"><a name="earth">Earth (SO,SP,Tulkas@4/5,Yavanna Kementari@1/2)</a></dt>
+<dd>
+  <dl>
+  <dt>Stone Skin (level 1, mana 1:50, fail 10%, IC 2;50)</dt>
+  <dd>
+  <p>
+Casts a <a href="#shield">shield effect</a> with duration 10+(E@100:1)+1d10
+and +10+E armor class.  If&nbsp;E&lt;25, does no damage; otherwise, does
+(2+(E@5:1))d(3+(E@5:1)) unresistable damage.
+  </dd>
+  <dt>Dig (level 12, mana 14, fail 20%, [1-1|1-1])</dt>
+  <dd>
+  <p>
+Casts a beam effect, doing damage 20+1d30 to affected monsters.
+  </dd>
+  <dt>Stone Prison (level 25, mana 30:50, fail 65%, [1-3|5-20])</dt>
+  <dd>
+  <p>
+Creates a ring of wall squares around the center square.  If&nbsp;E&lt;10,
+the spell centers on the player; if&nbsp;E&ge;10, the spell can be
+targeted.
+  </dd>
+  <dt>Shake (level 27, mana 25:30, fail 60%, [1-3|9-20])</dt>
+  <dd>
+  <p>
+Casts an earthquake effect with radius&nbsp;4+(E@10:1).  If&nbsp;E&lt;10,
+the spell centers on the player; if&nbsp;E&ge;10, the spell can be
+targeted.
+  </dd>
+  <dt>Strike (level 30, mana 30:50, fail 60%, [1-5|10-50])</dt>
+  <dd>
+  <p>
+Casts a targeted <a href="#ball">ball</a> of force with radius&nbsp;1
+if&nbsp;E&ge;12 or&nbsp;0 if&nbsp;E&lt;12 and base damage&nbsp;50+E.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="meta">Meta (SO,SP,Manwe Sulimo@1/3)</a></dt>
+<dd>
+  <dl>
+  <dt>Recharge (level 5, mana 10:100, fail 20%)</dt>
+  <dd>
+  <p>
+Recharges a wand, staff or rod.  The power P=60+(E@140:1) of the spell
+determines the probability of backfire:  rods will backfire with
+probability 1&nbsp;in&nbsp;(P-L)/5, where L&nbsp;is the level of the rod;
+wands and staffs will backfire with probability
+1&nbsp;in&nbsp;(100+P-L-8&times;C)/15, where L&nbsp;is the level of the
+wand or staff and C&nbsp;is the number of charges currently in the wand or
+staff (or for a stack of wands, the total charges of the stack divided by
+the number of wands in the stack).  For comparison, a Scroll of Recharging
+has power&nbsp;60.
+  </dd>
+  <dt>Disperse Magic (level 15, mana 30:60, fail 40%, IC 1;5, [1-15|5-40])</dt>
+  <dd>
+  <p>
+Has the following effects:
+  <ul>
+  <li>
+Cures blindness and cancels temporary light.
+  <li>
+If&nbsp;E&ge;5, also curse confusion and hallucination.
+  <li>
+If&nbsp;E&ge;10, also cancels temporary speed or slowness.
+  <li>
+If&nbsp;E&ge;15, also cures cuts and stuns and cancels meditation <i>[which
+doesn't seem to be set by anything anyway, so... -ed]</i>.
+  <li>
+If&nbsp;E&ge;20, also cures fear and the parasite effect of a Death orb
+attack, reverts you from your current mimic state, if any, and cancels
+heroism, super-heroism, blessing, and any temporary
+<a href="#shield">shield effects</a>.
+  </ul>
+  <p>
+Can be cast while blind or confused.
+  </dd>
+  <dt>Spellbinder (level 20, mana 100:300, fail 85%)</dt>
+  <dd>
+  <p>
+Allows you to "pre-cast" certain spells that will be triggered when your
+hit points decrease below a percentage of maximum chosen at casting time
+(choices are 75%, 50% or 25%).  Up to (E@4:1) spells may be pre-cast, to a
+maximum of 4; spells of level greater than 7+(E@35:1) may not be pre-cast.
+Note that the spell requires 32 player turns to cast.
+  </dd>
+  <dt>Tracker (level 30, mana 50, fail 95%)</dt>
+  <dd>
+  <p>
+Teleports player to the destination of the most recent teleportation, yours
+or a monster's.
+  </dd>
+  <dt><a name="inertiacontrol">Inertia Control</a> (level 37, mana 300:700, fail 95%)</dt>
+  <dd>
+  <p>
+Allows you to "schedule" a spell to be repeatedly re-cast at regular
+intervals, at no mana cost, until you "unschedule" the spell by re-casting
+Inertia Control.  Spells that can be used with Inertia Control are listed
+with the notation "IC M;N"; (E@10)&nbsp;must be greater than or equal
+to&nbsp;M to schedule the spell.  The scheduled spell will be recast every
+N&times;10 game turns (10&nbsp;game turns corresponds to one player turn at
+normal speed), unless you are in wilderness mode.  While Inertia Control is
+active, your maximum mana is reduced by four times the mana cost of the
+scheduled spell.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="conveyance">Conveyance (SO,SP,Manwe Sulimo@1/2)</a></dt>
+<dd>
+  <dl>
+  <dt>Phase Door (level 1, mana 1:3, fail 10%, IC 1;5)</dt>
+  <dd>
+  <p>
+Teleports player with range 10+(E@8:1).  If&nbsp;E&ge;30, also creates a
+void jumpgate between player's starting and ending locations.
+  </dd>
+  <dt>Disarm (level 3, mana 2:4, fail 15%, [1-10|10-50])</dt>
+  <dd>
+  <p>
+Destroys adjacent doors and traps.  If&nbsp;E&ge;10, adjacent doors are
+merely unlocked and revealed if secret instead of being destroyed.
+  </dd>
+  <dt>Teleportation (level 10, mana 8:14, fail 30%, IC 1;10, [1-20|20-50])</dt>
+  <dd>
+  <p>
+Teleports player with range 100+(E@100:1).  Casting time is decreased by
+E-25&nbsp;percent.  <i>[Yes, I think that does mean casting time is
+increased when&nbsp;E&lt;25... -ed]</i>
+  </dd>
+  <dt>Teleport Away (level 23, mana 15:40, fail 60%, [1-20|20-50])</dt>
+  <dd>
+  <p>
+Teleports away all affected monsters.  If&nbsp;E&lt;10, affects all
+monsters along a targeted beam; if&nbsp;10&le;E&lt;20, affects all monsters
+in a targeted <a href="#ball">ball</a> of radius&nbsp;3+(E@4:1);
+if&nbsp;E&ge;20, affects all monsters in line of sight.  A level-M monster
+that resists teleportation will resist the spell with probability
+M&nbsp;percent (100&nbsp;percent if it is a unique).
+  </dd>
+  <dt>Recall (level 30, mana 25, fail 60%)</dt>
+  <dd>
+  <p>
+Has different effects depending on the target:
+  <ul>
+  <li>
+If the player is targeted, initiates a word-of-recall effect that triggers
+F-1+1dD&nbsp;turns after casting, where F=15-(E@10:1) with a minimum
+of&nbsp;1 and D=21-(E@15:1) with a minimum of&nbsp;0.  For comparison, the
+corresponding scroll effect triggers 14+1d21&nbsp;turns after reading.
+  <li>
+If a monster is targeted, the player and the monster swap positions.
+  <li>
+If an object is targeted, the object is fetched to the player.  The object
+must be within a distance of 18 squares of the player and must not weigh
+more than 1+(E@150:1)/10 pounds, and if&nbsp;E&lt;15, the player must have
+line of sight to the object.
+  </ul>
+  </dd>
+  <dt>Probability Travel (level 35, mana 30:50, fail 90%, IC 6;40, [1-5|8-25])</dt>
+  <dd>
+  <p>
+For a duration (E@60:1)+1d20, the player can "jump" through walls -- if you
+try to step into a wall or other unenterable square, the player will pass
+through the wall in that direction until it comes to a clear square.  You
+can also move up or down levels without stairs using the '<tt>&lt;</tt>'
+and '<tt>&gt;</tt>' keys.  Note that the spell has no effect in the
+wilderness, or on quest levels or other levels where teleporting is
+disallowed.  It also will not allow you to pass through permanent walls or
+enter vaults.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="divination">Divination (SO,SP,Eru Iluvatar@2/3)</a></dt>
+<dd>
+  <dl>
+  <dt>Sense Monsters (level 1, mana 1:20, fail 10%, IC 1;10, [1-10|15-40])</dt>
+  <dd>
+  <p>
+Detects monsters within radius&nbsp;10+(E@40).  In addition,
+if&nbsp;E&ge;30, confers temporary ESP with duration 10+(E@20:1)+1d10.
+  </dd>
+  <dt>Sense Hidden (level 5, mana 2:10, fail 25%, IC 1;10, [1-15|10-50])</dt>
+  <dd>
+  <p>
+Detects traps within radius&nbsp;15+(E@40); in addition, if&nbsp;E&ge;15,
+confers temporary see invisible with duration 10+(E@40:1)+1d20.
+  </dd>
+  <dt>Identify (level 8, mana 10:50, fail 40%, [1-15|15-40])</dt>
+  <dd>
+  <p>
+If&nbsp;E&lt;17, identifies an object; if&nbsp;17&le;E&lt;27, identifies
+all carried objects and all objects on the floor at the player's location;
+if&nbsp;E&ge;27, identifies all carried objects and all objects on the
+floor in a radius of&nbsp;(E@3:1) around the player.
+  </dd>
+  <dt>Reveal Ways (level 9, mana 3:15, fail 20%, IC 1;10, [1-15|25-50])</dt>
+  <dd>
+  <p>
+Detects doors and stairs within radius&nbsp;10+(E@40:1).
+  </dd>
+  <dt>Vision (level 15, mana 7:55, fail 45%, IC 2;200, [1-5|10-30])</dt>
+  <dd>
+  <p>
+If&nbsp;E&lt;25, maps the surrounding area; if&nbsp;E&ge;25, maps and
+wizard-lights the entire level.
+  </dd>
+  <dt>Greater Identify (level 35, mana 30, fail 80%)</dt>
+  <dd>
+  <p>
+Fully identifies an object, as per a Scroll of *Identify*.  If cast on the
+player, confers self-knowledge, as per a Potion of Self-Knowledge.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="temporal">Temporal (SO,SP,Yavanna Kementari@1/6)</a></dt>
+<dd>
+  <dl>
+  <dt>Magelock (level 1, mana 1:35, fail 10%, [1-5|15-45])</dt>
+  <dd>
+  <p>
+If&nbsp;E&lt;30, wizard locks a targeted door; if&nbsp;30&le;E&lt;40,
+creates a glyph of warding at the player's location; if&nbsp;E&ge;40,
+creates a glyph of warding at the targeted location.
+  </dd>
+  <dt>Slow Monster (level 10, mana 10:15, fail 35%, [1-15|20-50])</dt>
+  <dd>
+  <p>
+Attempts to slow all affected monsters, with power 40+(E@160:1) (see notes
+on slowing <a href="#ccs">below</a>).  If&nbsp;E&lt;20, affects a targeted
+monster; if&nbsp;E&ge;20, affects all monsters in a targeted
+<a href="#ball">ball</a> of radius&nbsp;1.
+  </dd>
+  <dt>Essence of Speed (level 15, mana 20:40, fail 50%, IC 5;20 [1-1|10-39])</dt>
+  <dd>
+  <p>
+Increases player speed by&nbsp;5+(E@20:1) with duration 10+E+1d10.  Has no
+effect if any temporary speed boost is currently active; in particular,
+re-casting Essence of Speed while it is already in effect does not increase
+its duration.
+  </dd>
+  <dt>Banishment (Temporal+Conveyance, level 30, mana 30:40, fail 95%, IC 5;50, [1-15|10-36])</dt>
+  <dd>
+  <p>
+Teleports away all monsters in line of sight, with range 40+(E@160:1).
+A level-M monster that resists teleportation will resist this effect with
+probability M&nbsp;percent (100&nbsp;percent if it is a unique).
+If&nbsp;E&ge;15, also attempts to put affected monsters to sleep; an
+affected level-M monster will resist with probability
+M-1&nbsp;in&nbsp;40+(E@160:1), otherwise its sleep timer will be set
+to&nbsp;500.  Uniques are immune to the sleep effect.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="mind">Mind (SO,SP,Eru Iluvatar@1/3,Melkor Bauglir@1/3)</a></dt>
+<dd>
+  <dl>
+  <dt>Charm (level 1, mana 1:20, fail 10%, [1-15|20-40])</dt>
+  <dd>
+  <p>
+Attempt to charm affected monsters, with power 10+(E@150:1) (see notes on
+charming <a href="#ccs">below</a>).  If&nbsp;E&lt;15, affects a targeted
+monster; if&nbsp;15&le;E&lt;35, affects all monsters in a targeted
+<a href="#ball">ball</a> of radius&nbsp;3; if&nbsp;E&ge;35, affects all
+monsters in line of sight.
+  </dd>
+  <dt>Confuse (level 5, mana 5:30, fail 20%, [1-5|20-40])</dt>
+  <dd>
+  <p>
+Attempt to confuse affected monsters, with power 10+(E@150:1) (see notes on
+confusion <a href="#ccs">below</a>).  If&nbsp;E&lt;15, affects a targeted
+monster; if&nbsp;15&le;E&lt;35, affects all monsters in a targeted
+<a href="#ball">ball</a> of radius&nbsp;3; if&nbsp;E&ge;35, affects all
+monsters in line of sight.
+  </dd>
+  <dt>Armor of Fear (level 10, mana 10:50, fail 35%, IC 2;20)</dt>
+  <dd>
+  <p>
+Cast a <a href="#shield">shield effect</a> with duration 10+(E@100)+1d10,
+"damage" (1+(E@7:1))d(5+(E@20:1)), and +10 armor class.  The damage done is
+fear; if the computed damage amount is greater than the monster's level,
+the monster's fear timer is increased by the computed damage amount.
+  <dt>Stun (level 10, mana 10:90, fail 45%)</dt>
+  <dd>
+  <p>
+Attempts to stun affected monsters, with power 10+(E@150:1) (see notes on
+stunning <a href="#ccs">below</a>).  If&nbsp;E&lt;20, affects a targeted
+monster; if&nbsp;E&ge;20, affects all monsters in a targeted
+<a href="#ball">ball</a> of radius&nbsp;3.
+  </dd>
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="nature">Nature (SO,SP,Yavanna Kementari@1/2)</a></dt>
+<dd>
+  <dl>
+  <dt>Grow Trees (Nature+Temporal, level 6, mana 6:30, fail 35%, IC 5;50)</dt>
+  <dd>
+  <p>
+Creates trees in a radius of&nbsp;2+(E@7:1) around the player.
+  </dd>
+  <dt>Healing (level 10, mana 15:50, fail 45%, [1-5|20-40])</dt>
+  <dd>
+  <p>
+Heals 15+(E@35:1)&nbsp;percent of the player's maximum hit points.
+  </dd>
+  <dt>Recovery (level 15, mana 10:25, fail 60%, IC 2;100, [1-5|10-30])</dt>
+  <dd>
+  <p>
+Has the following effects:
+  <ul>
+  <li>
+Reduces the players poison timer by half.
+  <li>
+If&nbsp;E&ge;5, cures poison and cuts.
+  <li>
+If&nbsp;E&ge;10, restores all stats.
+  <li>
+If&nbsp;E&ge;15, restores experience.
+  </ul>
+  <dd>
+  <dt>Regeneration (level 20, mana 30:55, fail 70%, IC 4;40)</dt>
+  <dd>
+  <p>
+Increases your hit point regeneration rate by 300+(E@700:1)&nbsp;percent
+with duration&nbsp;5+E.
+  </dd>
+  <dt>Summon Animal (level 25, mana 25:50, fail 90%, [1-5|15-45])</dt>
+  <dd>
+  <p>
+Summons a pet animal leveled to monster level&nbsp;25+E (see notes on
+monster leveling <a href="#mlevel">below</a>).
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="udun">Udun</a></dt>
+<dd>
+<p>
+Note that for the purpose of computing spell effect level and minimum
+required skill level, your Udun skill is increased by X&times;2/3, where
+X&nbsp;is your experience level.
+  <dl>
+  <dt>Drain (Udun+Mana, level 1, mana 0, fail 20%)</dt>
+  <dd>
+  <p>
+Drains energy from rods, staffs or wands to increase mana.  For wands and
+staffs, the mana increase will be L&times;C, where L&nbsp;is the level of
+the wand or staff and C&nbsp;is the number of charges in the wand or staff
+(or total number of charges for stacks); for rods, the mana increase will
+equal the total accumulated energy in the rod.  Drained wands and staffs
+will be destroyed; drained rods will be reduced to zero energy.
+  </dd>
+  <dt>Genocide (Udun+Nature, level 25, mana 50, fail 90%, [1-1|5-15])</dt>
+  <dd>
+  <p>
+If&nbsp;E&lt;10, performs genocide, as per the scroll of the same name;
+if&nbsp;E&ge;10, performs mass genocide, as per the scroll of the same
+name.
+  </dd>
+  <dt>Wraithform (Udun+Conveyance, level 30, mana 20:40, fail 95%, IC 4;30)</dt>
+  <dd>
+  <p>
+Confers temporary wraith form with duration 20+(E@40:1)+1d30.
+  </dd>
+  <dt>Flame of Udun (Udun+Fire, level 35, mana 70:100, fail 95% IC 7;15)</dt>
+  <dd>
+  <p>
+Confers temporary Balrog form with duration 5(E@30:1)+1d15.  This has the
+following effects (where L&nbsp;is the player's experience level):
+  <ul>
+  <li>
++5+(L/5) STR
+  <li>
++(L/10) INT
+  <li>
+-5-(L/10) WIS
+  <li>
++(L/10) DEX
+  <li>
++5+(L/5) CON
+  <li>
+-5-(L/10) CHA
+  <li>
++1 blow per round
+  <li>
+Immunity to fire, lightning and acid
+  <li>
+Resist poison, darkness and chaos
+  <li>
+Hold life, levitation, regeneration and fire aura
+  </ul>
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="demonology">Demonology</a></dt>
+<dd>
+  <dl>
+  <dt>Demon Blade (level 1, mana 4:44, fail 10%, [1-17|20-40])</dt>
+  <dd>
+  <p>
+Casts a <a href="#projection">projection effect</a> with duration
+(E@80:1)+1d20, radius&nbsp;1 if&nbsp;E&ge;45 or&nbsp;0 if&nbsp;E&lt;45, and
+base damage 4+(E@40:1).  The damage is hellfire if&nbsp;E&ge;30, fire
+otherwise.
+  </dd>
+  <dt>Demon Shield (level 1, mana 2:30, fail 10%)</dt>
+  <dd>
+  <p>
+Casts a <a href="#shield">shield effect</a> with duration 20+(E@100)+1d10,
+damage (1+(E@14:1))d(10+(E@15:1)), and -300+(E@100:1) armor class.  The
+damage is unresistable.
+  </dd>
+  <dt>Summon Demon (level 5, mana 10:50, fail 30%)</dt>
+  <dd>
+  <p>
+Summons a pet demon leveled to monster level&nbsp;5+(E@100) (see notes on
+monster leveling <a href="#mlevel">below</a>).  If&nbsp;E&ge;35, the demon
+will be a high demon.
+  </dd>
+  <dt>Demon Madness (level 10, mana 5:20, fail 25%)</dt>
+  <dd>
+  <p>
+Casts two targeted <a href="#ball">balls</a> with radius&nbsp;1+(E@4) and
+base damage 20+(E@200:1).  The damage will be chaos, confusion or charm
+with equal probability.  Only one of the balls is actually targeted; the
+other ball travels the same distance in the opposite direction.
+  </dd>
+  <dt>Discharge Minion (level 10, mana 20:50, fail 30%)</dt>
+  <dd>
+  <p>
+Destroys a targeted pet and casts a <a href="#ball">ball</a> of gravity
+centered on its former location, with radius&nbsp;2 and base damage
+H&times;(20+(E@60))/100, where H&nbsp;is the pet's former hit points.
+  </dd>
+  <dt>Demon Field (level 20, mana 20:60, fail 60%)</dt>
+  <dd>
+  <p>
+Casts a targeted <a href="#cloud">cloud</a> of nexus, with radius&nbsp;7,
+base damage 20+(E@70:1), and duration 30+(E@100:1).
+  </dd>
+  <dt>Demon Cloak (level 20, mana 10:40, fail 70%)</dt>
+  <dd>
+  <p>
+Confers temporary reflection with duration 5+(E@15)+1d5.
+  </dd>
+  <dt>Unholy Word (level 25, mana 15:45, fail 55%)</dt>
+  <dd>
+  <p>
+Destroys a targeted pet, healing ((30+E)&times;(H&times;100)/M)/100 hit
+points, where H&nbsp;is the pet's current points and M&nbsp;is its maximum
+hit points; both divisions are rounded down to the nearest integer.  With
+probability 30-(E@25)&nbsp;percent, the spell will instead turn the pet
+against you.
+  </dd>
+  <dt>Control Demon (level 25, mana 30:70, fail 55%)</dt>
+  <dd>
+  <p>
+Attempts to charm a targeted demon, with power 50+(E@250:1) (see notes on
+charming <a href="#ccs">below</a>).
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="music">Music</a></dt>
+<dd>
+  <p>
+  Notes on Music spells:
+  <ul>
+  <li>
+Most Music spells are <i>lasting effects</i>; they consume the specified
+amount of mana each turn they are in effect, and remain in effect until
+explicitly canceled by the player.
+  <li>
+Music spells are annotated with a Roman numeral indicating their
+"instrument level"; they can only be cast from an instrument with the
+specified (or higher) pval.
+  <li>
+The spell stat for Music spells is CHA.
+  </ul>
+  <dl>
+  <dt>Stop Singing(I) (level 1, mana 0; fail -400%)</dt>
+  <dd>
+  <p>
+Cancels any lasting spell effect.
+  </dd>
+  <dt>Song of the Sun(I) (level 1, mana 1, fail 20%)</dt>
+  <dd>
+  <p>
+Confers a lasting temporary light of radius&nbsp;5.  The light lasts for
+5&nbsp;turns after the spell is canceled.
+  </dd>
+  <dt>Holding Pattern(I) (level 1, mana 1:10, fail 20%)</dt>
+  <dd>
+  <p>
+Casts a lasting slow effect; every turn that the spell is in effect,
+attempts to slow all monsters in line of sight, with power 10+(E@100:1)
+(see notes on slowing <a href="#ccs">below</a>).  The slowing effect is
+cumulative; a monster's speed is decreased by&nbsp;10 every time it fails
+to resist the spell.
+  </dd>
+  <dt>Blow(I) (level 4, mana 3:30, fail 20%)</dt>
+  <dd>
+  <p>
+Casts a <a href="#ball">ball</a> of sound centered on the player, with
+radius&nbsp;1+(E@12) and base damage (2+(E@10))d(4+(E@40)).  Not a lasting
+effect.
+  </dd>
+  <dt>Illusion Pattern(II) (level 5, mana 2:15, fail 30%)</dt>
+  <dd>
+  <p>
+Casts a lasting confusion effect; every turn that the spell is in effect,
+attempts to confuse all monsters in line of sight, with power
+P=10+(E:100:1) (see notes on confusion <a href="#ccs">below</a>).
+  </dd>
+  <dt>Flow of Life(II) (level 7, mana 5:30, fail 35%)</dt>
+  <dd>
+  <p>
+Casts a lasting healing effect; heals 7+(E@100:1) hit points every turn
+that the spell is in effect.
+  </dd>
+  <dt>Heroic Ballad(II) (level 10, mana 4:14, fail 45%)</dt>
+  <dd>
+  <p>
+Confers lasting temporary effects:  heroism, plus super-heroism
+if&nbsp;E&ge;10, plus a to-hit and damage bonus of&nbsp;+15
+if&nbsp;E&ge;20, plus resistance to chaos and confusion if&nbsp;E&ge;25.
+All effects wear off 5&nbsp;turns after the spell is canceled.  See <a href="#super">below</a> for the effects of heroism and super-heroism.
+  </dd>
+  <dt>Stun Pattern(IV) (level 10, mana 3:25, fail 45%)</dt>
+  <dd>
+  <p>
+Casts a lasting stunning effect; every turn that the spell is in effect,
+attempts to stun all monsters in line of sight, with power P=10+(E@90:1)
+(see notes on stunning <a href="#ccs">below</a>).
+  </dd>
+  <dt>Gush of Wind(II) (level 14, mana 15:45, fail 30%)</dt>
+  <dd>
+  <p>
+Teleports away all monsters within radius&nbsp;1+(E@12) of the player, with
+range 10+(E@40).  Not a lasting effect.  A level-M monster that resists
+teleportation will resist the spell with probability M&nbsp;percent
+(100&nbsp;percent if it is a unique).
+  </dd>
+  <dt>Hobbit Melodies(III) (level 20, mana 10:30, fail 70%)</dt>
+  <dd>
+  <p>
+Confers a lasting <a href="#shield">shield effect</a> with +10+E armor
+class.  Also confers lasting +7+(E@10:1) speed if&nbsp;E&ge;15.
+  </dd>
+  <dt>Horns of Ylmir(III) (level 20, mana 25:30, fail 20%)</dt>
+  <dd>
+  <p>
+Casts an earthquake effect of radius&nbsp;2+(E@10:1).  Not a lasting
+effect.
+  </dd>
+  <dt>Claraudience(IV) (level 25, mana 15:30, fail 75%)</dt>
+  <dd>
+  <p>
+Confers lasting temporary ESP, which wears off 5&nbsp;turns after the spell
+is canceled.  Also, if&nbsp;E&ge;10, each turn the spell is in effect,
+identifies objects on the floor within radius&nbsp;1+(E@3) of the player.
+  </dd>
+  <dt>Ambarkanta(IV) (level 25, mana 70, fail 60%)</dt>
+  <dd>
+  <p>
+Casts alter reality.  Not a lasting effect.
+  </dd>
+  </dl>
+</dd>
+</dl>
+<h2><a name="godspell">God spells</a></h2>
+<p>
+Assorted notes on god spells:
+<ul>
+<li>
+Minimum required skill level and spell effect level are computed based on
+the Prayer skill.  All god spells receive a bonus to spell effect level
+based on your Spell-power skill, as described for school spells above.
+<li>
+God spells use piety rather than mana.  The "piety M:N" notation used below
+mirrors the "mana N:M" notation used for school spells above.
+<li>
+The spell stat for all god spells is WIS.
+</ul>
+<dl>
+<dt class="school"><a name="eru">Eru Iluvatar</a></dt>
+<dd>
+  <p>
+<i>[see also:  <a href="#mana">Mana</a>,
+<a href="#divination">Divination</a>, <a href="#mind">Mind</a>]</i>
+  <dl>
+  <dt>See the Music (level 1, piety 1:50, fail 20%)</dt>
+  <dd>
+  <p>
+Confers temporary see invisible with duration 10+(E@100:1)+1d10.
+If&nbsp;E&ge;10, also maps the surrounding area.  If&nbsp;E&ge;20, also
+cures blindness. If&nbsp;E&ge;30, maps and wizard-lights the entire level.
+Can be cast while blind.
+  </dd>
+  <dt>Listen to the Music (level 7, piety 15:200, fail 25%)</dt>
+  <dd>
+  <p>
+Identifies a selected object.  If&nbsp;E&ge;14, identifies all carried
+objects.  If&nbsp;E&ge;30, identifies all carried objects and all objects
+on the level.
+  </dd>
+  <dt>Know the Music (level 30, piety 200:600, fail 50%)</dt>
+  <dd>
+  <p>
+Fully identifies a selected object, as per a Scroll of *Identify*.
+If&nbsp;E&ge;10, fully identifies all carried objects.
+  </dd>
+  <dt>Lay of Protection (level 35, piety 400, fail 80%)</dt>
+  <dd>
+  <p>
+Creates glyphs of warding on all squares within radius&nbsp;1+(E@2) of the
+player.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="manwe">Manwe Sulimo</a></dt>
+<dd>
+  <p>
+<i>[see also:  <a href="#air">Air</a>, <a href="#meta">Meta</a>,
+<a href="#conveyance">Conveyance</a>]</i>
+  <dl>
+  <dt>Manwe's Blessing (level 1, piety 10:100, fail 20%)</dt>
+  <dd>
+  <p>
+Cures fear, cancels temporary light, and confers the following effects with
+duration 30+(E@70:1)+1d40:
+  <ul>
+  <li>
+Blessing, as per a Scroll of Blessing.
+  <li>
+Heroism if&nbsp;E&ge;10.
+  <li>
+Super-heroism if&nbsp;E&ge;20.
+  <li>
+Holy aura if&nbsp;E&ge;30.  This confers +5 luck, hold life and +1 light
+radius.
+  </ul>
+  <p>
+Bonuses from the above (as described <a href="#super">below</a>) are
+cumulative.
+  </dd>
+  <dt>Wind Shield (level 10, piety 100:500, fail 30%)</dt>
+  <dd>
+  <p>
+Confers temporary protection from evil with duration 10+E+1d20; if your
+level is&nbsp;L, then a level-M evil monster will be unable to hit you with
+probability 50+L&nbsp;percent if&nbsp;L&ge;M.  If&nbsp;E&ge;10, also casts
+a <a href="#shield">shield effect</a> with the same duration and +(E@30:1)
+armor class.  If&nbsp;E&ge;20, the shield effect does unresistable damage
+(1+(E@2:1))d(1+(E@6:1)).
+  </dd>
+  <dt>Manwe's Call (level 20, piety 200:500, fail 40%)</dt>
+  <dd>
+  <p>
+Summons a friendly Great eagle, leveled to monster level 20+(E@70) (see
+notes on monster leveling <a href="#mlevel">below</a>).
+  </dd>
+  <dt>Avatar (level 35, piety 1000, fail 80%)</dt>
+  <dd>
+  <p>
+Confers temporary Maia form with duration (E@20:1)+1d10.  This has the
+following effects (where L&nbsp;is the player's experience level):
+  <ul>
+  <li>
++5+(L/5) to all stats
+  <li>
++2 blows per round
+  <li>
+Immunity to fire, lighting, acid and cold
+  <li>
+Resist poison, light, darkness and chaos
+  <li>
+Hold life, levitation and regeneration
+  </ul>
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="tulkas">Tulkas</a></dt>
+<dd>
+  <p>
+<i>[see also:  <a href="#earth">Earth</a>]</i>
+  <dl>
+  <dt>Divine Aim (level 1, piety 30:50, fail 20%)</dt>
+  <dd>
+  <p>
+Confers a temporary +15 bonus to-hit and to damage, with duration E+1d10.
+If&nbsp;E&ge;20, the next E+1d10 melee attacks will all be critical hits,
+doing damage 3&times;D+20, where D&nbsp;is the normal damage of the attack.
+  </dd>
+  <dt>Whirlwind (level 10, piety 100, fail 45%)</dt>
+  <dd>
+  <p>
+Attacks all monsters within radius&nbsp;1 of the player as though by an
+ordinary melee attack, except that your number of blows per round is
+reduced to&nbsp;1.
+  </dd>
+  <dt>Wave of Power (level 20, piety 200, fail 75%)</dt>
+  <dd>
+  <p>
+Attacks the targeted monster as though by an ordinary melee attack, except
+that your number of blows per round is set to (E@B:1), where B&nbsp;is your
+normal number of blows per round.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="melkor">Melkor Bauglir</a></dt>
+<dd>
+  <p>
+<i>[see also:  <a href="#mind">Mind</a>, <a href="#udun">Udun</a>]</i>
+  <dl>
+  <dt><a name="melkor_curse">Curse (level 1, piety 50:300, fail 20%)</a></dt>
+  <dd>
+  <p>
+Has the following effects on the targeted monster:
+  <ul>
+  <li>
+Reduces the "dice" and "sides" of all melee attacks by&nbsp;1 (or&nbsp;2
+if&nbsp;E&ge;50 and both are at least&nbsp;2) -- for instance, an attack
+doing damage 2d5 would now do damage 1d4, or 0d3 if&nbsp;E&ge;50.
+  <li>
+If&nbsp;E&ge;15, reduces armor class by&nbsp;E, to a minimum of&nbsp;-70.
+  <li>
+If&nbsp;E&ge;25, reduces speed by&nbsp;(E@7:1), to a minimum of&nbsp;-30
+(one-third normal speed).
+  <li>
+If&nbsp;E&ge;35, reduces max hit points by an amount dependent on the
+monster race, to a minimum of&nbsp;1.
+  </ul>
+  <p>
+If&nbsp;E&ge;5, you are currently praying to Melkor, and your current piety
+is greater than 5000, there is a chance that these effects will be applied
+automatically (at no piety cost) each time you hit a monster with a melee
+attack; the probability of this is (W*(E@100:1))/M&nbsp;percent, where
+M&nbsp;is the monster's level and W&nbsp;is your WIS scaled to&nbsp;30 (see
+<a href="#scalestat">below</a> for the definition of this).
+  </dd>
+  <dt>Corpse Explosion (level 10, piety 100:500, fail 45%)</dt>
+  <dd>
+  <p>
+All corpses within radius&nbsp;2+(E@5:1) of the player explode in a
+<a href="#ball">ball effect</a> centered on the corpse with
+radius&nbsp;7&times;(20+(E@70:1))/100 and base damage
+D&times;(20+(E@70:1))/100, where D&nbsp;is the max hit points of the
+appropriate monster type.  The damage done by the explosions is shards.
+  </dd>
+  <dt>Mind Steal (level 20, piety 1000, fail 90%)</dt>
+  <dd>
+  <p>
+Attempts to take control of a targeted monster's actions.  The monster will
+resist with probability M-E+1&nbsp;in&nbsp;M, where M&nbsp;is the monster's
+level.
+  </dd>
+  </dl>
+</dd>
+<dt class="school"><a name="yavanna">Yavanna Kementari</a></dt>
+<dd>
+  <p>
+<i>[see also:  <a href="#water">Water</a>, <a href="#earth">Earth</a>,
+<a href="#temporal">Temporal</a>, <a href="#nature">Nature</a>]</i>
+  <dl>
+  <dt>Charm Animal (level 1, piety 10:100, fail 30%)</dt>
+  <dd>
+  <p>
+Attempts to charm all animals within a targeted <a href="#ball">ball</a> of
+radius&nbsp;(E@2:1), with power 10+(E@170:1) (see notes on charming
+<a href="#ccs">below</a>).
+  </dd>
+  <dt>Grow Grass (level 10, piety 70:150, fail 65%)</dt>
+  <dd>
+  <p>
+Attempts to convert random squares within radius&nbsp;(E@4:1) of the player
+to grass.
+  </dd>
+  <dt>Tree Roots (level 15, piety 50:1000, fail 70%)</dt>
+  <dd>
+  <p>
+Confers temporary bonuses of +10+(E@60:1) to armor class and +10+(E@20:1)
+to damage for a duration of 10+(E@30:1).
+  </dd>
+  <dt>Water Bite (level 20, piety 150:300, fail 90%)</dt>
+  <dd>
+  <p>
+Casts a <a href="#projection">projection effect</a> with duration
+30+(E@150:1)+1d30, radius&nbsp;1 if&nbsp;E&ge;25 or&nbsp;0 if&nbsp;E&lt;25,
+and base damage 10+E.  The damage is water.
+  </dd>
+  <dt>Uproot (level 35, piety 250:350, fail 95%)</dt>
+  <dd>
+  <p>
+Converts an adjacent tree square to a friendly Ent, leveled to monster
+level 30+(E@70:1) (see notes on monster leveling
+<a href="#mlevel">below</a>).
+  </dd>
+  </dl>
+</dd>
+</dl>
+<h2><a name="misc_effects">Miscellaneous spell effects</a></h2>
+<dl>
+<dt><a name="super">Blessing, heroism, super-heroism</a></dt>
+<dd>
+<p>
+These are all efffects that temporarily boost combat ability:
+<ul>
+<li>
+Blessing confers +5 to armor class and +10 to-hit.  It is conveyed by
+Scrolls of Blessing (hence the name), Holy Chant, and Holy Prayer.
+<li>
+Heroism confers +12 to-hit, resist fear and +10 max hit points.  It is
+conveyed by Potions of Heroism (hence the name).
+<li>
+Super-heroism convers +24 to-hit, -10 to armor class, resist fear and +30
+max hit points.  It is conveyed by Potions of Berzerk Strength.
+</ul>
+</dd>
+<dt><a name="ccs">Charming, confusion, stunning, slowing</a></dt>
+<dd>
+<p>
+These are effects that can be resisted by a monster with a probability
+based on the monster's level and the power of the spell.  If a spell with
+power&nbsp;P is cast on a level-M monster, then:
+<ul>
+<li>
+The monster will resist a charm spell with probability
+M-1&nbsp;in&nbsp;P-5.  If the spell only affects certain types of monsters,
+like animals or demons, this probability reduces to M-1&nbsp;in&nbsp;P.
+Note that uniques, quest monsters, and monsters that resist confusion
+cannot be charmed by spells of this sort.
+<li>
+The monster will resist a confusion spell with probability
+M-1&nbsp;in&nbsp;P;  if it does not resist, its confusion timer is set to
+1+3d(P/2) if it is not already confused, or increased by half that amount
+if it is already confused, to a maximum of 200 game turns.
+<li>
+The monster will resist a stun spell with probability M-1&nbsp;in&nbsp;P;
+if it does not resist, its stun timer is set to 1+(L/10+3)dP if it is not
+already stunned (where L&nbsp;is the player's experience level), or
+increased by half that amount if it is already stunned, to a maximum of 200
+game turns.
+<li>
+The monster will resist a slow spell with probability M-1&nbsp;in&nbsp;P;
+if it does not resist, its speed is decreased by&nbsp;10.  Note that
+uniques are immune to this effect.
+</ul>
+</dd>
+<dt><a name="invis">Invisibility</a></dt>
+<dd>
+<p>
+Unlike in some of its predecessors, invisibility in ToME is not a binary
+effect; it has a power level, which determines how powerful a monster must
+be to see through your invisibility.  This is computed as follows:  Let
+I&nbsp;be your total invisibility power and M&nbsp;be the monster's level,
+modified as follows:
+<ul>
+<li> M=M+10 if the monster is immune to sleep
+<li> M=M+20 if the monster is a dragon
+<li> M=M+15 if the monster is undead, a demon, or an animal
+<li> M=M-15 if the monster is an orc
+<li> M=M-10 if the monster is a troll
+<li> M=M/2 if the monster is stupid
+<li> M=(M*5)/4 rounded down if the monster is smart.
+<li> I=0 if the monster is invisible, a quest monster, or under your
+control
+</ul>
+<p>
+Then the monster will be unable to see you with probability
+I&nbsp;in&nbsp;M&times;2.
+<p>
+Invisibility power conferred by worn items are cumulative with each other
+and with temporary invisibility power; temporary invisibility effects are
+cumulative in time, using the power of the most recently activated
+temporary effect.  For comparison, here are the power levels of common
+sources of invisibility:
+<ul>
+<li>
+Rings of Invisibility have power 40.
+<li>
+Artifacts and ego items that provide invisibility have power 10&nbsp;times
+their pval.
+<li>
+An invisible symbiote confers invisibility power 20.
+<li>
+An invisible possessed body confers invisibility power 20.
+<li>
+Invisibility provided by Melkor for high piety has power 30.
+<li>
+Potions of Invisibility confers temporary invisibility of power 35.
+<li>
+The Invisibility Mimicry power confers temporary invisibility of power 50.
+</ul>
+</dd>
+<dt><a name="mlevel">Leveled monsters</a></dt>
+<dd>
+<p>
+Monsters in ToME can gain levels and become more powerful by killing
+monsters to gain experience, much like the player does.  In some cases (the
+Angband dungeon, some relic quests), monsters are artificially raised to a
+higher level on creation; such a monster is described herein as "leveled to
+monster level&nbsp;N".  Each time a monster gains a level, it may gain
+any or all of the following modifications:
+<ul>
+<li> With proability&nbsp;80%, it gains one "die" of hit points and max hit
+points.  For instance, a Kobold, whose normal hit points are 3d7, would
+gain 7 hit points and 7 max hit points.
+<li> With probability&nbsp;40%, it gains +1d2 speed.
+<li> WIth probability&nbsp;50%, it gains +A/10 armor class (rounded down to
+the nearest integer, with a minimum of 1), where A&nbsp;is the monster's
+starting armor class.
+<li> With probability&nbsp;30%, one of its first three melee attacks is
+increased by one "die".  For instance, a Kobold's 1d8 attack would increase
+to 2d8.
+</ul>
+<p>
+For a "leveled" monster, these effects are applied once for each difference
+in level between the monster's default level and the target level (if the
+latter is less than the former, no change is made).  This can produce some
+truly horrific monsters:  a Kobold (default monster level&nbsp;2) leveled
+to monster level&nbsp;50, for instance, will on average have 3d7+268 hit
+points, +29 speed, armor class 40 and a 15d8 melee attack.
+</dd>
+</dl>
+<h2><a name="statadj">Stat-based adjustments</a></h2>
+<p>
+Some of the effects described above include stat-based adjustments; for
+reference, we list here the numerical amounts of said adjustments.  For
+some purposes (mostly table lookup), a stat value is converted internally
+to a stat index, as delineated in the second column.
+<table frame="VOID" rules="GROUPS" align="CENTER">
+<colgroup><colgroup><colgroup><colgroup>
+<thead>
+<tr><th>Stat</th><th>Stat index</th><th>Min fail rate</th><th>Fail rate
+adj</th></tr>
+</thead>
+<tbody>
+<tr align="CENTER"><td>3</td><td>0</td><td>99%</td><td>0</td></tr>
+<tr align="CENTER"><td>4</td><td>1</td><td>99%</td><td>0</td></tr>
+<tr align="CENTER"><td>5</td><td>2</td><td>99%</td><td>0</td></tr>
+<tr align="CENTER"><td>6</td><td>3</td><td>99%</td><td>0</td></tr>
+<tr align="CENTER"><td>7</td><td>4</td><td>99%</td><td>0</td></tr>
+<tr align="CENTER"><td>8</td><td>5</td><td>50%</td><td>1</td></tr>
+<tr align="CENTER"><td>9</td><td>6</td><td>30%</td><td>1</td></tr>
+<tr align="CENTER"><td>10</td><td>7</td><td>20%</td><td>1</td></tr>
+<tr align="CENTER"><td>11</td><td>8</td><td>15%</td><td>1</td></tr>
+<tr align="CENTER"><td>12</td><td>9</td><td>12%</td><td>1</td></tr>
+<tr align="CENTER"><td>13</td><td>10</td><td>11%</td><td>1</td></tr>
+<tr align="CENTER"><td>14</td><td>11</td><td>10%</td><td>1</td></tr>
+<tr align="CENTER"><td>15</td><td>12</td><td>9%</td><td>2</td></tr>
+<tr align="CENTER"><td>16</td><td>13</td><td>8%</td><td>2</td></tr>
+<tr align="CENTER"><td>17</td><td>14</td><td>7%</td><td>2</td></tr>
+<tr align="CENTER"><td>18-18/09</td><td>15</td><td>6%</td><td>3</td></tr>
+<tr align="CENTER"><td>18/10-18/19</td><td>16</td><td>6%</td><td>3</td></tr>
+<tr align="CENTER"><td>18/20-18/29</td><td>17</td><td>5%</td><td>3</td></tr>
+<tr align="CENTER"><td>18/30-18/39</td><td>18</td><td>5%</td><td>3</td></tr>
+<tr align="CENTER"><td>18/40-18/49</td><td>19</td><td>5%</td><td>3</td></tr>
+<tr align="CENTER"><td>18/50-18/59</td><td>20</td><td>4%</td><td>4</td></tr>
+<tr align="CENTER"><td>18/60-18/69</td><td>21</td><td>4%</td><td>4</td></tr>
+<tr align="CENTER"><td>18/70-18/79</td><td>22</td><td>4%</td><td>5</td></tr>
+<tr align="CENTER"><td>18/80-18/89</td><td>23</td><td>4%</td><td>5</td></tr>
+<tr align="CENTER"><td>18/90-18/99</td><td>24</td><td>3%</td><td>6</td></tr>
+<tr align="CENTER"><td>18/100-18/109</td><td>25</td><td>3%</td><td>7</td></tr>
+<tr align="CENTER"><td>18/110-18/119</td><td>26</td><td>2%</td><td>8</td></tr>
+<tr align="CENTER"><td>18/120-18/129</td><td>27</td><td>2%</td><td>9</td></tr>
+<tr align="CENTER"><td>18/130-18/139</td><td>28</td><td>2%</td><td>10</td></tr>
+<tr align="CENTER"><td>18/140-18/149</td><td>29</td><td>2%</td><td>11</td></tr>
+<tr align="CENTER"><td>18/150-18/159</td><td>30</td><td>1%</td><td>12</td></tr>
+<tr align="CENTER"><td>18/160-18/169</td><td>31</td><td>1%</td><td>13</td></tr>
+<tr align="CENTER"><td>18/170-18/179</td><td>32</td><td>1%</td><td>14</td></tr>
+<tr align="CENTER"><td>18/180-18/189</td><td>33</td><td>1%</td><td>15</td></tr>
+<tr align="CENTER"><td>18/190-18/199</td><td>34</td><td>1%</td><td>16</td></tr>
+<tr align="CENTER"><td>18/200-18/209</td><td>35</td><td>0%</td><td>17</td></tr>
+<tr align="CENTER"><td>18/210-18/219</td><td>36</td><td>0%</td><td>18</td></tr>
+<tr align="CENTER"><td>18/220+</td><td>37</td><td>0%</td><td>19</td></tr>
+</tbody>
+</table>
+<p>
+<a name="scalestat">Another stat-based concept</a> sometimes used in the
+game is that of a "scaled" stat.  This will be denoted herein as a stat
+"scaled to&nbsp;N", and is defined as (I&times;N)/37, rounded down to the
+nearest integer, where I&nbsp;is the stat index of the stat in question, as
+listed above.
+<h2><a name="changelog">Changelog and credits</a></h2>
+<dl>
+<dt>2005-11-05:</dt>
+<dd>
+<p>
+Added bonus blows per round from Maia and Balrog form, as noted by
+<a href=".groups.google.com/group/rec.games.roguelike.angband/browse_thread/thread/f66e368c30be2691/801284f741b8049f?rnum=1">vfb</a>.
+</dd>
+<dt>2005-03-31:</dt>
+<dd>
+<p>
+Only weapon attacks will trigger a projection effect, not barehand or
+bear-form attacks.
+</dd>
+<dt>2005-01-04:</dt>
+<dd>
+<p>
+Added a convenience link back to the 2.2.x spell spoiler.
+</dd>
+<dt>2005-01-04:</dt>
+<dd>
+<p>
+Updated for 2.3.x.  Notable differences include:
+  <ul>
+  <li> New spells Sterilize and Inertia Control.
+  <li> Spells that can be used with Inertia Control receive "IC M;N"
+  notation, as explained in description of Inertia Control.
+  <li> Water Bite base damage increased from 10+(E@10:1) to 10+E.
+  <li> Tweak to description of Disarm spell.
+  </ul>
+</dd>
+<dt>2004-12-20:</dt>
+<dd>
+<p>
+Added some internal cross-links from various terminology used in some spell
+descriptions to definitions of same.
+</dd>
+<dt>2004-08-06:</dt>
+<dd>
+<p>
+Add cross-links from god spells to school spells provided by that god.
+</dd>
+<dt>2004-07-31:</dt>
+<dd>
+<p>
+Grow Barrier requires skill level 12 in Earth.
+</dd>
+<dt>2004-07-08:</dt>
+<dd>
+<p>
+Banishment is dual-school Temporal+Conveyance.
+</dd>
+<dt>2004-06-13:</dt>
+<dd>
+<ul>
+<li> Added details of protection from evil to Wind Shield.
+<li> Added maximum distance note to Recall.
+<li> Small tweak to Manwe's Call.
+<li> Added links to the heroism/super-heroism effect section from spells
+that confer those effects.
+</ul>
+</dd>
+<dt>2004-05-24:</dt>
+<dd>
+<p>
+Expanded notes for Essence of Speed to note that re-casting it while in
+effect does not increase duration.
+</dd>
+<dt>2004-05-13:</dt>
+<dd>
+<p>
+Added annotations for spells available via wands and staffs, indicating the
+allowed range of base level and max level for each spell.
+</dd>
+<dt>2004-04-23:</dt>
+<dd>
+<p>
+Added a table of contents.
+</dd>
+<dt>2004-04-20:</dt>
+<dd>
+<ul>
+<li>
+Fixed description of Disarm to describe what actually happens rather than
+what was apparently intended... <tt>;)</tt>
+<li>
+Corrected and clarified description of Globe of Light.
+</ul>
+</dd>
+<dt>2004-04-01:</dt>
+<dd>
+<p>
+Oops, Essence of Speed is level 15... <tt>:-}</tt>
+</dd>
+<dt>2004-03-28:</dt>
+<dd>
+<ul>
+<li>
+Update some spell effect descriptions to note when uniques are immune.
+<li>
+Update descriptions of teleport-away spells to cover monsters with the
+resist-teleportation flag.
+</ul>
+</dd>
+<dt>2004-03-22:</dt>
+<dd>
+<p>
+CSS tweaks.
+</dd>
+<dt>2003-11-16:</dt>
+<dd>
+<p>
+Added piety level and praying requirement for auto-application of the Curse
+spell.
+</dd>
+<dt>2003-09-25:</dt>
+<dd>
+<ul>
+<li>
+Completed sections for the Geomancy school and monster leveling.
+<li>
+Updated note in Tree Roots description about bug that is fixed in v2.2.3.
+<li>
+Assorted tweaks and corrections.
+</ul>
+</dd>
+<dt>2003-09-07:</dt>
+<dd>
+<p>
+Initial release.
+</dd>
+</dl>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 02:16:00 Nov 06, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:41:12 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 76.164
+  exclusion.robots: 0.153
+  exclusion.robots.policy: 0.142
+  RedisCDXSource: 1.774
+  esindex: 0.012
+  LoadShardBlock: 50.419 (3)
+  PetaboxLoader3.datanode: 86.818 (4)
+  CDXLines.iter: 20.118 (3)
+  load_resource: 75.419
+  PetaboxLoader3.resolve: 19.862
+-->

@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport190 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport190?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport190?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport190?action=fullsearch&amp;value=BugReport190&amp;literal=1&amp;case=1&amp;context=40">BugReport190</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport190?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport190">View</a></li>
+<li><a title="Diffs" href="./BugReport190?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport190?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport190?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport190?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport190?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport190?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport190?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport190?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport190?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport190">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: i was wearing a Cursed ring (i mean the ego type that recurse itself after a while) and after casting a remove curse i noticed that the cursed status disappeared from the character screen, even after the ring re-cursed itself.<br>
+ As a side note, shouldn't the re-cursing feature be listed as well in the flags, along with cursed, aggravating, and the others? <p>
+Simon: I see the new warning message... laugh... "Oops! It feels deathly cold... again!!" 
+</p>
+<p>
+Afterall we get a curse flag when we put them on, and when we try to remove it. The curse should be obvious just by wearing the re-cursed stuff I think. 
+</p>
+<p>
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: I was talking about flag list in Character screen, not a message for when the item re-curse itself (though it may not be such a bad idea, after all) nor an inscription.<br>
+ As for the obviousness, well, it <strong>is</strong> obvious, but so are additional speed, light and some other characteristic. I think the flag should be listed for completeness, also because some artifact may have this feature without it being obvious in their name. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport190?action=refresh&amp;arena=Page.py&amp;key=BugReport190.text_html">RefreshCache</a> for this page (cached 2004-10-06 20:05:36)<br>
+<p><a href="./BugReport190?action=edit">EditText</a> of this page (last edited 2004-10-06 20:05:34 by <span title="213.213.18.128=h213-213-18-128.rm1.albacom.net">h213-213-18-128</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:45:59 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 82.839
+  exclusion.robots: 0.173
+  exclusion.robots.policy: 0.162
+  RedisCDXSource: 1.825
+  esindex: 0.012
+  LoadShardBlock: 55.614 (3)
+  PetaboxLoader3.datanode: 50.174 (4)
+  CDXLines.iter: 21.861 (3)
+  load_resource: 46.716
+  PetaboxLoader3.resolve: 18.916
+-->

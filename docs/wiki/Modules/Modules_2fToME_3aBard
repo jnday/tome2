@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/ToME:Bard - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fToME_3aBard?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fToME_3aBard?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fToME_3aBard?action=fullsearch&amp;value=%2FToME%3ABard&amp;literal=1&amp;case=1&amp;context=40">Modules/ToME:Bard</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fToME_3aBard?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fToME_3aBard">View</a></li>
+<li><a title="Diffs" href="./Modules_2fToME_3aBard?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fToME_3aBard?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fToME_3aBard?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fToME_3aBard?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fToME_3aBard?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fToME_3aBard?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fToME_3aBard?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fToME_3aBard?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fToME_3aBard?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fToME_3aBard">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-15bcf47a5d0c1221c1557a608ab28ca38a02aeaf"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>ToME:Bard module:  Improving Bards</h2>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  This is a collection of ideas for a hypothetical module that attempts to fix the oft-bemoaned shortcomings of the Bard class and the Music spell school, with an eye toward maybe someday being incorporated into a future release version as the new "official" Bard.  (After all, as <a href="./NeilStevens">NeilStevens</a> so often reminds us, new ideas should be tested in a module first, yes? <img src="./wiki/classic/img/smile4.png" alt=";)" height="15" width="15"> )  Well, okay, it's not entirely hypothetical; I have actually got a small module coded up that more or less implements the ideas described below.  No, I'm not gonna release it yet, I've barely tested it.  Mainly I'm posting this to prompt discussion and refine my ideas. 
+</p>
+<h3 id="head-6d96c80b326769c1a915888456758a5bcc25d025"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>New items and ego types</h3>
+<p>
+One new instrument is added:  the Flute, with a bonus to DEX. 
+</p>
+<p>
+The following ego types are added: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Well-Crafted instrument 
+</p>
+</li>
+
+        <ul>
+
+  This ego type just increases the pval of the instrument.  The goal is to make it easier and more affordable for a Bard to get a high-pval instrument from which to cast the higher-pval spells.  I've added a Lua hook to <tt>HOOK_APPLY_MAGIC</tt> to prevent this ego type from being combined with either of the postfix ego types ("of the Eldar" and "of Power"), as that combination seems a bit too powerful. 
+        </ul>
+
+
+    <li>
+<p>
+ Magic Flute 
+</p>
+</li>
+
+        <ul>
+
+  This ego type applies only to Flutes; it confers sustain DEX, a pval boost, and a random resist, and activates for a line-of-sight sleep spell.  This ego type I do allow to combine with the postfix ego types, for no particular reason. 
+        </ul>    </ul>
+
+
+<h3 id="head-f6d9feeb47ed46a5fe85debac94e52d7c85887ab"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>New and changed spells</h3>
+<p>
+This, of course, is where the biggest changes are.  For comparison with the original Music spells, you can refer to <a class="external" href="./www.killerbunnies.org/angband/spell-220.html#music"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">my spell spoiler</a>. 
+</p>
+<p>
+<em>Note:  "mana cost A:B" means the spell costs A&#160;mana at spell level&#160;1, B&#160;mana at spell level&#160;50, and scales linearly in&#160;between.</em> 
+</p>
+<p>
+<strong>Drums:</strong> 
+</p>
+
+    <ul>
+
+ Not much change here.  These spells (at least as I've used them with my Bard characters) are primarily for crowd control:  a Bard would play one of these spells for a few turns to soften up an approaching horde before laying into them with melee.<br>
+  <em>Holding Pattern(I)</em> 
+        <ul>
+
+  Unchanged. 
+        </ul>
+
+
+ <em>Illusion Pattern(II)</em> 
+        <ul>
+
+  Unchanged. 
+        </ul>
+
+
+ <em>Stun Pattern(III)</em> 
+        <ul>
+
+  Downgraded from pval&#160;4 to pval&#160;3; otherwise unchanged. 
+        </ul>
+
+
+ <em>Tremor Pattern(IV)</em> 
+        <ul>
+
+  <tt>Produces&nbsp;an&nbsp;earth-shaking&nbsp;sound.</tt><br>
+   This is just the original Horn spell <em>Horns of Ylmir(III)</em> renamed and relocated to the Drum (and increased to pval&#160;4). 
+        </ul>    </ul>
+
+
+<p>
+<strong>Harps:</strong> 
+</p>
+
+    <ul>
+
+ Primarily power-boosting spells.  I cut the mana cost for a lot of these; my goal was that they should last about as long (from full mana) as comparable power-boosting spells like Divine Aim or Manwe's Blessing.<br>
+  <em>Song of the Sun(I)</em> 
+        <ul>
+
+  <tt>Provides&nbsp;light&nbsp;around&nbsp;you&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;sing.</tt><br>
+   <tt>At&nbsp;level&nbsp;3&nbsp;it&nbsp;lights&nbsp;rooms</tt><br>
+   <tt>At&nbsp;level&nbsp;5&nbsp;it&nbsp;causes&nbsp;damage&nbsp;to&nbsp;light-sensitive&nbsp;creatures</tt><br>
+   <tt>At&nbsp;level&nbsp;15&nbsp;it&nbsp;creates&nbsp;a&nbsp;stronger&nbsp;light&nbsp;that&nbsp;damages&nbsp;all&nbsp;creatures</tt><br>
+   This basically adds Globe of Light's effects to the original spell&#8212;notably the light-room effect, which I sorely missed.  May be a bit too powerful, considering that the light-ball effect is now applied every turn. 
+        </ul>
+
+
+ <em>Flow of Life(II)</em> 
+        <ul>
+
+  Mana cost halved and heal amount per turn reduced 30&#160;percent; otherwise unchanged. 
+        </ul>
+
+
+ <em>Heroic Ballad(II)</em> 
+        <ul>
+
+  Mana cost halved; otherwise unchanged. 
+        </ul>
+
+
+ <em>Hobbit Melodies(III)</em> 
+        <ul>
+
+  Mana cost halved; otherwise unchanged. 
+        </ul>
+
+
+ <em>Clairaudience(IV)</em> 
+        <ul>
+
+  Unchanged. 
+        </ul>    </ul>
+
+
+<p>
+<strong>Horns:</strong> 
+</p>
+
+    <ul>
+
+ Primarily attack spells.  I tried to add some variety, within thematic constraints.<br>
+  <em>Blow(I)</em> 
+        <ul>
+
+  Mana cost halved; otherwise unchanged. 
+        </ul>
+
+
+ <em>Shockwave(II)</em> 
+        <ul>
+
+  Level 10, mana cost 3:30, fail 30%, pval 2<br>
+   <tt>Produces&nbsp;a&nbsp;blast&nbsp;of&nbsp;sound&nbsp;that&nbsp;can&nbsp;knock&nbsp;monsters&nbsp;back</tt><br>
+   A new attack spell, which generates a directed wave effect, similar to Geomancy's Elemental Wave spell.  The spell does damage 20+E&#215;4 in radius 6+E/5 (where E&#160;is the spell level), with damage type <tt>GF_SHOCKWAVE</tt>, which applies damage half as <tt>GF_SOUND</tt> and half as <tt>GF_FORCE</tt> (this is a hack to get the knock-back effect; Lua-coded damage types apparently don't have access to the C&#160;code's push-back mechanism).  Currently the spell uses both the <tt>EFF_WAVE</tt> and <tt>EFF_LAST</tt> flags, which means that all monsters in the entire cone of effect take damage; that may be too powerful, and I may remove the <tt>EFF_LAST</tt> flag, so that damage is only applied at the leading edge of the wave, as per the Tidal Wave spell. 
+        </ul>
+
+
+ <em>Gush of Wind(II)</em> 
+        <ul>
+
+  Unchanged. 
+        </ul>
+
+
+ <em>Blow Harder(III)</em> 
+        <ul>
+
+  Level 25, mana 30:50, fail 45%, pval 3<br>
+   <tt>Produces&nbsp;an&nbsp;ear-splitting&nbsp;noise&nbsp;that&nbsp;harms&nbsp;all&nbsp;monsters&nbsp;in&nbsp;line&nbsp;of&nbsp;sight.</tt><br>
+   Another new attack spell, that does 50+E&#215;6 sound damage on line of sight (where E&#160;is the spell level). 
+        </ul>
+
+
+ <em>Ambarkanta(IV)</em> 
+        <ul>
+
+  Unchanged.  I'd like to get rid of it, but I can't think of anything to replace it with. 
+        </ul>    </ul>
+
+
+<p>
+<strong>Flutes:</strong> 
+</p>
+
+    <ul>
+
+ Utility spells.  I'd like to have a few more spells here but I can't think of any that fit.<br>
+  <em>Lay of the Land(I)</em> 
+        <ul>
+
+  Level 3, mana 2:10, fail 20%, pval 1<br>
+   <tt>Detects&nbsp;traps&nbsp;in&nbsp;a&nbsp;radius&nbsp;around&nbsp;you.</tt><br>
+   <tt>At&nbsp;level&nbsp;5&nbsp;it&nbsp;also&nbsp;detects&nbsp;doors&nbsp;and&nbsp;stairs.</tt><br>
+   <tt>At&nbsp;level&nbsp;10&nbsp;it&nbsp;also&nbsp;detects&nbsp;treasure.</tt><br>
+   <tt>At&nbsp;level&nbsp;20&nbsp;it&nbsp;also&nbsp;detects&nbsp;objects.</tt><br>
+   <tt>At&nbsp;level&nbsp;25&nbsp;it&nbsp;also&nbsp;detects&nbsp;the&nbsp;layout&nbsp;of&nbsp;the&nbsp;surrounding&nbsp;area.</tt><br>
+   <tt>At&nbsp;level&nbsp;45&nbsp;it&nbsp;also&nbsp;maps&nbsp;and&nbsp;lights&nbsp;the&nbsp;whole&nbsp;level.</tt><br>
+   Similar to the Mindcraft power Precognition.  Currently detects at radius&#160;25, as per Precognition; I might change this to have the detection radius increase with spell level, as per the corresponding Divination spells. 
+        </ul>
+
+
+ <em>Passtune(II)</em> 
+        <ul>
+
+  Level 10, mana 5:10, fail 30%, pval 2<br>
+   <tt>Disarms&nbsp;traps.</tt><br>
+   <tt>At&nbsp;level&nbsp;10&nbsp;it&nbsp;also&nbsp;destroys&nbsp;doors.</tt><br>
+   I had originally intended this to also provide temporary free action at some spell level, but that doesn't appear to be supported.  Perhaps at high levels, it could have an effect similar to Dwarves' "find secret passages" power. 
+        </ul>
+
+
+ <em>Flight of Fancy(III)</em> 
+        <ul>
+
+  Level 20, mana 3:10, fail 50%, pval 3<br>
+   <tt>Grants&nbsp;levitation&nbsp;as&nbsp;long&nbsp;as&nbsp;you&nbsp;sing.</tt><br>
+   <tt>At&nbsp;level&nbsp;10&nbsp;it&nbsp;allows&nbsp;you&nbsp;to&nbsp;fly.</tt><br>
+   I had originally intended to name this "Flight of the Bumblebee", but it wouldn't fit in the spell listing... 
+        </ul>    </ul>
+
+
+<h3 id="head-742170a6d88da7f545e01f106cbd26f58cca5033"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>New store</h3>
+<p>
+A Music Store is added to all four primary towns (I didn't bother with Khazad-Dum).  The goal is to make easier for Bards to get the instruments they need. 
+</p>
+<h3 id="head-5f2cbd107037ed23248e5058a7a64cd6bae05468"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Miscellaneous</h3>
+<p>
+Characters with Music skill 1 or higher (this should be mostly Bards, maybe Loremasters) can pseudo-ID instruments.  The rate tracks the Music Skill (of course) and is slightly slower than weapon/armor pseudo-ID at the same skill level in Combat, on the premise that Bards don't get an identify spell until rather late.  As with other forms of pseudo-ID, at Magic skill level 11 the pseudo-ID becomes "heavy", distinguishing <tt>{good}</tt> from <tt>{excellent}</tt> and adding <tt>{average}</tt> detection.  For reference, (+1) instruments pseudo-ID as <tt>{average}</tt>, (+2) and higher instruments (are there any of these?) pseudo-ID as <tt>{good}</tt>, and ego and artifact instruments pseudo-ID as <tt>{excellent}</tt> and <tt>{special}</tt>, respectively.  This is all currently implemented as a Lua hook on <tt>HOOK_PROCESS_WORLD</tt>, as there are no more specialized hooks into the pseudo-ID routines. 
+</p>
+<h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Chatter</h3>
+<p>
+As I said, I'm primarily interested in feedback and further suggestions for improvement.  Ideally I'll release some kind of module for this at some point in the future, but don't expect a rapid update cycle (it's not as though I haven't got enough on my table as is...). 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Nice work. If you want more ideas, you should check the <a class="interwiki" title="Self" href="./Modules/ToME_20Plus"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">wiki:Self:Modules/ToME_20Plus</a> module, since it has many new ego-types, new artifacts and new improved code for music spells by <a href="./amaurea">amaurea</a>. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fToME_3aBard?action=refresh&amp;arena=Page.py&amp;key=Modules_2fToME_3aBard.text_html">RefreshCache</a> for this page (cached 2004-09-13 07:48:56)<br>
+<p><a href="./Modules_2fToME_3aBard?action=edit">EditText</a> of this page (last edited 2004-09-13 07:48:55 by <span title="dialin-145-254-145-234.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:13:30 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:52 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 151.566
+  exclusion.robots: 0.097
+  exclusion.robots.policy: 0.089
+  RedisCDXSource: 2.667
+  esindex: 0.008
+  LoadShardBlock: 129.208 (3)
+  PetaboxLoader3.datanode: 175.089 (4)
+  CDXLines.iter: 17.711 (3)
+  load_resource: 128.831
+  PetaboxLoader3.resolve: 60.267
+-->

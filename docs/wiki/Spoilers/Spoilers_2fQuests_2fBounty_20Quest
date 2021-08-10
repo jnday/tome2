@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Quests/Bounty Quest - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fQuests_2fBounty_20Quest?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fQuests_2fBounty_20Quest?action=print">
+<link rel="Up" href="/Spoilers_2fQuests">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fQuests_2fBounty_20Quest?action=fullsearch&amp;value=%2FBounty+Quest&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Quests/Bounty Quest</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fQuests">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fQuests_2fBounty_20Quest?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fQuests_2fBounty_20Quest">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fQuests_2fBounty_20Quest?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fQuests_2fBounty_20Quest?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fQuests_2fBounty_20Quest?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fQuests_2fBounty_20Quest?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fQuests_2fBounty_20Quest?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fQuests_2fBounty_20Quest?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fQuests_2fBounty_20Quest?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fQuests_2fBounty_20Quest?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fQuests_2fBounty_20Quest?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fQuests_2fBounty_20Quest">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Bounty quests are given by the Beastmaster. There are Beastmasters in Lothlorien and Minas Anor. <p>
+Some quests are trickier than you might think. For example, there are <em>two</em> types of some monsters (e.g. novice rangers). One type appears as a solitary monster, the other appears in groups. The corpse of one kind cannot be substituted for the other in a bounty quest. 
+</p>
+<p>
+Some other quests are very difficult due to monster rarity or monster level. A difficult quest is a random occurence; you are not being picked on. The reward is valuable to some characters, and if you want it, you need to earn it. 
+</p>
+<p>
+To fulfill a bounty quest, bring the requested corpse (or hacked meat of it) back to the Beastmaster. Speak to the Beastmaster a second time to obtain a new quest. 
+</p>
+<p>
+Bounty monsters are randomly chosen, but they're (loosely) based on your experience level.  The following types of monsters are <em>ineligible</em> for selection: uniques, corpse-less monsters, specially generated monsters, monsters that are automatically pets or friendly, breeders, joke monsters, and good monsters.  Anything else is fair game. 
+</p>
+<p>
+The reward: If you don't yet know the Monster-lore skill, you will be taught it (with multiplier 0.900). If you don't yet know the Corpse-preservation skill, you will be taught it (with multiplier 0.800). You will also be given one skill point in Monster-lore for each corpse returned. 
+</p>
+<p>
+Note: This quest was changed in ToME 2.0.0, previous versions had a different quest. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Things I don't recall immediately (please delete as you correct it): 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Is there a max # of quests? I think so, but I don't recall how many.   
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>: I don't think there's a max, but most classes has +0.500 so completing 100 quests may take a while. 
+</p>
+<p>
+(some newbie) : What are the odds of a monster dropping a corpse in relation to your Corpse-preservation skill. I tried a Bounty Quest at 0 in it and none of the 15 or so Large white snake dropped one. 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: See <a href="./www.killerbunnies.org/angband/skill-230.html#preserv">http://www.killerbunnies.org/angband/skill-230.html#preserv</a> for more, but basically, it's a 10% chance with skill at 0. You were perhaps a tad unlucky. Keep trying. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fQuests_2fBounty_20Quest?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fQuests_2fBounty_20Quest.text_html">RefreshCache</a> for this page (cached 2005-10-10 00:11:33)<br>
+<p><a href="./Spoilers_2fQuests_2fBounty_20Quest?action=edit">EditText</a> of this page (last edited 2005-10-10 00:11:32 by <span title="wooledge.org"><a href="./GreyCat">GreyCat</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:10:19 Oct 30, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:00:51 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  esindex: 0.011
+  exclusion.robots: 0.223
+  load_resource: 151.15
+  LoadShardBlock: 479.151 (3)
+  exclusion.robots.policy: 0.21
+  captures_list: 524.301
+  PetaboxLoader3.resolve: 35.933
+  PetaboxLoader3.datanode: 481.498 (4)
+  CDXLines.iter: 29.73 (3)
+  RedisCDXSource: 9.613
+-->

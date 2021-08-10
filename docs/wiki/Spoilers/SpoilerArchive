@@ -1,0 +1,524 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>SpoilerArchive - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./SpoilerArchive?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./SpoilerArchive?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./SpoilerArchive?action=fullsearch&amp;value=SpoilerArchive&amp;literal=1&amp;case=1&amp;context=40">SpoilerArchive</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./SpoilerArchive?action=edit">Edit</a></li>
+<li><a title="View" href="./SpoilerArchive">View</a></li>
+<li><a title="Diffs" href="./SpoilerArchive?action=diff">Diffs</a></li>
+<li><a title="Info" href="./SpoilerArchive?action=info">Info</a></li>
+<li><a title="Subscribe" href="./SpoilerArchive?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./SpoilerArchive?action=raw">Raw</a></li>
+<li><a title="Print" href="./SpoilerArchive?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./SpoilerArchive?action=DeletePage">DeletePage</a></li>
+<li><a href="./SpoilerArchive?action=LikePages">LikePages</a></li>
+<li><a href="./SpoilerArchive?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./SpoilerArchive?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./SpoilerArchive">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-63cc8c362870763052b162be9680b9b52bbf23e9">Spoilers</a></li>
+<li>
+<a href="#head-49f4be4165ee0b7f9e32abcdd64d2d1a4323e8b7">Lord Dimwit's Advanced Strategy Guide</a></li>
+<li>
+<a href="#head-ba53a425ae4d10365d95e5acca68be7b5b9eaeaf">Other Strategy Guides, Tips, and Hints on the Wiki</a></li>
+<li>
+<a href="#head-4d57eab2982917a09762907ac77e408c3ca66fc9">External Links</a></li>
+<li>
+<a href="#head-f7a4187a4e4eee0cf4ed840e042155ae091a93ac">(temporary) Chatter</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-63cc8c362870763052b162be9680b9b52bbf23e9">Spoilers</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fAbilities">Spoilers/Abilities</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fArtifacts">Spoilers/Artifacts</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Spoilers_2fArtifacts_2fArtifactList">Spoilers/Artifacts/ArtifactList</a> 
+</p>
+</li>
+        <li>
+<p>
+ <a href="./Spoilers_2fSentient_20Weapons">Spoilers/Sentient Weapons</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <a href="./Spoilers_2fBase_20Object_20types_20with_20ego_20properties">Spoilers/Base Object types with ego properties</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fCharacter_20attribute">Spoilers/Character attribute</a>s 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fClasses">Spoilers/Classes</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fCorruptions">Spoilers/Corruptions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fCurses">Spoilers/Curses</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDamage_20Type">Spoilers/Damage Type</a>s 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fDungeons">Spoilers/Dungeons</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fEffects_20from_20eating_20corpses">Spoilers/Effects from eating corpses</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fEgo_20Item">Spoilers/Ego Item</a>s (prefixes and suffixes) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fEssences">Spoilers/Essences</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fFate">Spoilers/Fate</a>s 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fFloor_20inscriptions">Spoilers/Floor inscriptions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fFountain">Spoilers/Fountain</a>s 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fGods">Spoilers/Gods</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fItem">Spoilers/Item</a>s 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fInstakill">Spoilers/Instakill</a> :: situations that kill a fully healthy player before he can react. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fLevel_20Feelings">Spoilers/Level Feelings</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fMonster_20Weaknesses">Spoilers/Monster Weaknesses</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fOneliners">Spoilers/Oneliners</a> List of important spoilers that don't fit into categories well (or make great one liners) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests">Spoilers/Quests</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fRaces">Spoilers/Races</a> 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ <a href="./Spoilers_2fSubraces">Spoilers/Subraces</a> 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ <a href="./Spoilers_2fSkills">Spoilers/Skills</a> (including Magic) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fTraps">Spoilers/Traps</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fTreasure_20Chest">Spoilers/Treasure Chest</a>s 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fUnique">Spoilers/Unique</a>s 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fWishing">Spoilers/Wishing</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-49f4be4165ee0b7f9e32abcdd64d2d1a4323e8b7">Lord Dimwit's Advanced Strategy Guide</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fLord_20Dimwit_27s_20Advanced_20Strategy_20Guide">Spoilers/Lord Dimwit's Advanced Strategy Guide</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-ba53a425ae4d10365d95e5acca68be7b5b9eaeaf">Other Strategy Guides, Tips, and Hints on the Wiki</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fHow_20to_20Die_20Hideously_20during_20the_20Maeglin_20Quest">Spoilers/How to Die Hideously during the Maeglin Quest</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-4d57eab2982917a09762907ac77e408c3ca66fc9">External Links</h3>
+
+    <ul>
+
+    <li>
+<p>
+ ToME Skill Spoiler Page (<a class="external" href="./www.killerbunnies.org/angband/skill-220.html">2.2.x</a>, <a class="external" href="./www.killerbunnies.org/angband/skill-230.html">2.3.x</a>) 
+</p>
+</li>
+    <li>
+<p>
+ ToME Spell Spoiler Page (<a class="external" href="./www.killerbunnies.org/angband/spell-220.html">2.2.x</a>, <a class="external" href="./www.killerbunnies.org/angband/spell-230.html">2.3.x</a>) 
+</p>
+</li>
+    <li>
+<p>
+ ToME God Spoiler Page (<a class="external" href="./www.killerbunnies.org/angband/god-220.html">2.2.x/2.3.x</a>) 
+</p>
+</li>
+    <li>
+<p>
+ <a class="external" href="./www.killerbunnies.org/angband/wilderness-labeled-2.2.png">ToME 2.2.x/2.3.x Labelled Wilderness Map</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="external" href="./angband.oook.cz/artifacts.php?v=T.o.M.E.+2.2.1">ToME 2.2.1 Artifact Spoiler page</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="external" href="./angband.oook.cz/monsters.php?q=&amp;t=&amp;s=&amp;v=T.o.M.E.+2.2.1">ToME 2.2.1 Monster Spoiler page</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="external" href=".tome.dreamer.hu/">ToME 2.2.x Monster Spoiler page</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-f7a4187a4e4eee0cf4ed840e042155ae091a93ac">(temporary) Chatter</h3>
+<a href="./MayLith">MayLith</a>: Looking at this, I now wonder if I shouldn't have linked the spoilers stubs in the singular, e.g. 
+<pre> * ["Spoilers/Floor inscription"]s
+</pre>I could change them all, of course... but what a pain. <img src="./wiki/rightsidebar/img/sad.png" alt=":(" height="15" width="15"> <p>
+<a href="./GregSweetman">GregSweetman</a>: If you tell me how to do it I could help? (p.s. sorry for the info on Moria you classed as 'spoily'.  I had edited it from one of the ToME descriptive docs to remove any informative parts, and leave some very general information.  Once you removed it, I noticed the comment said 'all' information rather than just 'spoiler' information should go on the spoiler page.  *slaps own wrist*) 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: It would probably be less confusing if I just went and did it, since I can delete the old pages as I go.  
+</p>
+<p>
+Sokay @ the Moria thing. The basic idea is that the only place a spoiler should appear is on a spoiler page... and mentioning the Balrog is definitely a spoiler. <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> On top of that, the <em>very existence</em> of the Moria dungeon itself is a spoiler, so I hemmed and hawed before even adding the dungeon section to that page, but I figured if I didn't, it would lead to confusion by those trying to find the dungeon page. 
+</p>
+<p>
+<a href="./GregSweetman">GregSweetman</a>: I can totally see why you trimmed the comment (keeping <em>all</em> information about the dungeon on the dungeon page only), but I didn't mention the Balrog.  Minor point of course, I do agree that the information on that page should just be a stub with a reference to the actual spoiler page, just in case people were looking for the history and instead found the dungeon info. 
+</p>
+<p>
+As a side point, on a similar vein (although more for organisational purposes rather than for spoiler information) perhaps the same could be done for the other dungeon/game combos?  Well, that's not very clear now, what I meant is, also do it from the other side.  Create these historical / information references to the games <a href="./Moria">Moria</a> and <a href="./Angband">Angband</a> (and <a href="./ZAngband">ZAngband</a>, <a class="nonexistent" href="./UMoria">UMoria</a>, <a href="./PernAngband">PernAngband</a>, etc as sub-pages of <a href="./RogueLike">RogueLike</a>? So you would have <a href="./RogueLike_2fMoria">RogueLike/Moria</a>  <a href="./RogueLike_2fAngband">RogueLike/Angband</a>  along with <a href="./Spoilers_2fDungeons_2fMoria">Spoilers/Dungeons/Moria</a> and <a href="./Spoilers_2fDungeons_2fAngband">Spoilers/Dungeons/Angband</a> (and then list the spoilers under the dungeons here) 
+</p>
+<p>
+While I'm here, should <a class="nonexistent" href="./ArtifactList">ArtifactList</a>, given the hierachy you've placed here, be a sub-page of <a href="./Spoilers_2fArtifacts">Spoilers/Artifacts</a>?  It should at least be <a class="nonexistent" href="./Spoilers_2fArtifactList">Spoilers/ArtifactList</a> in the same vein as <a class="nonexistent" href="./Spoilers_2fSub_20Races">Spoilers/Sub Races</a> (and perhaps even <a class="nonexistent" href="./Spoilers_2fArtifact_20List">Spoilers/Artifact List</a> in the same vein as <a class="nonexistent" href="./Spoilers_2fFloor_20Inscriptions">Spoilers/Floor Inscriptions</a> 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: My apologies. I just checked the history on that page on Moria at the time you last touched it. It showed the Balrog on there, but it must have been a previous editor... yup, it was <a href="./IainMac">IainMac</a>.  
+</p>
+<p>
+I like your idea about collecting the roguelikes together. I did a search just now (in order to get the edit history) on "Moria" and I got: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Moria 
+</p>
+</li>
+    <li>
+<p>
+ Spoilers/Dungeons/Moria 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+And that did seem rather ambiguous. Your suggestion would fix that. I say go for it. The non-subordinated pages will have to be deleted -- please add their names to the <a class="nonexistent" href="./DeletionRequests">DeletionRequests</a> page. 
+</p>
+<p>
+Regarding artifacts: Done. 
+</p>
+<p>
+<a href="./GregSweetman">GregSweetman</a>: Regarding <a href="./RogueLike">RogueLike</a> reorganisation:  Done. 
+</p>
+<p>
+I have left the original pages without and deletion requests, but used an include command to pull the content from the new pages only because I'm undecided as to whether we should delete them.  (We probably should, but I'm trying to think of reasons why not) 
+</p>
+<p>
+<a href="./BurbLulls">BurbLulls</a>: Just a little question for the powers that be. In spoilers/dungeons, would it be alright if I made an extra heading for module-exclusive dungeons and did some? I wouldn't mind describing and explaining some of the dungeons in Theme, y'see... 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Yes! Please do. I'd add a sixth major heading for module-specific dungeons, and then a subheading beneath that for Theme, below which you could specify those individual dungeons. Go for it, and thanks! 
+</p>
+<p>
+OOP!! Tellya what -- let me rename the page Spoilers/Dungeons to Spoilers/Dungeon, and then you can have at. That'll save some renaming work later. I'll do it right now. 
+</p>
+<p>
+Couple of minutes later --- ummm.... I have just discovered the fact that if I rename Spoilers/Dungeons, every single last subpage will have to be renamed as well. Bleargh... Just go ahead, <a href="./BurbLulls">BurbLulls</a>. If I get up the energy to rename all those... gee, I might as well paint my house, too. <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: As per the discussion on the ego item page, I think it's at least rather likely that we need a separate spoiler page for non-ego items. Question is, do we add it in on this page, as 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ [Spoilers/Non-ego item]s (or some such) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+or do we instead use tree structure, move a few existing pages, and do something along the lines of this: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ [Spoilers/Item]s 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ [Spoilers/Non-ego item]s 
+</p>
+</li>
+        <li>
+<p>
+ Spoilers/Ego items 
+</p>
+</li>
+        <li>
+<p>
+ Spoilers/Artifacts 
+</p>
+</li>
+
+            <ul>
+
+            <li>
+<p>
+ Spoilers/Artifacts/<a class="nonexistent" href="./ArtifactList">ArtifactList</a> 
+</p>
+</li>
+
+            </ul>        </ul>    </ul>
+
+
+<p>
+The latter makes more sense to me from a classification point of view, but rather than just going and doing it, I wanted to get a few opinions about this. 
+</p>
+<p>
+<strong><a href="./TheFalcon">TheFalcon</a></strong>: So, what's with the Russian?? Possible translation= Go Figure???? 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I removed the Russian. It might be something inappropriate for all I know, and anyway putting up without an explanation a big, highly visible piece that is effective nonsense to the vast majority of people on this wiki is inappropriate in itself. 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: We lack a stats spoiler. I wonder which stats affect thaumaturgy and by how much? And how CHA influences prices?? 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: IMHO, stats affecting Thaumaturgy (if any). should be listed under Thaumaturgy. Generic stat influences (like pricing) should go under the new char attr spoiler. 
+</p>
+<p>
+<strong><a href="./TheFalcon">TheFalcon</a></strong>: I've just been looking at the <a href="./Spoilers_2fUnique">Spoilers/Unique</a>s page. Do you want the detailed spoilers for each (ie monster recall)? 'cause if so, I'm happy to do some simple pages for them in my spare time. 
+</p>
+<p>
+<strong><a href="./HarryErwin">HarryErwin</a></strong>: Would someone explain 'detect curses'? 
+</p>
+<p>
+<strong><a href="./HarryErwin">HarryErwin</a></strong>: Would someone explain 'chaotic effects'? In particular, is it true that you can pick up a corruption by wielding a weapon with chaotic effects? 
+</p>
+<p>
+<strong><a href="./TheFalcon">TheFalcon</a></strong>: I've never heard of anyone getting a corruption from a chaotic weapon, and never got one myself, but I could be wrong. 
+</p>
+<p>
+Chaotic effects meand that with every hit on a monster there is a chance to do something "chaotic". This ranges from draining the foes life, to teleporting the monster away. 
+</p>
+<p>
+Detect curses I'm not sure about. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I think in Zangband wielding a chaotic weapon gives you the notice of a chaos patron, but those don't exist in ToME anymore. I've wielded chaotic weapons extensively and the only really annoying thing about them is doing quests and having quest monsters teleported around the dungeon when you are about to kill them. 
+</p>
+</div><div id="footer">
+
+
+<a href="./SpoilerArchive?action=refresh&amp;arena=Page.py&amp;key=SpoilerArchive.text_html">RefreshCache</a> for this page (cached 2005-10-18 16:15:47)<br>
+<p><a href="./SpoilerArchive?action=edit">EditText</a> of this page (last edited 2005-10-18 16:15:47 by <span title="f132a.paawola.ton.tut.fi"><a href="./NerdanelVampire">NerdanelVampire</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:15:01 Oct 30, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:39:51 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 132.5
+  exclusion.robots: 0.182
+  exclusion.robots.policy: 0.168
+  RedisCDXSource: 0.864
+  esindex: 0.011
+  LoadShardBlock: 106.115 (3)
+  PetaboxLoader3.datanode: 102.13 (4)
+  CDXLines.iter: 21.23 (3)
+  PetaboxLoader3.resolve: 87.632 (2)
+  load_resource: 106.236
+-->

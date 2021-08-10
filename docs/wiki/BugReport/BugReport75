@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport75 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport75?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport75?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport75?action=fullsearch&amp;value=BugReport75&amp;literal=1&amp;case=1&amp;context=40">BugReport75</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport75?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport75">View</a></li>
+<li><a title="Diffs" href="./BugReport75?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport75?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport75?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport75?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport75?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport75?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport75?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport75?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport75?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport75">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+BugReport75 by Bandobras: <p>
+When Interia Controlling 
+</p>
+<p>
+e) Inertia Control     Meta                30  132   1% level 6  
+</p>
+<p>
+the spell Essence of Speed 
+</p>
+<p>
+c) Essence of Speed    Temporal            52   41   1% dur 62+d10 speed 26 
+</p>
+<p>
+I see 
+</p>
+<p>
+You feel yourself slow down. 
+</p>
+<p>
+Then several game turns passes (some by resting, some by hitting '5') and only then I see 
+</p>
+<p>
+You feel yourself moving faster! 
+</p>
+<p>
+This is not "continuously recasted". There was no leveling, or changing spell power equipment, between the casting of Inertia Control and the slowing down. 
+</p>
+<p>
+Even worse is the situation with Elemental Shield. There I loose the four resists gradually, and the recasting happens even later (probaly after I loose the last resist, I don't remember now). 
+</p>
+<p>
+Simon: perhaps inertia control should simply extend the existing effects by 1000 turns, at a high mana cost each (effects already 1000+ can be re-extended)? 
+</p>
+<p>
+<a href="./amaurea">amaurea</a>: Extending the lasting time is not simple at all - it requires modification of the body of an existing function dynamically. You would also sill have to recast things manually with a 1000 turn duration, and the whole point of inertia control is to take away the hassle of doing that. Each inertia controllable spell has a setting that specifies the recast rate, so to fix this problem we only need to change that. 
+</p>
+<p>
+Recasting the spells is not an ideal solution, but it is the simplest. An inertia controlled globe of light would be much more efficiently implemented as a lasting storm of light than a ball spell that is recast (which is very inefficient). Isn't a ball centered on the player a special case of a storm (with duration 0)? 
+</p>
+<p>
+I hear that a mechanism for interrupting various lasting effects is being planned (to give better control over things like disruption shield, which is hard-coded now). Perhaps this could be used to make inertia control really extend the spells, and not just recast them (the duration would be infinity, but the effects would be interrupted when inertia control is cancelled). 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  Weren't they gonna change the name of the spell?  Deleted the posts though.  Can't remember what all the suggestions were. Perpetual something. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport75?action=refresh&amp;arena=Page.py&amp;key=BugReport75.text_html">RefreshCache</a> for this page (cached 2004-08-10 10:00:21)<br>
+<p><a href="./BugReport75?action=edit">EditText</a> of this page (last edited 2004-08-10 10:00:20 by <span title="ctb-cache1-vif1.saix.net"><a href="./ReenenLaurie">ReenenLaurie</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:49:38 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:44 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1160.597
+  exclusion.robots: 0.06
+  exclusion.robots.policy: 0.055
+  RedisCDXSource: 58.527
+  esindex: 0.008
+  LoadShardBlock: 1078.154 (3)
+  PetaboxLoader3.datanode: 1072.941 (4)
+  CDXLines.iter: 21.28 (3)
+  load_resource: 52.097
+  PetaboxLoader3.resolve: 28.282
+-->

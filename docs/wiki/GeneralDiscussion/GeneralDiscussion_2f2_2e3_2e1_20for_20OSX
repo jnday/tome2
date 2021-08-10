@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/2.3.1 for OSX - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=fullsearch&amp;value=%2F2.3.1+for+OSX&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/2.3.1 for OSX</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Update, see <a href="./GeneralDiscussion_2fRunning_20ToME_202_2e3_2e2_20on_20MacOS_20X">GeneralDiscussion/Running ToME 2.3.2 on MacOS X</a> <hr size="3">
+ <p>
+Hi everyone, 
+</p>
+<p>
+I noticed that we only have ToME 2.2.7 for OSX, so I compiled a working version of 2.3.1 for that OS.  Yeah, I know, typing "make -f makefile.osx" is such a challenge. :P 
+</p>
+<p>
+Anyway, the question is, what should I do with it?  Where can I put it so that others can get ahold of it? 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<strong><a href="./LordDimwit">LordDimwit</a></strong>: by the way, if I posted this page incorrectly, put it in the wrong place, or committed some other kind of wiki sin, please let me know.  I still don't really know how this works. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: You did just fine. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+    </ul>
+
+
+<p>
+<strong>Sorgath</strong>: I don't think anyone really needs to bother with uploading compiled versions for OSX just write a short text file on how to use the make command for anyone who doesn't know and include it in the zip file containing the source code. 
+</p>
+
+    <ul>
+
+ <strong>Tardigrade</strong>: A compiler isn't standard issue on MacOS X, although it is free. That's why people prefer having a binary uploaded. It is for those without a compiler. 
+    </ul>
+
+
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: I'd send it to <a href="./DarkGod">DarkGod</a> so he can post it on the download section of the ToME website. 
+</p>
+<p>
+<strong>Sorgath</strong>: A compiler isn't standard? I was pretty sure it came standard on mine. 
+</p>
+
+    <ul>
+
+ <strong><a href="./FearofFours">FearofFours</a></strong>: It comes supplied on disk ("Developers Tools"), but not installed. 
+    </ul>
+
+
+<p>
+<strong>AaronM</strong>: I've got a build up at <a href=".munge.net/tome-231-osx.tar.bz2">http://munge.net/tome-231-osx.tar.bz2</a> if anyone reading this wants it. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+
+    <ul>
+
+ <strong><a href="./LordDimwit">LordDimwit</a></strong>: huzzah! 
+    </ul>
+
+
+<p>
+"Lionors": What would be very helpful would be a MacOS X readme that tells one one needs to make -f, not just make (That caught me out, as a Linux user who's only now playing with OS X for the first time). But yeah, there's no real need to post an OS X version. Now I wonder...can I compile a carbon version that will run on the system I haven't got around to upgrading yet... 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2f2_2e3_2e1_20for_20OSX.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:29:50)<br>
+<p><a href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX?action=edit">EditText</a> of this page (last edited 2006-01-22 16:00:53 by <span title="static-71-116-225-149.lsanca.dsl-w.verizon.net"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:25:39 Jun 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:23 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 100.162
+  exclusion.robots: 0.077
+  exclusion.robots.policy: 0.072
+  RedisCDXSource: 1.876
+  esindex: 0.007
+  LoadShardBlock: 77.736 (3)
+  PetaboxLoader3.datanode: 91.108 (4)
+  CDXLines.iter: 17.967 (3)
+  load_resource: 830.933
+  PetaboxLoader3.resolve: 793.543
+-->

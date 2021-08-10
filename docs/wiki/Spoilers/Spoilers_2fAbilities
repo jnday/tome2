@@ -1,0 +1,377 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Abilities - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fAbilities?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fAbilities?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fAbilities?action=fullsearch&amp;value=%2FAbilities&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Abilities</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fAbilities?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fAbilities">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fAbilities?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fAbilities?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fAbilities?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fAbilities?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fAbilities?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fAbilities?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fAbilities?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fAbilities?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fAbilities?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fAbilities">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-97614935af9ceae80af0f150634a2df60f3550cf">Introduction and guidelines</a></li>
+<li>
+<a href="#head-6bf91894f39aeba058a5dc2b21fba9b7faaa6b04">Ammo creation</a></li>
+<li>
+<a href="#head-128683e32074b5958ceab0014b2fe3c417be4b1d">Piercing Shots (cross-reference)</a></li>
+<li>
+<a href="#head-3b871789c07fba082c45f1c540453140918ce609">Artifact Creation</a></li>
+<li>
+<a href="#head-34879689908f2e29fe2b967b9ca2acc5eebb5d3c">Extra Max Blow (1)</a></li>
+<li>
+<a href="#head-a4810b51ba681bb4cc288ad118df6aff18474bc7">Extra Max Blow (2)</a></li>
+<li>
+<a href="#head-c0e459de14c9ba5e0a8a5e3eb4e86b7c2a606115">Far reaching attack</a></li>
+<li>
+<a href="#head-c2e5f21e7926ab27e1a89b57df902087d4699af5">Perfect casting</a></li>
+<li>
+<a href="#head-bab2dad4b0784bf7e604aa0f4d20ed995bf67ce5">Spread blows</a></li>
+<li>
+<a href="#head-77f0c7b84aa87c7243d08dec0f5462678ab0b8de">Touch of death</a></li>
+<li>
+<a href="#head-efc5d7f691e44381658dc7120a641d3d4cf94c48">Trapping</a></li>
+<li>
+<a href="#head-ca38d75289790f90b6f89d4ce046740cb12371bd">Tree walking</a></li>
+<li>
+<a href="#head-859fe3582c4adf3e73a435351d820d29bb4ffab5">Undead form</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-97614935af9ceae80af0f150634a2df60f3550cf">Introduction and guidelines</h3>
+Please use this section of spoilers for spoily discussion related to these abilities. General documentation belongs over in <a class="interwiki" title="Self" href="./Documentation/Abilities"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Documentation/Abilities</a>, not here. <p>
+If you have a short comment, just enter it under the appropriate heading. If it's a long question or it turns into a discussion, please thread it under the heading. 
+</p>
+<h3 id="head-6bf91894f39aeba058a5dc2b21fba9b7faaa6b04">Ammo creation</h3>
+Your ability to create different ammos depends on your archery skill level. 
+<div>
+<table>
+<tr>
+<td>
+ Ammo type </td>
+<td>
+ Min archery skill </td>
+<td>
+ Base material for ammo</td>
+</tr>
+<tr>
+<td align="center">
+ shots </td>
+<td align="center">
+ 1 </td>
+<td>
+ rubble </td>
+</tr>
+<tr>
+<td align="center">
+ arrows </td>
+<td align="center">
+ 10  </td>
+<td>
+ junk (found skeletons, sticks, etc) </td>
+</tr>
+<tr>
+<td align="center">
+ bolts </td>
+<td align="center">
+ 20 </td>
+<td>
+ junk (found skeletons, sticks, etc) </td>
+</tr>
+</table>
+</div>
+<p>
+Check out <a href="./Spoilers_2fAbilities_2fAmmoCreation">/AmmoCreation</a> details on bonuses, creating ego and artifact ammo, etc. 
+</p>
+<h3 id="head-128683e32074b5958ceab0014b2fe3c417be4b1d">Piercing Shots (cross-reference)</h3>
+The ability to <a class="interwiki" title="Self" href="./Spoilers/Skills/Piercing_20Shots"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">fire piercing shots</a> cannot be bought, but is presented here for completeness. <h3 id="head-3b871789c07fba082c45f1c540453140918ce609">Artifact Creation</h3>
+<h3 id="head-34879689908f2e29fe2b967b9ca2acc5eebb5d3c">Extra Max Blow (1)</h3>
+<h3 id="head-a4810b51ba681bb4cc288ad118df6aff18474bc7">Extra Max Blow (2)</h3>
+Neither of the Extra Max Blow abilities will affect the number of blows for barehanded combat characters. <h3 id="head-c0e459de14c9ba5e0a8a5e3eb4e86b7c2a606115">Far reaching attack</h3>
+Not all polearms work with the far-reaching attack: Only Halberd, Pike, Heavy Lance and Lance can be used for this attack. <p>
+A <em>Far reaching attack</em> does (<strong>maxBlows</strong> * <strong>Polearm Skill</strong> / 100) Blows per round (so with 50 in Polearm Mastery it'll deal half your max blows) but it seems to take 2 turns (energy += 200) 
+</p>
+<h3 id="head-c2e5f21e7926ab27e1a89b57df902087d4699af5">Perfect casting</h3>
+<h3 id="head-bab2dad4b0784bf7e604aa0f4d20ed995bf67ce5">Spread blows</h3>
+Spread blows does not work with Barehand combat. 
+    <ul>
+
+ <em>[Um, actually, it does AFAICT; it's just awfully expensive to get for a barehand-fighter, since it means spending a lot of skill points in a skill you're not going to use. -- <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a> 2004-08-27 01:03:03]</em> 
+    </ul>
+
+
+<h3 id="head-77f0c7b84aa87c7243d08dec0f5462678ab0b8de">Touch of death</h3>
+Cost: 40 mana. <p>
+Duration : 11 to 40 turns. 
+</p>
+<p>
+Effect : 1 time in 20, instakill the monster the monster that got your blow, provided he isn't UNIQUE, UNDEAD or NONLIVING. You get 1/3 of the Xp worth. 
+</p>
+<h3 id="head-efc5d7f691e44381658dc7120a641d3d4cf94c48">Trapping</h3>
+See  <em><a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=4745"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">Wastrels Guide to Trapping</a></em> and <em><a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=4674"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">A Day in the Life of a Hobbit Trapper</a></em> (also by Wastrel) in the forum. <p>
+To pick up a set trap, you can unset it with the disarm command just like a regular trap. 
+</p>
+<h3 id="head-ca38d75289790f90b6f89d4ce046740cb12371bd">Tree walking</h3>
+<p>
+The tree walking ability allows you to walk through live trees. (Dead trees cannot be walked through unless you have, say, Wraithform.) You must have the Nature skill at 20.000 in order to buy it. 
+</p>
+<p>
+Ents and Wood-Elves are born with this ability. 
+</p>
+<h3 id="head-859fe3582c4adf3e73a435351d820d29bb4ffab5">Undead form</h3>
+<hr size="3">
+ <h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h3>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: I'm trying my hand at trapping for the first time.  Is there any way to pick up a set trap, or do you just have to wait for it to be set off? <p>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: Derrr, I'm an idiot... the "Disarm" command works pretty well, doesn't it?  Guess I'll make a note of that in the spoiler section for Trapping up there. 
+</p>
+<hr size="3">
+ <p>
+<a href="./FeathinSilyar">FeathinSilyar</a>:  In regards to Ammo Creation, isn't there always a chance to make artifact ammo?  Chances may increase with skill level perhaps, but the current way it is worded here makes it sound like at some skill level you get to make artifact ammo whenever you want, and never with low levels.  I know I've made artifact pebbles very early in the Barrow Downs. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Abilities don't have a level.  They're either on or off. 
+</p>
+
+    <ul>
+
+ <a href="./FeathinSilyar">FeathinSilyar</a>:  The ammo creation ability is dependent on the archery skill level for deciding when the player is allowed to make arrows and bolts.  The ability doesn't have levels, but the results of using the ability are set to a skill's level.  My point earlier was hinging on what is currently written on this page about that ability where it states that about the archery skill, so the argument is contingent upon a person who knows what is said on this page about that skill, thus they would know that I was talking about archery and not some "ability skill level". <p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Feathin: So, let's fix it. Is there some sort of formula for how skill level in archery affects how "good" the resulting ammo is? (I presume DL has no bearing...) 
+</p>
+
+            <ul>
+
+   <strong><a href="./RavenRed">RavenRed</a></strong>: I support this absolutely. And each different ammo should have it's own level for the different "standards" of ammo. Perhaps Baselevel +5 = {good} Baselevel +15 = {excellent} and disallow Artifact Ammo to be created by this ability.  <p>
+   <strong><a href="./MayLith">MayLith</a></strong>: Um, actually, what I meant was, let's fix the entry on this page by describing the current operation of the code (and I was begging for input as to what that wasy. ) But, I like your idea -- I'd say, put it in the <a href="./IdeaArchive">IdeaArchive</a>. 
+</p>
+
+                <ul>
+
+    <strong><a href="./RavenRed">RavenRed</a></strong>: &lt;amused snort&gt; Fair enough. Will do. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+                </ul>            </ul>
+
+
+ <strong><a href="./NeilStevens">NeilStevens</a></strong>: I always assumed it was dungeon level, but I really don't know. 
+    </ul>
+
+
+<hr size="3">
+ <p>
+Wastrel:  Did the max number of blows change in 2.3?  I thought with both max blow abilities and decent stats all classes got 6 blows, but it seems to be 8 blows with my latest character (+3 more blows from skills and equipment) 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  Is your character a Warrior or subclass thereof?  These all get extra blows as they increase in level:  +1 at level 17, +2 at level 34, and +3 at level 50. 
+</p>
+<p>
+Wastrel: The character is a 34+ level polearm master.  So the 2 extra blows must be class related.  Since this is spoilers, perhaps some extra information under the abilities would be useful.  Correct me if I am wrong, but I guess it should read something like this: 
+</p>
+
+                                        <ul>
+
+          All characters have a normal maximum of 4 blows.  Receiving that maximum depends upon strength, dexterity, and the weight of the weapon.  These two abilities (whether chosen or received for free) will raise the maximum up to 6 blows.  Furthermore, warriors will receive up to 3 additional blows depending upon their level.  Certain skills and equipment can also raise the number of blows. 
+                                        </ul>
+
+
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: actually, AFAIK the additional blows should come from the masteries. I.e.: you have probably a high polearm-mastery. That trigger extra blows (about 1 every 25 point in the corresponding skill, IIRC). Anyway i think the normal maximum number of blows should go in a 'generic' spoiler page (maybe 'Character attribute'?), while the bonus from the masteries would have to be put into the specific skill spoiler page. 
+</p>
+<p>
+<strong><a href="./JulesBean">JulesBean</a></strong>: No, the *mastery effect is separate. So characters get: 1-6 blows based on STR and DEX (but capped at 4 if you don't have the two abilities) + up to three blows for being a warrior + up to two blows for wielding a weapon you have the mastery skill of. (Aside to <a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>: this information might be apropos in the section of your skill spoiler on weaponmasteries, even though it's really about classes). 
+</p>
+
+    <ul>
+
+ <strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  Is <a class="external" href=".killerbunnies.org/angband/skill-230.html#combat_blows"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">this</a> what you had in mind? <p>
+ <strong><a href="./JulesBean">JulesBean</a></strong>: Yes <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> 
+</p>
+
+    </ul>
+
+
+<p>
+This is a bit weird, anyhow, since it is only warriors that can practice the *masteries anyway. So warriors are effectively eligible for up to 5 extra blows. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Since when do warriors get extra blows from character level?  They get the extra max blows abilities free, plus the spread blows ability, but I don't see where they just get free blows. 
+</p>
+<p>
+<strong><a href="./JulesBean">JulesBean</a></strong>: Since forever? Since Zangband, I think. (I *think* that the extra blows were added to zang warriors to power them up a bit because of monster inflation, but that's guesswork. A quick Google Groups dates it back to pre-1997). The relevant code is here: (<tt>xtra1.c</tt>) 
+</p>
+
+<pre>                /* Use the blows table */
+                p_ptr-&gt;num_blow = blows_table[str_index][dex_index];
+
+                /* Maximal value */
+                if (p_ptr-&gt;num_blow &gt; num) p_ptr-&gt;num_blow = num;
+
+                /* Add in the "bonus blows" */
+                p_ptr-&gt;num_blow += extra_blows;
+
+                p_ptr-&gt;num_blow += p_ptr-&gt;lev * cp_ptr-&gt;extra_blows / 50;
+
+
+                if (get_weaponmastery_skill() != -1)
+                        p_ptr-&gt;num_blow += get_skill_scale(get_weaponmastery_skill(), 
+2);
+
+                /* Require at least one blow */
+                if (p_ptr-&gt;num_blow &lt; 1) p_ptr-&gt;num_blow = 1;
+</pre><p>
+It's the cp_ptr-&gt;extra_blows bit that we're talking about. If you check in p_info you'll see that Warriors have extra_blows at 3, all other classes have it at 0. It's the final number in the C:S: line. 
+</p>
+<p>
+I was almost 100% sure you wouldn't like this bit Neil <img src="./wiki/rightsidebar/img/smile.png" alt=":-)" height="15" width="15"> It's rather un-ToME-like to have something like this be class dependent. Personally I'd be in favour of moving its effect to weaponmastery. (That is, you would then get up to 3 extra blows from your Weaponmastery skill *and* up to 2 extra blows from your Foomastery skill: only warriors would be eligible for the second since only warriors can practice Foomastery) 
+</p>
+
+    <ul>
+
+ <a href="./TheFalcon">TheFalcon</a>: Don't assassins get swordmastery, or am I mis-remembering? 
+    </ul>
+
+
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Very good catch.  I'm inclined to call this a bug and fix it in 2.3.2, so that the extra blows are indeed tied to weaponmastery, not class.  <a href="./DarkGod">DarkGod</a>: Do you agree? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: He told me in  an email that he agreed, so it's going into ToME 2.3.2.  <tt>cp_ptr-&gt;extra_blows</tt> is zeroed now for all classes, and the mastery blow code looks like this: 
+</p>
+
+<pre>                /* Use the blows table */
+                p_ptr-&gt;num_blow = blows_table[str_index][dex_index];
+
+                /* Maximal value */
+                if (p_ptr-&gt;num_blow &gt; num) p_ptr-&gt;num_blow = num;
+
+                /* Add in the "bonus blows" */
+                p_ptr-&gt;num_blow += extra_blows;
+
+                /* Special class bonus blows */
+                p_ptr-&gt;num_blow += p_ptr-&gt;lev * cp_ptr-&gt;extra_blows / 50;
+
+                /* Weapon specialization bonus blows */
+                if (get_weaponmastery_skill() != -1)
+                        p_ptr-&gt;num_blow += get_skill_scale(get_weaponmastery_skill(), 2);
+
+                /* Bonus blows for plain weaponmastery skill */
+                p_ptr-&gt;num_blow += get_skill_scale(SKILL_MASTERY, 3);
+
+                /* Require at least one blow */
+                if (p_ptr-&gt;num_blow &lt; 1) p_ptr-&gt;num_blow = 1;
+</pre><p>
+<a href="./GreyCat">GreyCat</a>: Ooooh, excellent!  Druids, Paladins, Rogues (and to a lesser extent Assassins), Rangers, and all the other non-Warriors-who-still-fight are going to love this.  I put Druids first because giving them more blows per round makes their Water Bite even more spectacular.  Neil, did you playtest this for balance yet? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Balance of what? 
+</p>
+<p>
+<a href="./GreyCat">GreyCat</a>: To see whether it makes the game too easy for Druids, <em>et al.</em> 
+</p>
+<p>
+I'm testing with a fast-start Druid right now.  The extra blow that they get around 15th level makes a big difference to their early-game power.  I took the fast way into Deathwatch much sooner than I normally would have.  I'm only 28th level right now, cruising the sandhole for stat gains, books and rods.  This part isn't changed much, because 1 extra blow doesn't make that big a difference in the mid-game (5 blows vs. 4 -- only a 25% increase).  I'm getting up into the part of the game where Mindcraft becomes the preferred offensive technique, so there shouldn't be much difference until the end of stat gain, when piety is high and melee with Water Bite becomes the preferred offensive technique. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: As far as I'm concerned, if you're willing to pump Weaponmastery, you're entitled to the better power.  The generalists need all the help they can get. 
+</p>
+<p>
+<strong>Sly</strong>: Added info on <em>Far reaching attack</em> and <em>Touch of death</em> 
+</p>
+<p>
+<strong><a href="./ScrawnyCat">ScrawnyCat</a></strong>: but magik(5) evaluates to true 5% of the time, not 1 time in 5. Also, randint(30) gives a random number between 1 and 30, not 0 and 30. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fAbilities?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fAbilities.text_html">RefreshCache</a> for this page (cached 2005-11-04 16:09:05)<br>
+<p><a href="./Spoilers_2fAbilities?action=edit">EditText</a> of this page (last edited 2005-08-29 03:19:45 by <span title="h224n2fls32o884.telia.com"><a href="./ScrawnyCat">ScrawnyCat</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 22:11:52 Dec 13, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:28 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 6546.683
+  exclusion.robots: 0.097
+  exclusion.robots.policy: 0.089
+  RedisCDXSource: 1.723
+  esindex: 0.008
+  LoadShardBlock: 6524.237 (3)
+  PetaboxLoader3.datanode: 6535.961 (4)
+  CDXLines.iter: 18.156 (3)
+  load_resource: 88.786
+  PetaboxLoader3.resolve: 41.328
+-->

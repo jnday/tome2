@@ -1,0 +1,738 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Instakill - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fInstakill?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fInstakill?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fInstakill?action=fullsearch&amp;value=%2FInstakill&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Instakill</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fInstakill?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fInstakill">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fInstakill?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fInstakill?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fInstakill?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fInstakill?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fInstakill?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fInstakill?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fInstakill?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fInstakill?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fInstakill?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fInstakill">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-7de914eaaccf41cfe4b9b258beaef78f13505a9c">Instakill (or InstaDeath)</a></li>
+<ol>
+<li>
+<a href="#head-cb468bda638ecb4aff5ee1cb330803ac326d4a6a">Moldoux on dungeon level 1 only</a></li>
+<li>
+<a href="#head-becb167199b5836689564ea466985763dd8954e0">Floating eyes (and other paralyzers)</a></li>
+<li>
+<a href="#head-af0142ad00e33d2b963fb71489f106544ba4cefb">Food eaters</a></li>
+<li>
+<a href="#head-998022f345cf5d5ca1ffaf7a118a2c93126b934a">Melee attacks</a></li>
+<li>
+<a href="#head-f9e177bce886f721354ba679411978c983e458a8">Melee Attacks Part II, or "It hit me for HOW MUCH?!?"</a></li>
+<li>
+<a href="#head-16684ae2fa1c9527286401733f587c540f309122">Dragon breath, or group of hounds breath</a></li>
+<li>
+<a href="#head-c693934f70d68bf043c6e3a3b09891fa12cce0df">Nasty spells</a></li>
+<li>
+<a href="#head-ef1ddd42c699b66c5160795c15ba432dfbb6ad7d">Lost souls</a></li>
+<li>
+<a href="#head-d4ead3f72a84db25bf206577deb5dd9318ef853a">Quakes, wall traps, wilderness hunger, etc</a></li>
+<li>
+<a href="#head-d711a74808fbdfcf5189b387ea8ea0900e53802b">Traps</a></li>
+<li>
+<a href="#head-159f71c79a0c969ebf706d5237ccae877e4461a5">Hacking corpses</a></li>
+<li>
+<a href="#head-1998e498a1b31047d99bea39c2696e68585ec5e8">Drowning</a></li>
+<li>
+<a href="#head-40816fb60db18945d65fa4646871fc42816963f2">Potions and junkarts</a></li>
+<li>
+<a href="#head-0693b94633b4cd20f16b488c7eb9255d461bad9d">Class- and Race- specific</a></li>
+<li>
+<a href="#head-5cf9b7975717bdc886f7e34c254658a816bd2447">Small levels, too many monsters</a></li>
+</ol>
+
+</ol>
+
+ <hr>
+ <h3 id="head-7de914eaaccf41cfe4b9b258beaef78f13505a9c">Instakill (or InstaDeath)</h3>
+<p>
+An <a class="nonexistent" href="./InstaKill">InstaKill</a> (sometimes written IK) is a situation where a fully healthy player can be killed before he has time to take any action. 
+</p>
+<p>
+In the more generic sense an IK also includes situations that make you doomed to die without actually killing you, such as not being able to stop poisoning when at a very low level. 
+</p>
+<p>
+Permanent catastrophes that make players abandon their characters on the spot have also been added 
+</p>
+<h4 id="head-cb468bda638ecb4aff5ee1cb330803ac326d4a6a">Moldoux on dungeon level 1 only</h4>
+<p>
+If you have joke monsters on, this unique purple mold may appear at level 1 (and level 1 only - includes death fates). Killing it brings great wyrms of power to avenge it! (Clearly illogical, but this is a joke monster). It has very few hit points so be careful. 
+</p>
+<p>
+Newbies of a character level under 10 are expected to die regardless of class/race in one dragon turn unless the great wyrm of power summons more ancient dragons as its first move. If you live due to the summoning, the dragon next turn may kill characters of level 20 in one turn (unless they have resists, and even then...). Those dragons are fast so you usually don't get to move until their second or third turn! 
+</p>
+<p>
+o save you from a GWOP's breath or melee attacks. 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Abandon the idea of autotargetting and related macros in dungeon level 1 (autotargetting is the reason experienced players keep dying more often than warned newbies from this silly death). 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Kill moldoux using some distance attack and then go up/downstairs as your very next move. You might live and not see moldoux again. Avoiding Moldoux's death is usually a better option until you can survive a few GWOP attacks/summons and flee (there is little point in fighting as they have dungeon level 1 treasure and they're a bit tough for the XP they give). 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Use a teleport scroll to get away (teleport spells can fail, and thunderlord recall takes one more turn. Phase door scrolls don't go far enough). Sometimes you'll appear next to the dragons again especially in small levels; sometimes you get IKed after a few teleport that can't seem to get you in a place you can safely walk to any stairs. Do remember some ancient dragons pass thru walls to chase you. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Genocide the 'D' when it shows up - if you can stand some HP loss. GWOPs and their summons are generally not worth fighting until you can do it safely.  
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-becb167199b5836689564ea466985763dd8954e0">Floating eyes (and other paralyzers)</h4>
+<p>
+Also at dungeon level 1 floating eyes start showing up. If you still use a torch you might walk next to one without seeing it first, and you might get paralyzed by its gaze until IK by starvation, or until the floating eye kills you.  The floating eye's gaze counts as a melee attack, so it will "miss" you if your AC is high enough.  Since the floating eye is a level 1 monster, it can't hit you very often if you have a decent AC.  Floating eyes are therefore really only a problem for players who have extremely <em>poor</em> AC, either because they didn't buy any armor, or because they have set their Tactics to "Berserk" and left it there. 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Get a lantern so you can see them before you walk next to them. Throw junk at them until they die if they're in the way. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Wear a "free action" (FA) item as soon as you can, so that paralyzing monsters won't IK you.  (Also note that Gnomes start the game with innate FA.) 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If you absolutely need to get next to one, set your melee style toward Coward to boost your saving throw and AC - but check your melee so you can still do a few points of damage. Get the best AC you possibly can, it helps. Floating eyes have very few hit points so they're easy to kill if the paralysis didn't get you, and if you lose a very low level character it's not all that bad a risk to take. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If you have a fire or electric aura available, that might kill the eye (eventually). I haven't tried - on the forum it was said to work with some paralyzers that can move. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-af0142ad00e33d2b963fb71489f106544ba4cefb">Food eaters</h4>
+<p>
+Some monsters eat your food - that includes everything used with the 'E' command including Athelas Sprigs! While not technically an IK it can doom you instantly if not prepared. 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Carry some satisfy hunger scrolls. Fireproof them with the quest if you can, and use them only as a last resort after regular satisfy hunger scrolls. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Don't destroy the first corpse that you get on a level. You might have to eat from it! 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Remember that potions have a slight nutritional value. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Skeletons have a marginal nutritional value, but are poisonous and the poison effect is long-lasting. Poison resistance helps. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Undead can eat whole corpses one meat at a time if they run out of scrolls. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-998022f345cf5d5ca1ffaf7a118a2c93126b934a">Melee attacks</h4>
+<p>
+Simply put, being in melee with too many monsters at once or one very powerful monster can be deadly. 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Have a way to teleport yourself out of danger.  At low levels, phase door combined with setting Explore to "Running" (and then running away) may suffice.  At high levels, carry teleport scrolls.  They have a 0% failure rate, unlike most spells. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Always keep a few healing potions handy that are capable of curing poison. While poison isn't an IK, if you can't do anything about it you might be doomed - depending on how much time it takes for the poison to run out. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Get more resists. Some are more important than others, and it is sometimes very wise to change your resists by changing equipment for the purpose of melee with a specific monster that has a very nasty attack. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Get something against summoners. Stacks of teleport scrolls or any form of genocide helps.  Ranged ball attack spells are even better -- take out the summoners quickly. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-f9e177bce886f721354ba679411978c983e458a8">Melee Attacks Part II, or "It hit me for HOW MUCH?!?"</h4>
+<p>
+Around dungeon level 10, the game begins generating an invisible, fast, nominally friendly creature known as the Young spirit.  These are always generated as your pets, but if you aggravate, or if you bump into it accidentally (it's invisible), or if it happens to wander into one of your lingering noxious clouds, it will turn hostile and attack you for up to 72 points of damage per normal-speed turn.  (It has a 9d4 melee attack, and it's fast, and you can't see it.) 
+</p>
+<p>
+There are only three known defenses against this horrible IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Be able to see invisible. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Be powerful enough (HP and AC) to withstand its melee attacks. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Dismiss your pets as soon as you enter a new level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Of course, that last one won't save you if a Crypt creep summons one of these in the middle of a fight, but you're far more likely to get one of these at level generation. 
+</p>
+<p>
+There is a weaker form of this (the Child spirit), and a few more powerful forms, but the Child spirit only hits for 3d4, and the other spirits appear much deeper in the dungeon. 
+</p>
+<h4 id="head-16684ae2fa1c9527286401733f587c540f309122">Dragon breath, or group of hounds breath</h4>
+<p>
+According to LD's guide, dragon breath can do up to 1600 HP damage at once (double for fire on an Ent or certain possessed corpses). This is more HP loss than certain character classes or races can survive even at high level (example, yeek sorcerer). 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Don't go in deep dungeons until you have enough HP. Stick with dungons who have monster types you can cope with. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Get as many resists and immunities as you can 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Groups of powerful hounds should be fought separately; corridors help. Keep in mind hounds will rarely get close to you if you're at full HP (they're usually waiting for one of them to breath you before melee). 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Only the space-time anchor can help you against groups of time hounds (they're not technically IK, but having your STR lowered to 3 can affect your speed radically resulting in IK) 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Get speed at least equal to the monster you fight, so that in case of being lowered to very low HP you can *ALWAYS* get an action before the monster breathes again. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ When dealing with dragons who summon dragons who summon dragons, use genocide or stacks of teleport scrolls. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-c693934f70d68bf043c6e3a3b09891fa12cce0df">Nasty spells</h4>
+<p>
+Some monsters point at you and say "Die!". This can be the curse and cause wounds attack, usually IK people doing the spider or library quest unprepared. 
+</p>
+<p>
+Monsters such as Araneas, Patriarchs and some liches/priest types have this spell. 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Wait until you have lots of HP. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Boost your saving throw with Spirituality, or wear an amulet of anti-magic, which gives you a saving throw of 95%. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Get the shards resist. I *think* it reduces damage from the cause wounds effect, it at least prevents bleeding to death. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Some liches have an attack that can lower your INT and WIS and sanity until you turn into a vegetable; this can happen in a single attack so keep your saving throw up when dealing with powerful or unknown undead casters. Alternatively having sustain for INT and WIS will make it safe. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ You can kill very powerful casters with attacks that affect an area (such as around a corner where they can't see you) or have a persistent or delayed effect. Tidal wave can be handy so they won't touch you. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If all else fails, teleport out or teleport them out. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Another nasty spell is mana bolt, which cannot be resisted.  The first monster you'll find which uses this attack form is the dark elven warlock, which appears around dungeon level 25, in groups, and is fast.  Dealing with these can be difficult: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Your best bet is to have reflection.  Mana bolts will bounce off you, often hitting the caster and killing it. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If you don't have reflection, you should have plenty of hit points.  You may need to be able to withstand 2-3 mana bolts at a time if you can't detect the monsters in advance; so you will need over 300 hit points. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Since these are bolt spells, they can't travel <em>through</em> enemy monsters to reach you.  Therefore, a corridor is the best place to handle these monsters -- you can only be hit by one monster's mana bolt attacks at a time. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Detecting them in advance, as mentioned above, is the best way to avoid becoming surprised by a group of them.  Telepathy (even in the limited form of "Evil ESP", since these are evil monsters) is the best way.  Casting detect monsters frequently is also wise, even if you do have telepathy, because some monsters won't be detected by telepathy. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-ef1ddd42c699b66c5160795c15ba432dfbb6ad7d">Lost souls</h4>
+<p>
+Lost souls start at dungeon level 98, and are usually doomed to a very quick death for being very underpowered compared to monsters or traps. 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Monsters who can't harm you can still block the way out of a shop; a level 96 blubbering idiot for example might have too many HP and regenerate too fast for you to kill. Starvation due to blocking eventually occurs. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ The lost soul spoiler is worth reading! 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Consider not playing lost souls! There is not much you can do about it except maybe play a deathmold sorcerer so you don't depend on ammo or even stairs. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-d4ead3f72a84db25bf206577deb5dd9318ef853a">Quakes, wall traps, wilderness hunger, etc</h4>
+<p>
+Some monsters and traps can leave you trapped. You can also have your light run out or get hungry in the wilderness (or get ambushed) and appear in a tree-surrounded area. Without diggers or treewalk you're stuck until starvation! 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Always have a digger, a pick better a gnomish shovel as soon as possible (the shovel doesn't do granite walls until your STR is way up). Keep in mind that stone to mud DOES NOT WORK ON TREES!!! A repeateble source of teleport might also work. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-d711a74808fbdfcf5189b387ea8ea0900e53802b">Traps</h4>
+<p>
+Many traps can IK you in very deep dungeon, but some early traps (scatter items) can also make you unprepared for even a weak monster (especially if you're dependant on spellbooks or stacks of healing potions). 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Get more resists and immunities if you can 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Detect traps a lot and read the traps spoiler. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Get your most important spells written on objects you wear when you can - it's a lifesaver if you need a spell and a trap or thief got important spellbooks away from you. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Monsters that 'cackle evilly' have just laid a few new traps for you, it would be wise to detect again! 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If all else fails, drop lots of junk (such as hacking a large body for meat repeatedly). Stuff won't drop on traps! 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-159f71c79a0c969ebf706d5237ccae877e4461a5">Hacking corpses</h4>
+<p>
+Be extremely cautious when hacking corpses, especially dragon corpses. When hacked, some corpses release effects related to their nature. Hacking a baby electric dragon may cause electicity damage, for example. Multi-hued dragon corpses may cause damage from all four elements. Hacking even baby dragon corpses can kill you. 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Don't do it in the first place, especially if you are not familiar with what will happen. 
+</p>
+</li>
+    <li>
+<p>
+ If you must hack a corpse, especially a dragon/hound/breather: 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Have lots of HP before you begin. 
+</p>
+</li>
+        <li>
+<p>
+ Resistance, resistance, resistance. Have as many base resists as you can. Having double resistance via a Potion of Resistance, Character Armour, etc. is even better. <em>Immunities</em> are best, but remember they won't save you against things like plasma or confusion. 
+</p>
+</li>
+        <li>
+<p>
+ Heroism potions will give you 10 HP more to your maxHP long enough to hack all the meat you need. At low level this trick might be critical! 
+</p>
+</li>
+        <li>
+<p>
+ Set your tactic to 'coward' to increase your saving throw. 
+</p>
+</li>
+        <li>
+<p>
+ Consider eating from the corpse directly; you might get resists instead of damage. 
+</p>
+</li>
+        <li>
+<p>
+ If you eat meat from a summoner of nasty monsters and you aggravate, you might be surrounded by pets turned hostile next turn! 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h4 id="head-1998e498a1b31047d99bea39c2696e68585ec5e8">Drowning</h4>
+<p>
+Drowning: just walking thru an innocent decorative water feature can kill you if you're low on HP. Carelessly going into water squares with too much weight on you may cost a bit more HP than you expect! 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Get levitation (or if you're very lucky, water breathing). 
+</p>
+</li>
+    <li>
+<p>
+ Consider destroying or dropping some of your heavy stuff so you can swim. 
+</p>
+</li>
+    <li>
+<p>
+ Don't stand where water-related monsters cast spells or did a breath on you; there might be water under your feet. 
+</p>
+</li>
+    <li>
+<p>
+ If otherwise doomed, try teleporting or grow some trees 
+</p>
+</li>
+    <li>
+<p>
+ The underwater dungeon requires water or magic breathing, or an extremely good way to heal you a lot constantly. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-40816fb60db18945d65fa4646871fc42816963f2">Potions and junkarts</h4>
+<p>
+Some junkarts activate for death (or paralysis, which sometimes means nearby monsters will kill you before you recover). There is also the potion of death, that may appear as out-of-depth in even your first dungeon level! In ToME a death potion or death activation means 5000 HP loss (so a necromancer can actually come back)! 
+</p>
+<p>
+The detonation potion even pseudo-ID as {good} so pseudo-ID is risky too. A common lost soul death is to drink one of those and get about 500 non-resistable damage plus the "mortal wounds" cut level. 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ ID potions and junkarts before use (death is not the only risk here - think corruption, high loss of all stats, high XP loss, paralysis, or even hunger causing effects). 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If you can't afford ID, sell them. Cool junkarts can be bought back, potions are very rarely more useful than some gold to afford your first few ID scrolls. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If shops won't buy them, give them to the mathom house. That will give you an ID. There is a very slim chance that you will mathom the potion of learing or the blood of life(!!!) but if you can't afford ID scrolls yet it's a safe bet you're too low level for this risk to be likely. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Remember some potions remain the same apparence from game to game - water is clear. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ If town is too far and you're full, destroy the potion. If it's destroyable you'll meet that potion type again anyways - if not treasure it as it is probably something really really cool such as the learning potion or the blood of life (except for some potions from Death Fates who might be anything)! 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Throwing at a monster a potion might destroy the blood of life or the potion of learning, or even speed or heal monsters! Destroying with the 'k' command should be the last choice unless you positively need to throw something to survive. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-0693b94633b4cd20f16b488c7eb9255d461bad9d">Class- and Race- specific</h4>
+
+    <ul>
+
+    <li>
+<p>
+ Alchemist explosions can kill you on your very first turn if you make that detonation potion. This is more of a comical thing as you just restart. Just be reminded not to risk alchemic explosions before you can survive them (at 120 HP it *seems* to be safe). 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Archers might want to harvest ammo from certain traps, and with luck they might equip themselves a lot from an arrow trap. There is always the feeling that you can risk it one more time - this is when the nifty randard group of arrows kills you! 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Spectres go thru obstacles and lose HP if you're not careful - especially with where you rest. If you're low level or do it too long, then your HP is goes under 10 and any sort of damage might kill you. 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-5cf9b7975717bdc886f7e34c254658a816bd2447">Small levels, too many monsters</h4>
+<p>
+Some small levels are so crowded with monsters you can't even teleport to safety! You might have realised this too late or have been breathed on by a gravity hound. You're doomed before a recall scroll would get you out. Too much monster variety for genocide. What to do? 
+</p>
+<p>
+To avoid this IK: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Kill some monsters, grow some trees or make some walls (with thaumaturgy wall creation) to box you in. Deal with one monster at a time (trees growing in some dungeon will require regular floor space, not ice or lava. Dig a wall or rubble to get it. With mount Doom, try walls or grow trees on open/destroyed doors/ashes). 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Repeated charming spells on lots might work. Very rarely. And friendly breathers can still hurt you!! Not a very good option. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Teleport level scrolls (preferably fireproof) are your first, last, best, and only line of defense against certain emergencies. Provided you're not confused or blind of course! They can get you out of ANYTHING it seems. There are also junkarts of teleport level if you're blind  
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fInstakill?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fInstakill.text_html">RefreshCache</a> for this page (cached 2005-11-04 18:00:42)<br>
+<p><a href="./Spoilers_2fInstakill?action=edit">EditText</a> of this page (last edited 2005-05-28 03:01:54 by <span title="209.142.155.49=wooledge.org">wooledge</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:09:33 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:48 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 123.934
+  exclusion.robots: 0.281
+  exclusion.robots.policy: 0.259
+  RedisCDXSource: 1.399
+  esindex: 0.013
+  LoadShardBlock: 95.951 (3)
+  PetaboxLoader3.datanode: 69.068 (4)
+  CDXLines.iter: 22.135 (3)
+  PetaboxLoader3.resolve: 76.643 (3)
+  load_resource: 68.57
+-->

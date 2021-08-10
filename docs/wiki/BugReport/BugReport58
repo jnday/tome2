@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport58 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport58?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport58?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport58?action=fullsearch&amp;value=BugReport58&amp;literal=1&amp;case=1&amp;context=40">BugReport58</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport58?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport58">View</a></li>
+<li><a title="Diffs" href="./BugReport58?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport58?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport58?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport58?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport58?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport58?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport58?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport58?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport58?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport58">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Bug encountered while upgrading from Tome 2.2.2 to Tome 2.2.7 Equipped symbiot (Demonic Quylthulg) max HP became 0. Tried to fix by releasing the symbiot but the game crashed when I tried to look at it after I released it. <p>
+<a href="./NeilStevens">NeilStevens</a>: Known.  You have to de-hypnotize the symbiote in 2.2.2, then re-hypnotize it in 2.2.7. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: For your consideration: If it's not already present, include a comment on this in the 2.2.7 release notes. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: I'm pretty sure I commented on it in the 2.2.4 changes file.  2.2.3 saw some big symbiosis improvements, 2.2.4 fixed a crash I left when making those improvements. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport58?action=refresh&amp;arena=Page.py&amp;key=BugReport58.text_html">RefreshCache</a> for this page (cached 2004-08-09 11:44:09)<br>
+<p><a href="./BugReport58?action=edit">EditText</a> of this page (last edited 2004-07-30 16:23:35 by <span title="lsanca1-ar51-4-42-017-130.lsanca1.dsl-verizon.net"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:19:13 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:17 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2899.234
+  exclusion.robots: 0.096
+  exclusion.robots.policy: 0.089
+  RedisCDXSource: 5.928
+  esindex: 0.006
+  LoadShardBlock: 2875.463 (3)
+  PetaboxLoader3.datanode: 2900.6 (4)
+  CDXLines.iter: 15.587 (3)
+  load_resource: 182.658
+  PetaboxLoader3.resolve: 62.442
+-->

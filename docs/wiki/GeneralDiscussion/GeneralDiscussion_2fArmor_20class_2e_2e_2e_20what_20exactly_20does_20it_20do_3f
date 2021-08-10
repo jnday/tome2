@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/Armor class... what exactly does it do? - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=fullsearch&amp;value=%2FArmor+class...+what+exactly+does+it+do%3F&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/Armor class... what exactly does it do?</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Maur:  What exactly does armor class do? <p>
+Does it decrease the damage you take or make monsters miss more often or what? 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: <a class="interwiki" title="Self" href="./Documentation/Characteristics"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">See the documentation on armor class</a>. Granted, we need to make that easier to find. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+On a re-read of that, I think we may need a spoiler on AC, or else expand the doc. Anyway... a monster's to-hit is affected by AC. 
+</p>
+<p>
+Maur: thx. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: AC (max. 150) also lowers the melee damage of monsters (HURT or SHATTER attacks only). The damage is reduced by damage * AC / 250, i.e. with an AC of at least 150 the damage is only 2/5. 
+</p>
+<p>
+<a href="./GrootheWanderer">GrootheWanderer</a>:  Does the usefulness of AC really top out at 150.  This would mean my AC 200+ tank melee characters should be using helms with more useful stat and resistance bonuses instead of that nice little helm with the huge AC. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Armor Class also afefcts the frequency and strength of your critical hits, the higher AC, the better. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: Now that's... unintuitive. I think it hasn't been documented anywhere either. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: It's also wrong.  Never mind, heh. 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:32:09)<br>
+<p><a href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f?action=edit">EditText</a> of this page (last edited 2005-08-15 16:00:53 by <span title="trantor"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:06:41 May 09, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:30 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 687.802
+  exclusion.robots: 0.108
+  exclusion.robots.policy: 0.1
+  RedisCDXSource: 2.128
+  esindex: 0.009
+  LoadShardBlock: 653.498 (3)
+  PetaboxLoader3.datanode: 205.084 (4)
+  CDXLines.iter: 29.376 (3)
+  PetaboxLoader3.resolve: 112.126 (2)
+  load_resource: 221.493
+-->

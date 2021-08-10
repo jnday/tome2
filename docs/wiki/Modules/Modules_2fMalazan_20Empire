@@ -1,0 +1,422 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Malazan Empire - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fMalazan_20Empire?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fMalazan_20Empire?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fMalazan_20Empire?action=fullsearch&amp;value=%2FMalazan+Empire&amp;literal=1&amp;case=1&amp;context=40">Modules/Malazan Empire</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fMalazan_20Empire?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fMalazan_20Empire">View</a></li>
+<li><a title="Diffs" href="./Modules_2fMalazan_20Empire?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fMalazan_20Empire?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fMalazan_20Empire?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fMalazan_20Empire?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fMalazan_20Empire?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fMalazan_20Empire?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fMalazan_20Empire?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fMalazan_20Empire?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fMalazan_20Empire?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fMalazan_20Empire">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-0efc2e6be4c23b9a513d7ce0dcff8ed80e8912e7">Overview</h2>
+<p>
+Making a module of a series (Steven Erikson's <em>Malazan Book of the Fallen</em>) that is 50% unfinished may not be the best-timed choice, but I decided to write some generalities anyway just to give some feel for things. I think the setting has a lot of module potential. In particular, it is rare to see a setting with such variety and a roguelike-like power level spread. 
+</p>
+<p>
+Things to change: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Player races 
+</p>
+</li>
+    <li>
+<p>
+ Monsters 
+</p>
+</li>
+    <li>
+<p>
+ Magic system 
+</p>
+</li>
+    <li>
+<p>
+ Gods 
+</p>
+</li>
+    <li>
+<p>
+ The map 
+</p>
+</li>
+    <li>
+<p>
+ Other things, like adding artifacts from the books 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+The module is set amidst a complex and bloody powerplay in which gods and empires clash with each other. Your aim is, naturally, to save the world from the behind-the-scenes force of evil that threatens it. 
+</p>
+<h2 id="head-b009e3750ab529181822b706d3c5908f2deb8f8f">Intelligent Races</h2>
+<p>
+These are good for both players and monsters. 
+</p>
+<h3 id="head-e31663b107b924eb1b3620999ddd56b3e2a6f2e6">Human</h3>
+<p>
+The usual, coming in several nationalities. Humans start out weak but can become powerful with sufficient levelling. 
+</p>
+<p>
+Warrens: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Denul (healing) 
+</p>
+</li>
+    <li>
+<p>
+ D'riss (stone) 
+</p>
+</li>
+    <li>
+<p>
+ Hood's Warren (death) 
+</p>
+</li>
+    <li>
+<p>
+ Meanas (shadow) 
+</p>
+</li>
+    <li>
+<p>
+ Mockra (mind) 
+</p>
+</li>
+    <li>
+<p>
+ Rashan (darkness) 
+</p>
+</li>
+    <li>
+<p>
+ Ruse (sea) 
+</p>
+</li>
+    <li>
+<p>
+ Serc (sky) 
+</p>
+</li>
+    <li>
+<p>
+ Tennes (land) 
+</p>
+</li>
+    <li>
+<p>
+ Telas (fire) 
+</p>
+</li>
+    <li>
+<p>
+ Thyr (light) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-71a92caf77bca602a64512f9b511f65eea1cbda8">Trell, Barghast, etc.</h3>
+<p>
+Various giant races related to humans. 
+</p>
+<h3 id="head-a60ecbe7ffe673d07e8f90cb2cd7a568d83c9061">Jheck</h3>
+<p>
+They can transform into wolves. 
+</p>
+<h3 id="head-d01a81265c956d3f8f5dbc034d0b33ca81568904">Moranth</h3>
+<p>
+An insect-like race that knows how to make "potions of detonation" (Moranth munitions). 
+</p>
+<h3 id="head-244c1b8f0191c8317da323ae17f5a3c573ffa82f">Tiste</h3>
+<p>
+The "Elves" of the world come in three varieties. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Tiste Andii 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Warren: Kurald Galain (darkness) 
+</p>
+</li>
+        <li>
+<p>
+ Specialty: Assassin mages 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Tiste Edur 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Warren: Kurald Emurlahn (shadow) (It is shattered and relatively weak) 
+</p>
+</li>
+        <li>
+<p>
+ Specialty: Necromancers 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ Tiste Liosan 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Warren: Kurald Thyrllan (light) 
+</p>
+</li>
+        <li>
+<p>
+ Specialty: Warrior priests 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+Some Tiste have interbred with humans. 
+</p>
+<h3 id="head-6d661469db9e1e40fb2d6354a96c5670792fc124">T'lan Imass</h3>
+<p>
+Undead warriors and mage-types (bonecasters) that are probably technically Homo Neanderthalis. They come in groups except when they are player characters. They are formidable in battle but individually much weaker than other Elder races. 
+</p>
+<p>
+Warren: Tellann (fire) 
+</p>
+<p>
+Specialty: Can turn into dust. In battle this works like a blink skill. 
+</p>
+<p>
+Specialty: All bonecasters are also soletaken. They transform into undead creatures. 
+</p>
+<h3 id="head-e384d454b9b89eabd99288450101da79cf45977c">Jaghut</h3>
+<p>
+Extremely powerful beings, now nearly extinct thanks to untiring efforts by the T'lan Imass. Jaghuts are hated by the T'lan Imass. As a way to make Jaghuts a little less munchkinish to play, groups of hostile T'lan Imass get randomly summoned near them after a certain dungeon level. 
+</p>
+<p>
+Jhags are part Jaghut. 
+</p>
+<p>
+Warren: Omtose Phellack (ice) 
+</p>
+<h3 id="head-7af288b37cdf6e1104a2c2923c4742f371ceba8e">K'Chain Che'Malle</h3>
+<p>
+Reptilian beings probably from outer space with insect-like hive hierarchy. The Matrons are the rulers and wielders of mighty magic. K'ell Hunters are bred to be the elite fighters and have blades instead of arms. Almost completely extinct, on this world anyway. 
+</p>
+<h3 id="head-1b4d01378a133a9ef2c9ee4591ae074c09c4a7d2">Forkrul Assail</h3>
+<p>
+The "perfect beings" of which not too much is known. They are good-looking, extremely dextrous due to their many-jointed skeletal structure, fast, and they regenerate. Mostly extinct. 
+</p>
+<h3 id="head-f57b4328abfe5940762b34ef85326840111f6958">Eleint</h3>
+<p>
+The dragons. They can breathe various substances. 
+</p>
+<p>
+Warren: Starvald Demelain (chaoticish) 
+</p>
+<h3 id="head-cc6744aae23cea36d805f5f55ff4e16191cd67d6">Demons</h3>
+<p>
+"Demons" are creatures from other worlds that are commonly found bound to some mage's will. There are several different types. Demons are not automatically evil or anything. Many were just ordinary folk in their home dimension. 
+</p>
+<h2 id="head-e6791be7eed7865c6ea8fbf4d2b565ec77d74c36">Magic</h2>
+
+    <ul>
+
+    <li>
+<p>
+ Warren magic (multiple Warrens of various "elements") 
+</p>
+</li>
+    <li>
+<p>
+ Necromancy 
+</p>
+</li>
+    <li>
+<p>
+ Shamanism 
+</p>
+</li>
+    <li>
+<p>
+ Demonology (summon "demons" a.k.a inhabitants of another warrens) 
+</p>
+</li>
+    <li>
+<p>
+ Divination 
+</p>
+</li>
+    <li>
+<p>
+ Special talents 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Since there are many Warrens, there is considerable near-duplication between the effects. Most Warrems produce powerful damage effects tied to the specific element of the Warren, so you can't avoid having several ball and bolt spells. Since many mages do not get access to more than one Warren, you also have some sort of healing spell in most Warrens, although not nearly as useful as what you get with Denul. 
+</p>
+<p>
+Elder Warrens are exclusive and you need to have the blood of the right race to use them. It is enough to be a halfblood or have the ability to shapeshift to the particular race. It is not necessary to be shapeshifted while casting. The Elder Warrens are more powerful than human ones but also harder to control since they are closer to chaos. 
+</p>
+<p>
+The Crippled God gives access to the most powerful magic of all (chaos) but it is perilous and is guaranteed to eventually wreck your stats permanently. 
+</p>
+<p>
+Otataral is a valuable substance that nullifies magic. It is the basis for things like otataral blades and potions of bloodoil. Human magic is affected much more than Elder Warrens. 
+</p>
+<h2 id="head-916ee355a9adcf7a407acc96248612d67fed6df6">Shapeshifters</h2>
+<p>
+Soletaken are shapeshifters that can veer into one form. D'ivers veer into many creatures, such as a pack of jackals or a plague of rats. In game terms an unique D'ivers can be represented as a number of connected uniques that are always generated together and die collectively only when every member is killed on the same level. 
+</p>
+<p>
+A player character can be a Soletaken, but a D'ivers player would be more difficult implement. Perhaps a D'ivers could work but it would not allow the player the freedom of spreading around. (Just imagine controlling every part individually if you were a D'ivers of one hundred cave spiders.) With levelling Soletaken become more powerful, perhaps by gaining new and improved forms, and D'ivers gain more "individuals" into their being. 
+</p>
+<h2 id="head-bbc0b165a9b5ce27fea5ea54143f02fe7fb36a24">Gods</h2>
+<p>
+There are lots of different gods. The Crippled God is notable for being (at this moment of the series completion) the most likely choice for a Morgoth replacement. You can potentially fight other gods too. 
+</p>
+<p>
+Ordinary humans can become gods, which can be the reward for winning the game. Becoming an Ascendant (something like a demigod, although they can be more powerful than some actual gods) is a question of exp. At high character levels of you just become sort of semi-divine due to your amazing skills. Ascendancy may not necessarily mean anything more than reaching level 50. 
+</p>
+<h2 id="head-fce06e20e5f7f74aacccab40b59b75a56c8f7305">Comments</h2>
+<p>
+<strong>Kalam Mekhar</strong> I think that this would be a great idea for a module. These are some of the most riveting books that I have ever read and have great scope for a module. Some time when I'm not at work I'll endeavour to make some more comments on this idea <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> . 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fMalazan_20Empire?action=refresh&amp;arena=Page.py&amp;key=Modules_2fMalazan_20Empire.text_html">RefreshCache</a> for this page (cached 2005-12-01 16:20:58)<br>
+<p><a href="./Modules_2fMalazan_20Empire?action=edit">EditText</a> of this page (last edited 2005-06-07 04:25:08 by <span title="203.97.245.82=geata2.tar.tsnz.net">geata2</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 00:27:49 Jun 03, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:11 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 121.885
+  exclusion.robots: 0.092
+  exclusion.robots.policy: 0.084
+  RedisCDXSource: 0.521
+  esindex: 0.011
+  LoadShardBlock: 97.82 (3)
+  PetaboxLoader3.datanode: 130.618 (4)
+  CDXLines.iter: 21.129 (3)
+  load_resource: 119.816
+  PetaboxLoader3.resolve: 51.388
+-->

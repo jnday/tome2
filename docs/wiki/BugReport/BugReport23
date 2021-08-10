@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport23 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport23?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport23?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport23?action=fullsearch&amp;value=BugReport23&amp;literal=1&amp;case=1&amp;context=40">BugReport23</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport23?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport23">View</a></li>
+<li><a title="Diffs" href="./BugReport23?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport23?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport23?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport23?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport23?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport23?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport23?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport23?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport23?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport23">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./PeteyLeinonen">PeteyLeinonen</a>: The first time I entered the top of Mount Doom I had three companion Nightwalkers. Every time I leave and come back to the top of Mount Doom, I get three new Nightwalker companions, with the same level and hitpoints as the original three that I entered Mount Doom with. I have managed to get nine simultaneous companions this way (I should only ever be able to have three companions if I create them the normal way), but I suspect I could get many more. <p>
+<a href="./NeilStevens">NeilStevens</a>: Yes, this one will be tricky to address.  You can duplicate artifacts on Mount Doom, too. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport23?action=refresh&amp;arena=Page.py&amp;key=BugReport23.text_html">RefreshCache</a> for this page (cached 2004-10-19 18:02:49)<br>
+<p><a href="./BugReport23?action=edit">EditText</a> of this page (last edited 2004-07-10 05:35:28 by <span title="lsanca1-ar51-4-42-017-130.lsanca1.dsl-verizon.net"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:40:09 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:31:59 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.208
+  captures_list: 82.164
+  esindex: 0.016
+  LoadShardBlock: 52.188 (3)
+  CDXLines.iter: 24.704 (3)
+  load_resource: 66.844
+  RedisCDXSource: 0.731
+  PetaboxLoader3.datanode: 70.719 (4)
+  exclusion.robots: 0.223
+  PetaboxLoader3.resolve: 29.258
+-->

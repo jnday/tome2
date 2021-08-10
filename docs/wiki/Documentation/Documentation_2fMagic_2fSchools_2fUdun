@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Schools/Udun - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fSchools_2fUdun?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fSchools_2fUdun?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fSchools">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fSchools_2fUdun?action=fullsearch&amp;value=%2FUdun&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Schools/Udun</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fSchools">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fSchools_2fUdun?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fSchools_2fUdun">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fSchools_2fUdun?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fSchools_2fUdun?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fSchools_2fUdun?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fSchools_2fUdun?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fSchools_2fUdun?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fSchools_2fUdun?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fUdun?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fUdun?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fUdun?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fSchools_2fUdun">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Intelligence (INT) is the stat affecting failure rate for this skill. <h3 id="head-3f745de841435de82ac96fcf75fc9dc7f43c0112">Udun Spells</h3>
+<p>
+The Udun school of magic contains spells where the corrupted forces of <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-11984558524ce4f53bb86d4d76084fe577fef244"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Melkor Bauglir</a> are used to create the final spell effect. 
+</p>
+<p>
+The Udun school is available only to a worshipper of <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-11984558524ce4f53bb86d4d76084fe577fef244"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Melkor Bauglir</a>. They will also need some proficiency in the magic schools of <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMana"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mana</a>, <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fNature"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Nature</a>, <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fConveyance"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Conveyance</a>, and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fFire"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Fire</a> (or alternatively <a class="interwiki" title="Self" href="./Documentation_2fMagic#sorcery"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Sorcery</a>) to cast the Udun spells. On the other hand the spell power of Udun spells is greatly increased by the character level of the caster. 
+</p>
+<p>
+There are four <strong>combined school</strong> spells available for the Udun school: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Drain</strong> (dual school: Udun/Mana level 1) Drains the mana contained in wands, staves and rods to increase yours. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Your Udun and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMana"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mana</a> skills must have reached a combined average level of 1 in order to cast this spell. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Genocide</strong> (dual school: Udun/Nature level 25) Genocides all monsters of a race on the level. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 10 it can genocide all monsters near you. 
+</p>
+</li>
+                <li>
+<p>
+ Your Udun and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fNature"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Nature</a> skills must have reached a combined average level of 25 in order to cast this spell. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Wraithform</strong> (dual school: Udun/Conveyance level 30) Turns you temporarily into an immaterial being. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Your Udun and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fConveyance"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Conveyance</a> skills must have reached a combined average level of 30 in order to cast this spell. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Flame of Udun</strong> (dual school: Udun/Fire level 35) Turns you temporarily into a powerful Balrog. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Your Udun and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fFire"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Fire</a> skills must have reached a combined average level of 35 in order to cast this spell. 
+</p>
+</li>
+</ol>
+
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fSchools_2fUdun?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fSchools_2fUdun.text_html">RefreshCache</a> for this page (cached 2005-11-05 23:47:09)<br>
+<p><a href="./Documentation_2fMagic_2fSchools_2fUdun?action=edit">EditText</a> of this page (last edited 2005-04-18 13:06:23 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:38:46 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:57 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 967.815
+  exclusion.robots: 0.195
+  exclusion.robots.policy: 0.183
+  RedisCDXSource: 17.56
+  esindex: 0.007
+  LoadShardBlock: 925.998 (3)
+  PetaboxLoader3.datanode: 1688.721 (4)
+  CDXLines.iter: 20.076 (3)
+  PetaboxLoader3.resolve: 216.887 (2)
+  load_resource: 1098.067
+-->

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport171 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport171?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport171?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport171?action=fullsearch&amp;value=BugReport171&amp;literal=1&amp;case=1&amp;context=40">BugReport171</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport171?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport171">View</a></li>
+<li><a title="Diffs" href="./BugReport171?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport171?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport171?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport171?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport171?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport171?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport171?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport171?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport171?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport171">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: One of my latest character has been killed by a mana ball trap on a chest (i know it's lame, but...), but in the Hall of Fame the cause of death is left blank. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: All bolt and ball traps on chests behave similarily. The code in traps.c handles traps on chests and on the floor similarily when calling the damaging function:  who = -2 in both cases and the code in spells1.c sets the string killer only correctly for the floor traps: 
+<pre>if (who == -2)
+{
+        sprintf(killer, t_name + t_info[cave[p_ptr-&gt;py][p_ptr-&gt;px].t_idx].name);
+}
+</pre>
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport171?action=refresh&amp;arena=Page.py&amp;key=BugReport171.text_html">RefreshCache</a> for this page (cached 2004-09-30 12:22:18)<br>
+<p><a href="./BugReport171?action=edit">EditText</a> of this page (last edited 2004-09-30 12:22:17 by <span title="dialin-145-254-145-112.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:46:21 Oct 16, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:47 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 91.562
+  exclusion.robots: 0.07
+  exclusion.robots.policy: 0.064
+  RedisCDXSource: 2.025
+  esindex: 0.005
+  LoadShardBlock: 67.731 (3)
+  PetaboxLoader3.datanode: 76.863 (4)
+  CDXLines.iter: 19.611 (3)
+  load_resource: 75.736
+  PetaboxLoader3.resolve: 28.581
+-->

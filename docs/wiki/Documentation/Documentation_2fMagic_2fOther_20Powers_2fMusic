@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Other Powers/Music - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fOther_20Powers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=fullsearch&amp;value=%2FMusic&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Other Powers/Music</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fOther_20Powers">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fOther_20Powers_2fMusic">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Charisma (CHR) is the stat affecting failure rate for this skill. <h3 id="head-131260cbfbb0c821f8eae5e7c3c296c7aa4d50b9">Music</h3>
+<p>
+Musical songs can have powerful effects in the hands of those who have the ability to play instruments: those of the <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fBard"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Bard</a> class of character. 
+</p>
+<p>
+In order to continue playing a song, mana is consumed each turn, until either the 'Stop Singing' song is sung, or the player's mana runs out. The greater the power of the spell, the more mana consumed per turn. 
+</p>
+<p>
+Each song, as well as having a school level like any other magic spell also has a roman numeral following its name. The higher the number of these numerals, the better the craftmanship of the instrument required to play it. 
+</p>
+<p>
+Each musical instrument has a value assigned to it as well, between 1 and 4. The higher the number, the better the craftmanship, and hence it will be possible for the bard to play higher level songs only with a more powerful instrument. Thus a Harp(+1) will allow you to cast "Stop Singing(I)" and "Song of the Sun(I)". A Harp(+2) would allow you to sing those songs, as well as "Flow of Life(II)". 
+</p>
+<p>
+There are 3 different types of instruments: Harps, Drums and Horns. Each type  of instrument contains a different family of musical songs: 
+</p>
+<h3 id="head-220a308f82c95c0229cfa6adaae1a00a0d921502">The Songs</h3>
+<h5 id="head-cef9164623adaf48b1ca8a6b0519b5fe0dcf5465">All Instruments</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Stop Singing(I)</strong> (school level 1) Stops the current song, if any. 
+</p>
+</li>
+
+    </ol>
+
+
+<h5 id="head-981e92b1ce677fb1192091e05731a56329f956df">Drums</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Holding Pattern(I)</strong> (school level 1) Slows down all monsters listening the song. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Illusion Pattern(II)</strong> (school level 5) Tries to confuse all monsters listening the song. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Stun Pattern(IV)</strong> (school level 10) Stuns all monsters listening to the song. 
+</p>
+</li>
+
+    </ol>
+
+
+<h5 id="head-18760cd2607356dfffc8f6baf1c3773c7e7e8da6">Harps</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Song of the Sun(I)</strong> (School level 1) Provides light as long as you sing. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Flow of Life(II)</strong> (School level 5) Heals you as long as you sing. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Heroic Ballad(II)</strong> (School level 10) Increases melee accuracy, 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 10 it increases it even more and reduces armour a bit, 
+</p>
+</li>
+                <li>
+<p>
+ At level 20 it increases it again, 
+</p>
+</li>
+                <li>
+<p>
+ At level 25 it grants protection against chaos and confusion. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Hobbit Melodies(III)</strong> (School level 20) Greatly increases your reflexes allowing you to block more melee blows. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 15 it also makes you faster. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Clairaudience(IV)</strong> (School level 25) Allows you to sense monster minds as long as you sing. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 10 it identifies all objects in a radius on the floor, as well as probing monsters in that radius. 
+</p>
+</li>
+
+                </ul>    </ol>
+
+
+<h5 id="head-8dfe293ddc22cb8f9d23b14a977e7cd3f78454b4">Horns</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Blow(I)</strong> (School level 4) Produces a powerful, blowing, sound all around you. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Gush of Wind (II)</strong> (School level 14) Produces a outgoing gush of wind that sends monsters away. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Horns of Ylmir(III)</strong> (School level 20) Produces an earth shaking sound. 
+</p>
+</li>
+    <li>
+<p>
+Ambarkanta(IV) (School level 25) Produces a reality shaking sound that transports you to a nearly identical reality. 
+</p>
+</li>
+</ol>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fOther_20Powers_2fMusic.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:04:26)<br>
+<p><a href="./Documentation_2fMagic_2fOther_20Powers_2fMusic?action=edit">EditText</a> of this page (last edited 2005-04-18 13:13:53 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:22:32 Jun 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:07 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2110.421
+  exclusion.robots: 0.079
+  exclusion.robots.policy: 0.073
+  RedisCDXSource: 13.566
+  esindex: 0.004
+  LoadShardBlock: 2078.951 (3)
+  PetaboxLoader3.datanode: 2603.024 (4)
+  CDXLines.iter: 15.952 (3)
+  load_resource: 1331.854
+  PetaboxLoader3.resolve: 594.238
+-->

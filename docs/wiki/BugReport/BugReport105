@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport105 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport105?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport105?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport105?action=fullsearch&amp;value=BugReport105&amp;literal=1&amp;case=1&amp;context=40">BugReport105</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport105?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport105">View</a></li>
+<li><a title="Diffs" href="./BugReport105?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport105?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport105?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport105?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport105?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport105?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport105?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport105?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport105?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport105">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./KhymChanur">KhymChanur</a></strong>: (2.2.7, vanilla ToME) If I'm weilding a mana-draining weapon, and INT+WIS isn't enough to regenerate mana faster than the drain, my mana goes to zero.  This is fine, except that I periodically regen my mana to 1, which gets immediately drained, and this causes resting to silently stop. Rather annoying. <p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>:  Just take off your weapon when you rest if necessary.  Mana drain is supposed to be a penalty.  That said, I don't know what we should do about this. 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Incribe @w1 on your weapon, macro something to <em>taR*w1</em> ... Fastest solution I can think of right now. 
+</p>
+<p>
+<strong><a href="./KhymChanur">KhymChanur</a></strong>: Yes, but when I'm weilding an elemental weapon at dungeon level 40, with it being my only source of poison resistence, I'm a bit reluctant to let go of it. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Ick, I can see why you wouldn't want to unwield it then. Still, as Neil said, mana drain <em>is</em> suppposed to be a penalty. I'd say either find another source of rpoison, or just deal with it. It doesn't seem a bug to me. 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Yes, but not being able to rest normaly is quite annoying. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: I'm sorry, but what part of 'mana drain is supposed to be a penalty' don't you understand? If you can't cope with the penalty, then don't use the item. 
+        <ul>
+
+  <strong><a href="./KhymChanur">KhymChanur</a></strong>: Resting is (so far as I can see) an convenience function, like macros.  Penalties shouldn't affect convenience functions, IMHO. <p>
+  <strong><a href="./NeilStevens">NeilStevens</a></strong>: That's how I've always felt about this.  That's why I've been saying I'd fix it if I knew of a good way to do so. 
+</p>
+
+        </ul>
+
+
+ <strong><a href="./SoulWynd">SoulWynd</a></strong>: The penalty is fine but repeating myself, not being able to rest without interruption because your mana floats between 1 and 0 is an annoyance instead of a penality. It should just stay at 0. 
+    </ul>
+
+
+<p>
+I've hard swordmasters with mana drain weapons and it gets really frustrating with time. I use the macro I said up there but the disavantage is that you lose a round if the rest is interrupted. It would be okay to stay with 0 mana while resting normaly. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I'd love to get rid of this annoyance, if I had any good ideas for how. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I don't know how the code is set up, but might it be possible to add a user option of "do not disturb for changes in mana", or something like that? 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Just need to get someone to code a fix for it. A conditional at mana regen to check if you have the mana drain flag and 0 mana and if you do, don't regen the mana at all, leave it at 0. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I WOULD code a fix for it if someone would suggest an idea that would work.  If you don't disturb when mana hits 0, then you end up resting forever (an infinite loop I fixed a few versions ago).  Ignoring mana completely when resting hurts people who care about mana (imagine playing a sorceror, resting your mana down to 0 without noticing, then getting surprised by a pack of greater hrus or something.  I'd want to be alerted RIGHT AWAY, not later). I just don't see a way out. 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Okay, apparently my engrish isn't as good as logic. 
+<pre>At mana regeneration function:
+
+if affected by mana drain AND current mana == 0
+    mana regeneration = 0
+</pre>If you want your mana back, take off the item. Simple as that. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: That changes the effects of mana drain.  It doesn't fix the problem of the resting UI, meaning it just puts off the problem to be solved another day.  I'd rather not do that. 
+</p>
+<p>
+<strong><a href="./KhymChanur">KhymChanur</a></strong>: Could mana drain and mana regen be combined into a single step, so you put INT, WIS and mana-drain-status through a function to get a "change_mana_by" variable that you apply to the player's mana count? That way if the mana-drain rate exceed the INT+WIS regen rate, then nothing will happen. 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: An option on the '=' screen... wait for full mana when resting?  Though I believe that tome has too many options as it is, and it gets overwhelming.  Maybe a 'options', and 'advanced options' kinda menu, and most people won't change the 'advanced' options. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: So far, an interface option is the only thing that could work, but I'm not sure if I like it. 
+</p>
+<p>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: I like Khym's suggestion to just combine the two rates into a "net mana change" rate -- that would result in less exposure of implementation artifacts such as this bug.  Alternately, why not just avoid disturbance based on mana being drained?  Furthermore, please note that a similar issue exists for Summoners who are at their limit for partials -- mana's stuck at zero (or occasionally flicks to 1) and rest is constantly interrupted. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport105?action=refresh&amp;arena=Page.py&amp;key=BugReport105.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:44:48)<br>
+<p><a href="./BugReport105?action=edit">EditText</a> of this page (last edited 2004-11-12 16:21:52 by <span title="209.166.70.54=evras-70-54.whidbey.net">evras-70-54</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:53:15 Jan 16, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:30 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 80.973
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.077
+  RedisCDXSource: 1.546
+  esindex: 0.006
+  LoadShardBlock: 61.025 (3)
+  PetaboxLoader3.datanode: 69.044 (4)
+  CDXLines.iter: 16.356 (3)
+  load_resource: 76.096
+  PetaboxLoader3.resolve: 26.888
+-->

@@ -1,0 +1,255 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport193 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport193?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport193?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport193?action=fullsearch&amp;value=BugReport193&amp;literal=1&amp;case=1&amp;context=40">BugReport193</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport193?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport193">View</a></li>
+<li><a title="Diffs" href="./BugReport193?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport193?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport193?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport193?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport193?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport193?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport193?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport193?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport193?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport193">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: I created a character dump of my new shiny Ent Possessor just after creating him and, wow! It says i saved 5 princesses without even noticing it! :o<br>
+ Anyway, i tried to reproduce the bug with other characters but couldn't reproduce it. This is a character dump of a few minutes later (sorry, i distractely overwrited the original one):<br>
+ <pre> [ToME 2.3.0(CVS) Character Sheet] 
+
+ Name  : Nahm Odhob             Age                318       STR:     27       
+ Sex   : Male                   Height              70       INT:     10       
+ Race  : Ent                    Weight             112       WIS:     16       
+ Class : Possessor              Social Class         1       DEX:     10       
+ Body  : Player                                              CON:     25       
+ God   : Nobody                                              CHR:     12       
+                                                                               
+ + To Melee Hit           9 Level              2    Max Hit Points        47   
+ + To Melee Damage       11 Experience        36    Cur Hit Points        16   
+ + To Ranged Hit          9 Max Exp           36    Max SP (Mana)          2   
+ + To Ranged Damage       0 Exp to Adv.       62    Cur SP (Mana)          0   
+   AC                  6+10 Gold             160                               
+                                                                               
+                         (Miscellaneous Abilities)                             
+ Fighting    : Fair         Perception  : Bad          Blows/Round:  2         
+ Bows/Throw  : Poor         Searching   : Bad          Shots/Round:  1         
+ Saving Throw: Very Bad     Disarming   : Very Bad     Mel.dmg/Rnd:  2d7+22    
+ Stealth     : Bad          Magic Device: Bad          Infra-Vision: 50 feet   
+                                                       Tactic:       furious   
+                                                       Explor:       normal    
+                         (Character Background)                                
+          You are of an unknown generation of the Ents.  You have              
+          green skin and unflexible members.                                   
+                                                                               
+                                                                               
+
+
+  [Miscellaneous information]
+
+ Joke monsters:        OFF
+ Maximize mode:        ON
+ Preserve Mode:        ON
+ Autoscum:             OFF
+ Small Levels:         ON
+ Arena Levels:         ON
+ Always unusual rooms: OFF
+ Persistent Dungeons:  OFF
+
+ Recall Depth:
+        Barrow-Downs: Level 1 (50')
+
+ Your body is a Player.
+ You are currently on level 1 of Barrow-Downs.
+ You have defeated 6 enemies.
+ You saved 5 princesses.
+
+ You started your adventure the 43rd Yavie of the 2890th year of the third age.
+ It is currently the 43rd Yavie of the 2890th year of the third age.
+ You have been adventuring for 0 days.
+
+                    adefkmnopsuxz{|@            
+        Add Speed : ...............+            
+        Sust Str  : ................            
+        Sust Int  : ................            
+        Sust Wis  : ................            
+        Sust Dex  : ................            
+        Sust Con  : ................            
+        Sust Chr  : ................            
+        Invisible : ................            
+        Mul life  : ................            
+        Sens Fire : ...............+            
+        Reflect   : ................            
+        Free Act  : ................            
+        Hold Life : ................            
+        Res Acid  : ................            
+        Res Elec  : ................            
+        Res Fire  : ................            
+        Res Cold  : ................            
+        Res Pois  : ................            
+        Res Fear  : ................            
+        Res Lite  : ................            
+        Res Dark  : ................            
+        Res Blind : ................            
+        Res Conf  : ................            
+        Res Sound : ................            
+        Res Shard : ................            
+        Res Neth  : ................            
+        Res Nexus : ................            
+        Res Chaos : ................            
+        Res Disen : ................            
+        Digestion : ...............+            
+
+Skills (points left: 0)
+ - Combat                                        02.800 [0.600]
+          . Weaponmastery                        04.300 [0.600]
+          . Archery                              00.800 [0.400]
+          . Barehand-combat                      00.000 [0.200]
+          . Boulder-throwing                     00.000 [0.600]
+ - Sneakiness                                    01.500 [0.700]
+          . Stealth                              00.000 [0.700]
+          . Disarming                            01.500 [0.500]
+ - Magic                                         00.000 [0.600]
+          . Magic-Device                         01.500 [1.000]
+ - Spirituality                                  03.000 [0.500]
+          . Prayer                               00.000 [0.500]
+          . Music                                00.000 [0.300]
+ - Monster-lore                                  01.000 [1.100]
+          . Corpse-preservation                  01.000 [0.900]
+          . Possession                           01.000 [0.800]
+
+Abilities
+ * Tree walking
+
+
+  [Character Equipment]
+
+a) a Short Sword (1d7) (+0,+0)
+d) (nothing)
+e) (nothing)
+f) (nothing)
+k) (nothing)
+m) a Brass Lantern (with 7364 turns of light)
+n) Hard Leather Armour (-1 to accuracy) [6,+0]
+o) (nothing)
+p) (nothing)
+s) (nothing)
+u) (nothing)
+x) (nothing)
+z) (nothing)
+{) (nothing)
+|) (nothing)
+
+
+  [Character Inventory]
+
+a) 5 Flasks of oil
+b) a Potion of Healing
+c) a Red Speckled Potion
+d) 6 Scrolls of Satisfy Hunger
+e) (nothing)
+f) (nothing)
+g) (nothing)
+h) (nothing)
+i) (nothing)
+j) (nothing)
+k) (nothing)
+l) (nothing)
+m) (nothing)
+n) (nothing)
+o) (nothing)
+p) (nothing)
+q) (nothing)
+r) (nothing)
+s) (nothing)
+t) (nothing)
+u) (nothing)
+v) (nothing)
+w) (nothing)
+</pre></div><div id="footer">
+
+
+<a href="./BugReport193?action=refresh&amp;arena=Page.py&amp;key=BugReport193.text_html">RefreshCache</a> for this page (cached 2004-10-05 20:48:49)<br>
+<p><a href="./BugReport193?action=edit">EditText</a> of this page (last edited 2004-10-05 20:48:47 by <span title="h213-213-18-25.rm1.albacom.net">RedNaga</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:01:13 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:31:04 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 51.66
+  captures_list: 214.072
+  exclusion.robots.policy: 0.121
+  PetaboxLoader3.resolve: 67.176
+  esindex: 0.014
+  CDXLines.iter: 21.904 (3)
+  PetaboxLoader3.datanode: 140.794 (4)
+  load_resource: 91.171
+  exclusion.robots: 0.129
+  LoadShardBlock: 137.453 (3)
+-->

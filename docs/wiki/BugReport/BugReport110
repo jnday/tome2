@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport110 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport110?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport110?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport110?action=fullsearch&amp;value=BugReport110&amp;literal=1&amp;case=1&amp;context=40">BugReport110</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport110?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport110">View</a></li>
+<li><a title="Diffs" href="./BugReport110?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport110?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport110?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport110?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport110?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport110?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport110?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport110?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport110?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport110">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Paths of the dead guardian won't show up. 21 attempts at level 70. 21 failures! He won't show up in my unique list. <p>
+The bottom level of that dungeon is 70. The guardian is level 77 according to the beastmaster. 
+</p>
+<p>
+I'm suspecting he has some flag that prevents him from showing up before dungeonlevel = guardianlevel; but that someone made him more powerful and changed his level from 70 to 77. 
+</p>
+<p>
+Or is the in-game spoiler obsolete and the dungeon guardian has been removed/changed?? 
+</p>
+<p>
+In any case my previous character couldn't find him either; and he wasn't showing up in unique list either. 
+</p>
+<p>
+This is NOT a case of guardian couldn't be generated because small dungeon flag is always on. The dungeons are big. 
+</p>
+<p>
+Any explanations?? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Cannot confirm the bug. I entered the level 5 times and found each time the dungeon guardian.  
+</p>
+<p>
+Simon: new character and new class, 7 times he didn't show up (including a small level where he should be near if generated). 
+</p>
+<p>
+I was at max sanity so I should have recognized him by now... 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport110?action=refresh&amp;arena=Page.py&amp;key=BugReport110.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:44:14)<br>
+<p><a href="./BugReport110?action=edit">EditText</a> of this page (last edited 2004-09-09 02:56:09 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 05:09:29 Jan 19, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:39 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  esindex: 0.048
+  exclusion.robots: 0.174
+  load_resource: 141.767
+  LoadShardBlock: 240.012 (3)
+  exclusion.robots.policy: 0.162
+  captures_list: 270.822
+  PetaboxLoader3.resolve: 100.614
+  PetaboxLoader3.datanode: 237.074 (4)
+  CDXLines.iter: 22.694 (3)
+  RedisCDXSource: 4.615
+-->

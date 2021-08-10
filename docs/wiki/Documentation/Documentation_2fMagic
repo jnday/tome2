@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic?action=fullsearch&amp;value=%2FMagic&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top"/> <strong><em>TO ALL USERS</em>: If you are not a game developer or a moderator, please do not edit the content of this page, or its sub-pages. You may contribute via <a class="interwiki" title="Self" href="./Documentation#head-7fa0a174d9f0cdb4daff4e27c889516ddeb06a90"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">User suggestions</a>, where anyone is welcome to contribute a thread. Thank you!</strong> --- <strong><a href="./TheFalcon">TheFalcon</a></strong> 2005-03-15 16:58:35 <p>
+This page is designed to provide an introduction and overview of the ToME magic system. 
+</p>
+<hr>
+ <ol>
+<li>
+<a href="#head-f6e817dac1f58f4533e3b4a23c500264e6edd1e0">The Magic System</a></li>
+<ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-bb2895a1b2e47a12eeea07a5714ed3fe9c34db27">Spells and Spell Level</a></li>
+<li>
+<a href="#head-2f59752a1fc0e14583c6d6f17aaefe109a7ae48d">Mana and Failure Rate</a></li>
+<li>
+<a href="#head-df59686de95af385c81f87310659c459c79bb82a">Spell Power</a></li>
+<li>
+<a href="#head-22df706921b7f7d25a06142fc34bef5749f50f3a">God Granted Magic Skills</a></li>
+<li>
+<a href="#head-65370abed7040dabd901e18f7b28dc4761af1193">Combined School Spells</a></li>
+</ol>
+
+<li>
+<a href="#head-caf6e42902f1fab4ba530c55c768543144e705d6">The Schools</a></li>
+<li>
+<a href="#head-68aa61ed7030bb2c9882d88a6df2df0811241cc5">Sorcery</a></li>
+<li>
+<a href="#head-3719b09ed823b612138c921fe9dfb106451a3e48">Wands, Staves and Rods</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-f6e817dac1f58f4533e3b4a23c500264e6edd1e0">The Magic System</h2>
+<h3 id="head-2473e96bc614a911821242119918a241a41836d6">Introduction</h3>
+<p>
+All of the skills classed as 'magic' are accessed using the 'm' menu. The 11 most prominent of these give the ability to cast spells using books, and are known as the "<a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools#primary"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">primary schools</a>". There are also a number of other magic skills, which use slightly different systems. These include both the 6 "<a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools#secondary"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">secondary schools</a>", and the "other 'magic' powers". All of these spells of various kinds use "<a href="#mana">mana</a>" (or "spell points") to cast. Of these latter two groups, each school has its own method of casting and accessing spells (through the 'm' menu), as well as its own spells, and its own books, which enable you to cast them. These are described in the relevant school's page. While all of the schools differ, they do have this in common: The more skill points you invest in a school, the more powerful the spells, and the more spells to which you will have access. "<a href="#sorcery">Sorcery</a>" is in many ways an exception, and there is a special section containing information all about this <strong><a href="#sorcery">here</a></strong>. 
+</p>
+<p>
+<a href="#top">top of page</a> <a id="spell"/> <h3 id="head-bb2895a1b2e47a12eeea07a5714ed3fe9c34db27">Spells and Spell Level</h3>
+
+</p>
+<p>
+Playing a mage or other magical character (see <a class="interwiki" title="Self" href="./Documentation#head-eddd2c8bd6fc785996e4000778f509abd46dc069"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">creating a character</a> ), you may start off with access to a level 0 spell. This means that the spell is already accessible to you, if you have a starting skill level of 1.00 in the relevant school. However, you will need to invest skill points in the relevant school, both to increase the "spell level" of that spell (i.e. its power), and to gain access to spells of a higher access level. In order to see the current level of your spell, you will need to 'b'rowse the spell book in question. This will show the name of the spell, the level of the spell, the amount of <a href="#mana">mana</a> required to cast it, the possible failure rate, and any additional information. If the spell is currently dark grey, you are unable to cast it. If it is green, you may do so, using the 'm' menu. If it is orange, this means that you have a sufficient school skill level to do so, but insufficient <a href="#mana">mana</a>.  
+</p>
+<p>
+<strong>N.B.</strong> If the spell is shown in grey, the spell level shown is the number of levels which you need to gain <strong>-1</strong> ,to be able to cast it. This is because spell level 1 is needed to cast a spell, rather than level 0. This means it is necessary to have a skill level 1 <strong>above</strong> that of the recorded access level, in order to use it. If the spell is grey, and shows n/a for the level, you have no skill level in the relevant school. 
+</p>
+<p>
+In summary: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ If you have, for example, a skill level of 5 in any school, you will be able to cast a level 0 spell at spell level 5. (For example: "<a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMana"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mana</a>" at skill level 5, enables the spell "manathrust" to be cast at spell level 5). 
+</p>
+</li>
+    <li>
+<p>
+ If you have, say, a skill level of 11 in a school, you will be able to cast a level 0 spell at level 11, or a level 10 spell, at spell level 1. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+This becomes more complicated for "<a href="#combined">combined school spells</a>". 
+</p>
+<p>
+<a href="#top">top of page</a> <a id="mana"/> <h3 id="head-2f59752a1fc0e14583c6d6f17aaefe109a7ae48d">Mana and Failure Rate</h3>
+
+</p>
+<p>
+Your "mana" or "spell points" are fundamental for all the magical schools. Any spell cast will use up some of your mana supply, which slowly replenishes to a maximum over time. Your current mana level (SP) is displayed to the left of the screen, under your life level (HP, 'hit points') and sanity (SN). You are advised to always keep close track of your spell points, since for a mage they can be the division between life and death. <em><strong>A mage with no mana is no mage.</strong></em>Investing points in the 'magic' skill will increase your supply of mana, as will worshipping certain gods. Mana is also increased by raising your Intelligence (INT) or Wisdom (WIS) stats. 
+</p>
+<p>
+The more powerful the spell, the more mana it uses up, and the more likely it is to fail. Magical characters often start with the ability of "<a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-c2e5f21e7926ab27e1a89b57df902087d4699af5"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">perfect casting</a>", which can reduce the fail rate of spells to zero. The failure rate is also affected by either the Intelligence (INT) or Wisdom (WIS) stat, depending on the school (for most it is Intelligence). This is detailed in each school page. 
+</p>
+<p>
+<a href="#top">top of page</a> 
+</p>
+<h3 id="head-df59686de95af385c81f87310659c459c79bb82a">Spell Power</h3>
+<p>
+The spell power skill is another important thing to take into account. This is a sub-skill of the Magic skill and boosts the <a href="#spell">spell level</a> of most spells you are capable of casting. Spending 1 skill point on your Spell-power skill adds 0.2 bonus skill points to your Magic skill. This means that at skill level 50, your spell level is increased by 20.  
+</p>
+<p>
+For example, if you have level 1 in the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMana"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mana</a> school, you could cast "Manathrust" at spell level 1. For every 2.5 skill levels of Spell-power added, "Manathrust" becomes more powerful by +1 spell level.  <strong>N.B.</strong> This is <strong>not</strong> the same as certain magic items which boost spell power. There the spell power increase shown is the same as the boost to spell level.  
+</p>
+<p>
+<em>This skill affects only the 11 primary schools as well as Geomancy and the spells granted by the Gods.</em> 
+</p>
+<p>
+<a href="#top">top of page</a> 
+</p>
+<h3 id="head-22df706921b7f7d25a06142fc34bef5749f50f3a">God Granted Magic Skills</h3>
+<p>
+In addition to the schools of magic, access is available to special sets of spells if you worship a god. There are currently four good gods: <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-830bd605821ee79b05019df0d67000cd17c87ff6"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Eru Iluvatar </a>, <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-5bd0243a84a97d0e2433360b77f003d1eaa40eb8"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Manwe Sulimo</a>, <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-8361192ad3ab5a45c7db2288e05efc88d5f826fe"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Yavanna Kementari</a> and <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-358a47516a900773d1f7e356e6aac44138190fd7"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Tulkas</a>; in addition to an evil god: <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-11984558524ce4f53bb86d4d76084fe577fef244"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Melkor</a>.  The gods also give extra ability in their favoured (primary) schools of magic, so long as your prayer skill is sufficiently high. 
+</p>
+<p>
+Eru grants: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMana"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mana</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fDivination"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Divination</a> School at 2/3 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMind"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mind</a> School at 1/3 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Manwe grants: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fAir"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Air</a> School at 2/3 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fConveyance"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Conveyance</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMeta"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Meta</a> School at 1/3 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Yavanna grants: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fEarth"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Earth</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fNature"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Nature</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fWater"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Water</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fTemporal"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Temporal</a> School at 1/6 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Tulkas grants: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fEarth"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Earth</a> School at 4/5 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Melkor grants: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMind"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mind</a> School at 1/3 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+In addition, worshippers of Melkor have access to the special <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fUdun"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Udun</a> school of magic, whereas other <a class="interwiki" title="Self" href="./Documentation_2fClasses"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Priests</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fMindcrafter"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mindcrafters</a> can use <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMindcraft"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Mindcrafting Powers</a>. 
+</p>
+<p>
+<a href="#top">top of page</a> 
+</p>
+<p>
+<a id="combined"/> <h3 id="head-65370abed7040dabd901e18f7b28dc4761af1193">Combined School Spells</h3>
+
+</p>
+<p>
+There are also a number of spells which require a certain skill level in <strong>two</strong> schools, and there is a possibility of spells requiring three or more. For these kind of spells the  spell level is determined by taking an average of the necessary skills. When calculating spell level for spells requiring more than one school, <a href="#sorcery">sorcery</a> (or god-granted access) can be used <em>in place of</em> the <a href="#primary">primary</a> schools in the normal way. Once the average has been calculated, any bonus from the spell-power skill is also applied as normal. If one of the schools required is the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fUdun"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Udun</a> school, then the appropriate bonus from character level will be applied. As with the normal spells, it is possible to see the skill level you need to gain by 'b'rowsing the relevant book. Remember though, that it is an average level you will need to gain. 
+</p>
+<p>
+<a href="#top">top of page</a> 
+</p>
+<h2 id="head-caf6e42902f1fab4ba530c55c768543144e705d6">The Schools</h2>
+Information on the primary and secondary schools (and Udun) can be found here: 
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fMagic_2fSchools">/Schools</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Information on the other 'm' powers can be found here: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fMagic_2fOther_20Powers">/Other Powers</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a id="sorcery"/> <h2 id="head-68aa61ed7030bb2c9882d88a6df2df0811241cc5">Sorcery</h2>
+
+</p>
+<p>
+The Sorcery skill differs from the other magic skills. It gives you access to all the 11 primary schools of magic, as if you'd spent an equal amount of skill points in all the skills. It is available to any mage character, but only a <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fSorceror"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Sorceror</a> will be able to be proficient in it.  There are, however disadvantages of this powerful magic skill: <em>As a result of their magical prowess,  a sorceror experiences a hit point penalty of a percentage equal to their sorcery skill level</em> . In other words, having this skill at level 1 will give you a hitpoint-penalty of 1%, all the way up to skill level 50, with a hitpoint-penalty of 50%. In addition to this, a sorceror cannot comfortably use any weapon, other than a mage staff, and experiences certain penalties in combat. 
+</p>
+<p>
+<a href="#top">top of page</a> 
+</p>
+<h2 id="head-3719b09ed823b612138c921fe9dfb106451a3e48">Wands, Staves and Rods</h2>
+For information on these, please visit this page: 
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fWands_2c_20Staves_20and_20Rods"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Wands, Staves and Rods</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic.text_html">RefreshCache</a> for this page (cached 2005-04-18 13:50:39)<br>
+<p><a href="./Documentation_2fMagic?action=edit">EditText</a> of this page (last edited 2005-04-18 13:50:38 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:03:19 Oct 25, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.15
+  captures_list: 244.707
+  esindex: 0.017
+  RedisCDXSource: 51.128
+  PetaboxLoader3.resolve: 54.794
+  load_resource: 140.882
+  exclusion.robots.policy: 0.14
+  CDXLines.iter: 25.529 (3)
+  LoadShardBlock: 163.23 (3)
+  PetaboxLoader3.datanode: 197.361 (4)
+-->

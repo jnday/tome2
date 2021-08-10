@@ -1,0 +1,472 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Curses - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fCurses?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fCurses?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fCurses?action=fullsearch&amp;value=%2FCurses&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Curses</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fCurses?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fCurses">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fCurses?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fCurses?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fCurses?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fCurses?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fCurses?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fCurses?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fCurses?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fCurses?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fCurses?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fCurses">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-0b3d98d5a8a24ce5688aedf061c5f6a9c810326e">Curse</a></li>
+<li>
+<a href="#head-52dcb958bb2147d624ab5c2737c996fdfb377b61">Heavy curse</a></li>
+<li>
+<a href="#head-1c42b75bdd7f5fbbef156832b97c91e2ea07b3c2">"Cursed" prefix</a></li>
+<li>
+<a href="#head-acb51a3b3f981eec30a1b6fa2db95a7e9d3a44ff">Permacurse</a></li>
+<li>
+<a href="#head-8ac4cd30abea3156de66681916045a982801a27d">Aggravate</a></li>
+<li>
+<a href="#head-ad52ba60193a8d93a0889ef438033761a9502bfd">Curse_no_drop</a></li>
+<li>
+<a href="#head-9a55c8b5f91110ba9e44ba8cddc5d0ac3055b6a0">Random teleportation</a></li>
+<li>
+<a href="#head-7bb96f46b0d8745415f8e92c0a860e2f983d2758">Ancient Foul Curse (in char sheet, shows up as TY_CURSE)</a></li>
+<li>
+<a href="#head-d22194afe6902c47fd15a256819316c4b8fbef58">Ancient Morgothian curse (in char sheet, shows up as DG_CURSE)</a></li>
+<li>
+<a href="#head-a99910bd304c2758fe11678e1aa81a72c7615f05">Black Breath</a></li>
+<li>
+<a href="#head-f61c1aec468443429b353daddd6de39c32b1d876">Flipping cursed items</a></li>
+<li>
+<a href="#head-88476d2079e139aaaceb3d5b93f53795413ed89c">Weapons with no blows</a></li>
+<li>
+<a href="#head-1509e59d22546d2ef8fed734208df8d835978847">Mana drain, XP drain, HP drain</a></li>
+<li>
+<a href="#head-4890dad87a1acf0c573e656b18a2ab5e806895c1">Curse weapon/armor</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <p>
+CURSES 
+</p>
+<p>
+Cursed items are... cursed. If you wear or wield such an item, you get the message "Oops, it feels deathly cold!". You will not be able to take it off again until it has been uncursed, if in fact it <em>can</em> be uncursed at all. When pseudo-ID'd or ID'd, a cursed item has "{cursed}" after its name. 
+</p>
+<p>
+Though most {cursed} items are bad, not all are bad to have or use. Examples: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+You get +40% mana from a certain cursed amulet. Though it re-curses itself all the time, you want the mana and are not going to be swapping it out. Who cares if it's cursed? 
+</p>
+</li>
+    <li>
+<p>
+You are a Possessor. Wearing a cursed item will prevent you from being knocked out of your body, even if you run out of mana. (The "Cursed" prefix is good for this; see below.) Note: If you try this, your hitpoints will be reduced to <em>1</em>, so it is a perilous practice at best. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+At low character level, feel free to discard every {cursed} item you run into, but at mid to late game you should keep a look out for a few cursed items. When in doubt, try to destroy the item. If it is indestructible, you may want to ID it. In any case, you must be very careful as the game progresses, as you may well run into increasingly nasty curses.  
+</p>
+<p>
+There are a few very useful items with negatives that can be destroyed, but they are rare, and similar egos will come up again anyway (Vampiric weapons of fury come to mind as they give extra blows and drain hit points from monsters to heal you. Also, their life penalty can be flipped). 
+</p>
+<h3 id="head-0b3d98d5a8a24ce5688aedf061c5f6a9c810326e">Curse</h3>
+The overwhelming majority of cursed items are garden-variety "bad" items -- armour with negative AC, or weaponry with negative to-hit and/or to-damage modifiers -- but nothing else is wrong with them. In a pinch, you can uncurse these, enchant them up and have a serviceable item.... for a fair chunk of AU, that is. Rarely, it's worth it to do so. <p>
+The object's other aspects are not affected by cursing. A ring of speed +12 {cursed} is still +12 to your speed. On the other hand, there may well be other bad aspects of the item to start with. When in doubt, *ID* it! 
+</p>
+<p>
+To remove the curse on a {cursed} item, you must read or cast  _Remove Curse_ or _*Remove Curses*_, and the spell must succeed. (It does not always succeed.) You can only un-equip the object when the curse is removed. 
+</p>
+<h3 id="head-52dcb958bb2147d624ab5c2737c996fdfb377b61">Heavy curse</h3>
+<p>
+Exactly the same as a {cursed} item, but you need _*Remove Curse*_ to get rid of it, as the weaker _Remove Curse_ won't work. 
+</p>
+<p>
+A heavy curse might arise at object creation, or as the result of _Cursed_ equipment being cursed again (often as a result of the "Cursed" prefix). 
+</p>
+<h3 id="head-1c42b75bdd7f5fbbef156832b97c91e2ea07b3c2">"Cursed" prefix</h3>
+<p>
+Appears in jewelry as "cursed ring of foo" and in the description as "it can recurse itself". 
+</p>
+<p>
+This item usually has a basic curse to start with. Even if it does not, if you wear it, it'll become cursed over time via recursing. If the item <em>already</em> has a curse, recursing will change the basic curse into a heavy curse. A heavy curse, however, will never become a permacurse. 
+</p>
+<p>
+The object's other aspects are not affected. For example, a Cursed Ring of Speed (+12) {cursed} is still +12 to your speed. 
+</p>
+<h3 id="head-acb51a3b3f981eec30a1b6fa2db95a7e9d3a44ff">Permacurse</h3>
+<p>
+This curse cannot be removed. Ever. It is appears only on a very few items such as the One Ring or the Iron Crown of Morgoth.  
+</p>
+<h3 id="head-8ac4cd30abea3156de66681916045a982801a27d">Aggravate</h3>
+<p>
+Rings of aggravate monsters and some artifacts have this flag. All monsters including pets and companions and coaligned immediately become angry at you (they become flagged enemy), and all sleeping monsters are woken. This occurs one per normal speed turn and symbiants with speed have been known to summon and hypnotize a pet before it turns hostile. 
+</p>
+<p>
+Aggravate from a worn item will not go away if you use morphing potions or mimicry. But those tricks work if the aggravate is on you (as in Maia race). 
+</p>
+<p>
+If your play style is to kill everything in sight anyways, aggravate isn't so bad.  But be careful at low levels, aggravate drives breeders mad. 
+</p>
+<h3 id="head-ad52ba60193a8d93a0889ef438033761a9502bfd">Curse_no_drop</h3>
+<p>
+Prevents dropping and destroying an object if it's still cursed with _Curse_ or _Heavy Curse_. Mostly seen with Amulets of Doom. 
+</p>
+<h3 id="head-9a55c8b5f91110ba9e44ba8cddc5d0ac3055b6a0">Random teleportation</h3>
+<p>
+Random teleportation is the mildest self-activating curse around. When the object is conventionally or heavily cursed, it will teleport you around at random times as if you had read a teleport scroll. When the object is not cursed it will ask you if you want to teleport. Leaning on space bar counts as no, so that won't teleport you against your will. Some people are annoyed by the prompts, but the inscription {!.} automatically gets rid of them. It can even be sensible to keep receiving prompts, just in case one comes up when one is in an otherwise doomed position. This curse saved my character's life once, long ago. 
+</p>
+<p>
+Of course, if your item gets cursed again, it will start teleporting you randomly again, and ignore any inscriptions. 
+</p>
+<p>
+Objects with random teleportation are usually cursed to begin with, but if they are uncursed and have no further curses or minuses, they can be sold in shops. 
+</p>
+<h3 id="head-7bb96f46b0d8745415f8e92c0a860e2f983d2758">Ancient Foul Curse (in char sheet, shows up as TY_CURSE)</h3>
+<p>
+This is a dangerous curse (invented by Zangband's creator Topi Ylinen, hence the TY) that can still sometimes considered worth it if the object it comes with is powerful enough. This curse can never be removed from an object and it triggers periodically at random interwalls. To avoid the curse triggering needlessly, it can be a good idea to use the cursed item as a swap for tough situations and carry scrolls of *Remove Curse* for guaranteed unequipping. 
+</p>
+<p>
+It can have the following effects (note that more than one at once may happen): 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ aggravate nearby monsters 
+</p>
+</li>
+    <li>
+<p>
+ summon hostile creatures 
+</p>
+</li>
+    <li>
+<p>
+ high summon (that's greater demons, greater undeads or greater dragons, ants, spiders, hound) 
+</p>
+</li>
+    <li>
+<p>
+ drain 1/16th of your experience points 
+</p>
+</li>
+    <li>
+<p>
+ paralyze for 1-3 turns with free action, 1-13 otherwise. Note that you get a saving throw to avoid this *if* you have free action 
+</p>
+</li>
+    <li>
+<p>
+ decrease a random stat 
+</p>
+</li>
+    <li>
+<p>
+ amnesia 
+</p>
+</li>
+    <li>
+<p>
+ summon greater demons, only on Dungeon Level &gt; 65 
+</p>
+</li>
+    <li>
+<p>
+ a random loss (very likely more than one point) in every stat 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-d22194afe6902c47fd15a256819316c4b8fbef58">Ancient Morgothian curse (in char sheet, shows up as DG_CURSE)</h3>
+<p>
+This extremely nasty and sadistic curse can do the following (note that more than one effect at once is possible): 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Replicate to some of your other worn equipment. There is no cure, you either throw equipement away or you have to live with the curse! 
+</p>
+</li>
+    <li>
+<p>
+Drain 1/12th of your XP and sometimes causes Black Breath. Not resistable. 
+</p>
+</li>
+    <li>
+<p>
+Paralyze you for 1 to 13 turns (1 to 3 turns if you have free action). 
+</p>
+</li>
+    <li>
+<p>
+Confuse you  for 1 to 26 turns regardless of resists 
+</p>
+</li>
+    <li>
+<p>
+Lose some stats -- half the time it's a permanent loss 
+</p>
+</li>
+    <li>
+<p>
+Make your weapon useless 
+</p>
+</li>
+    <li>
+<p>
+In DL 26 or deeper, summons hostile Thunderlords. If this effect occurs, it has a 50% chance to trigger <em>again</em>, summoning yet more Thunderlords. 
+</p>
+</li>
+    <li>
+<p>
+ Aggravate nearby creatures 
+</p>
+</li>
+    <li>
+<p>
+ place a normal (heavy?) curse on your other worn equipment 
+</p>
+</li>
+    <li>
+<p>
+ Amnesia 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+This is the most powerful and most annoying curse in the game. However, you can unequip the item freely if it doesn't have curse or heavy curse. 
+</p>
+<h3 id="head-a99910bd304c2758fe11678e1aa81a72c7615f05">Black Breath</h3>
+<p>
+Found on all morgul weapons and some artifacts, the description of items is "It fills you with the Black Breath." Ringwraiths and some high-level undead can also give it to you. When you contract the Black Breath from a monster you get a gray message "Your foe calls for your soul!" 
+</p>
+<p>
+Black Breath activates periodically and can drain hp, drain a stat or lower experience permanently. I have also seen stats lowered permanently. Sustains prevent stat-drain. 
+</p>
+<p>
+To get rid of Black Breath you can: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ go to the herbal shop for "herbal healing" 
+</p>
+</li>
+    <li>
+<p>
+ use the <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fElfstone_20_27Elessar_27"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Elfstone Elessar</a> (which activates to cure black breath) 
+</p>
+</li>
+    <li>
+<p>
+ eat a Sprig of Athleas 
+</p>
+</li>
+    <li>
+<p>
+ drink a potion of Life 
+</p>
+</li>
+    <li>
+<p>
+ avoid it in the first place! 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Curing the Black Breath will only take it away from your character. The item that gave it to you is not uncursed -- it still has the capacity to give you the Black Breath again. 
+</p>
+<p>
+Hobbits are supposed to be resistant to the Black Breath, but they aren't immune. 
+</p>
+<h3 id="head-f61c1aec468443429b353daddd6de39c32b1d876">Flipping cursed items</h3>
+<p>
+Both _Remove Curse_ and _*Remove Curse*_ have an equal chance to flip the sign of the item's power value, its AC, its to-hit bonus, and its to-damage bonus. Artifacts cannot be flipped. 
+</p>
+<p>
+The probability of flipping is 1 / (55 - your level), so at level 50 an item wil flip 1 time in 5. 
+</p>
+<p>
+An Amulet of Doom [-8] (-9) can be flipped into an Amulet of Doom [+8] (+9) -- +9 to all stats!!! So they're worth keeping around if you know you'll get access to *remove curses* soon enough. It will keep re-cursing itself, though. 
+</p>
+<p>
+Not all flips are good. A shadow blade (-1, 9) +4 to stealth {cursed} will flip to (+1, -9) -4 to stealth. Items with no minuses at all will never flip.  
+</p>
+<h3 id="head-88476d2079e139aaaceb3d5b93f53795413ed89c">Weapons with no blows</h3>
+<p>
+There are some items (the "of Nothingness" ego springs to mind) which can be flipped to create amazing to-hit/to-dam stats, but they still cannot hit in melee due to a flag whose description is "It cannot attack". 
+</p>
+<p>
+They can still be used to make extremely powerful boomerangs, or uncursed (no flip, keep the negatives) on Dark Swords to give 100% antimagic effect with only 1 skill level of antimagic. This is very convenient and very powerful for archers and various loremaster-type characters. 
+</p>
+<p>
+Flipped weapons of Nothingness can be thrown at a nearby monster for full damage. 
+</p>
+<h3 id="head-1509e59d22546d2ef8fed734208df8d835978847">Mana drain, XP drain, HP drain</h3>
+<p>
+Some cursed items drain mana, experience points or hit points. This is frequently a cost of doing business for getting a cool power of the item (such as "Elemental" weapons, which drain mana), but on very bad items it can be considered part of a curse. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Very high level characters can often disregard experience drains. Maias at level 20 get that flag anyways so they can ignore it on equipment. 
+</p>
+</li>
+    <li>
+<p>
+ Warrior types can usually ignore the mana drain, because they do not rely on mana much. 
+</p>
+</li>
+    <li>
+<p>
+ The drain hit points effect can be tolerated for a while if you wish to pass thru nonpermanent obstacles using spectral weapons. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Ringwraith rings <em>always</em> drain experience. 
+</p>
+<h3 id="head-4890dad87a1acf0c573e656b18a2ab5e806895c1">Curse weapon/armor</h3>
+<p>
+Some traps and scrolls will make your armor or weapon useless and usually heavy cursed. The affected item cannot be repaired in any way, even if it was a powerful artifact. Artifacts get a saving throw against getting ruined (only in case of traps?). 
+</p>
+<h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h3>
+<strong><a href="./MayLith">MayLith</a></strong>: Someone please check my statement about Possessors. I think I got it right?? Nice work, Simon! 
+    <ul>
+
+ <strong><a href="./RedNaga">RedNaga</a></strong>: yes, it was right. I added the missing 1 hit-point penalty, though. 
+    </ul>
+
+
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: i'm not changing it because i'm not sure, but i think that the statement about thunderlord summoning under morgothian curse is wrong. There is not a 50% percent chance that more thunderlords are summoned, but rather a 50% chance no other effects are applied from the curse (this time, of course). Can someone please check this? 
+</p>
+<p>
+<strong><a href="./PaulMoore">PaulMoore</a></strong>: Silly question, but the 'Black Breath' section says how to get rid of it, but not what it does. What <em>does</em> it do? 
+</p>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  On the flipping of cursed items, it seems to indicate that all stats on an object will be flipped together, whenever flipping occurs.  However, I've twice flipped (Theme) Sorcerous Amulets of Foo (-X,-X)(X%)(X%)(+X) to Sorcerous Amulets of Foo (+X,+X)(X%)(X%)(+X), so only the negatives flipped.  These two times are the only times I've flipped Sorcerous Amulets (and I've never actually done flipping before; the first of these was accidental), so I've never observed all stats flipping. 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: "Sorcerous Amulets"??? 
+</p>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>: They are just in Theme, and very rare.  It's an ego type, so can be on whatever kind of amulet, and usually gives very large negatives to hit and dam, mul life and mul mana, and increases spellpower.  So they'd normally be awesome for just magic types, but since flipping seems to flip only the negatives they are amazing for all classes. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fCurses?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fCurses.text_html">RefreshCache</a> for this page (cached 2005-11-04 16:44:11)<br>
+<p><a href="./Spoilers_2fCurses?action=edit">EditText</a> of this page (last edited 2005-06-02 21:54:29 by <span title="66.33.196.46=samus.dreamhost.com">samus</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 22:50:39 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:37 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.173
+  exclusion.robots.policy: 0.161
+  RedisCDXSource: 0.755
+  esindex: 0.013
+  PetaboxLoader3.datanode: 178.749 (4)
+  LoadShardBlock: 66.023 (3)
+  PetaboxLoader3.resolve: 32.976
+  load_resource: 165.159
+  captures_list: 97.248
+  CDXLines.iter: 25.593 (3)
+-->

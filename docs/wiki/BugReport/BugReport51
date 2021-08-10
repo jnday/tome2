@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport51 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport51?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport51?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport51?action=fullsearch&amp;value=BugReport51&amp;literal=1&amp;case=1&amp;context=40">BugReport51</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport51?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport51">View</a></li>
+<li><a title="Diffs" href="./BugReport51?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport51?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport51?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport51?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport51?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport51?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport51?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport51?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport51?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport51">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I was wondering why I kept getting hit by traps. This is a very nasty bug. 
+    <ol type="1">
+
+    <li>
+<p>
+Detect traps so that the "DTrap" message goes on at the bottom of the map. 
+</p>
+</li>
+    <li>
+<p>
+Cast Probability Travel. 
+</p>
+</li>
+    <li>
+<p>
+Move out of the detected area by traveling through a wall. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+"DTrap" is still at the bottom of the map, and does not disappear even when you move around in the non-detected area. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Fixed in ToME 2.3.0 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport51?action=refresh&amp;arena=Page.py&amp;key=BugReport51.text_html">RefreshCache</a> for this page (cached 2004-09-30 11:01:02)<br>
+<p><a href="./BugReport51?action=edit">EditText</a> of this page (last edited 2004-09-30 11:01:01 by <span title="dialin-145-254-145-155.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:59:14 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:08 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 293.405
+  exclusion.robots: 0.331
+  CDXLines.iter: 33.004 (3)
+  LoadShardBlock: 147.265 (3)
+  esindex: 0.031
+  RedisCDXSource: 106.601
+  exclusion.robots.policy: 0.309
+  load_resource: 222.106
+  PetaboxLoader3.datanode: 229.537 (4)
+  PetaboxLoader3.resolve: 46.124
+-->

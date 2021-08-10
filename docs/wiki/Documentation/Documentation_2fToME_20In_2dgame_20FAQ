@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/ToME In-game FAQ - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=fullsearch&amp;value=%2FToME+In-game+FAQ&amp;literal=1&amp;case=1&amp;context=40">Documentation/ToME In-game FAQ</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fToME_20In_2dgame_20FAQ">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fToME_20In_2dgame_20FAQ?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fToME_20In_2dgame_20FAQ?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fToME_20In_2dgame_20FAQ?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fToME_20In_2dgame_20FAQ?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fToME_20In_2dgame_20FAQ?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fToME_20In_2dgame_20FAQ">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-54e6b8d5fd639126a7f5abb20285d2cade7371fb">Differences Between ToME and Vanilla Angband</a></li>
+<li>
+<a href="#head-8ee480a06009277b9b490248188b6bbdbfde6978">Questions and Answers</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-54e6b8d5fd639126a7f5abb20285d2cade7371fb">Differences Between ToME and Vanilla Angband</h3>
+<p>
+The first main difference a new player to ToME will need to be aware of is that it has implemented a skills based system where instead of the  adventurer automatically improving in their abilities as they become more experienced, they get 5 skill points to spend on their character's abilities and can therefore customise what type of character they play. See <a href="./Documentation_2fSkills">Documentation/Skills</a> for details. 
+</p>
+<p>
+A second major difference is that the main dungeon from Angband has been split  into 4 "dungeons", each of which cover a different portion of the dungeon's  levels. Each of these 4 dungeons are located either in or near one of the four  main towns so that the character can keep stocked up on supplies. As the  adventurer advances in ability, they will need to travel overland to the next  town/dungeon, which is most easily carried out using the <a class="nonexistent" href="./Wilderness_20map">Wilderness map</a> ("&lt;"  from town level). As well as these main places, there are a number of  additional dungeons which the character may or may not choose to enter, which  can have guardians, contain specific artifacts, or just be used as an  alternative place to enjoy gaining experience. Note that not all of the places are actually "dungeons" - some are caves, forests, etc. 
+</p>
+<p>
+ToME also offers the player the ability to undertake a series of quests.  <a class="nonexistent" href="./Random_20quests">Random quests</a> can be specified during start-up, and involve rescuing a princess  from a group of monsters within the dungeon, or helping an adventurer to recover his lost sword. If you do not wish to play with  random quests, simply specify "0" when asked how many you want during character  generation. Other <a class="nonexistent" href="./Fixed_20quests">Fixed quests</a> are also available from the towns (whether  random quests are enabled or not). These are usually given by the town leaders upon the  request of the adventurer. It is not required for any adventurer to undertake  the fixed quests, but they can result in some nice rewards. 
+</p>
+<p>
+The third main difference between Vanilla Angband and ToME is the difference  in character classes and races, as well as a very different  magic system.  See the help files on <a class="nonexistent" href="./Creating_20a_20character">Creating a character</a> and the <a class="nonexistent" href="./Magic">Magic</a> system.  Class abilities (generally referred to as skills) are generally accessed  through the 'm' command. Most racial abilities, or corruptions, are accessed  through the "U" command. 
+</p>
+<p>
+To balance the expansion in things like player abilities and customisation, the  list of both monsters and items has also been expanded. Be warned that items  which were by default safe in Vanilla are not necessarily safe in ToME (a  certain early artifact comes to mind here ...), and picking on defenceless  creatures is frowned upon.... 
+</p>
+<p>
+Happy adventuring! 
+</p>
+<h3 id="head-8ee480a06009277b9b490248188b6bbdbfde6978">Questions and Answers</h3>
+<hr>
+ Q: How do I use the altars (the 'O's) I see in the dungeon? <p>
+A: ToME introduces a new system of gods.  
+</p>
+<p>
+You can find altars only in Lothlorien and in the dungeon. The ones on the surface are dedicated to the good Valar (Eru, Manwe, Tulkas and Yavanna), while altars found in the dungeons are "sacred" for Melkor. You can use altars to convert yourself to a certain Vala by the "O" command while standing on them. Beware, this works only if you don't already have a God and as a new convert, your God won't like you that much. Melkor also uses his altars as a mean of collecting sacrifices from his devotees; this function is likewise accomplished by the "O" command. 
+</p>
+<p>
+Read <a class="nonexistent" href="./Documentation_2fIntroduction_20to_20ToME_20Gods">Documentation/Introduction to ToME Gods</a> for more information about Gods. 
+</p>
+<hr>
+ Q: How do I use the fountains (the '_'s) I see in the dungeon? <p>
+A: <a class="nonexistent" href="./Fountain">Fountain</a>s in ToME act like potions, but can only be identified by  drinking from them. Each one can hold between 3 and 12 doses of the potion.  Quaffing from a fountain can be done by using the 'H' command (in the standard  keyset) and answering 'Q' at the prompt. 
+</p>
+<p>
+You can also fill empty bottles at a fountain (enabling you to identify the potion and hence the type of fountain) by using the 'H' command and answering 'F' at the prompt.  The game will then ask you to choose bottles and how many bottles you want to fill.  You can find empty bottles on the dungeon, and drinking pints of fine ale/wine will give you emtpy bottles. If you are  trained in the Alchemy, you can reuse bottles after quaffing potions as well. 
+</p>
+<hr>
+ Q: I got killed by a Great Wyrm of Power at 50'!!! What happened? <p>
+A: You killed a defenceless creature. I told you that it was frowned upon! 
+</p>
+<hr>
+ Q: I've found some strange items like a Red Tome, a Voodoo Doll.... What can I do with them? <p>
+A: You've found an unusual artifact known as a <a class="nonexistent" href="./Junkart">Junkart</a> that cannot be wielded, but always has a sometimes-useful activation.  It will not be listed in the known artifact list and its activation is chosen randomly. It would probably be wise for this kind of artifact be *identified* before use, as the activation can be something very nasty... 
+</p>
+<p>
+To activate it, use the normal Activation command, but when prompted for which  item to activate change to the backpack instead of wielded equipment. 
+</p>
+<hr>
+ Q: I keep coming across "essences" and "runes". What are they?  <p>
+A: Essences are the <a class="nonexistent" href="./Alchemist">Alchemist</a>'s friend, and you can only use them if you have  access to the <a class="nonexistent" href="./Alchemy">Alchemy</a> skill.  
+</p>
+<p>
+Runes are used to cast and store spells of varying types. <a class="nonexistent" href="./Runecrafter">Runecrafter</a>s are the class who are most proficient at using these. You can only use them if you  have access to the <a class="nonexistent" href="./Runecrafting">Runecrafting</a> skill. 
+</p>
+<hr>
+ Q: Where can I store all my equipment? There's not enough room in my inventory? And what happened to the thieves quest in Bree? <p>
+A: And nor is there supposed to be enough room in your backpack. It's not  bottomless you know! If you go talk to the Mayor in Bree, he might let you know  about a slight problem that there's been in town. If you can clear up the  problem, you may find yourself with someone extra to keep your stuff. I've  heard tell that there are other similiar problems in other towns in  Middle-Earth.  
+</p>
+<hr>
+ Q: I spent 500 gp at the Prophet but she said nothing. Is that a bug? <p>
+A: No. Nor is it because Prophets are swindlers. She said nothing because you have no <a class="nonexistent" href="./Fate">Fate</a> at this moment.  You gain fates while playing, and will be warned by a message such as "You feel your fate has changed".  A fate can be useless like finding a broken skull at level 30, deadly like dying at level 56, or really useful like to never die by the hand of a mortal. 
+</p>
+<hr>
+ Q: Who is <a class="nonexistent" href="./Mathilde">Mathilde</a>, the Science Student whom I see every so often in the town? <p>
+A: Most of the time she laughs and giggles, she has no loot on her, and she's never done you any harm. So leave her be - even if she should happen to shout "Drop dead, creep!". 
+</p>
+<hr>
+ Q: My wrists hurt a lot when playing the game. Should I take precautions? <p>
+A: Yes, you should. Repetitive strain on wrists (which results from a badly placed keyboard, for example) can lead to serious injury of the wrist ligaments called Carpal Tunnel Syndrome. If you feel your wrists are strained, here is  an exercise posted by Jason Maskell in rec.games.roguelike.angband which might  help: 
+</p>
+<p>
+Hold your arms out horizontally, make a fist, and then point the fist towards  the floor, as much as you can. This will stretch one side's tendons. Hold for  5 seconds. Then make a flat hand and hold it level with your arm, hold for 5  seconds. Now splay your fingers and attempt to make your hand point toward the  ceiling (this one is hard, so don't push it too much). You should feel your  tendons stretching. Repeat this a few times. Take frequent breaks and do this  if it starts to hurt a little bit. I was sliding very fast towards CTS and this corrected it. 
+</p>
+<hr>
+ Q: When I stand on void jumpgates, I'm never teleported away. What's wrong? <p>
+A: Void jumpgates are not automatic. You must press '&gt;' while standing on one to activate it.  
+</p>
+<hr>
+ Q: When the game panic saves, it reloads an old savefile!! <p>
+A: The panic saves use a different file to save, savefile.pnc This file will be loaded first, if present, when the game is started. If it loads successfully, save the game immediately. Otherwise, delete the panic save, and your old (non-panic) savefile should be safe. 
+</p>
+<hr>
+ Q: I'm in the Maze, but I cannot find Mertonn! <p>
+A: Merton appears on a *random* level between dungeon level 26 (1300') and 36 (1800'). Each maze level is one panel by one panel in size, but *full* of passageways - so you may have to do quite a bit of tunnelling to search the whole level. 
+</p>
+<hr>
+ Q: I've found Merton, now what? <p>
+A: There is a new command that has been added to ToME that allows you to pass  objects to creatures. What would you try and do if you had a broken leg and  needed to get back to the town? 
+</p>
+<hr>
+ Q: I'm trying to find the Poisoned water quest at Lothlorien, but cannot find the quest entrance! <p>
+A: This quest is located in the wilderness. To the west of Lothlorien is 4  water squares in an upside down L shape. One of these squares will contain the quest. (Viewed from the Wilderness map). 
+</p>
+<hr>
+ Q: I've been given directions to a temple by my God but can't find the temple anywhere! <p>
+A: It <em>IS</em> there. However, your god's idea of compass directions that are  not directly on the 4 main axes are probably slightly less acurate than your  idea. In other words, if your god says it is South-East, s/he means it is  somewhere in the quadrant that is between the south and east axes. 
+</p>
+<hr>
+ Q: Where is the relic my god was talking about? I've looked in the lost  temple and can't find it anywhere! <p>
+A: It <em>IS</em> there. However, when your god told you to look for it VERY   carefully, s/he meant it. Regardless of your game settings, the relic will only be created once in the temple, at a random place. If you have searched the  whole temple once over, and not located it, someone else has found it before  you, and it is lost forever. 
+</p>
+<hr>
+ Q: Apparently my god has lost another piece of his relic and wants me to go find it again. How many of these are there?  <p>
+A: You can receive up to five god quests, with the final piece yielding an  extra reward. However, you will only receive extra quests if you have  sucessfully completed all the previous ones. 
+</p>
+<hr>
+ Q: Farmer Maggot / Melinda Proudfoot keep shouting at me, and I cannot kill them. <p>
+A: Both these people need to talk to you about something. Have a chat with them. (See the  appropriate set of keyset commands under <a class="nonexistent" href="./List_20of_20Commands">List of Commands</a> for how to chat). 
+</p>
+<hr>
+ Q: I have found a sentient weapon, it says it has access to the realms of Earth and Fire. How do I use these realms? <p>
+A: You don't actually 'use' them as such. If a weapon is sentient, it means it  gains experience itself as it delivers killing blows. As it levels up, it has  the chance to gain pluses to hit and to damage, and also powers from any of the  available 'realms'. For instance, the realm of fire gives the chance to gain  resistance to fire, or fire branding on your weapon. The realm of earth has a  chance to confer extra attacks or the power of causing earthquakes, and so on. 
+</p>
+<hr>
+ Q: How do I complete the special no-teleport level quests with a <a class="nonexistent" href="./Deathmold">Deathmold</a>? <p>
+A: You will need either some morphic oils, some mimicry skill, or the ring of  Flare. Deathmolds are marked as experimental for a reason, you know. Morphic  oils can also help if you're having trouble communictaing with monsters. A very beautiful Elf springs to mind as possibly causing some problems if you are in  Deathmold form. 
+</p>
+<hr>
+ Q: What or who is Fumblefingers? How do I get his quests? <p>
+A: <a class="nonexistent" href="./FF">FF</a> is short for <a class="nonexistent" href="./Fumblefingers">Fumblefingers</a>, the name that some players give to the adventurer who keeps having his sword stolen by monsters and asking you to find it for him. So named because he often seems to lose it to molds and other creatures you wouldn't expect to be able to pickpocket! 
+</p>
+<p>
+During character generation you'll be asked to specify a number of random quests you would like to attempt to complete. Some of these quests will take the form of Princess quests, others will be Fumblefingers quests. If you complete the task he sets you  sucessfully, he'll offer to join you as a companion. If you do not want him to  join you, he'll offer to teach you some new skills. Quite handy. 
+</p>
+<hr>
+ Q: Where has the option gone to set the number of random quests? Why aren't there any after the Barrow-downs? <p>
+A: Turning on either of the options "Allow permanent dungeon levels" or "Always  create special rooms" will disable random quests. Random quests can only be found in the four main dungeons (Barrowdowns, Mirkwood, Mordor and Angband).  
+</p>
+<hr>
+ Q: The game is so slow... <p>
+A: Try disabling the various options marked as (slow). 
+</p>
+<hr>
+ Q: My character found something that makes him/her invisible, but now I can't tell where he/she is!!! <p>
+A: You can get around this by acquiring the ability to See Invisible.  
+</p>
+<p>
+You can also set the user options to highlight your character with the cursor: '=' (options), '4' (efficiency options), and toggle 'highlite the player with the cursor' to on. Don't forget to save your options! 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fToME_20In_2dgame_20FAQ?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fToME_20In_2dgame_20FAQ.text_html">RefreshCache</a> for this page (cached 2005-11-06 15:20:07)<br>
+<p><a href="./Documentation_2fToME_20In_2dgame_20FAQ?action=edit">EditText</a> of this page (last edited 2004-06-26 21:43:58 by <span title="user-uiveqsa.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:49:10 Nov 23, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:40:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 93.336
+  exclusion.robots: 0.09
+  exclusion.robots.policy: 0.082
+  RedisCDXSource: 1.765
+  esindex: 0.006
+  LoadShardBlock: 70.967 (3)
+  PetaboxLoader3.datanode: 81.397 (4)
+  CDXLines.iter: 17.75 (3)
+  load_resource: 113.018
+  PetaboxLoader3.resolve: 45.305
+-->

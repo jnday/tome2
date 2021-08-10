@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Dragon Ball - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fDragon_20Ball?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fDragon_20Ball?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fDragon_20Ball?action=fullsearch&amp;value=%2FDragon+Ball&amp;literal=1&amp;case=1&amp;context=40">Modules/Dragon Ball</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fDragon_20Ball?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fDragon_20Ball">View</a></li>
+<li><a title="Diffs" href="./Modules_2fDragon_20Ball?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fDragon_20Ball?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fDragon_20Ball?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fDragon_20Ball?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fDragon_20Ball?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fDragon_20Ball?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fDragon_20Ball?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fDragon_20Ball?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fDragon_20Ball?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fDragon_20Ball">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+A mod based on the TV series Dragon Ball, Dragon Ball Z and Dragon ball GT. A couple of years ago I was into them a lot, and I thought it would be pretty cool to do all their fun attacks in ToME. I've got a few ideas, but feel free to add anymore to the list below. I'm seriously thinking of making this just as a once-off release, so it would be nice if nobody stole this idea for themselves until I decide! But i could use more ideas anyway... 
+    <ul>
+
+    <li>
+<p>
+ Races: Saiyan, human, changeling, mutant, android etc. THe race would be more important than in normal ToME, and a lot of skills would be race dependent. Saiyans would get 'Super Saiyan', androids would get antimagic, changeling would get mimicry and possession etc. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Classes: There would only be a few classes, since most skills would be determined by race. Martial artist, magic-user, technition etc. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Map: I think this would be doable, by changing the map of middle-earth to a map of the universe and the dunonges turn into planets. Earth is that main dungeon from 1 to 100 with a few minor dungeons too (tournaments would go here if I knew how to do them), and the other planets would be differen dungeons. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Monsters: There's not really enough to replace, but you could some uniques and replace Morgoth with Cell or something. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Skills: Replace Magic with Ki, and rework sub-skills: Offensive ki, defencive ki, telepathy, mind (redone with more spells). Add in a skill for Saiyans to turn Super Saiyan and ape. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Artifacts: Well add in the Dragon Balls for a start. Collect them all and get three wishes. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Tourament level: It could be done with an arena level with only one out of depth enemy. The dungeon would have no reset recall, but there would be a special command to surrender and return to town, at the cost of your money. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Anyway, it was just an idea. I need to do some research on the series. (Idea by: <a href="./ChrisAmes">ChrisAmes</a>) 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>:  Keep in mind that ToME modules don't have to be just a copy of ToME with differently-named monsters.   This module would have to be radically different, because you simply don't have enough monsters to fight. 
+</p>
+<p>
+Experience would probably have to be gained in tournaments, of course leading up to the world championship.  Dungeon delving would be almost non-existant. 
+</p>
+<p>
+<a href="./ChrisAmes">ChrisAmes</a>: Yeah, but I have no idea whatsoever how to do that. Now races, classes and skills I can do. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: To see plot-driven map changes, see my module ToMK in CVS. 
+</p>
+<p>
+<a href="./ChrisAmes">ChrisAmes</a>: You know, the more I think about this the more it seems do-able. All I need to do now is research on some of those fan sites, and read the copyright laws to see if I can do it legally... (concern). 
+</p>
+<p>
+<strong><a href="./BucketMan">BucketMan</a></strong> I've been thinking about this very thing and I'm interested. In my experience group prjects of this sort don't do nearly as well as projects run by a single person. If that's you, that's fine. If it's me, that's great too...but I think a Dragonball TOME module deserves to be made. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> I have quite a few ideas...but in looking over the status of module making at present, I'm not convinced that a lot of the things I'd like to implmenet are realistic with 2.x without modifying code. At least...not realistic for me personally to do without modifying code, and if possible I'd rather not. Like <a href="./NeilStevens">NeilStevens</a> is saying though...to do this properly is going to require a LOT more than just changing race, class and monster data. I've only loosely been following the planned modding changes for TOME 3.x, but I've sort of been waiting on it to begin....though probably jumping right in would be a much better way to go about it. Anyway...point being my timetable is not "right away" either but I'm interested if you'd like to compare notes. My email address is <a href="http://web.archive.org/web/20050422004630/mailto:lordbucket@hotmail.com">lordbucket@hotmail.com</a>, but it might be a good idea to post here too. More ideas is better. 
+</p>
+<p>
+<strong><a href="./BucketMan">BucketMan</a></strong>: Ok. I got impatient, so I went and wrote up some of my thoughts. Obviously this is the sort of thing that evolves heavily throughtou the course of creation, but this should give you some idea of the sort of things I had in mind: ***** Dragonball TOME Module 
+</p>
+<p>
+Skill/race/character rant No character creation beyond choosing gender and name. Possibly planet of Origin. New players start with virtually no skills, but can pick up any, as well as enhancements by performing various quests. Some skills, even branches will be mutually exclusive. Even some of the "Androids" in Dragonball weren't really "androids." Androids 17 and 18 were cybernetically enhanced humans. My thinking is that By choosing which quests and for whom to complete, a characters skill set can be made to evolve. You do a few quests for Dr. Gero and he'll give you some implants. At first maybe it just increases your physical attributes, but eventually it starts giving you access to skills. But...being a cyborg makes you ineligible for a magic tree, for example.  
+</p>
+<p>
+Magic: All of the characters in Dragonball (well, most) were martial artists. Martial artists so powerful that they built up seemingly superhuman powers. A more traditional angband view on spell casting isn't really going to work here. No spellbooks. 
+</p>
+<p>
+The Story, and the Win It's going to be heavy dialogue and plot line choices. In fact...I'm thinking that there are going to be at least three different endgame solutions. Three different ways to 'win.' The official starting story, can, f course, be that Cell is out there in the universe someplace and gee wouldn't it be nice if somebody were to stop him. So, we can have a traditional build up power, defeat Cell, save the universe sort of win. But...what about players who choose an evil route? Why not allow them to become bio androids themselves, and absorb the energy from uniques and take over the univerwe themself? Going with that train of thought...bio energy could be absorbed solely from unique monsters...and as they did, they would gain a portion fo hit points, armor, abilities etc. Not percentage chance...more like...say, any time you drain a unique with a particular resistance, you gain an intrinsic 1% of that resistance. The catch, is that there are a finite numvber of uniques, with a finite number of a resistances and abilities (no crumpled scroll) and the quest which allows you to absorb bio energy either doesn't become available, or is very difficult to complete until some point in the mid game, so players trying to win this way would have to adjust their entire play style...avoiding uniques, and fixed quests and 'levels' that have them, in order to absorb from as many as possible in order to make this sort of win realistic. We'll say that once a player becomes a bio android, he can never again wear any equipment. Fascinating possibility here. But again, there are other ways to win, and how a player chooses to play/which goal they persue will make for a very different playstyle within the game. 
+</p>
+<p>
+Gameplay There will be some 'dungeons.' Mostly revolving around quests...no randomly wandering over to the orc caves...people will generally go to dungeons for specific storyline reasons. I'm thinking the overland map will be the universe, and different 'cities' will be different planets. Namek, earth, etc. Of course...to be able to leave earth and accessthe 'overland map' at all a player will have to develop a skill tree that allows him the ability to fly through space or extreme long range teleport...and/or a technological base that allows him to buy/borrow/build a ship. We can have purely technological, non martial artist types as well. Infact...the way I'm seeing it...players who don't read the spoilers will not even realize it's poissible to go to other planets until they've been playing for a little while. I want gobs and gobs of quests. So many that most games you'll only do a fraction of them. (Of course, again, some trees will be mutually exclusive.) "Dungeons" can take the form of spaceships, cities, underground lairs, anything.  
+</p>
+<p>
+Some quest ideas: The World Tournament (of course) I'm thinking that gameplay will start with the player standing in front of the world tournament building, but of course being a fledgling little level one whitebelt, they aren't goign to be admitted until they've earned their way in through levels and quests. If they choose...again, plenty of other career choices available. The tournament takes the form of small small arena levels with uniques to fight. Losing, however, will only sometimes mean actual death, depending on whom you're fighting.  
+</p>
+<p>
+The training Dojo Sort of a starter dungeon. A small, little martial arts studio in the starter town (well, starter planet) with random white and green belts runnign around tryign to make a name for themselves. This could be a simple way to build of some experience (but remember...all skills come from storyline quests, so this dungeon will not be the basic power builder that the barrow downs or the thieves lair is!) As a player progresses through the ranks, he may eventually be allowed to challenge the masters of the dojo, and that could lead to some interestign possibilities. Once master of the dojo, for instance, it becomes your 'house' but you may have to go through ten dungeon levels worth and some uniques to do it. Again...avoiding the uniqies, making even the first house best avoided for players trying to win by becomign a bio android. Lots of long term consequenecs there. 
+</p>
+<p>
+Gather parts for the Techno-Wizard The local technologist needs a dozen gadgets for some contraption he's working on. This guy will actually give a lot of quests over time, but at first just gather up random nicknacks and he'll award you gold. Eventually he starts offering to let you be a lab rat for him. Help him build a device, and he'll install it in you. You pick the device based from a semi-random (better yet: storyline clues but still semi random) list and he installs it. Sometimes they work, enhancing you, sometimes they don't...and they act more like corruptions. (actually I'm thinking all cybernetics will be 'corruptions' but some will be of more or less benefit/detriment  than others. Of course...some of these devices might do very bad things, like say...destroy your brain and reduce your intelligence to 3 (not restorable). So..it would be prudent to do your background  before simply running over to the general store and buying his nicknacks for him. But, the option would sometimes be be there for the more daring. 
+</p>
+<p>
+Return so-and-so unique from the dead Remember in Dragonball death wasn't very permanant. As part of gameplay, it may be possible to bring uniques back to life. Correction. WILL be possible. Several ways, infact. Probably one or two fixed quests that can be done by anybody...a few artifacts that can do it (Dragonballs, obviously) and one, maybe two skill trees that have an ability in them that will allow you to ressurect any given unique provided you go to the Dragonball equivalant of the 'Halls of Mandos' and perform it on them personally. For characters who don't persue these skill/quest trees though, there will be a fixed number of opportunities to do this though, so they may want to conserve them and not randomly bring people back. We'll say that a bio-drained unique is permanantly dead, which will of course have some implications on some quest trees. 
+</p>
+<p>
+Recover the dragonballs This is doshte mo, of course. I'm thinking of this as more of an aragorn/anduril style quest, though. Dragonballs are simply artifacts that may be found over the course of the game as gathered as just another side quest. We'll make a wide variety of wishes available as rewards...unique ressurections, stat/skill incrases, magic items, etc. 
+</p>
+<p>
+Martial Arts/Skill/Combat How to handle this? Hmm. Well, There will be a number of 'Use' abilities which may be gained over the course of a game, of course...but I'm thinking of actual combat as being a bit more simplified than TOME is now. Instead of unique skills for each of several cateogories of weapons, I'm thinking players will be able to train with, and choose whether to develop bare handed and/or weapons type combat, as well as probably a few bio/energtic methods. For example: 
+</p>
+<p>
++Martial Arts 
+</p>
+
+    <ul>
+
+ - Barehanded  - Weapons  - Ki Attack  - Ki Defense 
+    </ul>
+
+
+<p>
+Barehanded combat will be more powerful in the long run than weapons combat, but weapons will give access to abilities and resists unavailable during barehanded combat. Weapons will probably be ALL weapons combat. I'm not thinking of this as a heavily item driven game. More quest, storyline, and skill development driven. Ki attack will be ki (mana) driven, but will work like swapping combat modes betwen barehanded/bearform/weapon/etc combat as it is now. But, in Ki combat mode...every attack you make drains ki, whether or not it succeeds. Ki Defense will protect you from these sorts of attacks, which will primarily be used by uniques. Within Ki we can have: 
+</p>
+<p>
++Ki Skills 
+</p>
+
+    <ul>
+
+ - Power  - Regeneration  - Absorbtion 
+    </ul>
+
+
+<p>
+Power is a skill which determines the maximum rate at which you can expend ki in any activity, attack defense, "Use" type abilities etc. Regeneratoin is your mana regeneration rate. Absorbtion is a skill which (rather unlike yet related to the present antimagic) allows you to absorb ki points from inbound attacks against you, again...only ki attacks...so this skill will mostly only be useful against uniques. 
+</p>
+<p>
+Now...here we come to a question. I've not decided exactly how I would like to handle it...but my strongest leaning is that there be a Ki skill which governs a certain category of utility type effects. We'll call it 'focus' or something. From it comes levitation, flying, space-flying, teleportation in all its various forms, and many related things. HOWEVER...there are a number of 'utiltiy effects' we're accustomed to be rather low level...identify, for instance, that I would like to bias (if not entirely reserve) to the techonological skill tree. I am thinking NO identify scrolls. A lot of items types may be going away, in fact. Identify will be a function of a skill in the technological skill tree, or alternately you can pay gold to the NPC technologist to do identification for you. Some players will choose to develop both trees, others will pay gold, others will just have to do without. I want to go very heavy on varying styles of play which can change from game to game. 
+</p>
+<p>
+Healing will probably have it's own entry in the Ki skill list as well. Like the others it will be limited by your power level, but will probably directly correpond to damage quantities and types of adverse effects that can be cured. This will illustrate another minor difference between the 'style' of the various skill trees. A technologist will be able to fairly easily buy/build/use a mechanical device that will cure his poison at fairly low level. Self healing will be very draining on a martial artist both in terms of ki as well as time. Drawing the poison from ones system through mental focus may cost a lot of Ki, but it may also also take five continuous 'turns' of effort, whereas the technologist simply "quaffs the potion" or "activates the rod" he had prepared before hand.  
+</p>
+<p>
+The Technologist The more I type about it, the more the Technologist tree is starting to sound like the current Alchemist. This isn't quite how I was originally seeing it...but let's go with the theme. Sure. There will be a number of 'recipe's which are randomized for every game. Building a "Nano Toxin Filteration System" (rod of neutralize poison) may require 4 units of titanium, four nano-bots and a chromatic diode.  Recipe's can occassionally be learned by dissassembling devices, as well as become obvious and known t higher skill levels. Yep. Just like Alchemy. Where are the differences? Several ways. First...it breaks down into several related skills. 
+</p>
+<p>
++Technology -Technical Wherewithal -Contruction -Dissassembly -Use 
+</p>
+<p>
+Wherewithal is a maximum limit to your ability to understand anything, period. No matter how many Starships you dissassemble, you're never going to be able to build one until your overall Wherewithal is high enough. But....even once it is, you don't automatically know how to build one...you still need to learn. Construction is your actual ability to build devices. It will affect your chacnes of success, how efficient with parts you are, your odds of catastrophic failure, etc. Dissassembly governs your ability to dismantle devices to recover parts without destroying them, as well as factoring into your ability to learn new designs when you dismantle. Use affects your actual ability to use items you've made.  
+</p>
+<p>
+Next, construction will take time and tools. No extracting essences from your word of recall scroll, writing a teleport scroll, and then teleporting away in the time it takes for a monster to open a door and take one step towards you. Construction of some simple things may be done with tools you keep in your inventory, but more complicated projects may only be done with facilities that you have established in your homes. This will lead to quests for technologist type characters to recover certain housing locations with greater capcity, as well as quests to retrieve specifc 'artifact' tools which are permanantly installed in the house. A Super Seiyan will fly from Earth to Namek, but a technologist will have to build a starship consruction facility, and then build a starship to fly.  ****** So...those of you more familiar with modding than I am, and in particular those who know what exactly will be possible with TOME 3.x, how realstic is my vision here going to be without doing some code diving? Can this be done as a module, or are we talking new varient here? Or maybe everything here can be done already with 2.x and I just haven't figured out how. Also...I know this is somewhat lengthy, and we've really just started. If this needs to go to email or a website instead of the wikki, let me know. 
+</p>
+<p>
+Thoughts, anyone? 
+</p>
+<p>
+<strong><a href="./BucketMan">BucketMan</a></strong>:  April 12, 2005 Ok. I've been reading through the LUA help files,  and apparantly skills, powers and quests can all be totally LUA'fied so just about everything I was unsure about is suddenly possible. (Yay!) I'm still murky how to do a few things, but  the engine looks amazingly modular so I'm just going to assume it can do anything I want it to and start work on the module. Hopefully in another week  I'll have a v.0.0.1 ready. Anyone please feel free to contact me in the meantime. (Am I seriously overestimating how often these pages get read?) 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: This is being read. 
+</p>
+<p>
+<a href="./TheFalcon">TheFalcon</a>: Yes, it is.  
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I thought to mention I'm also reading this even though I have only a faint idea of what the actual Dragon Ball is about. 
+</p>
+<p>
+<a href="./DarkGod">DarkGod</a>: I'm reading this too <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<strong><a href="./BucketMan">BucketMan</a></strong>: April 14th. 2005 Thank you, all. Good to know. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> Work is underway. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fDragon_20Ball?action=refresh&amp;arena=Page.py&amp;key=Modules_2fDragon_20Ball.text_html">RefreshCache</a> for this page (cached 2005-04-14 18:07:05)<br>
+<p><a href="./Modules_2fDragon_20Ball?action=edit">EditText</a> of this page (last edited 2005-04-14 18:07:05 by <span title="68.225.238.2=ip68-225-238-2.oc.oc.cox.net">ip68-225-238-2</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 00:46:30 Apr 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:33 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 40.228
+  exclusion.robots.policy: 0.208
+  PetaboxLoader3.datanode: 1322.504 (4)
+  RedisCDXSource: 1.143
+  load_resource: 183.806
+  exclusion.robots: 0.224
+  esindex: 0.016
+  captures_list: 1363.09
+  LoadShardBlock: 1334.005 (3)
+  CDXLines.iter: 22.538 (3)
+-->

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/ToME:Recentered - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fToME_3aRecentered?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fToME_3aRecentered?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fToME_3aRecentered?action=fullsearch&amp;value=%2FToME%3ARecentered&amp;literal=1&amp;case=1&amp;context=40">Modules/ToME:Recentered</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fToME_3aRecentered?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fToME_3aRecentered">View</a></li>
+<li><a title="Diffs" href="./Modules_2fToME_3aRecentered?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fToME_3aRecentered?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fToME_3aRecentered?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fToME_3aRecentered?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fToME_3aRecentered?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fToME_3aRecentered?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fToME_3aRecentered?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fToME_3aRecentered?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fToME_3aRecentered?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fToME_3aRecentered">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+ToME:Recentered is exactly the same as standard ToME 2.3.x, except that the initial skill and ability levels have been adjusted in an attempt to approximate the starting ability levels of ToME 2.2.7; in exchange for this power boost, skill point gain is restored to 5 per level.  If you've been playing standard ToME 2.3.x and found it extremely difficult to find secret doors, disarm traps or hit monsters with low-level characters, you might want to give this module a try. <h2 id="head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</h2>
+0.0.2a:  "Let's Try This Again...", maintenance release <p>
+Changes since 0.0.2: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Incorporated data file changes from 2.3.2. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Changes since 0.0.1: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Oops, Z/Cth monsters aren't blocked in modules; remove them from <tt>edit/r_info.txt</tt>. <img src="./wiki/rightsidebar/img/redface.png" alt=":o" height="15" width="15"> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</h2>
+2.3.x <h2 id="head-5fda23d62015b99fb2a9f86b38bcdf2bdf7609c8">Author</h2>
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a> <h2 id="head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</h2>
+2005-08-14 <h2 id="head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</h2>
+For now, I'm hosting ToME:Recentered <a class="external" href="./www.killerbunnies.org/angband/recenter.zip"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">from my own web site</a>; once it's stabilized somewhat, I may also put it on <a class="external" href=".modules.t-o-m-e.net/"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">the ToME modules page</a>. <p>
+Size 371 kB 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  Fair warning:  This is my first ever ToME module, so it contains bugs with probability&#160;1; please report same here. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fToME_3aRecentered?action=refresh&amp;arena=Page.py&amp;key=Modules_2fToME_3aRecentered.text_html">RefreshCache</a> for this page (cached 2005-11-05 09:21:53)<br>
+<p><a href="./Modules_2fToME_3aRecentered?action=edit">EditText</a> of this page (last edited 2005-08-15 04:12:08 by <span title="adsl-065-081-085-051.sip.rdu.bellsouth.net"><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 00:28:42 Jun 03, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:55 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.232
+  captures_list: 191.101
+  esindex: 0.017
+  LoadShardBlock: 163.819 (3)
+  CDXLines.iter: 15.916 (3)
+  load_resource: 82.604
+  RedisCDXSource: 8.234
+  PetaboxLoader3.datanode: 155.52 (4)
+  exclusion.robots: 0.247
+  PetaboxLoader3.resolve: 34.065
+-->

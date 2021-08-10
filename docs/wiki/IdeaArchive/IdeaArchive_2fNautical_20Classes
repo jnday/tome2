@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Nautical Classes - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fNautical_20Classes?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fNautical_20Classes?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fNautical_20Classes?action=fullsearch&amp;value=%2FNautical+Classes&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Nautical Classes</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fNautical_20Classes?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fNautical_20Classes">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fNautical_20Classes?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fNautical_20Classes?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fNautical_20Classes?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fNautical_20Classes?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fNautical_20Classes?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fNautical_20Classes?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fNautical_20Classes?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fNautical_20Classes?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fNautical_20Classes?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fNautical_20Classes">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This is cross-posted over at the Forum, under the Modules discussion. Sorry about that, but I realized a better place for this is here after posting there. <p>
+The three I can think of are (please post more if you're inspired): 
+</p>
+<p>
+1) Pirate. As in Umbar. A rogue-like character. 
+</p>
+<p>
+2) Shipwright. Like Cirdan et. al. Perhaps akin to a loremaster. 
+</p>
+<p>
+3) Mariner.  I forget his name just now. You know who. Weaker melee type? with some other skills to compensate? 
+</p>
+<p>
+Specific abilities for Nautical Classes would include speed bonuses in water, and resistance to drowning. Better luck? Sailors must have some luck to survive, I believe. 
+</p>
+<p>
+Can't think of anything else at the moment. 
+</p>
+<p>
+-Solorin 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Historically, almost all sailors couldn't swim, so I think resistance to drowning doesn't work, nor does a speed bonus in water (unless we somehow manage to code a boat!) However, if you want to give a nautical class a major bonus, give it a resistance to water attack. (Sailors withstand the worst sorts of spray/swells/etc.)  
+</p>
+<p>
+Then, for good measure, add:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ vulnerability to fire 
+</p>
+</li>
+    <li>
+<p>
+ innate rcold after a certain CL (basic rcold, not doubled) 
+</p>
+</li>
+    <li>
+<p>
+ reduced chance to slip on ice 
+</p>
+</li>
+    <li>
+<p>
+ levitation (for a "climbing bonus") once a certain CL is reached (that'll give you an effective rdrowning anyway) 
+</p>
+</li>
+    <li>
+<p>
+ DEX bonus  
+</p>
+</li>
+    <li>
+<p>
+ INT penalty 
+</p>
+</li>
+    <li>
+<p>
+ small luck bonus 
+</p>
+</li>
+    <li>
+<p>
+ "Spyglass": telepathy (only over water) once a certain CL is reached 
+</p>
+</li>
+    <li>
+<p>
+ "Weathereye": after a certain CL, intrinsic ability to detect monsters with air or water attacks, or any environmental air/water effects like fog/etc 
+</p>
+</li>
+    <li>
+<p>
+ access to trapping (via knots... okay, maybe that's hokey <img src="./wiki/starshine/img/smile4.png" alt=";)" height="15" width="15"> ) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+All of that's my $0.02, of course. <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<strong>Solorin</strong>: Wow. Good stuff. Thanks for fleshing out my vagarious notion. Earendil, Earendil the Mariner, that was it. Now, that I consider it though Mariners would probrably be more like rangers. Not really much chance for melee onboard a ship, unless your a pirate of course.  
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Thanks. I'm a closet C.S. Forester fan. A great read, btw, if you can make it through the old-style English. Oh, and also btw -- it really doesn't relate to the game, but if you think melee doesn't happen shipboard, you should read that series or some history books <img src="./wiki/starshine/img/smile4.png" alt=";)" height="15" width="15"> Oh yes, and sailors in olden ages should probably run through food faster than most, to reflect their nutritional deficiencies...  
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fNautical_20Classes?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fNautical_20Classes.text_html">RefreshCache</a> for this page (cached 2004-10-02 05:41:36)<br>
+<p><a href="./IdeaArchive_2fNautical_20Classes?action=edit">EditText</a> of this page (last edited 2004-10-02 05:41:35 by <span title="user-uiven0d.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:11:37 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:45:29 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 92.907
+  exclusion.robots: 0.095
+  exclusion.robots.policy: 0.088
+  RedisCDXSource: 0.685
+  esindex: 0.007
+  LoadShardBlock: 73.276 (3)
+  PetaboxLoader3.datanode: 79.039 (4)
+  CDXLines.iter: 16.877 (3)
+  load_resource: 90.098
+  PetaboxLoader3.resolve: 42.51
+-->

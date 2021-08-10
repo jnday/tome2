@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport130 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport130?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport130?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport130?action=fullsearch&amp;value=BugReport130&amp;literal=1&amp;case=1&amp;context=40">BugReport130</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport130?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport130">View</a></li>
+<li><a title="Diffs" href="./BugReport130?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport130?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport130?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport130?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport130?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport130?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport130?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport130?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport130?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport130">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Kalirion:  Is there some special formula for calculating the power of a possessed body's attack abilities?  At around 4400 HP my Great Wyrm of Power body was doing only about 215 damage on unresisted elemental breaths, and less than that for most other breaths.  As I recall, elemental breaths should be 1/3 of the current HP, and 215 is less than 1/3 of even my base body's HP (L43 Deathmold, maxed Con through items), unless the HP count was frozen at the time I left the body when the level was still in the mid 20s.  But in any case, Light and Dark breaths do about 350 damage, and why would an unresisted Light breath ever do more damage than an unresisted Acid breath? <p>
+In case it matters, I used a rod of probing to get the maximum damage for all breath types: 
+</p>
+<p>
+Acid, Fire, Lightning, Cold, Poison: 250 
+</p>
+<p>
+Light, Dark, Sound, Nuke: 400 
+</p>
+<p>
+Chaos, Disenchantment: 350 
+</p>
+<p>
+Nexus, Mana, Disintegration: 250 
+</p>
+<p>
+Time, Plasma: 150  
+</p>
+<p>
+Inertia, Gravity: 200  
+</p>
+<p>
+Force: 200(?) + crushing  
+</p>
+<p>
+<strong><a href="./JulesBean">JulesBean</a></strong>: Yes, that's right. Breath damage from monster 'spells', including breath weapons, is calculated by a rather arbitrary bunch of formulae (in most cases, dependent on your level), which are not in most cases the same formulae used when monsters attack players. The whole lot is being redone for 3.0 anyhow; too early right now to say how it will work. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport130?action=refresh&amp;arena=Page.py&amp;key=BugReport130.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:42:52)<br>
+<p><a href="./BugReport130?action=edit">EditText</a> of this page (last edited 2004-09-23 17:43:51 by <span title="212.18.250.99"><a href="./JulesBean">JulesBean</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:01:50 Jan 26, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:02 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 51.619 (2)
+  exclusion.robots.policy: 0.205
+  PetaboxLoader3.datanode: 90.197 (4)
+  RedisCDXSource: 32.341
+  load_resource: 58.314
+  exclusion.robots: 0.221
+  esindex: 0.015
+  captures_list: 143.561
+  LoadShardBlock: 86.644 (3)
+  CDXLines.iter: 19.961 (3)
+-->

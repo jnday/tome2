@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport36 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport36?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport36?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport36?action=fullsearch&amp;value=BugReport36&amp;literal=1&amp;case=1&amp;context=40">BugReport36</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport36?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport36">View</a></li>
+<li><a title="Diffs" href="./BugReport36?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport36?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport36?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport36?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport36?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport36?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport36?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport36?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport36?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport36">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+I tried out nightly as of 2004-7-16, and the 'wall destruction' thaumaturgic spell seems to be gone.  Was this intentional?  I didn't see a comment in the changes.txt file about it. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The thaumaturgic spells are randomly determined. Sometimes you obtain a wall destruction spell, sometimes you don't. Checked it with the latest 2.3.0 (CVS) version, and the wall destruction spell is still available. 
+</p>
+<p>
+Have the probabilities changed?  I tried for much of the night and put max points into Thaumaturgy just to see if I could find the spell for about half a dozen characters (I got them each up into the 20s before quiting and trying again; up to "e" level Thaumaturgy spells).  Very odd. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Afaik thaumaturgy was not changed in the 2.3.0 version. It is easier to test this in wizard mode: Create a testing character, type CTRL + W (answer yes) to enter wizard mode, go to the skill menu (G) and press + at the Thaumaturgy skill, until it reaches 50. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport36?action=refresh&amp;arena=Page.py&amp;key=BugReport36.text_html">RefreshCache</a> for this page (cached 2004-08-02 21:21:28)<br>
+<p><a href="./BugReport36?action=edit">EditText</a> of this page (last edited 2004-07-16 16:02:24 by <span title="dialin-145-254-141-023.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:43:58 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:34:38 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.232
+  captures_list: 134.976
+  esindex: 0.017
+  RedisCDXSource: 10.408
+  PetaboxLoader3.resolve: 41.467
+  load_resource: 69.681
+  exclusion.robots.policy: 0.217
+  CDXLines.iter: 22.324 (3)
+  LoadShardBlock: 91.504 (3)
+  PetaboxLoader3.datanode: 98.534 (4)
+-->

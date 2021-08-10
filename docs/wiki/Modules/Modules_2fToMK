@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/ToMK - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fToMK?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fToMK?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fToMK?action=fullsearch&amp;value=%2FToMK&amp;literal=1&amp;case=1&amp;context=40">Modules/ToMK</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fToMK?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fToMK">View</a></li>
+<li><a title="Diffs" href="./Modules_2fToMK?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fToMK?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fToMK?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fToMK?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fToMK?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fToMK?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fToMK?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fToMK?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fToMK?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fToMK">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+ToMK was the first module not written by <a href="./DarkGod">DarkGod</a>.  It is Super Mario Brothers 3-themed, written for ToME 2, available in ToME <a href="./CVS">CVS</a>, and not likely to be finished.  <a href="./NeilStevens">NeilStevens</a> hates drawing maps, so he got stalled and never got it done. </div><div id="footer">
+
+
+<a href="./Modules_2fToMK?action=refresh&amp;arena=Page.py&amp;key=Modules_2fToMK.text_html">RefreshCache</a> for this page (cached 2004-08-02 18:08:22)<br>
+<p><a href="./Modules_2fToMK?action=edit">EditText</a> of this page (last edited 2004-07-12 18:26:16 by <span title="dialin-145-254-147-072.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:21:41 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:56 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 59.205
+  captures_list: 375.43
+  exclusion.robots.policy: 0.194
+  PetaboxLoader3.resolve: 53.111
+  esindex: 0.017
+  CDXLines.iter: 23.879 (3)
+  PetaboxLoader3.datanode: 295.129 (4)
+  load_resource: 104.465
+  exclusion.robots: 0.209
+  LoadShardBlock: 288.322 (3)
+-->

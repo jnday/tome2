@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Subraces/Vampire - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fSubraces_2fVampire?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fSubraces_2fVampire?action=print">
+<link rel="Up" href="/Spoilers_2fSubraces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fSubraces_2fVampire?action=fullsearch&amp;value=%2FVampire&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Subraces/Vampire</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fSubraces">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fSubraces_2fVampire?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fSubraces_2fVampire">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fSubraces_2fVampire?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fSubraces_2fVampire?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fSubraces_2fVampire?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fSubraces_2fVampire?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fSubraces_2fVampire?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fSubraces_2fVampire?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fSubraces_2fVampire?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fSubraces_2fVampire?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fSubraces_2fVampire?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fSubraces_2fVampire">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The vampire is a race modifier which is not available at character creation. In ToME, you can only become a vampire after acquiring the necessary <a class="nonexistent" href="./Corruptions">Corruptions</a>. <p>
+Vampires emit an inherent range one light, which is quite useful to read scrolls when you don't have a light source. They may be harmed by artifact light sources, including the <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPhial_20of_20Galadriel"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Phial of Galadriel</a>, but the <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPhial_20of_20Undeath"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Phial of Undeath</a> will not harm you with light. (It will, however, harm you in other ways.) 
+</p>
+<p>
+Being harmed by sunlight is a problem until you get a source of light resistance. Until then, use control-T to find out what the game time is. Once it is nighttime, it is safe to get leave the dungeons for the wilderness or town surface. 
+</p>
+<p>
+Vampires have no modifiers to luck.  
+</p>
+<p>
+Vampires are a choice of some mage players who want extra HP but no magic penalty. 
+</p>
+<p>
+Bandobras: At least in 2.3.0 CVS, humans can become vampires at character creation. On the other hand I testes this extensively, and I'm sure one cannot become vampire by gaining normal corruptions (my thunderlord would be very happy to gain it, but no luck). Another way of becoming a vampire is currently commented out in the source code. :&lt; 
+</p>
+<p>
+<a href="./ErisDiscordia">ErisDiscordia</a>: Since we're being spoily here, let's say it straight out: Deathwatch, near the bottom of the Orc Caves, contains guaranteed artifact gloves that provide light resistance. This dungeon is just a few hours for Bree, and so vampires should strongly consider visiting it as soon as it's survivable (basically first thing after the Barrow Downs). 
+</p>
+<p>
+Obviously, an alternative to waiting until night is to use one's supply of scrolls of darkness. This costs a lot of food, and obviously you can't hunt for food very effectively in the wilderness in the daytime until you have light resistance (or an alternative -- see below), so be sure to stock up on scrolls of satisfy hunger if you need to travel the wilderness and your only protection from light-death is scrolls of darkness. 
+</p>
+<p>
+Note that there are junkarts of darkness, and that thaumaturgists, if they get lucky, can get pure-dark spells. Both of these amount to an infinite supply of scrolls of darkness, making things like finding early god quests much less annoying. Also, I presume a Dark Hound pet sicced on some silly wilderness creature could breathe darkness. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fSubraces_2fVampire?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fSubraces_2fVampire.text_html">RefreshCache</a> for this page (cached 2004-09-21 15:24:45)<br>
+<p><a href="./Spoilers_2fSubraces_2fVampire?action=edit">EditText</a> of this page (last edited 2004-09-21 15:24:44 by <span title="194.213.36.254=gw-brno.zoner.com">gw-brno</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:40:48 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:02:02 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 340.033
+  exclusion.robots: 0.093
+  exclusion.robots.policy: 0.084
+  RedisCDXSource: 8.99
+  esindex: 0.008
+  LoadShardBlock: 310.733 (3)
+  PetaboxLoader3.datanode: 339.064 (4)
+  CDXLines.iter: 18.1 (3)
+  PetaboxLoader3.resolve: 63.682
+  load_resource: 157.558
+-->

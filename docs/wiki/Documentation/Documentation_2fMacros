@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Macros - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMacros?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMacros?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMacros?action=fullsearch&amp;value=%2FMacros&amp;literal=1&amp;case=1&amp;context=40">Documentation/Macros</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMacros?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMacros">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMacros?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMacros?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMacros?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMacros?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMacros?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMacros?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMacros?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMacros?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMacros?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMacros">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top" <em><strong>Subpages should contain non-spoily information of the type currently contained in the on-line game help. Please put spoiler information in the appropriate place in the <a href="./SpoilerArchive">SpoilerArchive</a>. Thanks.</strong></em> <hr>
+ <ol>
+<li>
+<a href="#head-f5cbdf6bfb51439be085b5c6b7460a7c91eabc3c">Contents</a></li>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<ol>
+<li>
+<a href="#head-9f3163ffda0d3418a1866865fdb1ef76cb2dbf4b">Notation</a></li>
+<li>
+<a href="#head-4b57f3c59982d7912efb4851dd095b6c077c37c2">Special Keys</a></li>
+<li>
+<a href="#head-f11e0329a1b42a479624331103fb497b5a856ad5">System abbreviations</a></li>
+</ol>
+
+<li>
+<a href="#head-4c4a2e80cc873135b3d277a22b6e85110c509731">Disclaimer</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-f5cbdf6bfb51439be085b5c6b7460a7c91eabc3c">Contents</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fQuick_20start_20tutorial">/Quick start tutorial</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fOverview">/Overview</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fCommon_20macros_20and_20techniques">/Common macros and techniques</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fCommon_20questions">/Common questions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fCommon_20problems">/Common problems</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fGame_20inscriptions">/Game inscriptions</a> added to items automatically. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fKeys_20and_20commands">/Keys and commands</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fPreference_20files">/Preference files</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fMacro_20editing_20commands">/Macro editing commands</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fAdvanced_20macro_20techniques">/Advanced macro techniques</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fProblems">/Problems</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Documentation_2fMacros_2fMiscellaneous">/Miscellaneous</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h2 id="head-2473e96bc614a911821242119918a241a41836d6">Introduction</h2>
+<p>
+This FAQ is meant to be a companion to the standard ToME help files for using inscriptions, macros, and keymaps. The ToME help files which also describe them are listed in the "References" section. 
+</p>
+<p>
+<strong>Much of the information this guide contains may be obsolete</strong>, since it was created for earlier versions of the game. However, it may still provide a basic introduction, until an up to date guide is published. 
+</p>
+<p>
+<strong>SPOILER ALERT</strong>:This document gives some information on how the game does or doesn't work that might be considered spoiling. Most players advanced enough to use macros probably won't notice. 
+</p>
+<h3 id="head-9f3163ffda0d3418a1866865fdb1ef76cb2dbf4b">Notation</h3>
+
+    <dl>
+
+    <dt> Single Quotes (')</dt><dd>
+<p>
+These are generally used to delimit a single character to be typed in. These shouldn't by typed in themselves. 
+</p>
+</dd>
+    <dt> Double Quotes (")</dt><dd>
+<p>
+These are generally used to delimit a sequence of characters to be typed in. These shouldn't by typed in themselves. 
+</p>
+</dd>
+    <dt> Parentheses ( )</dt><dd>
+<p>
+These are generally used for single-key Angband commands. 
+</p>
+</dd>
+    <dt> Braces { }</dt><dd>
+<p>
+These are used to enclose inscriptions. These aren't typed in as part of inscribing an item. They are added by the interface. 
+</p>
+</dd>
+
+    </dl>
+
+<h3 id="head-4b57f3c59982d7912efb4851dd095b6c077c37c2">Special Keys</h3>
+<p>
+The following abbreviations are used in this document. These keys may be named differently or missing on some keyboards. Some keys may be duplicated. These abbreviations shouldn't be typed in literally. For example, when F1 is encountered in a string of keys to press it means to press the F1 function key, not 'F','1', unless otherwise stated. Additional special keys may be listed later. 
+<pre>Alt    Alt
+Ctrl   Control
+Del    Delete
+Esc    Escape
+Enter  Enter / Return
+F1     Function key F1, ...
+Shift  Shift
+</pre>
+</p>
+<h3 id="head-f11e0329a1b42a479624331103fb497b5a856ad5">System abbreviations</h3>
+<p>
+Each system that ToME compiles on has a semi-standard 3-letter abbreviation. These are commonly referred to in the source and docs using "xxx" as a "wildcard" standing for any one of them. In this document "***" is used instead because there are actual generic files not associated with any specific system that use "xxx". Sometimes this refers to a feature instead of a specific system: "xxx" is used for a generic / default file, and "new" is used for *****Adam Bolt's tiles.***** 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h2 id="head-4c4a2e80cc873135b3d277a22b6e85110c509731">Disclaimer</h2>
+<p>
+Copyright 2000 Jim Lyon and others. Redistribution of unaltered copies of this document is permitted without restriction. Distribution of altered copies is permitted without restriction as long as the alteration does not significantly alter the content. (For example, translation and conversion to another format is permitted.) Distribution of all other altered copies is permitted as long as credit for previous authors is maintained, the contact information is replaced with that of the alterer, and redistribution is not further restricted. 
+</p>
+<p>
+Original Angband Macro FAQ by Jim Lyon (<a href="http://web.archive.org/web/20060306000139/mailto:jplyon@attglobal.net">jplyon@attglobal.net</a>) 09-Dec-2000. Compiled from usenet postings to r.g.r.a. and Angband source &amp; documentation. 
+</p>
+<p>
+Edited for <a href="./PernAngband">PernAngband</a> V5.x.x by Dawnmist with permission from Jim Lyon August 2001. Formatting for ToME 2.2.x wiki (June 2004) by <a href="./MayLith">MayLith</a> and {May 2005) <a href="./TheFalcon">TheFalcon</a>. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMacros?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMacros.text_html">RefreshCache</a> for this page (cached 2006-01-07 20:14:10)<br>
+<p><a href="./Documentation_2fMacros?action=edit">EditText</a> of this page (last edited 2006-01-07 20:14:10 by <span title="exten-halls-246.soton.ac.uk"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 00:01:39 Mar 06, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:25 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.186
+  exclusion.robots.policy: 0.175
+  LoadShardBlock: 55.095 (3)
+  RedisCDXSource: 1.442
+  PetaboxLoader3.datanode: 123.848 (4)
+  captures_list: 77.021
+  PetaboxLoader3.resolve: 387.248
+  CDXLines.iter: 17.218 (3)
+  load_resource: 467.67
+  esindex: 0.013
+-->

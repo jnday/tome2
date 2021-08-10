@@ -1,0 +1,2082 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Character attribute - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fCharacter_20attribute?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fCharacter_20attribute?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fCharacter_20attribute?action=fullsearch&amp;value=%2FCharacter+attribute&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Character attribute</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fCharacter_20attribute?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fCharacter_20attribute">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fCharacter_20attribute?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fCharacter_20attribute?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fCharacter_20attribute?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fCharacter_20attribute?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fCharacter_20attribute?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fCharacter_20attribute?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fCharacter_20attribute?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fCharacter_20attribute?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fCharacter_20attribute?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fCharacter_20attribute">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-728bd89d5c7992d1e7f49bddf162199dc9bc7d63">Basic Attributes From Character Generation</a></li>
+<li>
+<a href="#head-7c76dbd82b36e4fa2d0ba740732a9ee0e3666083">Player Stats</a></li>
+<ol>
+<li>
+<a href="#head-1c295a8aa571da938745c80a9328d8cc1840f819">Luck</a></li>
+</ol>
+
+<li>
+<a href="#head-2a143d60eb65f3e51c7813dc9e74a05a6126981a">Accuracy and Damage</a></li>
+<li>
+<a href="#head-8261e56f515b8046197c3c34bc78480b0c050f14">Armor Class</a></li>
+<li>
+<a href="#head-5b5aafe6b9e2094c341356cec8cab143fe29a38a">Experience</a></li>
+<li>
+<a href="#head-c57604db5869f60539c66f7caa4809f27133d314">Gold</a></li>
+<li>
+<a href="#head-125dcf82b273d90ebf758f928d1c2497db46aa36">Hit Points</a></li>
+<ol>
+<li>
+<a href="#head-67d58a7f36a0078cc13d682db00455e7fc0b7ec1">Life Rating</a></li>
+</ol>
+
+<li>
+<a href="#head-3c6614c31d795ad9f4eacf18e3aad28778ad1210">Spell Points</a></li>
+<li>
+<a href="#head-753f86089a75d89640d3bc31623e19939456a266">Sanity</a></li>
+<li>
+<a href="#head-4d50c38f539398581ec1cfc1319f821bf816beae">Piety</a></li>
+<li>
+<a href="#head-26b00fb05f7bac481c7faa09cfb5a36b2bf7a4e3">Miscellaneous Abilities</a></li>
+<ol>
+<li>
+<a href="#head-693b276b8526bad46ebc0aae5031be4c735c6881">Eight General Abilities</a></li>
+<li>
+<a href="#head-8f40f4b6a42077f665d3af58d9fa7475dffc1bd8">Blows, Shots, and Melee per Round</a></li>
+<li>
+<a href="#head-df540ad6429044c8c8c55d45814c6abdb5accab2">Infra-Vision</a></li>
+<li>
+<a href="#head-e9d6f372b6f90c215924d28cba21925392808f75">Tactic and Explore</a></li>
+</ol>
+
+<li>
+<a href="#head-91c03425df7b73d95d126bb1f8d5e5b084bffb3d">Character Background</a></li>
+<li>
+<a href="#head-8625258760dd152b14c95ed23ec0174588d2cf38">Character Traits</a></li>
+<ol>
+<li>
+<a href="#head-7ce919a652d585fe01845dad127c309ba3bf39aa">Additive Traits</a></li>
+<li>
+<a href="#head-ac939b6b26122cd2d593b142b5724830b396c04a">Weapon Brands</a></li>
+<ol>
+<li>
+<a href="#head-4e1da9f1e55adff46549ce65b9b3baf80ab2699a">Melee Weapon Brands</a></li>
+<li>
+<a href="#head-939867ce53b930c135cbae39628e7d38ae60d812">Shooter Weapon Brands</a></li>
+</ol>
+
+<li>
+<a href="#head-509a62bcb37966800e0ddb4501b4cbd1cd13169e">Preservation Traits</a></li>
+<ol>
+<li>
+<a href="#head-0a3a1ca28db4ad5bec2431563099d39c29dc6979">Main Stat Sustains</a></li>
+<li>
+<a href="#head-1bea1ab7abd6573ee403355d26c9fa5b62f9196e">Other Preserving Traits</a></li>
+</ol>
+
+<li>
+<a href="#head-84a9216d9235a632418e863feee07f5a28eb02c8">Damage Resistances and Immunities</a></li>
+<li>
+<a href="#head-d860ba0877837db31a25736f2079970e008e565d">Miscellaneous Traits</a></li>
+<li>
+<a href="#head-9a99c65fb65a9bb04b436e689b8fafd9752504ea">Curses</a></li>
+<li>
+<a href="#head-b5535855346a0ef55bcaeeeb07e256b772974925">Extra-Sensory-Perception</a></li>
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-2473e96bc614a911821242119918a241a41836d6"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Introduction</h2>
+<p>
+Most character attributes are findable via the 'C'haracter Description.  Some are not shown there, but will be included here where applicable. 
+</p>
+<h2 id="head-728bd89d5c7992d1e7f49bddf162199dc9bc7d63"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Basic Attributes From Character Generation</h2>
+<p>
+Name 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Chosen by the player 
+</p>
+</li>
+    <li>
+<p>
+No effect on gameplay 
+</p>
+</li>
+    <li>
+<p>
+Can be changed anytime from the 'C'haracter Screen 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Sex 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Chosen by the player  
+</p>
+</li>
+    <li>
+<p>
+No effect on gameplay 
+</p>
+</li>
+    <li>
+<p>
+Can be changed by traps of Masculinity, Femininity, or Neutrality 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Race 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Chosen at generation, see <a class="interwiki" title="Self" href="./Spoilers/Races">Races</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Class 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Chosen at generation, see <a class="interwiki" title="Self" href="./Spoilers/Classes">Classes</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Body 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Always "Player", unless using possession, mimicry or bearform 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+God 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Chosen at generation, or later by converting from non-worship, see <a class="interwiki" title="Self" href="./Spoilers/Gods">Gods</a> 
+</p>
+</li>
+    <li>
+<p>
+Race and Class may require worship of a particular god or no god at all 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Age 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Assigned at generation, related to race 
+</p>
+</li>
+    <li>
+<p>
+No effect on gameplay 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Height 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Assigned at generation 
+</p>
+</li>
+    <li>
+<p>
+No effect on gameplay 
+</p>
+</li>
+    <li>
+<p>
+Can be changed by traps of growing or shrinking 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Weight 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Assigned at generation 
+</p>
+</li>
+    <li>
+<p>
+No effect on gameplay 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Social Class 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Assigned at generation 
+</p>
+</li>
+    <li>
+<p>
+Affects beginning gold 
+</p>
+</li>
+    <li>
+<p>
+No effect on gameplay 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-7c76dbd82b36e4fa2d0ba740732a9ee0e3666083"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Player Stats</h2>
+<p>
+STR 
+</p>
+<p>
+INT 
+</p>
+<p>
+WIS 
+</p>
+<p>
+DEX 
+</p>
+<p>
+CON 
+</p>
+<p>
+CHR 
+</p>
+<h3 id="head-1c295a8aa571da938745c80a9328d8cc1840f819"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Luck</h3>
+<p>
+<a href="./Spoilers_2fCharacter_20attribute_2fLuck">/Luck</a> 
+</p>
+<h2 id="head-2a143d60eb65f3e51c7813dc9e74a05a6126981a"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Accuracy and Damage</h2>
+<p>
++ To Melee Hit 
+</p>
+<p>
++ To Melee Damage 
+</p>
+<p>
++ To Ranged Hit 
+</p>
+<p>
++ To Ranged Damage 
+</p>
+<h2 id="head-8261e56f515b8046197c3c34bc78480b0c050f14"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Armor Class</h2>
+<p>
+AC 
+</p>
+<h2 id="head-5b5aafe6b9e2094c341356cec8cab143fe29a38a"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Experience</h2>
+<p>
+Level 
+</p>
+<p>
+Experience 
+</p>
+<p>
+Max Exp 
+</p>
+<p>
+Exp to Adv. 
+</p>
+<h2 id="head-c57604db5869f60539c66f7caa4809f27133d314"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Gold</h2>
+<p>
+Gold 
+</p>
+<h2 id="head-125dcf82b273d90ebf758f928d1c2497db46aa36"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Hit Points</h2>
+<p>
+Max Hit Points 
+</p>
+<p>
+Cur Hit Points 
+</p>
+<h3 id="head-67d58a7f36a0078cc13d682db00455e7fc0b7ec1"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Life Rating</h3>
+<p>
+<em>Copied from <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=429">the forum</a> with permission from Lord Dimwit, then further edited.</em> 
+</p>
+<p>
+Hit points are generated using a sort of fractional system called "life rating." Typical life ratings range from about 85/100 to 115/100. Basically, these numbers mean how many hp you have in relationship to the average hp possible from your hit die. The life rating is not affected by artificial changes to hitpoints such as quest rewards or creating artifacts. 
+</p>
+<p>
+In other words... 
+</p>
+<p>
+A character of average 7 &lt; x &lt; 15 CON who starts the game with 10 hp has 10 hit die. A life rating of 100/100 for him would mean exactly average hit points, or 5.5 hit points per level. A higher life rating might mean a few extra hp per level. 
+</p>
+<p>
+And what a Potion of New Life does is reroll your life rating. Given the averages I listed before, this can be up to a 30% increase (or loss) in hp. But it doesn't remove HP rewards from quests, and any life bonuses you get from equipment are simply recalculated. 
+</p>
+<p>
+And yes, it used to remove corruptions, but now there's absolutely no way to do that. 
+</p>
+<h2 id="head-3c6614c31d795ad9f4eacf18e3aad28778ad1210"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Spell Points</h2>
+<p>
+Max SP (Mana) 
+</p>
+<p>
+Cur SP (Mana) 
+</p>
+<h2 id="head-753f86089a75d89640d3bc31623e19939456a266"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Sanity</h2>
+<p>
+SN (does not appear on character screen prior to version 2.3.2) 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Affects how you identify monsters correctly 
+</p>
+</li>
+    <li>
+<p>
+The greater the damage to sanity the greater the probability that a monster is identified incorrectly. 
+</p>
+</li>
+    <li>
+<p>
+Produces amusing messages during combat. 
+</p>
+</li>
+    <li>
+<p>
+Loss of all sanity can kill you by turning you into a vegetable. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-4d50c38f539398581ec1cfc1319f821bf816beae"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Piety</h2>
+<p>
+Piety 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+A measure of how much your god favors you. 
+</p>
+</li>
+    <li>
+<p>
+Piety is used instead of mana to cast god spells and gain automatic advantages for high piety scores. 
+</p>
+</li>
+    <li>
+<p>
+Extremely low piety may confer penalties. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-26b00fb05f7bac481c7faa09cfb5a36b2bf7a4e3"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Miscellaneous Abilities</h2>
+<h3 id="head-693b276b8526bad46ebc0aae5031be4c735c6881"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Eight General Abilities</h3>
+<p>
+Fighting 
+</p>
+<p>
+Bows/Throw 
+</p>
+<p>
+<a class="interwiki" title="Self" href="./Spoilers_2fSavingThrow">Saving Throw</a> 
+</p>
+<p>
+<a class="interwiki" title="Self" href="./Spoilers_2fSkills_2fStealth">Stealth</a> 
+</p>
+<p>
+Perception 
+</p>
+<p>
+Searching 
+</p>
+<p>
+Disarming 
+</p>
+<p>
+Magic Device 
+</p>
+<h3 id="head-8f40f4b6a42077f665d3af58d9fa7475dffc1bd8"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Blows, Shots, and Melee per Round</h3>
+<p>
+Blows/Round 
+</p>
+<p>
+Shots/Round 
+</p>
+<p>
+Mel.dmg/Rnd 
+</p>
+<h3 id="head-df540ad6429044c8c8c55d45814c6abdb5accab2"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Infra-Vision</h3>
+<p>
+Infra-Vision 
+</p>
+<h3 id="head-e9d6f372b6f90c215924d28cba21925392808f75"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Tactic and Explore</h3>
+<p>
+Tactic 
+</p>
+<p>
+Explore 
+</p>
+<h2 id="head-91c03425df7b73d95d126bb1f8d5e5b084bffb3d"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Character Background</h2>
+<p>
+Can be re-written at birth or the automatically generated background accepted. 
+</p>
+<h2 id="head-8625258760dd152b14c95ed23ec0174588d2cf38"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Character Traits</h2>
+<p>
+The following traits can be viewed from the 'C'haracter Description screen, pressing 'n' to page through them. 
+</p>
+<p>
+There has been a small amount of rearrangement of these traits from where they appear in the Character Description to better categorize them. 
+</p>
+<p>
+Some traits, given by race, subrace, class, and god are shown under the '@' symbol.  Other traits are given by equipment, under the equipment's letter designation. 
+</p>
+<h3 id="head-7ce919a652d585fe01845dad127c309ba3bf39aa"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Additive Traits</h3>
+<p>
+These designate addition (or subtraction) to a given trait.  If the change is greater than 9, it is shown as '+'. 
+</p>
+<p>
+Add Str 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Strength 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Int 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Intelligence 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Wis 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Wisdom 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Dex 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Dexterity 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Con 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Constitution 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Chr 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Charisma 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Mul Mana 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies SP, by 20% for each +/-1 (integers not shown on charsheet) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Mul SPower 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Spell Power 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Stea. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Stealth 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Sear. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Searching 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Infra 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Infra-Vision 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Tun.. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Tunnelling Capability 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Speed 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Speed 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Add Blows 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies Number of Melee Blows 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Invisible 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Adds to <a class="external" href="./www.killerbunnies.org/angband/spell-230.html#invis">invisibility power</a> (integers not shown on charsheet) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Mul life 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Modifies HP, by 20% for each +/-1 (integers not shown on charsheet) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Lite 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Adds to the character's light radius (integers not shown on charsheet) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-ac939b6b26122cd2d593b142b5724830b396c04a"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Weapon Brands</h3>
+<h4 id="head-4e1da9f1e55adff46549ce65b9b3baf80ab2699a"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Melee Weapon Brands</h4>
+<p>
+These brands apply only when on a melee weapon, boomerang, or missile ammo. 
+</p>
+<p>
+They apply automatically by attacking. 
+</p>
+<p>
+Damage-increasing brands multiply the weapon's hit dice by an integer.  This means that +todam is not figured into the brand.  A Fiery Dagger (1d4)(+5,+10) will do (1d4 + 10) damage to fire-resistant monsters, and (3*1d4 + 10) damage to non-fire-resistant monsters, since fire's multiplier is 3. 
+</p>
+<p>
+Damage-increasing brands are not cumulative, but the highest-damaging brand will be applied.  For example, a Fiery Dagger of Slay Animal attacking an animal with no special resistances will have a multiplier of 3 (for the fire brand), and not 2 (for the slay animal), and definitely not 6. 
+</p>
+<p>
+Chaotic 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+May polymorph, confuse, or teleport monsters affected 
+</p>
+</li>
+    <li>
+<p>
+May cause earthquakes 
+</p>
+</li>
+    <li>
+<p>
+May drain life, like a vampiric weapon 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Vampiric 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Drains life from the affected monster, slightly healing the character. 
+</p>
+</li>
+    <li>
+<p>
+Capped at 100 hit points of draining per round. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Slay Anim. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+2x multiplier to animals 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Slay Evil 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+2x multiplier to evil monsters 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Slay Und. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to undead monsters 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Slay Demon 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to demonic monsters 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Slay Orc 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to orcs 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Slay Troll 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to trolls 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Slay Giant 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to giants 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Slay Drag. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to dragons 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Kill Drag. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+5x multiplier to dragons 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Kill Undead 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+5x multiplier to undead monsters 
+</p>
+</li>
+    <li>
+<p>
+Does not appear on character sheet 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Kill Demon 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+5x multiplier to demonic monsters 
+</p>
+</li>
+    <li>
+<p>
+Does not appear on character sheet 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Sharpness 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Occasionally cuts deeper into the monster, giving 2x multiplier 
+</p>
+</li>
+    <li>
+<p>
+Small probability to do 3x multiplier or higher. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Impact 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Occasionally causes earthquakes 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Poison Brd 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to monsters without poison resistance 
+</p>
+</li>
+    <li>
+<p>
+Poisons monsters hit, causing them to continue taking poison damage if lacking resistance 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Acid Brand 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to monsters without acid resistance 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Electric Brand 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to monsters without electricity resistance 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Fire Brand 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to monsters without fire resistance 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Cold Brand 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+3x multiplier to monsters without cold resistance 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-939867ce53b930c135cbae39628e7d38ae60d812"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Shooter Weapon Brands</h4>
+<p>
+These two brands are only on missile weapons (the shooter, not the ammo) 
+</p>
+<p>
+Xtra Might 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Gives a higher damage multiplier to the shooter 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Xtra Shots 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Gives the character more shots per round 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-509a62bcb37966800e0ddb4501b4cbd1cd13169e"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Preservation Traits</h3>
+<h4 id="head-0a3a1ca28db4ad5bec2431563099d39c29dc6979"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Main Stat Sustains</h4>
+<p>
+The following six traits prevent the main stats from being drained by most effects (traps, attacks, Black Breath, etc) 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Sust Str 
+</p>
+</li>
+    <li>
+<p>
+Sust Int 
+</p>
+</li>
+    <li>
+<p>
+Sust Wis 
+</p>
+</li>
+    <li>
+<p>
+Sust Dex 
+</p>
+</li>
+    <li>
+<p>
+Sust Con 
+</p>
+</li>
+    <li>
+<p>
+Sust Chr 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-1bea1ab7abd6573ee403355d26c9fa5b62f9196e"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Other Preserving Traits</h4>
+<p>
+Free Act 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents the character from being paralyzed by most effects 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Hold Life 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Gives a high saving throw against attempts to drain the character's experience.   
+</p>
+</li>
+    <li>
+<p>
+Does not affect draining by Black Breath, time attacks or experience drain flag on equipment 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-84a9216d9235a632418e863feee07f5a28eb02c8"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Damage Resistances and Immunities</h3>
+<p>
+Each resistance lowers the damage taken from the given damage type to 1/3rd.   
+</p>
+<p>
+Permanent resistances to one type are not cumulative, so two flags for Resist Fire will not reduce fire damage beyond the amount one flag would reduce it.  A permanent resistance is cumulative with a temporary resistance, given by a spell, activation, potion, etc, cumulating in 1/9th damage. 
+</p>
+<p>
+Immunities, only available for Acid, Electric, Fire, Cold, and Nether nullify all damage by that type and protect all equipment and inventory from damage by that type. 
+</p>
+<p>
+Res Acid/Imm Acid 
+</p>
+<p>
+Res Elec/Imm Elec 
+</p>
+<p>
+Res Fire/Imm Fire 
+</p>
+<p>
+Res Cold/Imm Cold 
+</p>
+<p>
+Res Pois 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Also prevents "Poisoned" status 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Fear 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+There is no fear "damage"; this only prevents "Afraid" status 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Lite 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents being blinded by light attacks 
+</p>
+</li>
+    <li>
+<p>
+Nullifies all sunlight damage for vampire characters 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Dark 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents being blinded by darkness attacks 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Blind 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+There is no blind "damage"; this only prevents "Blinded" status 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Conf 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents "Confused" status 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Sound 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents stunning by most magical attacks 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Shard 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents cuts from most magical attacks 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Neth/Imm Nether 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents nether from draining experience 
+</p>
+</li>
+    <li>
+<p>
+The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Phasing">the Ring of Phasing</a> is only source of Nether immunity in non-modular ToME 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Nexus 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents nexus from blinking the player 
+</p>
+</li>
+    <li>
+<p>
+Prevents nexus from scrambling the player's stats 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Chaos 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Gives confusion resistance 
+</p>
+</li>
+    <li>
+<p>
+Prevents hallucinations 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Res Disen 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents equipment from being disenchanted by disenchantment attacks (attacking ringwraiths will still disenchant/destroy main weapon) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-d860ba0877837db31a25736f2079970e008e565d"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Miscellaneous Traits</h3>
+<p>
+Sens Fire 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Makes the player take extra damage from fire. An intrinsic attribute of Ents, but certain kit items may also confer an extra sensitivity to fire. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Reflect 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Causes missiles and bolt spells to be reflected, giving the character zero damage.  The reflected attack may hit a monster (even the caster) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Aura Fire 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Surrounds the character with fire, causing monster's melee attacks to deal 2d6 fire damage to the monster 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Aura Elec 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Surrounds the character with electricity, causing monster's melee attacks to deal 2d6 electric damage to the monster 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+NoTeleport 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents the character from teleportation, whether by the character, monster, trap, or void jumpgate 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+AntiMagic 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Prevents the character from using 'm'agical abilities, and gives the character a 95% saving throw 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+WraithForm 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Allows the character to pass through walls and trees 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Levitate 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Allows the character to pass over pits and chasms 
+</p>
+</li>
+    <li>
+<p>
+Makes the character take less damage when passing over lava 
+</p>
+</li>
+    <li>
+<p>
+Prevents drowning over deep water, except in the underwater dungeon 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Fly 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Conveys all abilities of levitation 
+</p>
+</li>
+    <li>
+<p>
+Allows the character to pass over trees, dead trees, and rubble. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Climb 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Allows the character to pass over mountains (hard stone), but not high mountains: especially useful since no monsters have this capability. Also allows faster overland travel as you don't have to go around mountains. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+See Invis 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Allows the character to see invisible monsters 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Digestion 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Increases number of turns it takes the character to pass from Full to Weak 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Regen 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Makes the character regenerate HP and SP faster 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Precogn. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+See <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fRing_20of_20Precognition">the Ring of Precognition</a>, the only source of Precognition in non-modular ToME. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Recharge 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Designates an object which can always be successfully recharged, with no chance of backfire or destruction.  Also, recharging the object does not cause you to forget its number of charges.  Found on artifact staffs and wands. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Blessed 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Designates a piece of equipment that is blessed by the gods.  If it is a weapon, it may be used without penalty by an Eru-worshipper even if not a hafted weapon 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Activate 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Designates a piece of equipment that can be 'A'ctivated 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-9a99c65fb65a9bb04b436e689b8fafd9752504ea"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Curses</h3>
+<p>
+Curses are discussed in detail <a class="interwiki" title="Self" href="./Spoilers/Curses">here</a> 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+EvilCurse 
+</p>
+</li>
+    <li>
+<p>
+Drain Exp 
+</p>
+</li>
+    <li>
+<p>
+Teleport 
+</p>
+</li>
+    <li>
+<p>
+Aggravate 
+</p>
+</li>
+    <li>
+<p>
+Cursed 
+</p>
+</li>
+    <li>
+<p>
+Hvy Curse 
+</p>
+</li>
+    <li>
+<p>
+Prm Curse 
+</p>
+</li>
+    <li>
+<p>
+No blows 
+</p>
+</li>
+    <li>
+<p>
+B.Breath 
+</p>
+</li>
+    <li>
+<p>
+Mrg.Curse 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-b5535855346a0ef55bcaeeeb07e256b772974925"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Extra-Sensory-Perception</h3>
+<p>
+Also known as telepathy. 
+</p>
+<p>
+Some monsters are "mindless" and cannot be (due to mindlessness) or are rarely detected by ESP (usually due to weird mind - such as insects, vermin, and some weird monsters). 
+</p>
+<p>
+Each of these flags allows the character to "see" the monster type, even if the monster is not in line-of-sight, or if the character is blinded. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Orc.ESP 
+</p>
+</li>
+    <li>
+<p>
+Troll.ESP 
+</p>
+</li>
+    <li>
+<p>
+Dragon.ESP 
+</p>
+</li>
+    <li>
+<p>
+Giant.ESP 
+</p>
+</li>
+    <li>
+<p>
+Demon.ESP 
+</p>
+</li>
+    <li>
+<p>
+Undead.ESP 
+</p>
+</li>
+    <li>
+<p>
+Evil.ESP 
+</p>
+</li>
+    <li>
+<p>
+Animal.ESP 
+</p>
+</li>
+    <li>
+<p>
+TLord.ESP 
+</p>
+</li>
+    <li>
+<p>
+Good.ESP 
+</p>
+</li>
+    <li>
+<p>
+Nlive.ESP 
+</p>
+</li>
+    <li>
+<p>
+Unique.ESP 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Full ESP 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Senses all monster types 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328"><a href="#bottom"><img src="./wiki/rightsidebar/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/rightsidebar/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Chatter</h2>
+<strong><a href="./RedNaga">RedNaga</a></strong>: Is there a way to know your current life rating, as to value the possible benefits of quaffing a potion of new life? <p>
+<strong><a href="./MayLith">MayLith</a></strong>: Quaff a Potion of Self Knowledge. That will tell you (among other things) what your current life rating is. 
+</p>
+<p>
+<strong>Rawel</strong>: I'm not sure about ver 2.3.0 but in 2.2.7 i have not been able to find out my life-rating in any way short of quaffing a potion of New Life. And that only tells you the new life-rating. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Last I checked, potions of Self Knowledge show the life rating in v2.2.7. (I haven't downloaded v2.3.0 yet, out of sheer stubbornness.) The rating <em>is</em>, however, displayed at the very top of the list, which means if you are space-bar'ing your way through, you might very easily miss seeing it. 
+            <ul>
+
+   <strong>Rawel</strong>: I've just rechecked (by finding and quaffing a potion of self knowledge, took some time since i'm in the Nether Realm.:)) and at least in my version of 2.2.7 no Life Rating is displayed.:( If you could please recheck I'd look into the code to find out what's wrong but i don't want to go code diving if it's the way it's supposed to be. 
+            </ul>    </ul>
+
+
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  So this is the place to spoil on all attributes available from 'C'haracter description, including the pages from adding to stats through ESP?  Shall I work up an outline for this page?  Looking through the way it is organized inside the game, it could do with some rearrangement, like how "mul life" is nowhere near all the other additives (stats and mul spell power and mul mana), and the curses are rather mixed up too.  And I guess it would also house everything from 'age' to 'saving throw' as well, and the stats and oddballs like life rating.  <a href="./SimonSorc">SimonSorc</a>, I hope I didn't mess up anything you were doing, but your lock ended 51 minutes ago. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: I'd say this is the place. Go for it. If something seems to logically not fit and belong somewhere else, find or make a home for it. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+    </ul>
+
+
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:   
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Okay, here is what appears through the 'C' command.  For most of the traits and whatnot I've written up some of what they do, but some more details are needed in a lot of it (percentages, exact figures, etc)  I'll be looking around more to continue filling such stuff out, but if anyone else knows anything applicable off the top of their heads go ahead and fill in.  Most of the primary stuff still needs to be written up too...and probably a lot of this could be transferred onto subpages.  And feel free to edit word choice especially in categories...a lot of those I've mulled over quite a few choices. 
+</p>
+</li>
+    <li>
+<p>
+I've done some rearrangement of traits, to get them to better fit in categories...though I haven't done as much as I could.  Thoughts on whether this was a good thing or whether should revert to the order given from the Character Description to prevent confusion? 
+</p>
+</li>
+    <li>
+<p>
+What started this whole thing for me was wondering whether chaos resistance lowers damage from confusion attacks, or just prevents confusion status.  I still don't know.  Anyone?  Or if no one enters it I'll probably run an experiment. 
+</p>
+</li>
+    <li>
+<p>
+Sound resistance gives stun resistance&amp;but not to all types of stunning.  But not just to stunning via sound though, right, since IIRC it prevents stunning by water?  Is it magical means of stunning, but not physical, like blows from mystics? 
+</p>
+</li>
+    <li>
+<p>
+Does disenchant resistance give a saving throw against all disenchantment (like foo "hitting to disenchant), or is what I wrote up there pretty much correct? 
+</p>
+</li>
+    <li>
+<p>
+Anyone who has experience with Precognition, please fill that in.  I've never found that ring. 
+</p>
+</li>
+
+        <ul>
+
+  <strong><a href="./MayLith">MayLith</a></strong>: I linked to the Ring of Precog. 
+        </ul>
+
+
+    <li>
+<p>
+Anyone who knows what "Recharge" is, fill that in too please. 
+</p>
+</li>
+
+        <ul>
+
+  <strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  This is what the code says.  The only thing that bugs me is that I know I've had a wand recharge backfire on me and just drain all the charges instead of being destroyed, and I thought it was Thrain's wand; it must have been just an ordinary  Wand of Dig, I guess&#8230; 
+        </ul>
+
+
+    <li>
+<p>
+Er, probably Races, Classes, Abilities, Gods and Curses should be subpages of this one...but I'm guessing that'd be an awful lot of work?  I could easily devote some hours to that sometime if it'd be helpful.  Copy each page to a subpage of this one, then designate the original for a mod to delete?  And in the so doing they could be re-named in the singular. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: <em>Nice</em> job! Keep in mind, though, that you're doing Spoilers here, not documentation of every last little thing. Just trying to save you some work re: some of those un-filled-out pages. (If you want to take over Doc of Char attrs, though, just drop me some wikimail.) 
+</p>
+<p>
+<strong>Rawel</strong>: Immunity is also available for Nether even if it's only found on the Ring of Phasing. 
+</p>
+<p>
+<a href="./FeathinSilyar">FeathinSilyar</a>: Thanks Rawel, I added it. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: mmm... some artifacts can have kill demons and undeads as well as dragons, but they'll not show on the character screen, and blessed weapons resist cursing from cause wounds spells. But i'm not sure that this is the place for these info... shouldn't be more logical a page for 'weapon abilities' where all of them (seen and unseen) could be listed more approfonditely? This page might then link to it for the relevant part (this will also help shorten the page a bit). 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: I put the two kills up above for completeness (well, less-incompleteness at least).  That part of the code is... ugly.  Really ugly. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fCharacter_20attribute?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fCharacter_20attribute.text_html">RefreshCache</a> for this page (cached 2005-09-12 10:28:27)<br>
+<p><a href="./Spoilers_2fCharacter_20attribute?action=edit">EditText</a> of this page (last edited 2005-09-12 10:28:27 by <span title="proxy.relinfo.ru"><a href="./AndreyEgoshin">AndreyEgoshin</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 18:07:39 Sep 13, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:34 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.206
+  PetaboxLoader3.datanode: 204.106 (4)
+  LoadShardBlock: 134.836 (3)
+  RedisCDXSource: 0.853
+  captures_list: 166.058
+  PetaboxLoader3.resolve: 48.67
+  exclusion.robots: 0.222
+  CDXLines.iter: 25.415 (3)
+  load_resource: 150.991
+  esindex: 0.016
+-->

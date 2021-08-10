@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/HelpfileFormat - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fHelpfileFormat?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fHelpfileFormat?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fHelpfileFormat?action=fullsearch&amp;value=%2FHelpfileFormat&amp;literal=1&amp;case=1&amp;context=40">Documentation/HelpfileFormat</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fHelpfileFormat?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fHelpfileFormat">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fHelpfileFormat?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fHelpfileFormat?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fHelpfileFormat?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fHelpfileFormat?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fHelpfileFormat?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fHelpfileFormat?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fHelpfileFormat?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fHelpfileFormat?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fHelpfileFormat?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fHelpfileFormat">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h3 id="head-44719aea066e8bd0e76ab41ee823c166a10dec6f">ToME in-game helpfile mark-up language</h3>
+ToME's in-game help is essentially plain text, with a simple mark-up language to add colour, links, index headings and the like. Developers or documentation writers should benefit from this page which outlines the markup language. <h4 id="head-ef840afcddbb0c72a9932bf338567231c320f6c4">Wrapping</h4>
+Please wrap your helpfiles to 80 displayed characters. It is easiest to write the helpfile content first and THEN add formatting to make this easier. <h4 id="head-16b3f86d0b8e89b6211ebff75924597358a76792">Adding coloured text to part of a line</h4>
+You can add colour to part of a line by preceding the selction with 5 square brackets and one of the 15 single-letter <a href="#ColourCodes">colour codes</a>, and suffixing it with a single square bracket. 
+<pre>You could make [[[[[Rsome words red] for instance
+</pre>This will NOT wrap around line breaks. <h4 id="head-e28373cb4bbf841b43f3d47330fb2a8572c5ee2c">Adding coloured text to a whole line</h4>
+You can add colour to a whole line by prefixing it with 5 hashes and then a colour code. 
+<pre>#####BYou could make a whole line blue!
+</pre>This automatically ends at the line break. <h4 id="head-06b0f7e040d935b5010e345d86ddbd1df37b22fa">Suggested colouring</h4>
+As a guide and to maintain some amount of consistency, the suggested helpfile colouring is: 
+    <ul>
+
+    <li>
+<p>
+ Red - Main titles 
+</p>
+</li>
+    <li>
+<p>
+ Green - Subtitles or category lists 
+</p>
+</li>
+    <li>
+<p>
+ Cyan - emphasis/code snippets 
+</p>
+</li>
+    <li>
+<p>
+ Orange - Inactive links 
+</p>
+</li>
+    <li>
+<p>
+ Yellow - Active links 
+</p>
+</li>
+
+    </ul>
+
+
+<h4 id="head-1f7edc6945dabdff18b4a592bb2639017928113b">Adding a link to go to the top of another page</h4>
+Start by prefixing the filename of the page you are going to link to with five asterisks. Suffix it with a single asterisk and a zero, then open square brackets, add the linking text and close square brackets. 
+<pre>You can add a *****skills.txt*0[link] to the top of the skills help for instance.
+</pre>The colours of the links are determined by five pipes at the top of each help page and then two colour codes, one for the inactive links and one for the active links. 
+<pre>|||||oy
+</pre>You'll see that at the top of every page, it ensures that inactive links are orange, and active links are yellow. <h4 id="head-b11548309f9932bb22a870d17007f2467f45a7ca">Adding a link to go to another anchor point</h4>
+The format is the same as above, only the number zero is replaced with a number that corresponds to an anchor. If you look at the monster-lore skill help in skills.txt for example, you'll see the following above it: 
+<pre>~~~~~42|Skills|Monster-lore
+</pre>The five tildes indicate that this is an anchor. The number is the anchor number on that page. The pipes and other text are for the <a href="./Lua">Lua</a> function <tt>gen_idx.lua</tt> that automatically generates the help index. (more on that later) 
+<pre>Therefore, you can add a link to a part of that page, eg a direct link to the 
+available information on the *****skills.txt*42[Monster-Lore] skill.
+</pre><h4 id="head-923682c772c2563bf2fad9758024178e550e155b">Helpfile screen dumps</h4>
+Sometimes it is useful to take a screenshot of the game and insert it into the helpfiles. This is quite possible but yields some lengthy syntax, whereby EVERY character is preceded by a colour code. The whole line is precede by five ampersands to make sure it is displayed properly. In order to take a helpfile screenshot, go into wizard mode and take a normal html screenshot (Ctrl-]). The game will ask if you wish to take a helpfile dump (say yes!) and enter a path for it. Then copy/paste into your help file. Here's an example of how ugly it looks in markup 
+<pre>&amp;&amp;&amp;&amp;&amp;BEBnBtBeBrW WtWoW WdWeWvWeWlWoWpW WaW WbWrWaWnWcWhW,W BuBpW/BdBoBwBnW WtWoW WmWoWvWeW
+</pre>That's not even a whole line! Use only when necessary please - it really adds to filesize! <h4 id="head-cd478bf04a18c6f2461378fa7a2c02b4c2abd86d">Insert a comment</h4>
+You can insert a comment by prefixing it with five opening curly braces and suffixing it with a single closing brace. 
+<pre>{{{{{&lt;p&gt;} removes the HTML command
+</pre><p>
+<a id="ColourCodes" <h4 id="head-8ffadc873eb733dee2064fce9cac44e0817ffe08">Colour codes</h4>
+Here's a list of the colour codes: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ R - Bright Red  
+</p>
+</li>
+    <li>
+<p>
+ r - Dark Red  
+</p>
+</li>
+    <li>
+<p>
+ B - Bright Blue (Cyan)  
+</p>
+</li>
+    <li>
+<p>
+ b - Dark Blue  
+</p>
+</li>
+    <li>
+<p>
+ y - Yellow  
+</p>
+</li>
+    <li>
+<p>
+ o - Orange  
+</p>
+</li>
+    <li>
+<p>
+ U - Bright Umber (kind of tan)  
+</p>
+</li>
+    <li>
+<p>
+ u - Dark Umber (kind of dark chocolate brown)  
+</p>
+</li>
+    <li>
+<p>
+ W - Bright White  
+</p>
+</li>
+    <li>
+<p>
+ w - Off White/Light Grey  
+</p>
+</li>
+    <li>
+<p>
+ G - Bright Green  
+</p>
+</li>
+    <li>
+<p>
+ g - Dark Green  
+</p>
+</li>
+    <li>
+<p>
+ v - Violet (Magenta)  
+</p>
+</li>
+    <li>
+<p>
+ D - Dark (almost black)  
+</p>
+</li>
+    <li>
+<p>
+ s - Silver (Dark grey)  
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fHelpfileFormat?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fHelpfileFormat.text_html">RefreshCache</a> for this page (cached 2006-03-22 17:58:51)<br>
+<p><a href="./Documentation_2fHelpfileFormat?action=edit">EditText</a> of this page (last edited 2004-07-05 15:17:22 by <span title="212.219.231.1"><a href="./FearofFours">FearofFours</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 04:12:53 Jun 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:29 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.183
+  captures_list: 131.97
+  esindex: 0.017
+  LoadShardBlock: 76.351 (3)
+  CDXLines.iter: 23.475 (3)
+  load_resource: 140.593
+  RedisCDXSource: 27.432
+  PetaboxLoader3.datanode: 125.214 (4)
+  exclusion.robots: 0.197
+  PetaboxLoader3.resolve: 80.34
+-->

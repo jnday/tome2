@@ -1,0 +1,990 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Introduction to the Gods of ToME - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=fullsearch&amp;value=%2FIntroduction+to+the+Gods+of+ToME&amp;literal=1&amp;case=1&amp;context=40">Documentation/Introduction to the Gods of ToME</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top" <p>
+Everybody likes to have a little helping hand now and then. What could be better than having a God on your side? But... it's not quite that easy. The Gods won't help just any old mortal who calls for help; you have to give them a little something too.... 
+</p>
+<hr>
+ <ol>
+<li>
+<a href="#head-240c8b0ca2dc9059302609f4808cb92721584b54">Character creation</a></li>
+<li>
+<a href="#head-655928b5193c00f65dbb9226f22bed23b69bffad">Piety (Pt)</a></li>
+<li>
+<a href="#head-8489183a7673cc98f13e54017ba46b36e8d66326">God-granted spells</a></li>
+<li>
+<a href="#head-dc94fd4aa80bc404be99524e1ac425feade550e8">Praying vs. Prayers vs. Prayer skill</a></li>
+<li>
+<a href="#head-b2f396099e119beb3553d28e4b3d2dc94e7e1dd6">The Gods of ToME</a></li>
+<ol>
+<li>
+<a href="#head-830bd605821ee79b05019df0d67000cd17c87ff6">Eru Iluvatar</a></li>
+<ol>
+<li>
+<a href="#head-c2a2a7517f2f7fb6e53c77092b02ee292cc72002">Benefits of worshipping Eru</a></li>
+<li>
+<a href="#head-c0d1f1f2080d7f2b52b9ded85fc61659cde06373">Disadvantages of worshipping Eru</a></li>
+<li>
+<a href="#head-3c3a37a8fcc8a5ad66b0445f0d6c5c6d0dbedee1">Eru's magic</a></li>
+</ol>
+
+<li>
+<a href="#head-5bd0243a84a97d0e2433360b77f003d1eaa40eb8">Manwe Sulimo</a></li>
+<ol>
+<li>
+<a href="#head-65f148833eea8ef4994fabe1d988d4ddf0e22439">Benefits of worshipping Manwe</a></li>
+<li>
+<a href="#head-cc9ad7362d603c28e641b15fe4343a3546882ca2">Disadvantages of worshipping Manwe</a></li>
+<li>
+<a href="#head-6e6a10224ed8c67078d37829ed73783614f1d596">Manwe's magic</a></li>
+</ol>
+
+<li>
+<a href="#head-8361192ad3ab5a45c7db2288e05efc88d5f826fe">Yavanna Kementari</a></li>
+<ol>
+<li>
+<a href="#head-fe9468d9d3963da35bc076496719762ca9871cef">Benefits of worshipping Yavanna</a></li>
+<li>
+<a href="#head-4f84839852d68fb08212a8b6eb63df3fdbe7c52a">Disadvantages of worshipping Yavanna</a></li>
+<li>
+<a href="#head-0a29e259fea5e8e8e4331c64004fb4e220f29098">Yavanna's magic</a></li>
+</ol>
+
+<li>
+<a href="#head-358a47516a900773d1f7e356e6aac44138190fd7">Tulkas</a></li>
+<ol>
+<li>
+<a href="#head-59a0b657aac434f5c66746cbbf54a4b337ca4686">Benefits of worshipping Tulkas</a></li>
+<li>
+<a href="#head-7f541fa55ab8c5630b0c1b5bfd5faa56fb0476b4">Disadvantages of worshipping Tulkas</a></li>
+<li>
+<a href="#head-bea09841cfea37f26323ccc75356f383fde2f8b7">Tulkas's magic</a></li>
+</ol>
+
+<li>
+<a href="#head-11984558524ce4f53bb86d4d76084fe577fef244">Melkor Bauglir</a></li>
+<ol>
+<li>
+<a href="#head-09a93df97b968d50af7928ead2e7a1f5d7fc5eb0">Benefits of worshipping Melkor</a></li>
+<li>
+<a href="#head-4d8e640a0a1de8ac29df5dd3ef4ecfce6b870d58">Disadvantages of worshipping Melkor</a></li>
+<li>
+<a href="#head-50fdcb6b644546c4aeb9ed2683594548d59d0416">Melkor's magic</a></li>
+</ol>
+
+</ol>
+
+</ol>
+
+ <hr>
+ <h3 id="head-240c8b0ca2dc9059302609f4808cb92721584b54">Character creation</h3>
+During character creation, you may chose to start life worshipping a God, or worshipping no God at all. (The exception to this are priest types, who <em>must</em> start out worshipping a God.) The character class you have already chosen may limit which Gods are willing to accept your worship, as some Gods are not overfond of certain classes. Choose your God carefully, for once you have chosen, you cannot forsake Him/Her for another. <h3 id="head-655928b5193c00f65dbb9226f22bed23b69bffad">Piety (Pt)</h3>
+If you do choose to follow one of the Gods, you will gain certain abilities so long as you keep your God happy. Your "piety" is the measure of how happy your God is with you, and the Pt stat reflects your piety. Positive piety is good, negative piety is bad. Different actions will allow you to gain or lose piety over time. These actions vary from God to God. <h3 id="head-8489183a7673cc98f13e54017ba46b36e8d66326">God-granted spells</h3>
+God-granted spells are also known as prayers, and are cast using Piety instead of Mana. God-spells can be increased in level (i.e. power) in two ways: 
+    <ol type="1">
+
+    <li>
+<p>
+Improve your Prayer skill 
+</p>
+</li>
+    <li>
+<p>
+Improve your Spell-power skill 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+Each God also grants access to standard magical spell schools; which school(s) vary depending on the Gods' individual preferences. Spells from <em>these</em> schools are cast using Mana, not Piety. 
+</p>
+<h3 id="head-dc94fd4aa80bc404be99524e1ac425feade550e8">Praying vs. Prayers vs. Prayer skill</h3>
+Listen up, as I'll only explain this once:  <p>
+<em><strong>Praying </strong></em> refers to praying to your God. Praying is toggled on and off by typing the 'p' key in the standard keyset. 
+</p>
+<p>
+<em><strong>Prayers</strong></em> in ToME are cast upwards to your God, cost Piety to cast, and result in an immediate response by Him/Her should you be successful in casting it. Common discussion usage in ToME tends to use "God spell" rather than "prayer" to avoid confusion with the "praying" term.  
+</p>
+<p>
+<em><strong>Prayer skill</strong></em> refers to how talented you are at casting God-granted spells; it's the analog to the Magic skill for mages. Prayer skill is increased only by doing certain favors for your God. All I'll say about that (since it's a spoiler) is that you will be informed when an opportunity for such favor-doing arises. Confused yet? No? Good. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> For further (<strong>spoily</strong>) details, see <a class="interwiki" title="Self" href="./Spoilers_2fQuests_2fGod_20Quest"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">This Page</a>. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-b2f396099e119beb3553d28e4b3d2dc94e7e1dd6">The Gods of ToME</h3>
+In ToME, there are five Gods you may choose to worship. They are: 
+    <ul>
+
+    <li>
+<p>
+ Eru Iluvatar - the father of the Valar 
+</p>
+</li>
+    <li>
+<p>
+ Manwe Sulimo - the second strongest of the Valar 
+</p>
+</li>
+    <li>
+<p>
+ Yavanna Kementari - the Earth Queen who created plants and animals 
+</p>
+</li>
+    <li>
+<p>
+ Tulkas - another of the Valar, Tulkas values strength and courage 
+</p>
+</li>
+    <li>
+<p>
+ Melkor Bauglir - the Dark Enemy himself, once the most powerful of the Valar 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+They are described below. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h4 id="head-830bd605821ee79b05019df0d67000cd17c87ff6">Eru Iluvatar</h4>
+Eru is the father of the Valar. His most faithful followers are those of the class <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fPriest_28Eru_29"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Priest(Eru)</a>. <h5 id="head-c2a2a7517f2f7fb6e53c77092b02ee292cc72002">Benefits of worshipping Eru</h5>
+
+    <ul>
+
+    <li>
+<p>
+ As you increase your piety, Eru will grant you a boost to your wisdom. Eventually he will also start increasing your ability to handle magical power, resulting in a boost to your spellpoints. 
+</p>
+</li>
+    <li>
+<p>
+ If you are praying to him at the time, there is a chance that he will deflect some blows from evil monsters (that increases with your level of piety). 
+</p>
+</li>
+    <li>
+<p>
+ If you are praying to him at the time and are very pious, there is a chance that he will resurrect you from the dead. 
+</p>
+</li>
+    <li>
+<p>
+ Your piety automatically increases over time if you are: 
+</p>
+</li>
+
+                    <ol type="1">
+
+                    <li>
+<p>
+Not praying, and 
+</p>
+</li>
+                    <li>
+<p>
+Actively doing something (i.e. not resting or in the Wilderness map). 
+</p>
+</li>
+
+                    </ol>    </ul>
+
+
+<h5 id="head-c0d1f1f2080d7f2b52b9ded85fc61659cde06373">Disadvantages of worshipping Eru</h5>
+
+    <ul>
+
+    <li>
+<p>
+ He doesn't like it if you destroy blessed weapons. 
+</p>
+</li>
+    <li>
+<p>
+ You can only wield blunt or blessed weapons without penalty. 
+</p>
+</li>
+    <li>
+<p>
+ He doesn't like it if you kill monsters that are aligned with good. 
+</p>
+</li>
+
+    </ul>
+
+
+<h5 id="head-3c3a37a8fcc8a5ad66b0445f0d6c5c6d0dbedee1">Eru's magic</h5>
+Eru grants four prayers: 
+    <ol type="1">
+
+    <li>
+<p>
+<strong>See the Music</strong> (Level 1) Allows you to 'see' the Great Music from which the world originates, allowing you to see unseen things, and can be cast while blind. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ At spell level 10 it allows you to see your surroundings. 
+</p>
+</li>
+        <li>
+<p>
+ At spell level 20 it allows you to cure blindness. 
+</p>
+</li>
+        <li>
+<p>
+ At spell level 30 it allows you to fully see all the level. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+<strong>Listen to the Music</strong> (Level 7) Allows you to listen to the Great Music from which the world originates, allowing you to understand the meaning of things. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ At spell level 14 it allows you to identify all your pack. 
+</p>
+</li>
+        <li>
+<p>
+ At spell level 30 it allows you to identify all items on the level. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+<strong>Know the Music</strong> (Level 30) Allows you to understand the Great Music from which the world originates, allowing you to know the full abilities of things. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ At spell level 10 it allows you to *identify* all your pack. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+<strong>Lay of Protection</strong> (Level 35) Creates a circle of safety around you. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If your Prayer skill is sufficiently high, Eru will also grant you the ability to use some magic from the standard magical schools. These schools are as follows: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMana"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mana</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fDivination"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Divination</a> School at 2/3 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMind"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mind</a> School at 1/3 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h4 id="head-5bd0243a84a97d0e2433360b77f003d1eaa40eb8">Manwe Sulimo</h4>
+Manwe is the strongest of the Valar, equal to Morgoth. His most faithful followers are those of the class <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fPriest_28Manwe_29"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Priest(Manwe)</a>. <h5 id="head-65f148833eea8ef4994fabe1d988d4ddf0e22439">Benefits of worshipping Manwe</h5>
+
+    <ul>
+
+    <li>
+<p>
+ As you increase your piety, Manwe will grant boosts to your speed (up to a maximum boost of +7 speed). 
+</p>
+</li>
+    <li>
+<p>
+ If you are praying, Manwe likes it when you kill monsters that are aligned with evil. 
+</p>
+</li>
+    <li>
+<p>
+ As your piety increases, Manwe will grant you the following abilities (in order): 
+</p>
+</li>
+
+        <ol type="1">
+
+        <li>
+<p>
+Levitation 
+</p>
+</li>
+        <li>
+<p>
+Free Action (while praying) 
+</p>
+</li>
+        <li>
+<p>
+Flying (while praying) 
+</p>
+</li>
+
+        </ol>
+
+
+    <li>
+<p>
+ Manwe likes elves. 
+</p>
+</li>
+
+    </ul>
+
+
+<h5 id="head-cc9ad7362d603c28e641b15fe4343a3546882ca2">Disadvantages of worshipping Manwe</h5>
+
+    <ul>
+
+    <li>
+<p>
+ Your piety slowly decreases with time, whether you are praying or not. 
+</p>
+</li>
+    <li>
+<p>
+ He doesn't like it if you kill monsters that are aligned with good. 
+</p>
+</li>
+
+    </ul>
+
+
+<h5 id="head-6e6a10224ed8c67078d37829ed73783614f1d596">Manwe's magic</h5>
+Manwe grants four prayers: 
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Manwe's Blessing</strong> (Level 1) Manwe's Blessing removes your fears, blesses you and surrounds you with holy light. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ At spell level 10 it also grants heroism. 
+</p>
+</li>
+        <li>
+<p>
+ At spell level 20 it also grants super heroism. 
+</p>
+</li>
+        <li>
+<p>
+ At spell level 30 it also grants holy luck and life protection. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+<strong>Wind Shield</strong> (Level 10) It surrounds you with a shield of wind that deflects blows from evil monsters. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ At level 10 it increases your armour rating. 
+</p>
+</li>
+        <li>
+<p>
+ At level 20 it retaliates against monsters that melee you. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+<strong>Manwe's Call</strong> (Level 20) Manwe's Call summons a Great Eagle to help you battle the forces of evil. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Avatar</strong> (Level 35) It turns you into a full grown Maia. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If your Prayer skill is sufficiently high, Manwe will also grant you the ability to use some magic from the standard magical schools. These schools are as follows: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fAir"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Air</a> School at 2/3 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fConveyance"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Conveyance</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMeta"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Meta</a> School at 1/3 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h4 id="head-8361192ad3ab5a45c7db2288e05efc88d5f826fe">Yavanna Kementari</h4>
+Yavanna, the Giver of Fruits, created all plants and animals and awakened the Ents to protect the forests of Arda. Kementari, Queen of the Earth, is her surname. Her most faithful followers are the <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fDruid"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Druids</a>. <h5 id="head-fe9468d9d3963da35bc076496719762ca9871cef">Benefits of worshipping Yavanna</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+As you increase your piety, Yavanna will grant you the ability to <a class="interwiki" title="Self" href="./Documentation_2fBought_20abilities#head-ca38d75289790f90b6f89d4ce046740cb12371bd"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">pass trees</a> while praying. 
+</p>
+</li>
+    <li>
+<p>
+She makes you regenerate faster while praying on grass. 
+</p>
+</li>
+    <li>
+<p>
+She likes it when you kill nonliving creatures, undeads or daemons. 
+</p>
+</li>
+    <li>
+<p>
+She likes it if you charm animals. 
+</p>
+</li>
+    <li>
+<p>
+Yavanna likes Ents. 
+</p>
+</li>
+
+    </ol>
+
+
+<h5 id="head-4f84839852d68fb08212a8b6eb63df3fdbe7c52a">Disadvantages of worshipping Yavanna</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+Your piety slowly decreases with time, whether you are praying or not. 
+</p>
+</li>
+    <li>
+<p>
+She doesn't like it if you kill monsters while praying. 
+</p>
+</li>
+    <li>
+<p>
+She hates it if you kill animals while praying. 
+</p>
+</li>
+    <li>
+<p>
+She hates it if you hurt your animal pets. 
+</p>
+</li>
+    <li>
+<p>
+She hates it if you burn or destroy trees with magic or allow monsters to do so. 
+</p>
+</li>
+
+    </ol>
+
+
+<h5 id="head-0a29e259fea5e8e8e4331c64004fb4e220f29098">Yavanna's magic</h5>
+Yavanna grants five prayers: 
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Charm Animal</strong> (Level 1) Tries to tame animals in a zone around your target. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Grow Grass</strong>(Level 10) Create a floor of grass around you. While on grass and praying a worshipper of Yavanna will know a greater regeneration rate. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Tree Roots</strong> (Level 15) Creates roots deep in the floor from your feet making you more stable and able to do better attacks but prevents any movement (even teleportation). It also makes you recover from stunning almost immediately. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Water Bite</strong> (Level 20) Imbues your melee weapon with a natural stream of water. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ At level 25, it spreads over a 1 radius zone around your target. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+<strong>Uproot</strong> (Level 35) Awakes a tree to help you battle the forces of Morgoth. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If your Prayer skill is sufficiently high, Yavanna will also grant you the ability to use some magic from the standard magical schools. These schools are as follows: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fEarth"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Earth</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fNature"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Nature</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fWater"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Water</a> School at 1/2 the Prayer skill level. 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fTemporal"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Temporal</a> School at 1/6 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h4 id="head-358a47516a900773d1f7e356e6aac44138190fd7">Tulkas</h4>
+Another of the Valar. His most faithful followers are <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fPaladin"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Paladins</a>. <h5 id="head-59a0b657aac434f5c66746cbbf54a4b337ca4686">Benefits of worshipping Tulkas</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+As you increase your piety, Tulkas will grant boosts to your constitution and your strength (up to a maximum of +3 each). 
+</p>
+</li>
+    <li>
+<p>
+He likes it when you kill monsters that are aligned with evil. 
+</p>
+</li>
+    <li>
+<p>
+He loves it when you kill evil monsters while praying. 
+</p>
+</li>
+    <li>
+<p>
+He *adores* it when you kill demons while praying. 
+</p>
+</li>
+    <li>
+<p>
+If you are praying, Tulkas may increase the damage you do in melee combat. 
+</p>
+</li>
+
+    </ol>
+
+
+<h5 id="head-7f541fa55ab8c5630b0c1b5bfd5faa56fb0476b4">Disadvantages of worshipping Tulkas</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+When you are praying, your piety slowly decreases with time. 
+</p>
+</li>
+
+    </ol>
+
+
+<h5 id="head-bea09841cfea37f26323ccc75356f383fde2f8b7">Tulkas's magic</h5>
+Tulkas grants three prayers: 
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Divine Aim</strong> (Level 1) It makes you more accurate in combat. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ At spell level 20 all your blows are critical hits. 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+<strong>Whirlwind</strong>(Level 10) It allows you to spin around and hit all monsters nearby. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Wave of Power</strong> (Level 20) It allows you to project a number of melee blows across a distance. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If your Prayer skill is sufficiently high, Tulkas will also grant you the ability to use some magic from a standard magical school. This school is: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fEarth"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Earth</a> School at 4/5 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h4 id="head-11984558524ce4f53bb86d4d76084fe577fef244">Melkor Bauglir</h4>
+Melkor Bauglir was once the most powerful of the Valar, but he has since fallen from grace. His most faithful followers are those of the class <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fDark_2dPriest"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dark Priest</a>. <h5 id="head-09a93df97b968d50af7928ead2e7a1f5d7fc5eb0">Benefits of worshipping Melkor</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+As you increase your piety, Melkor will grant boosts to your strength, constitution and charisma and will decrease intelligence and wisdom. 
+</p>
+</li>
+    <li>
+<p>
+As a follower of Melkor you are resistant to fire. 
+</p>
+</li>
+    <li>
+<p>
+If you are praying, Melkor may make you invisible and immune to fire. 
+</p>
+</li>
+    <li>
+<p>
+If you are praying, Melkor may cast Curse on your foes when you melee them. 
+</p>
+</li>
+    <li>
+<p>
+If you are praying, Melkor likes it when you kill monsters. 
+</p>
+</li>
+    <li>
+<p>
+If you are praying, Melkor *likes* it when you kill monsters that are aligned with good. 
+</p>
+</li>
+    <li>
+<p>
+Melkor likes the sacrifice of corpses and books at his altars. 
+</p>
+</li>
+    <li>
+<p>
+Melkor likes the permanent sacrifice of your own health at his altars. 
+</p>
+</li>
+    <li>
+<p>
+Melkor hates elves. 
+</p>
+</li>
+    <li>
+<p>
+Melkor grants access to the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fUdun"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Udun</a> school of magic. 
+</p>
+</li>
+    <li>
+<p>
+Melkor can summon undead and demons to help you when your life goes down. 
+</p>
+</li>
+
+    </ol>
+
+
+<h5 id="head-4d8e640a0a1de8ac29df5dd3ef4ecfce6b870d58">Disadvantages of worshipping Melkor</h5>
+
+    <ol type="1">
+
+    <li>
+<p>
+Your piety decreases with time. 
+</p>
+</li>
+    <li>
+<p>
+Your piety decreases with time even more if you are praying. 
+</p>
+</li>
+
+    </ol>
+
+
+<h5 id="head-50fdcb6b644546c4aeb9ed2683594548d59d0416">Melkor's magic</h5>
+Melkor grants three prayers: 
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Curse</strong> (Level 1) It curses a monster, reducing its melee power. 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ At level 5 it can be auto-casted (with no piety cost) while fighting 
+</p>
+</li>
+        <li>
+<p>
+ At level 15 it also reduces armor 
+</p>
+</li>
+        <li>
+<p>
+ At level 25 it also reduces speed 
+</p>
+</li>
+        <li>
+<p>
+ At level 35 it also reduces max life (but it is never fatal) 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+<strong>Corpse Explosion</strong>(Level 10) It makes corpses in an area around you explode for a percent of their hit points as damage 
+</p>
+</li>
+    <li>
+<p>
+<strong>Mind Steal</strong>(Level 20) It allows your spirit to temporarily leave your own body, which will be vulnerable, to control one of your enemies body 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+If your Prayer skill is sufficiently high, Melkor will also grant you the ability to use some magic from a standard magical school. This school is: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fMind"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mind</a> School at 1/3 the Prayer skill level. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Melkor also grants all of his followers access to the <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fUdun"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Udun</a> school of magic, but beware, as only powerful mages are able to cast all of its spells. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME.text_html">RefreshCache</a> for this page (cached 2005-11-04 14:25:00)<br>
+<p><a href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME?action=edit">EditText</a> of this page (last edited 2005-05-16 13:12:15 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:49:34 Nov 23, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 89.41
+  exclusion.robots: 0.162
+  exclusion.robots.policy: 0.15
+  RedisCDXSource: 1.984
+  esindex: 0.012
+  LoadShardBlock: 60.599 (3)
+  PetaboxLoader3.datanode: 131.799 (4)
+  CDXLines.iter: 22.742 (3)
+  load_resource: 122.222
+  PetaboxLoader3.resolve: 43.82
+-->

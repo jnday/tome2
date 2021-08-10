@@ -1,0 +1,312 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Fountain - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fFountain?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fFountain?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fFountain?action=fullsearch&amp;value=%2FFountain&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Fountain</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fFountain?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fFountain">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fFountain?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fFountain?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fFountain?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fFountain?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fFountain?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fFountain?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fFountain?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fFountain?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fFountain?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fFountain">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-daaa9650f4503279d8fb3a30539ffe59538e4b0a">Empty bottles</a></li>
+<li>
+<a href="#head-348bc8980fee6a962fa0c52e50e46452cb17186c">Fountain contents</a></li>
+<li>
+<a href="#head-ffe3892cbe27f1abd789dad00ddceb78090ae036">Fountains from a Tactical Standpoint</a></li>
+<li>
+<a href="#head-ccfd491927b15a29927e27cd6305c44b8c46e353">Module variants</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-2473e96bc614a911821242119918a241a41836d6">Introduction</h2>
+Here and there among the dungeons of ToME, the immense weight of earth and rock sometimes causes mysterious and frequently magical liquids to issue out of the rock and gather in quietly bubbling fountains. <p>
+Fountains appear as an "_". They may be: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ white (full) 
+</p>
+</li>
+    <li>
+<p>
+ dark grey (empty) 
+</p>
+</li>
+    <li>
+<p>
+ assorted other colors (if full and detected as being trapped) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Fountains usually appear singly, but in some dungeons such as Helcaraxe and Erebor they appear in groups of four. All fountains in a given group of four contain the same liquid. 
+</p>
+<p>
+You, the adventurer, can access a fountain via the shift + H command. This will give you the option to interact with it in one of two ways: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+You can drink from it directly by typing 'q' (Quaff). 
+</p>
+</li>
+    <li>
+<p>
+If you have an empty bottle with you, you can fill it with some of the fountain's liquid by typing 'f' (Fill). The bottle then becomes a potion. If you already know what that potion is from previous experience, it will be ID'd for you. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+There is no way to ID a fountain before drinking from it directly or filling a bottle from it. It is strongly recommended to use the latter method, as you can then safely Identify the potion's contents.  
+</p>
+<p>
+Fountains are not bottomless; after a certain number of bottles are filled from a fountain (or after you take many drinks from it) it will dry up. 
+</p>
+<h2 id="head-daaa9650f4503279d8fb3a30539ffe59538e4b0a">Empty bottles</h2>
+To get empty bottles, go to any General Store and buy up lots of Pints of Fine Wine or Fine Ale. Then get drinking. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> Alchemists can produce empty bottles in other ways, and once in a long while you may find an empty bottle in the dungeon. <h2 id="head-348bc8980fee6a962fa0c52e50e46452cb17186c">Fountain contents</h2>
+Fountain contents may be excellent, terrible, or anything in between. Generally speaking, fountains at shallow dungeon levels will contain less interesting potions. <p>
+Just because a potion exists in ToME does not mean you may be able to find it in a fountain. Morphic oils, for example, are not found in fountains. Potions which can be found in fountains are marked with F:FOUNTAIN in k_info.txt. 
+</p>
+<p>
+Also, fountains never appear out of depth for the potions they contain. That information can also be found in k_info.txt, specifically in the first field of the W line for the potion in question. 
+</p>
+<h2 id="head-ffe3892cbe27f1abd789dad00ddceb78090ae036">Fountains from a Tactical Standpoint</h2>
+<strong>by <a href="./ErisDiscordia">ErisDiscordia</a></strong> <p>
+At 1 gold per bottle and a minimum return of many times that (8?), the only thing that should be keeping you from bringing at least 33 empty bottles with you on every trip is your weight limit. I say "33" above because it's: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ an easy number to type 
+</p>
+</li>
+    <li>
+<p>
+ enough to ensure you usually won't run out of bottles by the end of your dive, but not so many you'll usually throw most of them away 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Keep in mind that you can use the "n" key ("repeat last action") to gulp down all that wine or ale. 
+</p>
+<p>
+Always fill bottles, never drink straight from the fountain. Seriously. There's just no point in the latter (unless you enjoy walking around with 4 or 5 corruptions). If you forgot your bottles, just bite your lip and go on. 
+</p>
+<p>
+Assuming you know some potion types already, always first check the potion types/colors you already have, fill one bottle, check that you're not making potions of apple juice or whatever, and THEN drain the fountain. If the fountain has lousy output and you're not using autodestroy/autopickup yet, you can "mark" the fountain as not worth further exploiting by dropping its lousy fruit upon it. 
+</p>
+<p>
+<strong>Early Game</strong>: 
+</p>
+<p>
+Note that several potion colors are always associated with certain potion types: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Clear potions are Potions of Water 
+</p>
+</li>
+    <li>
+<p>
+ Light brown potions are Potions of Apple Juice or Morphic Oils 
+</p>
+</li>
+    <li>
+<p>
+ Icky green potions are Potions of Slime Mold Juice 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Wait to ID or sell, for example, any Clear Potions you might find until you encounter a fountain that generates them, then (at the end of your dive) visit the Alchemy shop and <strong>sock it to the man</strong>. (That is, even though as a player you know what they are, your character "doesn't" and thus you'll be able to sell them for far more than their actual worth.)  
+</p>
+
+        <ul>
+
+  <strong><a href="./MayLith">MayLith</a></strong>: This (and some of the rest of this) belongs on a Potions spoiler page. Not all of it is specific to Fountains. 
+        </ul>
+
+
+<p>
+On the first few dungeon-levels, don't bother ID'ing the stacks of unidentified potions that you generate using fountains. Once you count in the savings on scrolls of ID, your good breaks (selling big stacks of e.g. potions of blindness) will make up for the bad ones (big stacks of e.g. potions of speed). You may also sell only a few of the potions of each stack. 
+</p>
+<p>
+<strong>Mid game</strong>: 
+</p>
+<p>
+_Cure insanity_ and _healing_ are level 15. If you have cold immunity (one of the joys of being an undead) go for Helcaraxe level 20 (1 potion in 37 will be cure insanity, 1 in 37 healing). 
+</p>
+<p>
+You can also dive for level 25 for restore mana potions (stat potions are found at this depth, too). 
+</p>
+<p>
+If you don't have cold immunity, go for level 15 in any dungeon with fountains and not too much monster troubles. The fountains will be 1/31 instead of 1/37, but will not come in groups of 4... 
+</p>
+<p>
+that being said, a mere 6 healing potions can save you a few times so you'll live until late mid-game. 
+</p>
+<p>
+<strong>Late Game</strong>:  
+</p>
+<p>
+It bears repeating: Helcaraxe and Erebor have fountains in groups of four. They also have quite deep dungeon levels, and thus high upper limits on the quality of the potions they can contain. Thus if you want to scum for good potions, these places are your friends. Keep in mind that Helcaraxe generates cold-based attacks in items on the ground and in your inventory at random intervals, so the only way to protect what you scum is to keep it in your pack and to have cold immunity during your travels there. 
+</p>
+<p>
+When you find a quadruple fountain of *healing*, the last thing you want is to run out of empty bottles. Because unlike augmentation you won't use them immediately! The theorical limit is 48 potions from one fountain, so just bring 99 empty bottles and some ID in case you find an unfamiliar potion worth keeping. This will allow you to scum until you find 1 or 2 fountains. 
+</p>
+<p>
+Augmentation fountains start at level 40 (never out of depth - 1 chance in 51 per potion type), and if you're into Helcaraxe or Erebor you'll find about 30 potions of augmentation from one lucky fountain spot (In Helcaraxe 1 fountain in 51 will be augmentation - but *Healing*, healing, restore mana, cure insanity and some others are nice too so fountain hunting may arguably be better than worm lair potion hunting). 
+</p>
+<p>
+Detonation potions start at level 60, if you want some go for Erebor - or for the mining shop on the other side of Moria! 
+</p>
+<p>
+If you have any extra potions after all your stats are maxed, save some in a home for later (there are a few ways to permanently lose stats). 
+</p>
+<p>
+Note that some potions that are very dangerous when quaffed (e.g. Detonations - around 500 HP damage and mortal wounds) have very good pseudo-ID's. Don't throw them away though, they can be thrown at monsters for much area damage! 
+</p>
+<h2 id="head-ccfd491927b15a29927e27cd6305c44b8c46e353">Module variants</h2>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./MayLith">MayLith</a></strong>: I just PM'd Vagabond again. <p>
+<a href="./SimonSorc">SimonSorc</a>: The fountains seem to appear at the same level that the same potion type isn't out of depth. Can anyone confirm? 
+</p>
+<p>
+<strong><a href="./ErisDiscordia">ErisDiscordia</a></strong>: to <a href="./MayLith">MayLith</a> -- if you don't mind, I'd like to leave in the snippets of information that are also "general for potions." The reason is that a) they are snippets, b) they take on special significance in relation to fountains, and c) linking out for such tidbits would break the flow and add length more than simply keeping them in their contexts. 
+</p>
+<p>
+Vagabond: Ok, I gave permission and sent other (hopefully) useful info. Just PM in case of anything else. 
+</p>
+<p>
+<strong><a href="./TheFalcon">TheFalcon</a></strong>: Perhaps it should be pointed out that some light brown potions are potions of corruption. 
+</p>
+<p>
+<strong>kfoelsch:</strong> Isn't one of the Morphic Oils light brown too? 
+</p>
+<p>
+<strong><a href="./BurbLulls">BurbLulls</a></strong>: All morphic oils are light brown, not to mention apple juice. I haven't noticed corruption being light brown more than other colours. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fFountain?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fFountain.text_html">RefreshCache</a> for this page (cached 2005-11-04 21:27:04)<br>
+<p><a href="./Spoilers_2fFountain?action=edit">EditText</a> of this page (last edited 2004-12-03 18:54:09 by <span title="195.92.67.67=webcacheH03a.cache.pol.co.uk">webcacheH03a</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 22:53:29 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:45 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 496.906
+  exclusion.robots: 0.131
+  exclusion.robots.policy: 0.121
+  RedisCDXSource: 1.753
+  esindex: 0.012
+  LoadShardBlock: 465.415 (3)
+  PetaboxLoader3.datanode: 477.926 (4)
+  CDXLines.iter: 25.539 (3)
+  load_resource: 76.216
+  PetaboxLoader3.resolve: 40.806
+-->

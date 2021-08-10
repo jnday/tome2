@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Specialized level types - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fSpecialized_20level_20types?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fSpecialized_20level_20types?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fSpecialized_20level_20types?action=fullsearch&amp;value=%2FSpecialized+level+types&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Specialized level types</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fSpecialized_20level_20types?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fSpecialized_20level_20types">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fSpecialized_20level_20types?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fSpecialized_20level_20types?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fSpecialized_20level_20types?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fSpecialized_20level_20types?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fSpecialized_20level_20types?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fSpecialized_20level_20types?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fSpecialized_20level_20types?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fSpecialized_20level_20types?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fSpecialized_20level_20types?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fSpecialized_20level_20types">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./KhymChanur">KhymChanur</a></strong>: An idea for 3.0.0: randomly occuring types of levels that can change the frequency of the items, monsters and dungeon features that get generated.  For instance: 
+    <ol type="1">
+
+    <li>
+<p>
+<em>Fountain level</em>: lots of fountains, and not necessarily the usual statistical distribution (i.e. add more bad fountains).  However, no items are generated on the ground.  Also, in keeping with the liquid-ness of the fountains, there's lots of ponds and rivers (like the Old Forest), and lots of Water Demons and Water Hounds. 
+</p>
+</li>
+    <li>
+<p>
+<em>Magic level</em>: The frequency of most items other than magic items (scrolls, rings, etc.) is greatly reduced, so it's mostly magic items you'll find on the floor.  The monsters will tend to be things like gnome mages, dark elven warlocks, sorcerors, enchatresses, demonologists, druids, aether vortices and storms of unmagic. Local mana for inscriptions on the floor can be very high. 
+</p>
+</li>
+    <li>
+<p>
+<em>Fighter level</em>: The frequency of items other than weapons and armor is greatly reduced.  However, since weapons and armor are already pretty common, the frequency of unusual base items will be increased, things like seeker ammo, elven cloaks, dragon helms, shadow blades, and such.  The monsters will tend towards ninjas, berserkers, and so on. 
+</p>
+</li>
+    <li>
+<p>
+<em>traps level</em>: The level has far more traps than normal, as well as some trap-setting monsters. There is however a reason for it, there is a few out of depth items more than normal. 
+</p>
+</li>
+    <li>
+<p>
+<em>bridge level</em>: the level is cut in half by a large pit or indestructible wall; a *huge* vault with some garanteed ranged attack types strategically placed (archers) is the only way thru. 
+</p>
+</li>
+    <li>
+<p>
+<em>the long walk</em>: there is nothing but a very long corridor 2 squares wide. Stairs are at each end and the path is long and without much branches. 
+</p>
+</li>
+    <li>
+<p>
+<em>the horde</em>: quadruple the number of monsters, but they're generated as if the dungeon level was half (rounded up). A few ego monsters are added. 
+</p>
+</li>
+    <li>
+<p>
+<em>the falling town</em>: a town that can appear only once per player (on a level that doesn't normally generate a town already). The town itself it completely overrun by monsters, has no "t" townspeople, and some shops are generated looted (empty). The few items left are all discounted. 
+</p>
+</li>
+    <li>
+<p>
+<em>the ambush</em>: deep dungeon only. Monsters that killed some of your ancestors are more than half the monster population here, and they know which spells you don't have resists for! A unique is always generated if one is available for that dungeon level. A few shrieking mushrooms are present to wake up the monsters if the player isn't careful. The monsters aren't boosted or numerous, just well prepared for someone (failing smart monster code, just level them)! The player may not recall or thunderlord from this level. 
+</p>
+</li>
+    <li>
+<p>
+<em>level with a backstory</em>: some specific monsters types are generated, and the level feeling also mentions a flavor text about some race or other. "The backstory of the dark elves" would have lots of dark elves and some partly random flavor text unique to dark elves; it would be part of a dozen or so "backstory levels" that have a distinctly Tolkien ring to them. A few item types (not all powerful, just culturally linked like the elve's lembas) would be added on all monsters already generated with at least one item. 
+</p>
+</li>
+    <li>
+<p>
+<em>the crumbling mine</em>: cave-in (destruction type effect, mostly sand and rubble) occurs at a random place every 1d2000 + 100 turns or so. A large number of walls can be mined for some treasure if the player doesn't mind the occasional HP loss from random falling rocks. A digger or two are added. 
+</p>
+</li>
+    <li>
+<p>
+<em>the dark pit</em>: there is a ***HUGE*** pit in the middle with mountain edges in some places. More dragons and flyers than normal. 
+</p>
+</li>
+    <li>
+<p>
+<em>the fallen ancestor</em>: one of your ancestor's equipment is here (no artifacts left and only a half the items). His skeleton is there. This happens when the dungeon level is deep enough to account for the ancestor's items. The level is otherwise unremarkable except for the monster type that killed that ancestor might still be present... 
+</p>
+</li>
+    <li>
+<p>
+<em>the mushroom cave</em>: mushroom items/monsters are generated less often in normal dungeon, but generously here on this level giving the idea of ecosystem variations. Add a 1 HP and 0 XP mushroom with "carrying light" as a common monster only generated here (a special_gene nonunique). 
+</p>
+</li>
+    <li>
+<p>
+<em>recently looted</em>: all doors opened, no objects on the floor, and some burned terrain (as if a mage fight occured). A few trap sets can be found here on trapsetting-capable monster types. 
+</p>
+</li>
+    <li>
+<p>
+<em>recent war</em>: half the monsters start wounded. Every monster is awake except breaters. Corpses and skeletons are present. 
+</p>
+</li>
+    <li>
+<p>
+<em>guarded treasure</em>: loads of monsters all of one type or two, lots of secret passages, one ego item (possibly a boring/useless one) and a few large chests garanteed after going thru special vault full of nasty monsters. You can always count on a easy finding of up/down stairs as the monsters choose this level hoping you would just skip it... 
+</p>
+</li>
+    <li>
+<p>
+<em>abandonned level</em>: nearly empty. Most doors opened. Lots of traps. Some sand-digging might be required. 
+</p>
+</li>
+    <li>
+<p>
+<em>underwater passage</em>: there is a section you can only pass underwater - getting lack of air damage if you don't have the proper items for water breathing. This won't occur in "hot" dungeons". 
+</p>
+</li>
+    <li>
+<p>
+<em>small ambush</em>: lots of weak monsters present immediately around your stairs. Nothing much threatning if you don't wake regular level monsters nearby with a fireball or something... 
+</p>
+</li>
+    <li>
+<p>
+<em>the library</em>: lots of casters. Books are half the treasure found here. 
+</p>
+</li>
+    <li>
+<p>
+<em>huge town</em>: very large number of shops, but no more than a normal town of very rare shops. Hordes of leveled townspeople with a somewhat thief/hostile bias. Main monster type out of town: item/gold thieves. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+<a href="./BurbLulls">BurbLulls</a>: This idea seems very much like what's done in ADOM, and there is a *band or two out there with this as well. Of course, I'd love this, but after seeing many vaguely Zangband ideas getting leapt on I wouldn't hold my breath... 
+</p>
+<p>
+<a href="./TheFalcon">TheFalcon</a>: Do you mind if I use a couple of these ideas for Annals of Ea? it probably won't happen 'til after ToME3.0, but I just thought I'd express an interest. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fSpecialized_20level_20types?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fSpecialized_20level_20types.text_html">RefreshCache</a> for this page (cached 2005-11-07 07:26:17)<br>
+<p><a href="./IdeaArchive_2fSpecialized_20level_20types?action=edit">EditText</a> of this page (last edited 2005-08-15 12:44:20 by <span title="mailgate.gwalton.co.uk"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:22:09 Jun 01, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:58 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 84.171
+  exclusion.robots: 0.18
+  exclusion.robots.policy: 0.169
+  RedisCDXSource: 1.81
+  esindex: 0.018
+  LoadShardBlock: 52.713 (3)
+  PetaboxLoader3.datanode: 85.364 (4)
+  CDXLines.iter: 25.1 (3)
+  load_resource: 130.209
+  PetaboxLoader3.resolve: 76.647
+-->

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Water Damage - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fWater_20Damage?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fWater_20Damage?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fWater_20Damage?action=fullsearch&amp;value=%2FWater+Damage&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Water Damage</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fWater_20Damage?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fWater_20Damage">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fWater_20Damage?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fWater_20Damage?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fWater_20Damage?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fWater_20Damage?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fWater_20Damage?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fWater_20Damage?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fWater_20Damage?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fWater_20Damage?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fWater_20Damage?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fWater_20Damage">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: As a minor idea... GF_WATER and GF_WAVE should have a chance to render scrolls and spellbooks useless, just like fire does. I know very few monsters use this damage type, but I think it'd be a nice and realistic gameplay effect. (To avoid creating additional types of Spellbook, "Fireproof" could be changed to "Enduring", and IGNORE_WATER/WAVE added...) <p>
+2cworth and counting...  
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fWater_20Damage?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fWater_20Damage.text_html">RefreshCache</a> for this page (cached 2004-08-03 13:11:49)<br>
+<p><a href="./IdeaArchive_2fWater_20Damage?action=edit">EditText</a> of this page (last edited 2004-07-23 01:12:33 by <span title="ncao.vtcif.telstra.com.au"><a href="./RavenRed">RavenRed</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:06:14 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:47:35 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 434.411
+  exclusion.robots: 0.121
+  exclusion.robots.policy: 0.101
+  RedisCDXSource: 5.056
+  esindex: 0.009
+  LoadShardBlock: 401.613 (3)
+  PetaboxLoader3.resolve: 1512.595 (4)
+  PetaboxLoader3.datanode: 157.125 (4)
+  CDXLines.iter: 24.068 (3)
+  load_resource: 1298.476
+-->

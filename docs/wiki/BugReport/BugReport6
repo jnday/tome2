@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport6 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport6?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport6?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport6?action=fullsearch&amp;value=BugReport6&amp;literal=1&amp;case=1&amp;context=40">BugReport6</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport6?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport6">View</a></li>
+<li><a title="Diffs" href="./BugReport6?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport6?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport6?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport6?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport6?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport6?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport6?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport6?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport6?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport6">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+In ToME all the way to [2.2.7] and possibly beyond: <p>
+If you alchemy-create a staff and they would stack, you may get a copy of the gloves you're wearing instead of the new staff(which disappears entirely). 
+</p>
+<p>
+This can be used to cheat if the gloves are very valuable and the staff isn't. 
+</p>
+<p>
+WORKAROUND: drop staves so no stacking occurs during the creation of a new staff. 
+</p>
+<p>
+Wands aren't affected by this bug. 
+</p>
+<p>
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>:  Hmm, when you say "stack", do you mean "unstack"?  That is, you start with 5 Staffs of Silly Example (10 charges) and use the alchemy 'R'echarge command to add a charge to one of them, so you should end up with 4 Staffs of Silly Example (10 charges) and a Staff of Silly Example (11 charges), but instead you end up with 4 Staffs of Silly Example (10 charges) and a copy of the gloves you're wearing?  Because that's a known, long-standing bug, and the fix is a one-liner:  in the function <tt>do_cmd_alchemist</tt> in <tt>src/cmd7.c</tt>, round about line 4290, is the following code: 
+<pre>                /******* Recharge an item *******/
+        }
+        else if (ext == 3)
+        {
+                int item;
+                object_type *o_ptr;
+
+                cptr q, s;
+</pre>The fix is to delete or comment out the declaration of <tt>o_ptr</tt> here; it hides an existing <tt>o_ptr</tt> variable in an outer scope, which is supposed to receive information about the new staff to be created and added to inventory. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport6?action=refresh&amp;arena=Page.py&amp;key=BugReport6.text_html">RefreshCache</a> for this page (cached 2004-08-03 05:22:36)<br>
+<p><a href="./BugReport6?action=edit">EditText</a> of this page (last edited 2004-07-10 15:59:38 by <span title="adsl-065-081-085-051.sip.rdu.bellsouth.net"><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:30:03 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:19 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 300.62
+  exclusion.robots: 0.172
+  exclusion.robots.policy: 0.159
+  RedisCDXSource: 38.404
+  esindex: 0.013
+  LoadShardBlock: 235.606 (3)
+  PetaboxLoader3.datanode: 229.155 (4)
+  CDXLines.iter: 22.577 (3)
+  load_resource: 49.598
+  PetaboxLoader3.resolve: 24.34
+-->

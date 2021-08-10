@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion/TomeNet? - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion_2fTomeNet_3f?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion_2fTomeNet_3f?action=print">
+<link rel="Up" href="/GeneralDiscussion">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion_2fTomeNet_3f?action=fullsearch&amp;value=%2FTomeNet%3F&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion/TomeNet?</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./GeneralDiscussion">Up</a></li>
+<li><a title="Edit" href="./GeneralDiscussion_2fTomeNet_3f?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion_2fTomeNet_3f">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion_2fTomeNet_3f?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion_2fTomeNet_3f?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion_2fTomeNet_3f?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion_2fTomeNet_3f?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion_2fTomeNet_3f?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion_2fTomeNet_3f?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion_2fTomeNet_3f?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion_2fTomeNet_3f?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion_2fTomeNet_3f?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion_2fTomeNet_3f">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-d44d13b657ebda3d6bb3c656050854bf70021268">Where can I try out TomeNet? Does it have a server running?</h2>
+<p>
+Simon: I couldn't find any evidence of a <a class="nonexistent" href="./TomeNet">TomeNet</a> server active. But there are people complaining about things in the tomeNet forum, so maybe it existed but is now down?? 
+</p>
+
+    <ul>
+
+ <a href="./SoulWynd">SoulWynd</a>: The europe server where active a couple months ago, when I used to play tomenet. <p>
+ <a class="nonexistent" href="./FiZz">FiZz</a>: you have to connect on europe server at europe.tomenet.net or tomenet.librenet.net as the meta server is still down 
+</p>
+
+    </ul>
+
+
+<p>
+Simon: <a class="nonexistent" href="./TomeNet">TomeNet</a> FAQ and *JUICY SPOILERS* <a href=".www.c-blue.de/rogue/TomeNET-Guide.txt">http://www.c-blue.de/rogue/TomeNET-Guide.txt</a> still couldn't figure out how to install the client, if there are tomeNet servers available, etc. 
+</p>
+<p>
+The spoilers aren't 100% what happens in tome, but knowing the slays exact multipliers and such was a godsend. Spoiler-writers look here! 
+</p>
+
+    <ul>
+
+ <a href="./SoulWynd">SoulWynd</a>: Download it, unzip, run the bat for europe ... at least that's what I remember from it. 
+    </ul>
+
+
+<h2 id="head-855388a005ace15316575235882b37dd276fb1b4">What are the differences with ToME?</h2>
+<p>
+Simon: according to the forums... 
+</p>
+<p>
+-The choice between immortal and regular characters. An immortal has the cheat death activated but can't give items to a mortal player. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./SoulWynd">SoulWynd</a>: They have other penalities as well. There are several types of characters... From hardcore (whatever the name was, one life I think)  to immortal characters. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+-Wilderness travel doesn't exist and walking has to be done "by hand" all the way (this sounds unlikely to be true, I have to see it to believe it!) 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./SoulWynd">SoulWynd</a>: Last time I checked it was true. Mostly because walking is done in real time. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+-No fee was mentionned anywhere, so this is PROBABLY a free thing too. I don't think <a href="./DarkGod">DarkGod</a> would have it any other way (correct me if I'm wrong, was it <a href="./DarkGod">DarkGod</a> who made ToME?). 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./SoulWynd">SoulWynd</a>: It is free. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+-They have no alchemists or possessors, but mimics are more advanced. 
+</p>
+<p>
+-The skill tree has more bugs and incosistencies (and skills NO ONE uses) than tome. 
+</p>
+<p>
+-You can form a party if everyone in it is no more than 7 levels apart, and share XP. Wooo-hoo! 
+</p>
+<p>
+-Thunderlords can consume special gems to obtain temporary powers, and race-specific bonuses and penalities are much more common and nontrivial than in tome. 
+</p>
+<p>
+-You can play a "fruit bat". (-; 
+</p>
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion_2fTomeNet_3f?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion_2fTomeNet_3f.text_html">RefreshCache</a> for this page (cached 2004-09-03 23:51:36)<br>
+<p><a href="./GeneralDiscussion_2fTomeNet_3f?action=edit">EditText</a> of this page (last edited 2004-09-03 23:51:35 by <span title="213.44.27.4=lxxx-17-4.n.club-internet.fr">lxxx-17-4</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:39:14 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:14 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 472.053
+  exclusion.robots: 0.176
+  exclusion.robots.policy: 0.163
+  RedisCDXSource: 0.726
+  esindex: 0.011
+  LoadShardBlock: 445.687 (3)
+  PetaboxLoader3.datanode: 449.521 (4)
+  CDXLines.iter: 22.404 (3)
+  load_resource: 33.626
+-->

@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Races/Dwarf - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fRaces_2fDwarf?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fRaces_2fDwarf?action=print">
+<link rel="Up" href="/Spoilers_2fRaces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fRaces_2fDwarf?action=fullsearch&amp;value=%2FDwarf&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Races/Dwarf</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fRaces">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fRaces_2fDwarf?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fRaces_2fDwarf">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fRaces_2fDwarf?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fRaces_2fDwarf?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fRaces_2fDwarf?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fRaces_2fDwarf?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fRaces_2fDwarf?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fRaces_2fDwarf?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fRaces_2fDwarf?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fRaces_2fDwarf?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fRaces_2fDwarf?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fRaces_2fDwarf">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-e6586ed36eb8ae0d63c9f087abc9bdfa96465cf2">Secret passages ability</a></li>
+<li>
+<a href="#head-d70de52f11a8982dc3f7584d09277cffd086b07c">Dwarves as sorcerer/mages</a></li>
+<li>
+<a href="#head-dd7ac7f84346b3ae55b8e2283c3dfca3fd8e69b1">Other issues</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-e6586ed36eb8ae0d63c9f087abc9bdfa96465cf2">Secret passages ability</h2>
+Dwarves' "secret passages" ability helps you get out of trouble; it lets you: 
+    <ul>
+
+    <li>
+<p>
+ Move on a known trap square without triggering the trap! 
+</p>
+</li>
+    <li>
+<p>
+ Move on lava without being burned(?) 
+</p>
+</li>
+    <li>
+<p>
+ Move to the other side of a pack of monsters like that: 
+</p>
+</li>
+
+        <ul>
+
+  
+<pre>Before:         After:
+
+########        ########
+ZZ   ZZ#        ZZ   ZZ#
+ZZZZZZZ#        ZZZZZZZ#
+ZZZWZZZ######   ZZZWZZZ######
+ZZL@UZZDUQ      ZZL UZZDUQ@
+ZZDDZZZ######   ZZDDZZZ######
+ZZZZZZZ#        ZZZZZZZ#
+ZZZZZZZ#        ZZZZZZZ#
+  </pre>
+        </ul>
+
+
+    <li>
+<p>
+ Or simply flee assuming there is monsters all the way to a wall in at least one direction (in the last example, upper-right). 
+</p>
+</li>
+    <li>
+<p>
+ This power can let you at the very corners of the map, inside a floor square just created in a wall/mountain surrounded area. This is helpful for resting until hallulcinations go away, for berserking until you get all your HP back using the helm of Hammerhand, waiting for rods and artifacts to recharge, and doing other noncombat time-consuming things like alchemy-recharging a wand. 
+</p>
+</li>
+    <li>
+<p>
+ This power still works when you wear the anchor of space-time (which is a must-have if you don't like hunting Qs who teleport you around or having all your stats less than 8 after meeting some time hounds or traps). 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Drawbacks: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ It doesn't work on most quests 
+</p>
+</li>
+    <li>
+<p>
+ Most of the time, it can't get you inside a monster pit. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-d70de52f11a8982dc3f7584d09277cffd086b07c">Dwarves as sorcerer/mages</h2>
+<p>
+-Dwarves are a higher HP race that allows 'hermit' for 20% more mana.  (other non-experimental alternatives are slow leveling -5 speed Ents and slower leveling thunderlords; both of which have abilities that merely duplicate a sorcerer's spells). 
+</p>
+<p>
+-No luck penalities, so your chance to get that rare, useful staff or mana multiplier is intact. 
+</p>
+<p>
+-A dwarf hermit has its INT penalized by -1, while you get +3 WIS(before class modifiers apply). Not great, but not catastrophic either. The mana is generally higher than a non-hermit magic-inclined race(especially after a few potions and items). 
+</p>
+<p>
+-The blindness resistance is a must have for any mage; and dwarves have it even at level 1. This frees an item slot! 
+</p>
+<p>
+-As the secret passages ability accepts using HP rather than mana, so it's the best, last hope for an escape if your mana gets to zero(when some non-moving types steal your mana or you got careless)! This ability is duplicated by boots of jumping and other stuff, but wouldn't you rather know exactly where you'll end up and wear boots of speed instead? 
+</p>
+<h2 id="head-dd7ac7f84346b3ae55b8e2283c3dfca3fd8e69b1">Other issues</h2>
+Considering dwarves are only 1 hit dice point away from trolls, and the secret passage skill is so useful, it's no wonder they are warriors of legend! <p>
+The blindness immunity is useful, too. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fRaces_2fDwarf?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fRaces_2fDwarf.text_html">RefreshCache</a> for this page (cached 2004-09-26 16:33:01)<br>
+<p><a href="./Spoilers_2fRaces_2fDwarf?action=edit">EditText</a> of this page (last edited 2004-09-26 16:33:00 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:30:08 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.13
+  captures_list: 346.179
+  esindex: 0.012
+  RedisCDXSource: 122.619
+  PetaboxLoader3.resolve: 186.957 (2)
+  load_resource: 205.146
+  exclusion.robots.policy: 0.121
+  CDXLines.iter: 21.588 (3)
+  LoadShardBlock: 198.299 (3)
+  PetaboxLoader3.datanode: 154.804 (4)
+-->

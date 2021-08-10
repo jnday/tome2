@@ -1,0 +1,345 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Quests - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fQuests?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fQuests?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fQuests?action=fullsearch&amp;value=%2FQuests&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Quests</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fQuests?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fQuests">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fQuests?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fQuests?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fQuests?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fQuests?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fQuests?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fQuests?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fQuests?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fQuests?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fQuests?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fQuests">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Except for your main quest to kill Morgoth at Dungeon Level 100, there are many other tasks for you to make your gameplay more comfortable and fun. Those are divided into two types, fixed quests and random quests. Fixed quests are those who always are available to you. Random quests, on the other hand, depend on you if you dare to trigger them (and their rewards!). <hr>
+ <ol>
+<li>
+<a href="#head-fd0877e8a9e5079af20a51114f6d0386380377c7">Quests found in Bree</a></li>
+<li>
+<a href="#head-e331ca5a2f2fac525f5286b2e1b73fab1f916048">Quests found in Lothlorien</a></li>
+<li>
+<a href="#head-3e3e63e1d4b17da01f3e2bba4da112d260919191">Quests found in Gondolin</a></li>
+<li>
+<a href="#head-f7f3d88f27ea44271dd9ad1d8c6ee022ede40199">Quests found in Minas Anor</a></li>
+<li>
+<a href="#head-49cbe3db6f272f276cb36ad1779573ed37a4efab">Quests found in Khazad-Dum</a></li>
+<li>
+<a href="#head-632820fecf4fbd6c2ea33907f6f75295784637dc">Main Plot Quests</a></li>
+<li>
+<a href="#head-082ac9eb2de804557840e03465a85c6ca6e87039">Independent Quests</a></li>
+<li>
+<a href="#head-3e6998217db12646061ce8d7c0d6b9474a0f8820">Random Quests</a></li>
+</ol>
+
+ <hr>
+ <h2 id="head-fd0877e8a9e5079af20a51114f6d0386380377c7">Quests found in Bree</h2>
+
+    <ul>
+
+    <li>
+<p>
+ Mushroom Supplies (Level 3) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fThieves_20Quest">/Thieves Quest</a> (<a href="./HomeQuest">HomeQuest</a>) (Level 5) 
+</p>
+</li>
+    <li>
+<p>
+ Lost Hobbit (Level 25) -- please see <a class="interwiki" title="Self" href="./Spoilers/Dungeons/TheMaze">Spoilers/Dungeons/TheMaze</a> 
+</p>
+</li>
+    <li>
+<p>
+ The next quest depends mostly on your character. You will receive one of the two following quests. Which one you receive depends on whether you have more skill points invested in Combat or in Magic. 
+</p>
+</li>
+
+        <ol type="1">
+
+        <li>
+<p>
+<a href="./Spoilers_2fQuests_2fTrolls_20Glade">/Trolls Glade</a> (Level 30) 95% likely if your character is combat-oriented. 
+</p>
+</li>
+        <li>
+<p>
+<a href="./Spoilers_2fQuests_2fWight_20Grave">/Wight Grave</a> (Level 30) 95% likely if your character is magic-oriented. 
+</p>
+</li>
+
+        </ol>
+
+
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fDark_20Horseman">/Dark Horseman</a> (Level 40) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-e331ca5a2f2fac525f5286b2e1b73fab1f916048">Quests found in Lothlorien</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fWolves_20Quest">/Wolves Quest</a> (<a href="./HomeQuest">HomeQuest</a>) (Level 15) 
+</p>
+</li>
+    <li>
+<p>
+ Old Mages Quest In Lothlorien (Level 20) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fSpiders_20of_20Mirkwood">/Spiders of Mirkwood</a> (Level 25) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fPoisoned_20Water">/Poisoned Water</a> (Level 30) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-3e3e63e1d4b17da01f3e2bba4da112d260919191">Quests found in Gondolin</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fDragons_20Quest">/Dragons Quest</a> (<a href="./HomeQuest">HomeQuest</a>) (Level 25) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fEol_2c_20the_20Dark_20Elf">/Eol, the Dark Elf</a> (Level 30) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fNirnaeth_20Arnoediad">/Nirnaeth Arnoediad</a> (Level 37) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fInvasion_20Of_20Gondolin">/Invasion Of Gondolin</a> (Level 80) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-f7f3d88f27ea44271dd9ad1d8c6ee022ede40199">Quests found in Minas Anor</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fHaunted_20House_20Quest">/Haunted House Quest</a> (<a href="./HomeQuest">HomeQuest</a>) (Level 45) 
+</p>
+</li>
+    <li>
+<p>
+ Old Mages Quest In Minas Anor (Level 35) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fThe_20Last_20Alliance">/The Last Alliance</a> (Level 80) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-49cbe3db6f272f276cb36ad1779573ed37a4efab">Quests found in Khazad-Dum</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fEvil_20Quest">/Evil Quest</a> (<a href="./HomeQuest">HomeQuest</a>) (Level 60) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-632820fecf4fbd6c2ea33907f6f75295784637dc">Main Plot Quests</h2>
+
+    <ul>
+
+    <li>
+<p>
+ Destroy the Necromancer (Dol Guldur Level 70) 
+</p>
+</li>
+    <li>
+<p>
+ Destroy the One Ring (Mount Doom Level 99) 
+</p>
+</li>
+    <li>
+<p>
+ Destroy Sauron (Angband Level 99, or Mount Doom level 99) 
+</p>
+</li>
+    <li>
+<p>
+ Destroy Morgoth (<a class="interwiki" title="Self" href="./Spoilers/Dungeons/Angband">Angband</a> Level 100 after beating Sauron) 
+</p>
+</li>
+    <li>
+<p>
+ Falling Toward Apotheosis (The Void Level 150) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-082ac9eb2de804557840e03465a85c6ca6e87039">Independent Quests</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fBounty_20Quest">/Bounty Quest</a> (Any level) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fGod_20Quest">/God Quest</a> (Any level) 
+</p>
+</li>
+    <li>
+<p>
+ The <a href="./Spoilers_2fQuests_2fBroken_20Sword">/Broken Sword</a> (Any level) 
+</p>
+</li>
+    <li>
+<p>
+ The Prisoner (Dol Guldur Level 60) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-3e6998217db12646061ce8d7c0d6b9474a0f8820">Random Quests</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./Spoilers_2fQuests_2fLost_20Sword_20Quest">/Lost Sword Quest</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./Spoilers_2fQuests_2fPrincess_20Quest">/Princess Quest</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fQuests?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fQuests.text_html">RefreshCache</a> for this page (cached 2005-10-09 23:43:16)<br>
+<p><a href="./Spoilers_2fQuests?action=edit">EditText</a> of this page (last edited 2005-10-09 23:43:16 by <span title="wooledge.org"><a href="./GreyCat">GreyCat</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:11:46 Oct 30, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:52 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 141.099
+  exclusion.robots: 0.157
+  exclusion.robots.policy: 0.146
+  RedisCDXSource: 3.391
+  esindex: 0.008
+  LoadShardBlock: 111.162 (3)
+  PetaboxLoader3.datanode: 136.119 (4)
+  CDXLines.iter: 22.485 (3)
+  load_resource: 63.665
+  PetaboxLoader3.resolve: 19.142
+-->

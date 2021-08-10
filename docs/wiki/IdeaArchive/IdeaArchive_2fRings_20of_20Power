@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Rings of Power - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fRings_20of_20Power?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fRings_20of_20Power?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fRings_20of_20Power?action=fullsearch&amp;value=%2FRings+of+Power&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Rings of Power</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fRings_20of_20Power?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fRings_20of_20Power">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fRings_20of_20Power?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fRings_20of_20Power?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fRings_20of_20Power?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fRings_20of_20Power?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fRings_20of_20Power?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fRings_20of_20Power?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fRings_20of_20Power?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fRings_20of_20Power?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fRings_20of_20Power?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fRings_20of_20Power">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: I've always wondered whether Rings of Power could be implemented in a slighly different way, with specific Arts dropped rather than similar Randarts. I've come up with a list/suggestion/starting point for this. Obviously, these rings should only be dropped once, rather than the usual collection of Mathoms you end up with once you start killing a Ringwraith over and over. Anyway, here's a list of sorts: 
+    <ul>
+
+    <li>
+<p>
+ Global 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ All Rings: Skill: Udun [+5.000], RESISTS(Nether=33 Dark=22), Drain Life, Heavy Curse, May Recurse, CHR –8, -5 Luck 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Specific 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Uvatha the Horseman - Movespeed+15, Actionspeed +5, RESIST(FEAR=100 NEXUS=66), STR+3, DEX +2, WIS-2, Animal ESP, Free Action 
+</p>
+</li>
+        <li>
+<p>
+ Adunaphel the Quiet - Activate:<em>Wraithform</em>, <a class="badinterwiki" title="Skill" href="./InterWiki"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Skill]" height="16" width="16">Stealth</a> [+8.000], Invisibility, INT +2, WIS +2, STR –3, CON –1 
+</p>
+</li>
+        <li>
+<p>
+ Akhorahil the Blind - Activate:<em>Magic Map</em> + <em>Detection</em>, RESIST(CONFUSION=55), RES_BLIND, See invisible, INT+4 
+</p>
+</li>
+        <li>
+<p>
+ Ren the Unclean – Activate: <em><a class="nonexistent" href="./FireFlash">FireFlash</a></em>, <a class="badinterwiki" title="Skill" href="./InterWiki"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Skill]" height="16" width="16">Fire</a> [+8.000], RESIST(FIRE=66 POISON=66), RES_BLIND, STR+1, INT+1, WIS-4. 
+</p>
+</li>
+        <li>
+<p>
+ Ji Indur Dawndeath – <a class="badinterwiki" title="Skill" href="./InterWiki"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Skill]" height="16" width="16">Spell-Power</a> [+7.000], Skill: Magic[+3.000], INT+4, WIS-2, ESP 
+</p>
+</li>
+        <li>
+<p>
+ Dwar, Dog Lord of Waw-  Activate: <em>Summon Hounds</em>, RESIST(CONFUSION=55) STR +3, DEX +2, CON +1, Animal ESP, Free Action, See Invisible 
+</p>
+</li>
+        <li>
+<p>
+ Hoarmurath of Dir – Skill: Sorcery [+5.000], Mana +20%, HOLD_LIFE, INT +3, WIS +1, Free Action 
+</p>
+</li>
+        <li>
+<p>
+ Khamul, the Black Easterling – (+10, +15)[+15], <a class="badinterwiki" title="Skill" href="./InterWiki"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Skill]" height="16" width="16">Weaponmastery</a> [+8.000], +1 Blows, +1 STR, +1 DEX, –4 WIS, Aggravate.  
+</p>
+</li>
+        <li>
+<p>
+ The Witch-King of Angmar – (+5, +5), <a class="badinterwiki" title="Skill" href="./InterWiki"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Skill]" height="16" width="16">Combat</a> [+5.000], <a class="badinterwiki" title="Skill" href="./InterWiki"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Skill]" height="16" width="16">Magic</a> [+5.000], RESIST(COLD=66 CONFUSION=55 ELECTRICITY=66 FEAR=100 FIRE=66, POISON=66), All Stats +1, Regenerate, Luck -2 
+</p>
+</li>
+
+        </ul>
+
+
+    <li class="gap">
+<p>
+ Notes 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ The global penalties/benefits of the rings are obvious. The -5 Luck will make a few people think twice, at any rate, about putting the damn things on. The CHR -8 is meant to simulate a horror and revulsion towards the wearer rather than the more generic Aggravate response. The bonus to Udun is deliberate, as it gives a bigger bonus to Melkor worshippers than to any other God worshipper.  
+</p>
+</li>
+        <li class="gap">
+<p>
+ The individual rings are meant to mimic (in a large or small way) the strengths and weaknesses of the Nazgul as they are presently coded and described. This means that sorcerors will sigh at the sight of a Dwar ring, but drool over a Hoarmurath of Dur circlet.  
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<p>
+Anyway, have a look and make whatever suggestions or criticisms you please.  
+</p>
+<p>
+2cworth and counting...  
+</p>
+<p>
+<a href="./BurbLulls">BurbLulls</a>: I certainly agree with the fact that the Nazgul rings have to be changed, and this idea certainly seems to be a very good one. At the moment, I feel the curses and negative values of the rings simply make them useless for all classes. I'm not saying that wearing these foul things should be a walk in the park, but there should be some debatable advantages to wearing them. At the moment most of my Nazgul rings just have a handful of common resistances along with the heavy cursing and draining qualities. 
+</p>
+<p>
+I agree with most of the abilities of the rings Ravenred has made, although I think Adunaphel's wraithform, Ren's ESP (Full?) and perhaps Hoarmurath's Sorcery boost may be a touch on the extreme side. The sorcery would be maybe a bit TOO useful for warrior classes with high HP that would immediately get knowledge of sense monsters and phase door and not feel the 5% HP loss. Udun on the other hand is a great idea for them; Dark Priests of Melkor are obviously the ones who should be considering wearing these the most. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fRings_20of_20Power?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fRings_20of_20Power.text_html">RefreshCache</a> for this page (cached 2004-08-29 01:33:58)<br>
+<p><a href="./IdeaArchive_2fRings_20of_20Power?action=edit">EditText</a> of this page (last edited 2004-08-29 01:33:57 by <span title="195.92.67.209=webcacheH09b.cache.pol.co.uk">webcacheH09b</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:13:06 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:42 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.195
+  captures_list: 284.463
+  esindex: 0.011
+  RedisCDXSource: 8.127
+  PetaboxLoader3.resolve: 33.928
+  load_resource: 84.515
+  exclusion.robots.policy: 0.184
+  CDXLines.iter: 26.233 (3)
+  LoadShardBlock: 244.541 (3)
+  PetaboxLoader3.datanode: 265.057 (4)
+-->

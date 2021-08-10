@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Macro/Overview - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Macro_2fOverview?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Macro_2fOverview?action=print">
+<link rel="Up" href="/Macro">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Macro_2fOverview?action=fullsearch&amp;value=%2FOverview&amp;literal=1&amp;case=1&amp;context=40">Macro/Overview</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Macro">Up</a></li>
+<li><a title="Edit" href="./Macro_2fOverview?action=edit">Edit</a></li>
+<li><a title="View" href="./Macro_2fOverview">View</a></li>
+<li><a title="Diffs" href="./Macro_2fOverview?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Macro_2fOverview?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Macro_2fOverview?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Macro_2fOverview?action=raw">Raw</a></li>
+<li><a title="Print" href="./Macro_2fOverview?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Macro_2fOverview?action=DeletePage">DeletePage</a></li>
+<li><a href="./Macro_2fOverview?action=LikePages">LikePages</a></li>
+<li><a href="./Macro_2fOverview?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Macro_2fOverview?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Macro_2fOverview">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+This page has been modified from the original Macro FAQ for clarity. <p>
+This page is intended to provide a general overview of the topics discussed. Detail will be provided further along in the Macro Guide. <em>Please do not enter detail here!</em> 
+</p>
+<hr>
+ <ol>
+<li>
+<a href="#head-a0c7aebbc04dbba6c95ad7c8c55a5c114ed45e15">Item inscriptions</a></li>
+<li>
+<a href="#head-899bd694d29ace1be956ab35177075021977560b">Macros</a></li>
+<li>
+<a href="#head-d76a6428ca9ac90ba70592739416e9b19c454e19">Keymaps</a></li>
+<li>
+<a href="#head-44b3d37e787e163631abbcfaef66ef828e844c68">Preference files</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-a0c7aebbc04dbba6c95ad7c8c55a5c114ed45e15">Item inscriptions</h3>
+You can create inscriptions on any game item. An inscription is "writing" which appears appended to the name of the item itself. The act of creating an inscription is called "inscribing". <p>
+You can use inscriptions in a number of ways. A few include: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ You can record where or how you got one of your favorite items. E.g. The Broad Sword 'Glamdring' (2d5) (+10,+15) {icky thing, 50'!!!} 
+</p>
+</li>
+    <li>
+<p>
+ You can note important resists or activations on an item to help yourself figure out kit combinations. E.g. The Nice Shiny Armor (-3) [35,+25] {rdark,FA,A:Geno} 
+</p>
+</li>
+    <li>
+<p>
+ You can label an item so that you can use it without having to know where it is in your inventory in order to use it. E.g. A Rod of Recall {@z0}, or a Food Ration {@E0}. Using {@0} will make the number usable in any command instead of the inventory position letter. 
+</p>
+</li>
+    <li>
+<p>
+ You can create inscriptions which work together with macros to allow reproducible use of items independent of inventory position, such as spellbooks. 
+</p>
+</li>
+    <li>
+<p>
+ You can inscribe ammunition to allow for automatic pickup(using the automatizer? Is there an example please? Is that {=g}). 
+</p>
+</li>
+    <li>
+<p>
+ You can give a symbiote a pet name. 
+</p>
+</li>
+    <li>
+<p>
+ The inscription {!!} will tell you when an activable item is recharged. 
+</p>
+</li>
+    <li>
+<p>
+ The inscription {!*} gives you a "are you sure [Y/N]" menu if you do anything with the item. Note that the star stands for all commands, but you can use instead the letter of the commands. Example: {!d!s!k} for don't drop, sell, destroy. 
+</p>
+</li>
+    <li>
+<p>
+ The automatizer can even auto-inscribe new things for you. This is very useful with macros. 
+</p>
+</li>
+    <li>
+<p>
+ You can inscribe all your items for posterity as you retire, which is the only way to add some tall tales of adventuring and silly poems to the character dump. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+Note that the game produces "fake" inscriptions. These look like real inscriptions but are really just displayed the same way (e.g. "cursed"). Also, an inscription you create can obscure a game-created inscription. For example, inscribing an item with "slow digestion" will make the game inscription "100% off" disappear, but you still won't be able to sell it. 
+</p>
+<h3 id="head-899bd694d29ace1be956ab35177075021977560b">Macros</h3>
+Macros are mappings from a single "logical" keypress to a sequence of keypresses, allowing you to use special keys on the keyboard, such as function keys or keypad keys, possibly in conjunction with modifier keys, to automate repetitive multi-key commands that you use a lot. <p>
+<em>For keys which don't have a system-independent representation, such as function keys, this is the only way to change their behavior.</em> 
+</p>
+<h3 id="head-d76a6428ca9ac90ba70592739416e9b19c454e19">Keymaps</h3>
+<p>
+Keymaps are vaguely related to macros. A keymap maps a single keypress to a series of keypresses, which bypass both other keymaps and any macros. ToME uses keymaps to map the original and the roguelike keysets to the underlying command set, and allows the user to modify or add keymaps of their own. All keymap actions must be specified using underlying commands. Keymaps and macros aren't expanded. The original keyset is almost identical to the underlying keyset, except that "numbers" are mapped to ";" plus a direction, "5" is mapped to ",", and a few control-keys are mapped to various things. See <a class="nonexistent" href="./Commands">Commands</a> for the full set of underlying commands. Keymaps also allow the "disabling" of a command by mapping it to "\x00". 
+</p>
+<h3 id="head-44b3d37e787e163631abbcfaef66ef828e844c68">Preference files</h3>
+<p>
+Preference files ("pref files") save commands such as macros and keymaps which are used to customise the game. They are used to implement the "original" and "roguelike" <a class="nonexistent" href="./keyset">keyset</a>s. They provide default appearances for items. 
+</p>
+<p>
+They also implement the default behaviors which make ToME look and play the same (for the most part) on different systems. 
+</p>
+<p>
+Pref files can be saved with the name of a player name, class, and race, and anytime a player with a matching characteristic is loaded, the appropriate pref file is loaded. This makes some customisations transparent and automatic. 
+</p>
+<p>
+Pref files let you do some things that could otherwise only reasonably be done by changing the info files or source, such as changing the appearance of a given terrain feature, or the symbol used for the player. 
+</p>
+<p>
+Pref files let you set up and save your favorite game options, and have them available for new characters without having to redo them. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Macro_2fOverview?action=refresh&amp;arena=Page.py&amp;key=Macro_2fOverview.text_html">RefreshCache</a> for this page (cached 2004-08-05 21:29:54)<br>
+<p><a href="./Macro_2fOverview?action=edit">EditText</a> of this page (last edited 2004-07-09 21:06:36 by <span title="66.131.207.219=modemcable219.207-131-66.mc.videotron.ca">modemcable219</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:26:12 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:49:01 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  esindex: 0.017
+  exclusion.robots: 0.225
+  load_resource: 1038.435
+  LoadShardBlock: 139.889 (3)
+  exclusion.robots.policy: 0.208
+  captures_list: 172.629
+  PetaboxLoader3.resolve: 829.896
+  PetaboxLoader3.datanode: 208.965 (4)
+  CDXLines.iter: 25.497 (3)
+  RedisCDXSource: 1.967
+-->

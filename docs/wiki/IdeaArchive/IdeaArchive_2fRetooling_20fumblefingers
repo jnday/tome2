@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">216</script><title>IdeaArchive/Retooling fumblefingers - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fRetooling_20fumblefingers?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fRetooling_20fumblefingers?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fRetooling_20fumblefingers?action=fullsearch&amp;value=%2FRetooling+fumblefingers&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Retooling fumblefingers</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fRetooling_20fumblefingers?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fRetooling_20fumblefingers">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fRetooling_20fumblefingers?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fRetooling_20fumblefingers?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fRetooling_20fumblefingers?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fRetooling_20fumblefingers?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fRetooling_20fumblefingers?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fRetooling_20fumblefingers?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fRetooling_20fumblefingers?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fRetooling_20fumblefingers?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fRetooling_20fumblefingers?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fRetooling_20fumblefingers">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Maur: The whole concept of fumblefingers is nice.  Save this cloaked adventurer guy, he gives you more skills.  What's not to like? <p>
+Then you find out the skills he doles out are totally random, and that you may not see that one more mindcraft grant until Angband 98, despite you having saved up 70-something skill points to dump into it. 
+</p>
+<p>
+My whole point is this:  fumblefingers shouldn't be that random. 
+</p>
+<p>
+Neither should how often he appears, for that matter. 
+</p>
+<p>
+I propose that we retool the system.  Once you pick how many random quests you want, the game finds out how many fumblefingers quests that would be under the current rarity (which is what? 25%?).    When you enter a level, the game picks quests randomly, but it must give you that many fumblefingers quests total. 
+</p>
+<p>
+Now, for FF himself.  I absolutely hate getting four choices that mean absolutely nothing to your character.  I would either let you select from every skill he can possibly give, or add a feature that lets you give extra priority to one or two or however many skills you deem important, so you at least have a very good chance of getting one. 
+</p>
+<p>
+Also, he shouldn't give skills you have a 50 in already.  It just means you battled through a whole level for nothing. 
+</p>
+<p>
+I don't care about the princess quests much.  She can't give randarts, so you're not in danger of losing that Polished Power Dragon Scale Mail of 'Xalandion' (+50,+50) [40,50] (+12 speed, 140% extra life), and although she can give regular artifacts, you can just kill stuff to find those.  Fumblefingers quests, under the current system, give you a few shots at what you want, and if you miss em, or your wanted skill doesn't show up, it's gone forever. 
+</p>
+<p>
+Yeah, I know that some of you like how he randomly gives things, but it's messed up when your whole carefully planned character falls apart because he didn't give you what you want.  I hate randomness when it's irreversible.  That factor doesn't depend on skill at all, and no matter how good you are, the rng can fail you based on a whim. 
+</p>
+<p>
+On that note, I think that the <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fPotion_20of_20Learning"><img src="./wiki/classic/img/moin-inter.png" alt="[Self]" height="16" width="16">Potion of Learning</a> should be a fixed amount of skill points no matter what you luck is, but that's another (semi-related) topic. 
+</p>
+<p>
+Simon: Come to think of it, who would be moronic enough to have both thaumaturgy and antimagic to teach you(how can he use BOTH)? What class if FF anyways?? And who wouldn't keep his sword since he seems so attached to it despite the fact it has a *turn molds into thieves and teleport away* flag, not to mention the "lose skill points to other people" flag? FF must be insane. 
+</p>
+<p>
+He definitively needs to show up with a description like the princess does, and the sword could be an item you might KEEP if you don't like the skill choices, with the temporary flag so it eventually goes away but a very neat sword anyway. 
+</p>
+<p>
+And whoever didn't feel like killing FF once in a while, raise your hand! 
+</p>
+<p>
+(maybe he should give skill points directly, or allow you to train one skill at +10 above your character level instead of +4 while spending your own normal skill points). 
+</p>
+<p>
+He's also quite repetitive; there is a thread for new quests you should read. 
+</p>
+<p>
+Maur: I don't care about how repetitive he is.  My whole point is that you should have far greater control over which skills he teaches you.  It's not that I don't like his way of giving skill points out, it's just that I want to make sure that Thaumaturgy or whatnot is availible each and every time. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: That is called scumming. There's some scumming I don't mind (e.g. autoscum), but what you suggest is, IMHO, way too near to cheating for me to be happy with. If I knew ahead of time what FF was going to offer me, I'd turn the entire random quests off, as it spoils all the fun. This game isn't supposed to be easy, and that is part of its appeal. Getting good options from FF is part of the thrill. Anyway, once you get to a high character level, there's a good chance you may have maxxed out one or more of the skills he offers you, anyway. 
+</p>
+<p>
+See the FF thread and associated links, as there are many ideas there for variety. 
+</p>
+<p>
+<strong><a href="./SirMaur">SirMaur</a></strong>:  Hoping that he randomly picks the skills you want?  That's hardly a thrill. 
+</p>
+<p>
+I'd prefer it done like I proposed above, even if you reduce his rarity to one in 10 levels or something similar.  Far better than hoping he gives you something not totally useless, anyways. 
+</p>
+<p>
+I can see this is going nowhere.  I'll drop the case, then.  This game is still great even if fumblefingers is dorky. :P 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I don't mind your opinion. I just happen to disagree with it, is all. <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> At any rate, I'm not the one who makes those decisions, anyway. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: It'd be helpful if you'd refer to the quest by its actual name, and not some never-mentioned-in-the-game-or-the-documentation name made up by some readers of the ToME forum.  That way more people who play ToME will know what you're talking about. 
+</p>
+<p>
+<strong><a href="./ZasVid">ZasVid</a></strong>: IMHO 'fixing' lost sword quest that way would be unfair for players which don't do it (the part with getting free skills and skill points just like you want) or do it just for fun (ie. hunting the ood monsters and "what will he propose me now?" - the part about greater rarity). I see that when playing a roguelike is like life - you have to cope with things, not depend on them (though you maybe can expect some).  
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fRetooling_20fumblefingers?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fRetooling_20fumblefingers.text_html">RefreshCache</a> for this page (cached 2004-08-24 13:21:56)<br>
+<p><a href="./IdeaArchive_2fRetooling_20fumblefingers?action=edit">EditText</a> of this page (last edited 2004-08-24 13:21:55 by <span title="dialin-145-254-143-028.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:08:30 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:41 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 0.751
+  esindex: 0.014
+  CDXLines.iter: 21.629 (3)
+  load_resource: 123.161
+  exclusion.robots: 0.211
+  captures_list: 84.188
+  PetaboxLoader3.resolve: 38.164
+  LoadShardBlock: 57.903 (3)
+  PetaboxLoader3.datanode: 58.523 (4)
+  exclusion.robots.policy: 0.195
+-->

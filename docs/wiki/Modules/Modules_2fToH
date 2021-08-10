@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/ToH - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fToH?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fToH?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fToH?action=fullsearch&amp;value=%2FToH&amp;literal=1&amp;case=1&amp;context=40">Modules/ToH</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fToH?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fToH">View</a></li>
+<li><a title="Diffs" href="./Modules_2fToH?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fToH?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fToH?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fToH?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fToH?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fToH?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fToH?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fToH?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fToH?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fToH">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Tales/Troubles of Hyrule; The legend of Zelda module. <p>
+Just a few ideas. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ There woud be no race/class choices, you would play as Link. He would have pretty good skills at most things though. 
+</p>
+</li>
+    <li>
+<p>
+ The map would be changed to Hyrule and towns and dungeons would change too. 
+</p>
+</li>
+    <li>
+<p>
+ All dungeons would have a boss in a special level which can not be exited until the boss is defeated. 
+</p>
+</li>
+    <li>
+<p>
+ There aren't enough Zelda monsters to completely re-write them, but some new monsters and uniques could be added. 
+</p>
+</li>
+    <li>
+<p>
+ Sauron and Morgoth are changed to Ganondorf and Ganon of course! 
+</p>
+</li>
+    <li>
+<p>
+ More special levels, some with puzzles to solve. 
+</p>
+</li>
+    <li>
+<p>
+ Re-do items so that finding any armour, scrolls etc. are rare but gold it plentiful. 
+</p>
+</li>
+    <li>
+<p>
+ Weapons are not generated except on special occasions.  
+</p>
+</li>
+    <li>
+<p>
+ Add time-bombs! Also, make the bow much more powerful. 
+</p>
+</li>
+    <li>
+<p>
+ Empty bottles must be made more rare and useful. 
+</p>
+</li>
+    <li>
+<p>
+ Various special items (artifacts?) such as the grappling hook, deku leaf etc. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+I'm guessing most of these would be almost impossible to add/change but it was just a thought. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fToH?action=refresh&amp;arena=Page.py&amp;key=Modules_2fToH.text_html">RefreshCache</a> for this page (cached 2004-12-24 04:01:41)<br>
+<p><a href="./Modules_2fToH?action=edit">EditText</a> of this page (last edited 2004-12-24 04:01:39 by <span title="202.72.148.102">NameLess</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 19:04:57 Apr 12, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:49 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 210.123
+  exclusion.robots: 0.277
+  exclusion.robots.policy: 0.258
+  RedisCDXSource: 3.514
+  esindex: 0.006
+  LoadShardBlock: 185.97 (3)
+  PetaboxLoader3.datanode: 243.531 (4)
+  CDXLines.iter: 17.59 (3)
+  load_resource: 1721.631
+  PetaboxLoader3.resolve: 1649.358
+-->

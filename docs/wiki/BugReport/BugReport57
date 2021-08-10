@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport57 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport57?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport57?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport57?action=fullsearch&amp;value=BugReport57&amp;literal=1&amp;case=1&amp;context=40">BugReport57</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport57?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport57">View</a></li>
+<li><a title="Diffs" href="./BugReport57?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport57?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport57?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport57?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport57?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport57?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport57?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport57?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport57?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport57">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+When Groo speaks, he says <p>
+"Groo, the wanderer 1" 
+</p>
+<p>
+If I recall correctly he has nothing to say until afraid, so he says '1' which is buggy. 
+</p>
+<p>
+The code should handle one-character unique speak as "don't say anything". 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I've added some lines to fix the problem. Next step is to modify the function get_xtra_line in files.c such that 0 lines are allowed. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport57?action=refresh&amp;arena=Page.py&amp;key=BugReport57.text_html">RefreshCache</a> for this page (cached 2004-08-03 07:10:24)<br>
+<p><a href="./BugReport57?action=edit">EditText</a> of this page (last edited 2004-07-31 18:21:32 by <span title="dialin-145-254-144-152.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:11:01 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:14 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.datanode: 175.173 (4)
+  CDXLines.iter: 21.518 (3)
+  exclusion.robots: 0.224
+  LoadShardBlock: 166.665 (3)
+  PetaboxLoader3.resolve: 28.352
+  exclusion.robots.policy: 0.207
+  captures_list: 215.354
+  esindex: 0.016
+  load_resource: 215.563
+  cdx.remote: 0.128
+-->

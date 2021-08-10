@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Races/RohanKnight - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fRaces_2fRohanKnight?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fRaces_2fRohanKnight?action=print">
+<link rel="Up" href="/Spoilers_2fRaces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fRaces_2fRohanKnight?action=fullsearch&amp;value=%2FRohanKnight&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Races/RohanKnight</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fRaces">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fRaces_2fRohanKnight?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fRaces_2fRohanKnight">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fRaces_2fRohanKnight?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fRaces_2fRohanKnight?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fRaces_2fRohanKnight?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fRaces_2fRohanKnight?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fRaces_2fRohanKnight?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fRaces_2fRohanKnight?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fRaces_2fRohanKnight?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fRaces_2fRohanKnight?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fRaces_2fRohanKnight?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fRaces_2fRohanKnight">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-d4f945a2abc93d343fd04ee81b381d4e490adf40">Intrinsic Attributes</h2>
+<p>
+Level 1: +3 Speed<br>
+ Level 5: +4 Speed<br>
+ Level 10: +5 Speed<br>
+ Level 15: +6 Speed<br>
+ Level 20: +7 Speed<br>
+ Level 25: +8 Speed<br>
+ Level 30: +9 Speed<br>
+ Level 35: +10 Speed<br>
+ Level 40: +11 Speed<br>
+ Level 45: +12 Speed 
+</p>
+<p>
+Note: Modifications represent the total at that level, so a level 5 Rohan Knight has +4 to speed, not +7 to speed. 
+</p>
+<h2 id="head-2cfbfe0a5f960f6d35f39a4041c7184606c38d5c">Light Speed</h2>
+<p>
+Light speed allows you one turn at near-maximum speed (+50). 
+</p>
+<p>
+That's a good thing to say show up, use wand, hide. Then it's gone and you use the power again. Careful to show up only after the monster just moved... 
+</p>
+<p>
+Light speed is also useful for symbiants trying to get a unique nevermoving pet.  If after being summoned the unique doesn't get a turn to turn hostile, it can be hypnotized (or turned into a companion if you don't want to chance hypnosis failure). 
+</p>
+<h2 id="head-279c4bd45714d0e8572ea2c219331fec6368d7bc">Flash Aura</h2>
+<p>
+Flash Aura functions a lot like a confusion bolt (and later ball) Thaumaturgy spell.   Starting at level 1, it functions as a bolt spell.  At level 5, it increases to a radius 1 ball spell, and continues to slowly increase in radius until level 50.  This ability is especially useful for Unbelievers and others with antimagic, as they usually can not access abilities like this, save on activatable devices.  Flash Aura will still be cast even if you lack the mana to do so - instead it will drain a small amount (usually around a dozen or less) HP from you - a negligable amount for warriors in most situations. 
+</p>
+<p>
+When facing a group of monsters, Flash Aura can be used as a *very* low damage fireflash, with a side order of confusion. Two or three auras can eliminate a pack of Uruks with ease, and if any survive they will be very confused.  Also, even if the target resists confusion it will still take damage.  This makes Flash Aura is a simple - if toilsome - way for a <a class="nonexistent" href="./RohanKnight">RohanKnight</a> warrior to win the Lothlorien poisoned water quest.   
+</p>
+<p>
+Flash Aura really shines, however, when employed against a suprising number of mid to upper level uniques and other dangerous monsters.  Trone, Saruman, Polyphemus, Ulik, and even the Tarrasque are among the uniques, and Hrus, Titans, and most orcs, trolls and ogres are among the normal monsters.  Against these monsters, Flash Aura can turn what would normally be a difficult fight into a cakewalk.  For melee characters, lure the opponent close to you, flash aura him, and then repeatedly attack and flash until he is dead, switching to healing and flashing if he happens to still get an attack in.  For archer types, this is even more effective.  The confused monster will be unable to use spells, so you can just stand off and fire on the confused monster until he dies, without ever getting a blow on you.  The instrinsic speed boost allows you to almost always move faster than your opponent, making the flash/attack combination possible. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fRaces_2fRohanKnight?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fRaces_2fRohanKnight.text_html">RefreshCache</a> for this page (cached 2006-04-10 09:23:30)<br>
+<p><a href="./Spoilers_2fRaces_2fRohanKnight?action=edit">EditText</a> of this page (last edited 2005-06-27 16:00:41 by <span title="12.65.13.148=slip-12-65-13-148.mis.prserv.net">slip-12-65-13-148</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 00:48:52 Nov 21, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:37 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2285.043
+  exclusion.robots: 0.177
+  exclusion.robots.policy: 0.163
+  RedisCDXSource: 6.389
+  esindex: 0.014
+  LoadShardBlock: 2256.321 (3)
+  PetaboxLoader3.datanode: 2309.851 (4)
+  CDXLines.iter: 18.941 (3)
+  load_resource: 184.633
+  PetaboxLoader3.resolve: 116.637
+-->

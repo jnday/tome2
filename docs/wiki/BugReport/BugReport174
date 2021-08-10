@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport174 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport174?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport174?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport174?action=fullsearch&amp;value=BugReport174&amp;literal=1&amp;case=1&amp;context=40">BugReport174</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport174?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport174">View</a></li>
+<li><a title="Diffs" href="./BugReport174?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport174?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport174?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport174?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport174?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport174?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport174?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport174?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport174?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport174">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a class="nonexistent" href="./RedNaga">RedNaga</a></strong>: Not really sure if this is a bug or not, but my troll zombie unbeliever with magic object skill at (guessed already?) 0, has been happily identifying average potions (maybe some scroll too, but i'm not sure).<br>
+ If magic object identification (pseudo) work like armor and weapons, shouldn't he need a minimum in magic object skill to identify this kind of object? <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I'm not sure, but this may be related to one of the negative skill bugs, fixed in the latest version.  
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Is this with an absolutely most recent snapshot of ToME 2.3? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The post is from 30/09/2004, and in the last version this error does not seem to appear. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport174?action=refresh&amp;arena=Page.py&amp;key=BugReport174.text_html">RefreshCache</a> for this page (cached 2004-10-10 15:33:40)<br>
+<p><a href="./BugReport174?action=edit">EditText</a> of this page (last edited 2004-10-10 15:29:03 by <span title="dialin-145-254-145-016.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:49:49 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:49 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 79.575
+  exclusion.robots: 0.128
+  exclusion.robots.policy: 0.117
+  RedisCDXSource: 0.583
+  esindex: 0.01
+  LoadShardBlock: 54.664 (3)
+  PetaboxLoader3.datanode: 74.504 (4)
+  CDXLines.iter: 20.522 (3)
+  load_resource: 72.692
+  PetaboxLoader3.resolve: 49.264
+-->

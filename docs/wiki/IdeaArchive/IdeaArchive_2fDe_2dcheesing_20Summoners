@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/De-cheesing Summoners - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=fullsearch&amp;value=%2FDe-cheesing+Summoners&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/De-cheesing Summoners</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fDe_2dcheesing_20Summoners">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fDe_2dcheesing_20Summoners">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Death to cheese (<a href="#1">1</a>)! <a class="nonexistent" href="./LordDimwit">LordDimwit</a> summons it up nicely when he says 'Urgh, when I think "Summoner," the word "cheap" immediately springs to mind'. Spot on, Lord D!  <p>
+Summoning (especially chain summoning) gives a player an almost unlimited army of soldiers against which the mere denizens of a dungeon are unlikely to stand. Whilst the same can be said of individual monsters against any of a player's spells, Summoning is different in that it is endlessly reusable, does not pose any significant risks to the player, and requires almost no active involvement from the player additional to the initial summon. And when summoned creatures either spawn or summon their own monsters, the dungeon walls creak trying to hold in your army. I've tried several summoners and don't find this style of play challenging or interesting. Corpses are easy to find, totems easy to carry and the exponential effect of summoning a summoner ridiculously unbalancing.  
+</p>
+<p>
+So how do we fix this?  
+</p>
+<p>
+For mine, we start by making Totems 1-use only items. Make summoned monsters all conform to a new Ego-type which strips ALL summoning spells and removes "smart" flags (no chain-summons). Monsters from a different faction to your own WILL turn on you if you don't dismiss them. Unlike other (same faction) pets, they are only held to your service by pure force of will, and therefore have mana-drain effects, just like partial totems.  
+</p>
+<p>
+The skill onus of summonsers should therefore shift to knowing exactly when is the right time to "throw" the right monster at your opponent. The totem of that Ancient Red Dragon should REALLY be held back until you're up against that Great Ice Wyrm. And you can summon the most evil demon from the pits of hell, but if you're not a Melkor Worshipper, don't expect them to stay on your side if you turn your back on them... 
+</p>
+<p>
+This will mean that summoners change from passive watchers of their pets to active directors of battles.  
+</p>
+<p>
+2cworth and counting...  
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Interesting, but I don't understand one thing: There already IS a mana drain effect for pets. You say '...just like partial totems', but totems are what you were talking about in the first place (????) 
+</p>
+<p>
+Having 1-shot totems for specific uses seems extremely unwieldy to me. A Summoner (or any other char who gets summoning from FF) would be giving over a *huge* amount of inventory to totem storage. Would like totems stack? How much would they weigh? It might work in a new/improved backpack system, but I don't see this working very well in 2.x.  
+</p>
+<p>
+If Summoning is your main (or one of your main) means of doing business (i.e., you are a Summoner, or some other Loremaster variant), then it should be functional.  If you don't want it to be functional, then get rid of it (and the skill and the class) entirely, but don't hamstring a class just because it bothers you. Tweak it, sure, but don't hamstring it. 
+</p>
+<p>
+If it's a ff add-on to some random character class, then it should still be worth the skill points put into it. And I don't think dumping 30+ skill points into something that might let me carry 5-6 one-shot totems around is worth it. 
+</p>
+<p>
+Don't get me wrong, I understand what you're talking about. I often play characters who summon, but I don't generally go nuts on it. I have a few fairly powerful characters in mothballs who do have totems of monsters who summon, but that activity, even in the game as it currently exists, can be highly dangerous. I personally find that I prefer just a few (or even one) summonee who I can keep track of, rather than a horde of 60-odd critters, especially when some of the summonees might be exactly the same race as some of the critters I'm trying to kill. It's also no fun to suddenly be out of mana when you desparately need to get elsewhere and all your teleport scrolls are burnt up. (A stupid situation to get oneself into, yes, but it does happen.) 
+</p>
+<p>
+My thoughts on ways to scale back totem summoners (or constrain abuse, anyway):  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ I like your thought of factions. Perhaps a buyable ability (for skill points plus nasty prerequisite points in Monster Lore and Summoning) might let you safely summon past faction barriers. 
+</p>
+</li>
+    <li>
+<p>
+ Add a percent fail (or a fail, anyway) of converting a corpse to a totem. This fail would decrease with increasing skill level in Summoning. 
+</p>
+</li>
+    <li>
+<p>
+ Make monsters more likely to rebel at low skill levels. I say this because out of all the many, many Loremasters I've played, not to mention other char classes who also had Summoning, I've <em><strong>never</strong></em> once had a summoned monster rebel on me. (Well, not unless I  abused it somehow first... btw, Pulverise is not a good spell to use in the vicinity of a pet GWoP!) 
+</p>
+</li>
+    <li>
+<p>
+ Add a new effect: When multiple monsters have been summoned, each monster which rebels has some percent chance of inducing some of its former cohort to also rebel. Chance/number of additional rebelees determined by... oh, who knows. Type/number of monsters, your skill level, your mana, etc. ("Psssst... hey, buddy!" *nudge nudge* "Hey, you've been brainwashed, man, snap out of it!!!") 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+My thoughts on how to scale back Symbiote summoners:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Erhm, I don't know. Silly me, all those Loremasters, but I've never bothered summoning with a symbiote. Didn't need or want it. <img src="./wiki/rightsidebar/img/biggrin.png" alt=":D" height="15" width="15"> I can see where some warrior types might find it useful, though. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="./SoulWynd">SoulWynd</a>: I dunno about you but I think It's a lot of fun to have over 100 rats killing demons, dragons and pretty much everything. I got one white mouse to level ~20-30 once, my faithful companion... Poor thing died eventualy... Oh well... Anyway, I think summoning lacks powers actualy. If you're an average summoner at level 25 you can hold like 5 dragons up for a long time, but nothing more. It would be fun to have a targeted summoning, where you could target an enemy and make the summon appear close. Multiple summoning would be a nice power too... I don't mind the partial totems, they're suposed to be weaker, mindless creatures created from mana whose purpose is to die for you but the full totems could use more effects, such as the ones mentioned by you two. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Summoning (as it currently exists, for both players and monsters) bothers me, okay? <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> Full and Partial Totems was the difference I was talking about. I'm just allergic to cheese, and it makes me irrational sometimes. &lt;rolls eyes&gt; As for having to carry various kinds of totem around... perhaps a mega-totem could be created (at higher levels) which will randomly summon WITHIN a group. For example... a humanoid 'p' totem. A 'd' totem. Even (gawd 'elp us) a 'y' totem. This would (admittedly) make the Summoning power more generic, but far more manageable in terms of inventory (especially if the below # of summons idea comes good). Perhaps another balancing factor could be the fact that unalike factional monsters (along with the potential to attack you) are easily distracted into attacking their ancestral enemies. Even if they're other summons of yours. <a href="./SoulWynd">SoulWynd</a> - The multiple summoning power could possibly be implemented by the way in which multiple monster summons are being re-thought (By Neil, I think) to be level dependent. i.e. on lower levels, they appear singly, wheras the same creature on a lower level could appear in a pack. If this proposed dungeon generation feature could be exported to summoning, then it could prove a useful balancing tool... BOTH ways...  
+</p>
+<p>
+<a href="./ZV">ZV</a>: IMHO summoning isn't cheesy. Monsters are. Perfect situation would be so every single monster (at least every smart monster) has AI good enough to issue a challenge to player every time unless heavily overpowered by player. Though we'll need to wait a while 'till that is done.  For everything else, I agree with <a href="./RavenRed">RavenRed</a> 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Anyway, I've wanted partial totem creation to be an ability (perhaps 10 points at level 10 summoning) for many months now. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Back to the topic... Mass and Chain summoning provide level-scouring power. Whether this level-scouring ability is a desirable outcome is another issue. A totem of a GWoP makes the game considerably easier with limited risk. If the easiness could be limited or the risk increased markedly, then summoners might actually have to apply some skill and strategy. I'm not talking about turning ToME into "Age of Empires", but in increasing the complexity of interactions required in mass summon situations.  
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: Summoning is a two edged sword. At times it is strong but it is also a weakness. In certain situations where you're out of mana, tactics are set to coward and you're trying to avoid being killed, summoning is hard as hell and it fails often if you try to bring something powerful to help. Altho, summoning is rather easy if you have room to manouver since your character is (most of the times) weaker than what you summon. Summoning from full totems can also go way too wrong when you're trying to fight some unique, not to mention when you agravate all your &gt;100 pets... It's a run for your life thing. That's why I like playing with <a class="nonexistent" href="./RohanKnight">RohanKnight</a> Summoner or a <a class="nonexistent" href="./DeathMold">DeathMold</a> Summoner... When I want I challenge I try a Yeek Summoner who can easily die if in the wrong position. Anyway, I don't think ToME is exactly balanced, nor it should be (to a limit) and I like it the way it is. You start giving stuff too much limitations and it will start to look like ADoM. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: I have to admit that the 'cheese' bit bothered me, too, RR. However, let's all get over the terminology, shall we? I will, anyway. Also, I do suggest (in general) that we try to keep discussion of summoning and chain-summoning separate if possible. It's too easy to apply thoughts and/or feelings about chain-summoning onto general summoning itself.  
+</p>
+<p>
+"Giving objective evidence on the rightness or wrongness of game features is an absolute impossibility?"  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ I would say objective and subjective evidence are both quite possible. Defining objective evidence is more difficult. Also, it is far too easy to mistake the subjective for objective, which is one reason behind why I disliked the term 'cheese'. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+ZV said: <em>IMHO summoning isn't cheesy. Monsters are.</em> What I would say is this: Summoning isn't cheesy. Some monsters are cheesy, and so, sometimes, are some players. 
+</p>
+<p>
+Ravenred said: <em>I've tried several summoners and don't find this style of play challenging or interesting.</em>  
+</p>
+<p>
+Then don't play them? Or more importantly, how DID you play them? (This is a rhetorical question; I'm not implying anything about you, <a href="./RavenRed">RavenRed</a>.) 
+</p>
+<p>
+It comes down (at least in part) to playing style, and also to how you view assorted character classes. Yes, summoners have some tremendous advantages, and depending on how you play, as a <em>player</em>, they can be "abused". But other classes can also be "abused", too.  
+</p>
+<p>
+If you want to take another example from the strategy guide, Lord Dimwit also mentioned the case of Archers scumming the Lothlorien house quest for arrow fodder. Almost all of my ToME characters use some form of Archery, yet I've never scummed that house quest. But because Archers are scummable, does that mean that they need to be "de-cheesed"? Because I play characters who often use Archery, am I therefore a cheesy player? No. Or at least, I hope not! The same goes towards Summoning.  
+</p>
+<p>
+Almost all the classes and races have some pretty impressive advantages to them and some of them can be considered "cheesy" or "unbalanced" if you want to start using those charged words. I mean, look at Sorcerors, for goodness sake! Or fighters with those absurd numbers of attacks and to-hit and to-dam (which, I might mention, LD seems to firmly approve of.) Not all people like all classes and/or excel at playing all classes. IIRC, the classic ToME example is that LD's winners tend to be spellcasters, while Neil's tend to fighter-types (Neil, please correct the previous sentence as needed, or delete it if you prefer.) (<a href="#2">2</a>) However, NONE of the classes are perfect. That's the beauty of the game. Rational tweaks to any class make sense, though I don't think everything has to be "balanced".  
+</p>
+<p>
+I really do like the idea of the partial totems ability. Any feedback on my other suggestions?  
+</p>
+<p>
+And, by the way, I'm not dumping on anyone here -- to swipe a line from <a href="./RavenRed">RavenRed</a>, that's my $0.02 and counting. I apologize if this is a little scattered; it's been a long day. 
+</p>
+<p>
+<a href="./ReenenLaurie">ReenenLaurie</a>:  Neil's chars (especially the first), were pretty much all spellcasters.  No idea about LD's, but I've read some on Neil's winners more than once.  Neil's first was pernband 4.0 or something, and then later tome 1 and later still 2+. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: What I meant is that all evidence on the rightness or wrongness is empirical (unless people have been doing some statistical work that I don't know about) and that this is inherently biased by the observer's own interests. There was actually a smiley after that statement in my original rant, which I had intended to imply a little bit of irony to that statement. Sadly it didn't seem to go graphic!  
+</p>
+<p>
+In answer to how did I play my summoners, I played them as "pure" summoners, rather than summoners-cum-archers or summoner-cum-mindcrafters. It's both one of the great strengths and weaknesses of ToME that single-strength classes aren't that common (and I blame that irresponsible fool Fumblefingers handing out powers willy-nilly &lt;please note tongue pressed firmly into cheek&gt;). YES some classes and races are heavily advantaged over others, and there are arguments both ways as to whether this is a good or bad thing. Alchemists don't appear to be actively being developed (please correct me if I'm wrong), Artifact creation has been turned into a 40pt ability. I wasn't endorsing Lord Dimwit's view of the world willy-nilly (no offence LDw), nor disparaging those who enjoy playing Pied-Piper with a White Mouse totem. I DON'T play a lot of summoners, and the reason is in the first paragaph of this increasingly convoluted page. I enjoy playing classes that are hard(er) to use, and require more complex strategies. And I HAVE whinged (...er... called for discussion on) rebalancing fighters with absurd amounts of hit/damage, etc. The HP and combat penalties to Sorcery are (for mine) a good balancing measure. I picked Summoners as one of the classes that provides, for me, a less interesting mode of play and tried to make <strong>constructive suggestions</strong> on how to make the class <em>better</em> and <em>more fun to play</em>. More fun to play for me, sure, but I am ALWAYS willing to be shot down on all my suggestions. I DID use provocative language to get my point across, and it appears I was taken too seriously. Right... see this below this par? It's a line that I'm going to draw under my involvement in the issue...  
+</p>
+<p>
+Right... onto your suggestions. Partial Totem creation as an ability is good. I believe the ability to summon and the ability to breed should be removed from Player-summoned items, and that this would improve the Summoning ability. I also think that Summoning itself should be more limited for non-Summoner classes. OK, that's it. Done.  
+</p>
+<hr size="3">
+ <strong>(1)</strong> <a id="1"/> <a href="./NeilStevens">NeilStevens</a>: I don't think it's helpful for a rational discussion if it starts with meaningless terms like "cheese" or "cheap."  That's even worse than "balance" I think! <p>
+<a href="./RavenRed">RavenRed</a>: Neil, what terms would you prefer for a feature which makes the game overly easy/hard? I'm asking this quite seriously as a straight-up question. You appear to see these terms as particularly "loaded" (which <strong>cheese</strong> is, and <strong>cheap</strong> to a lesser degree). And whilst the discussions over balance (AxeMasters, anyone?) would be enough to "load" the term for you, I'm interested to ask what terms you think would be more constructive.  
+</p>
+<p>
+I used those terms quite deliberately in my first par to lay out my basic oppposition to the current implementation. If my language was disruptive or provocative to some people, I apologise unreservedly.  
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: This has nothing to do with loaded words.  It's just that your title and introduction provide no rational basis for a discussion.  You quote one pseudonymous individual and use a slang term that strikes me as adolescent.  That's it.  You give no objective evidence that anything is in fact wrong with the game and needs addressing. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Well the psuedonymous individual wrote "Lord Dimwit's advanced strategy guide" (which is from where I pinched the quote) in the Wiki's own spoiler section. And if we're going to dismiss opinions on the basis of their lack of RL names, then there won't be many discussions on the wiki or the forum. And I will not apologise for using slang terms that convey my meaning accurately. "De-powering Summoners" has its own connotations which I would not have wanted conveyed, and "Rebalancing Summoners" comes up against what you've already alluded to. What in the Pits of Angband IS balance? If you don't feel as though I opened the topic appropriately, once again, I apologise. And giving objective evidence on the rightness or wrongness of game features is an absolute impossibility :). Everyone has different standards and styles of play. ZV and <a href="./SoulWynd">SoulWynd</a> have already provided their own opinions that Summoning is not cheesy/cheap/unbalanced/inappropriate, and that they would prefer minor changes, if any. Perfectly valid and rational.  
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>:  "Giving objective evidence on the rightness or wrongness of game features is an absolute impossibility?"  If that's the prevailing view here I'll just skip this thread. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Yes, I think on this occasion, we're working on very different wavelengths.  
+</p>
+<hr size="3">
+ <strong>(2)</strong> <a id="2"/> <a href="./NeilStevens">NeilStevens</a>: I've never won a warrior.  I've come close, to be beaten by bad luck or carelessness, but <a class="external" href="./angband.oook.cz/ladder-browse.php?v=&amp;r=&amp;c=&amp;st=&amp;e=neil%40qualityassistant.com&amp;s=0"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">my winners</a> include a Pern 5 High Mage, plenty of ToME 2 Sorcerors, a ToME 2 Possessor, a ToME 2 Mindcrafter.  I've only played Yeek summoners (to get the experience bonus). </div><div id="footer">
+
+
+<a href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fDe_2dcheesing_20Summoners.text_html">RefreshCache</a> for this page (cached 2004-08-03 13:14:41)<br>
+<p><a href="./IdeaArchive_2fDe_2dcheesing_20Summoners?action=edit">EditText</a> of this page (last edited 2004-07-22 19:11:01 by <span title="lsanca1-ar51-4-42-017-130.lsanca1.dsl-verizon.net"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:40:18 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:44:27 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  esindex: 0.011
+  exclusion.robots: 0.198
+  load_resource: 62.439
+  LoadShardBlock: 83.033 (3)
+  exclusion.robots.policy: 0.183
+  captures_list: 110.008
+  PetaboxLoader3.resolve: 30.703
+  PetaboxLoader3.datanode: 94.712 (4)
+  CDXLines.iter: 21.751 (3)
+  RedisCDXSource: 1.756
+-->

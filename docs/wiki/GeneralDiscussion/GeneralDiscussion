@@ -1,0 +1,655 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>GeneralDiscussion - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./GeneralDiscussion?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./GeneralDiscussion?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./GeneralDiscussion?action=fullsearch&amp;value=GeneralDiscussion&amp;literal=1&amp;case=1&amp;context=40">GeneralDiscussion</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./GeneralDiscussion?action=edit">Edit</a></li>
+<li><a title="View" href="./GeneralDiscussion">View</a></li>
+<li><a title="Diffs" href="./GeneralDiscussion?action=diff">Diffs</a></li>
+<li><a title="Info" href="./GeneralDiscussion?action=info">Info</a></li>
+<li><a title="Subscribe" href="./GeneralDiscussion?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./GeneralDiscussion?action=raw">Raw</a></li>
+<li><a title="Print" href="./GeneralDiscussion?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./GeneralDiscussion?action=DeletePage">DeletePage</a></li>
+<li><a href="./GeneralDiscussion?action=LikePages">LikePages</a></li>
+<li><a href="./GeneralDiscussion?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./GeneralDiscussion?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./GeneralDiscussion">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-621b8fc9c2c6d89c5e232fde05ea57bb98623511"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>General Discussion</h2>
+<p>
+Please add newer threads to the top, and if you changed something on an old thread you can move it up. 
+</p>
+<p>
+See also <a href="./Wiki_20Discussion">Wiki Discussion</a>, <a href="./Wiki_20Suggestions">Wiki Suggestions</a>, <a href="./BugReports">BugReports</a>, <a href="./Macros_20And_20Inscriptions_20Exchange">Macros And Inscriptions Exchange</a>, <a href="./IdeaArchive">IdeaArchive</a>, <a href="./DayInTheLifeArchive">DayInTheLifeArchive</a>, and <a href="./SpoilerArchive">SpoilerArchive</a>. 
+</p>
+<h3 id="head-bb9cf1418089b3356038fdd24fcbdc9d1a7c42a5"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Policy</h3>
+<p>
+If your thread is spoily or becomes spoily, please mark it here as such.  Also, please do not put any spoilers in the title of your thread.  Spoilers include things like plot elements, unique monsters, artifacts, and special levels.  Specific numerical figures and formulas related to game mechanics apply, too. 
+</p>
+<p>
+Suggestions:  
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ If you wish to discuss a spoiler, please browse the <a href="./SpoilerArchive">SpoilerArchive</a> first. If a relevant page exists, post your comments there under a "= Chatter =" heading. If the needed page does not exist yet, either post here and flag your post as a spoiler, or make a page in spoilers. 
+</p>
+</li>
+    <li>
+<p>
+ If you wish to discuss your in-game exploits or solicit help with a character, start a thread in the <a href="./DayInTheLifeArchive">DayInTheLifeArchive</a>. 
+</p>
+</li>
+    <li>
+<p>
+ When you post any thread entry, please place three single apostrophes (' ' ') on both sides of your WikiName. This makes your name easier to see against background text, especially if you have not yet created a homepage here. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-bb12e8aaaecc434fd51e448fe7669bced1bdd107"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Threads</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWhere_20did_20you_20find_20_2ayour_2a_20BOS_3f">/Where did you find *your* BOS?</a> <strong>spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fInteresting_20sighting">/Interesting sighting</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMore_20forum_20trouble">/More forum trouble</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fToME_20Mugs_3f">/ToME Mugs?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSorceror_20Strategies">/Sorceror Strategies</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fForum_20trouble_20v2">/Forum trouble v2</a> inappropriate postings 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fScroll_20of_20Artifact_20Creation">/Scroll of Artifact Creation</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fInteresting_20Challenge">/Interesting Challenge</a> Contains one spoily comment. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fA_20little_20help_20with_20my_20character_2e_2e_2e">/A little help with my character...</a> <strong>Posibly Spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2f3d_20revisited">/3d revisited</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fsetuid_20problems">/setuid problems</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2f2_2e3_2e1_20for_20OSX">/2.3.1 for OSX</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fPlain_20silly_21">/Plain silly!</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fLucky_20Escapes">/Lucky Escapes</a> <strong>Semi spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fAbilities_20in_202_2e3_20vs_2e_202_2e2">/Abilities in 2.3 vs. 2.2</a> <strong>Very very spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fArtifact_20Yield">/Artifact Yield</a> <strong>Slightly spoily, just a question</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fNegative_20skill_20potential_20quirks">/Negative skill potential quirks</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fThe_20_22everything_20is_20darkness_20in_20windows_20issue">/The "everything is darkness in windows issue</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fUnofficial_20jack_2dof_2dall_2dtrades_20competition_21">/Unofficial jack-of-all-trades competition!</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fCthulu_20Question">/Cthulu Question</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMy_20unique_20pet">/My unique pet</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSymbiant_20fun">/Symbiant fun</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWas_20Sauron_20a_20coward_3f">/Was Sauron a coward?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fTransfer_20of_20Savefiles">/Transfer of Savefiles</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMonster_20to_20Character">/Monster to Character</a> Monsters you'd most like to become a Character Race 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fForum_20Trouble">/Forum Trouble</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMost_20powerful_20human_20being_20in_20Middle_20Earth_3f">/Most powerful human being in Middle Earth?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fActivations_2e_2e_2e">/Activations...</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fCVS_20on_20Oook">/CVS on Oook</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fRohan_20Knight_20Abilities">/Rohan Knight Abilities</a> <strong>spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fGeneral_20Discussion_20here_20versus_20on_20the_20forum">/General Discussion here versus on the forum</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fTwo_20Point_20Three_20Cheers_20for_202_2e3_21_21_21">/Two Point Three Cheers for 2.3!!!</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fDaily_20compiles_3f_21_3f">/Daily compiles?!?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fIn_20cheering_2c_20and_20slightly_20OT_20news_2e_2e_2e">/In cheering, and slightly OT news...</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fLUAfication_20of_20Terrain_20Effects_3f">/LUAfication of Terrain Effects?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="nonexistent" href="./GeneralDiscussion_2fCharacter_20equipment_20dilemma">/Character equipment dilemma</a> <strong>spoily of course</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fTome_202_2e3_20combat">/Tome 2.3 combat</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fIs_20Melkor_20really_20so_20hard_20to_20please_3f">/Is Melkor really so hard to please?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fHoly_20COW_20_2d_20wild_20find">/Holy COW - wild find</a> <strong>Spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fDamage_20Types_20Combine_20question">/Damage Types Combine question</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fCompetition_20Idea">/Competition Idea</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fNightly_20compiles_20not_20working_3f">/Nightly compiles not working?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMelkor_27s_20Corpse_20Explosion">/Melkor's Corpse Explosion</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSome_20spoily_20questions">/Some spoily questions</a> <strong>Spoily</strong> of course ;P 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMimicry_20effects_20on_20barehand">/Mimicry effects on barehand</a> Spoily 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fPoll_20re_3a_20RANDOMCOMP1">/Poll re: RANDOMCOMP1</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fUnofficial_20competition_21">/Unofficial competition!</a> (RANDOMCOMP1) <strong>spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fStupid_202_2e3_20question_2e_2e_2e">/Stupid 2.3 question...</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fThis_20character_20is_20going_20to_20be_20my_20first_20winner">/This character is going to be my first winner</a> <strong>spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSome_20things_20I_20would_20remove_20from_20ToME">/Some things I would remove from ToME</a> <strong>*Spoilers*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSilly_20classes_20features">/Silly classes features</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSome_20general_20questions_20on_20classes_20and_20characters">/Some general questions on classes and characters</a> <strong>spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fArordowyr_20the_20Woodelf_20Junkart_20magnet">/Arordowyr the Woodelf Junkart magnet</a> *SPOILERS* 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fThat_20negative_20stat_20bug">/That negative stat bug</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fHow_20to_20post_20your_20character_20sheet_20on_20the_20wiki">/How to post your character sheet on the wiki</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fStealth_20and_20Range">/Stealth and Range</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fFullscreen_20mode_20in_20Windows">/Fullscreen mode in Windows</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fQuestion_20about_20totems">/Question about totems</a> <strong>Spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fAssorted_20documentation_2drelated_20questions">/Assorted documentation-related questions</a> <strong>Possibly spoily</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWill_203_2e0_2e0_20still_20be_20a_20_2aband_3f">/Will 3.0.0 still be a *band?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWeapons_20and_20carrying_20over_2e_2e_2e">/Weapons and carrying over...</a> <strong>Maybe some Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fHelp_20with_20Mimics">/Help with Mimics</a> <strong>Mild Spoilers</strong>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fQuestion_20about_20certain_20types_20of_20rings">/Question about certain types of rings</a> <strong>very mild spoilers (?)</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fJust_20one_20more_20thing_20about_20skill_20and_20race_2e_2e_2e">/Just one more thing about skill and race...</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fCertain_20missile_20throwers">/Certain missile throwers</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMacros_20and_20stuff_20exchange">/Macros and stuff exchange</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fPotions_20of_20Corruption_2e_2e_2e">/Potions of Corruption...</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fThings_20that_20affect_20barehand_3f">/Things that affect barehand?</a> <strong>*Spoilers*</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fImportant_20notice_20to_20all_20users_20re_3a_20Documentation_2e_20Please_20read_21">/Important notice to all users re: Documentation. Please read!</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fImportant_20things_20to_20know_20about_202_2e3">/Important things to know about 2.3</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./GeneralDiscussion/How_20to_20create_20the_20One_20ring_20in_20Wizard_20Mode">How to create a certain artifact in wizard mode</a> *way past* <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fAre_20_28some_29_20staves_20underpowered_3f">/Are (some) staves underpowered?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fStealth_20and_20stealth_20equipment">/Stealth and stealth equipment</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fArmor_20class_2e_2e_2e_20what_20exactly_20does_20it_20do_3f">/Armor class... what exactly does it do?</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fRather_20Repetitive_20Quests">/Rather Repetitive Quests</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fRunecraft_20is_20currently_20broken">/Runecraft is currently broken</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fC_27mon_20folks_2c_20post_21">/C'mon folks, post!</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fStealth_20and_20Aggravation">/Stealth and Aggravation</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fPoll_3a_20Is_20mana_20breath_20magical_3f">/Poll: Is mana breath magical?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fYet_20another_203_2e0_2e0_20question">/Yet another 3.0.0 question</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fThings_20I_20Wish_20I_27d_20Known_20When_2e_2e_2e">/Things I Wish I'd Known When...</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fEffects_20of_20Range_20on_20Archery">/Effects of Range on Archery</a> and other questions about Archery <strong>Spoilers</strong>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWhat_20is_20your_20favourite_20weapon_3f">/What is your favourite weapon?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWhat_20is_20your_20favorite_20spell_3f">/What is your favorite spell?</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSend_20mail_20notification">/Send mail notification</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWhat_20is_20a_20good_20starting_20character_3f">/What is a good starting character?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSymbiosis_20_2d_20Help">/Symbiosis - Help</a> <strong>Spoilers</strong>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fHow_20did_20you_20first_20find_20ToME_3f">/How did you first find ToME?</a> -- We need a new thread that isn't a spoiler magnet! 
+</p>
+</li>
+    <li>
+<p>
+ You know you've been playing <a href="./GeneralDiscussion_2fTooMuch">/TooMuch</a> when... <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fSplit_20Speed_20in_203_2e0_2e0_3f">/Split Speed in 3.0.0?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWhat_20is_20your_20favorite_20class_3f">/What is your favorite class?</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fThoughts_20on_20fixing_20roguelike_20mode">/Thoughts on fixing roguelike mode</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fA_20bug_20is_20this_20how_20it_27s_20supposed_20to_20be_3f">/A bug is this how it's supposed to be?</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMy_20Newbie_20Guide">/My Newbie Guide</a>  
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fArda_20musings">/Arda musings</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fForum_20trouble">/Forum trouble</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fMy_20current_202_2e3_20char">/My current 2.3 char</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWhat_20is_20your_20favorite_20quest_3f">/What is your favorite quest?</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fWhat_20are_20the_20best_20random_20artifacts_20you_20have_20ever_20found_3f">/What are the best random artifacts you have ever found?</a>  <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fTomeNet_3f">/TomeNet?</a> Is <a class="nonexistent" href="./TomeNet">TomeNet</a> really having a server active? Where? How is it different from ToME? 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fCharacterSheet_20improvements">/CharacterSheet improvements</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./GeneralDiscussion_2fHow_20Much_20Does_20It_20Cost_20Running_20This_20Wiki_3f">/How Much Does It Cost Running This Wiki?</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./GeneralDiscussion?action=refresh&amp;arena=Page.py&amp;key=GeneralDiscussion.text_html">RefreshCache</a> for this page (cached 2005-04-01 18:10:58)<br>
+<p><a href="./GeneralDiscussion?action=edit">EditText</a> of this page (last edited 2005-04-01 18:10:58 by <span title="apu239.neoplus.adsl.tpnet.pl"><a href="./ZasVid">ZasVid</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 07:58:11 Apr 04, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  PetaboxLoader3.resolve: 24.59
+  exclusion.robots.policy: 0.182
+  PetaboxLoader3.datanode: 85.022 (4)
+  RedisCDXSource: 0.694
+  load_resource: 69.937
+  exclusion.robots: 0.195
+  esindex: 0.014
+  captures_list: 86.905
+  LoadShardBlock: 59.176 (3)
+  CDXLines.iter: 21.679 (3)
+-->

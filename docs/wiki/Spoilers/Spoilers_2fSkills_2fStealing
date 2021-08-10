@@ -1,0 +1,280 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Skills/Stealing - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fSkills_2fStealing?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fSkills_2fStealing?action=print">
+<link rel="Up" href="/Spoilers_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fSkills_2fStealing?action=fullsearch&amp;value=%2FStealing&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Skills/Stealing</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fSkills_2fStealing?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fSkills_2fStealing">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fSkills_2fStealing?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fSkills_2fStealing?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fSkills_2fStealing?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fSkills_2fStealing?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fSkills_2fStealing?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fSkills_2fStealing?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fSkills_2fStealing?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fSkills_2fStealing?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fSkills_2fStealing?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fSkills_2fStealing">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</a></li>
+<li>
+<a href="#head-6c30335926d76331a5c603f07dfd82673716e061">Strategy Recommendations</a></li>
+<li>
+<a href="#head-739ff4232d96f547604f9c5911d20ed36ed92945">Code-Related Information</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr size="3">
+ <h2 id="head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</h2>
+A failed attempt at stealing results in the storekeeper locking his/her doors against you for a <em>looooong</em> time. <p>
+Stealing from monsters gains you XP. 
+</p>
+<h2 id="head-6c30335926d76331a5c603f07dfd82673716e061">Strategy Recommendations</h2>
+Your chances of successfully stealing an item will be increased if: 
+    <ul>
+
+    <li>
+<p>
+ you set your tactics to coward/slug-like  
+</p>
+</li>
+    <li>
+<p>
+ you have high DEX  
+</p>
+</li>
+    <li>
+<p>
+ the item you are trying to steal is light in weight 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-739ff4232d96f547604f9c5911d20ed36ed92945">Code-Related Information</h2>
+The code that checks if you manage to steal something from a store (from store_stole() in store.c): 
+<pre>if (rand_int((40 - p_ptr-&gt;stat_ind[A_DEX]) +
+                ((j_ptr-&gt;weight * amt) / (5 + get_skill_scale(SKILL_STEALING, 15))) -
+                (get_skill_scale(SKILL_STEALING, 15))) &lt;= 10)
+</pre><p>
+This means that with no stealing skill whatsoever what you can safely steal from a store depends on your dex <em>thus</em>: 
+</p>
+
+<div>
+<table>
+<tr>
+<td>
+<strong>dex</strong></td>
+<td>
+<strong>weight</strong></td>
+<td>
+<strong>examples</strong></td>
+</tr>
+<tr>
+<td>
+34</td>
+<td>
+0.5 lbs</td>
+<td>
+rings, potions, amulets, scrolls, some cloaks</td>
+</tr>
+<tr>
+<td>
+35</td>
+<td>
+1.0 lbs</td>
+<td>
+wands</td>
+</tr>
+<tr>
+<td>
+36</td>
+<td>
+1.5 lbs</td>
+<td>
+rods, rod tips, daggers</td>
+</tr>
+<tr>
+<td>
+37</td>
+<td>
+2.0 lbs</td>
+<td>
+soft leather boots</td>
+</tr>
+<tr>
+<td>
+38</td>
+<td>
+2.5 lbs</td>
+<td colspan="2" align="center">
+ <tr>
+<td>
+39</td>
+<td>
+3.0 lbs</td>
+<td>
+magic books, cloaks of mimicry, main gauches, whips</td>
+</tr>
+<tr>
+<td>
+40</td>
+<td>
+3.5 lbs</td>
+<td colspan="2" align="center">
+ </table>
+</div>
+<p>
+If we add a maxed out stealing skill the maximum weight is 44 lbs. An adamantite plate mail weighs 42 lbs, for comparison, and a mace of disruption 40. Grond is heavier though (100 lbs). 
+</p>
+<p>
+For stealing from monsters the code is slightly more complex, and includes the monster level and whether or not the monster is sleeping: <pre>chance = 40 - p_ptr-&gt;stat_ind[A_DEX]; 
+chance += o_list[item].weight / (get_skill_scale(SKILL_STEALING, 19) + 1);
+chance += get_skill_scale(SKILL_STEALING, 29) + 1;
+chance -= (m_ptr-&gt;csleep) ? 10 : 0;
+chance += m_ptr-&gt;level;
+
+/* Failure check */
+if (rand_int(chance) &gt; 1 + get_skill_scale(SKILL_STEALING, 25))
+</pre>
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: I was wondering if someone who knows a bit about this could write some basic spoily stuff about stealing.  Just the basic mechanics of it -- how often does it work, what happens when you fail, etc. <p>
+<strong><a href="./VagaBond">VagaBond</a></strong>: When the items are in a stack, the whole stack weight is counted against your stealing attempt. (It seems trivial, but it doesn't worth to make a shop closed just to be sure about it) 
+</p>
+<p>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: I just noticed that stealing from monsters gives you XP.  Anyone know whether you get more XP for stealing from tougher monsters, or for stealing better items?  Do you get XP for stealing from shops?  Also, does anyone know the exact length of time that shops stay closed for once they catch you stealing? 
+</p>
+<p>
+<strong><a href="./VagaBond">VagaBond</a></strong>: Backwards: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Shops are closed for 500000 + random(500000) turns. The only way I know to check the actual turn is to save and exit. The turn number is displayed on the list of best characters. There must be better ways to do this I guess. A hint: you can make a note about shop closing in the notes, and if you include the turn number, you can calculate with it later. 
+</p>
+</li>
+    <li>
+<p>
+ As far as I see in the code you don't get xp when you successfully stole sth from a shop. 
+</p>
+</li>
+    <li>
+<p>
+ The xp you get for stealing from a monster depends on the weight of the object (half of it in 1/10 of pounds) and on the monster level (multiplied by three). The xp is randomized somewhat. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+When you fail while stealing from a monster, the monster gets awake and angry (+5 to speed).  
+</p>
+<p>
+<strong><a href="./ScrawnyCat">ScrawnyCat</a></strong>: Do exploration/tactics settings actually make a difference? 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: The table above doesn't appear to match the code.  Unless I'm misreading it, a DEX index of 31 (a.k.a. 18/13x) gives you 9 for the first term (40-31).  Then you add the item's weight divided by 5, which is 0 (integer math truncates) for items under 0.5 pounds... meaning a DEX of 18/130 should be able to steal rings and such with no chance of failure. 
+</p>
+<p>
+In fact, since rand_int(x) returns a number from 0 to x-1, we're even better off than that.  We need rand_int()'s argument to be 11 or less in order to get a return value of 10 or less.  An object which weighs less than 0.5 pounds adds nothing in the second term, so we just need a DEX index of 29 or higher to steal rings and potions with impunity. 
+</p>
+<p>
+Or am I misreading it? 
+</p>
+<p>
+<strong><a href="./FeralCat">FeralCat</a></strong>: Looking at the code in store.c (as shown above), there is nothing there or in the rest of the function that has anything to do with tactics/movement. So, <a href="./ScrawnyCat">ScrawnyCat</a>, I don't think that it does have anything to do with that... 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fSkills_2fStealing?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fSkills_2fStealing.text_html">RefreshCache</a> for this page (cached 2006-01-06 15:36:20)<br>
+<p><a href="./Spoilers_2fSkills_2fStealing?action=edit">EditText</a> of this page (last edited 2006-01-06 15:36:20 by <span title="136.182.2.221=wwwgate31.motorola.com">wwwgate31</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:37:22 Mar 04, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:52 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 226.033
+  exclusion.robots: 0.093
+  exclusion.robots.policy: 0.085
+  RedisCDXSource: 1.56
+  esindex: 0.008
+  LoadShardBlock: 206.007 (3)
+  PetaboxLoader3.datanode: 102.62 (4)
+  CDXLines.iter: 15.899 (3)
+  load_resource: 98.106
+  PetaboxLoader3.resolve: 43.673
+-->

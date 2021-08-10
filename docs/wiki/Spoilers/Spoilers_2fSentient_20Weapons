@@ -1,0 +1,1002 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Sentient Weapons - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fSentient_20Weapons?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fSentient_20Weapons?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fSentient_20Weapons?action=fullsearch&amp;value=%2FSentient+Weapons&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Sentient Weapons</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fSentient_20Weapons?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fSentient_20Weapons">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fSentient_20Weapons?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fSentient_20Weapons?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fSentient_20Weapons?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fSentient_20Weapons?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fSentient_20Weapons?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fSentient_20Weapons?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fSentient_20Weapons?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fSentient_20Weapons?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fSentient_20Weapons?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fSentient_20Weapons">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-f0b5cb97f96e61e16d5f666f0f3a2cf50aaf2d29">Sentient Artifacts</a></li>
+<li>
+<a href="#head-c6a86d958221025ba5e7cfabb92c26a1ac3e2633">Gaining Experience</a></li>
+<li>
+<a href="#head-c029270929dce51ce3726b2b07a5c29b974ab3bd">Gaining Levels</a></li>
+<li>
+<a href="#head-089ff5ba8bcc01297f5d83729aa0310057e84dce">Realms</a></li>
+<ol>
+<li>
+<a href="#head-736f281c69f8be01198e6c267f3f687feda5195e">Fire Realm</a></li>
+<li>
+<a href="#head-d67b53a65a25b5520e6a797a1eba4636eaff3bcb">Cold Realm</a></li>
+<li>
+<a href="#head-50e8c69bb218a02520bddbaefd31e3d2f22d4ec8">Lightning Realm</a></li>
+<li>
+<a href="#head-4bed25f220d60ebd6f5310b787fe5af4bc7eb456">Poison Realm</a></li>
+<li>
+<a href="#head-82b564a092a345f7c51be2db3879d5a0e5f54976">Acid Realm</a></li>
+<li>
+<a href="#head-c55773edde6180c4717a463f73460ac296710148">Air Realm</a></li>
+<li>
+<a href="#head-39ccb0e45616248b34276dbe5f0ec2c3c6380661">Earth Realm</a></li>
+<li>
+<a href="#head-8ebf23ee14929ef01681f0ce43c384185fca724f">Mind Realm</a></li>
+<li>
+<a href="#head-db102f3ace5a38dc94fe987ef1d892ad80f832cb">Shield Realm</a></li>
+<li>
+<a href="#head-e175b905fb1ac4086f1eeb7a293996696936a178">Chaos Realm</a></li>
+<li>
+<a href="#head-00e6f96d9abc06fa94c1b25185eb70329be8b5ea">Magic Realm</a></li>
+<li>
+<a href="#head-e6db30625570998f4745678830b5eb62ed59534c">Antimagic Realm</a></li>
+</ol>
+
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr>
+ <p>
+A handful of artifacts have the sentient flag, and ego-weapons may be given the flag as well though no sentient ego-weapons exist in ToME (some modules have sentient ego-weapons). 
+</p>
+<h2 id="head-f0b5cb97f96e61e16d5f666f0f3a2cf50aaf2d29">Sentient Artifacts</h2>
+
+    <ul>
+
+    <li>
+<p>
+ <em>The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSlaughter_20Axe_20'Garachoth'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Slaughter Axe 'Garachoth'</a></em>, not available in current version 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fMighty_20Hammer_20'Grond'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mighty Hammer 'Grond'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fGlaive_20of_20Pain"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Glaive of Pain</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20'Dethanc'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger 'Dethanc'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20'Narthanc'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger 'Narthanc'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDagger_20'Nimthanc'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dagger 'Nimthanc'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fDark_20Sword_20'Mormegil'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Dark Sword 'Mormegil'</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fLong_20Sword_20of_20The_20Dawn"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Long Sword of the Dawn</a> 
+</p>
+</li>
+    <li>
+<p>
+ The <a class="interwiki" title="Self" href="./Spoilers_2fArtifacts_2fSmall_20Sword_20'Sting'"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Small Sword 'Sting'</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-c6a86d958221025ba5e7cfabb92c26a1ac3e2633">Gaining Experience</h2>
+<p>
+Sentient weapons gain experience when a kill is made with them in melee.  They gain half the amount that the player does from the kill, and the player still gains the full amount (this is different from alchemy's artifact "training".)  Since the amount of experience gained is dependent on the player, there is no huge bonus for making the first kill a high-experience kill. 
+</p>
+<h2 id="head-c029270929dce51ce3726b2b07a5c29b974ab3bd">Gaining Levels</h2>
+<p>
+As the weapon accumulates experience it gains levels, maxing out at level 50. 
+</p>
+<p>
+When a sentient weapon gains a level, it may do one of three things, with chances 33%, 33% and 34% respectively. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+Add (+2,+1) or (+1,+1)  (equal chance) 
+</p>
+</li>
+    <li>
+<p>
+Add (+1,+0) and 1 point to an invisible counter, <strong>and</strong> with a 40% chance consider gaining a new realm 
+</p>
+</li>
+    <li>
+<p>
+Set the pval to +1, if it is zero, or possibly (12-18% chance) gain one pval up to an absolute max of +5, <strong>and</strong> consider gaining a new power (but first gain a new realm <strong>only if</strong> you don't have any at all yet)  
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<em>Consider gaining a new realm</em> means pick a realm at random, and see if we have enough points in the invisible counter. If we do, then buy it, otherwise try again quite a lot of times. You are effectively guaranteed to get a realm if there is one you can afford. 
+</p>
+<p>
+<em>Consider gaining a new power</em> means pick at random one of the realms you have, then keep picking powers from that realm until you find one you don't have. If that fails (i.e. you have them all) then try a different realm. 
+</p>
+<p>
+(By <em>at random</em> I mean with equal chances for all possibilities) 
+</p>
+<p>
+The probability of getting a specific 10 point realm is approximately 100% * ((.6)<sup>9</sup>) * (1 - (.6<sup>(6-p)</sup>)) / (12 - r), where <em>r</em> is the number of realms the weapon already has and <em>p</em> is the number of points used for those initial realms.  For a sentient weapon with 3 low realms already, that's about 1 in 1400.    
+</p>
+<p>
+The chance of getting a 7 point realm is approximately 100% * ((.6)<sup>6</sup>) * (1 - (.6<sup>(9-p)</sup>)) * (3/(12-r)).  That's about 1 in 70 for r=3, p=4. 
+</p>
+<h2 id="head-089ff5ba8bcc01297f5d83729aa0310057e84dce">Realms</h2>
+<h3 id="head-736f281c69f8be01198e6c267f3f687feda5195e">Fire Realm</h3>
+
+    <ul>
+
+ Cost: 1 
+        <ul>
+
+        <li>
+<p>
+Add to Light 
+</p>
+</li>
+        <li>
+<p>
+Slay Undead Brand 
+</p>
+</li>
+        <li>
+<p>
+Fire Brand 
+</p>
+</li>
+        <li>
+<p>
+Resist Fire  
+</p>
+</li>
+        <li>
+<p>
+Fire Aura 
+</p>
+</li>
+        <li>
+<p>
+Weapon undamaged by fire  
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-d67b53a65a25b5520e6a797a1eba4636eaff3bcb">Cold Realm</h3>
+
+    <ul>
+
+ Cost: 1 
+        <ul>
+
+        <li>
+<p>
+Cold Brand  
+</p>
+</li>
+        <li>
+<p>
+Slay Dragon Brand 
+</p>
+</li>
+        <li>
+<p>
+Slay Demon Brand 
+</p>
+</li>
+        <li>
+<p>
+Resist Cold 
+</p>
+</li>
+        <li>
+<p>
+Invisibility 
+</p>
+</li>
+        <li>
+<p>
+Slow Digestion 
+</p>
+</li>
+        <li>
+<p>
+Weapon undamaged by cold  
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-50e8c69bb218a02520bddbaefd31e3d2f22d4ec8">Lightning Realm</h3>
+
+    <ul>
+
+ Cost: 1 
+        <ul>
+
+        <li>
+<p>
+Electricity Brand 
+</p>
+</li>
+        <li>
+<p>
+Slay Evil Brand 
+</p>
+</li>
+        <li>
+<p>
+Resist Electricity 
+</p>
+</li>
+        <li>
+<p>
+Electric Aura 
+</p>
+</li>
+        <li>
+<p>
+Random Teleportation  
+</p>
+</li>
+        <li>
+<p>
+Weapon undamaged by electricity 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-4bed25f220d60ebd6f5310b787fe5af4bc7eb456">Poison Realm</h3>
+
+    <ul>
+
+ Cost: 2  
+        <ul>
+
+        <li>
+<p>
+Add to Charisma 
+</p>
+</li>
+        <li>
+<p>
+Sustain Charisma 
+</p>
+</li>
+        <li>
+<p>
+Poison Brand 
+</p>
+</li>
+        <li>
+<p>
+Vampiric Brand 
+</p>
+</li>
+        <li>
+<p>
+Slay Animal Brand 
+</p>
+</li>
+        <li>
+<p>
+Resist Poison 
+</p>
+</li>
+        <li>
+<p>
+Drain Experience 
+</p>
+</li>
+        <li>
+<p>
+Sense Trolls 
+</p>
+</li>
+        <li>
+<p>
+Sense Giants 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-82b564a092a345f7c51be2db3879d5a0e5f54976">Acid Realm</h3>
+
+    <ul>
+
+ Cost: 3 
+        <ul>
+
+        <li>
+<p>
+Add to Tunnelling 
+</p>
+</li>
+        <li>
+<p>
+Acid Brand 
+</p>
+</li>
+        <li>
+<p>
+Slay Animal Brand 
+</p>
+</li>
+        <li>
+<p>
+Earthquake Brand 
+</p>
+</li>
+        <li>
+<p>
+Resist Acid 
+</p>
+</li>
+        <li>
+<p>
+Weapon undamaged by acid  
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-c55773edde6180c4717a463f73460ac296710148">Air Realm</h3>
+
+    <ul>
+
+ Cost: 5  
+        <ul>
+
+        <li>
+<p>
+Add to Wisdom 
+</p>
+</li>
+        <li>
+<p>
+Add to Stealth 
+</p>
+</li>
+        <li>
+<p>
+Add to Infravision 
+</p>
+</li>
+        <li>
+<p>
+Add to Speed 
+</p>
+</li>
+        <li>
+<p>
+Sustain Wisdom 
+</p>
+</li>
+        <li>
+<p>
+Resist Light 
+</p>
+</li>
+        <li>
+<p>
+Resist Dark 
+</p>
+</li>
+        <li>
+<p>
+Resist Blindness 
+</p>
+</li>
+        <li>
+<p>
+Levitation 
+</p>
+</li>
+        <li>
+<p>
+See Invisible 
+</p>
+</li>
+        <li>
+<p>
+Blessed 
+</p>
+</li>
+        <li>
+<p>
+Sense Good 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-39ccb0e45616248b34276dbe5f0ec2c3c6380661">Earth Realm</h3>
+
+    <ul>
+
+ Cost: 5 
+        <ul>
+
+        <li>
+<p>
+Add to Strength 
+</p>
+</li>
+        <li>
+<p>
+Add to Constitution 
+</p>
+</li>
+        <li>
+<p>
+Add to Tunnelling 
+</p>
+</li>
+        <li>
+<p>
+Add to Blows 
+</p>
+</li>
+        <li>
+<p>
+Sustain Strength 
+</p>
+</li>
+        <li>
+<p>
+Sustain Constitution 
+</p>
+</li>
+        <li>
+<p>
+Slay Troll Brand 
+</p>
+</li>
+        <li>
+<p>
+Slay Giant Brand 
+</p>
+</li>
+        <li>
+<p>
+Earthquake Brand 
+</p>
+</li>
+        <li>
+<p>
+Resist Fear 
+</p>
+</li>
+        <li>
+<p>
+Resist Shards 
+</p>
+</li>
+        <li>
+<p>
+Free Action 
+</p>
+</li>
+        <li>
+<p>
+Regeneration 
+</p>
+</li>
+        <li>
+<p>
+Sense Trolls 
+</p>
+</li>
+        <li>
+<p>
+Sense Giants 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-8ebf23ee14929ef01681f0ce43c384185fca724f">Mind Realm</h3>
+
+    <ul>
+
+ Cost: 7  
+        <ul>
+
+        <li>
+<p>
+Add to Intelligence 
+</p>
+</li>
+        <li>
+<p>
+Add to Searching 
+</p>
+</li>
+        <li>
+<p>
+Sustain Intelligence 
+</p>
+</li>
+        <li>
+<p>
+Resist Confusion 
+</p>
+</li>
+        <li>
+<p>
+Resist Fear 
+</p>
+</li>
+        <li>
+<p>
+Sense Orcs 
+</p>
+</li>
+        <li>
+<p>
+Sense Trolls 
+</p>
+</li>
+        <li>
+<p>
+Sense Giants 
+</p>
+</li>
+        <li>
+<p>
+Sense Animals 
+</p>
+</li>
+        <li>
+<p>
+Sense Uniques 
+</p>
+</li>
+        <li>
+<p>
+Sense Spiders 
+</p>
+</li>
+        <li>
+<p>
+Sense Demons 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-db102f3ace5a38dc94fe987ef1d892ad80f832cb">Shield Realm</h3>
+
+    <ul>
+
+ Cost: 7  
+        <ul>
+
+        <li>
+<p>
+Add to Dexterity 
+</p>
+</li>
+        <li>
+<p>
+Sustain Dexterity 
+</p>
+</li>
+        <li>
+<p>
+Resist Sound 
+</p>
+</li>
+        <li>
+<p>
+Resist Nexus 
+</p>
+</li>
+        <li>
+<p>
+Invisibility 
+</p>
+</li>
+        <li>
+<p>
+Reflection 
+</p>
+</li>
+        <li>
+<p>
+Hold Life 
+</p>
+</li>
+        <li>
+<p>
+Regeneration 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-e175b905fb1ac4086f1eeb7a293996696936a178">Chaos Realm</h3>
+
+    <ul>
+
+ Cost: 7 
+        <ul>
+
+        <li>
+<p>
+Chaotic Brand 
+</p>
+</li>
+        <li>
+<p>
+Earthquake Brand 
+</p>
+</li>
+        <li>
+<p>
+Resist Chaos 
+</p>
+</li>
+        <li>
+<p>
+Resist Disenchantment 
+</p>
+</li>
+        <li>
+<p>
+Regeneration 
+</p>
+</li>
+        <li>
+<p>
+Telepathy 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-00e6f96d9abc06fa94c1b25185eb70329be8b5ea">Magic Realm</h3>
+
+    <ul>
+
+ Cost: 10 
+        <ul>
+
+        <li>
+<p>
+Add to Mana 
+</p>
+</li>
+        <li>
+<p>
+Add to Spellpower 
+</p>
+</li>
+        <li>
+<p>
+Cloning Brand 
+</p>
+</li>
+        <li>
+<p>
+Resist Chaos 
+</p>
+</li>
+        <li>
+<p>
+Resist Disenchantment 
+</p>
+</li>
+        <li>
+<p>
+Wraithform 
+</p>
+</li>
+        <li>
+<p>
+Precognition 
+</p>
+</li>
+        <li>
+<p>
+Flight 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h3 id="head-e6db30625570998f4745678830b5eb62ed59534c">Antimagic Realm</h3>
+
+    <ul>
+
+ Cost: 10 
+        <ul>
+
+        <li>
+<p>
+Add to Blows 
+</p>
+</li>
+        <li>
+<p>
+Add to Speed 
+</p>
+</li>
+        <li>
+<p>
+Add to Life 
+</p>
+</li>
+        <li>
+<p>
+Vampiric Brand 
+</p>
+</li>
+        <li>
+<p>
+Chaos Brand 
+</p>
+</li>
+        <li>
+<p>
+Reflection 
+</p>
+</li>
+        <li>
+<p>
+Free Action 
+</p>
+</li>
+        <li>
+<p>
+Hold Life 
+</p>
+</li>
+        <li>
+<p>
+No Teleportation 
+</p>
+</li>
+        <li>
+<p>
+See Invisible 
+</p>
+</li>
+        <li>
+<p>
+Anti-magic shell, as per Amulet of Anti-magic 
+</p>
+</li>
+        <li>
+<p>
+Antimagic field, similar to a Dark Sword's, but with maximum strength 10% at Antimagic skill level 50 (compare with 50% for normal Dark Sword).  Cumulative with Dark Sword's antimagic field, and with the following power. 
+</p>
+</li>
+        <li>
+<p>
+Antimagic field with maximum strength 20%, as per above.  Cumulative with Dark Sword's antimagic field, and with the preceding power. 
+</p>
+</li>
+
+        </ul>    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<a href="./FeathinSilyar">FeathinSilyar</a>:  First off, credit to Lord Dimwit for posting the realms code, and Ornedan for posting power gaining code, <a class="external" href=".www.t-o-m-e.net/forum/viewtopic.php?t=2192"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">both in this thread</a>. 
+</p>
+<p>
+Whoever knows exactly what those last three flags in Antimagic Realm are, please go ahead and translate them. 
+</p>
+
+    <ul>
+
+ <strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  Is the above suitable? 
+        <ul>
+
+  <a href="./FeathinSilyar">FeathinSilyar</a>:  Yup, thanks Zizzo. <p>
+  The experience gaining is not based on code but observation.  If it can better be represented by something different, go ahead. 
+</p>
+
+        </ul>    </ul>
+
+
+<p>
+<a href="./ElIott">ElIott</a>:  Wow.  I don't think I've ever even seen a weapon get any of the Realms above Earth, though the fact that the weapon's Realm's don't show up in the dump doesn't help.  Having a weapon get Precognition would be, umm... useful. 
+</p>
+
+    <ul>
+
+ <a href="./FeathinSilyar">FeathinSilyar</a>:  I got the Mind realm recently, on one of the three daggers.  But yeah, the higher realms are incredibly rare, and quite possibly not even possible due to the way the coding works.  There were comments about that in the forum thread mentioned above that I got the coding from for this spoiler.  I think we should make a subpage of this one for "bragging" about sentient weapons developped, so people can see just what sentient weapons tend to turn out like.  I think earthquakes is over-feared, as I've levelled quite a few sentient weapons very high without getting that brand. 
+        <ul>
+
+  <strong><a href="./RedNaga">RedNaga</a></strong>: i've only seen the Chaos realm once (and it was on Mormegil...), and none of the other higher, but as far as earthquake goes... i've once found all three 'thanc and Mormegil with a single character, and <strong>*all four got the earthquake flag before level 30!!*</strong><br>
+ 
+        </ul>    </ul>
+
+
+<p>
+The discussion thread about the levelling of sentient weapons seem like a nice idea - oh and - it is really possible to find Garachoth? It has the SPECIAL_GENE flag and i've never seen it in any special level or guardian (unless it appear in the Void, where i never dared to try) 
+</p>
+
+            <ul>
+
+   <a href="./FeathinSilyar">FeathinSilyar</a>:  So score another level 7 realm.  Apparently likelihoods of a weapon getting a higher realm isn't supposed to be influenced by which weapon it is, so Mormegil isn't any more likely to gain the higher realms than the daggers.<br>
+Garachoth is in italics there to denote that it is not in the current ToME, but  will appear in 3.0.  As per the main artifacts page anyway.  So yeah, I think it is impossible to currently get. 
+                <ul>
+
+    <a href="./BadPazzword">BadPazzword</a>: Cleared Garachoth out in the main article. 
+                </ul>            </ul>
+
+
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: just on a chatter basis, but which good would ever come to a weapon from the 'unaffected by cold/electricity' flags? AFAIK no weapon is even checked for destruction by those two damage types. 
+</p>
+<p>
+Limpy: are you sure that you get (+2,+1) when the weapon level's up? im currently using Narthanc and it just got (+1,+1), dunno if its with the counter or without though.  
+</p>
+
+    <ul>
+
+ <strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  Yeah, I'm actually sure that it varies more than stated there.  Just hadn't gotten around to changing it.  That's done now. 
+        <ul>
+
+  <strong>Actius</strong>: I peeked at the source, and there's only three basic possibilities (roughly even chances of each):  The first possibility is as described above (+1,+1 or +2,+1).  The second possibility is mostly right (+1,+0, gain a point towards buying a flag group) -- and it's only for in possibility that the weapon gains a realm.  But the third possibility is totally described wrong: here the weapon gains pval (up to a limit of +5) and gains a power from a realm (if it doesn't already have a realm, it gets one).  In other words, the chances of these things aren't independent. 
+        </ul>    </ul>
+
+
+<p>
+<strong>Eric Xanthus</strong>: I've posted this in the forum spoilers and oook, but it bears mentioning here too.  I got Antimagic realm on Mormegil today (7-22-05). 
+</p>
+<p>
+<strong>MCK (09-01-05)</strong>: Don't know if it's worth asking here, but I've noticed that both Air and Antimagic realms give access to "add to speed" powers.  If the RNG blesses you and grants you this power from both realms, is it cumulative?  For that matter, is it even possible to get both of them? 
+</p>
+<p>
+<strong><a href="./ScrawnyCat">ScrawnyCat</a></strong>: Not cumulative. It's the same power, only in multiple realms. You can't get it more than once. I'd be more happy to get extra blows twice if it was possible, by the way (from antimagic and earth). 
+</p>
+
+                <ul>
+
+    <strong>MCK</strong>: Good point.  Thanks <strong><a href="./ScrawnyCat">ScrawnyCat</a></strong>! </ul>
+
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fSentient_20Weapons?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fSentient_20Weapons.text_html">RefreshCache</a> for this page (cached 2005-11-04 12:45:10)<br>
+<p><a href="./Spoilers_2fSentient_20Weapons?action=edit">EditText</a> of this page (last edited 2005-09-02 00:58:32 by <span title="72.22.7.199=6.cuvl11.xdsl.nauticom.net">6</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:32:52 Dec 26, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:40:32 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 133.932
+  exclusion.robots: 0.135
+  exclusion.robots.policy: 0.124
+  RedisCDXSource: 5.839
+  esindex: 0.01
+  LoadShardBlock: 102.61 (3)
+  PetaboxLoader3.datanode: 75.308 (4)
+  CDXLines.iter: 22.641 (3)
+  PetaboxLoader3.resolve: 88.682 (2)
+  load_resource: 73.787
+-->

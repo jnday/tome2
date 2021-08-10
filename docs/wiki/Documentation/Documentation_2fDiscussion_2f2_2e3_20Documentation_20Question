@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">286</script><title>Documentation/Discussion/2.3 Documentation Question - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=fullsearch&amp;value=%2F2.3+Documentation+Question&amp;literal=1&amp;case=1&amp;context=40">Documentation/Discussion/2.3 Documentation Question</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./RavenRed">RavenRed</a>: Just a quick question. In 2.3 (and, by extension, 3.0.0) are Racial skill bonuses going to be made explicit within helpfile class descriptions, or will the specifics be considered spoily, and substituted with generalities such as "Foo are very good at ranged combat" to indicate a mod to Archery? <p>
+<strong><a href="./MayLith">MayLith</a></strong>: Short answer: I don't know yet. 
+</p>
+<p>
+Long answer:  
+</p>
+<p>
+I don't know, and of course it's not my decision alone, either. <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> Though I haven't tried 2.3 yet, I have thought about that issue, though. IMHO the simplest thing to do would be to edit the existing wiki documentation with a '= 2.3 =' sort of header and just plunk in whatever needs to be said. (That raises the spectre of "how long do we carry old doc on the wiki?", but let's not go there tonight; I'm tired.) If whatever needs to be said is spoily, then it doesn't belong in documentation. 
+</p>
+<p>
+Certainly the changes in skill points in 2.3 should be pointed out; I've already seen one very well-meant but erroneous problem report on that. IMHO if racial boni have been changed from 2.2.7 <em>and</em> the original boni were part of doc, then the changes should be noted.  
+</p>
+<p>
+BTW, this thread should probably be moved to Documentation/Developer Discussion. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Done. But back to the topic. The reason I noticed this is that I tried to create an Orc Rogue, and was shocked at how bad the stealth (ability) was, I looked in the skills screen and lo and behold, she had a score of zero. Now having said that, I should have read the race descriptions, which haven't really changed all that much. But the 2.3 changes are a moderate change from the way that *bands have traditionally changed such abilities. The fact that it HAS changed isn't directly issue. The non-spoily description for Orcs says... 
+</p>
+
+<pre>
+ Orcs make excellent warriors and decent priests, but are terrible at 
+magic. They are as bad as dwarves at stealth, and horrible at searching, 
+disarming, and perception. Orcs are quite ugly, and tend to pay more 
+for goods in town. Orcs do make good warriors and rogues, for the 
+simple reason that Orcs tend to have great constitutions and lots of 
+hit points. Because of their preference to living underground to on the 
+surface, orcs resist darkness attacks. Upon reaching experience level
+3, an orc learns to dispel any fear that may be upon him or her.
+
+</pre><p>
+On its own, fairly straightforward, for any of the versions (pre 2.3, 2.3, 3.0) (although with the stealth penalty, I'm not sure you can say they're "good" rogues). However, the question is whether documentation should be made in the race descriptions to the specific degree and breadth of their advantage/disadvantage in terms of Skill Development. I.E. refer to a penalty to the Stealth Skill or a bonus to Combat. The benefits to the Attributes and HP are explicit, and for mine, the skills should be made explicit too. Skills have specific effects, and the penalties and boni should be made obvious, and not implied.  However, that's just my 2cworth of course... 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I don't understand why this is even a question. The old numbers were documented, the new numbers are trivially deduced by starting some characters, so why not document the new numbers? 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Agreed. I don't understand why it's a question, either. So, <a href="./RavenRed">RavenRed</a>, I guess the answer to your general question is: <a class="interwiki" title="Self" href="./Documentation/Classes"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Documentation/Classes</a> needs to be updated to include the numbers from 2.3. If someone will tell me what they are, we can work on it. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: See the 2.3's lib/edit/p_info.txt in CVS. The bonuses and penalties are fairly explicit in the code.  The old numbers WERE documented, but not in the individual Race Descriptions. I suppose that was part of the original question. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Umm, <a href="./RavenRed">RavenRed</a>, I don't have 2.3 on my machine and I don't have time to go digging it out wherever it is in the CVS. If you could tell me what the new numbers are, or give me explicit URLs, that would be a huge help. 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: <a class="external" href="./angband.oook.cz/cgi-bin/cvsweb.cgi/tome2/lib/edit/p_info.txt?rev=1.180&amp;content-type=text/x-cvsweb-markup&amp;cvsroot=tome"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">http://angband.oook.cz/cgi-bin/cvsweb.cgi/tome2/lib/edit/p_info.txt?rev=1.180&amp;content-type=text/x-cvsweb-markup&amp;cvsroot=tome</a> is the go, I think...  
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Don't bother documenting it until it's released because those numbers will probably change as testing continues. 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: I aim to have 2.3 documentation as up to date as possible before release. This includes the new skill modifiers. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Your call.  I could never ask someone to hop on a treadmill, but I appreciate your willingness to do so voluntarily. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: <a href="./FearofFours">FearofFours</a> -- please don't let me step on your toes (I don't mean to), and if I can help, please let me know I can best do so. 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: <a href="./MayLith">MayLith</a>, I mean it when I say you are not treading on my toes. You're doing a great job of making me look anew at the documentation and I'm reflecting a great deal of the changes you are making to the docs here on the wiki to the docs in-game. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question.text_html">RefreshCache</a> for this page (cached 2005-11-06 20:59:29)<br>
+<p><a href="./Documentation_2fDiscussion_2f2_2e3_20Documentation_20Question?action=edit">EditText</a> of this page (last edited 2004-09-07 14:19:52 by <span title="212.219.231.1"><a href="./FearofFours">FearofFours</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:25:34 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:41 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 12.2
+  esindex: 0.015
+  CDXLines.iter: 25.485 (3)
+  load_resource: 144.726
+  exclusion.robots: 0.206
+  captures_list: 133.725
+  PetaboxLoader3.resolve: 97.318
+  LoadShardBlock: 91.414 (3)
+  PetaboxLoader3.datanode: 91.352 (4)
+  exclusion.robots.policy: 0.191
+-->

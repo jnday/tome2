@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Extra help for new players - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fExtra_20help_20for_20new_20players?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fExtra_20help_20for_20new_20players?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fExtra_20help_20for_20new_20players?action=fullsearch&amp;value=%2FExtra+help+for+new+players&amp;literal=1&amp;case=1&amp;context=40">Documentation/Extra help for new players</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fExtra_20help_20for_20new_20players?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fExtra_20help_20for_20new_20players">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fExtra_20help_20for_20new_20players?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fExtra_20help_20for_20new_20players?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fExtra_20help_20for_20new_20players?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fExtra_20help_20for_20new_20players?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fExtra_20help_20for_20new_20players?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fExtra_20help_20for_20new_20players?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fExtra_20help_20for_20new_20players?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fExtra_20help_20for_20new_20players?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fExtra_20help_20for_20new_20players?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fExtra_20help_20for_20new_20players">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>Subpages should contain non-spoily information of the type currently contained in the on-line game help. Please put spoiler information in the appropriate place in the <a href="./SpoilerArchive">SpoilerArchive</a>.</strong></em> Thanks. <h2 id="head-272dd5bf44551ad953d069f65fecdbd13155a31e"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Extra help for new players</h2>
+Welcome to ToME!  <p>
+ToME is a large, complex game with many choices to make. We recommend that you read the <a href="./Documentation">Documentation</a> to familiarize yourself with the game basics, with special attention to the following sections: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fExploring_20the_Dungeon"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">Exporing the Dungeon</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation/Fates"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">Fates</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation#head-899bd694d29ace1be956ab35177075021977560b"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">Guide to macros, keymaps and inscriptions</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+We also recommend that you read the the <a class="interwiki" title="Self" href="./FrequentlyAskedQuestions"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">ToME FAQ</a>, which contains many useful suggestions including good starting characters to try and recommended game options for beginners. 
+</p>
+<p>
+Lastly, if you wish, you can also spoil yourself in the <a href="./SpoilerArchive">SpoilerArchive</a>.  
+</p>
+<p>
+Welcome to our community. Good luck, and happy adventuring! If you need more help, please post in <a href="./GeneralDiscussion">GeneralDiscussion</a>; we will gladly do our best to help you. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fExtra_20help_20for_20new_20players?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fExtra_20help_20for_20new_20players.text_html">RefreshCache</a> for this page (cached 2004-09-29 15:50:11)<br>
+<p><a href="./Documentation_2fExtra_20help_20for_20new_20players?action=edit">EditText</a> of this page (last edited 2004-09-29 15:50:10 by <span title="user-uiveq74.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:38:44 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:05 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 200.585
+  exclusion.robots: 0.187
+  exclusion.robots.policy: 0.175
+  RedisCDXSource: 8.582
+  esindex: 0.014
+  LoadShardBlock: 164.255 (3)
+  PetaboxLoader3.datanode: 160.074 (4)
+  CDXLines.iter: 23.787 (3)
+  load_resource: 85.641
+  PetaboxLoader3.resolve: 38.98
+-->

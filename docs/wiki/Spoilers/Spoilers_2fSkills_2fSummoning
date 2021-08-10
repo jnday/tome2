@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Spoilers/Skills/Summoning - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fSkills_2fSummoning?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fSkills_2fSummoning?action=print">
+<link rel="Up" href="/Spoilers_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fSkills_2fSummoning?action=fullsearch&amp;value=%2FSummoning&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Skills/Summoning</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fSkills_2fSummoning?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fSkills_2fSummoning">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fSkills_2fSummoning?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fSkills_2fSummoning?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fSkills_2fSummoning?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fSkills_2fSummoning?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fSkills_2fSummoning?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fSkills_2fSummoning?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fSkills_2fSummoning?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fSkills_2fSummoning?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fSkills_2fSummoning?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fSkills_2fSummoning">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</a></li>
+<li>
+<a href="#head-3561b29115cc724c7a182f76b3459d903c40e138">Strategic Recommendations</a></li>
+<li>
+<a href="#head-739ff4232d96f547604f9c5911d20ed36ed92945">Code-Related Information</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <hr size="3">
+ <h2 id="head-a1fd58ae09a5a3081e9851a6c18cccd65529da88">General Info</h2>
+<h2 id="head-3561b29115cc724c7a182f76b3459d903c40e138">Strategic Recommendations</h2>
+<p>
+Anyone who wants a (disorganized but <em>very</em> thorough overall) analysis of the ins and outs of playing a Summoner probably wants to read through the <a href="./DayInTheLifeArchive_2fLearningCompetition_2fLearningcompAugust2005">DayInTheLifeArchive/LearningCompetition/LearningcompAugust2005</a> entries and commentary. 
+</p>
+<h2 id="head-739ff4232d96f547604f9c5911d20ed36ed92945">Code-Related Information</h2>
+<p>
+ToME version 2.3.2 and earlier had some bugs related to the mana cost of partial-summoned pets.  These are fixed in CVS (which should become 2.3.3 some day). 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ The obvious one: partials who were out of your line of sight were not counted when determining upkeep. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ The subtle one: upkeep was calculated every game turn for the monsters who happened to be processed on that turn, <em>but</em> you were only charged upkeep when the "world" was processed, which only occurs every 10th game turn.  So you would only be charged upkeep for monsters whose movement happened to be occur on game turns ending with "0".  <a href="./GreyCat">GreyCat</a> fixed this by accumulating the upkeep cost until the world got processed, instead of resetting it each game turn. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<strong><a href="./PermanentInk">PermanentInk</a></strong>: What factors go into how many partials, and of what type, I can maintain as a summoner?  Specifically, does increasing my mana (skill points put into Magic) help, or not? <p>
+<strong><a href="./MayLith">MayLith</a></strong>: Two things: Points in Summoning, and (for partial totems) points in mana. Pets summoned from partial totems cost mana to maintain, though that cost goes down as you put more points into Summoning. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fSkills_2fSummoning?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fSkills_2fSummoning.text_html">RefreshCache</a> for this page (cached 2005-11-05 05:19:20)<br>
+<p><a href="./Spoilers_2fSkills_2fSummoning?action=edit">EditText</a> of this page (last edited 2005-09-07 20:40:05 by <span title="192.35.79.70=pat.ccf.org">pat</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:38:13 Mar 04, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:53 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 163.963
+  exclusion.robots: 0.112
+  exclusion.robots.policy: 0.103
+  RedisCDXSource: 104.249
+  esindex: 0.01
+  LoadShardBlock: 34.737 (3)
+  PetaboxLoader3.datanode: 46.404 (4)
+  CDXLines.iter: 21.489 (3)
+  load_resource: 70.281
+  PetaboxLoader3.resolve: 36.495
+-->

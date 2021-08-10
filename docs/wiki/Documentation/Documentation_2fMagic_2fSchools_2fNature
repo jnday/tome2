@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Magic/Schools/Nature - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fMagic_2fSchools_2fNature?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fMagic_2fSchools_2fNature?action=print">
+<link rel="Up" href="/Documentation_2fMagic_2fSchools">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fMagic_2fSchools_2fNature?action=fullsearch&amp;value=%2FNature&amp;literal=1&amp;case=1&amp;context=40">Documentation/Magic/Schools/Nature</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fMagic_2fSchools">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fMagic_2fSchools_2fNature?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fMagic_2fSchools_2fNature">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fMagic_2fSchools_2fNature?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fMagic_2fSchools_2fNature?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fMagic_2fSchools_2fNature?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fMagic_2fSchools_2fNature?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fMagic_2fSchools_2fNature?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fMagic_2fSchools_2fNature?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fNature?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fNature?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fMagic_2fSchools_2fNature?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fMagic_2fSchools_2fNature">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Intelligence (INT) is the stat affecting failure rate for this skill. <h3 id="head-823d5b78709df3a94aa986af2bfa25578501882d">Nature Spells</h3>
+<p>
+The nature school of magic contains spells that interact with nature. 
+</p>
+<p>
+There are four spells available for the nature school: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Healing</strong> (school level 10) Heals a percent of hitpoints. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Recovery</strong> (school level 15) Reduces the length of time that you are poisoned. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At spell level 5 it cures poison and cuts. 
+</p>
+</li>
+                <li>
+<p>
+ At spell level 10 it restores drained stats. 
+</p>
+</li>
+                <li>
+<p>
+ At spell level 15 it restores lost experience. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Regeneration</strong> (school level 20) Increases your body's regeneration rate. 
+</p>
+</li>
+    <li>
+<p>
+<strong>Summon Animal</strong> (school level 25) Summons a leveled animal to your aid. 
+</p>
+</li>
+
+    </ol>
+
+
+<h4 id="head-3ce56f72b52e5daf6171d3ddcb0f5a654e4629c9">Combined Spells</h4>
+There are three combined school spells available for the Nature school: 
+    <ol type="1">
+
+    <li>
+<p>
+<strong>Grow Trees</strong> (dual school: Nature/Temporal level 6) Makes trees grow extremely quickly around you. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Your Nature and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fTemporal"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Temporal</a> skills must have reached a combined average level of 6 in order to cast this spell. 
+</p>
+</li>
+
+                </ul>
+
+
+    <li>
+<p>
+<strong>Thunderstorm</strong> (dual school: Nature/Air level 25) Charges up the air around you with electricity. Each turn it will throw a bolt of thunder at a random monster in sight. This thunder does 3 types of damage: one third lightning, one third of sound and one third of light. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ Your Nature and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fAir"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Air</a> skills must have reached a combined average level  
+</p>
+</li>
+
+                </ul>            <ul>
+
+   of 25 in order to cast this spell. 
+            </ul>
+
+
+    <li>
+<p>
+<strong>Genocide</strong> (dual school: Nature/Udun level 25) Genocides all monsters of a race on the level. 
+</p>
+</li>
+
+                <ul>
+
+                <li>
+<p>
+ At level 10 it can genocide all monsters near you. 
+</p>
+</li>
+                <li>
+<p>
+ Your Nature and <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fSchools_2fUdun"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Udun</a> skills must have reached a combined average level of 25 in order to cast this spell. 
+</p>
+</li>
+
+                </ul>    </ol>
+
+
+<h4 id="head-906abc02ff3d872f162af0a481dce9a5c5462baa">God given ability</h4>
+
+    <ul>
+
+    <li>
+<p>
+ <a class="interwiki" title="Self" href="./Documentation_2fIntroduction_20to_20the_20Gods_20of_20ToME#head-8361192ad3ab5a45c7db2288e05efc88d5f826fe"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Yavanna Kementari</a> at 1/2 prayer level. 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./Documentation_2fMagic_2fSchools_2fNature?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fMagic_2fSchools_2fNature.text_html">RefreshCache</a> for this page (cached 2005-11-08 03:48:51)<br>
+<p><a href="./Documentation_2fMagic_2fSchools_2fNature?action=edit">EditText</a> of this page (last edited 2005-04-18 13:08:59 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:35:23 Dec 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:50 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.223
+  captures_list: 105.679
+  esindex: 0.017
+  RedisCDXSource: 10.705
+  PetaboxLoader3.resolve: 36.81
+  load_resource: 72.733
+  exclusion.robots.policy: 0.207
+  CDXLines.iter: 25.62 (3)
+  LoadShardBlock: 64.377 (3)
+  PetaboxLoader3.datanode: 81.568 (4)
+-->

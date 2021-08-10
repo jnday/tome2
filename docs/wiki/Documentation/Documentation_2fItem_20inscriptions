@@ -1,0 +1,523 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Item inscriptions - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fItem_20inscriptions?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fItem_20inscriptions?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fItem_20inscriptions?action=fullsearch&amp;value=%2FItem+inscriptions&amp;literal=1&amp;case=1&amp;context=40">Documentation/Item inscriptions</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fItem_20inscriptions?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fItem_20inscriptions">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fItem_20inscriptions?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fItem_20inscriptions?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fItem_20inscriptions?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fItem_20inscriptions?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fItem_20inscriptions?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fItem_20inscriptions?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fItem_20inscriptions?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fItem_20inscriptions?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fItem_20inscriptions?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fItem_20inscriptions">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>Subpages should contain non-spoily information of the type currently contained in the on-line game help. Please put spoiler information in the appropriate place in the <a href="./SpoilerArchive">SpoilerArchive</a>. Thanks.</strong></em> <hr>
+ <ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-c2f9bb47ddd814e00bce7852ef2b1b228a408b9c">How to inscribe/uninscribe an item</a></li>
+<li>
+<a href="#head-cf21a984c2f393b9e4e8fe614cbba83a51688efd">Regular item inscriptions</a></li>
+<ol>
+<li>
+<a href="#head-c0f43218a4b34e2d1de79f22d2e9f74c287878bc">'.' inscription: Prevent teleportation</a></li>
+<li>
+<a href="#head-2368463b44cc347036a7ba33b200b7536dc8d147">'@' inscription: Shortcut actions</a></li>
+<li>
+<a href="#head-abf2415b9cb3880fa94e03b3682ef480e24b3f62">'!' inscription: Preventing actions</a></li>
+<li>
+<a href="#head-ba318d720ffb21995c8d6f0cd267bfc707713d9f">'^' inscription: Preventing actions</a></li>
+<li>
+<a href="#head-916c3c15507629c822d02e89d74e949905048dcb">'!!' inscription: Recharge notification</a></li>
+<li>
+<a href="#head-ad33a77983971ba574fa7bd755c09a680f0df2e1">'=' inscription: Automatic actions</a></li>
+<li>
+<a href="#head-a93f2c1152a7bd0a3dc9e55bd5449187d453dddb">'plain text' inscription: Information</a></li>
+</ol>
+
+<li>
+<a href="#head-a1ccc262dd6720cd0e84fae7acebcc01f4b21ef1">Combining inscriptions</a></li>
+<li>
+<a href="#head-fca38714b08b10f95dacb8826d1ffa9349475653">Fun inscriptions: renaming items</a></li>
+<ol>
+<li>
+<a href="#head-38d865505278621a84bf5c70bb44c7d5d01321da">% inscription: Prefix text to an item name</a></li>
+<li>
+<a href="#head-efd8720c77abc1d0b11a39662d8399451051317f"># inscriptions: Append text to an item name</a></li>
+</ol>
+
+</ol>
+
+ <hr>
+ <h3 id="head-2473e96bc614a911821242119918a241a41836d6">Introduction</h3>
+This section describes only item inscriptions. For other inscriptions, please see the <a class="interwiki" title="Self" href="./Documentation#head-326056f1d8ee67a6cdc83acb5d1e6df38f135807"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">in-game spoilers</a>. <p>
+Item inscriptions are character sequences and/or text which you add to any item. This text is added before or after the item's name. You cannot affect the item's overall description via inscriptions. 
+</p>
+<p>
+Item inscriptions may be extremely useful or just plain fun. The @ inscriptions allow interaction with macros, and if used cleverly, the # inscription can be used to interact with the automatizer. See the <a class="interwiki" title="Self" href="./Documentation_2fMacros"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Macros</a> section for more information on macros. 
+</p>
+<h3 id="head-c2f9bb47ddd814e00bce7852ef2b1b228a408b9c">How to inscribe/uninscribe an item</h3>
+
+    <dl>
+
+    <dt> To inscribe an item</dt><dd>
+<p>
+Type "{", and select an item in your inventory or equipment. Type your inscription, and hit enter. 
+</p>
+</dd>
+    <dt> To uninscribe an item</dt><dd>
+<p>
+Type "}", and select an item in your inventory or equipment. Hit enter. The inscription will be removed. (You can also type "{" again and simply not enter any text; that does the same thing.) 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-cf21a984c2f393b9e4e8fe614cbba83a51688efd">Regular item inscriptions</h3>
+All regular item inscriptions appear inside a pair of curly braces '{}' after the item's name and any to-hit, to-dam, AC info. The maximum string length is 55 characters AFAICT. <h4 id="head-c0f43218a4b34e2d1de79f22d2e9f74c287878bc">'.' inscription: Prevent teleportation</h4>
+An item which causes random teleportation can be prevented from doing so by inscribing it with '.' If you are using more than one inscription, the '.' must come first. <h4 id="head-2368463b44cc347036a7ba33b200b7536dc8d147">'@' inscription: Shortcut actions</h4>
+Inscribing an item with '@', a game command, and optionally a number from 0...9 will allow you to shortcut a few keystrokes in some interactions, and can also allow your objects to interact with game macros. <p>
+Examples (see also 'combining inscriptions', below): 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Casting or browsing spells from books: 
+</p>
+</li>
+
+        <ul>
+
+  Inscribing a spellbook with @m0 will cut at least one step out of the spell casting process. You'll still have to interact with the skill menu to get to 'cast a spell', but from there, you can use the numeral ('0' in this example) to specify a spellbook.   Once you have so inscribed a spellbook, you can create a macro to directly link a key on your keyboard to the action of casting a spell. 
+        </ul>
+
+
+    <li>
+<p>
+ Swap items: 
+</p>
+</li>
+
+        <ul>
+
+  Two weapons, both inscribed with @w0. If you are wielding one and carrying the other, typing 'w0' will automatically swap the second one in. This works for light sources, too. 
+        </ul>
+
+
+    <li>
+<p>
+ Firing ammunition or throwing things: 
+</p>
+</li>
+
+        <ul>
+
+  Inscribing a stack of wielded ammunition with @f0 will allow you to fire that ammo by typing 'f0'. You'll still have to target it, of course. 
+        </ul>    </ul>
+
+
+<h4 id="head-abf2415b9cb3880fa94e03b3682ef480e24b3f62">'!' inscription: Preventing actions</h4>
+Inscribing an item with '!' plus a game command will cause the game to question you before proceeding, should you attempt to issue that command after selecting <strong>that specific item</strong>. <p>
+Example: 10 Scrolls of Word of Recall {!r} 
+</p>
+<p>
+If you type 'r' in an attempt to read one of those scrolls, you will be prompted with: 
+</p>
+
+    <ul>
+
+ "Really try a Scroll of Word of Recall {!r}? (y/n)" 
+    </ul>
+
+
+<p>
+You will then need to type y or n to proceed. 
+</p>
+<p>
+Commands frequently used in conjunction with ! inscriptions include k(ill), d(rop), s(ell), r(ead), z(ap), u(se staff), a(im wand), q(uaff), E(at), etc. The wildcard '*' may also be used, which will cause <em>any</em> action to be questioned. 
+</p>
+<h4 id="head-ba318d720ffb21995c8d6f0cd267bfc707713d9f">'^' inscription: Preventing actions</h4>
+Inscribing an item with '^' plus a game command will cause the game to question you before proceeding, should you attempt to issue that command, while wearing the item. <p>
+This differs from the '!' inscription in that it affects the <strong>player</strong> and not the item. 
+</p>
+<p>
+Example: The Helm of Foo {^A} 
+</p>
+<p>
+If you are <strong>wearing</strong> this helm, and press the 'A'ctivate key, a prompt will come up, asking you if you are sure you wish to carry on. The prompt will be issued <strong>before</strong> the choice of object selection.  
+</p>
+<p>
+If the helm were instead inscribed with '!A' this prompt would emerge <strong>after</strong> selecting the helm as the object to be activated, rather than just on the key press. 
+</p>
+<p>
+This is most useful to prevent certain actions such as moving up and down stairs whilst the player is wearing the inscribed item. 
+</p>
+<h4 id="head-916c3c15507629c822d02e89d74e949905048dcb">'!!' inscription: Recharge notification</h4>
+Inscribing an item with '!!' will cause the game to notify you when the item is fully recharged.  <p>
+Example: a Moonstone Rod of Trap Location (75/75) {@z1 !!} 
+</p>
+<p>
+After you've used the rod (which you can do by typing 'z1'), when it recharges fully you will be told 'Your Moonstone Rod of Trap Location is recharged.'  
+</p>
+<p>
+This inscription works on rods as well as any item that needs time to recharge after being activated. 
+</p>
+<h4 id="head-ad33a77983971ba574fa7bd755c09a680f0df2e1">'=' inscription: Automatic actions</h4>
+An item inscribed with '=' plus a command will automatically trigger that command. It is most commonly used with ammunition and the 'g' command. <p>
+Example: 27 Bolts (1d5) (+0,+0) {=g} 
+</p>
+<p>
+If one of these bolts is fired and survives impact, this inscription will cause you to automatically pick it up if you walk over it. 
+</p>
+<h4 id="head-a93f2c1152a7bd0a3dc9e55bd5449187d453dddb">'plain text' inscription: Information</h4>
+Plain text is often inscribed onto an item to describe what it does, and/or where or how you found it. <p>
+Example: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ A Ring of Ormen (+4 to speed) {+4StrIntDexCha <a class="nonexistent" href="./SusWis">SusWis</a> rsound+chaos SI lev, Somebody's escort} (This inscription probably goes over 55 characters and is just for an example.) 
+</p>
+</li>
+    <li>
+<p>
+ A Really Nifty Sword {Princess, 13 Trolls, Mirkwood 12) 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-a1ccc262dd6720cd0e84fae7acebcc01f4b21ef1">Combining inscriptions</h3>
+Inscriptions are most useful when combined. Examples (some of which are overkill): 
+    <ul>
+
+    <li>
+<p>
+ Spell books 
+</p>
+</li>
+
+        <ul>
+
+  @mN@bN!k!d!v, where N is 0...9. Allows browsing and spellcasting key sequences to be shortened. Also allows interaction with Macro commands. 
+        </ul>
+
+
+    <li>
+<p>
+ Other magic items 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ Scrolls 
+</p>
+</li>
+
+            <ul>
+
+   @rN!k!d!v, where N is 0...9. (Allows for assigning different reading keys to different scrolls.) Don't destroy, drop or throw it.    Possibly !r!k!d!v, if you want to be cautious in using it. 
+            </ul>
+
+
+        <li>
+<p>
+ Potions 
+</p>
+</li>
+
+            <ul>
+
+   @qN!k!d!v, where N is 0...9. (Allows for assigning different quaffing keys to different potions.) Don't destroy, drop or throw it.    Possibly !q!k!d!v, if you want to be cautious in using it. 
+            </ul>
+
+
+        <li>
+<p>
+ Wands 
+</p>
+</li>
+
+            <ul>
+
+   @aN!k!d!v, where N is 0...9. (Allows for assigning different wand-aiming keys to different wands.) Don't destroy, drop or throw it. 
+            </ul>
+
+
+        <li>
+<p>
+ Staves 
+</p>
+</li>
+
+            <ul>
+
+   @uN!k!d!v, where N is 0...9. (Allows for assigning different staff-using keys to different staves.) Don't destroy, drop or throw it. 
+            </ul>
+
+
+        <li>
+<p>
+ Rods 
+</p>
+</li>
+
+            <ul>
+
+   @zN!k!d!v, where N is 0...9. (Allows for assigning different rod-zapping keys to different rods.) Don't destroy, drop or throw it. 
+            </ul>
+
+
+        <li>
+<p>
+ Junkarts 
+</p>
+</li>
+
+            <ul>
+
+   !d!v &lt;activation description&gt;. Don't drop or throw it. 
+            </ul>        </ul>
+
+
+    <li>
+<p>
+ Ammunition 
+</p>
+</li>
+
+        <ul>
+
+  @fN=g!k!d!v, where N is 0...9. (Allows for assigning different firing keys to different bundles of ammunition.) Auto-pickup, don't destroy, drop, or throw it. 
+        </ul>
+
+
+    <li>
+<p>
+ Thrown items 
+</p>
+</li>
+
+        <ul>
+
+  @vN=g!k!d, where N is 0...9. (Allows for assigning different throwing keys to different bundles of thrown items.) Auto-pickup, don't destroy or drop it. 
+        </ul>
+
+
+    <li>
+<p>
+ Swap weapons or other items 
+</p>
+</li>
+
+        <ul>
+
+  @w0!k!d!v. 
+        </ul>
+
+
+    <li>
+<p>
+ Perilous or precious items 
+</p>
+</li>
+
+        <ul>
+
+  !*!* (or as many reps as you want, if you are hyper with your keyboard.) This will cause you to be repeatedly questioned before you may do <em><strong>anything</strong></em> with that item. This is useful for both very dangerous items and for very special items (for example, a really good healing potion that you don't want to accidentally use before you need it.) 
+        </ul>    </ul>
+
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+<h3 id="head-fca38714b08b10f95dacb8826d1ffa9349475653">Fun inscriptions: renaming items</h3>
+Fun inscriptions are just that: mostly for fun. They are incompatible with any of the regular inscriptions above. <h4 id="head-38d865505278621a84bf5c70bb44c7d5d01321da">% inscription: Prefix text to an item name</h4>
+
+    <dl>
+
+    <dt> %&lt;text&gt;</dt><dd>
+<p>
+Inscribing an item with "%&lt;text&gt;" will prefix &lt;text&gt; to the item's name. Changing an item's name this way will not change the automatizer's recognition of the base item, though you can set the automatizer to recognize the flag that you have added and react to it. This inscription will not correctly alter definite or indefinite articles associated with the item. 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+Examples: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+%Elven: a Cloak --&gt; a Elven Cloak 
+</p>
+</li>
+    <li>
+<p>
+%Seeker: an Arrow --&gt; an Seeker Arrow 
+</p>
+</li>
+    <li>
+<p>
+%moldy: a Ration of Food --&gt; a moldy Ration of Food 
+</p>
+</li>
+
+    </ol>
+
+
+<h4 id="head-efd8720c77abc1d0b11a39662d8399451051317f"># inscriptions: Append text to an item name</h4>
+
+    <dl>
+
+    <dt> #&lt;text&gt;</dt><dd>
+<p>
+Inscribing an item with "#&lt;text&gt;" will append a space and then &lt;text&gt; to the item's name. Changing an item's name this way will not change the automatizer's recognition of the base item, though you can set the automatizer to recognize the flag that you have added and react to it. This inscription will not correctly alter definite or indefinite articles associated with the item. 
+</p>
+</dd>
+
+    </dl>
+
+<p>
+Examples: 
+</p>
+
+    <ol type="1">
+
+    <li>
+<p>
+<strong>#*slay orc*</strong> + The Longsword of Ruhan --&gt; The Longsword of Ruhan *slay orc*. This is useful to remember what a randart weapon does or slays without being too cryptic, and is a variant on the plain text inscription above. 
+</p>
+</li>
+    <li>
+<p>
+<strong>#(charging)</strong> + The Bottle of Death --&gt; The Bottle of Death (charging). Puzzles people who read your character dump. Can also be used to record which bad junkarts you did activate for the Mathom House, for character dump purposes. 
+</p>
+</li>
+    <li>
+<p>
+<strong>#of PlayerName</strong> + The Tome of Time --&gt; The Tome of Time of Zen (if your character name is Zen, that is.) If your Automatizer rule checks for "of Zen", you can prevent your item from never being auto-destroyed. Keep in mind, though, that this method is not a very good one for spellbooks, as most players use other inscriptions such as ! and @ on them. Still, it may come in handy upon occasion. 
+</p>
+</li>
+    <li>
+<p>
+<strong>#named Fred</strong> + Foo --&gt; Foo named Fred. While this inscription works on any item, it is most commonly used to name symbiotes. If your symbiote is "a red mold named Fred", then you'll see "your red mold named Fred" doing damage and/or taking damage for you during combat. It's fun. 
+</p>
+</li>
+
+    </ol>
+
+
+<p>
+<a href="#top">to the top</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fItem_20inscriptions?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fItem_20inscriptions.text_html">RefreshCache</a> for this page (cached 2006-03-22 17:59:17)<br>
+<p><a href="./Documentation_2fItem_20inscriptions?action=edit">EditText</a> of this page (last edited 2006-01-07 20:12:43 by <span title="exten-halls-246.soton.ac.uk"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 09:07:34 May 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:23 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 174.212
+  exclusion.robots: 0.166
+  exclusion.robots.policy: 0.153
+  RedisCDXSource: 3.504
+  esindex: 0.013
+  LoadShardBlock: 144.375 (3)
+  PetaboxLoader3.datanode: 223.175 (4)
+  CDXLines.iter: 22.522 (3)
+  load_resource: 156.099
+  PetaboxLoader3.resolve: 35.402
+-->

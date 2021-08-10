@@ -1,0 +1,1026 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">243</script><title>IdeaArchive/Missing descriptions - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fMissing_20descriptions?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fMissing_20descriptions?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fMissing_20descriptions?action=fullsearch&amp;value=%2FMissing+descriptions&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Missing descriptions</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fMissing_20descriptions?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fMissing_20descriptions">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fMissing_20descriptions?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fMissing_20descriptions?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fMissing_20descriptions?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fMissing_20descriptions?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fMissing_20descriptions?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fMissing_20descriptions?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fMissing_20descriptions?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fMissing_20descriptions?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fMissing_20descriptions?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fMissing_20descriptions">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+FWIW, here are descriptions for some k_info items in ToME that don't have them. 
+<pre>N:520:Reflection
+G:":d
+I:40:9:0
+W:60:0:3:30000
+A:60/4
+F:REFLECT | EASY_KNOW
+f:REFLECT |
+F:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
+D:This wondrous amulet will magically make the wearer
+D:reflect arrows and bolts launched by adversaries.
+
+#521 and 522 cannot have EASY_KNOW because they may be cursed
+
+N:521:Anti-Magic
+G:":d
+I:40:13:0
+W:40:0:3:30000
+A:40/4
+F:NO_MAGIC
+f:NO_MAGIC
+F:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
+D:This amulet wards off magic of any kind, good or bad.
+
+N:522:Anti-Teleportation
+G:":d
+I:40:14:0
+W:30:0:3:15000
+A:30/4
+F:NO_TELE
+f:NO_TELE
+F:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
+D:This amulet will prevent the space-time continuum from
+D:being disrupted around the wearer.
+
+#523 cannot have EASY_KNOW because it can get random resistances
+
+N:523:Resistance
+G:":d
+I:40:15:0
+W:50:0:3:25000
+A:50/4
+F:RES_ACID | RES_ELEC | RES_FIRE | RES_COLD
+f:RES_ACID | RES_ELEC | RES_FIRE | RES_COLD
+F:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
+D:This amulet will make the wearer resist the elements.
+
+##### New arms #####
+
+N:524:&amp; Zweihander~
+G:|:w
+I:23:29:0
+W:40:0:280:580
+A:40/3
+P:0:4d6:0:0:0
+F:SHOW_MODS | MUST2H
+f:MUST2H
+D:This great sword of foreign origin is approximately 6 feet long. The hilt is
+D:long enough for even four hands to grip. A mighty weapon for a warrior.
+
+
+N:525:&amp; Dwarven Lantern~
+G:~:b
+I:39:3:0
+W:15:0:50:5000
+A:15/2
+P:0:1d1:0:0:0
+F:EASY_KNOW | IGNORE_FIRE | LITE2
+f:LITE2
+D:Made by the Dwarves, this lantern provides light in the
+D:darkest recesses of the earth.
+
+N:526:Splint Mail~
+G:[:D
+I:37:10:0
+W:35:0:250:950
+A:35/1
+P:19:1d4:-2:0:0
+D:A variant of banded mail. The metal strips are applied to the backing of chain,
+D:leather, or cloth rather than horizontally.
+
+
+N:527:&amp; Everburning Torch~
+G:~:R
+I:39:2:0
+W:5:0:50:2500
+A:5/1
+P:0:1d1:0:0:0
+F:EASY_KNOW | IGNORE_FIRE | LITE1
+f:LITE1
+D:This enchanted torch never needs to be fuelled.
+
+N:528:&amp; Trifurcate Spear~
+G:/:o
+I:22:26:0
+W:35:0:140:400
+A:35/3
+P:0:2d9:0:0:0
+F:SHOW_MODS
+D:This deadly spear's point has three branches, suited for inflicting
+D:slightly greater damage per hit than a regular spear.
+
+N:529:&amp; Three-Piece Rod~
+G:\:u
+I:21:11:0
+W:20:0:120:350
+A:20/3
+P:0:3d3:0:0:0
+F:SHOW_MODS
+D:A descendant of the threshing flail, consisting of three short wooden
+D:pieces linked by chain or rope.
+
+# Feanorian Lamp
+N:530:&amp; Feanorian Lamp~
+G:~:B
+I:39:4:0
+W:25:0:50:15000
+A:25/3
+P:0:1d1:0:0:0
+F:EASY_KNOW | IGNORE_FIRE | LITE3
+f:LITE3
+D:Made by the descendants of the Noldo craftsman, this lamp
+D:contains a part of the flame which burned inside Feanor.
+
+N:531:&amp; Fur Cloak~
+G:(:W
+I:35:3:0
+W:20:0:30:100
+A:20/2:30/2
+P:3:0d0:0:0:0
+D:A coat made from the fur of various wild animals - it is
+D:somewhat bulky, but still spacious enough to wear over armour.
+</pre><p>
+(skipping potions of water curing) 
+</p>
+
+<pre>N:533:&amp; Hatchet~
+G:/:s
+I:24:1:0
+W:10:0:60:120
+A:10/2
+P:0:1d5:0:0:0
+F:SHOW_MODS | COULD2H
+f:COULD2H
+D:This is a larger version of a throwing axe. It has a single
+D:blade with a pick on the reverse, designed for armour piercing.
+</pre><p>
+(snipsnip) 
+</p>
+
+<pre>N:537:&amp; Sickle~
+G:/:s
+I:22:3:0
+W:10:0:70:110
+A:10/3
+P:0:2d3:0:0:0
+F:SHOW_MODS
+D:A semicircular blade attached to a short handle, good for chopping
+D:things up into pieces.
+</pre><p>
+(snippety) 
+<pre>N:542:&amp; Club~
+G:\:u
+I:21:1:0
+W:0:0:100:3
+A:0/1
+P:0:1d4:0:0:0
+F:SHOW_MODS
+D:A stout heavy stick, thicker at one end. Useful for
+D:shattering and smashing things.
+
+N:543:&amp; Broad Spear~
+G:/:w
+I:22:7:0
+W:14:0:100:240
+A:14/3
+P:0:1d9:0:0:0
+F:SHOW_MODS
+D:It looks like it has just come from the forge. Designed specifically for
+D:foot soldiers combatting mounted cavalry, it is too heavy to be effective
+D:when thrown.
+
+N:544:&amp; Khopesh~
+G:|:W
+I:23:14:0
+W:10:0:130:190
+A:10/2
+P:0:2d4:0:0:0
+F:SHOW_MODS
+D:This sword comes from the regions of Far Harad. The blade is straight
+D:for 18 inches, and then it curves for another 2 feet.
+
+N:545:&amp; Flamberge~
+G:|:W
+I:23:26:0
+W:40:0:230:600
+A:40/2
+P:0:3d7:0:0:0
+F:SHOW_MODS | MUST2H
+f:MUST2H
+D:A large, two-handed sword with a blade that weaves
+D:left and right until it reaches the hilt. 
+
+N:546:&amp; Claymore~
+G:|:W
+I:23:23:0
+W:40:0:200:600
+A:40/2
+P:0:2d8:0:0:0
+F:SHOW_MODS
+D:Also known as a Claidhmore, or Greatsword, this weapon is favoured
+D:by powerful mercenaries. The blade is large, straight, and broad,
+D:almost as large as a two-handed sword.
+
+N:547:&amp; Espadon~
+G:|:W
+I:23:24:0
+W:40:0:200:600
+A:40/3
+P:0:2d9:0:0:0
+F:SHOW_MODS | MUST2H
+D:This is the strictly two-handed version of the bastard sword.
+D:The blade is of medum length, double-edged, and considerably
+D:heavy to wield.
+
+N:548:&amp; Great Scimitar~
+G:|:W
+I:23:22:0
+W:40:0:240:500
+A:40/3
+P:0:4d5:0:0:0
+F:SHOW_MODS | MUST2H
+f:MUST2H
+D:This is a larger version of the curved oriental blade.
+D:Runes of war decorate its golden hilt.
+
+### Trapping Kits
+
+N:549:Arrow
+G:`:r
+I:46:2:0
+W:10:0:60:150
+A:10/2:50/2
+F:SHOW_MODS
+D:It must be loaded with arrows, which will be
+D:fired at the monster who triggers the trap.
+
+N:550:Bolt
+G:`:o
+I:46:3:0
+W:20:0:220:300
+A:20/2:50/2
+F:SHOW_MODS
+D:It must be loaded with crossbow bolts, which will
+D:be fired at the monster who triggers the trap.
+
+N:551:&amp; Fauchard~
+G:/:s
+I:22:6:0
+W:18:0:155:301
+A:18/2
+P:0:1d10:0:0:0
+F:SHOW_MODS | COULD2H
+f:COULD2H
+D:It is a type of glaive with two scrolly hooks on the back
+D:of the blade. It is typically 8 to 9 feet long.
+
+N:552:&amp; Guisarme~
+G:/:s
+I:22:16:0
+W:21:0:165:320
+A:21/1
+P:0:2d5:0:0:0
+F:SHOW_MODS | COULD2H
+f:COULD2H
+D:Mounted on a long shaft for maximum reach, this weapon is
+D:effective at repelling both cavalry and infantry.
+
+N:553:&amp; Heavy Lance~
+G:/:s
+I:22:29:0
+W:43:0:400:700
+A:43/2
+P:0:4d8:0:0:0
+F:SHOW_MODS | MUST2H
+f:MUST2H
+D:This is a "shock" weapon. Its purpose is to unhorse a rider
+D:in single combat, or smash through the armor of opposing lines.
+</pre>
+</p>
+<p>
+(snip) 
+</p>
+
+<pre>### Trapping Kits
+
+N:555:Catapult
+G:`:R
+I:46:1:0
+W:1:0:50:40
+A:1/2:20/2
+F:SHOW_MODS
+D:It must be loaded with sling bullets, which will
+D:be fired at the monster who triggers the trap.
+
+N:556:Ring Mail~
+G:[:s
+I:37:2:0
+W:20:0:200:500
+A:20/1
+P:12:1d4:-2:0:0
+D:A suit of non-overlapping metal rings sewn onto a
+D:heavy leather backing.
+
+N:557:Cord Armour~
+G:(:y
+I:36:9:0
+W:5:0:80:40
+A:5/1
+P:6:1d1:0:0:0
+D:Fibres of hemp or other natural material woven and knotted
+D:into a thick, tough fabric.
+
+N:558:Paper Armour~
+G:(:w
+I:36:3:0
+W:5:0:30:40
+A:5/2
+P:4:1d1:0:0:0
+D:Thickly pleated sheets of paper assembled together into
+D:a suit of armour. It is useful against arrows, but it 
+D:does not grant a lot of protection.
+
+N:559:Padded Armour~
+G:(:y
+I:36:10:0
+W:2:0:60:40
+A:2/1
+P:4:1d1:0:0:0
+D:Heavy, multi-layered cloth sewn together to cover the body,
+D:with extra padding between layers.
+
+### Trapping Kits
+
+N:560:Fumes
+G:`:G
+I:46:4:0
+W:2:0:20:50
+A:2/2:30/2
+D:It must be loaded with potions, which will splatter
+D:over the monster who triggers the trap.
+</pre><p>
+(snip) 
+</p>
+
+<pre>### Trapping Kits
+
+N:562:Magic
+G:`:g
+I:46:5:0
+W:5:0:20:50
+A:5/2:40/2
+F:IGNORE_ACID | IGNORE_FIRE | IGNORE_COLD | IGNORE_ELEC
+D:It must be loaded with scrolls, which will release
+D:their spells at the monster who triggers the trap.
+
+N:563:Device
+G:`:v
+I:46:6:0
+W:20:0:20:50
+A:20/2:40/2:60/2
+F:IGNORE_ACID | IGNORE_FIRE | IGNORE_COLD | IGNORE_ELEC
+D:It must be loaded with a magic device (wand, staff, or rod), which
+D:will fire its spell at the monster who triggers the trap.
+</pre><p>
+(snip) 
+</p>
+
+<pre># Mage staffs (for Sorcerers to wield.)
+
+N:577:&amp; Mage Staff~
+G:\:B
+I:6:1:0
+W:5:0:12:300
+A:5/1:20/1:50/1:80/1
+P:0:1d4:0:0:0
+F:SHOW_MODS | COULD2H
+f:COULD2H
+D:It looks like a simple walking stick, plain and nondescript.
+D:In the hands of a spellcaster, it can be a deadly weapon.
+
+# An extra ring, out of place
+N:578:Lightning
+G:=:d
+I:45:56:0
+W:50:0:2:3000
+A:50/1
+P:0:0d0:0:0:15
+a:HARDCORE=BA_ELEC_4
+F:RES_ELEC | IGNORE_ELEC | ACTIVATE
+f:RES_ELEC |
+D:This sparkling circlet grants you protection, makes electricity less
+D:dangerous and even allows you to call forth a ball of lightning.
+</pre><p>
+(snip) 
+</p>
+
+<pre>######### Here are the parchments ########
+
+N:588:Deep Thoughts
+G:?:o
+I:8:0:0
+W:3:0:5:50
+A:3/1
+D:This parchment contains the thoughts of a powerful
+D:wizard who departed Middle-earth long ago.
+
+N:589:More Deep Thoughts
+G:?:o
+I:8:1:0
+W:4:0:5:50
+A:4/1
+D:This parchment contains the thoughts of a powerful
+D:wizard who departed Middle-earth long ago.
+
+N:590:Compendium of Deep Thoughts
+G:?:o
+I:8:2:0
+W:5:0:5:50
+A:5/1
+D:This parchment contains the thoughts of a powerful
+D:wizard who departed Middle-earth long ago.
+
+N:591:Artifact Lore Vol. I
+G:?:o
+I:8:6:0
+W:40:0:5:50
+A:40/3
+D:This parchment contains information about unique
+D:artifacts that are rumoured to exist upon Arda.
+
+N:592:Artifact Lore Vol. II
+G:?:o
+I:8:7:0
+W:40:0:5:50
+A:40/3
+D:This parchment contains information about unique
+D:artifacts that are rumoured to exist upon Arda.
+
+N:593:Artifact Lore Vol. III
+G:?:o
+I:8:8:0
+W:40:0:5:50
+A:40/3
+D:This parchment contains information about unique
+D:artifacts that are rumoured to exist upon Arda.
+
+N:594:Monstrous Compendium 1
+G:?:o
+I:8:9:0
+W:10:0:5:50
+A:10/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:595:Monstrous Compendium 2
+G:?:o
+I:8:10:0
+W:11:0:5:50
+A:11/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:596:Monstrous Compendium 3
+G:?:o
+I:8:11:0
+W:12:0:5:50
+A:12/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:597:Monstrous Compendium 4
+G:?:o
+I:8:12:0
+W:13:0:5:50
+A:13/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:598:Monstrous Compendium 5
+G:?:o
+I:8:13:0
+W:14:0:5:50
+A:14/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:599:Monstrous Compendium 6
+G:?:o
+I:8:14:0
+W:15:0:5:50
+A:15/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:600:Monstrous Compendium 7
+G:?:o
+I:8:15:0
+W:16:0:5:50
+A:16/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:601:Monstrous Compendium 8
+G:?:o
+I:8:16:0
+W:17:0:5:50
+A:17/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:602:Monstrous Compendium 9
+G:?:o
+I:8:17:0
+W:18:0:5:50
+A:18/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:603:Monstrous Compendium 10
+G:?:o
+I:8:18:0
+W:19:0:5:50
+A:19/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+
+N:604:Monstrous Compendium 11
+G:?:o
+I:8:19:0
+W:20:0:5:50
+A:20/2
+D:This parchment contains a small part of the collected
+D:lore concerning monsters inhabiting Arda.
+</pre><p>
+(snip) 
+</p>
+
+<pre># The Mimic's cloaks
+
+N:618:&amp; #~
+G:(:y
+I:35:100:0:50
+W:5:130:30:100
+A:5/1:15/1:35/1:55/1:75/1
+P:1:1d1:0:0:0
+D:Combined with proper skill, this cloak can make you seem
+D:like a different creature. Otherwise, it just provides some
+D:extra protection.
+</pre><p>
+(snip) 
+</p>
+
+<pre># A Parchment, not the Artifact
+N:664:The One Ring
+G:?:s
+I:8:4:0
+W:10:100:5:50
+A:10/2
+D:This parchment contains words in the Black Speech and Westron,
+D:and they seem to speak of a powerful Ring... could it be true?
+</pre><p>
+(snippety) 
+</p>
+
+<pre>N:757:&amp; Spellbook~ of #
+G:?:w
+I:111:255:0
+W:10:0:30:200
+A:10/1:20/1:30/1:40/1:50/1:60/1:70/1
+P:0:1d1:0:0:0
+D:This book contains a single spell within its pages.
+</pre><p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Thank you. 
+</p>
+<p>
+<a href="./FuriousOne">FuriousOne</a>: No problem. (Edit: removed a flag from paper armour that isn't there in ToME and reworded description to reflect this). 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Added the descriptions with some changes (e.g. there are no banded mails or throwing axes in ToME) as well as a few others. Some items are still without descriptions. Suggestions are welcome! 
+</p>
+
+    <dl>
+
+    <dt> Leather Jacket</dt><dd>
+<p>
+the base AC of 12 must be either a bug or some sort of enchantment 
+</p>
+<p>
+ <strong><a href="./FuriousOne">FuriousOne</a></strong>: Not very contemporary, but I'll give it a shot (and hear, hear on the AC): <em>A garment fashioned from animal hide, resembling a robe that has been shortened to waist-length, with straight-cut sleeves and a bit of decorative fringe around the collar.</em> [tangent]The Leather Jacket of Aragorn [12, +8] - It increases your charisma by 5. It makes you rebellious. It grants you the power of channel spirit of James Dean if it is being worn.[/tangent] 
+</p>
+</dd>
+    <dt> Basilard (corrected the spelling)</dt><dd>
+<p>
+normally a two-edged long bladed dagger, but the damage (1d9) and the weight are more appropriate for a short sword. 
+</p>
+<p>
+ <strong><a href="./FuriousOne">FuriousOne</a></strong>: <em>Two-edged dagger with a long blade. A favourite among travellers and warriors alike, because it can be worn comfortably with plain clothes as well as armour.</em> 
+</p>
+</dd>
+    <dt> Stone and Hide Armour</dt><dd>
+<p>
+Never heard of it... Suggestions are welcome.  
+</p>
+<p>
+ <strong><a href="./FuriousOne">FuriousOne</a></strong>: In Theme, I changed this to Mumak Hide armour, for thematic reasons and because this seems to be either a carryover from Eldritch (I think) or a strange hybrid of hide armour (pre-medieval) and stones[?]. Just doesn't fit into the Middle-earth world in any way, though, unless the hide is of a specific creature (e.g. Dragon, Mumak, Bear), as Middle-earth is a medieval setting for the most part. 
+</p>
+</dd>
+
+        <ul>
+
+  <strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: How about the Oliphaunts? (As shown in the movie etc.) 
+            <ul>
+
+   <strong><a href="./FuriousOne">FuriousOne</a></strong>: Oliphaunt = Mumak 
+                <ul>
+
+    <strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: I gathered that after I googled on Mumak... (Yes I am very bored at the moment... <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15">  ) 
+                </ul>            </ul>
+
+
+  <a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Perhaps from the Druedain? They had incredible powers with stone statues (pukelmen). <p>
+  <a href="./FuriousOne">FuriousOne</a>: OK, I was reading Return of the King and came across a description for the armour of hill-trolls out of Gorgoroth during the Battle of the Pelennor Fields. I've taken it and ran with it, and here's what I came up with: 
+</p>
+
+        </ul>    </dl>
+
+
+<pre>D:A close-fitting mesh of horned scales, fashioned from a thin 
+D:layer of rock and fitted onto roughout animal hide. It provides 
+D:a reasonable degree of protection to the wearer.
+</pre>
+    <ul>
+
+    <dt> Blood of Life</dt><dd>
+<p>
+ <strong><a href="./ZasVid">ZasVid</a></strong>: Does the <strong>Blood of Life</strong> have a description? In the October 10th CVS it didn't. In case it doesn't, I suggest sth like (inspired by <a href="./StarweaverBlue">StarweaverBlue</a>):  <tt>"Quaffing&nbsp;this&nbsp;measure&nbsp;of&nbsp;living&nbsp;blood&nbsp;will&nbsp;imbue&nbsp;your&nbsp;body&nbsp;and&nbsp;soul&nbsp;with&nbsp;the&nbsp;power&nbsp;to&nbsp;escape&nbsp;death&nbsp;one&nbsp;time."&nbsp;</tt> 
+</p>
+</dd>
+    <dt> Flame Imperishable</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:An impossibly bright, flickering living flame. It can be used 
+D:once to imbue an object with the power of Eru Iluvatar himself.
+</pre>
+    <ul>
+
+    <dt> Tome of Magical Energy</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:The slick black cover of this tome seems to glow
+D:with an inner violet light. You feel more attuned
+D:to raw magic as you hold it.
+</pre>
+    <ul>
+
+    <dt> Tome of the Eternal Flame</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:The cover of this tome is bright red, with flickering
+D:flames dancing across it once in a while. As you hold
+D:it, you begin to gain a much closer knowledge of all
+D:that is fiery.
+</pre>
+    <ul>
+
+    <dt> Tome of the Blowing Wind</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:The pages of this tome have a tendency to turn themselves,
+D:as though flipped by an errrant wind. As you hold it,
+D:you start feeling wind at your fingergips.
+</pre>
+    <ul>
+
+    <dt> Tome of the Impenetrable Earth</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:The solid grey cover of this tome seems permanently
+D:stained with caked mud and grass. Heavy it is to lift,
+D:yet strangely comforting to hold - you feel stronger 
+D:and better supported.
+</pre>
+    <ul>
+
+    <dt> Tome of the Everrunning Wave</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:The cover and pages of this tome seem to be perpetually
+D:wet, though they are not wet to the touch. As you hold 
+D:it, you begin to understand ocean storms better.
+</pre>
+    <ul>
+
+    <dt> Tome of Translocation</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:This book seems to flicker strangely. It's one of those books 
+D:with an annoying tendency to disappear when you need them and
+D:reappear in the unlikeliest places. As you hold it, you start 
+D:to understand what conveyance really means.
+</pre>
+    <ul>
+
+    <dt> Tome of the Tree</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:The cover of this tome is a deep shade of green, and it gives off 
+D:a healthy, zesty scent that makes your thoughts clearer. As you  
+D:hold it, your heart goes out to all living things upon Arda.
+</pre>
+    <ul>
+
+    <dt> Tome of Knowledge</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:A thick book with solid leather binding. It looks entirely 
+D:unremarkable, but as you hold it, you feel strangely able 
+D:to learn the inner workings of things and creatures.
+</pre>
+    <ul>
+
+    <dt> Amulet of Lightning Resistance</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:This amulet will protect you from electrical discharges and storms.
+</pre>
+    <ul>
+
+    <dt> Amulet of Wisdom</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:This magical amulet will magically make you wiser, and fend off
+D:attacks that would reduce your wisdom. Beware: if cursed, the
+D:amulet will do the opposite.
+</pre>
+    <ul>
+
+    <dt> Amulet of Regeneration</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:Wearing this amulet will trigger your body's regenerational
+D:processes quicker and make them proceed faster.
+</pre>
+    <ul>
+
+    <dt> Amulet of Infravision</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:This amulet will increase your ability to sense warm-blooded
+D:creatures in your vicinity. Beware: if cursed, it will do
+D:just the opposite.
+</pre>
+    <ul>
+
+    <dt> Amulet of Devotion</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:This blessed amulet will protect your wisdom and charms from
+D:diminishing, often adding to them as well. It also grants
+D:some extra protective magics by the grace of the Valar.
+</pre>
+    <ul>
+
+    <dt> Amulet of Weaponmastery</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:The ultimate amulet for a warrior, it will grant protection
+D:in the face of some evil magics, protect your strength and health,
+D:also increasing them. Beware: if cursed, the amulet will
+D:sap your strength and health instead.
+</pre>
+    <ul>
+
+    <dt> Amulet of Trickery</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:The ultimate amulet for a rogue or assassin, it protects the
+D:wearer against some evil magics, granting improvements in
+D:the abilities vital to these adventurers. Beware: if cursed,
+D:the amulet will do just the opposite.
+</pre>
+    <ul>
+
+    <dt> Amulet of Telepathy</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:This rare and powerful amulet lays bare the minds of monsters
+D:before the wearer.
+</pre>
+    <ul>
+
+    <dt> Amulet of Sustenance</dt><dd>
+<p>
+
+</p>
+<p>
+ <a href="./FuriousOne">FuriousOne</a>: 
+</p>
+</dd>
+
+    </ul><pre>D:This blessed amulet will make the wearer impervious to evil magics
+D:that would sap innate abilities. It also slows down the digestive
+D:system, making food less necessary on long journeys.
+</pre><p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Many thanks again. I'm adding the descriptions to k_info.txt <img src="./wiki/classic/img/smile.png" alt=":-)" height="15" width="15"> 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: Essences don't all have descriptions, and its descriptions are only visible after *ID* which is intensely annoying. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fMissing_20descriptions?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fMissing_20descriptions.text_html">RefreshCache</a> for this page (cached 2004-10-19 08:46:58)<br>
+<p><a href="./IdeaArchive_2fMissing_20descriptions?action=edit">EditText</a> of this page (last edited 2004-10-19 08:46:56 by <span title="ten-cache1-vif-2.tenet.saix.net"><a href="./ReenenLaurie">ReenenLaurie</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:45:41 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:45:19 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 17.721
+  esindex: 0.01
+  CDXLines.iter: 25.101 (3)
+  load_resource: 83.894
+  exclusion.robots: 0.13
+  captures_list: 144.99
+  PetaboxLoader3.resolve: 48.889
+  LoadShardBlock: 99.134 (3)
+  PetaboxLoader3.datanode: 98.797 (4)
+  exclusion.robots.policy: 0.121
+-->

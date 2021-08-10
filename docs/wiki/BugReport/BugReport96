@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport96 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport96?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport96?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport96?action=fullsearch&amp;value=BugReport96&amp;literal=1&amp;case=1&amp;context=40">BugReport96</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport96?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport96">View</a></li>
+<li><a title="Diffs" href="./BugReport96?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport96?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport96?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport96?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport96?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport96?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport96?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport96?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport96?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport96">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Describe BugReport96 here. <p>
+When creating double ego item from a venomous dagger, adding the power of slaying, alchemy duplicates the 1d4 base damage factor of the dagger,  resulting "Venomous Dagger of Slaying (2d8) +10 +8" and after repeating this a few times: "Venomous Dagger of Slaying (18d10) (+45,+41)" 
+</p>
+<p>
+I dont mind that the power "of slaying" can be applied multiple times increasing the to-hit and to-dam values, as it consumes the essences,  so it can be ok, but the base damage should not be changed. 
+</p>
+<p>
+Also "It is very sharp and can cut your foes" "It is very sharp and can make your foes bleed" flags were added in two separate enchantment  cycles as to-hit and to-dam values were increased. 
+</p>
+<p>
+<strong><a href="./JulesBean">JulesBean</a></strong>: It is in fact a bug that powers can be applied multiple times. The two different kinds of sharpness is no bug: these are two possible effects of the Slaying flag. I don't know if anyone will bother to fix this since alchemists are experimental, badly broken, and scheduled to be totally different in ToME 3. 
+</p>
+<p>
+<strong><a href="./ReenenLaurie">ReenenLaurie</a></strong>: MM fixed some alchemy bugs for 2.3, but in general I don't anticipate much work being done on alchemists for 2.3. 
+</p>
+
+<pre>[B]- al_info.txt: Removed the old Mimic Potions -- masmarangio
+[B]- cmd7.c: Fixed Alchemy recharging bug (thanks to Scott)
+</pre><p>
+Doesn't look like big changes. 
+</p>
+<p>
+&gt;&gt;I dont mind that the power "of slaying" can be applied multiple times increasing the to-hit and to-dam &gt;&gt;values, as it consumes the essences,  
+</p>
+<p>
+Dryad: so you can get a (1d4) (+4973, +4950) dagger when adding something other than slaying repeatedly, just because it costs essences? That's broken in 2.2.7 and fixed in 2.3. 
+</p>
+<p>
+The remaining bug would be applying slaying first in 2.3, and adding any prefix after it(acidic, etc). Then slaying is added twice, but no more. That can turn (1d10) weapons into (10d12) after 5 attempts which is still overpowered(the RNG can produce those, too). 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport96?action=refresh&amp;arena=Page.py&amp;key=BugReport96.text_html">RefreshCache</a> for this page (cached 2004-08-30 02:02:48)<br>
+<p><a href="./BugReport96?action=edit">EditText</a> of this page (last edited 2004-08-30 02:02:47 by <span title="24.202.242.119=modemcable119.242-202-24.mc.videotron.ca">modemcable119</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:40:02 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:36:17 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.157
+  captures_list: 256.871
+  esindex: 0.029
+  LoadShardBlock: 232.631 (3)
+  CDXLines.iter: 17.557 (3)
+  load_resource: 187.952
+  RedisCDXSource: 3.166
+  PetaboxLoader3.datanode: 211.185 (4)
+  exclusion.robots: 0.169
+  PetaboxLoader3.resolve: 190.858 (2)
+-->

@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Races/Thunderlord - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fRaces_2fThunderlord?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fRaces_2fThunderlord?action=print">
+<link rel="Up" href="/Documentation_2fRaces">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fRaces_2fThunderlord?action=fullsearch&amp;value=%2FThunderlord&amp;literal=1&amp;case=1&amp;context=40">Documentation/Races/Thunderlord</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fRaces">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fRaces_2fThunderlord?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fRaces_2fThunderlord">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fRaces_2fThunderlord?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fRaces_2fThunderlord?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fRaces_2fThunderlord?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fRaces_2fThunderlord?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fRaces_2fThunderlord?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fRaces_2fThunderlord?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fRaces_2fThunderlord?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fRaces_2fThunderlord?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fRaces_2fThunderlord?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fRaces_2fThunderlord">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<em><strong>No Spoilers here, please.</strong></em> <p>
+The Thunderlords are supremely powerful spirits created by Manwe Sulimo, each riding a Great Eagle. They have the ability to conjure powerful  thunderbolts. They are telepathic, and gain the ability to use the Straight Road, which can carry them to any location they have previously been. Due to their special clothing, they can resist elemental damage. However, they take a very long time to gain levels as both rider and eagle must accumulate experience. 
+</p>
+<p>
+Stat Modifiers: 
+<div>
+<table>
+<tr>
+<td>
+Strength</td>
+<td>
++6</td>
+</tr>
+<tr>
+<td>
+Intelligence</td>
+<td>
++2</td>
+</tr>
+<tr>
+<td>
+Wisdom</td>
+<td>
++1</td>
+</tr>
+<tr>
+<td>
+Dexterity</td>
+<td>
++1</td>
+</tr>
+<tr>
+<td>
+Constitution</td>
+<td>
++3</td>
+</tr>
+<tr>
+<td>
+Charisma</td>
+<td>
++8</td>
+</tr>
+<tr>
+<td>
+Hit Dice Sides</td>
+<td>
+12</td>
+</tr>
+<tr>
+<td>
+Exp Penalty</td>
+<td>
++300%</td>
+</tr>
+
+</p>
+</table>
+</div>
+<p>
+Skill Bonuses (supplementary to existing skills): 
+<div>
+<table>
+<tr>
+<td>
+Weaponmastery</td>
+<td>
+0.000</td>
+<td>
+[0.200]</td>
+</tr>
+
+</p>
+</table>
+</div>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fRaces_2fThunderlord?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fRaces_2fThunderlord.text_html">RefreshCache</a> for this page (cached 2004-12-17 18:25:13)<br>
+<p><a href="./Documentation_2fRaces_2fThunderlord?action=edit">EditText</a> of this page (last edited 2004-07-09 19:00:50 by <span title="user-2iverjg.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 07:47:49 Mar 26, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:40:07 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 133.19
+  exclusion.robots: 0.122
+  exclusion.robots.policy: 0.114
+  RedisCDXSource: 8.089
+  esindex: 0.012
+  LoadShardBlock: 101.556 (3)
+  PetaboxLoader3.datanode: 163.224 (4)
+  CDXLines.iter: 20.242 (3)
+  load_resource: 95.803
+  PetaboxLoader3.resolve: 20.745
+-->

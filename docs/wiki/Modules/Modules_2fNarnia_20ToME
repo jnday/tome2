@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Narnia ToME - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fNarnia_20ToME?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fNarnia_20ToME?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fNarnia_20ToME?action=fullsearch&amp;value=%2FNarnia+ToME&amp;literal=1&amp;case=1&amp;context=40">Modules/Narnia ToME</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fNarnia_20ToME?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fNarnia_20ToME">View</a></li>
+<li><a title="Diffs" href="./Modules_2fNarnia_20ToME?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fNarnia_20ToME?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fNarnia_20ToME?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fNarnia_20ToME?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fNarnia_20ToME?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fNarnia_20ToME?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fNarnia_20ToME?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fNarnia_20ToME?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fNarnia_20ToME?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fNarnia_20ToME">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af">Description</h2>
+<p>
+A VERY preliminary version of my Narnia module. It resets TOME in C.S. Lewis's  world of Narnia. Currently, I have created almost entirely new races, and a  couple of new skills, as well as a new overland map. All new races also have a  help file, although there are some typos. The dungeons are not really ready,  except for the first one, and the races and new class need some serious  tweaking. Monsters, items, and artifacts need a serious overhaul, but that has  not yet been done. Anyone willing to help would be welcome. 
+</p>
+<p>
+Have made some improvements, but some Tolkien cities still appear, and the monsters are still from normal ToME. Should fix some problem some were having before, though. 
+</p>
+<h2 id="head-d090da4c442fe9bc413f7ee9c6a056292c8a88ce">Current Features</h2>
+
+    <ul>
+
+    <li>
+<p>
+ Almost all-new races and a new Scholar main class 
+</p>
+</li>
+    <li>
+<p>
+ Two new skills: Item Lore and Scroll Preservation 
+</p>
+</li>
+    <li>
+<p>
+ New racial abilities for the Mole, Hag, and Cruel. 
+</p>
+</li>
+    <li>
+<p>
+ All new wilderness 
+</p>
+</li>
+    <li>
+<p>
+ New first main dungeon, Castle of the White Witch, with a nice entrance "town" that lets you actually walk into the castle. 
+</p>
+</li>
+    <li>
+<p>
+ New optional dungeon: Lantern Waste with the White Stag as the guardian 
+</p>
+</li>
+    <li>
+<p>
+ Two new (partially completed) gods: Aslan and the Nature Goddess 
+</p>
+</li>
+    <li>
+<p>
+ Two "new" towns (really just edits of ToME towns): Beaver's Dam and Beruna 
+</p>
+</li>
+    <li>
+<p>
+ Help files for most of the new races and classes 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-63c1a47f2a5144a5ab8611089cd394169c437dbb">Features in the next release</h2>
+
+    <ul>
+
+    <li>
+<p>
+ All races updated for ToME 2.3.* 
+</p>
+</li>
+    <li>
+<p>
+ New skills, abilities, and sub-classes from other modules 
+</p>
+</li>
+    <li>
+<p>
+ Brand new skills and abilities--Bargaining and Medicine 
+</p>
+</li>
+    <li>
+<p>
+ Classes revised with the new skills and abilities.  Scholar class will expecially be edited. 
+</p>
+</li>
+    <li>
+<p>
+ New subclasses, Medic(Warrior), Profiteer(Loremaster), Healer(Priest), My version of the Archeologist(Scholar), and the Headmaster(Scholar) 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-4ae1f2e7605785e4907ba1f3b247d84161a0ef10">Upcoming Features</h2>
+
+    <ul>
+
+    <li>
+<p>
+ One unique sub-class for each race not usable by any other, including the Gamesmaster(Bear Warrior), Weaponmaster(Human Warrior), Seer(Centaur Scholar), Master-Doctor(Half-Dwarf Scholar), Reepicheep Knight(Mouse Warrior), and Stalker(Cruel Rogue) 
+</p>
+</li>
+    <li>
+<p>
+ Swimming system/skill that will depend on race.  Mice, for instance, will need the swimming skill to travel through even shallow water, while Giants will be able to wade through all but the deepest water without need of swimming. 
+</p>
+</li>
+    <li>
+<p>
+ New sub-class, my version of the Gambler(Rogue) with my version of the gambling skill. 
+</p>
+</li>
+    <li>
+<p>
+ Option to gamble in any tavern or inn and at other places.  New gambling items, dice and loaded dice and cards and marked cards, usable in these places.  Casino options replaced with lua scripted versions.  This will allow the gambling skill to effect your chances.  Having too much success at gambling will make it harder to gamble. At the common inns, however 
+</p>
+</li>
+    <li>
+<p>
+ New gambling items with strange effects. 
+</p>
+</li>
+    <li>
+<p>
+ New ablilites--Fated and Charming.  Fated will cause strange things to happen around you, many of them good and a few bad, and Charming will cause creatures of the opposite gender to be friendlier to you.(Neutrals are just out of luck)  Each is based on one of my new skills, Gambling, and Bargaining. 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-a69ab6442fa5e4ed9de9974074737205958697f1">Module Version</h2>
+0.2.0 <h2 id="head-c0975d85796fcb5ef3b4bf9d9c2388a4b1dc8123">T-Engine version</h2>
+2.2.7 <h2 id="head-5fda23d62015b99fb2a9f86b38bcdf2bdf7609c8">Author</h2>
+<a href="http://web.archive.org/web/20070509133603/mailto:catwhowalksbyhimself@yahoo.com">catwhowalksbyhimself@yahoo.com</a> <h2 id="head-cf1b91677c424704e7d3a429fb90869242e87885">Last update</h2>
+14/07/2005 <h2 id="head-a479c9c34e878d07b4d67a73a48f432ad7dc53c8">Download</h2>
+You can download this module as a <a class="external" href=".modules.t-o-m-e.net/module.php?id=33"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">zip file</a>. <p>
+Size    1 105 kB 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h2>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  Hm, this page needs to be updated since it gives an old version as being the current one. <strong><a href="./ShadUs">ShadUs</a></strong>': Any work being done on this? 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fNarnia_20ToME?action=refresh&amp;arena=Page.py&amp;key=Modules_2fNarnia_20ToME.text_html">RefreshCache</a> for this page (cached 2007-01-02 01:15:15)<br>
+<p><a href="./Modules_2fNarnia_20ToME?action=edit">EditText</a> of this page (last edited 2007-01-02 01:15:15 by <span title="24.209.61.195=cpe-24-209-61-195.neo.res.rr.com">cpe-24-209-61-195</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:36:03 May 09, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:14 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 252.474
+  exclusion.robots: 0.114
+  exclusion.robots.policy: 0.106
+  RedisCDXSource: 1.342
+  esindex: 0.01
+  LoadShardBlock: 232.855 (3)
+  PetaboxLoader3.datanode: 218.241 (4)
+  CDXLines.iter: 16.175 (3)
+  load_resource: 229.932
+  PetaboxLoader3.resolve: 155.777
+-->

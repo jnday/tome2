@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport133 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport133?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport133?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport133?action=fullsearch&amp;value=BugReport133&amp;literal=1&amp;case=1&amp;context=40">BugReport133</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport133?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport133">View</a></li>
+<li><a title="Diffs" href="./BugReport133?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport133?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport133?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport133?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport133?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport133?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport133?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport133?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport133?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport133">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Firewall spell says "duration" where maybe it should say "range" or something. Firewall has no "duration", and the name is misleading as it doesn't have any "wall" characteristics - it's effect looks like a line. <p>
+I'm suspecting the spell's code used to be a durable effect like noxious cloud but the description wasn't updated. 
+</p>
+<p>
+Either the spell's code or its description is wrong. 
+</p>
+<p>
+(I haven't checked the 2.3.0 version wand, but if I recall correctly it has the bug too) 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Actually, the effects last for the duration of the spell. If a monster walks thru where you shot the beam while the spell is still active, they will take damage... At least that's how it should work. So, if you shot it down a hallway, the monsters coming a few turns after you used the spell will also take the damage because the firewall is still there. 
+</p>
+<p>
+Simon: Couldn't replicate this effect after a few tries. How do you do that? 
+</p>
+<p>
+<strong><a href="./SoulWynd">SoulWynd</a></strong>: Well, I said that's how it should work. I never tried myself, but you can find the function on spells2.c I think. It certainly takes a time variable for it to work, if it works. 
+</p>
+<p>
+<strong><a href="./ZasVid">ZasVid</a></strong>: Last time I used Firewall, it WAS doing what <a href="./SoulWynd">SoulWynd</a> described (with ToME 226, I think). 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: This is not a bug, the spell effects last for the given duration (checked in ToME 2.3.0). Using text mode even shows a shimmering effect that lasts for the duration of the spell. 
+</p>
+<p>
+There are two problems left: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ The spell / effect name could be chosen better (it's not a wall, but a persistent beam) 
+</p>
+</li>
+    <li>
+<p>
+ The shimmering effect should also be visible in graphic modi, but this is already on the bug list: 
+</p>
+</li>
+
+    </ul><pre>[B]- Make persistent effects visible when using graphics
+</pre></div><div id="footer">
+
+
+<a href="./BugReport133?action=refresh&amp;arena=Page.py&amp;key=BugReport133.text_html">RefreshCache</a> for this page (cached 2004-12-13 19:42:52)<br>
+<p><a href="./BugReport133?action=edit">EditText</a> of this page (last edited 2004-10-04 08:01:56 by <span title="dialin-145-254-143-179.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 04:56:28 Jan 27, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:05 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 105.834
+  exclusion.robots: 0.206
+  exclusion.robots.policy: 0.19
+  RedisCDXSource: 0.914
+  esindex: 0.015
+  LoadShardBlock: 75.991 (3)
+  PetaboxLoader3.datanode: 98.582 (4)
+  CDXLines.iter: 25.082 (3)
+  load_resource: 235.705
+  PetaboxLoader3.resolve: 178.277
+-->

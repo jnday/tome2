@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Rename God spell books - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fRename_20God_20spell_20books?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fRename_20God_20spell_20books?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fRename_20God_20spell_20books?action=fullsearch&amp;value=%2FRename+God+spell+books&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Rename God spell books</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fRename_20God_20spell_20books?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fRename_20God_20spell_20books">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fRename_20God_20spell_20books?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fRename_20God_20spell_20books?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fRename_20God_20spell_20books?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fRename_20God_20spell_20books?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fRename_20God_20spell_20books?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fRename_20God_20spell_20books?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fRename_20God_20spell_20books?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fRename_20God_20spell_20books?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fRename_20God_20spell_20books?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fRename_20God_20spell_20books">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MayLith">MayLith</a>: Okay, so I'm working on the God documentation when it finally dawns on me a very minor change could make a nice flavor addition for the game: <p>
+Call all the God spellbooks something else, namely prayerbooks. IIRC, the oldtime Moria worked that way... 
+</p>
+<p>
+The collection books wouldn't have to be renamed, as you would have "books" for the standard spells and "holy tomes" for the God spells. 
+</p>
+<p>
+Of course, that opens up the can of worms of "praying" to a god vs. casting a "prayer", but I thought I'd mention it anyway. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: That would imply that those spells work differently, though.  The prayer mechanics are different in Moria and Angband, but they aren't in ToME.  I think the name change would be misleading and harmful. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: It's been too long since I played Moria. I thought the mechanics were the same. Anyway, if you check the brandnew Doc/Intro to Gods, I've noted that "god spells" reference is preferable to "prayers" anyway, in order to prevent confusion... but thanks for the feedback. <img src="./wiki/starshine/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+Hey, while I'm at it, Neil, I wanted to ask you somehting. There's a certain "if you do X, God will abandon you forever" phrase...and I'm wondering whether that should remain in Doc or get axed as a spoiler. IMHO, it's a spoiler and should go. Input please? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Good question.  I think you're right.  Remove it from the docs but make sure to add it to Galadriel's speech (not technically in the docs, but essentially mid-game spoily documentation). 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I'll axe it from the Doc if you can put it on the to-do list for the code? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: I just added a note for each Vala in the speech conditional on which (if any) you are following. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Great. It's out of the Doc...along with a few more references to Morgoth. It's amazing how those keep cropping up.  
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fRename_20God_20spell_20books?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fRename_20God_20spell_20books.text_html">RefreshCache</a> for this page (cached 2004-08-22 14:05:00)<br>
+<p><a href="./IdeaArchive_2fRename_20God_20spell_20books?action=edit">EditText</a> of this page (last edited 2004-08-22 14:04:59 by <span title="user-2ivel9j.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:59:45 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:40 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 176.557
+  exclusion.robots: 0.099
+  exclusion.robots.policy: 0.092
+  RedisCDXSource: 1.773
+  esindex: 0.007
+  LoadShardBlock: 150.703 (3)
+  PetaboxLoader3.resolve: 89.374 (3)
+  PetaboxLoader3.datanode: 126.747 (4)
+  CDXLines.iter: 21.165 (3)
+  load_resource: 101.022
+-->

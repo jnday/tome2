@@ -1,0 +1,342 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport241 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport241?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport241?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport241?action=fullsearch&amp;value=BugReport241&amp;literal=1&amp;case=1&amp;context=40">BugReport241</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport241?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport241">View</a></li>
+<li><a title="Diffs" href="./BugReport241?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport241?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport241?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport241?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport241?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport241?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport241?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport241?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport241?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport241">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+As reported on the <a class="external" href=".forum.t-o-m-e.net/viewtopic.php?t=5535&amp;start=15"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">forum</a>, you can still obtain god quests by losing and restoring experience. Perhaps the test added is not strict enough. <p>
+<a href="./ErisDiscordia">ErisDiscordia</a>: I just went and reprod this using Debug Mode in the October 22nd build (or perhaps more precisely October 19th build) of 2.3. It's not that hard to do, so anyone unconvinced that the bug is not yet fully quashed (not to say that there are many such people, but just in case) can fairly easily do the same. 
+</p>
+<p>
+What I did was: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ fire up a character with no god  
+</p>
+</li>
+    <li>
+<p>
+ go into debug mode 
+</p>
+</li>
+    <li>
+<p>
+ ctrl-A, x (experience boost) until I was level 31 
+</p>
+</li>
+    <li>
+<p>
+ bop over to Lothlorien 
+</p>
+</li>
+    <li>
+<p>
+ create a macro for creating potions of lose memories (^AcBM)+ 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ run it a lot 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ create a macro for creating potions of restore life levels (^AcBS) 
+</p>
+</li>
+
+        <ul>
+
+        <li>
+<p>
+ run it a lot 
+</p>
+</li>
+
+        </ul>
+
+
+    <li>
+<p>
+ convert to Tulkas 
+</p>
+</li>
+    <li>
+<p>
+ quaff my way down and up the experience ladder 
+</p>
+</li>
+    <li>
+<p>
+ presto bingo, Tulkas gives me a quest upon the fifth or sixth return to level 31 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
++ actually I did it in a much more awkward way, but I won't put that in the repro instructions... 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: There's a much better way than using a macro for that, anyway.  Create one, then use the tweak command to turn the 1 into 99. 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: This is not a bug. The only thing that the recent change to the code prevents is from someone scumming for quests after they have already failed one. 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Oh really? There's a lot of people who are misinformed about this topic, then. I had no idea you could get a quest after you failed on, under any circumstances.... but I thought that getting god quests by yo-yoing experience was no longer possible. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Checked the lua code yesterday (deleted wrong statement): <pre>if (player.astral ~= FALSE) or (player.pgod &lt;= 0)  
+or (quest(GOD_QUEST).status == QUEST_STATUS_TAKEN) or (quest(GOD_QUEST).status == QUEST_STATUS_FAILED)
+or (god_quest.quests_given &gt;= god_quest.MAX_NUM_GOD_QUESTS) or (give_god_quest == FALSE)
+or ((current_dungeon_idx == god_quest.DUNGEON_GOD) and (dun_level &gt; 0)) or (player.lev &lt;= god_quest.dun_minplev) then
+        return
+else
+        -- start god quest</pre>
+</p>
+<p>
+It seems that the last check does not work properly. 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: Ah whoops. 
+</p>
+<p>
+Actually Maylith my comment above is entirely incorrect. What I meant was that the change I had made would only prevent people from scumming if they had already completed one god quest. Trying to get your first one through exp loss would still work. However as MM stated above, I failed to implement the fix properly. I'll have a look at redoing it.  
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: I was wrong, dun_minplev is set to player.lev... 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: Ho hum. I'll test it and see if I can reproduce the bug. 
+</p>
+<p>
+<strong><a href="./RedNaga">RedNaga</a></strong>: i think i figured this out - the minimum level requirement (dun_minplev) is only updated when the player actually obtain a quest, but he may pass several levels without getting a quest, lose them by exp draining and then, when regained by restoration, the god quest is checked against the *old* level requirement. Apologies for the confused explaination. Anyway the bug should be solved by updating the level requirement *every time the player gain a level* - i suggest modifying the entire hook as follow: 
+<pre>                [HOOK_PLAYER_LEVEL] = function(gained)
+                        local home_axis, home
+
+                        if gained &gt; 0 then
+                                -- Update the requirements
+                                if (player.lev &gt; god_quest.dun_minplev) then
+                                        god_quest.dun_minplev = player.lev
+                                end
+
+                                -- roll for chance of quest
+                                local give_god_quest = magik(god_quest.CHANCE_OF_GOD_QUEST)
+
+                                -- check player is worshipping a god, not already on a god quest.
+                                if (player.astral ~= FALSE) or (player.pgod &lt;= 0) 
+                                or (quest(GOD_QUEST).status == QUEST_STATUS_TAKEN) or (quest(GOD_QUEST).status == QUEST_STATUS_FAILED)
+                                or (god_quest.quests_given &gt;= god_quest.MAX_NUM_GOD_QUESTS) or (give_god_quest == FALSE)
+                                or ((current_dungeon_idx == god_quest.DUNGEON_GOD) and (dun_level &gt; 0)) or (player.lev &lt; god_quest.dun_minplev) then
+                                        return
+                                else
+                                        -- each god has different characteristics, so the quests are differnet depending on your god
+                                        if player.pgod == GOD_ERU then
+                                                god_quest.relic_num = 7
+                                        elseif player.pgod == GOD_MANWE then
+                                                god_quest.relic_num = 8
+                                        elseif player.pgod == GOD_TULKAS then
+                                                god_quest.relic_num = 9
+                                        elseif player.pgod == GOD_MELKOR then
+                                                god_quest.relic_num = 10
+                                        elseif player.pgod == GOD_YAVANNA then
+                                                god_quest.relic_num =11
+                                        end
+
+                                        -- This var will need resetting
+                                        god_quest.relic_generated = FALSE
+                                        quest(GOD_QUEST).status = QUEST_STATUS_TAKEN
+                                        god_quest.quests_given = god_quest.quests_given + 1
+
+                                        -- actually place the dungeon in a random place
+                                        place_rand_dung()
+
+                                        -- store the variables of the coords where the player was given the quest
+                                        god_quest.player_y, god_quest.player_x = player.get_wild_coord()
+
+                                        -- establish direction of player and 'home' from dungeon
+                                        local home, home_axis, home_distance, home2, home2_axis, home2_distance = get_god_quest_axes()
+
+                                        -- God issues instructions
+                                        cmsg_print(TERM_L_BLUE, "The voice of "..deity(player.pgod).name.." booms in your head:")
+
+                                        cmsg_print(TERM_YELLOW, "'I have a task for thee.")
+                                        cmsg_print(TERM_YELLOW, "Centuries ago an ancient relic of mine was broken apart.")
+                                        cmsg_print(TERM_YELLOW, "The pieces of it hath been lost in fallen temples.")
+                                        cmsg_print(TERM_YELLOW, "Thou art to find my lost temple and retrieve a piece of the relic.")
+                                        cmsg_print(TERM_YELLOW, "When thy task is done, thou art to lift it in the air and call upon my name.")
+                                        cmsg_print(TERM_YELLOW, "I shall then come to reclaim what is mine!")
+                                        if home_axis ~= "close" then
+                                                cmsg_print(TERM_YELLOW, "The temple lies "..home_distance.." to the "..home_axis.." of "..home..", ")
+                                        else
+                                                cmsg_print(TERM_YELLOW, "The temple lies very close to "..home..",")
+                                        end
+
+                                        if home2_axis ~= "close" then
+                                                cmsg_print(TERM_YELLOW, "and "..home2_distance.." to the "..home2_axis.." of "..home2..", I can feel it.'")
+                                        else
+                                                cmsg_print(TERM_YELLOW, "and very close to "..home2..", I can feel it.'")
+                                        end
+
+                                        -- Prepare depth of dungeon. If this was generated in set_god_dungeon_attributes(),
+                                        -- then we'd have trouble if someone levelled up in the dungeon!
+                                        god_quest.dun_mindepth = player.lev*2/3
+                                        god_quest.dun_maxdepth = god_quest.dun_mindepth + 4
+                                end
+                        end
+                end,
+</pre>
+</p>
+<p>
+Specifically, the changes are: 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ moved the god_quest.dun_minplev from the end of the hook to its start, subject to a test against the player level 
+</p>
+</li>
+    <li>
+<p>
+ changed the test against it to be <strong>&lt;</strong> (and no longer <strong>&lt;=</strong>) to accomodate for updating the requirement before the check itself. 
+</p>
+</li>
+
+    </ul>
+
+
+<p>
+I've not tested the above (and there may be syntax errors due to my poor knowledge of LUA), so any feedback is welcome... 
+</p>
+<p>
+Wastrel:  Currently, one may lose/restore xp to gain a quest, but my understanding is that the quest is always more difficult than the previous quest.  This is a change from the past, when you could have a quest be just as easy as previous quests. However, it seems to me that implementing the above change could result in characters unable to receive all 5 quests if they were unlucky enough.  Is that desirable?  Not to me, but I'll leave it up to <a href="./FearofFours">FearofFours</a> since its his quest 
+</p>
+<p>
+<strong><a href="./FearofFours">FearofFours</a></strong>: Aha! A fix for this bug, well spotted <a href="./RedNaga">RedNaga</a>, it's been bugging me! I will repost here when I have tested and commited it! 
+</p>
+<p>
+<strong>Luck</strong>:  Has this been fixed for 2.3.1?  Because last night I accidentally got a God Quest after stepping on a trap that drained my guy down a level, and then I drank a potion of restore life levels.  I hadn't failed a quest prior to that so that wasn't the problem, but the yo-yoing thing still seems to work. 
+</p>
+<p>
+<strong><a href="./FeathinSilyar">FeathinSilyar</a></strong>:  This bug is still not fixed in 2.3.2.  I created an athiest char, raised him to clev 31, converted to Tulkas, drained and restored several levels, and got a godquest.  I went and completed the godquest, and drained and restored levels again (still just to 31), and I got my second godquest. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: It's in the next version.  From changes.txt 
+</p>
+
+    <ul>
+
+ 2005/08/12:  [B]- Don't let a player trick the Valar by getting drained and re-gaining levels -- Neil </ul>
+
+</div><div id="footer">
+
+
+<a href="./BugReport241?action=refresh&amp;arena=Page.py&amp;key=BugReport241.text_html">RefreshCache</a> for this page (cached 2005-11-08 06:55:11)<br>
+<p><a href="./BugReport241?action=edit">EditText</a> of this page (last edited 2005-09-15 05:43:21 by <span title="trantor"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 22:21:01 Mar 13, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:32:21 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 270.56
+  exclusion.robots: 0.171
+  exclusion.robots.policy: 0.159
+  RedisCDXSource: 1.392
+  esindex: 0.012
+  LoadShardBlock: 245.794 (3)
+  PetaboxLoader3.datanode: 71.038 (4)
+  CDXLines.iter: 19.956 (3)
+  PetaboxLoader3.resolve: 93.672 (2)
+  load_resource: 97.61
+-->

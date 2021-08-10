@@ -1,0 +1,821 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Automatizer help - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fAutomatizer_20help?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fAutomatizer_20help?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fAutomatizer_20help?action=fullsearch&amp;value=%2FAutomatizer+help&amp;literal=1&amp;case=1&amp;context=40">Documentation/Automatizer help</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fAutomatizer_20help?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fAutomatizer_20help">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fAutomatizer_20help?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fAutomatizer_20help?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fAutomatizer_20help?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fAutomatizer_20help?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fAutomatizer_20help?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fAutomatizer_20help?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fAutomatizer_20help?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fAutomatizer_20help?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fAutomatizer_20help?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fAutomatizer_20help">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top"/> <strong><em>TO ALL USERS</em>: If you are not a game developer or a moderator, please do not edit the content of this page, or its sub-pages. You may contribute via <a class="interwiki" title="Self" href="./Documentation#head-7fa0a174d9f0cdb4daff4e27c889516ddeb06a90"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">User suggestions</a>, where anyone is welcome to contribute a thread. Thank you!</strong> --- <strong><a href="./TheFalcon">TheFalcon</a></strong>  2005-04-15 13:46:35 <hr>
+ <ol>
+<li>
+<a href="#head-2473e96bc614a911821242119918a241a41836d6">Introduction</a></li>
+<li>
+<a href="#head-f996e0a2042645f9ae2e7b20f7acdeebac4a1219">Basic Commands</a></li>
+<li>
+<a href="#head-220f4c0d64309f2122592e4f480d71d753dead76">Pseudo-Id, Tval and Sval</a></li>
+<li>
+<a href="#head-5b3c88066af6237640566db606a66924c7a1e3b5">Character Levels</a></li>
+<li>
+<a href="#head-dbf867e7c9d7cc39a10316525341a596ab6fdcf8">Scaling Rules</a></li>
+<li>
+<a href="#head-ba1e7e70ab298fda1254eae7cc102d0e3cc3667d">Class and Subclass</a></li>
+<li>
+<a href="#head-5b5ef5a8ea5f35ca0b7fca7a094d5b170243a973">Specific Names</a></li>
+<li>
+<a href="#head-70440046a3dc2e079f23ee1c57dfa76669b732aa">Notes</a></li>
+<li>
+<a href="#head-f1a4a60cf8f87456a76487a00374985439b2c1be">Extra Help</a></li>
+<li>
+<a href="#head-4b681f8c9443aaed35cb5d577b89d67d0e7e1fb4">Sample Files</a></li>
+</ol>
+
+ <hr>
+ <p>
+The Automatizer help consists of a tutorial, with questions being asked and answered. The questions are indicated in bold type, with the replies below. Subheadings have also been included, for ease of navigation. It may also be helpful to go through it with your own ToME automatizer screen readily accessible, in order to experiment with the commands outlined here. 
+</p>
+<p>
+The tutorial includes extracts from the automatizer screen, although they lack colour. <h3 id="head-2473e96bc614a911821242119918a241a41836d6">Introduction</h3>
+
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>What is the Automatizer?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   The automatizer is an advanced auto-pickup or auto-squelch (auto-destroyer). At a basic level, it will allow you to automatically destroy things that you have no use for once you walk over them, providing that you have identified one of them with your current character. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Is that it?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Well no. The automatizer is far more flexible than that. The old-fashioned auto-squelch allowed you to destroy things dependent on how they pseudo-id'd - you could auto-destroy all {cursed} swords for instance. This is fine to start with, but once you get deep in the dungeon, and have a lot of money and a decent weapon, you'll be interested in destroying {average} and {good} items too right? Well the automatizer allows you to define destruction of things providing you are of a certain level. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Sounds quite cool, but wha...</strong> 
+</p>
+</li>
+
+            <ul>
+
+   STOP RIGHT THERE! I haven't finished yet! Lets look at some other examples. Most of the time, scrolls of darkness are pretty useless. Unless you are a vampire, or an alchemist, right? So you might think it was no good to add auto-destroy of scrolls of darkness to the automatizer. But you'd be wrong, for you can add rules that are dependent on certain conditions, like that you are of a certain race, or class. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Hey this is sounding good. What if it destroys my artifacts?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   It can't. Artifacts can never be destroyed, by the automatizer. However, watch out for items that are VERY cool but not artifacts... you wouldn't want to go destroying boots of speed would you? Fortunately there are provisions for this too, you could set a rule that destroyed all excellent boots (providing you were past character level 45 say), but not if they were boots of speed. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Woah! This sounds amazing!</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Yes it is, isn't it. 
+            </ul>    </ul>
+
+
+<h3 id="head-f996e0a2042645f9ae2e7b20f7acdeebac4a1219">Basic Commands</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>So how do I use it?</strong> 
+</p>
+</li>
+
+        <ul>
+
+  Well the very simplest way is as follows. When you hit 'k' (^D in the roguelike keyset) to destroy an item, you'll see that one option is "$ new automatizer rule(OFF)". If you want to destroy all future items like that that you find, then hit the $ key. You'll see that (OFF) changes to (ON). Now pick the item you want to destroy. Lets say it is a Potion of Salt Water. You would now, as normal, see a message "You destroy a Potion of Salt Water". Following this you get a prompt, "Destroy all of the same [T]ype, [F]amily, or [N]ame, also use [S]tatus (no)?". Lets take the easy one first and hit 'n' to go with name. You'll now see a message, "Rule added, please go to the automatizer screen (press = then T) to save the modified ruleset". Lets do that then shall we. If this is the first time you have used the automatizer with this savefile, you'll be asked to enable it as you hit T. Confirm that you would like to enable it otherwise it won't work. 
+        </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>What's the point in having it disabled then?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Well lets say you spotted something that you weren't sure how it would be affected by your rules, but didn't want to destroy it; you could just disable the automatizer for a moment and check it over before deciding what to do with it and switching the automatizer back on. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Hmmm, ok. So I've enabled the automatizer, now what?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Well, you'll see a screen like this: 
+            </ul>    </ul><pre>/----Rules-----/----------------------------------------------------------------\
+|salt water    |&lt;rule name="salt water" type="destroy"&gt;                         |
+|food          |    &lt;name&gt;potion of salt water&lt;/name&gt;                           |
+|              |&lt;/rule&gt;                                                         |
+|              |                                                                |
+|              |                                                                |
+|              |                                                                |
+|              \----------------------------------------------------------------/
+|              | up/down to scroll, tab to switch to the rule window             
+|              | u/d to move rules, new rule, rename rule, save rules            
+\--------------/ k to disable the automatizer                                    
+</pre>(snipped for brevity). 
+                        <ul>
+
+      The automatizer rules are written in XML, so if you're familiar with that format you shouldn't find things too difficult. It's also similar in format to HTML, as you may notice from the way that there are opening tags (&lt;name&gt;) and closing tags (&lt;/name&gt;), and that everything between those tags is affected by that rule. 
+                        </ul>    <ul>
+
+    <li>
+<p>
+ <strong>XML? HTML? What is this? Isn't ToME enough acronyms to be going on with?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   OK, so you don't know anything about mark-up languages, it's no problem. Lets take a look at the automatizer screen bit by bit, starting with the instructions bottom right: 
+                <ul>
+
+                <li>
+<p>
+ <strong>up/down to scroll</strong>- Well as you move the up/down cursor keys or number keys, a different rule name is highlighted in the left hand window, and that rule is displayed in the right hand window. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>tab to switch to the rule window</strong>- Does what it says on the tin: switches to the rule window (the right hand pane) to allow editing of existing rules. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>u/d to move rules</strong>- pressing 'u' or 'd' will move the rule up or down the order displayed in the left hand window. Purely for cosmetic reasons. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>new rule</strong>- Adds the beginning of a new rule. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>rename rule</strong>- This is handy, as every rule added from the destroy prompt (as explained above) is automatically named 'destroy', which gets a bit confusing when you have 50 or so rules... renaming your rules will make them much easier to edit later. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>save rules</strong>- Saves all existing rules to a filename you designate (default is automat.atm). Don't forget to do this after adding new rules/before exiting the game. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>k to disable the automatizer</strong>- Disables the automatizer, preserving the rules you have made. 
+</p>
+</li>
+
+                </ul>            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Yeah, yeah so what about the rule window on the right hand side itself</strong> 
+</p>
+</li>
+
+            <ul>
+
+   OK, here we go. This is the real juicy stuff.    Anything inside pointy brackets (greater than and less than signs) is called a tag. You'll notice that each tag opens with a word, and then that same word appears in another tag later on, preceded by a slash. These are referred to as opening tags (for example, &lt;name&gt; ) and closing tags (like &lt;/name&gt; ). Everything within a set of closing and opening tags is affected by those tags. This will make more sense as we continue. Tags and the things they enclose are like "mini-rules" which will together make up one rule. I call these mini-rules, clauses. 
+                <ul>
+
+                <li>
+<p>
+ The first line:   Each rule starts with the tag , and this contains the rule name, and the rule type. The rule name is how it is identified in the left hand window, and need not be unique. The rule type will be either "destroy" (destroys items when conditions stated below are met) or "pickup" (picks up item when conditions are met) or "nothing" (neither picks up, nor destroys item when conditions are met) 
+</p>
+</li>
+                <li>
+<p>
+ The second line:   Potion of Salt Water  This tells us that for the rule to be carried out, the name of the item must be "Potion of Salt Water" 
+</p>
+</li>
+                <li>
+<p>
+ The third line:   This tells us the rule is ended. 
+</p>
+</li>
+
+                </ul>            </ul>    </ul>
+
+
+<p>
+<em><strong>In total then, the rule named "destroy" checks to see if the name of every item is Potion of Salt water, and if it is, it destroys it.</strong></em> 
+</p>
+<h3 id="head-220f4c0d64309f2122592e4f480d71d753dead76">Pseudo-Id, Tval and Sval</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>Nice and simple huh?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Yes, yes, very simple. It doesn't look very advanced at the moment. Well, we've barely scratched the surface. Lets take a look at those other options we got at the destroy prompt. Lets say I was at a stage in the game where I wanted to be able to switch on an auto-destroy for all swords that pseudo-id'd as {average}. So let's say I have a dagger in my backpack, and I want to create an auto-destroy rule for that and all subsequent swords...    This is what I'd do: Hit 'k' to destroy items and hit '$' to turn on automatizer rules. Then I'd select the dagger and confirm the destruction. Hit 's' to switch the status toggle. This toggle will include (when ON) how the dagger pseudo-ids, and finally hit 'f' to add a rule saying destroy by family. What you'll see in the automatizer screen now is this: 
+            </ul>    </ul><pre>/----Rules-----/----------------------------------------------------------------\
+|destroy       |&lt;rule name="destroy" type="destroy"&gt;                            |
+|destroy       |    &lt;and&gt;                                                       |
+|food          |        &lt;tval&gt;23&lt;/tval&gt;                                         |
+|              |        &lt;status&gt;average&lt;/status&gt;                                |
+|              |    &lt;/and&gt;                                                      |
+|              |&lt;/rule&gt;                                                         |
+|              |                                                                |
+|              |                                                                |
+|              |                                                                |
+|              |                                                                |
+|              \----------------------------------------------------------------/
+|              | up/down to scroll, tab to switch to the rule window             
+|              | u/d to move rules, new rule, rename rule, save rules            
+\--------------/ k to disable the automatizer                                    
+</pre>
+    <ul>
+
+    <li>
+<p>
+ <strong>OK, well I can see the pseudo-id status is there, but what's that tval thing? And where does it say swords?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Well actually the tval thing is where it says swords! This is what is added by the 'destroy by family' option. <p>
+   It's probably worth explaining a bit here about the internal structure of ToME code. Don't worry it's not too scary. In ToME, all objects are divided into types: swords, axes, hafted-weapons, scrolls, rings etc. Every type is further divided into sub-types. Eg swords are divided into daggers, broad swords, two-handed swords and so on. Scrolls are divided into their specific actions; scrolls of light, scrolls of satisfy hunger etc. Each type has a number assigned to it, that never changes, and so does each sub-type. In this way we can identify an exact object using just two values:  
+</p>
+
+                <ul>
+
+                <li>
+<p>
+ it's type, or tvalue (<strong>tval</strong>) and 
+</p>
+</li>
+                <li>
+<p>
+ it's sub-type, or svalue (<strong>sval</strong>).  
+</p>
+</li>
+
+                </ul>
+
+
+   You see where we're going with this? Now, daggers have a tval of 23 and an sval of 4. So you can see that we've said in the rule that all things with a tval of 23 and a status of average can be destroyed. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Ah, right. I see. And what's with the &lt;and&gt; tags?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Well, everything in those tags must be true for the rule to carry out. If we had the 23 and the average lines without the tags, it would not be clear whether we wanted just one of those clauses to be true for the rule to be carried out, or both of them. In other words, without the  tags it might look like we wanted to destroy: 
+                <ol type="a">
+
+                <li>
+<p>
+EVERYTHING that pseudo id'd as average, and 
+</p>
+</li>
+                <li>
+<p>
+EVERY sword, regardless of how it pseudo-id'd! 
+</p>
+</li>
+
+                </ol>            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Right. What if I did want a rule that was more general, and had either/or options in it?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Then there are tags to do that - the &lt;or&gt; &lt;/or&gt; tags. If ANY of the clauses return as true within or tags, then the rule is carried out. Substitute &lt;or&gt; tags for the &lt;and&gt; tags in our sword example above, and the rule will operate in the rather unhelpful way I explained above (all {average} things destroyed, and all swords destroyed, regardless of how they pseudo-id). So essentially, if your rule has more than one clause, you will need to include either &lt;and&gt; tags or &lt;or&gt; tags, or in some cases both. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>OK and so what does the [T]ype option do?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   It merely adds the sval, thus narrowing down the parameters for the auto- destroy. For instance if I'd chosen to destroy by type rather than family in the last example, we'd have ended up with this: 
+            </ul>    </ul><pre>/----Rules-----/----------------------------------------------------------------\
+|destroy       |&lt;rule name="destroy" type="destroy"&gt;                            |
+|destroy       |    &lt;and&gt;                                                       |
+|food          |        &lt;and&gt;                                                   |
+|              |            &lt;tval&gt;23&lt;/tval&gt;                                     |
+|              |            &lt;sval min="4" max="4"&gt;&lt;/sval&gt;                       |
+|              |        &lt;/and&gt;                                                  |
+|              |        &lt;status&gt;average&lt;/status&gt;                                |
+|              |    &lt;/and&gt;                                                      |
+|              |&lt;/rule&gt;                                                         |
+|              |                                                                |
+|              |                                                                |
+|              |                                                                |
+|              |                                                                |
+|              \----------------------------------------------------------------/
+|              | up/down to scroll, tab to switch to the rule window             
+|              | u/d to move rules, new rule, rename rule, save rules            
+\--------------/ k to disable the automatizer                                    
+</pre>
+                        <ul>
+
+      You can see in this example that we have nested &lt;and&gt; tags. Evaluating the tags from the ones nested deepest first we can see that if an object has a tval of 23 and an sval between the values of 4 and 4 (i.e. if it is 4) then the rule will check against the next part, which is to see if the object identifies {average}. If it does, then all the clauses have been met and rule is carried out. In short, it destroys all average daggers, rather than all average swords. Strictly speaking the nested &lt;and&gt; tags aren't needed, but they do no harm, and are added automatically when destroying by [T]ype. 
+                        </ul>    <ul>
+
+    <li>
+<p>
+ <strong>This is all well and good but the numbers are going to get rather confusing aren't they? Be much easier if I could just write 'swords' or 'daggers'.</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Well, you can. Kind of. Instead of using the admittedly rather obtuse numbers, you can use the name of that tvalue rather than the number it represents. So instead of 23 you could write TV_SWORD. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Ah that would be better. But where can I find out what all the names, and numbers of tvalues are?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Well I've written a file which lists tvalues and one which lists svalues for you to check on, and you may want to check the objects entry in k_info.txt in your lib/edit directory. If you look at the entry for dagger you'll see: 
+            </ul>    </ul><pre>N:43:&amp; Dagger~
+G:|:W
+I:23:4:0
+W:0:0:12:10
+A:0/1:5/1:10/1:20/1
+P:0:1d4:0:0:0
+</pre>
+                        <ul>
+
+      The only line we're interested in is the one that starts I (for Index). The first number is the tval, and the second is the sval. Of course you could always rename your rule to make things clearer. 
+                        </ul>
+
+
+<h3 id="head-5b3c88066af6237640566db606a66924c7a1e3b5">Character Levels</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>OK so you mentioned something about setting rules up that happen only if a player is a certain level?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Yeah, good point. Well lets develop our destroy average swords rule for the moment. Lets say we always wanted to destroy average swords by the time we got to character level 20. They don't earn enough gold to make it worth carrying back to town, and we'll have a better weapon by then anyway. So here we are in the automatizer screen, with the destroy sword rule displaying in the right hand window. If we hit tab, the right window becomes active and the rules at the bottom change: 
+            </ul>    </ul><pre>/----Rules-----/----------------------------------------------------------------\
+|destroy       |&lt;rule name="destroy" type="destroy"&gt;                            |
+|destroy       |    &lt;and&gt;                                                       |
+|food          |        &lt;tval&gt;23&lt;/tval&gt;                                         |
+|              |        &lt;status&gt;average&lt;/status&gt;                                |
+|              |    &lt;/and&gt;                                                      |
+|              |&lt;/rule&gt;                                                         |
+|              |                                                                |
+|              |                                                                |
+|              |                                                                |
+|              \----------------------------------------------------------------/
+|              | up/down/left/right to navitage rule, 9/3/7/1 to scroll          
+|              | tab for switch, add clause, delete clause/rule                  
+\--------------/                                                                 
+</pre>
+    <ul>
+
+    <li>
+<p>
+ <strong>Hmm...</strong> 
+</p>
+</li>
+
+            <ul>
+
+   You "can see" the &lt;rule&gt; tags have changed to purple, indicating they are the active ones, that all key presses will act upon. Lets just quickly scoot through these new commands: 
+                <ul>
+
+                <li>
+<p>
+ <strong>up/down/left/right to navigate rule:</strong> These will change which clause is active, enabling you to delete that clause, or add further clauses inside that one if it so allows it. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>9/3/7/1 to scroll:</strong> scrolls the whole screen which can become useful if you have a particularly long rule or one with lots of nested clauses. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>tab for switch:</strong> will make the left-hand window active again. 
+</p>
+</li>
+                <li>
+<p>
+ <strong>add clause:</strong> adds a new clause within the active one, providing the active clause is either a &lt;and&gt;, &lt;or&gt; or &lt;/not&gt; tag. 
+</p>
+</li>
+                <li>
+<p>
+ delete clause/rule: deletes the active clause, and any clauses nested within that one. Therefore if the &lt;rule&gt; tags are active, the whole rule will be deleted. Beware! 
+</p>
+</li>
+
+                </ul>
+
+
+   So if we now hit our right arrow we see that the &lt;and&gt; tags are active. We can now add a new clause here. lets do so by pressing 'a'. You'll now see a list of different types of clauses you can add, which you simply scroll through using up and down keys, and select by hitting enter. A brief description of the selected clause is shown in the right hand window. Scroll down to the 'level' rule type and hit enter. You'll be asked to enter a player level. Lets go for 20. You'll then be asked for a maximum level, put 50, as we want the rule to be true from level 20 and upwards. You'll now see out rule displays as: 
+            </ul>    </ul><pre>/----Rules-----/----------------------------------------------------------------\
+|destroy       |&lt;rule name="destroy" type="destroy"&gt;                            |
+|destroy       |    &lt;and&gt;                                                       |
+|food          |        &lt;tval&gt;23&lt;/tval&gt;                                         |
+|              |        &lt;status&gt;average&lt;/status&gt;                                |
+|              |        &lt;level min="20" max="50"&gt;&lt;/level&gt;                       |
+|              |    &lt;/and&gt;                                                      |
+|              |&lt;/rule&gt;                                                         |
+|              |                                                                |
+|              |                                                                |
+|              |                                                                |
+|              \----------------------------------------------------------------/
+|              | up/down/left/right to navitage rule, 9/3/7/1 to scroll          
+|              | tab for switch, add clause, delete clause/rule                  
+\--------------/                                                                 
+</pre>
+                        <ul>
+
+      So there we go. A rule which will destroy all {average} swords once the player is past character level 20. 
+                        </ul>
+
+
+<h3 id="head-dbf867e7c9d7cc39a10316525341a596ab6fdcf8">Scaling Rules</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>Hmmm I've tried this, it doesn't destroy cursed swords though...</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Nope. You haven't told it to. If you want a scaling rule, which always destroys cursed swords and then destroys average swords at character level 20, then {good} swords at character level 35, have a look at this, rather more complicated rule: 
+            </ul>    </ul><pre>/----Rules-----/----------------------------------------------------------------\
+|shield        |&lt;rule name="swords" type="destroy"&gt;                             |
+|bow           |    &lt;and&gt;                                                       |
+|hrd armour    |        &lt;tval&gt;23&lt;/tval&gt;                                         |
+|axes          |        &lt;or&gt;                                                    |
+|helms         |            &lt;and&gt;                                               |
+|soft arm      |                &lt;level min="0" max="50"&gt;&lt;/level&gt;                |
+|bolts         |                &lt;or&gt;                                            |
+|boots         |                    &lt;status&gt;very bad&lt;/status&gt;                   |
+|gloves        |                    &lt;status&gt;bad&lt;/status&gt;                        |
+|polearms      |                &lt;/or&gt;                                           |
+|cloak         |            &lt;/and&gt;                                              |
+|swords        |            &lt;and&gt;                                               |
+|hafteds       |                &lt;level min="15" max="50"&gt;&lt;/level&gt;               |
+|arrows        |                &lt;status&gt;average&lt;/status&gt;                        |
+|shot          |            &lt;/and&gt;                                              |
+|boomerang     |            &lt;and&gt;                                               |
+|torch         |                &lt;level min="25" max="50"&gt;&lt;/level&gt;               |
+|rod tips      |                &lt;status&gt;good&lt;/status&gt;                           |
+|potions       |            &lt;/and&gt;                                              |
+|rings         |        &lt;/or&gt;                                                   |
+|wands         |    &lt;/and&gt;                                                      |
+|mushrooms     |&lt;/rule&gt;                                                         |
+|scrolls       |                                                                |
+|amulets       |                                                                |
+|parchments    \----------------------------------------------------------------/
+|shape pot     | up/down to scroll, tab to switch to the rule window             
+|staves        | u/d to move rules, new rule, rename rule, save rules            
+\--------------/ k to disable the automatizer                                    
+</pre>
+    <ul>
+
+    <li>
+<p>
+ <strong>Woah! What the heck is that?!</strong> 
+</p>
+</li>
+
+            <ul>
+
+   OK, ok, slow down a minute. Look at it carefully and a clause at a time. It's not difficult. Lets take it from the top. It's a destroying rule called swords. It opens with some &lt;and&gt; tags. The object must be a sword (tval 23). Now we have an OR tag, so we know that there are going to be some options: 
+                <ul>
+
+                <li>
+<p>
+ option 1: the player is between level 0 and level 50, and the sword pseudo id's as either cursed or terrible. 
+</p>
+</li>
+                <li>
+<p>
+ option 2: the player is above character level 15, and the sword pseudo id's as average. 
+</p>
+</li>
+                <li>
+<p>
+ option 3: the player is above character level 25, and the sword pseudo id's as good. 
+</p>
+</li>
+
+                </ul>
+
+
+   If any of these options are true, the rule is carried out. This rule could easily be copied for other weapons or pieces of armour, substituting only the tval, and perhaps the name. 
+            </ul>
+
+
+    <li class="gap">
+<p>
+ <strong>Hmmm ok. looks good. I might want to change those character level values though. they look a bit low...</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Well yeah, that's up to your playing style I guess... If you want to edit clauses directly rather than delete and re-add them, you might want to edit the automat.atm file directly. Just open it in your text editor (it's located in your lib/user directory or in ~/.tome on multiuser systems) and you'll see the format is identical to how it is displayed in the automatizer file. Just watch your spellings, and keep a back-up of the original to replace if things go wrong. Don't mess about in there if you feel unsure of what you're doing though. 
+            </ul>    </ul>
+
+
+<h3 id="head-ba1e7e70ab298fda1254eae7cc102d0e3cc3667d">Class and Subclass</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>So what about those examples you gave up above? Like destroying scrolls of darkness unless you are a vampire or an alchemist?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   OK, lets add this rule from scratch rather than from the destroy item prompt. In the automatizer screen, hit 'n' for new rule. It asks for a name and a type of rule (destroy/pickup/nothing). I called my rule "? of darkness", and it's a destroy rule. It is worthwhile thinking at this point how the rule is going to be structured, for very complicated rules pen and paper may help. We're going to need to define the object (either by name, or by tval and sval) then we're going to say unless the player race modifier is vampire, or the player class is alchemist. So we are obviously going to have more than one clause, and the clauses are going to have to BOTH be true for the rule to take effect so the first clause we add is an  one. So hit 'a' for add clause and enter to select the &lt;and&gt; clause. Lets now hit our right arrow, so the &lt;and&gt; tags are active, and add a new rule. We can now select the &lt;name&gt; tags. At this point we're prompted for the name. Now it's not case-sensitive, but you do need to spell it correctly! <p>
+   With the &lt;and&gt; tags still highlighted we now want to add our "unless vampire or alchemist" clause. Seeing as this is an "unless" type clause, we start with a &lt;not&gt; tag. So again, 'a'dd a new clause, and select &lt;not&gt;. Now make the &lt;not&gt; tag active by moving right and down with the cursor keys. We want "EITHER vampire or alchemist" so we include &lt;or&gt; tags, again by moving across to make the &lt;not&gt; tags active and 'a'dding a new &lt;or&gt; clause. Then select the &lt;or&gt; tags and 'a'dd a new &lt;subrace&gt; clause. Enter 'vampire'. So the last part is to add alchemist. Now this might at first glance seem to be a simple case of 'a'dding a new clause of the &lt;class&gt; type, within the &lt;or&gt; tags, and there is certainly nothing 'wrong' with doing this. At present there is no way for non-alchemists to get the alchemy skill, but it is sometimes best to 'future-proof' against such possibilities. That's what we're going to do here. 
+</p>
+<p>
+   So rather than add a &lt;class&gt; clause, we're going to add a &lt;skill&gt; clause. With the &lt;or&gt; tags active, 'a'dd a new &lt;skill&gt; clause. You're first asked for a minimum skill level. Well, we can't use any skill unless we have 1.00 whole skill points in it or more, so we can put 1 in here. We're then asked for a maximum skill level, so we'll put in 50 here. The skill name must be spelled correctly (as it appears on the skill screen) so we put 'Alchemy' here. Your complete rule now appears as follows: 
+</p>
+
+            </ul>    </ul><pre>/----Rules-----/----------------------------------------------------------------\
+|? darkness    |&lt;rule name="? darkness" type="destroy"&gt;                         |
+|swords        |    &lt;and&gt;                                                       |
+|salt water    |        &lt;name&gt;Scroll of darkness&lt;/name&gt;                         |
+|food          |        &lt;not&gt;                                                   |
+|              |            &lt;or&gt;                                                |
+|              |                &lt;subrace&gt;vampire&lt;/subrace&gt;                      |
+|              |                &lt;skill min="1" max="50"&gt;Alchemy&lt;/skill&gt;         |
+|              |            &lt;/or&gt;                                               |
+|              |        &lt;/not&gt;                                                  |
+|              |    &lt;/and&gt;                                                      |
+|              |&lt;/rule&gt;                                                         |
+|              |                                                                |
+|              |                                                                |
+|              |                                                                |
+|              \----------------------------------------------------------------/
+|              | up/down to scroll, tab to switch to the rule window             
+|              | u/d to move rules, new rule, rename rule, save rules            
+\--------------/ k to disable the automatizer                                    
+</pre>
+                        <ul>
+
+      You'll notice I've also renamed the rules to make things a bit more legible. 
+                        </ul>
+
+
+<h3 id="head-5b5ef5a8ea5f35ca0b7fca7a094d5b170243a973">Specific Names</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <strong>OK I'm getting there now, what about the boots of speed thing you talked about?</strong> 
+</p>
+</li>
+
+            <ul>
+
+   Heh. Take a look at this, and see if you can work out what it's doing first before I talk you through it: 
+            </ul>    </ul><pre>/----Rules-----/----------------------------------------------------------------\
+|boots         |&lt;rule name="boots" type="destroy"&gt;                              |
+|? darkness    |    &lt;and&gt;                                                       |
+|swords        |        &lt;tval&gt;TV_BOOTS&lt;/tval&gt;                                   |
+|salt water    |        &lt;or&gt;                                                    |
+|food          |            &lt;and&gt;                                               |
+|              |                &lt;level min="0" max="50"&gt;&lt;/level&gt;                |
+|              |                &lt;or&gt;                                            |
+|              |                    &lt;status&gt;very bad&lt;/status&gt;                   |
+|              |                    &lt;status&gt;bad&lt;/status&gt;                        |
+|              |                &lt;/or&gt;                                           |
+|              |            &lt;/and&gt;                                              |
+|              |            &lt;and&gt;                                               |
+|              |                &lt;level min="20" max="50"&gt;&lt;/level&gt;               |
+|              |                &lt;status&gt;average&lt;/status&gt;                        |
+|              |            &lt;/and&gt;                                              |
+|              |            &lt;and&gt;                                               |
+|              |                &lt;level min="35" max="50"&gt;&lt;/level&gt;               |
+|              |                &lt;status&gt;good&lt;/status&gt;                           |
+|              |            &lt;/and&gt;                                              |
+|              |            &lt;and&gt;                                               |
+|              |                &lt;level min="45" max="50"&gt;&lt;/level&gt;               |
+|              |                &lt;status&gt;very good&lt;/status&gt;                      |
+|              |                &lt;state&gt;identified&lt;/state&gt;                       |
+|              |                &lt;not&gt;                                           |
+|              |                    &lt;contain&gt;speed&lt;/contain&gt;                    |
+|              |                &lt;/not&gt;                                          |
+|              |            &lt;/and&gt;                                              |
+|              |        &lt;/or&gt;                                                   |
+|              |    &lt;/and&gt;                                                      |
+|              |&lt;/rule&gt;                                                         |
+|              \----------------------------------------------------------------/
+|              | up/down to scroll, tab to switch to the rule window             
+|              | u/d to move rules, new rule, rename rule, save rules            
+\--------------/ k to disable the automatizer                                    
+</pre>
+                        <ul>
+
+      The majority of this is fairly similar to the swords rule; it destroys {average} boots at character level 20, {good} ones at character level 35 and cursed ones always. The addition is at the bottom. It adds clauses which will destroy excellent items providing that they have been identified and that the name does not contain the word "speed". The identified bit is important here, as it would destroy the boots on pseudo-id otherwise, before it even saw the full name of the boots. 
+                        </ul>
+
+
+<h3 id="head-70440046a3dc2e079f23ee1c57dfa76669b732aa">Notes</h3>
+
+    <ul>
+
+    <li>
+<p>
+ The automatizer will <strong>NOT</strong> destroy items already inscribed. 
+</p>
+</li>
+    <li>
+<p>
+ There is as yet no rule to enable the destruction of corpses with the exception of the beastmaster quest corpse, so it is necessary to put a &lt;not&gt; clause, with the name of the creature, if you do not wish to lose beastmaster quest corpses. 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-f1a4a60cf8f87456a76487a00374985439b2c1be">Extra Help</h3>
+<p>
+If you would like any extra help, or have any queries regarding the automatizer, please leave a message for <a href="./FearofFours">FearofFours</a> on his wikipage. 
+</p>
+<h3 id="head-4b681f8c9443aaed35cb5d577b89d67d0e7e1fb4">Sample Files</h3>
+<p>
+Sample automatizer files are always appreciated. If you have a fully working automatizer file which you would feel may be helpful to others, please put a link on <a href="./TheFalcon">TheFalcon</a>'s wikipage, from which it will be transferred to the help below. 
+</p>
+<p>
+While any sample files listed here will be fully operational, you should be aware that they may not be entirely useful to your style of play. Different people prefer different automatizer settings, as well as a variety of rules for different classes. It is thus recommended that you read through any file before implementing it, to make sure it suits you. 
+</p>
+<p>
+<a class="external" href=".www.hakubi.us/tome/automat.atm"><img src="./wiki/starshine/img/moin-www.png" alt="[WWW]" height="11" width="11">A sample automatizer file</a> by <a href="./NeilStevens">NeilStevens</a>. 
+</p>
+<hr>
+ </div><div id="footer">
+
+
+<a href="./Documentation_2fAutomatizer_20help?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fAutomatizer_20help.text_html">RefreshCache</a> for this page (cached 2005-04-27 21:49:53)<br>
+<p><a href="./Documentation_2fAutomatizer_20help?action=edit">EditText</a> of this page (last edited 2005-04-27 21:49:53 by <span title="dsl-082-083-240-079.arcor-ip.net"><a href="./PeterWiersig">PeterWiersig</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:24:51 Jun 21, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:24 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  esindex: 0.011
+  exclusion.robots: 0.23
+  load_resource: 155.565
+  LoadShardBlock: 86.312 (3)
+  exclusion.robots.policy: 0.215
+  captures_list: 116.504
+  PetaboxLoader3.resolve: 29.475
+  PetaboxLoader3.datanode: 206.35 (4)
+  CDXLines.iter: 23.849 (3)
+  RedisCDXSource: 2.428
+-->

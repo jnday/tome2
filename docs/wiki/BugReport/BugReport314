@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport314 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport314?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport314?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport314?action=fullsearch&amp;value=BugReport314&amp;literal=1&amp;case=1&amp;context=40">BugReport314</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport314?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport314">View</a></li>
+<li><a title="Diffs" href="./BugReport314?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport314?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport314?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport314?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport314?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport314?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport314?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport314?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport314?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport314">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./ParaCoon">ParaCoon</a></strong>: I started a new savefile with the new version (WinXP SP2), as old savefiles are not compatable. I did import my graphics prefs and my options prefs and my macros. All seemed to work fine. I played a few characters with the savefile, then saved the current still living one (Deathmold Hermit Bard). When I try to reopen the savefile, however, I get:  <p>
+Loading version 103 savefile... Restoring Dungeon... Savefile broken Before do_dungeon 
+</p>
+<p>
+Then a small popup titled "Error" comes up with the message "Too many spell effects." 
+</p>
+<p>
+Click Okay, and it closes the game. 
+</p>
+<p>
+Edit: The game was saved inside the Bree thieves' quest. 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: I reproduced this by accident earlier today while testing a totally unrelated bug.  Created a new character, bought something in a shop, went into the thieves' quest, saved, tried to reload -- couldn't.  "Too many spell effects".  This seems pretty serious, but I can see why it might have gone unnoticed for a long time, since most people won't save in the thieves' quest. 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: Neil couldn't reproduce it, but it's 100% consistent for me.  When loading the savefile, the max spell effects number is read from the savefile, and it's coming up with 24415.  Since that's more than 128 (MAX_EFFECTS), it triggers the message and aborts.  The question is why the savefile is corrupted.  I stepped through the saving in gdb, and it should be putting 128 in the file.  Maybe one of the previous items written to the file has the wrong size or something.  Anyway, I uploaded the broken savefile to <a href=".wooledge.org/~greg/Test314">http://wooledge.org/~greg/Test314</a> if anyone wants a look at it. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: It's always the same number, if you start with the same kind of character?  Answer on IRC: Yes. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: Update, it turns out that 24415 is ASCII <tt>__</tt>, and the next two bytes are <tt>in</tt>.  So, I tried turning on in-game help here, and sure enough, I started to produce the problem.  So, even if I don't find the fix, the workaround is to disable in-game help. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport314?action=refresh&amp;arena=Page.py&amp;key=BugReport314.text_html">RefreshCache</a> for this page (cached 2005-11-06 05:23:47)<br>
+<p><a href="./BugReport314?action=edit">EditText</a> of this page (last edited 2005-06-20 02:30:35 by <span title="trantor"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:39:36 Mar 17, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:33:43 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 197.468
+  exclusion.robots: 0.204
+  exclusion.robots.policy: 0.193
+  RedisCDXSource: 1.799
+  esindex: 0.01
+  LoadShardBlock: 170.484 (3)
+  PetaboxLoader3.datanode: 145.05 (4)
+  CDXLines.iter: 22.309 (3)
+  load_resource: 248.586
+  PetaboxLoader3.resolve: 176.154
+-->

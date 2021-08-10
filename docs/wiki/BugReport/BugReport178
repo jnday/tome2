@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport178 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport178?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport178?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport178?action=fullsearch&amp;value=BugReport178&amp;literal=1&amp;case=1&amp;context=40">BugReport178</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport178?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport178">View</a></li>
+<li><a title="Diffs" href="./BugReport178?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport178?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport178?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport178?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport178?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport178?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport178?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport178?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport178?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport178">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+It is confirmed that items carried by monsters, including artifacts, can randomly disappear while exploring levels with many items generated, just cast listen to the music level 30+ after entering such level, look into artifact list and try to find that new artifact, killing substantional count of monsters with items on its way (maybe while generating new monsters and items on them, some array overflow is occuppied). Sandworm Queen without her armor is such example, it may be generated, or may not (or may disappear just after generation?). Another (maybe first encountered by most players) example - Azog without his wand. <p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: That's interesting.  I wish I could look into that right now, so hopefully someone else can.  Thank you. 
+</p>
+<p>
+<strong><a href="./AlexShuman">AlexShuman</a></strong>: Now, I have evidence of disappearing artifacts on monsters during dungeon exploring, using Galleon in Helcaraxe as example. At the beginning all monsters (mainly Greater Krakens) had their artifacts on, but when I got to kill'em, they dropped nothing. Additionally, after full exploring of level and killing every monster, artifacts that are supposed to be on monsters, are still shown in notes file while casting listen to the music, but I cannot find those anywhere on level. You can download the evidence (two save files - first 'massacre.' is after exploring, second 'massacre.$1' - before entering level; also config &amp; automatizer included) at <a href=".neon2.neon.net.ua/en/download.php?id=10">http://neon2.neon.net.ua/en/download.php?id=10</a> 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: by saving right next to a dungeon guardian like the watcher in the water, and looking if I can steal from him, I see items. Save, load, the guardian loses ALL items in one case out of 3. The hidden variable might be too many items in the dungeon, but then why would it happen to me in the maze, a fairly small dungeon? 
+</p>
+<p>
+Not only artifacts and guardians are affected, but the occasional dragon or even a lowly kobold with a food ration has lost it once for me!! 
+</p>
+<p>
+<strong><a href="./AlexShuman">AlexShuman</a></strong>: Is there any progress? It's planned to fix that bug before 2.3.0 release? 
+</p>
+<p>
+Further testing on Galleon level showed that items on monsters are definitely NOT stored in save file (or stored incompletely or improperly), and there can be automatizer auto-destroy items on ground involved. Tested save on entering level - all items are preserved; explore without touching anything - all items are preserved; explore with auto-destroy skeletons on ground - first lesser kraken lost all its items including anchor of space-time. Tested restore entry save 10 times - all items are preserved. Tested restore save after auto-destroy skeletons - in all cases lesser kraken has no items. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Objects are compacted when a level is saved (i.e. it is possible that one or more objects will be deleted). I suppose that either the function compact_objects() or the automatizer have some problems. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>:  The automatizer can never destroy artifacts, so it seems likely that the logic related to the automatizer calls is the one at fault. 
+</p>
+<p>
+<strong><a href="./AlexShuman">AlexShuman</a></strong>: I think something wrong with compact_objects(), by destroying items on ground such as skeletons there are 'gaps' in object base appearing... But I see no way to test it myself (don't know how to compile sources on my Windows machine). 
+</p>
+<p>
+<a href="./SimonSorc">SimonSorc</a>: let's test if destroying skeletons on the ground (by hand, no automatizer) causes item loss or not. 
+</p>
+<p>
+<strong><a href="./AlexShuman">AlexShuman</a></strong>: I just tested that. It seems no matter automatizer on or off, items are disappearing. And it not a problem with item destroy, it is a problem with monster destroy - by only destroying skeletons, all items on that krakens were preserved. But when I killed all monsters on way (2 yetis and one giant white dragon fly with no items on them) after restoring saved game there were no items on both lesser and greater kraken.  Is there a 'compact monsters' feature beforing save game that removes all items from selected monsters? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: compact_objects() compacts <em>all</em> objects, but objects carried by monsters are safer than those lying on the floor. I've compared the ToME 2.x function with the Vanilla function. The only significant change is that Vanilla forces the moving of the complete object data in the function object_compress_aux(): 
+<pre>/* Hack -- move object */
+COPY(&amp;o_list[i2], &amp;o_list[i1], object_type);
+</pre>
+</p>
+<p>
+In ToME the following line is used instead: 
+<pre>/* Structure copy */
+o_list[i2] = o_list[i1];
+</pre>
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport178?action=refresh&amp;arena=Page.py&amp;key=BugReport178.text_html">RefreshCache</a> for this page (cached 2004-10-20 07:47:13)<br>
+<p><a href="./BugReport178?action=edit">EditText</a> of this page (last edited 2004-10-20 07:47:12 by <span title="dialin-145-254-147-085.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:10:58 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:53 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 143.245
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.075
+  RedisCDXSource: 3.44
+  esindex: 0.007
+  LoadShardBlock: 121.341 (3)
+  PetaboxLoader3.datanode: 134.744 (4)
+  CDXLines.iter: 16.368 (3)
+  load_resource: 78.7
+  PetaboxLoader3.resolve: 45.814
+-->

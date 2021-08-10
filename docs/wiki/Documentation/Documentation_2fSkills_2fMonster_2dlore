@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Documentation/Skills/Monster-lore - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fSkills_2fMonster_2dlore?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fSkills_2fMonster_2dlore?action=print">
+<link rel="Up" href="/Documentation_2fSkills">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fSkills_2fMonster_2dlore?action=fullsearch&amp;value=%2FMonster-lore&amp;literal=1&amp;case=1&amp;context=40">Documentation/Skills/Monster-lore</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation_2fSkills">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fSkills_2fMonster_2dlore?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fSkills_2fMonster_2dlore">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fSkills_2fMonster_2dlore?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fSkills_2fMonster_2dlore?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fSkills_2fMonster_2dlore?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fSkills_2fMonster_2dlore?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fSkills_2fMonster_2dlore?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fSkills_2fMonster_2dlore?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fSkills_2fMonster_2dlore?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fSkills_2fMonster_2dlore?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fSkills_2fMonster_2dlore?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fSkills_2fMonster_2dlore">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a id="top" <h2 id="head-07f7591d6f308510f066cdcf36949193f4636a0e">Monster-lore</h2>
+<p>
+The monster-lore skill affects your general ability at the monster related skills. It determines how much experience you will gain if your pets kill a monster, and how many companions you can have. At skill level 12, it allows you to turn a pet into a loyal companion. 
+</p>
+<p>
+Sub-skills of Monster-lore are Summoning, Corpse-preservation, Possession, Symbiosis, and Mimicry. 
+</p>
+<p>
+<a id="Summoning" <h3 id="head-f05e25cafe36db4d0a0191e20cf89bd4175e93fe">Summoning</h3>
+
+</p>
+<p>
+This skill is a sub-skill of the Monster-lore skill.  
+</p>
+<p>
+It affects your ability to create "totems" and use them to <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fOther_20Powers_2fSummoning"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Summon</a> monsters to your aid. Spending 1 skill point on your Summoning skill adds 0.1 bonus skill points to your Monster-lore skill. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fSummoner"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Summoners</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fLoremaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Loremasters</a>. 
+</p>
+<p>
+<a id="corpse" <h3 id="head-6ad5a7c61452e13f9049a77469bc36cc84688948">Corpse-preservation</h3>
+
+</p>
+<p>
+This skill is a sub-skill of the Monster-lore skill.  
+</p>
+<p>
+It affects your ability to kill monsters without destroying their corpse, so the corpse will be available to use. Spending 1 skill point on your Corpse-preservation skill adds 0.1 bonus skill points to your Monster-lore skill. 
+</p>
+<p>
+<a id="possession" <h3 id="head-f6abff347a497b302b1326db308a827f5256c8f4">Possession</h3>
+
+</p>
+<p>
+This skill is a sub-skill of the Monster-lore skill.  
+</p>
+<p>
+It affects your ability to <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fOther_20Powers_2fPossession"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Possess</a> a dead monster's corpse. Spending 1 skill point on your Possession skill adds 0.1 bonus skill points to your Monster-lore skill. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fPossessor"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Possessors</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fLoremaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Loremasters</a>. 
+</p>
+<p>
+<a id="symbiosis" <h3 id="head-44bbac75ccee2b93a915c46a9be9056dda241c9d">Symbiosis</h3>
+
+</p>
+<p>
+This skill is a sub-skill of the Monster-lore skill.  
+</p>
+<p>
+It affects your ability to go into symbiosis with monsters that cannot move, and to cast <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fOther_20Powers_2fSymbiosis"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">symbiotic spells</a> Spending 1 skill point on your Symbiosis skill adds 0.1 bonus skill points to your Monster-lore skill. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fSymbiant"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Symbiants</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fLoremaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Loremasters</a>. 
+</p>
+<p>
+<a id="mimicry" <h3 id="head-5d3ef4b3b3ad677e0b936570c4844b154ddddffe">Mimicry</h3>
+
+</p>
+<p>
+This skill is a sub-skill of the Monster-lore skill.  
+</p>
+<p>
+It affects your ability to use cloaks of mimicry to change form and to cast <a class="interwiki" title="Self" href="./Documentation_2fMagic_2fOther_20Powers_2fMimicry"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">mimicry spells</a>. Spending 1 skill point on your Mimicry skill adds 0.1 bonus skill points to your Monster-lore skill. 
+</p>
+<p>
+This skill is used primarily by <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fMimic"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Mimics</a> and <a class="interwiki" title="Self" href="./Documentation_2fClasses_2fLoremaster"><img src="./wiki/rightsidebar/img/moin-inter.png" alt="[Self]" height="16" width="16">Loremasters</a>. 
+</p>
+<p>
+<a href="#top">to the top</a> 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fSkills_2fMonster_2dlore?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fSkills_2fMonster_2dlore.text_html">RefreshCache</a> for this page (cached 2006-03-22 18:15:34)<br>
+<p><a href="./Documentation_2fSkills_2fMonster_2dlore?action=edit">EditText</a> of this page (last edited 2005-05-03 14:17:38 by <span title="host217-45-215-227.in-addr.btopenworld.com"><a href="./TheFalcon">TheFalcon</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 23:25:14 Jun 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:26:20 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 126.239
+  exclusion.robots: 0.12
+  exclusion.robots.policy: 0.111
+  RedisCDXSource: 1.776
+  esindex: 0.01
+  LoadShardBlock: 103.928 (3)
+  PetaboxLoader3.datanode: 232.753 (4)
+  CDXLines.iter: 16.829 (3)
+  load_resource: 188.924
+  PetaboxLoader3.resolve: 26.142
+-->

@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Spoilers/Wishing - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Spoilers_2fWishing?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Spoilers_2fWishing?action=print">
+<link rel="Up" href="/Spoilers">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Spoilers_2fWishing?action=fullsearch&amp;value=%2FWishing&amp;literal=1&amp;case=1&amp;context=40">Spoilers/Wishing</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Spoilers">Up</a></li>
+<li><a title="Edit" href="./Spoilers_2fWishing?action=edit">Edit</a></li>
+<li><a title="View" href="./Spoilers_2fWishing">View</a></li>
+<li><a title="Diffs" href="./Spoilers_2fWishing?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Spoilers_2fWishing?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Spoilers_2fWishing?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Spoilers_2fWishing?action=raw">Raw</a></li>
+<li><a title="Print" href="./Spoilers_2fWishing?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Spoilers_2fWishing?action=DeletePage">DeletePage</a></li>
+<li><a href="./Spoilers_2fWishing?action=LikePages">LikePages</a></li>
+<li><a href="./Spoilers_2fWishing?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Spoilers_2fWishing?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Spoilers_2fWishing">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<ol>
+<li>
+<a href="#head-286dae5d520ba61c444102de1c3921bd203f57eb">What you can wish for</a></li>
+<li>
+<a href="#head-883c79ce0d41992278c9194971d779952773c9d0">Items recommended for wishing</a></li>
+<li>
+<a href="#head-ff206257ec3200ae18ddf571ce619d8de5b11797">Monsters recommended for wishing</a></li>
+<li>
+<a href="#head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</a></li>
+</ol>
+
+ <p>
+Just about every time someone finds a Staff of Wishing (which is a rather rare occurence), a question "what to wish for?" immediately pops up. 
+</p>
+<h3 id="head-286dae5d520ba61c444102de1c3921bd203f57eb">What you can wish for</h3>
+<p>
+You may wish for items or monsters. 
+</p>
+<p>
+However, you must type exactly the name of your desired item/monster, otherwise wish fails. 
+</p>
+<p>
+You can't wish for artifacts. Ego items at best. Also, you can't wish for a rod with a rod tip. So, Wooden Rod of Charging of Nothing is ok, but Wooden Rod of Charging of Trap Location isn't. 
+</p>
+<p>
+You can't wish for a monster corpse. 
+</p>
+<p>
+You can't wish for unique monsters. When you wish for monsters, you may insert 'companion' or 'pet' before monster's name to get a friendly monster. E.g. wish for 'Great Wyrm of Power' would summon a hostile GWoP, but 'companion Great Wyrm of Power' would give you quite a bodyguard. Interestingly enough, you can successfully wish for monsters which are not generatable, they were zangband or cthulhu monsters (which are currently not available in ToME) or are joke monsters, but you don't have joke option on. 
+</p>
+<h3 id="head-883c79ce0d41992278c9194971d779952773c9d0">Items recommended for wishing</h3>
+<p>
+Polished Power Dragon Scale Mail of Immunity - gives almost every resistance (not <em>fear</em> or <em>blindness</em>), flying, reflection and a random immunity. Heavy. 
+</p>
+<p>
+Pair of Hard Leather Boots of Elvenkind - bonus to speed and stealth. Levitation and a random ability. 
+</p>
+<p>
+Elven Cloak of the Magi, Elven Cloak of the Bat - has quite high bonuses to speed, luck, stealth, along with other powers. 
+</p>
+<p>
+Elven Cloak of Air - Void diver's favorite. 
+</p>
+<p>
+Feanorian Lamp of the Magi - may have many qualities, but they're mostly random.  A fixed quest gives a light source of the Magi already, though. 
+</p>
+<p>
+Adamantite Rod of the Istari of Nothing - the most powerful rod possible. 
+</p>
+<p>
+Rod Tip of Speed, Rod Tip of Healing, Rod Tip of Restoration - very useful rod tips to go with the above. 
+</p>
+<p>
+Scroll of Artifact Creation, Scroll of Craftsmanship - rare scrolls which upgrade equipment. 
+</p>
+<p>
+Potion of Invulnerability, Potion of New Life - rare non-artifact potions. 
+</p>
+<p>
+Vampiric Shadow Blade (*Defender*) - one of the best weapons possible. It's almost guaranteed that this has positive pval, so you get vampiric qualities, bonuses to few stats and stealth as well as a percentile life bonus, a bunch of high resists and, if you are lucky, an immunity to one of the elements. You might also want to try "of extra attacks", or if you're feeling lucky "of aman" or "of the thunderlords" 
+</p>
+<h3 id="head-ff206257ec3200ae18ddf571ce619d8de5b11797">Monsters recommended for wishing</h3>
+<p>
+Companion Great Wyrm of Power - powerful bodyguard for everyone. Dangerous because of breath's splash damage. 
+</p>
+<p>
+Pet Master Quylthulg - the best non-unique symbiote for a symbiant. 
+</p>
+<p>
+Companion Death Orb - a blast from the past. Orbs are invulnerable to almost everything. Type only 'death orb' if you want some challenge. 
+</p>
+<p>
+Companion Horned Reaper - probably the strongest melee monster out there. Digs and squashes weaker monsters. 
+</p>
+<p>
+Companion Pit Fiend - Has a variety of summon types. 
+</p>
+<p>
+Wishing for a rare beastmaster's quest monster is also viable, if you really want more Monster Lore points and your corpse preservation is high enough that you may count it will drop a corpse. Otherwise it's a waste. 
+</p>
+<h3 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328">Chatter</h3>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I haven't tested it myself (never having seen a staff of wishing makes it kind of impossible) but it occurred to me that you'd want symbiotes and companions pre-levelled if possible, which means either Angband or a deep god temple. God temples are 100% dependable in levelling amount; Angband is 100% dependable in theoretical reachability. 
+</p>
+<p>
+<a href="./GrootheWanderer">GrootheWanderer</a>: Does anyone know what the best location to find Staffs (staves?) of Wishing is?  If those who find them can list what dungeon and level they were on, that would be very useful information.  I have played 100+ characters over teh last couple years and have never, ever seen one.  Of course, I usually play melee types so that is probably the reason.  I don't usually do the dungeons that are really heavy in "magical" loot. 
+</p>
+<p>
+<a href="./GrootheWanderer">GrootheWanderer</a>:  Also, I didn't read above whether you could wish for a certain pval on the item or not.  Has anyone tried this (i.e. ring of extra attacks (+10)) 
+</p>
+<p>
+<strong><a href="./GreyCat">GreyCat</a></strong>: Wishing for "ring of extra attacks 3" or "ring of extra attacks +3" or "ring of extra attacks (3)" or "ring of extra attacks (+3)" in wizard mode always fails.  You get nothing at all.  If you just wish for "ring of extra attacks" or "indestructible ring of extra attacks" you get a randomly generated one for whichever dungeon level you're on, which means it could be +1, -2, etc. 
+</p>
+<p>
+<strong><a href="./ScrawnyCat">ScrawnyCat</a></strong>: I vaguely recall wishing for a Spider Web of Air (which is <em>my</em> idea of the void-divers favorite) at some point, without success. Yet I know that these can be generated (except, of course, when I'm playing a non-evil character with mimicry). Did I miss something here? 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: That's because the wish system predates the way we do mimicry and related items now. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Spoilers_2fWishing?action=refresh&amp;arena=Page.py&amp;key=Spoilers_2fWishing.text_html">RefreshCache</a> for this page (cached 2005-11-04 17:25:12)<br>
+<p><a href="./Spoilers_2fWishing?action=edit">EditText</a> of this page (last edited 2005-08-29 05:11:45 by <span title="trantor"><a href="./NeilStevens">NeilStevens</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 07:08:25 Nov 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:41:05 Aug 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 1.714
+  captures_list: 128.143
+  exclusion.robots.policy: 0.201
+  PetaboxLoader3.resolve: 28.049
+  esindex: 0.025
+  CDXLines.iter: 23.138 (3)
+  PetaboxLoader3.datanode: 117.849 (4)
+  load_resource: 62.55
+  exclusion.robots: 0.215
+  LoadShardBlock: 98.106 (3)
+-->

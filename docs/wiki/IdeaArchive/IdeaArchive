@@ -1,0 +1,1079 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive?action=fullsearch&amp;value=IdeaArchive&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./IdeaArchive?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<hr>
+ <ol>
+<li>
+<a href="#head-bb12e8aaaecc434fd51e448fe7669bced1bdd107">Threads</a></li>
+<li>
+<a href="#head-172ffa265f8bbc3f237a514ed4a3d703d9e5669a">Design documents</a></li>
+<li>
+<a href="#head-e7dedd4a0125e3595d8240bcedce3af36fa1c09d">Implemented Ideas</a></li>
+</ol>
+
+ <hr>
+ <h3 id="head-bb12e8aaaecc434fd51e448fe7669bced1bdd107">Threads</h3>
+Please place your new link at the top. If you edit an older thread, move it back up to the top again. 
+    <ul>
+
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSauron_20Appearance">/Sauron Appearance</a> Very spoily 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fToughening_20experience_20drain_20attacks">/Toughening experience drain attacks</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fBanks">/Banks</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fCasting_20spellbinder_20spell_20annoyance">/Casting spellbinder spell annoyance</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMake_20townspeople_20optional">/Make townspeople optional</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Special_20Level_3a_20Threatened_20Town">/New Special Level: Threatened Town</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fToughening_20Deathwatch">/Toughening Deathwatch</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMore_20terains_20for_20geomancy_2e">/More terains for geomancy.</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPowerful_20Rings_20of_20Power">/Powerful Rings of Power</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fIdeas_20for_20a_20Craftman_20class_3a_20a_20raw_20draft">/Ideas for a Craftman class: a raw draft</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fBearform_20combat_20and_20possession">/Bearform combat and possession</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fReduce_20the_20number_20of_20options_20to_20a_20more_20manageable_20number">/Reduce the number of options to a more manageable number</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20Idea_3a_20Dig">/Minor Idea: Dig</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fStealth_2c_20AI_20and_203_2e0_2e0">/Stealth, AI and 3.0.0</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fRunecrafting_20for_203_2e0_2e0_20suggestion">/Runecrafting for 3.0.0 suggestion</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fExpand_20the_20versatility_20of_20pet_20shops">/Expand the versatility of pet shops</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMaps_20and_20Dungeons">/Maps and Dungeons</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fVariable_20levels_20of_20slow_20digestion_20and_20regeneration">/Variable levels of slow digestion and regeneration</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fWisdom_2c_20Piety_20and_20Prayer">/Wisdom, Piety and Prayer</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fShow_20entirety_20of_20monter_20inventory_20at_20same_20time">/Show entirety of monter inventory at same time</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTemporarily_20don_27t_20display_20monsters_20and_2for_20items">/Temporarily don't display monsters and/or items</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMore_20rod_20ego_20types">/More rod ego types</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fChronological_20Uniques">/Chronological Uniques</a> Spoilers 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fRacial_20and_20Class_20Bonuses_20_2d_20an_20Opinion">/Racial and Class Bonuses - an Opinion</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fEvil_20Shop_20Idea">/Evil Shop Idea</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSpecialized_20level_20types">/Specialized level types</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSilly_20item_20words_20when_20insane_20or_20hallucinating">/Silly item words when insane or hallucinating</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20weapon_20ego_3a_20Slay_20Spell_20Casters">/New weapon ego: Slay Spell Casters</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMore_20artifact_20set_20ideas">/More artifact set ideas</a> (<em>some item and resistances spoilers</em>) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMore_20flexible_20aggravation">/More flexible aggravation</a> (<em>aggravation spoilers</em>) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDungeons_20filled_20with_20lava_2c_20water_20or_20ice">/Dungeons filled with lava, water or ice</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDifferent_20charge_20draining_20attacks">/Different charge draining attacks</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fRoom_20effects">/Room effects</a>, like in ADOM 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20system_20for_20Summons_20and_20Escorts">/New system for Summons and Escorts</a> <strong>Advice from coders welcome!</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20Idea_3a_20Yavanna">/Minor Idea: Yavanna</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fGraphical_20Upgrade">/Graphical Upgrade</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSentient_20Weapons">/Sentient Weapons</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTactics_20and_20Explore">/Tactics and Explore</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20Idea_3a_20Invisibility">/Minor Idea: Invisibility</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20Idea_3a_20Monster_20Regeneration">/Minor Idea: Monster Regeneration</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20Idea_3a_20XP_20Drain_20attacks">/Minor Idea: XP Drain attacks</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fCorpse_2deating_20Monsters">/Corpse-eating Monsters</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20Spell_20Idea_3a_20Whirlwind">/Minor Spell Idea: Whirlwind</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Trapping_20Ideas">/New Trapping Ideas</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Equipment_20System">/New Equipment System</a> Including archery, shields and two-weapon fighting 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSelect_20power_20by_20_40name">/Select power by @name</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPlace_2dsensitive_20capitalization">/Place-sensitive capitalization</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMultiple_20Characters">/Multiple Characters</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2f2_20new_20corruptions">/2 new corruptions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fReformulation_20of_20Earthquakes">/Reformulation of Earthquakes</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPet_20organisation">/Pet organisation</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPeaceful_20solution_20to_20Gondolin_202nd_20quest">/Peaceful solution to Gondolin 2nd quest</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fGraphical_20effects_20for_20spells_20cast_20by_20monsters">/Graphical effects for spells cast by monsters</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fAlchemy_3a_20Essence_20of_20Death">/Alchemy: Essence of Death</a> (minor Alchemy spoilers) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fRandomizing_20non_2drandom_20artifacts">/Randomizing non-random artifacts</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPurchasing_20Resist_20Skills">/Purchasing Resist Skills</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fChained_20monster_20generation">/Chained monster generation</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNeed_20more_20mage_20staff_20artifacts">/Need more mage staff artifacts</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fBeing_20evenhanded_20with_20Bows">/Being evenhanded with Bows</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fChallenges_3f">/Challenges?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Character_20Attribute_3a_20Amiability">/New Character Attribute: Amiability</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fLuafied_20Character_20History">/Luafied Character History</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fStarting_20Town">/Starting Town</a> (spoily) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fAquatic_20but_20amphibious">/Aquatic but amphibious</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Statistic_3a_20Highscore_20Place">/New Statistic: Highscore Place</a> <strong>spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fIce_20Storm_3a_20Some_20Change_20Ideas">/Ice Storm: Some Change Ideas</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fStore_20Stealing">/Store Stealing</a> It may be easy, but it's still plain wrong! 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSpell_20Suggestions">/Spell Suggestions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20rod_20ego_20type_3a_20Draining">/New rod ego type: Draining</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Option_3a_20Display_20Previously_20Seen_20Immobile_20Monsters">/New Option: Display Previously Seen Immobile Monsters</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPlease_20Change_20Troll_20Blood">/Please Change Troll Blood</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fControl_20of_20Uniques">/Control of Uniques</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20ability_3a_20escape">/New ability: escape</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fThemed_20Magic_20Subclasses">/Themed Magic Subclasses</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fBody_20size">/Body size</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20subrace_3a_20Apprentice">/New subrace: Apprentice</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20quest_3a_20Apprentice">/New quest: Apprentice</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSentient_20non_2dweapons">/Sentient non-weapons</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fArtifact_20Potions">/Artifact Potions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTidal_20Wave_20Idea">/Tidal Wave Idea</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20trap_3a_20Alter_20junkart">/New trap: Alter junkart</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMaia_20Subraces_3f">/Maia Subraces?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTweak_20to_20Maggot_27s_20dogs">/Tweak to Maggot's dogs</a> (spoily) 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fAlternate_20spell_20failiure_20system_20for_20thaumaturgy">/Alternate spell failiure system for thaumaturgy</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Sub_20Class_3a_20Lone_20Wolf">/New Sub Class: Lone Wolf</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fAlternate_20Reward_20For_20Final_20God_20Quest">/Alternate Reward For Final God Quest</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDodging_20Bolts">/Dodging Bolts</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20skill_3a_20foraging">/New skill: foraging</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20trap_3a_20wall_20collapse">/New trap: wall collapse</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDeception_20skill">/Deception skill</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fLimited_20sentient_20randarts">/Limited sentient randarts</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMore_20multi_2dschool_20spells">/More multi-school spells</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTweak_20ID_20command_20in_20wizard_20shops">/Tweak ID command in wizard shops</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fFoo_20of_20Spell_3a_20New_20Ego_20Type">/Foo of Spell: New Ego Type</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fGods">/Gods</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fCustom_20Flags">/Custom Flags</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20globe_20of_20light">/Minor globe of light</a> A non-attack spell to light rooms. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTrap_20Identification">/Trap Identification</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fJunkart_20Names">/Junkart Names</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Spell_3a_20Fire_20of_20Mithandir">/New Spell: Fire of Mithandir</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Nazgul_20Ideas">/New Nazgul Ideas</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fWand_20and_20staff_20ID_20permanence">/Wand and staff ID permanence</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fOrc_20Cave_20Rewards">/Orc Cave Rewards</a> Big time spoily 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMage_20Staffs">/Mage Staffs</a> Which slot? 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fFire_2dElec_20attack_20and_20spoiled_20potions">/Fire-Elec attack and spoiled potions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDifferentiated_20Weaponmastery_20Effects">/Differentiated Weaponmastery Effects</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fStone_20Skin_3a_20Slight_20Change">/Stone Skin: Slight Change</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20disturbance_20option">/New disturbance option</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fAdditional_20info_20to_20the_20Notes">/Additional info to the Notes</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTrapping_20skill">/Trapping skill</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Life">/New Life</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fCharacter_20dump_20improvements">/Character dump improvements</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fA_20new_20type_20of_20Mathom_20house_3a_20Trophy_20Room">/A new type of Mathom house: Trophy Room</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fThe_20Bridge_20of_20Khazad_2dDum_20Map">/The Bridge of Khazad-Dum Map</a> Idea for a unique level 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPossessing_20Mimicry_3f">/Possessing Mimicry?</a> Idea about a better(?) mimicry 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fJoke_20expansion_3f">/Joke expansion?</a> <strong>Artifact spoilers, perhaps</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fRace_20tweak_20ideas">/Race tweak ideas</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMore_20fate_20tweaks">/More fate tweaks</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2f_27A_27ctivatable_20Items_20Idea">/'A'ctivatable Items Idea</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPrincess_20Quest_20Idea">/Princess Quest Idea</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fLost_20soul_20as_20an_20option">/Lost soul as an option</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNautical_20Classes">/Nautical Classes</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fConfirmation_20upon_20quaffing_20from_20a_20fountain">/Confirmation upon quaffing from a fountain</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fIdeas_20for_20new_20Damage_20Types_3a_20Blunt_2c_20Pierce_2c_20Edged">/Ideas for new Damage Types: Blunt, Pierce, Edged</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMissing_20descriptions">/Missing descriptions</a>: Suggested descriptions for items that don't have them. Spoilers. 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fVisible_20monsters_20command">/Visible monsters command</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fAutomizer_20_2d_20what_20I_27d_20like_20to_20see">/Automizer - what I'd like to see</a>: New rules and a bug 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2f_27C_27haracter_20screen">/'C'haracter screen</a>: adding a few new values 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDisplay_20rod_20activation_20fail_20info_20upon_20inspection">/Display rod activation fail info upon inspection</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPossession_20tweaks_20and_20ideas">/Possession tweaks and ideas</a> <strong>SPOILERS</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fStealth_20and_20Invisibility">/Stealth and Invisibility</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29">/Smeagol and Gollum revisited (again)</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fEnt_20Fire_20Suceptibility">/Ent Fire Suceptibility</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTroll_20and_20ogre_20chieftens_20should_20have_20different_20colors">/Troll and ogre chieftens should have different colors</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fAutomizer_3a_20automize_20by_20object_20origin">/Automizer: automize by object origin</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fweb_20CVS_20suggestion">/web CVS suggestion</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Symbiant_20Powers">/New Symbiant Powers</a>   
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Terrain_20Effects">/New Terrain Effects</a>     
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPokemod">/Pokemod</a>   
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fUser_20Interface_3a_20Spells_20and_20the_20_40_20key">/User Interface: Spells and the @ key</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDecoupling_20terrain_20shimmering_20and_20cloud_2deffect_20display">/Decoupling terrain shimmering and cloud-effect display</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fRename_20God_20spell_20books">/Rename God spell books</a> <strong>Spoilers</strong> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fChanging_20inate_20class_20abilities_20to_20skill_20related_20things">/Changing inate class abilities to skill related things</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fInterface_20_2d_20Racial_20Powers">/Interface - Racial Powers</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fRings_20of_20Power">/Rings of Power</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPolearm_20Masters_20Suggestion">/Polearm Masters Suggestion</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fThrown_20Potion_20Effects">/Thrown Potion Effects</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fRetooling_20fumblefingers">/Retooling fumblefingers</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fLevel_20feeling_20inflation_2c_20etc_2e">/Level feeling inflation, etc.</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSkill_20gains">/Skill gains</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fItems_20and_20Skills_20_2along_2a">/Items and Skills *long*</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fWings_20of_20Winds_3a_20Slight_20Change">/Wings of Winds: Slight Change</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Monster_20Attack_3a_20Hurl_20Item">/New Monster Attack: Hurl Item</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fLight_20the_20shops">/Light the shops</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fVisible_20monster_20window_20update">/Visible monster window update</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20trap_3a_20mass_20gain_2floss">/New trap: mass gain/loss</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fExpand_20level_20feelings">/Expand level feelings</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Item_20Set_3a_20Heritage_20of_20Khazad">/New Item Set: Heritage of Khazad</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTroll_20Blood_20Corruption">/Troll Blood Corruption</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fIdea_20and_20Question_20about_20egos_20and_20summoning">/Idea and Question about egos and summoning</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTidal_20Wave_3a_20Slight_20Change">/Tidal Wave: Slight Change</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDark_20weaponry">/Dark weaponry</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fZombie_20corruptions">/Zombie corruptions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2f_2aSpectre_2a_20subrace">/*Spectre* subrace</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Corruption_20Set_3a_20Melkor_20Corruptions">/New Corruption Set: Melkor Corruptions</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fWater_20Damage">/Water Damage</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20Name_20Changes">/Minor Name Changes</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDe_2dcheesing_20Summoners">/De-cheesing Summoners</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSmeagol_20update">/Smeagol update</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fPoison_20Blood_3a_20Slight_20Change">/Poison Blood: Slight Change</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fSkillsystem_3a_20Skill_20gain">/Skillsystem: Skill gain</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fAtmosphere_3a_20Item_20history">/Atmosphere: Item history</a>: Random finders/makers of store items 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Skill_3a_20Shieldmastery">/New Skill: Shieldmastery</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Artifact_20Spellbooks">/New Artifact Spellbooks</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fFiery_20Shield_3a_20Slight_20Change">/Fiery Shield: Slight Change</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Ego_20Type_3a_20Foo_20of_20Spell_20of_20Power">/New Ego Type: Foo of Spell of Power</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fA_20little_20bit_20poisoned_3f">/A little bit poisoned?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fDisplay_20Kill_20Count_20rejiggering">/Display Kill Count rejiggering</a>: Slight modification 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Trapping_20Kit">/New Trapping Kit</a>: Cages 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20Terrain_20Type">/New Terrain Type</a>: Mushroom Circle 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fJunkart_20rejiggering">/Junkart rejiggering</a>: Make junkart activations accessible to more items 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fModule_20Makers_20Handbook">/Module Makers Handbook</a>: The Module Makers Handbook 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fColor_20coded_20level_20feelings">/Color coded level feelings</a>: Color coded level feelings 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fautomatizer_20rules_20grouping">/automatizer rules grouping</a>: automatizer rules grouping 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMore_20Possessor_20Tweaks">/More Possessor Tweaks</a>: *BIG SPOILERS* Corpse abilities and equipment slots 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20interface_20option_3a_20Always_20dump_20charsheet_20on_20death">/New interface option: Always dump charsheet on death</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fNew_20interface_20or_20startup_20option_3a_20Do_20you_20want_20your_20possessions_20identified_3f">/New interface or startup option: Do you want your possessions identified?</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fTreacherous_20pets_20and_20companions">/Treacherous pets and companions</a> 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-172ffa265f8bbc3f237a514ed4a3d703d9e5669a">Design documents</h3>
+Take a look at the <a href="./Developers_20Corner">Developers Corner</a>. <h3 id="head-e7dedd4a0125e3595d8240bcedce3af36fa1c09d">Implemented Ideas</h3>
+
+    <ul>
+
+    <li>
+<p>
+ <a href="./IdeaArchive_2fMinor_20Idea_3a_20Maia">/Minor Idea: Maia</a> 
+</p>
+</li>
+    <li>
+<p>
+ <a href="./IdeaArchive_2fGod_20bonusses_20in_20_27C_27haracter_20Sheet">/God bonusses in 'C'haracter Sheet</a> 
+</p>
+</li>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./IdeaArchive?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive.text_html">RefreshCache</a> for this page (cached 2005-04-03 22:09:05)<br>
+<p><a href="./IdeaArchive?action=edit">EditText</a> of this page (last edited 2005-04-03 22:09:05 by <span title="cmbg-cache-1.server.ntli.net"><a href="./RogerBarnett">RogerBarnett</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 08:55:30 Apr 04, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:54 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 418.452
+  exclusion.robots: 0.092
+  exclusion.robots.policy: 0.085
+  RedisCDXSource: 2.554
+  esindex: 0.007
+  LoadShardBlock: 395.638 (3)
+  PetaboxLoader3.datanode: 439.953 (4)
+  CDXLines.iter: 17.826 (3)
+  load_resource: 185.055
+  PetaboxLoader3.resolve: 126.693
+-->

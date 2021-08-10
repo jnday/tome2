@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport12 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport12?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport12?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport12?action=fullsearch&amp;value=BugReport12&amp;literal=1&amp;case=1&amp;context=40">BugReport12</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport12?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport12">View</a></li>
+<li><a title="Diffs" href="./BugReport12?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport12?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport12?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport12?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport12?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport12?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport12?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport12?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport12?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport12">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Create a character of a stick-incompetent race, subrace, and class. Create a wand of tidal wave directly from town. Fail rate is 65. It drops to 46 with maxed "magic device" skill. <p>
+Create a character of a stick-supercompetent race, subrace, and class. Create a wand of tidal wave directly from town. Fail rate is 65. It drops to 46 with maxed "magic device" skill. 
+</p>
+<p>
+Either "magic device" in the help files is useless, or stick fail rate isn't shown properly in at least the wands! 
+</p>
+<p>
+IMPORTANT: Knowing which way the bug goes will decide which character will be deleted, and which spoiler pages are wildly innacurate in and out of wiki; so it's important to know how the bug works for those who will keep playing 2.2.7 and other affected versions. 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: The fail rate of staves and wands is only related to the Magic-device skill. The old magic device ability is still used for rods, activations and sensing the grid mana in ToME 2.2.7. I think that these left-overs from Angband will be replaced by skills in the future, and that competent races will obtain a small skill bonus. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Skills are what matter, indeed. 
+</p>
+<p>
+Could you please clarify in-games files when you do a change like that? I went all the way to level 37 with my latest stick-centered hermit hobbit; in exchange for low HP(hit dice = 4, comparing to my usual 15) I hoped to have a decent stick fail rate... turns out to be the weakest character I ever played and he never survives the first level of Angband! *deletes would-be favorite character I worked weeks on* -Da alchemist 
+</p>
+<p>
+I do agree that everything should depend on stats + skills in the end, and that certain abilities that are always taken with certain skills should be a simple side effect of the skill(and the skill should get accordingly more expensive). Just remember to update help files clearly when you make improvements, this is my 3th kind of unplayable character due to misleading help files! *foaming at the mouth MAD* 
+</p>
+<p>
+So anything else changed for the old angband abilities? 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: PLEASE test ToME 2.3.  We're aggressively modifying what affects those Angband skills and plan to replace the old Angband skill changes with new real skill modifiers where appropriate.  So far we're leaving in the race modifiers to the Angband skills, but the class modifiers are now equal for all classes. 
+</p>
+<p>
+I'll test 2.3   -Da alchemist 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport12?action=refresh&amp;arena=Page.py&amp;key=BugReport12.text_html">RefreshCache</a> for this page (cached 2004-12-14 06:10:53)<br>
+<p><a href="./BugReport12?action=edit">EditText</a> of this page (last edited 2004-07-04 01:54:39 by <span title="66.131.207.219=modemcable219.207-131-66.mc.videotron.ca">modemcable219</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 05:51:24 Jan 22, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:50 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 139.267
+  exclusion.robots: 0.088
+  exclusion.robots.policy: 0.08
+  RedisCDXSource: 2.008
+  esindex: 0.012
+  LoadShardBlock: 118.981 (3)
+  PetaboxLoader3.datanode: 1842.757 (4)
+  CDXLines.iter: 16.088 (3)
+  load_resource: 1804.288
+  PetaboxLoader3.resolve: 35.177
+-->

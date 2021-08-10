@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport16 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport16?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport16?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport16?action=fullsearch&amp;value=BugReport16&amp;literal=1&amp;case=1&amp;context=40">BugReport16</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport16?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport16">View</a></li>
+<li><a title="Diffs" href="./BugReport16?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport16?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport16?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport16?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport16?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport16?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport16?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport16?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport16?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport16">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+In 2.2.7 and 2.3 I've thrown away 6 artifacts because they couldn't be made into powerful artifacts. The latest being the boots of Gimli. <p>
+Why me? *crying* 
+</p>
+<p>
+-Da alchemist 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: I thought it was intended that only plain items could be artifacted. 
+</p>
+<p>
+You *CAN'T* artifact a plain item. It needs at least one ego first. Dragonhelms are a problem in this regard, I've never found an ego for them. On the forum they claim they can be "made artifactable" using scrolls of artifact creation, or craftsmanship(not sure which). Either way not being able to start from plain is a pain, and would certainly not be unbalancing compared to starting from double ego! 
+</p>
+<p>
+For what can be artifacted, the only sure thing is objects who have or had an ego (randarts are assumed to have an ego - but I'm not sure about randarts with no powers at all that I got 3 of recently). 
+</p>
+<p>
+The elfstone that activates for cure black breath + cure 200HP is artifactable, while other fixed artifacts like the boots of Gimli can't be arteficted. 
+</p>
+<p>
+This confuses the new player to no end(having trouble differentiating randarts from fixed artifacts anyway) 
+</p>
+<p>
+...and infuriates the experienced player who saved 7 great artifacts for artifacting as soon as he gets the ability. Then the experienced player finds out only 2 in 7 is artifactable, and that he's been discarding other cool things because he thought those 7 were artifactable... there is NO WAY to know what will be artifactable or not, it seems totally random. 
+</p>
+<hr size="3">
+Generic FUD discussion, only remotely linked to the bug <p>
+In any case this game has the maximum FUD factor (for Fear, Uncertainty, Doubt) 
+</p>
+<p>
+This is a generic FUD explanation: 
+</p>
+<p>
+-(F)ear of irreversible bad choice, such as planning to wear the one ring but not being able to do so because the game doesn't allow it. 
+</p>
+<p>
+-(U)ncertainty of whether the game allows this feature or not, even after full documentation searching. 
+</p>
+<p>
+-(D)oubt completely prevents the building of a fun plan to look forward to ("I'm gonna worship Melkor and wear the one ring"). 
+</p>
+<p>
+But of course we all know that the game DOES allow the wearing of the ring, at your own risk... the player would enjoy his daring plan to wear it even if he never makes it all the way; looking forward to a plan is half the fun! (come to think of it, can the player learn the ring is player-wearable from the documentation??) 
+</p>
+<p>
+Unfortunately FUD destroys half the fun. Also players who THINK they can do something but they can't are becoming pessimistic about whether everything else is doable or not; they're not only angry or sad, they're no longer just "going for a fun plan". 
+</p>
+<p>
+I've lost the "fun plan" completely with 11 maia alchemists who drained XP too much during the unfortunately necessary looong alchemy things(recharging wands, making piles of ID scrolls, etc). I've made a wand-centered character who was designed with only 28% HP of my usual character believing he would be a superior wand user(he wasn't). I've collected artifacts and discarded lesser artifacts thinking that all artifacts were artifactable, only to find out I'm as powerful as if I had never found 20+ powerful artifacts. 
+</p>
+<p>
+When you have (F) and (U) and (D) you tend to turn off a hell of a lot of user who will simply quit and say nothing! Good thing I'm a programmer and I've been thru FUD-code making in my youth... now grown out of it. But I still understand why it happens so often and I can forgive. 
+</p>
+<p>
+One of the most FUD-free RPG is Ultima Online. They have fought skill point spending FUD by making it reversible, i.e. you can choose some skills to be lowered when you gain new skills so the skill total cap is still respected. This prevents the relentless deletion and restart of characters who did some error as experienced by all beginners... skill redistribution could be a FF quest advantage, a beginner subclass power, or simply a game feature to be used with rare items (potion of new life?) and spending say 50000XP per skill point. It isn't overpowered... 
+</p>
+<p>
+However if you're more traditional all you need to do is document which artifacts should be artifactable in theory, make it plainly obvious to the player, and correct the code not to throw seemingly random inconsistencies that cause FUD. You know you succeed when new players are completely clueless about your FUD-freeness and only complain of regular bugs. (-; 
+</p>
+<p>
+so I've deleted my character out of a new no-fun situations - AGAIN - and I'd like to start testing 2.3 but I don't know where to download the source code??? 
+</p>
+<hr size="3">
+ <p>
+<a href="./NeilStevens">NeilStevens</a>:  OK, I don't know New Alchemy then, so I'll just stop making comments about them! 
+</p>
+<p>
+To test ToME 2.3, see <a href="./CVS">CVS</a> and <a href="./NightlyBuilds">NightlyBuilds</a>.  However nobody has touched Alchemy, so don't get hopeful that your Alchemy bugs are fixed in 2.3. 
+</p>
+<hr size="3">
+ <p>
+<a href="./ZV">ZV</a>: This whole FUD discussion is not much relevant to ToME as a whole. I'd like to point out that Alchemists are EXPERIMENTAL class, and were discovered to be broken and buggy quite some time ago, thus causing rearranging them in future versions (3.0.0). The same may go for Deathmolds and Runecrafters. However, if you don't go for experimentals, the FUD factor is low or even very low in ToME. 
+</p>
+
+    <ul>
+
+ As for non-experimentals, Zombies don't resist nether as stated in the documentation, Hobbits have no immunity to the black breath that I could notice, runecrafters should be experimental(so my zombie Hobbit mindcrafter was a disaster), maia are listed as disliked by *most* monsters but actually they're aggravating to *all* monsters(not to mention the misdocumented XP drain - unplayable at all with some classes). 
+        <ul>
+
+  <a href="./amaurea">amaurea</a>: If zombies don't resist nether, and the documentation states otherwise, then that is a bug, simple as that, and bugs aren't FUD. The maia exp drain is no problem with non-experimental classes. Perhaps it should be stressed a little more in the documentation that maiar have trouble remembering their encounters, but I do not think that it should be stated that they get the drain exp flag. 
+        </ul>
+
+
+ I take it the aggravation is because some maia-hating hidden force(Morgoth?) is focuses on telling the monsters where the Maia is at all times(this should be explained anyway), but definitively the code kills off any chance of a maia pet or coaligned without saying in the documentation; and it cannot be expected from the Tolkien theme. <p>
+ (if you have other comments, we should have a FUD page because there is more. How do we move a page?) 
+</p>
+
+        <ul>
+
+  <a href="./amaurea">amaurea</a>: I do not think we need a FUD page. Bug reports should go to bug reports, feature requests should go to ideas. What could a FUD page include that wouldn't duplicate the purpose of those sections? 
+        </ul>    </ul>
+
+
+<p>
+<a href="./NeilStevens">NeilStevens</a>: See <a href="./Wiki_20Frequently_20Asked_20Questions">Wiki Frequently Asked Questions</a> for information on moves 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport16?action=refresh&amp;arena=Page.py&amp;key=BugReport16.text_html">RefreshCache</a> for this page (cached 2004-07-06 16:34:37)<br>
+<p><a href="./BugReport16?action=edit">EditText</a> of this page (last edited 2004-07-06 16:34:36 by <span title="62.79.161.178=62.79.161.178">62</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 14:43:00 Jul 22, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:40 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 143.146
+  exclusion.robots: 0.15
+  exclusion.robots.policy: 0.139
+  RedisCDXSource: 0.721
+  esindex: 0.012
+  LoadShardBlock: 114.789 (3)
+  PetaboxLoader3.datanode: 118.239 (4)
+  CDXLines.iter: 23.956 (3)
+  load_resource: 73.764
+  PetaboxLoader3.resolve: 36.729
+-->

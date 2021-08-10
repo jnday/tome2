@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">200</script><title>Documentation/General information - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Documentation_2fGeneral_20information?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Documentation_2fGeneral_20information?action=print">
+<link rel="Up" href="/Documentation">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Documentation_2fGeneral_20information?action=fullsearch&amp;value=%2FGeneral+information&amp;literal=1&amp;case=1&amp;context=40">Documentation/General information</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Documentation">Up</a></li>
+<li><a title="Edit" href="./Documentation_2fGeneral_20information?action=edit">Edit</a></li>
+<li><a title="View" href="./Documentation_2fGeneral_20information">View</a></li>
+<li><a title="Diffs" href="./Documentation_2fGeneral_20information?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Documentation_2fGeneral_20information?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Documentation_2fGeneral_20information?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Documentation_2fGeneral_20information?action=raw">Raw</a></li>
+<li><a title="Print" href="./Documentation_2fGeneral_20information?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Documentation_2fGeneral_20information?action=DeletePage">DeletePage</a></li>
+<li><a href="./Documentation_2fGeneral_20information?action=LikePages">LikePages</a></li>
+<li><a href="./Documentation_2fGeneral_20information?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Documentation_2fGeneral_20information?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Documentation_2fGeneral_20information">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The game of ToME is a single player dungeon simulation.  A player may choose from a number of races and classes when creating a character, and then "run" that character over a period of days, weeks, even months, attempting to win the game by completing his quests. <p>
+The player will begin his adventure on the town level where he may acquire supplies, weapons, armour, and magical devices by bartering with various shop owners. After preparing for his adventure, the player can descend into the dungeon near Bree where fantastic adventures await his coming! 
+</p>
+<p>
+You will probably need to browse through the <a href="./Documentation">Documentation</a> files, especially the one on available <a class="nonexistent" href="./Commands">Commands</a>, before beginning any serious adventuring. Reading the <a class="nonexistent" href="./ToME_20FAQ">ToME FAQ</a> is also highly recommended. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Documentation_2fGeneral_20information?action=refresh&amp;arena=Page.py&amp;key=Documentation_2fGeneral_20information.text_html">RefreshCache</a> for this page (cached 2004-08-03 23:07:31)<br>
+<p><a href="./Documentation_2fGeneral_20information?action=edit">EditText</a> of this page (last edited 2004-06-27 22:19:06 by <span title="user-uiveqim.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:57:38 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:25:04 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 3.531
+  esindex: 0.013
+  CDXLines.iter: 22.848 (3)
+  load_resource: 83.027
+  exclusion.robots: 0.205
+  captures_list: 95.892
+  PetaboxLoader3.resolve: 33.282
+  LoadShardBlock: 65.173 (3)
+  PetaboxLoader3.datanode: 89.631 (4)
+  exclusion.robots.policy: 0.19
+-->

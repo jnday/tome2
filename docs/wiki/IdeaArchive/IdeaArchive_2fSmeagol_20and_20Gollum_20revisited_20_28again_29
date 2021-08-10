@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Smeagol and Gollum revisited (again) - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=fullsearch&amp;value=%2FSmeagol+and+Gollum+revisited+%28again%29&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Smeagol and Gollum revisited (again)</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<strong><a href="./MayLith">MayLith</a></strong>: Over on the forum, a number of proposals have been made concerning Smeagol and Gollum. Here is one more. <p>
+Very, very generally speaking, Smeagol is generally helpful, while Gollum is not. How about establishing them as separate but linked uniques (if that is possible?)  
+</p>
+<p>
+E.g. You run into Smeagol. If you speak to him (and/or maybe give him a fish), he helps you as an ally (unless you attack him). Perhaps he steals and drops items for you, including food upon occasion, can dig trees (i.e. can forge trails) or some other handy features, nothing too powerful. He won't fight for you.  
+</p>
+<p>
+If you speak to Smeagol and give him food, he'll follow you from level to level unless you try to kill him. (Otherwise, he'll wander off.) However, there is a low chance per round (based upon your Charisma and/or Luck) that he will convert over to Gollum. 
+</p>
+<p>
+Gollum would tag after you, aggravate of course, run a chance of stealing from you and/or inflict minor injuries, and/or simply sneak away to come back again later (whether later is in the same level or a different one.) And of course, he would berate you with Gollum-type talk while following you. 
+</p>
+<p>
+If you don't attack Gollum, there's a chance he might convert *back* over to Smeagol, again, based upon CHA and/or luck.  
+</p>
+<p>
+If Smeagol/Gollum sneaks away, then there's a turn-based chance on what form he takes when you see him again. If it's within X turns, he's in the same form you saw him last. If it's &gt;X turns, he is in a random form, either Smeagol or Gollum. 
+</p>
+<p>
+IMHO it would definitely support the general "tricksiness" of Smeagol/Gollum, and I think it would be irritatingly fun. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+Ennnh, I'm tired and there's probably holes in this, but you get the general idea. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: One (crude) way to implement this might be a spell which simultaneously "kills" smeagol and "summons" gollum. You could give this a relatively high failure rate so that it'll always happen, but only by the whims of the RNG...  
+</p>
+<p>
+<a href="./FedericoOdorizzi">FedericoOdorizzi</a>: I don't know, I think Smeagol is not bad as he is. I mean, he's quick, may give problems if you don't have see invisible, 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: The idea I was trying to present was to <em>make</em> him badder than he already is (which is bad enough, for the uninitiated.) <p>
+ <a href="./FedericoOdorizzi">FedericoOdorizzi</a>: I understand your point, but then he'd be too strong to be in the Barrow Downs, where he can give you *very* helpful items. It wouldn't be too big a loss, but still, I'd rather have him <strong>also</strong> there and <strong>harder</strong> then, in other dungeons. 
+</p>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Well, I meant badder (as in more of a pain) but not necessarily stronger. (OTOH, there have been other suggestions regarding making Smeagol be of variable strength depending on where you run into him.) 
+</p>
+<p>
+ <a href="./FedericoOdorizzi">FedericoOdorizzi</a>: Erm... then could you explain me the difference between <em>badder</em> and <em>stronger</em>? I don't get it.. <img src="./wiki/rightsidebar/img/ohwell.png" alt=":\" height="15" width="15"> 
+</p>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Sorry about my sloppy terminology. Read my initial post again. My suggestions don't really make Gollum/Smeagol any stronger/more dangerous (i.e. a higher monster level) than before -- perhaps excepting the aggravation. They do, however, make him a lot more annoying, i.e. badder! (And in some cases, much more helpful -- as in the possibility to tunnel trees and drop food, in Smeagol phase.) 
+</p>
+<p>
+ <a href="./FedericoOdorizzi">FedericoOdorizzi</a>: Ok, now I got it, I should have read your initial post again. Apart the fact that it'd seem a bit strange to have a coaligned Smeagol (for also in the books he helps Frodo only as long as this will aviod making Sauron get the Ring) it seems a good idea, <em>if it's not a problem to code</em>. For I fear it could give some problems as it seems Gollum's behaivour is a bit more complex than the usual monsters'. I've to think about it a bit more. 
+</p>
+
+    </ul>
+
+
+<p>
+but gives you a Ring of Invisibility (iirc he always drops one) and maybe other good/nasty things, like the Phial of Undeath (like in <a class="external" href="./angband.oook.cz/ladder-show.php?id=3469"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">this</a> case). 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: I don't like making him a guaranteed dropper of the Phial of Undeath, or, for that matter, any guaranteed randart. I think it's pretty well established that Smeagol had only one prized possession, a ring. <p>
+ <a href="./FedericoOdorizzi">FedericoOdorizzi</a>: Of course I didn't suggested that! I ment he <em>may</em> give items you need anyway, so it's always rewarding killing him, as he is now. 
+</p>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Ah, okay. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+
+    </ul>
+
+
+<p>
+For this, I think we could just do this instead: when his HP go below 0, he'll drop everything and run away (without dying). So he'll be able to come again (levelled and so stronger) in the future, but still you'll get his belongings as a reward. 
+</p>
+<p>
+This will need another thing I believe: he should be able to appear only in some specific places, like Barrow Downs, Moria, Mordor, Mount Doom, and NOT in God quests. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: I like this idea of being only in certain places. 
+    </ul>
+
+
+<p>
+Anyway, I'm not sure this will be doable with ToME 2.x. 
+</p>
+<p>
+<strong><a href="./TobiasParker">TobiasParker</a></strong>: Smeagol dropped Nimthanc on Level 3 of the barrow downs for me once...or was it narthanc?  Meh, anyway i  now ID every single dagger that is dropped by any monster ever. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Don't waste your scrolls on that -- all you need to do is destroy it. (BTW, you should do that with broken daggers, too.) Of course, you may miss out on some ego daggers that way, but after a while, the gold doesn't matter anymore. <p>
+ <a href="./BurbLulls">BurbLulls</a>: I've always been partial to having a rest9999 macro, and letting pseudo-ID sift the goods from the junk. Of course, this is only for those with high combat, but that's who Nimthanc should be appealing to. 
+</p>
+<p>
+ <strong><a href="./MayLith">MayLith</a></strong>: Hey, Nimthanc is good for more than just those with high combat. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> (Though I'm sure it's <em>better</em> for those with high combat.) And resting for pseudo works, absolutely, but if you've got "always small levels" on and you're hanging around in Mordor or Angband, resting for long periods of time is generally not an option. <img src="./wiki/rightsidebar/img/smile4.png" alt=";)" height="15" width="15"> 
+</p>
+</ul>
+
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29.text_html">RefreshCache</a> for this page (cached 2004-09-13 15:48:15)<br>
+<p><a href="./IdeaArchive_2fSmeagol_20and_20Gollum_20revisited_20_28again_29?action=edit">EditText</a> of this page (last edited 2004-09-13 15:48:14 by <span title="host239-63.pool8248.interbusiness.it"><a href="./FedericoOdorizzi">FedericoOdorizzi</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:25:51 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:57 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 112.903
+  exclusion.robots: 0.101
+  exclusion.robots.policy: 0.095
+  RedisCDXSource: 1.465
+  esindex: 0.005
+  LoadShardBlock: 91.727 (3)
+  PetaboxLoader3.datanode: 66.535 (4)
+  CDXLines.iter: 17.368 (3)
+  load_resource: 61.32
+  PetaboxLoader3.resolve: 24.163
+-->

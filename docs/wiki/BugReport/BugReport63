@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport63 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport63?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport63?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport63?action=fullsearch&amp;value=BugReport63&amp;literal=1&amp;case=1&amp;context=40">BugReport63</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport63?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport63">View</a></li>
+<li><a title="Diffs" href="./BugReport63?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport63?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport63?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport63?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport63?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport63?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport63?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport63?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport63?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport63">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MayLith">MayLith</a>: I just saw this over on oook. Looks like a bug to me! <p>
+<a href="./angband.oook.cz/screen-show.php?id=551">http://angband.oook.cz/screen-show.php?id=551</a> 
+</p>
+<hr>
+ <p>
+I've had one of those, and the reward I choose was a player's corpse (the other rewards were boring). I've been infinitely eating from the player's corpse ever since (they don't run out of meat!). 
+</p>
+<p>
+Later I used the multiply power of my symbiote to get more. I will try with a morphic oil or mimic powers if I get the chance. (-; 
+</p>
+<p>
+Any situation where the player meets himself or his corpse are quite absurd. 
+</p>
+<hr>
+ <a href="./MayLith">MayLith</a>: The quest was for two Players... which means you'd have to kill two Players to get a reward. I've never run into a Player wandering around the dungeon, myself or otherwise. <p>
+<a href="./NeilStevens">NeilStevens</a>: It is known that some people run into weird quests when going very deep. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Does that make this a known behavior rather than a known bug, then? Just asking for the sake of the information. 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: It's a known bug that nobody has felt like/been able to fix. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Are the location(s) and/or nature(s) of the bug known?  
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: Not that I know of. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Ah, okay, thanks. (I've got enough to do as it is. &lt;g&gt;) 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: A test for 1 &lt;= dungeon level &lt;= 98 was missing in the code for the quest list display. Fixed in ToME 2.3.0 (CVS). 
+</p>
+<p>
+<a href="./NeilStevens">NeilStevens</a>: You really are the hero of ToME.  Truly.   Your bugfixing is monumental. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Amen to that! 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport63?action=refresh&amp;arena=Page.py&amp;key=BugReport63.text_html">RefreshCache</a> for this page (cached 2004-08-04 21:41:39)<br>
+<p><a href="./BugReport63?action=edit">EditText</a> of this page (last edited 2004-08-04 21:41:38 by <span title="user-2ivem3k.dialup.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 10:49:10 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:35:23 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 91.171
+  exclusion.robots: 0.079
+  exclusion.robots.policy: 0.073
+  RedisCDXSource: 1.691
+  esindex: 0.006
+  LoadShardBlock: 69.572 (3)
+  PetaboxLoader3.datanode: 50.295 (4)
+  CDXLines.iter: 17.521 (3)
+  load_resource: 57.096
+  PetaboxLoader3.resolve: 21.475
+-->

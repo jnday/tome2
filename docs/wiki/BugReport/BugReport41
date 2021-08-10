@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport41 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport41?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport41?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport41?action=fullsearch&amp;value=BugReport41&amp;literal=1&amp;case=1&amp;context=40">BugReport41</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport41?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport41">View</a></li>
+<li><a title="Diffs" href="./BugReport41?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport41?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport41?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport41?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport41?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport41?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport41?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport41?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport41?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport41">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+The Phial of Galadriel on my <a class="external" href="./angband.oook.cz/ladder-show.php?id=3301"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">current character</a> does not seem to recharge.  I activated it once, but since then it has remained as (charging). I've uploaded the savefile to my webspace <a class="external" href=".www.cs.indiana.edu/~apvargo/Vargo_II"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">here</a>. I'm not sure if this is particular to 2.3 or not.  I don't remember ever seeing this behavior in previous versions. <p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Try to use a newer version. This bug was introduced on 10/06/2004 with a bugfix, but was corrected a few days later (13/06/2004).  
+<pre>10/06/2004
+[B]- dungeon.c: Light should consume fuel at a rate of 1 / turn -- masmarangio
+</pre>See also this <a class="external" href=".www.t-o-m-e.net/forum/viewtopic.php?t=4898"><img src="./wiki/rightsidebar/img/moin-www.png" alt="[WWW]" height="11" width="11">bug report</a> in the forum. 
+</p>
+<p>
+<a href="./ElVargo">ElVargo</a>: Ah, thanks. <img src="./wiki/rightsidebar/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+To anyone reading this, just remember that wearable things recharge when you wear them(whether that is intended or a bug is a mistery, but it's OK with me). 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport41?action=refresh&amp;arena=Page.py&amp;key=BugReport41.text_html">RefreshCache</a> for this page (cached 2004-08-03 11:52:16)<br>
+<p><a href="./BugReport41?action=edit">EditText</a> of this page (last edited 2004-07-23 01:37:30 by <span title="24.200.164.42=modemcable042.164-200-24.mc.videotron.ca">modemcable042</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:16:37 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:34:59 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  load_resource: 75.779
+  PetaboxLoader3.resolve: 27.315
+  exclusion.robots.policy: 0.202
+  cdx.remote: 0.114
+  exclusion.robots: 0.217
+  LoadShardBlock: 113.985 (3)
+  PetaboxLoader3.datanode: 132.553 (4)
+  CDXLines.iter: 25.637 (3)
+  captures_list: 156.902
+  esindex: 0.017
+-->

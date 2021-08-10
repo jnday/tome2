@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport20 - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport20?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport20?action=print">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport20?action=fullsearch&amp;value=BugReport20&amp;literal=1&amp;case=1&amp;context=40">BugReport20</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Edit" href="./BugReport20?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport20">View</a></li>
+<li><a title="Diffs" href="./BugReport20?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport20?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport20?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport20?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport20?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport20?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport20?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport20?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport20?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport20">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./PeteyLeinonen">PeteyLeinonen</a>: In the Paths of the Dead, I killed a zombie Lesser Balrog, which then dropped a corpse. Lesser Balrogs don't have the DROP_CORPSE flag. <p>
+<a href="./NeilStevens">NeilStevens</a>: Ah, but it was a zombie.  I doubt the developers even considered this.  I wonder whether it's a bug or just an unintended consequence. 
+</p>
+<p>
+It's an old alchemy secret to get a demon corpse; alchemists didn't want it fixed, either, because of how mindboggingly-hard it is to get demon corpses. 
+</p>
+<p>
+On deep levels meats of monsters that never-ever drop corpses and can't get corpse-causing egos have been known to appear(Ghost meat can even be eaten!); I have some meat of ghost with my current char. I hope it's enough to brand my upcoming weapon artifact; I don't think I can get a ghost corpse ever. (-; 
+</p>
+<p>
+<a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>: Hmm, does the Paths of the Dead change the rules for monster ego types?  Because the entry for Zombie in <tt>re_info.txt</tt> has a <tt>F:DROP_CORPSE</tt> line, which AIUI means the Zombie ego can't be added to a monster unless it already has the <tt>DROP_CORPSE</tt> flag --- so the Zombie Lesser balrog shouldn't have been possible in the first place. 
+</p>
+<p>
+<a href="./PeteyLeinonen">PeteyLeinonen</a>: I forgot to mention, that I killed a normal Lesser Balrog only 50 or so steps before. I don't recall a corpse being dropped with that kill. I'm not sure if the two are related. 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport20?action=refresh&amp;arena=Page.py&amp;key=BugReport20.text_html">RefreshCache</a> for this page (cached 2004-08-02 21:12:39)<br>
+<p><a href="./BugReport20?action=edit">EditText</a> of this page (last edited 2004-07-10 01:00:06 by <span title="144.136.206.42=CPE-144-136-206-42.sa.bigpond.net.au">CPE-144-136-206-42</span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 11:29:01 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:31:11 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.171
+  exclusion.robots.policy: 0.159
+  captures_list: 238.078
+  PetaboxLoader3.resolve: 52.115
+  PetaboxLoader3.datanode: 242.873 (4)
+  LoadShardBlock: 208.041 (3)
+  esindex: 0.01
+  load_resource: 232.516
+  CDXLines.iter: 25.005 (3)
+  RedisCDXSource: 0.64
+-->

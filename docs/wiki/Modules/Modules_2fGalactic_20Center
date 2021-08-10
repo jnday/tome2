@@ -1,0 +1,399 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="robots" content="index,nofollow"><title>Modules/Galactic Center - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./Modules_2fGalactic_20Center?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./Modules_2fGalactic_20Center?action=print">
+<link rel="Up" href="/Modules">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./Modules_2fGalactic_20Center?action=fullsearch&amp;value=%2FGalactic+Center&amp;literal=1&amp;case=1&amp;context=40">Modules/Galactic Center</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./Modules">Up</a></li>
+<li><a title="Edit" href="./Modules_2fGalactic_20Center?action=edit">Edit</a></li>
+<li><a title="View" href="./Modules_2fGalactic_20Center">View</a></li>
+<li><a title="Diffs" href="./Modules_2fGalactic_20Center?action=diff">Diffs</a></li>
+<li><a title="Info" href="./Modules_2fGalactic_20Center?action=info">Info</a></li>
+<li><a title="Subscribe" href="./Modules_2fGalactic_20Center?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./Modules_2fGalactic_20Center?action=raw">Raw</a></li>
+<li><a title="Print" href="./Modules_2fGalactic_20Center?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./Modules_2fGalactic_20Center?action=DeletePage">DeletePage</a></li>
+<li><a href="./Modules_2fGalactic_20Center?action=LikePages">LikePages</a></li>
+<li><a href="./Modules_2fGalactic_20Center?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./Modules_2fGalactic_20Center?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./Modules_2fGalactic_20Center">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<h2 id="head-55f8ebc805e65b5b71ddafdae390e3be2bcd69af"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Description</h2>
+<p>
+I think Gregory Benford's Galactic Center series is surprisingly well suited to be a roguelike game. A lot of the details need to be changed -- the series is hard science fiction after all -- but not the fundamental nature of the game. 
+</p>
+<p>
+I have read the first four books of the six-book series that is currently in the process of being rereleased. This module idea is mainly based on the third book, Great Sky River, and the fourth book, Tides of Light. 
+</p>
+<h3 id="head-5b4138601f24b31751402d63cb25344e5a06657b"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Game Plot Idea</h3>
+<p>
+The game starts in the human village Metropolis, on the mech-controlled planet Snowglade, some time after the events of Great Sky River. The mechs, intelligent machines, have all but eradicated humans, and Metropolis has continuing existence only because of a deal struck with the mech known as the Mantis. 
+</p>
+<p>
+Some brave youngsters still wish to fight the mechs and make raids to mech cities. There they get a possibility to kill the mechs who had killed or surekilled so many of their loved ones, and also find mighty equipment made by the mechs or the ancient humans back when they were more powerful than now. 
+</p>
+<p>
+Then, just to mess things up, Snowglade gets attacked by Cybers... 
+</p>
+<h2 id="head-e5dfe03b6eebea53aed474b9a3a7a6ba600aec78"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>The Equipment Thing</h2>
+<p>
+Sufficiently advanced technology is indistinguishable from magic. Therefore boots of speed are not only possible, but well recommended in fighting against quick enemies, which there are many. Humans can wear various armor that enchances their abilities or provides resistances and wield advanced weapons. 
+</p>
+<p>
+However instead of ring and amulet slots people have spine slots into which can be inserted things like Faces and the more powerful Aspects, condensed recordings of dead people. They enchance one or more of the wielder's skills by giving helpful advice when needed. It is also possible to gain abilities like food creation (the Aspect tells you how to find food almost anywhere). To balance the Aspects, I think the player should be given fewer skill points per level. 
+</p>
+<h2 id="head-04735ad1560fa78bf30db3d6cd3f06c9b93bf296"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>The Element Thing</h2>
+<p>
+Magical elements like disenchantment are obviously out of theme here. Here is a suggestion for a more suitable "element" list. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Electricity (important) 
+</p>
+</li>
+    <li>
+<p>
+ Fire 
+</p>
+</li>
+    <li>
+<p>
+ Cold 
+</p>
+</li>
+    <li>
+<p>
+ Acid 
+</p>
+</li>
+    <li>
+<p>
+ Poison 
+</p>
+</li>
+    <li>
+<p>
+ Infrared 
+</p>
+</li>
+    <li>
+<p>
+ Laser 
+</p>
+</li>
+    <li>
+<p>
+ Ultraviolet 
+</p>
+</li>
+    <li>
+<p>
+ Microwaves (basic mech attack; good against mechs, at least the simple ones) 
+</p>
+</li>
+    <li>
+<p>
+ Gammarays 
+</p>
+</li>
+    <li>
+<p>
+ Blindness 
+</p>
+</li>
+    <li>
+<p>
+ Confusion 
+</p>
+</li>
+    <li>
+<p>
+ Hallucination 
+</p>
+</li>
+    <li>
+<p>
+ Sound 
+</p>
+</li>
+    <li>
+<p>
+ Shards 
+</p>
+</li>
+    <li>
+<p>
+ Plasma 
+</p>
+</li>
+    <li>
+<p>
+ Borers (nanites) 
+</p>
+</li>
+    <li>
+<p>
+ Disassemblers (nanites) 
+</p>
+</li>
+    <li>
+<p>
+ Suredeath (sucks out your mind and kills you; you NEED to resist this) 
+</p>
+</li>
+    <li>
+<p>
+ Paralyzation 
+</p>
+</li>
+
+    </ul>
+
+
+<h2 id="head-1698f78abb1d5e8c2c675721f6ce0bd6ae02445d"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>The Former Magic</h2>
+<p>
+Magic doesn't exist, of course, but technology is a good replacement. Yes, it is possible to animate corpses to your will, and getting a huge destructive effect from some alien mechanism is even more possible, as are invisibility, charm mech, and such things. 
+</p>
+<p>
+Spellbooks are replaced with strange electric mechanisms with one or more functions. Some other former spells function using the circuits you carry inside of you (even humans have such). You have a battery with a solar panel attached. It powers your spells and works just like mana. 
+</p>
+<p>
+Engineering skill applies to the former magic. 
+</p>
+<p>
+It is also possible "summon pets" by "planting" suitable eggs in organic corpses where they quickly grow to maturity by devouring the flesh of the corpse from inside. 
+</p>
+<h2 id="head-7cda786dcdda65ecd2eddd881cf6baab73f25240"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>"Races"</h2>
+<h3 id="head-e31663b107b924eb1b3620999ddd56b3e2a6f2e6"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Human</h3>
+<p>
+Humans naturally resist (but are not immune to) many forms of electromagnetic radiation. They are good at disarming traps without triggering them since dungeon traps are usually tuned to detect beings with more metal in them. 
+</p>
+<p>
+Various Families on Snowglade have manipulated their genes into slightly different directions and work as subraces. The Families are named after chess pieces. I'm not joking. 
+</p>
+
+    <ul>
+
+    <li>
+<p>
+ Family Bishop is good at stealth and fighting. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Family Knight is good with mechanical equipment (former magic). They are not very strong. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Family King is charismatic and good at loremaster type thing. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Family Rook is . . .  well, vanilla, I guess. 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Family Queen is missing, but let's say they are priestly. (Feel free to change.) 
+</p>
+</li>
+    <li class="gap">
+<p>
+ Family Pawn is also missing, but let's say they are yeek-like. (Not based on any canon.) 
+</p>
+</li>
+
+    </ul>
+
+
+<h3 id="head-985c6c249e7c55d4532add1d32d7d59dc17d60f8"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Cyber</h3>
+<p>
+Cybers -- or podia like they call themselves -- are alien beings somewhat akin to huge insects that like to give themselves significant cybernetic additions. They have good infravision, great strength and constitution, and their stealth sucks. Human armor does not fit them, but they are given various innate enchancement by their Hive as they level up. 
+</p>
+<p>
+With level-up Cybers gain AC (armor plates), speed (extra legs), equipment slots, and miscellaneous things. 
+</p>
+<h3 id="head-fe2c76f5f2c4dbd07ba8658a866d567e20cb14e2"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Mech</h3>
+<p>
+The player characters are renegade mechs that have taken control of their own destiny and for that crime would be destroyed by normal mechs. They can update themselves from the parts they find. 
+</p>
+<p>
+Mechs resist cold and gammarays. 
+</p>
+<p>
+There can be many subraces based on the types of enemy mech. 
+</p>
+<h2 id="head-ebea5fed56a86b76ab1f13df6e85df2941b562c6"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Monsters</h2>
+<p>
+Mech are the most common type of monster. They vary widely from puny and slow robomechs and navvys to indescribably powerful entities far above human ken. In the between there are dangerous forms like Lancers, Rattlers, Snouts, Dusters, Baba Yagas, etc. Probably several subtypes too. You might also end up battling the Mantis... 
+</p>
+<p>
+Cybers are internally divided, and can be both player characters and monsters. They vary in power and danger level according to how many legs they have been granted, but are generally very dangerous. They have small, much less dangerous workers that are modified from their genes. 
+</p>
+<p>
+Mechs have put mind-control implants into the heads of some humans, who in turn can then control the others. There is also the possibility of escaped and quite insane Mantis sculptures. The ELDRITCH_HORROR flag could suit the latter. 
+</p>
+<p>
+Even on a desert planet like Snowglade, something dangerous biological might still pop up. This is even more likely if the game gets on other planets somehow. 
+</p>
+<h2 id="head-f0b0c47f689c1a7c718dbde332209f3943561dff"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Gods (which there are none)</h2>
+<p>
+You might ask help from the Mantis and it might even give it to you if you are not more trouble than you are worth. Possible "spell" effects: invisibility, suredeath bolt, charm mech, summon mech. 
+</p>
+<p>
+There is also that magnetic entity. Possible "spell" effects: scare mech, stun mech, teleport, identify. 
+</p>
+<h2 id="head-ff11f0da0a4cd245270f188d8a7299b4084d0328"><a href="#bottom"><img src="./wiki/starshine/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/starshine/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Chatter</h2>
+<strong><a href="./MayLith">MayLith</a></strong>: Sounds fascinating -- I haven't read this book series yet. I do need to say, though, that creating a Roguelike based on a current series of books is likely to cause some of the same problems that Pernband ran into. Cool fun, though! <p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: If anyone wishes to make a game of my suggestion, I guess they should contact Gregory Benford. I have no idea what he thinks of games like this, but I have the impression Anne McCaffrey is in the minority among the writers. 
+</p>
+<p>
+By the way, I recommend reading Galactic Center. It's great once it gets going. The first book is in my opinion the weakest in the series so far, and being situated in the not-too-distant future has little in common with the things on this page, but then it just improves and improves. You can start from anything from 1 to 3 if you wish, at the cost of getting some spoilers for the earlier books. I read first the brilliant novella A Hunger for the Infinite, which while giving me the reason to try the series, gave me some lamentable world-building spoilers which may have dampened my enjoyment in the beginning since I knew where the series was heading. I hope this page isn't too spoily, but I think it probably is... 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: Yep re: contacting Benford. Regarding McCaffrey, I've corresponded with her in the past; I won't say anything else. 
+</p>
+<p>
+Regarding reading lists etc.: I don't know exactly what Neil's (and others) vision is for this wiki, but personally, I think of this place and the forum as a community. Swapping favorite book lists/etc is part of that, IMHO. Maybe we can find a home for that somewhere...but if we do, we need to make sure that the <a href="./Style_20Guide">Style Guide</a> is followed -- mainly the "controversial topics" clause. 
+</p>
+<p>
+While I'm at it, David Weber's Honor Harrington series is fantastic, even if it's a semi knockoff of C.S. Forrester. (sp?) David Feintuch's series is another semi knockoff, but *completely* different from Weber. (Warning: If you are easily depressed, <em>do not</em> read Feintuch.) Anyway, both are great if you are into military hard sf. 
+</p>
+<p>
+<strong><a href="./NeilStevens">NeilStevens</a></strong>: <a href="./GeneralDiscussion">GeneralDiscussion</a> should have room for other discussions, sure. 
+</p>
+<p>
+<a href="./NerdanelVampire">NerdanelVampire</a>: I have happened to read those two authors, but not those books. By Weber I liked his Mutineers' Moon  
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: Did you read the two sequels?  
+    </ul>
+
+
+<p>
+and disliked his like-Eddings-but-better (not really a compliment) fantasy book War God's Own. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: I haven't liked any of the books he's co-authored with anyone, though I've read a few. 
+    </ul>
+
+
+<p>
+Feintuch's fantasy book The Still suffered from a point-of-view character that was massively annoying beyond all reason. The story had good points and the ending was good, but the character made it a pain to read, even though I like antiheroes. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: I've read the Still and its sequel, and remain ambivalent about it. If you go after Midshipman's Hope -- the first in the other series -- you might want to check it out of a library. It is a tough read in some ways and can VERY easily push some people's buttons, aside from being a tetch depressing. OTH, I like it, even if it's twisted. 
+    </ul>
+
+
+<p>
+I'm not sure if Galactic Center is really military sf, at least in the beginning. I like a little military in my sf, but start to drift like it gets very detailed and technical like I've seen in some otherwise good military sf. 
+</p>
+
+    <ul>
+
+ <strong><a href="./MayLith">MayLith</a></strong>: The two series I mentioned are definitely military sf. David Weber <em>can</em> go off a bit sometimes, which gets annoying especially since he repeats himself repeats himself from novel to novel, but just bear with it, as past/present/future technological developments have a major impact on his plots. (Yeah, I drift now that I've read it all.) Feintuch doesn't get into it quite as much, but when he does, you need to read it. 
+    </ul>
+
+
+<p>
+3 and 4 have several battles though, and 2 has the backdrop of alien invasion. I'd say the series is more first contact sf, really-neat-science-idea sf, and sociobiological sf. The adventure components gain quite a lot of prominence between 1 and 4. The series can also be dark and disturbing, particularly around 3. 
+</p>
+<p>
+For the same sort of books, Ringworld and The Integral Trees by the obvious Larry Niven have a similar but lighter feel with plenty of fascinating science in action. I also think Benford has been influenced by The Night Land, an early flawed masterpiece by William Hope Hodgson, which has some very similar dark themes and a completely different writing style. Harlan Ellison's classic short story I Have No Mouth and I Must Scream comes to mind also. 
+</p>
+</div><div id="footer">
+
+
+<a href="./Modules_2fGalactic_20Center?action=refresh&amp;arena=Page.py&amp;key=Modules_2fGalactic_20Center.text_html">RefreshCache</a> for this page (cached 2004-10-09 23:38:20)<br>
+<p><a href="./Modules_2fGalactic_20Center?action=edit">EditText</a> of this page (last edited 2004-10-09 23:38:19 by <span title="user-uiveqsc.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:43:44 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:40 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 87.481
+  exclusion.robots: 0.245
+  exclusion.robots.policy: 0.231
+  RedisCDXSource: 0.748
+  esindex: 0.011
+  LoadShardBlock: 55.639 (3)
+  PetaboxLoader3.datanode: 63.01 (4)
+  CDXLines.iter: 26.815 (3)
+  load_resource: 48.844
+  PetaboxLoader3.resolve: 24.699
+-->

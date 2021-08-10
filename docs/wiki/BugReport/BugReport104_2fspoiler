@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>BugReport104/spoiler - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./BugReport104_2fspoiler?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./BugReport104_2fspoiler?action=print">
+<link rel="Up" href="/BugReport104">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./BugReport104_2fspoiler?action=fullsearch&amp;value=%2Fspoiler&amp;literal=1&amp;case=1&amp;context=40">BugReport104/spoiler</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./BugReport104">Up</a></li>
+<li><a title="Edit" href="./BugReport104_2fspoiler?action=edit">Edit</a></li>
+<li><a title="View" href="./BugReport104_2fspoiler">View</a></li>
+<li><a title="Diffs" href="./BugReport104_2fspoiler?action=diff">Diffs</a></li>
+<li><a title="Info" href="./BugReport104_2fspoiler?action=info">Info</a></li>
+<li><a title="Subscribe" href="./BugReport104_2fspoiler?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./BugReport104_2fspoiler?action=raw">Raw</a></li>
+<li><a title="Print" href="./BugReport104_2fspoiler?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./BugReport104_2fspoiler?action=DeletePage">DeletePage</a></li>
+<li><a href="./BugReport104_2fspoiler?action=LikePages">LikePages</a></li>
+<li><a href="./BugReport104_2fspoiler?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./BugReport104_2fspoiler?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./BugReport104_2fspoiler">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Starting with a speed of -41 (i.e. pspeed = 69) or lower, the rate is only one tenth of a normal speed character (pspeed = 110). The code is in dungeon.c: 
+<pre>int speed_use = p_ptr-&gt;pspeed;
+
+/* Maximum */
+if (speed_use &gt; 199)
+{
+        speed_use = 199;
+}
+
+/* Minimum */
+else if (speed_use &lt; 0)
+{
+        speed_use = 0;
+}
+
+/* Basic digestion rate based on speed */
+i = extract_energy[speed_use] * 2;
+</pre>and extract_energy is an array found in tables.c: 
+<pre>byte extract_energy[300] =
+{
+        /* Slow */     1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        /* Slow */     1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        /* Slow */     1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        /* Slow */     1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        /* Slow */     1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        /* Slow */     1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        /* S-50 */     1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        /* S-40 */     2,    2,    2,    2,    2,    2,    2,    2,    2,    2,
+        /* S-30 */     2,    2,    2,    2,    2,    2,    2,    3,    3,    3,
+        /* S-20 */     3,    3,    3,    3,    3,    4,    4,    4,    4,    4,
+        /* S-10 */     5,    5,    5,    5,    6,    6,    7,    7,    8,    9,
+        /* Norm */    10,   11,   12,   13,   14,   15,   16,   17,   18,   19,
+        /* F+10 */    20,   21,   22,   23,   24,   25,   26,   27,   28,   29,
+        /* F+20 */    30,   31,   32,   33,   34,   35,   36,   36,   37,   37,
+        /* F+30 */    38,   38,   39,   39,   40,   40,   40,   41,   41,   41,
+        /* F+40 */    42,   42,   42,   43,   43,   43,   44,   44,   44,   44,
+        /* F+50 */    45,   45,   45,   45,   45,   46,   46,   46,   46,   46,
+        /* F+60 */    47,   47,   47,   47,   47,   48,   48,   48,   48,   48,
+        /* F+70 */    49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Fast */    49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+        /* Virtual */  49,   49,   49,   49,   49,   49,   49,   49,   49,   49,
+};
+</pre><p>
+<strong><a href="./MayLith">MayLith</a></strong>: Is there a place in the <a href="./SpoilerArchive">SpoilerArchive</a> that this can be copied to? 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: Perhaps a new page about game mechanism? (for energy/speed, food consumption rate, number of blows, effects of damage types, etc.) 
+</p>
+<p>
+<strong><a href="./MayLith">MayLith</a></strong>: I don't know how best to insert that sort of info into the <a href="./SpoilerArchive">SpoilerArchive</a>, but your suggestion sounds great. IMHO one issue would be to use the same sort of heading throughout so that a search can pick out code-based documentation easily. (e.g. if code issues are put in other places than the section you describe.) 
+</p>
+</div><div id="footer">
+
+
+<a href="./BugReport104_2fspoiler?action=refresh&amp;arena=Page.py&amp;key=BugReport104_2fspoiler.text_html">RefreshCache</a> for this page (cached 2004-12-16 04:32:19)<br>
+<p><a href="./BugReport104_2fspoiler?action=edit">EditText</a> of this page (last edited 2004-09-02 20:54:37 by <span title="user-uiveq8r.dsl.mindspring.com"><a href="./MayLith">MayLith</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 20:35:29 Jan 14, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:29:29 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 0.681
+  exclusion.robots: 0.207
+  exclusion.robots.policy: 0.192
+  esindex: 0.015
+  load_resource: 117.391
+  CDXLines.iter: 19.307 (3)
+  captures_list: 105.137
+  PetaboxLoader3.datanode: 134.62 (4)
+  LoadShardBlock: 81.615 (3)
+  PetaboxLoader3.resolve: 28.481
+-->

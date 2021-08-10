@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/'C'haracter screen - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2f_27C_27haracter_20screen?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2f_27C_27haracter_20screen?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2f_27C_27haracter_20screen?action=fullsearch&amp;value=%2F%27C%27haracter+screen&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/'C'haracter screen</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2f_27C_27haracter_20screen?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2f_27C_27haracter_20screen">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2f_27C_27haracter_20screen?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2f_27C_27haracter_20screen?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2f_27C_27haracter_20screen?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2f_27C_27haracter_20screen?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2f_27C_27haracter_20screen?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2f_27C_27haracter_20screen?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2f_27C_27haracter_20screen?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2f_27C_27haracter_20screen?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2f_27C_27haracter_20screen?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2f_27C_27haracter_20screen">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Maur: It would be nice to see your speed (and, if you're a posessor, your number of limbs/item slots) on the 'C'haracter screen and in the character dump. <p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a>:</strong> I've put up <a class="external" href="./www.killerbunnies.org/angband/tome-showspd.diff"><img src="./wiki/classic/img/moin-www.png" alt="[WWW]" height="11" width="11">a patch</a> to add player speed to the character dump.  As for equipment slots, I think the equipment list already shows all (and only) the slots that are available in your current form. 
+</p>
+<h2 id="head-a192084c52f36bcb09cfa1c37e6b3ac169054bf7"><a href="#bottom"><img src="./wiki/classic/img/moin-bottom.png" alt="[BOTTOM]" height="10" width="14"></a><a href="#top"><img src="./wiki/classic/img/moin-top.png" alt="[TOP]" height="10" width="14"></a>Resistance display for non-*ID*'ed objects</h2>
+<p>
+Kalirion: Vanilla already has this, and I think it would make a good addition to ToME.  The standard resists and abilities granted by ego and other non-artifact items should show up in the item description and on the resistance screen even if the items have not been *Identified*.  The random high resists, of course, should not.  Everyone already knows what the resists are, but its a pain having to figure out what resistance holes you have.  Or maybe this could be a ToME only option on the configuration screen. 
+</p>
+<p>
+<strong><a href="./ZizzoTheInfinite">ZizzoTheInfinite</a></strong>:  Actually, the game already does that to an extent.  The lines in <tt>src/{a,e,k}_info.txt</tt> beginning with <tt>f:</tt> are "obvious" flags, that should show up on the grid or in the item descriptions without *ID*'ing the items.  Of course, the game's ideas about which flags should be obvious for which items may differ from yours... <img src="./wiki/classic/img/smile2.png" alt="B)" height="15" width="15"> 
+</p>
+<p>
+Kalirion:  Cool, thanks!  I guess I'll just go through the ego and item info files and change some of those to the 'f:' line <img src="./wiki/classic/img/smile.png" alt=":)" height="15" width="15"> 
+</p>
+<p>
+<a href="./MassimilianoMarangio">MassimilianoMarangio</a>: You need to add the flags to the 'f:' line, don't remove them from the 'F:' line. 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2f_27C_27haracter_20screen?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2f_27C_27haracter_20screen.text_html">RefreshCache</a> for this page (cached 2004-09-16 04:57:04)<br>
+<p><a href="./IdeaArchive_2f_27C_27haracter_20screen?action=edit">EditText</a> of this page (last edited 2004-09-16 04:57:04 by <span title="dialin-145-254-143-118.arcor-ip.net"><a href="./MassimilianoMarangio">MassimilianoMarangio</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 13:18:40 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:56 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 124.377
+  exclusion.robots: 0.083
+  exclusion.robots.policy: 0.076
+  RedisCDXSource: 4.657
+  esindex: 0.009
+  LoadShardBlock: 99.754 (3)
+  PetaboxLoader3.datanode: 85.267 (4)
+  CDXLines.iter: 17.711 (3)
+  load_resource: 85.622
+  PetaboxLoader3.resolve: 56.116
+-->

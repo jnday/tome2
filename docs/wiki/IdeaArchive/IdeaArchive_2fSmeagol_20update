@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>IdeaArchive/Smeagol update - ToME Wiki</title>
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="all" href="../wiki/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="screen" href="../wiki/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="iso-8859-1" media="print" href="../wiki/rightsidebar/css/print.css">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="./IdeaArchive_2fSmeagol_20update?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="./IdeaArchive_2fSmeagol_20update?action=print">
+<link rel="Up" href="/IdeaArchive">
+<link rel="Search" href="./FindPage">
+<link rel="Index" href="./TitleIndex">
+<link rel="Glossary" href="./WordIndex">
+<link rel="Help" href="./HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+
+<div id="banner">
+<a id="bannertext" href="">ToME Wiki</a>
+</div>
+
+<div id="title"><h1>&gt; <a title="Click here to do a full-text search for this title" href="./IdeaArchive_2fSmeagol_20update?action=fullsearch&amp;value=%2FSmeagol+update&amp;literal=1&amp;case=1&amp;context=40">IdeaArchive/Smeagol update</a></h1></div>
+
+
+<div id="sidebar">
+<div class="sidetitle">User</div>
+<div class="user"><a href="./UserPreferences">UserPreferences</a></div>
+<div class="sidetitle">Site</div>
+<ul id="navibar">
+<li><a href="./FrontPage">FrontPage</a></li>
+<li><a href="./RecentChanges">RecentChanges</a></li>
+<li><a href="./FindPage">FindPage</a></li>
+<li><a href="./HelpContents">HelpContents</a></li>
+</ul>
+<div class="sidetitle">Page</div>
+<ul id="iconbar">
+<li><a title="Up" href="./IdeaArchive">Up</a></li>
+<li><a title="Edit" href="./IdeaArchive_2fSmeagol_20update?action=edit">Edit</a></li>
+<li><a title="View" href="./IdeaArchive_2fSmeagol_20update">View</a></li>
+<li><a title="Diffs" href="./IdeaArchive_2fSmeagol_20update?action=diff">Diffs</a></li>
+<li><a title="Info" href="./IdeaArchive_2fSmeagol_20update?action=info">Info</a></li>
+<li><a title="Subscribe" href="./IdeaArchive_2fSmeagol_20update?action=subscribe">Subscribe</a></li>
+<li><a title="Raw" href="./IdeaArchive_2fSmeagol_20update?action=raw">Raw</a></li>
+<li><a title="Print" href="./IdeaArchive_2fSmeagol_20update?action=print">Print</a></li>
+</ul>
+
+<div class="sidetitle">Actions</div>
+<ul id="actions">
+<li><a href="./IdeaArchive_2fSmeagol_20update?action=DeletePage">DeletePage</a></li>
+<li><a href="./IdeaArchive_2fSmeagol_20update?action=LikePages">LikePages</a></li>
+<li><a href="./IdeaArchive_2fSmeagol_20update?action=LocalSiteMap">LocalSiteMap</a></li>
+<li><a href="./IdeaArchive_2fSmeagol_20update?action=SpellCheck">SpellCheck</a></li>
+</ul>
+
+<div class="sidetitle">Search</div>
+<div id="search">
+<form method="POST" action="./IdeaArchive_2fSmeagol_20update">
+<p>
+<input type="hidden" name="action" value="inlinesearch">
+<input type="hidden" name="context" value="40">
+Title: <input type="text" name="text_title" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_title" alt="[?]"><br/>Text: <input type="text" name="text_full" value="" size="15" maxlength="50"><input type="image" src="./wiki/rightsidebar/img/moin-search.png" name="button_full" alt="[?]">
+</p>
+</form>
+</div>
+
+</div>
+<div id="content" lang="en" dir="ltr">
+Just an idea that Smeagol should become the dungeon boss for <a class="nonexistent" href="./BarrowDowns">BarrowDowns</a> (or maybe the Old Forest). A suitably improved Smeagol Monster (see below), could perhaps have his own sinister arena level, with lots of Spiders (Mirk, Wood and Cave only) and webs.  <p>
+Make him the treacherous terror that he is, rather than a nuisance monster... 
+</p>
+
+<pre>        {
+                name = "Smeagol"
+                level = 3 rarity = 2
+                desc = 
+                {
+                        "Usually known as Gollum.  He's been sneaking, wants his 'precious', and"
+                        "thinks you have it!"
+                }
+                color = TERM_L_BLUE
+                speed = 20 life = {20,20} ac = 45
+                aaf = 20 sleep = 5
+                exp = 16
+                weight = 670
+                body = { INVEN=23 WIELD=1 BOW=1 BODY=1 OUTER=1 LITE=1 AMMO=1 CARRY=1 ARM=1 HANDS=1 TOOL=1 RING=2 HEAD=1 NECK=1 FEET=1 }
+                drops = { treasure=50 combat=50 magic=0 tools=0 }
+                blows =
+                {
+                        {"STRANGLE","HURT",{3,3}},
+                        {"TOUCH","EAT_ITEM",{0,0}},
+                }
+                flags =
+                {
+                        UNIQUE=1 MALE=1 CAN_SWIM=1 DROP_SKELETON=1 DROP_CORPSE=1
+                        DROP_CHOSEN=1 FORCE_MAXHP=1 CAN_SPEAK=1 SMART=1
+                        RAND_25=1 WILD_TOO=1 ONLY_ITEM=1 DROP_90=1 DROP_GOOD=1
+                        DROP_GREAT=1 TAKE_ITEM=1 OPEN_DOOR=1 BASH_DOOR=1 INVISIBLE=1
+                        EVIL=1 SPECIAL_GENE=1
+                }
+                {
+                        frequency = 12
+                        ["Shriek"] = { level=50 chance=96 }
+                }
+        }
+</pre><p>
+There is also a slightly changed version of Smeagol in the <a class="interwiki" title="Self" href="./Modules/Theme"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">Theme</a> and the <a class="interwiki" title="Self" href="./Modules/ToME_20Plus"><img src="./wiki/starshine/img/moin-inter.png" alt="[Self]" height="16" width="16">ToME Plus</a> module. 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: I like this. 
+</p>
+<p>
+I though I also sorta liked the idea (posted somewhere on the forum) that Smeagol could "come back" a few times, each time bigger and badder than before. The forum post suggested he could be killed and then come back. I don't know if I like that so much, but the idea of running into Smeagol not only in the BD, but also in Cirith Ungol and on Mount Doom is deliciously evil...   
+</p>
+<p>
+Would it be possible to make him sort of like a Ringwraith, in the sense that he can drop loot but then escape? Only in Smeagol's case I'd say the message was not that he was killed, but that he escaped at the last second... 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Yeah, I remember that too, and if the only place you could kill Smeagol is at the top of Mount Doom (and he can actually STEAL the Ring), then you would be chasing around a Very Tough to kill and get YOUR "preciousssss" back, whilst at the same time trying to fight off hordes of other monsters... &lt;evil grin&gt; 
+</p>
+<p>
+<a href="./MayLith">MayLith</a>: Bwahahahahahah!! &lt;eg&gt; So long as there's only a chance he can steal the One, though, not an inevitability. 
+</p>
+<p>
+modemcable119: He could drop all his loot except his invisibility ring, and then do a panic hit whenever he's wounded - even one HP wounded - just like any shrewd coward(even better - not a true panic hit but he'd simply be removed and could be generated again at any time). His only attack would be object stealing and eating your food. You'd expect to NEVER SEE AGAIN whatever he steals unless you have major speed or spells available to wound him a little... 
+</p>
+<p>
+and he would ALWAYS be leveled. So he's always a meaningful menace if you encounter him late. (-; 
+</p>
+<p>
+And yes muahaha he might even steal the ring and slip with it into mount doom for comical relief! (-; 
+</p>
+<p>
+<a href="./RavenRed">RavenRed</a>: Well I'd prefer for Smeagol not to be a comic character in ToME, as he certainly isn't in LoTR. I'd prefer it if he were there as a sort of final and treacherous guardian... 
+</p>
+<p>
+<a href="./SoulWynd">SoulWynd</a>: Smeagol doesn't seem to be a hard 'monster'. I think his powers should be limited to 'confuse hobbitses' 
+</p>
+</div><div id="footer">
+
+
+<a href="./IdeaArchive_2fSmeagol_20update?action=refresh&amp;arena=Page.py&amp;key=IdeaArchive_2fSmeagol_20update.text_html">RefreshCache</a> for this page (cached 2004-08-05 04:14:11)<br>
+<p><a href="./IdeaArchive_2fSmeagol_20update?action=edit">EditText</a> of this page (last edited 2004-08-05 04:14:09 by <span title="200-146-156-222.rev.easyband.com.br"><a href="./SoulWynd">SoulWynd</a></span>)</p>
+
+</div>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 12:32:57 Oct 20, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:46:57 Aug 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 93.272
+  exclusion.robots: 0.133
+  exclusion.robots.policy: 0.122
+  RedisCDXSource: 1.678
+  esindex: 0.008
+  LoadShardBlock: 66.675 (3)
+  PetaboxLoader3.datanode: 74.455 (4)
+  CDXLines.iter: 22.147 (3)
+  load_resource: 54.057
+  PetaboxLoader3.resolve: 22.23
+-->
