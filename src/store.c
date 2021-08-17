@@ -12,6 +12,22 @@
 
 #include "angband.h"
 
+#include "spell_type.h"
+#include "quark.h"
+
+#define STORE_GENERAL_STORE "General Store"
+#define STORE_ARMOURY "Armoury"
+#define STORE_WEAPONSMITH "Weaponsmith"
+#define STORE_TEMPLE "Temple"
+#define STORE_ALCHEMY "Alchemy shop"
+#define STORE_MAGIC "Magic shop"
+#define STORE_BLACK_MARKET "Black Market"
+#define STORE_BOOKS "Book Store"
+#define STORE_PETS "Pet Shop"
+#define STORE_HUNTING_SUPPLIES "Hunting Supply Store"
+#define STORE_RUNIC_MAGIC "Runic Magic Shop"
+#define STORE_CONSTRUCTION_SUPPLIES "Construction Supply Store"
+#define STORE_MUSIC "Music Store"
 
 #define RUMOR_CHANCE 8
 
@@ -742,6 +758,8 @@ bool_ is_blessed(object_type *o_ptr)
  */
 static bool_ store_will_buy(object_type *o_ptr)
 {
+	cptr store_name = st_info[st_ptr->st_idx].name + st_name;
+
 	/* Hack -- The Home is simple */
 	if (cur_store_num == 7) return (TRUE);
 
@@ -750,10 +768,196 @@ static bool_ store_will_buy(object_type *o_ptr)
 	/* XXX XXX XXX Ignore "worthless" items */
 	if (object_value(o_ptr) <= 0) return (FALSE);
 
-	/* Lua can define things to buy */
-	if (process_hooks_ret(HOOK_STORE_BUY, "d", "(d,s,O)", st_ptr->st_idx, st_info[st_ptr->st_idx].name + st_name, o_ptr))
+	/* What do stores buy? */
+	if (streq(store_name, STORE_GENERAL_STORE))
 	{
-		return process_hooks_return[0].num;
+		switch (o_ptr->tval)
+		{
+		case TV_CORPSE:
+		case TV_FOOD:
+		case TV_LITE:
+		case TV_FLASK:
+		case TV_SPIKE:
+		case TV_SHOT:
+		case TV_ARROW:
+		case TV_BOLT:
+		case TV_DIGGING:
+		case TV_CLOAK:
+		case TV_BOTTLE:
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_ARMOURY))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_BOOTS:
+		case TV_GLOVES:
+		case TV_CROWN:
+		case TV_HELM:
+		case TV_SHIELD:
+		case TV_CLOAK:
+		case TV_SOFT_ARMOR:
+		case TV_HARD_ARMOR:
+		case TV_DRAG_ARMOR:
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_WEAPONSMITH))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_SHOT:
+		case TV_BOLT:
+		case TV_ARROW:
+		case TV_BOOMERANG:
+		case TV_BOW:
+		case TV_DIGGING:
+		case TV_HAFTED:
+		case TV_POLEARM:
+		case TV_SWORD:
+		case TV_AXE:
+		case TV_MSTAFF:
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_TEMPLE))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_DRUID_BOOK:
+		case TV_SCROLL:
+		case TV_POTION2:
+		case TV_POTION:
+		case TV_HAFTED:
+			return TRUE;
+		}
+
+		if ((o_ptr->tval == TV_BOOK) &&
+		    (o_ptr->sval == BOOK_RANDOM) &&
+		    (spell_type_random_type(spell_at(o_ptr->pval)) == SKILL_SPIRITUALITY))
+		{
+			return TRUE;
+		}
+		else if ((o_ptr->tval == TV_POLEARM) &&
+			 is_blessed(o_ptr))
+		{
+			return TRUE;
+		}
+		else if ((o_ptr->tval == TV_SWORD) &&
+			 is_blessed(o_ptr))
+		{
+			return TRUE;
+		}
+		else if ((o_ptr->tval == TV_AXE) &&
+			 is_blessed(o_ptr))
+		{
+			return TRUE;
+		}
+		else if ((o_ptr->tval == TV_BOOMERANG) &&
+			 is_blessed(o_ptr))
+		{
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_ALCHEMY))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_SCROLL:
+		case TV_POTION2:
+		case TV_POTION:
+		case TV_BATERIE:
+		case TV_BOTTLE:
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_MAGIC))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_SYMBIOTIC_BOOK:
+		case TV_AMULET:
+		case TV_RING:
+		case TV_STAFF:
+		case TV_WAND:
+		case TV_ROD:
+		case TV_ROD_MAIN:
+		case TV_SCROLL:
+		case TV_POTION2:
+		case TV_POTION:
+		case TV_MSTAFF:
+		case TV_RANDART:
+			return TRUE;
+		}
+
+		if ((o_ptr->tval == TV_BOOK) &&
+		    (o_ptr->sval == BOOK_RANDOM) &&
+		    (spell_type_random_type(spell_at(o_ptr->pval)) == SKILL_MAGIC))
+		{
+			return TRUE;
+		}
+		else if ((o_ptr->tval == TV_BOOK) &&
+			 (o_ptr->sval != BOOK_RANDOM))
+		{
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_BLACK_MARKET))
+	{
+		return TRUE;
+	}
+	else if (streq(store_name, STORE_BOOKS))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_BOOK:
+		case TV_SYMBIOTIC_BOOK:
+		case TV_MUSIC_BOOK:
+		case TV_DAEMON_BOOK:
+		case TV_DRUID_BOOK:
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_PETS))
+	{
+		return (o_ptr->tval == TV_EGG);
+	}
+	else if (streq(store_name, STORE_HUNTING_SUPPLIES))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_TRAPKIT:
+		case TV_BOOMERANG:
+		case TV_SHOT:
+		case TV_BOLT:
+		case TV_ARROW:
+		case TV_BOW:
+		case TV_POTION2:
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_RUNIC_MAGIC))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_RUNE1:
+		case TV_RUNE2:
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_CONSTRUCTION_SUPPLIES))
+	{
+		switch (o_ptr->tval)
+		{
+		case TV_LITE:
+		case TV_DIGGING:
+			return TRUE;
+		}
+	}
+	else if (streq(store_name, STORE_MUSIC))
+	{
+		return (o_ptr->tval == TV_INSTRUMENT);
 	}
 
 	/* Assume not okay */
@@ -1164,6 +1368,38 @@ static void store_create(void)
 			q_ptr = process_hooks_return[0].o_ptr;
 		}
 
+		/* Magic Shop */
+		else if (streq(st_info[st_ptr->st_idx].name + st_name, STORE_MAGIC) &&
+			 magik(20))
+		{
+			s16b spell;
+
+			object_prep(&forge, lookup_kind(TV_BOOK, BOOK_RANDOM));
+			spell = get_random_spell(SKILL_MAGIC, 20);
+			assert (spell > -1);
+			forge.pval = spell;
+
+			/* Use the forged object */
+			q_ptr = &forge;
+			obj_all_done = TRUE;
+		}
+
+		/* Temple */
+		else if (streq(st_info[st_ptr->st_idx].name + st_name, STORE_TEMPLE) &&
+			 magik(20))
+		{
+			s16b spell;
+
+			object_prep(&forge, lookup_kind(TV_BOOK, BOOK_RANDOM));
+			spell = get_random_spell(SKILL_SPIRITUALITY, 20);
+			assert(spell > -1);
+			forge.pval = spell;
+
+			/* Use the forged object */
+			q_ptr = &forge;
+			obj_all_done = TRUE;
+		}
+
 		/* Black Market */
 		else if (st_info[st_ptr->st_idx].flags1 & SF1_ALL_ITEM)
 		{
@@ -1434,8 +1670,8 @@ static void display_entry(int pos)
 	{
 		maxwid = 75;
 
-		/* Leave room for weights, if necessary -DRS- */
-		if (show_weights) maxwid -= 10;
+		/* Leave room for weights */
+		maxwid -= 10;
 
 		/* Describe the object */
 		object_desc(o_name, o_ptr, TRUE, 3);
@@ -1443,7 +1679,6 @@ static void display_entry(int pos)
 		c_put_str(tval_to_attr[o_ptr->tval], o_name, i + 6, cur_col);
 
 		/* Show weights */
-		if (show_weights)
 		{
 			/* Only show the weight of an individual item */
 			int wgt = o_ptr->weight;
@@ -1460,8 +1695,8 @@ static void display_entry(int pos)
 		/* Must leave room for the "price" */
 		maxwid = 65;
 
-		/* Leave room for weights, if necessary -DRS- */
-		if (show_weights) maxwid -= 7;
+		/* Leave room for weights */
+		maxwid -= 7;
 
 		/* Describe the object (fully) */
 		object_desc_store(o_name, o_ptr, TRUE, 3);
@@ -1469,7 +1704,6 @@ static void display_entry(int pos)
 		c_put_str(tval_to_attr[o_ptr->tval], o_name, i + 6, cur_col);
 
 		/* Show weights */
-		if (show_weights)
 		{
 			/* Only show the weight of an individual item */
 			int wgt = o_ptr->weight;
@@ -1595,10 +1829,7 @@ void display_store(void)
 		put_str("Item Description", 5, 3);
 
 		/* If showing weights, show label */
-		if (show_weights)
-		{
-			put_str("Weight", 5, 70);
-		}
+		put_str("Weight", 5, 70);
 	}
 
 	else if (st_info[st_ptr->st_idx].flags1 & SF1_MUSEUM)
@@ -1613,10 +1844,7 @@ void display_store(void)
 		put_str("Item Description", 5, 3);
 
 		/* If showing weights, show label */
-		if (show_weights)
-		{
-			put_str("Weight", 5, 70);
-		}
+		put_str("Weight", 5, 70);
 	}
 
 	/* Normal stores */
@@ -1637,10 +1865,7 @@ void display_store(void)
 		put_str("Item Description", 5, 3);
 
 		/* If showing weights, show label */
-		if (show_weights)
-		{
-			put_str("Weight", 5, 60);
-		}
+		put_str("Weight", 5, 60);
 
 		/* Label the asking price (in stores) */
 		put_str("Price", 5, 72);

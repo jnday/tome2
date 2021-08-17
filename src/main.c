@@ -163,13 +163,6 @@ static void change_path(cptr info)
 	/* Analyze */
 	switch (tolower(info[0]))
 	{
-	case 'a':
-		{
-			string_free(ANGBAND_DIR_APEX);
-			ANGBAND_DIR_APEX = string_make(s + 1);
-			break;
-		}
-
 	case 'f':
 		{
 			string_free(ANGBAND_DIR_FILE);
@@ -255,9 +248,8 @@ int main(int argc, char *argv[])
 
 	bool_ args = TRUE;
 
-#ifdef CHECK_MEMORY_LEAKS
-	GC_find_leak = 1;
-#endif /* CHECK_MEMORY_LEAKS */
+	int player_uid;
+
 
 
 	/* Save the "program name" XXX XXX XXX */
@@ -309,13 +301,6 @@ int main(int argc, char *argv[])
 		case 'n':
 			{
 				new_game = TRUE;
-				break;
-			}
-
-		case 'F':
-		case 'f':
-			{
-				arg_fiddle = TRUE;
 				break;
 			}
 
@@ -397,7 +382,8 @@ int main(int argc, char *argv[])
 				char *s;
 				int j;
 
-				init_lua();
+				init_lua_init();
+
 				for (j = i + 1; j < argc; j++)
 				{
 					s = argv[j];
@@ -443,7 +429,6 @@ usage:
 				puts("Usage: tome [options] [-- subopts]");
 				puts("  -h                 This help");
 				puts("  -n                 Start a new character");
-				puts("  -f                 Request fiddle mode");
 				puts("  -w                 Request wizard mode");
 				puts("  -v                 Request sound mode");
 				puts("  -g                 Request graphics mode");
@@ -498,10 +483,6 @@ usage:
 				puts("  -- -b              Requests big screen");
 #endif /* USE_GCU */
 
-#ifdef USE_SLA
-				puts("  -msla              To use SLang");
-#endif /* USE_SLA */
-
 #ifdef USE_SDL
 				puts("  -msdl              To use SDL");
 				puts("  --                 Sub options");
@@ -539,19 +520,6 @@ usage:
 	quit_aux = quit_hook;
 
 
-#ifdef USE_GLU
-	/* Attempt to use the "main-glu.c" support */
-	if (!done && (!mstr || (streq(mstr, "glu"))))
-	{
-		extern errr init_glu(int, char**);
-		if (0 == init_glu(argc, argv))
-		{
-			ANGBAND_SYS = "glu";
-			done = TRUE;
-		}
-	}
-#endif
-
 #ifdef USE_GTK2
 	/* Attempt to use the "main-gtk2.c" support */
 	if (!done && (!mstr || (streq(mstr, "gtk2"))))
@@ -560,19 +528,6 @@ usage:
 		if (0 == init_gtk2(argc, argv))
 		{
 			ANGBAND_SYS = "gtk2";
-			done = TRUE;
-		}
-	}
-#endif
-
-#ifdef USE_GTK
-	/* Attempt to use the "main-gtk.c" support */
-	if (!done && (!mstr || (streq(mstr, "gtk"))))
-	{
-		extern errr init_gtk(int, char**);
-		if (0 == init_gtk(argc, argv))
-		{
-			ANGBAND_SYS = "gtk";
 			done = TRUE;
 		}
 	}
@@ -617,34 +572,6 @@ usage:
 	}
 #endif
 
-#ifdef USE_GLU
-	/* Attempt to use the "main-glu.c" support */
-	if (!done && (!mstr || (streq(mstr, "glu"))))
-	{
-		extern errr init_glu(int, char**);
-		if (0 == init_glu(argc, argv))
-		{
-			ANGBAND_SYS = "glu";
-			done = TRUE;
-		}
-	}
-#endif
-
-
-#ifdef USE_SLA
-	/* Attempt to use the "main-sla.c" support */
-	if (!done && (!mstr || (streq(mstr, "sla"))))
-	{
-		extern errr init_sla(void);
-		if (0 == init_sla())
-		{
-			ANGBAND_SYS = "sla";
-			done = TRUE;
-		}
-	}
-#endif
-
-
 #ifdef USE_SDL
 	/* Attempt to use the "main-sdl.c" support */
 	if (!done && (!mstr || (streq(mstr, "sdl"))))
@@ -676,10 +603,6 @@ usage:
 
 	/* Play the game */
 	play_game(new_game);
-
-#ifdef CHECK_MEMORY_LEAKS
-	CHECK_LEAKS();
-#endif
 
 	/* Quit */
 	quit(NULL);

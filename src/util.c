@@ -5,6 +5,8 @@
 
 #include "angband.h"
 
+#include "messages.h"
+#include "quark.h"
 
 
 
@@ -480,18 +482,6 @@ errr my_fputs(FILE *fff, cptr buf, huge n)
 
 
 /*
-* Code Warrior is a little weird about some functions
-*/
-#ifdef BEN_HACK
-extern int open(const char *, int, ...);
-extern int close(int);
-extern int read(int, void *, unsigned int);
-extern int write(int, const void *, unsigned int);
-extern long lseek(int, long, int);
-#endif /* BEN_HACK */
-
-
-/*
 * The Macintosh is a little bit brain-dead sometimes
 */
 #ifdef MACINTOSH
@@ -579,11 +569,6 @@ errr fd_copy(cptr file, cptr what)
 *
 * Note that we assume that the file should be "binary"
 *
-* XXX XXX XXX The horrible "BEN_HACK" code is for compiling under
-* the CodeWarrior compiler, in which case, for some reason, none
-* of the "O_*" flags are defined, and we must fake the definition
-* of "O_RDONLY", "O_WRONLY", and "O_RDWR" in "A-win-h", and then
-* we must simulate the effect of the proper "open()" call below.
 */
 int fd_make(cptr file, int mode)
 {
@@ -591,19 +576,6 @@ int fd_make(cptr file, int mode)
 
 	/* Hack -- Try to parse the path */
 	if (path_parse(buf, 1024, file)) return ( -1);
-
-#ifdef BEN_HACK
-
-	/* Check for existance */
-	/* if (fd_close(fd_open(file, O_RDONLY | O_BINARY))) return (1); */
-
-	/* Mega-Hack -- Create the file */
-	(void)my_fclose(my_fopen(file, "wb"));
-
-	/* Re-open the file for writing */
-	return (open(buf, O_WRONLY | O_BINARY, mode));
-
-#else /* BEN_HACK */
 
 #ifdef MACH_O_CARBON
 
@@ -626,8 +598,6 @@ return (fdes);
 return (open(buf, O_CREAT | O_EXCL | O_WRONLY | O_BINARY, mode));
 
 #endif /* MACH_O_CARBON */
-
-#endif /* BEN_HACK */
 
 }
 
@@ -1929,9 +1899,6 @@ char inkey(void)
 			/* Mega-Hack -- reset saved flag */
 			character_saved = FALSE;
 
-			/* Mega-Hack -- reset signal counter */
-			signal_count = 0;
-
 			/* Only once */
 			done = TRUE;
 		}
@@ -2066,393 +2033,6 @@ char inkey(void)
 	return (ch);
 }
 
-
-
-
-/*
-* We use a global array for all inscriptions to reduce the memory
-* spent maintaining inscriptions.  Of course, it is still possible
-* to run out of inscription memory, especially if too many different
-* inscriptions are used, but hopefully this will be rare.
-*
-* We use dynamic string allocation because otherwise it is necessary
-* to pre-guess the amount of quark activity.  We limit the total
-* number of quarks, but this is much easier to "expand" as needed.
-*
-* Any two items with the same inscription will have the same "quark"
-* index, which should greatly reduce the need for inscription space.
-*
-* Note that "quark zero" is NULL and should not be "dereferenced".
-*/
-
-/*
-* Add a new "quark" to the set of quarks.
-*/
-s16b quark_add(cptr str)
-{
-	int i;
-
-	/* Look for an existing quark */
-	for (i = 1; i < quark__num; i++)
-	{
-		/* Check for equality */
-		if (streq(quark__str[i], str)) return (i);
-	}
-
-	/* Paranoia -- Require room */
-	if (quark__num == QUARK_MAX) return (0);
-
-	/* New maximal quark */
-	quark__num = i + 1;
-
-	/* Add a new quark */
-	quark__str[i] = string_make(str);
-
-	/* Return the index */
-	return (i);
-}
-
-
-/*
-* This function looks up a quark
-*/
-cptr quark_str(s16b i)
-{
-	cptr q;
-
-	/* Verify */
-	if ((i < 0) || (i >= quark__num)) i = 0;
-
-	/* Access the quark */
-	q = quark__str[i];
-
-	/* Return the quark */
-	return (q);
-}
-
-
-
-
-/*
-* Second try for the "message" handling routines.
-*
-* Each call to "message_add(s)" will add a new "most recent" message
-* to the "message recall list", using the contents of the string "s".
-*
-* The messages will be stored in such a way as to maximize "efficiency",
-* that is, we attempt to maximize the number of sequential messages that
-* can be retrieved, given a limited amount of storage space.
-*
-* We keep a buffer of chars to hold the "text" of the messages, not
-* necessarily in "order", and an array of offsets into that buffer,
-* representing the actual messages.  This is made more complicated
-* by the fact that both the array of indexes, and the buffer itself,
-* are both treated as "circular arrays" for efficiency purposes, but
-* the strings may not be "broken" across the ends of the array.
-*
-* The "message_add()" function is rather "complex", because it must be
-* extremely efficient, both in space and time, for use with the Borg.
-*/
-
-
-
-/*
-* How many messages are "available"?
-*/
-s16b message_num(void)
-{
-	int last, next, n;
-
-	/* Extract the indexes */
-	last = message__last;
-	next = message__next;
-
-	/* Handle "wrap" */
-	if (next < last) next += MESSAGE_MAX;
-
-	/* Extract the space */
-	n = (next - last);
-
-	/* Return the result */
-	return (n);
-}
-
-
-
-/*
-* Recall the "text" of a saved message
-*/
-cptr message_str(int age)
-{
-	static char buf[1024];
-	s16b x;
-	s16b o;
-	cptr s;
-
-	/* Forgotten messages have no text */
-	if ((age < 0) || (age >= message_num())) return ("");
-
-	/* Acquire the "logical" index */
-	x = (message__next + MESSAGE_MAX - (age + 1)) % MESSAGE_MAX;
-
-	/* Get the "offset" for the message */
-	o = message__ptr[x];
-
-	/* Access the message text */
-	s = &message__buf[o];
-
-	/* Hack -- Handle repeated messages */
-	if (message__count[x] > 1)
-	{
-		strnfmt(buf, 1024, "%s <%dx>", s, message__count[x]);
-		s = buf;
-	}
-
-	/* Return the message text */
-	return (s);
-}
-
-/*
-* Recall the color of a saved message
-*/
-byte message_color(int age)
-{
-	s16b x;
-	byte color = TERM_WHITE;
-
-	/* Forgotten messages have no text */
-	if ((age < 0) || (age >= message_num())) return (TERM_WHITE);
-
-	/* Acquire the "logical" index */
-	x = (message__next + MESSAGE_MAX - (age + 1)) % MESSAGE_MAX;
-
-	/* Get the "offset" for the message */
-	color = message__color[x];
-
-	/* Return the message text */
-	return (color);
-}
-
-/*
- * Recall the type of a saved message
- */
-byte message_type(int age)
-{
-	s16b x;
-	byte type;
-
-	/* Forgotten messages have no text */
-	if ((age < 0) || (age >= message_num())) return (MESSAGE_NONE);
-
-	/* Acquire the "logical" index */
-	x = (message__next + MESSAGE_MAX - (age + 1)) % MESSAGE_MAX;
-
-	/* Get the "offset" for the message */
-	type = message__type[x];
-
-	/* Return the message text */
-	return (type);
-}
-
-
-
-/*
-* Add a new message, with great efficiency
-*/
-void message_add(byte type, cptr str, byte color)
-{
-	int i, k, x, n;
-	cptr s;
-
-
-	/*** Step 1 -- Analyze the message ***/
-
-	/* Hack -- Ignore "non-messages" */
-	if (!str) return;
-
-	/* Message length */
-	n = strlen(str);
-
-	/* Important Hack -- Ignore "long" messages */
-	if (n >= MESSAGE_BUF / 4) return;
-
-
-	/*** Step 2 -- Handle repeated messages ***/
-
-	/* Acquire the "logical" last index */
-	x = (message__next + MESSAGE_MAX - 1) % MESSAGE_MAX;
-
-	/* Get the last message text */
-	s = &message__buf[message__ptr[x]];
-
-	/* Last message repeated? */
-	if (streq(str, s))
-	{
-		/* Increase the message count */
-		message__count[x]++;
-
-		/* Success */
-		return;
-	}
-
-
-	/*** Step 3 -- Attempt to optimize ***/
-
-	/* Limit number of messages to check */
-	k = message_num() / 4;
-
-	/* Limit number of messages to check */
-	if (k > MESSAGE_MAX / 32) k = MESSAGE_MAX / 32;
-
-	/* Check the last few messages (if any to count) */
-	for (i = message__next; k; k--)
-	{
-		u16b q;
-
-		cptr old;
-
-		/* Back up and wrap if needed */
-		if (i-- == 0) i = MESSAGE_MAX - 1;
-
-		/* Stop before oldest message */
-		if (i == message__last) break;
-
-		/* Extract "distance" from "head" */
-		q = (message__head + MESSAGE_BUF - message__ptr[i]) % MESSAGE_BUF;
-
-		/* Do not optimize over large distance */
-		if (q > MESSAGE_BUF / 2) continue;
-
-		/* Access the old string */
-		old = &message__buf[message__ptr[i]];
-
-		/* Compare */
-		if (!streq(old, str)) continue;
-
-		/* Get the next message index, advance */
-		x = message__next++;
-
-		/* Handle wrap */
-		if (message__next == MESSAGE_MAX) message__next = 0;
-
-		/* Kill last message if needed */
-		if (message__next == message__last) message__last++;
-
-		/* Handle wrap */
-		if (message__last == MESSAGE_MAX) message__last = 0;
-
-		/* Assign the starting address */
-		message__ptr[x] = message__ptr[i];
-		message__color[x] = color;
-		message__type[x] = type;
-		message__count[x] = 1;
-
-		/* Success */
-		return;
-	}
-
-
-	/*** Step 4 -- Ensure space before end of buffer ***/
-
-	/* Kill messages and Wrap if needed */
-	if (message__head + n + 1 >= MESSAGE_BUF)
-	{
-		/* Kill all "dead" messages */
-		for (i = message__last; TRUE; i++)
-		{
-			/* Wrap if needed */
-			if (i == MESSAGE_MAX) i = 0;
-
-			/* Stop before the new message */
-			if (i == message__next) break;
-
-			/* Kill "dead" messages */
-			if (message__ptr[i] >= message__head)
-			{
-				/* Track oldest message */
-				message__last = i + 1;
-			}
-		}
-
-		/* Wrap "tail" if needed */
-		if (message__tail >= message__head) message__tail = 0;
-
-		/* Start over */
-		message__head = 0;
-	}
-
-
-	/*** Step 5 -- Ensure space before next message ***/
-
-	/* Kill messages if needed */
-	if (message__head + n + 1 > message__tail)
-	{
-		/* Grab new "tail" */
-		message__tail = message__head + n + 1;
-
-		/* Advance tail while possible past first "nul" */
-		while (message__buf[message__tail - 1]) message__tail++;
-
-		/* Kill all "dead" messages */
-		for (i = message__last; TRUE; i++)
-		{
-			/* Wrap if needed */
-			if (i == MESSAGE_MAX) i = 0;
-
-			/* Stop before the new message */
-			if (i == message__next) break;
-
-			/* Kill "dead" messages */
-			if ((message__ptr[i] >= message__head) &&
-			                (message__ptr[i] < message__tail))
-			{
-				/* Track oldest message */
-				message__last = i + 1;
-			}
-		}
-	}
-
-
-	/*** Step 6 -- Grab a new message index ***/
-
-	/* Get the next message index, advance */
-	x = message__next++;
-
-	/* Handle wrap */
-	if (message__next == MESSAGE_MAX) message__next = 0;
-
-	/* Kill last message if needed */
-	if (message__next == message__last) message__last++;
-
-	/* Handle wrap */
-	if (message__last == MESSAGE_MAX) message__last = 0;
-
-
-
-	/*** Step 7 -- Insert the message text ***/
-
-	/* Assign the starting address */
-	message__ptr[x] = message__head;
-	message__color[x] = color;
-	message__type[x] = type;
-	message__count[x] = 1;
-
-	/* Append the new part of the message */
-	for (i = 0; i < n; i++)
-	{
-		/* Copy the message */
-		message__buf[message__head + i] = str[i];
-	}
-
-	/* Terminate */
-	message__buf[message__head + i] = '\0';
-
-	/* Advance the "head" pointer */
-	message__head += n + 1;
-}
-
-
-
 /*
 * Hack -- flush
 */
@@ -2573,7 +2153,7 @@ void cmsg_print(byte color, cptr msg)
 
 
 	/* Memorize the message */
-	if (character_generated) message_add(MESSAGE_MSG, msg, color);
+	if (character_generated) message_add(msg, color);
 
 	/* Handle "auto_more" */
 	if (auto_more)
@@ -2828,11 +2408,8 @@ void text_out_to_screen(byte a, cptr str)
 	/* Obtain the cursor */
 	(void)Term_locate(&x, &y);
 
-	/* Use special wrapping boundary? */
-	if ((text_out_wrap > 0) && (text_out_wrap < wid))
-		wrap = text_out_wrap;
-	else
-		wrap = wid;
+	/* Wrapping boundary */
+	wrap = wid;
 
 	/* Process the string */
 	for (s = str; *s; s++)
@@ -2919,8 +2496,7 @@ void text_out_to_screen(byte a, cptr str)
  * Hook function for text_out(). Make sure that text_out_file points
  * to an open text-file.
  *
- * Long lines will be wrapped at text_out_wrap, or at column 75 if that
- * is not set; or at a newline character.
+ * Long lines will be wrapped at column 75 ; or at a newline character.
  *
  * You must be careful to end all file output with a newline character
  * to "flush" the stored line position.
@@ -2931,7 +2507,7 @@ void text_out_to_file(byte a, cptr str)
 	static int pos = 0;
 
 	/* Wrap width */
-	int wrap = (text_out_wrap ? text_out_wrap : 75);
+	int wrap = 75;
 
 	/* Current location within "str" */
 	cptr s = str;
@@ -4302,7 +3878,10 @@ bool_ prefix(cptr s, cptr t)
 	/* Paranoia */
 	if (!s || !t)
 	{
-		if (alert_failure) message_add(MESSAGE_MSG, "prefix() called with null argument!", TERM_RED);
+		if (alert_failure)
+		{
+			message_add("prefix() called with null argument!", TERM_RED);
+		}
 		return FALSE;
 	}
 
@@ -4315,19 +3894,6 @@ bool_ prefix(cptr s, cptr t)
 
 	/* Matched, we have a prefix */
 	return (TRUE);
-}
-
-/*
- * Rescale a value
- */
-s32b value_scale(int value, int vmax, int max, int min)
-{
-	s32b full_max = max - min;
-
-	value = (value * full_max) / vmax;
-	value += min;
-
-	return value;
 }
 
 /*
@@ -4430,15 +3996,15 @@ void scansubdir(cptr dir)
 /*
  * Timers
  */
-timer_type *new_timer(cptr callback, s32b delay)
+timer_type *new_timer(void (*callback)(), s32b delay)
 {
-	timer_type *t_ptr;
+	timer_type *t_ptr = NULL;
 
 	MAKE(t_ptr, timer_type);
 	t_ptr->next = gl_timers;
 	gl_timers = t_ptr;
 
-	t_ptr->callback = string_make(callback);
+	t_ptr->callback = callback;
 	t_ptr->delay = delay;
 	t_ptr->countdown = delay;
 	t_ptr->enabled = FALSE;
@@ -4459,7 +4025,7 @@ void del_timer(timer_type *t_ptr)
 			gl_timers = t_ptr->next;
 		else
 			old->next = t_ptr->next;
-		string_free(t_ptr->callback);
+
 		FREE(t_ptr, timer_type);
 	}
 	else

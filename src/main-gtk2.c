@@ -44,45 +44,12 @@
  * z-virt macro names. Find C_FREE/C_KILL and replace them
  * with FREE/KILL, which takes one pointer parameter.
  *
- * [Z]-based variants (Gum and Cth, for example) usually need
- * ANG293_COMPAT, ANG291_COMPAT and ANG281_RESET_VISUALS.
- *
- * [O] needs ANG293_COMPAT and ZANG_SAVE_GAME.
- *
  * ZAngband has its own enhanced main-gtk.c as mentioned above, and
  * you *should* use it :-)
  *
  */
-#define TOME
 
-#ifdef TOME
-# define ANG293_COMPAT	/* Requires V2.9.3 compatibility code */
-# define ANG291_COMPAT	/* Requires V2.9.1 compatibility code */
-# define ANG281_RESET_VISUALS	/* The old style reset_visuals() */
-# define SAVEFILE_SCREEN	/* New/Open integrated into the game */
-# define USE_DOUBLE_TILES	/* Mogami's bigtile patch */
-#endif /* TOME */
-
-/*
- * Some examples
- */
-#ifdef ANGBAND300
-# define can_save TRUE	/* Mimick the short-lived flag */
-# define C_FREE(P, N, T)	FREE(P)	/* Emulate the long-lived macro */
-#endif /* ANGBAND300 */
-
-#ifdef GUMBAND
-# define ANG293_COMPAT	/* Requires V2.9.3 compatibility code */
-# define ANG291_COMPAT	/* Requires V2.9.1 compatibility code */
-# define ANG281_RESET_VISUALS	/* The old style reset_visuals() */
-# define OLD_SAVEFILE_CODE /* See also SAVEFILE_MUTABLE in files.c */
-# define NO_REDRAW_SECTION	/* Doesn't have Term_redraw_section() */
-#endif /* GUMBAND */
-
-#ifdef OANGBAND
-# define ANG293_COMPAT	/* Requires V2.9.3 compatibility code */
-# define ZANG_SAVE_GAME	/* do_cmd_save_game with auto_save parameter */
-#endif /* OANGBAND */
+#define USE_DOUBLE_TILES	/* Mogami's bigtile patch */
 
 
 #ifdef USE_GTK2
@@ -104,14 +71,6 @@
 #ifndef NAME_MAX
 #define	NAME_MAX	_POSIX_NAME_MAX
 #endif
-
-
-/*
- * Include some helpful X11 code.
- */
-#ifndef ANG293_COMPAT
-# include "maid-x11.h"
-#endif /* !ANG293_COMPAT */
 
 
 /*
@@ -210,36 +169,6 @@ if ((td)->backing_store) gdk_draw_pixmap( \
 (hgt) * (td)->font_hgt)
 
 
-#if 0
-
-/* Compile time option version */
-
-# ifdef USE_BACKING_STORE
-
-# define TERM_DATA_DRAWABLE(td) (td)->backing_store
-
-# define TERM_DATA_REFRESH(td, x, y, wid, hgt) \
-gdk_draw_pixmap( \
-(td)->drawing_area->window, \
-(td)->gc, \
-(td)->backing_store, \
-(x) * (td)->font_wid, \
-(y) * (td)->font_hgt, \
-(x) * (td)->font_wid, \
-(y) * (td)->font_hgt, \
-(wid) * (td)->font_wid, \
-(hgt) * (td)->font_hgt)
-
-# else /* USE_BACKING_STORE */
-
-# define TERM_DATA_DRAWABLE(td) (td)->drawing_area->window
-# define TERM_DATA_REFRESH(td, x, y, wid, hgt)
-
-# endif  /* USE_BACKING_STORE */
-
-#endif /* 0 */
-
-
 /*
  * An array of "term_data" structures, one for each "sub-window"
  */
@@ -277,8 +206,6 @@ static bool_ use_backing_store = TRUE;
 
 /**** Vanilla compatibility functions ****/
 
-#ifdef ANG293_COMPAT
-
 /*
  * Look up some environment variables to find font name for each window.
  */
@@ -309,27 +236,11 @@ static cptr get_default_font(int term)
 }
 
 
-# ifndef SAVEFILE_SCREEN
-
-/*
- * In [V]2.9.3, this frees all dynamically allocated memory
- */
-static void cleanup_angband(void)
-{
-	/* XXX XXX XXX */
-}
-
-# endif  /* !SAVEFILE_SCREEN */
-
 /*
  * New global flag to indicate if it's safe to save now
  */
 #define can_save TRUE
 
-#endif /* ANG293_COMPAT */
-
-
-#ifdef ANG291_COMPAT
 
 /*
  * The standard game uses this to implement lighting effects
@@ -340,8 +251,6 @@ static void cleanup_angband(void)
  */
 static bool_ use_transparency = TRUE;
 
-#endif /* ANG291_COMPAT */
-
 
 
 
@@ -350,11 +259,7 @@ static bool_ use_transparency = TRUE;
 /*
  * Hook to "release" memory
  */
-#ifdef ANGBAND300
-static vptr hook_rnfree(vptr v)
-#else
 static vptr hook_rnfree(vptr v, huge size)
-#endif /* ANGBAND300 */
 {
 	/* Dispose */
 	g_free(v);
@@ -561,41 +466,6 @@ static void gdk_rgb_image_destroy(
 	/* Free the structure */
 	g_free(im);
 }
-
-
-#if 0
-
-/*
- * Unref a GdkRGBImage
- */
-static void gdk_rgb_image_unref(
-        GdkRGBImage *im)
-{
-	/* Paranoia */
-	g_return_if_fail(im != NULL);
-
-	/* Decrease reference count by 1 */
-	im->ref_count--;
-
-	/* Free if nobody's using it */
-	if (im->ref_count <= 0) gdk_rgb_image_destroy(im);
-}
-
-
-/*
- * Reference a GdkRGBImage
- */
-static void gdk_rgb_image_ref(
-        GdkRGBImage *im)
-{
-	/* Paranoia */
-	g_return_if_fail(im != NULL);
-
-	/* Increase reference count by 1 */
-	im->ref_count++;
-}
-
-#endif /* 0 */
 
 
 /*
@@ -1170,36 +1040,6 @@ static void copy_pixels(
 		*dst++ = src[3 * xoffsets[i] + 2];
 	}
 }
-
-
-#if 0
-
-/* 32-bit version: it might be useful in the future */
-static void copy_pixels(
-        int wid,
-        int y,
-        int offset,
-        int *xoffsets,
-        GdkRGBImage *old_image,
-        GdkRGBImage *new_image)
-{
-	int i;
-
-	/* Get source and destination */
-	byte *src = &old_image->image[offset * old_image->width * 4];
-	byte *dst = &new_image->image[y * new_image->width * 4];
-
-	/* Copy to the image */
-	for (i = 0; i < wid; i++)
-	{
-		*dst++ = src[4 * xoffsets[i]];
-		*dst++ = src[4 * xoffsets[i] + 1];
-		*dst++ = src[4 * xoffsets[i] + 2];
-		*dst++ = src[4 * xoffsets[i] + 3];
-	}
-}
-
-#endif
 
 
 /*
@@ -2279,11 +2119,7 @@ static void init_graphics(void)
 	smooth_rescaling = smooth_rescaling_request;
 
 	/* Reset visuals */
-#ifndef ANG281_RESET_VISUALS
-	reset_visuals(TRUE);
-#else
 	reset_visuals();
-#endif /* !ANG281_RESET_VISUALS */
 }
 
 #endif /* USE_GRAPHICS */
@@ -3095,13 +2931,7 @@ static void save_game_gtk(void)
 	msg_flag = FALSE;
 
 	/* Save the game */
-#ifdef ZANG_SAVE_GAME
-	/* Also for OAngband - the parameter tells if it's autosave */
-	do_cmd_save_game(FALSE);
-#else
-/* Everything else */
 	do_cmd_save_game();
-#endif /* ZANG_SAVE_GAME */
 }
 
 
@@ -3206,41 +3036,6 @@ static void destroy_sub_event_handler(
 	/* Hide the window */
 	gtk_widget_hide_all(window);
 }
-
-
-#ifndef SAVEFILE_SCREEN
-
-/*
- * Process File-New menu command
- */
-static void new_event_handler(
-        gpointer user_data,
-		guint user_action,
-        GtkWidget *was_clicked)
-{
-	if (game_in_progress)
-	{
-		plog("You can't start a new game while you're still playing!");
-		return;
-	}
-
-	/* The game is in progress */
-	game_in_progress = TRUE;
-
-	/* Flush input */
-	Term_flush();
-
-	/* Play game */
-	play_game(TRUE);
-
-	/* Houseclearing */
-	cleanup_angband();
-
-	/* Done */
-	quit(NULL);
-}
-
-#endif /* !SAVEFILE_SCREEN */
 
 
 /*
@@ -3421,10 +3216,8 @@ static void change_wide_tile_mode_event_handler(
 	/* Toggle "use_bigtile" */
 	use_bigtile = !use_bigtile;
 
-#ifdef TOME
 	/* T.o.M.E. requires this as well */
 	arg_bigtile = use_bigtile;
-#endif /* TOME */
 
 	/* Double the width of tiles (only for the main window) */
 	if (use_bigtile)
@@ -3475,92 +3268,6 @@ static void change_trans_mode_event_handler(
 #endif /* USE_GRAPHICS */
 
 
-#ifndef SAVEFILE_SCREEN
-
-/*
- * Caution: Modal or not, callbacks are called by gtk_main(),
- * so this is the right place to start a game.
- */
-static void file_ok_callback(
-        GtkWidget *widget,
-        GtkWidget *file_selector)
-{
-	strcpy(savefile,
-	       gtk_file_selection_get_filename(GTK_FILE_SELECTION(file_selector)));
-
-	gtk_widget_destroy(file_selector);
-
-	/* game is in progress */
-	game_in_progress = TRUE;
-
-	/* Flush input */
-	Term_flush();
-
-	/* Play game */
-	play_game(FALSE);
-
-	/* Free memory allocated by game */
-	cleanup_angband();
-
-	/* Done */
-	quit(NULL);
-}
-
-
-/*
- * Process File-Open menu command
- */
-static void open_event_handler(
-        gpointer user_data,
-		guint user_action,
-        GtkWidget *was_clicked)
-{
-	GtkWidget *file_selector;
-	char buf[1024];
-
-
-	if (game_in_progress)
-	{
-		plog("You can't open a new game while you're still playing!");
-		return;
-	}
-
-	/* Prepare the savefile path */
-	path_build(buf, 1024, ANGBAND_DIR_SAVE, "*");
-
-	file_selector = gtk_file_selection_new("Select a savefile");
-	gtk_file_selection_set_filename(
-	        GTK_FILE_SELECTION(file_selector),
-	        buf);
-	gtk_signal_connect(
-	        GTK_OBJECT(GTK_FILE_SELECTION(file_selector)->ok_button),
-	        "clicked",
-	        file_ok_callback,
-	        (gpointer)file_selector);
-
-	/*
-	 * Ensure that the dialog box is destroyed when the user
-	 * clicks a button.
-	 */
-	gtk_signal_connect_object(
-	        GTK_OBJECT(GTK_FILE_SELECTION(file_selector)->ok_button),
-	        "clicked",
-	        GTK_SIGNAL_FUNC(gtk_widget_destroy),
-	        (gpointer)file_selector);
-
-	gtk_signal_connect_object(
-	        GTK_OBJECT(GTK_FILE_SELECTION(file_selector)->cancel_button),
-	        "clicked",
-	        GTK_SIGNAL_FUNC(gtk_widget_destroy),
-	        (gpointer)file_selector);
-
-	gtk_window_set_modal(GTK_WINDOW(file_selector), TRUE);
-	gtk_widget_show(GTK_WIDGET(file_selector));
-}
-
-#endif /* !SAVEFILE_SCREEN */
-
-
 /*
  * React to "delete" signal sent to Window widgets
  */
@@ -3586,7 +3293,6 @@ static gboolean keypress_event_handler(
         GdkEventKey *event,
         gpointer user_data)
 {
-#if 1
 	int i, mc, ms, mo, mx;
 
 	char msg[128];
@@ -3703,123 +3409,6 @@ static gboolean keypress_event_handler(
 	}
 
 	return (TRUE);
-
-#else
-	int i, mc, ms, mo, mx;
-
-	char msg[128];
-
-
-	/* Extract four "modifier flags" */
-	mc = (event->state & GDK_CONTROL_MASK) ? TRUE : FALSE;
-	ms = (event->state & GDK_SHIFT_MASK) ? TRUE : FALSE;
-	mo = (event->state & GDK_MOD1_MASK) ? TRUE : FALSE;
-	mx = (event->state & GDK_MOD3_MASK) ? TRUE : FALSE;
-	printf("0=%d 9=%d;; keyval=%d; mc=%d, ms=%d  ::=:: ", GDK_KP_0, GDK_KP_9, event->keyval, mc, ms);
-	/* Enqueue the normal key(s) */
-	for (i = 0; i < event->length; i++) printf("%d;", event->string[i]);
-	printf("\n");
-
-	/*
-	* Hack XXX
-	* Parse shifted numeric (keypad) keys specially.
-	*/
-	if ((event->state & GDK_SHIFT_MASK)
-	                && (event->keyval >= GDK_KP_Left) && (event->keyval <= GDK_KP_Delete))
-	{
-		/* Build the macro trigger string */
-		strnfmt(msg, 128, "%cS_%X%c", 31, event->keyval, 13);
-		printf("%cS_%X%c", 31, event->keyval, 13);
-
-		/* Enqueue the "macro trigger" string */
-		for (i = 0; msg[i]; i++) Term_keypress(msg[i]);
-
-		/* Hack -- auto-define macros as needed */
-		if (event->length && (macro_find_exact(msg) < 0))
-		{
-			/* Create a macro */
-			macro_add(msg, event->string);
-		}
-
-		return (TRUE);
-	}
-
-	/* Normal keys with no modifiers */
-	if (event->length && !mo && !mx)
-	{
-		/* Enqueue the normal key(s) */
-		for (i = 0; i < event->length; i++) Term_keypress(event->string[i]);
-
-		/* All done */
-		return (TRUE);
-	}
-
-	/* Handle a few standard keys (bypass modifiers) XXX XXX XXX */
-	switch ((uint) event->keyval)
-	{
-	case GDK_Escape:
-		{
-			Term_keypress(ESCAPE);
-			return (TRUE);
-		}
-
-	case GDK_Return:
-		{
-			Term_keypress('\r');
-			return (TRUE);
-		}
-
-	case GDK_Tab:
-		{
-			Term_keypress('\t');
-			return (TRUE);
-		}
-
-	case GDK_Delete:
-	case GDK_BackSpace:
-		{
-			Term_keypress('\010');
-			return (TRUE);
-		}
-
-	case GDK_Shift_L:
-	case GDK_Shift_R:
-	case GDK_Control_L:
-	case GDK_Control_R:
-	case GDK_Caps_Lock:
-	case GDK_Shift_Lock:
-	case GDK_Meta_L:
-	case GDK_Meta_R:
-	case GDK_Alt_L:
-	case GDK_Alt_R:
-	case GDK_Super_L:
-	case GDK_Super_R:
-	case GDK_Hyper_L:
-	case GDK_Hyper_R:
-		{
-			/* Hack - do nothing to control characters */
-			return (TRUE);
-		}
-	}
-
-	/* Build the macro trigger string */
-	strnfmt(msg, 128, "%c%s%s%s%s_%X%c", 31,
-	        mc ? "N" : "", ms ? "S" : "",
-	        mo ? "O" : "", mx ? "M" : "",
-	        event->keyval, 13);
-
-	/* Enqueue the "macro trigger" string */
-	for (i = 0; msg[i]; i++) Term_keypress(msg[i]);
-
-	/* Hack -- auto-define macros as needed */
-	if (event->length && (macro_find_exact(msg) < 0))
-	{
-		/* Create a macro */
-		macro_add(msg, event->string);
-	}
-
-	return (TRUE);
-#endif
 }
 
 
@@ -4112,14 +3701,6 @@ static GtkItemFactoryEntry main_menu_items[] =
 	{ "/File", NULL,
 	  NULL, 0, "<Branch>", NULL
 	},
-#ifndef SAVEFILE_SCREEN
-	{ "/File/New", "<mod1>N",
-	  new_event_handler, 0, NULL, NULL },
-	{ "/File/Open", "<mod1>O",
-	  open_event_handler, 0, NULL, NULL },
-	{ "/File/sep1", NULL,
-	  NULL, 0, "<Separator>", NULL },
-#endif /* !SAVEFILE_SCREEN */
 	{ "/File/Save", "<mod1>S",
 	  save_event_handler, 0, NULL, NULL },
 	{ "/File/Quit", "<mod1>Q",
@@ -4399,17 +3980,7 @@ static void file_menu_update_handler(
         GtkWidget *widget,
         gpointer user_data)
 {
-#ifndef SAVEFILE_SCREEN
-	bool_ game_start_ok;
-#endif /* !SAVEFILE_SCREEN */
 	bool_ save_ok, quit_ok;
-
-#ifndef SAVEFILE_SCREEN
-
-	/* Can we start a game now? */
-	game_start_ok = !game_in_progress;
-
-#endif /* !SAVEFILE_SCREEN */
 
 	/* Cave we save/quit now? */
 	if (!character_generated || !game_in_progress)
@@ -4424,10 +3995,6 @@ static void file_menu_update_handler(
 	}
 
 	/* Enable / disable menu items according to those conditions */
-#ifndef SAVEFILE_SCREEN
-	enable_menu_item("<Angband>/File/New", game_start_ok);
-	enable_menu_item("<Angband>/File/Open", game_start_ok);
-#endif /* !SAVEFILE_SCREEN */
 	enable_menu_item("<Angband>/File/Save", save_ok);
 	enable_menu_item("<Angband>/File/Quit", quit_ok);
 }
@@ -4820,26 +4387,6 @@ static void hook_quit(cptr str)
 }
 
 
-#ifdef ANGBAND300
-
-/*
- * Help message for this port
- */
-const char help_gtk[] =
-        "GTK for X11, subopts -n<windows>\n"
-        "           -b(acking store off)\n"
-#ifdef USE_GRAPHICS
-        "           -g(raphics) -o(ld graphics) -s(moothscaling off) \n"
-        "           -t(ransparency on)\n"
-# ifdef USE_DOUBLE_TILES
-        "           -w(ide tiles)\n"
-# endif  /* USE_DOUBLE_TILES */
-#endif /* USE_GRAPHICS */
-        "           and standard GTK options";
-
-#endif /* ANGBAND300 */
-
-
 /*
  * Initialization function
  */
@@ -4898,10 +4445,7 @@ errr init_gtk2(int argc, char **argv)
 		if (streq(argv[i], "-w"))
 		{
 			use_bigtile = TRUE;
-# ifdef TOME
-			/* T.o.M.E. uses older version of the patch */
 			arg_bigtile = TRUE;
-# endif  /* TOME */
 			continue;
 		}
 
@@ -4973,51 +4517,11 @@ errr init_gtk2(int argc, char **argv)
 	/* Activate the "Angband" window screen */
 	Term_activate(&data[0].t);
 
-#ifndef SAVEFILE_SCREEN
-
-	/* Set the system suffix */
-	ANGBAND_SYS = "gtk";
-
-	/* Catch nasty signals */
-	signals_init();
-
-	/* Initialize */
-	init_angband();
-
-#ifndef OLD_SAVEFILE_CODE
-
-	/* Hack - because this port has New/Open menus XXX */
-	savefile[0] = '\0';
-
-#endif /* !OLD_SAVEFILE_CODE */
-
-	/* Prompt the user */
-	prt("[Choose 'New' or 'Open' from the 'File' menu]", 23, 17);
-	Term_fresh();
-
-	/* Activate more hook */
-	plog_aux = hook_plog;
-
-
-	/* Processing loop */
-	gtk_main();
-
-
-	/* Free allocated memory */
-	cleanup_angband();
-
-	/* Stop now */
-	quit(NULL);
-
-#else /* !SAVEFILE_SCREEN */
-
 	/* Activate more hook */
 	plog_aux = hook_plog;
 
 	/* It's too early to set this, but cannot do so elsewhere XXX XXX */
 	game_in_progress = TRUE;
-
-#endif /* !SAVEFILE_SCREEN */
 
 	/* Success */
 	return (0);

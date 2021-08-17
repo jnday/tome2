@@ -2657,6 +2657,12 @@ s16b place_monster_one(int y, int x, int r_idx, int ego, bool_ slp, int status)
 
 	place_monster_one_race = NULL;
 
+	/* Processs hooks */
+	{
+		hook_new_monster_end_in in = { m_ptr };
+		process_hooks_new(HOOK_NEW_MONSTER_END, &in, NULL);
+	}
+
 	/* Success */
 	place_monster_result = c_ptr->m_idx;
 	return c_ptr->m_idx;
@@ -2934,8 +2940,6 @@ bool_ place_monster(int y, int x, bool_ slp, bool_ grp)
 }
 
 
-#ifdef MONSTER_HORDES
-
 bool_ alloc_horde(int y, int x)
 {
 	int r_idx = 0;
@@ -2993,8 +2997,6 @@ bool_ alloc_horde(int y, int x)
 	return TRUE;
 }
 
-#endif /* MONSTER_HORDES */
-
 /*
  * Attempt to allocate a random monster in the dungeon.
  *
@@ -3034,7 +3036,6 @@ bool_ alloc_monster(int dis, bool_ slp)
 	}
 
 
-#ifdef MONSTER_HORDES
 	if (randint(5000) <= dun_level)
 	{
 		if (alloc_horde(y, x))
@@ -3045,14 +3046,11 @@ bool_ alloc_monster(int dis, bool_ slp)
 	}
 	else
 	{
-#endif /* MONSTER_HORDES */
 
 		/* Attempt to place the monster, allow groups */
 		if (place_monster(y, x, slp, TRUE)) return (TRUE);
 
-#ifdef MONSTER_HORDES
 	}
-#endif /* MONSTER_HORDES */
 
 	/* Nope */
 	return (FALSE);
@@ -3349,11 +3347,6 @@ bool_ summon_specific_okay(int r_idx)
 			break;
 		}
 
-	case SUMMON_LUA:
-		{
-			okay = summon_lua_okay(r_idx);
-			break;
-		}
 	}
 
 	/* Result */
@@ -3441,10 +3434,6 @@ bool_ summon_specific(int y1, int x1, int lev, int type)
 	r_idx = get_mon_num((dun_level + lev) / 2 + 5);
 	summon_hack = FALSE;
 
-#ifdef R_IDX_TESTING_HACK
-	r_idx = 356;
-#endif
-
 	/* Reset restriction */
 	get_mon_num_hook = old_get_mon_num_hook;
 
@@ -3524,10 +3513,6 @@ bool_ summon_specific_friendly(int y1, int x1, int lev, int type, bool_ Group_ok
 
 	/* Pick a monster, using the level calculation */
 	r_idx = get_mon_num((dun_level + lev) / 2 + 5);
-
-#ifdef R_IDX_TESTING_HACK
-	r_idx = 356;
-#endif
 
 	/* Reset restriction */
 	get_mon_num_hook = old_get_mon_num_hook;

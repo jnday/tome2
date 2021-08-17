@@ -31,7 +31,7 @@ void increase_skill(int i, s16b *invest)
 	if (s_info[i].value >= SKILL_MAX) return;
 
 	/* Cannot allocate more than player level + max_skill_overage levels */
-	call_lua("get_module_info", "(s)", "d", "max_skill_overage", &max_skill_overage);
+	max_skill_overage = modules[game_module_idx].skills.max_skill_overage;
 	if (((s_info[i].value + s_info[i].mod) / SKILL_STEP) >= (p_ptr->lev + max_skill_overage + 1))
 	{
 		int hgt, wid;
@@ -366,7 +366,16 @@ void recalc_skills(bool_ init)
 				msg_format("You have gained %d new thaumaturgy spells.", thaum_gain);
 		}
 
+		/* Antimagic means you don't believe in gods. */
+		if ((p_ptr->pgod != GOD_NONE) &&
+		    (s_info[SKILL_ANTIMAGIC].value > 0))
+		{
+			msg_print("You no longer believe.");
+			abandon_god(GOD_ALL);
+		}
+
 		process_hooks(HOOK_RECALC_SKILLS, "()");
+		process_hooks_new(HOOK_RECALC_SKILLS, NULL, NULL);
 
 		/* Update stuffs */
 		p_ptr->update |= (PU_BONUS | PU_HP | PU_MANA | PU_SPELLS | PU_POWERS |
@@ -544,8 +553,10 @@ void do_cmd_skill()
 			if (wizard && (c == '-')) skill_bonus[table[sel][0]] -= SKILL_STEP;
 
 			/* Contextual help */
-			if (c == '?') exec_lua(format("ingame_help('select_context', 'skill', '%s')", s_info[table[sel][0]].name + s_name));
-			;
+			if (c == '?')
+			{
+				help_skill(s_info[table[sel][0]].name + s_name);
+			}
 
 			/* Handle boundaries and scrolling */
 			if (sel < 0) sel = max - 1;
@@ -743,12 +754,12 @@ void select_default_melee()
 /*
  * Print a batch of skills.
  */
-static void print_skill_batch(int *p, cptr *p_desc, int start, int max, bool_ mode)
+static void print_skill_batch(int *p, cptr *p_desc, int start, int max)
 {
 	char buff[80];
 	int i = start, j = 0;
 
-	if (mode) prt(format("         %-31s", "Name"), 1, 20);
+	prt(format("         %-31s", "Name"), 1, 20);
 
 	for (i = start; i < (start + 20); i++)
 	{
@@ -759,10 +770,10 @@ static void print_skill_batch(int *p, cptr *p_desc, int start, int max, bool_ mo
 		else
 			sprintf(buff, "  %c - %d) %-30s", I2A(j), p[i], "Change melee style");
 
-		if (mode) prt(buff, 2 + j, 20);
+		prt(buff, 2 + j, 20);
 		j++;
 	}
-	if (mode) prt("", 2 + j, 20);
+	prt("", 2 + j, 20);
 	prt(format("Select a skill (a-%c), @ to select by name, +/- to scroll:", I2A(j - 1)), 0, 0);
 }
 
@@ -771,7 +782,6 @@ int do_cmd_activate_skill_aux()
 	char which;
 	int max = 0, i, start = 0;
 	int ret;
-	bool_ mode = FALSE;
 	int *p;
 	cptr *p_desc;
 
@@ -844,19 +854,13 @@ int do_cmd_activate_skill_aux()
 
 	while (1)
 	{
-		print_skill_batch(p, p_desc, start, max, mode);
+		print_skill_batch(p, p_desc, start, max);
 		which = inkey();
 
 		if (which == ESCAPE)
 		{
 			ret = -1;
 			break;
-		}
-		else if (which == '*' || which == '?' || which == ' ')
-		{
-			mode = (mode) ? FALSE : TRUE;
-			Term_load();
-			character_icky = FALSE;
 		}
 		else if (which == '+')
 		{
@@ -1045,8 +1049,96 @@ void do_cmd_activate_skill()
 	case MKEY_PIERCING:
 		do_cmd_set_piercing();
 		break;
+	case MKEY_DEATH_TOUCH:
+	{
+		if (p_ptr->csp > 40)
+		{
+			increase_mana(-40);
+			set_project(randint(30) + 10,
+				    GF_INSTA_DEATH,
+				    1,
+				    0,
+				    PROJECT_STOP | PROJECT_KILL);
+			energy_use = 100;
+		}
+		else
+		{
+			msg_print("You need at least 40 mana.");
+		}
+		break;
+	}
+	case MKEY_GEOMANCY:
+	{
+		s32b s = -1;
+		object_type *o_ptr = NULL;
+
+		/* No magic */
+		if (p_ptr->antimagic > 0)
+		{
+			msg_print("Your anti-magic field disrupts any magic attempts.");
+			break;
+		}
+
+		o_ptr = get_object(INVEN_WIELD);
+		if ((o_ptr->k_idx <= 0) ||
+		    (o_ptr->tval != TV_MSTAFF))
+		{
+			msg_print("You must wield a magestaff to use Geomancy.");
+			break;
+		}
+
+		s = get_school_spell("cast", BOOK_GEOMANCY);
+		if (s >= 0)
+		{
+			lua_cast_school_spell(s, FALSE);
+		}
+
+		break;
+	}
+	case MKEY_REACH_ATTACK:
+	{
+		object_type *o_ptr = NULL;
+		int dir, dy, dx, targetx, targety, max_blows, flags;
+
+		o_ptr = get_object(INVEN_WIELD);
+		if (o_ptr->tval == TV_POLEARM)
+		{
+			msg_print("You will need a long polearm for this!");
+			return;
+		}
+
+		if (!get_rep_dir(&dir))
+		{
+			return;
+		}
+
+		dy = ddy[dir];
+		dx = ddx[dir];
+		dy = dy * 2;
+		dx = dx * 2;
+		targety = p_ptr->py + dy;
+		targetx = p_ptr->px + dx;
+
+		max_blows = get_skill_scale(SKILL_POLEARM, p_ptr->num_blow / 2);
+		if (max_blows == 0)
+		{
+			max_blows = 1;
+		}
+
+		energy_use = energy_use + 200;
+
+		flags = PROJECT_BEAM | PROJECT_KILL;
+		if (get_skill(SKILL_POLEARM) < 40)
+		{
+			flags |= PROJECT_STOP;
+		}
+
+		project(0, 0, targety, targetx,
+			max_blows, GF_ATTACK, flags);
+
+		break;
+	}
 	default:
-		process_hooks(HOOK_MKEY, "(d)", x_idx);
 		break;
 	}
 }
@@ -1600,8 +1692,10 @@ if (ab_info[i].name)
 			if (wizard && (c == '-')) ab_info[table[sel]].acquired = FALSE;
 
 			/* Contextual help */
-			if (c == '?') exec_lua(format("ingame_help('select_context', 'ability', '%s')", ab_info[table[sel]].name + ab_name));
-			;
+			if (c == '?')
+			{
+				help_ability(ab_info[table[sel]].name + ab_name);
+			}
 
 			/* Handle boundaries and scrolling */
 			if (sel < 0) sel = max - 1;

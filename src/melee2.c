@@ -17,6 +17,9 @@
 
 #include "angband.h"
 
+#include "messages.h"
+#include "quark.h"
+
 #define SPEAK_CHANCE 8
 #define GRINDNOISE 20
 
@@ -163,7 +166,21 @@ bool_ mon_take_hit_mon(int s_idx, int m_idx, int dam, bool_ *fear, cptr note)
 
 	}
 
-#ifdef ALLOW_FEAR
+	/* Apply fear */
+	mon_handle_fear(m_ptr, dam, fear);
+
+	/* Not dead yet */
+	return (FALSE);
+}
+
+
+void mon_handle_fear(monster_type *m_ptr, int dam, bool_ *fear)
+{
+	monster_race *r_ptr = NULL;
+
+	assert(m_ptr != NULL);
+
+	r_ptr = race_inf(m_ptr);
 
 	/* Mega-Hack -- Pain cancels fear */
 	if (m_ptr->monfear && (dam > 0))
@@ -197,9 +214,9 @@ bool_ mon_take_hit_mon(int s_idx, int m_idx, int dam, bool_ *fear, cptr note)
 		percentage = (100L * m_ptr->hp) / m_ptr->maxhp;
 
 		/*
-		* Run (sometimes) if at 10% or less of max hit points,
-		* or (usually) when hit for half its current hit points
-		*/
+		 * Run (sometimes) if at 10% or less of max hit points,
+		 * or (usually) when hit for half its current hit points
+		 */
 		if (((percentage <= 10) && (rand_int(10) < percentage)) ||
 		                ((dam >= m_ptr->hp) && (rand_int(100) < 80)))
 		{
@@ -212,15 +229,7 @@ bool_ mon_take_hit_mon(int s_idx, int m_idx, int dam, bool_ *fear, cptr note)
 			                   20 : ((11 - percentage) * 5)));
 		}
 	}
-
-#endif /* ALLOW_FEAR */
-
-	/* Not dead yet */
-	return (FALSE);
 }
-
-
-
 
 
 /*
@@ -957,7 +966,7 @@ void monster_msg(cptr fmt, ...)
 		msg_print(buf);
 	else
 	{
-		message_add(MESSAGE_MSG, buf, TERM_WHITE);
+		message_add(buf, TERM_WHITE);
 		p_ptr->window |= PW_MESSAGE;
 	}
 }
@@ -982,7 +991,7 @@ void cmonster_msg(char a, cptr fmt, ...)
 		cmsg_print(a, buf);
 	else
 	{
-		message_add(MESSAGE_MSG, buf, a);
+		message_add(buf, a);
 		p_ptr->window |= PW_MESSAGE;
 	}
 }
@@ -4671,15 +4680,10 @@ bool_ make_attack_spell(int m_idx)
 static int mon_will_run(int m_idx)
 {
 	monster_type *m_ptr = &m_list[m_idx];
-
-#ifdef ALLOW_TERROR
-
 	u16b p_lev, m_lev;
 	u16b p_chp, p_mhp;
 	u16b m_chp, m_mhp;
 	u32b p_val, m_val;
-
-#endif
 
 	/* Keep monsters from running too far away */
 	if (m_ptr->cdis > MAX_SIGHT + 5) return (FALSE);
@@ -4689,8 +4693,6 @@ static int mon_will_run(int m_idx)
 
 	/* All "afraid" monsters will run away */
 	if (m_ptr->monfear) return (TRUE);
-
-#ifdef ALLOW_TERROR
 
 	/* Nearby monsters will not become terrified */
 	if (m_ptr->cdis <= 5) return (FALSE);
@@ -4719,8 +4721,6 @@ static int mon_will_run(int m_idx)
 
 	/* Strong players scare strong monsters */
 	if (p_val * m_mhp > m_val * p_mhp) return (TRUE);
-
-#endif
 
 	/* Assume no terror */
 	return (FALSE);

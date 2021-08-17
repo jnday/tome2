@@ -12,6 +12,8 @@
 
 #include "angband.h"
 
+#include "quark.h"
+#include "spell_type.h"
 
 /*
  * Hack -- note that "TERM_MULTI" is now just "TERM_VIOLET".
@@ -1027,8 +1029,6 @@ int object_power(object_type *o_ptr)
  */
 void object_flags_known(object_type *o_ptr, u32b *f1, u32b *f2, u32b *f3, u32b *f4, u32b *f5, u32b *esp)
 {
-	bool_ spoil = FALSE;
-
 	object_kind *k_ptr = &k_info[o_ptr->k_idx];
 
 	/* Clear */
@@ -1052,23 +1052,13 @@ void object_flags_known(object_type *o_ptr, u32b *f1, u32b *f2, u32b *f3, u32b *
 	(*f5) |= k_ptr->oflags5;
 	(*esp) |= k_ptr->oesp;
 
-#ifdef SPOIL_ARTIFACTS
-	/* Full knowledge for some artifacts */
-	if (artifact_p(o_ptr) || o_ptr->art_name) spoil = TRUE;
-#endif /* SPOIL_ARTIFACTS */
-
-#ifdef SPOIL_EGO_ITEMS
-	/* Full knowledge for some ego-items */
-	if (ego_item_p(o_ptr)) spoil = TRUE;
-#endif /* SPOIL_EGO_ITEMS */
-
 	/* Artifact */
 	if (o_ptr->name1)
 	{
 		artifact_type *a_ptr = &a_info[o_ptr->name1];
 
 		/* Need full knowledge or spoilers */
-		if (spoil || (o_ptr->ident & IDENT_MENTAL))
+		if ((o_ptr->ident & IDENT_MENTAL))
 		{
 			(*f1) = a_ptr->flags1;
 			(*f2) = a_ptr->flags2;
@@ -1097,7 +1087,7 @@ void object_flags_known(object_type *o_ptr, u32b *f1, u32b *f2, u32b *f3, u32b *
 	if (o_ptr->art_flags1 || o_ptr->art_flags2 || o_ptr->art_flags3 || o_ptr->art_flags4 || o_ptr->art_flags5 || o_ptr->art_esp)
 	{
 		/* Need full knowledge or spoilers */
-		if (spoil || (o_ptr->ident & IDENT_MENTAL))
+		if ((o_ptr->ident & IDENT_MENTAL))
 		{
 			(*f1) |= o_ptr->art_flags1;
 			(*f2) |= o_ptr->art_flags2;
@@ -1509,7 +1499,7 @@ void object_desc(char *buf, object_type *o_ptr, int pref, int mode)
 			}
 			else
 			{
-				call_lua("get_mimic_info", "(d,s)", "s", o_ptr->pval2, "name", &modstr);
+				modstr = get_mimic_name(o_ptr->pval2);
 			}
 			if (((plain_descriptions) && (aware)) || o_ptr->ident & IDENT_STOREB)
 				basenm = "& Potion~";
@@ -1540,7 +1530,7 @@ void object_desc(char *buf, object_type *o_ptr, int pref, int mode)
 			show_armour = TRUE;
 			if (o_ptr->sval == SV_MIMIC_CLOAK)
 			{
-				call_lua("get_mimic_info", "(d,s)", "s", o_ptr->pval2, "obj_name", &modstr);
+				modstr = get_mimic_object_name(o_ptr->pval2);
 			}
 			break;
 		}
@@ -1673,7 +1663,10 @@ void object_desc(char *buf, object_type *o_ptr, int pref, int mode)
 	case TV_BOOK:
 		{
 			basenm = k_name + k_ptr->name;
-			if (o_ptr->sval == 255) modstr = school_spells[o_ptr->pval].name;
+			if (o_ptr->sval == 255)
+			{
+				modstr = spell_type_name(spell_at(o_ptr->pval));
+			}
 			break;
 		}
 
@@ -1952,7 +1945,7 @@ void object_desc(char *buf, object_type *o_ptr, int pref, int mode)
 
 		if (((o_ptr->tval == TV_WAND) || (o_ptr->tval == TV_STAFF)))
 		{
-			t = object_desc_str(t, school_spells[o_ptr->pval2].name);
+			t = object_desc_str(t, spell_type_name(spell_at(o_ptr->pval2)));
 			if (mode >= 1)
 			{
 				s32b bonus = o_ptr->pval3 & 0xFFFF;
@@ -2032,7 +2025,7 @@ void object_desc(char *buf, object_type *o_ptr, int pref, int mode)
 	/* It contains a spell */
 	if ((known) && (f5 & TR5_SPELL_CONTAIN) && (o_ptr->pval2 != -1))
 	{
-		t = object_desc_str(t, format(" [%s]", school_spells[o_ptr->pval2].name));
+		t = object_desc_str(t, format(" [%s]", spell_type_name(spell_at(o_ptr->pval2))));
 	}
 
 	/* Add symbiote hp here, after the "fake-artifact" name. --dsb */
@@ -2245,28 +2238,14 @@ void object_desc(char *buf, object_type *o_ptr, int pref, int mode)
 	if ((f1 & TR1_MANA) && (known) && (o_ptr->pval > 0))
 	{
 		t = object_desc_chr(t, '(');
-		if (munchkin_multipliers)
-		{
-			t = object_desc_num(t, 100 * o_ptr->pval / 5);
-		}
-		else
-		{
-			t = object_desc_num(t, 100 * o_ptr->pval / 10);
-		}
+		t = object_desc_num(t, 100 * o_ptr->pval / 5);
 		t = object_desc_str(t, "%)");
 	}
 
 	if ((known) && (f2 & TR2_LIFE) ) /* Can disp neg now -- Improv */
 	{
 		t = object_desc_chr(t, '(');
-		if (munchkin_multipliers)
-		{
-			t = object_desc_num(t, 100 * o_ptr->pval / 5);
-		}
-		else
-		{
-			t = object_desc_num(t, 100 * o_ptr->pval / 10);
-		}
+		t = object_desc_num(t, 100 * o_ptr->pval / 5);
 		t = object_desc_str(t, "%)");
 	}
 
@@ -2824,30 +2803,45 @@ void display_ammo_damage(object_type *o_ptr)
 }
 
 /*
+ * Output spell description
+ */
+static void print_device_desc_callback(void *data, cptr text)
+{
+	text_out("\n");
+	text_out(text);
+}
+
+/*
  * Describe a magic stick powers
  */
 void describe_device(object_type *o_ptr)
 {
+	char buf[128];
+
 	/* Wands/... of shcool spell */
 	if (((o_ptr->tval == TV_WAND) || (o_ptr->tval == TV_STAFF)) && object_known_p(o_ptr))
 	{
 		/* Enter device mode  */
 		set_stick_mode(o_ptr);
 
-		text_out("\nSpell description:");
-		exec_lua(format("print_device_desc(%d)", o_ptr->pval2));
+		text_out("\nSpell description:\n");
+		spell_type_description_foreach(spell_at(o_ptr->pval2),
+					       print_device_desc_callback,
+					       NULL);
 
 		text_out("\nSpell level: ");
-		text_out_c(TERM_L_BLUE, string_exec_lua(format("return tostring(get_level(%d, 50, 0))", o_ptr->pval2)));
+		sprintf(buf, FMTs32b, get_level(o_ptr->pval2, 50, 0));
+		text_out_c(TERM_L_BLUE, buf);
 
 		text_out("\nMinimum Magic Device level to increase spell level: ");
-		text_out_c(TERM_L_BLUE, format("%d", school_spells[o_ptr->pval2].skill_level));
+		text_out_c(TERM_L_BLUE, format("%d", spell_type_skill_level(spell_at(o_ptr->pval2))));
 
 		text_out("\nSpell fail: ");
-		text_out_c(TERM_GREEN, string_exec_lua(format("return tostring(spell_chance(%d))", o_ptr->pval2)));
+		sprintf(buf, FMTs32b, spell_chance(o_ptr->pval2));
+		text_out_c(TERM_GREEN, buf);
 
 		text_out("\nSpell info: ");
-		text_out_c(TERM_YELLOW, string_exec_lua(format("return __spell_info[%d]()", o_ptr->pval2)));
+		text_out_c(TERM_YELLOW, spell_type_info(spell_at(o_ptr->pval2)));
 
 		/* Leave device mode  */
 		unset_stick_mode();
@@ -3135,7 +3129,7 @@ bool_ object_out_desc(object_type *o_ptr, FILE *fff, bool_ trim_down, bool_ wait
 			}
 
 			text_out(" by ");
-			percent = 100 * o_ptr->pval / ( munchkin_multipliers ? 5 : 10 );
+			percent = 100 * o_ptr->pval / 5;
 
 
 			if (o_ptr->pval > 0)
@@ -4008,6 +4002,24 @@ s16b wield_slot_ideal(object_type *o_ptr, bool_ ideal)
 	if (process_hooks_ret(HOOK_WIELD_SLOT, "d", "(O,d)", o_ptr, ideal))
 		return process_hooks_return[0].num;
 
+	/* Theme has restrictions for winged races. */
+	if (game_module_idx == MODULE_THEME)
+	{
+		cptr race_name = rp_ptr->title + rp_name;
+
+		if (streq(race_name, "Dragon") ||
+		    streq(race_name, "Eagle"))
+		{
+			switch (o_ptr->tval)
+			{
+			case TV_CLOAK:
+			case TV_HARD_ARMOR:
+			case TV_DRAG_ARMOR:
+				return -1;
+			}
+		}
+	}
+
 	/* Slot for equipment */
 	switch (o_ptr->tval)
 	{
@@ -4144,6 +4156,25 @@ s16b wield_slot_ideal(object_type *o_ptr, bool_ ideal)
 					return get_slot(INVEN_AMMO);
 			}
 			return -1;
+		}
+
+	case TV_DAEMON_BOOK:
+		{
+			int slot = -1;
+
+			switch (o_ptr->sval)
+			{
+			case SV_DEMONBLADE : slot = INVEN_WIELD; break;
+			case SV_DEMONSHIELD: slot = INVEN_ARM; break;
+			case SV_DEMONHORN  : slot = INVEN_HEAD; break;
+			}
+
+			if ((slot >= 0) && (!ideal))
+			{
+				slot = get_slot(slot);
+			}
+
+			return slot;
 		}
 	}
 
@@ -4469,8 +4500,8 @@ void show_inven_aux(bool_ mirror, bool_ everything)
 	/* Maximum space allowed for descriptions */
 	lim = 79 - 3;
 
-	/* Require space for weight (if needed) */
-	if (show_weights) lim -= 9;
+	/* Space for weight */
+	lim -= 9;
 
 	/* Require space for icon */
 	if (show_inven_graph) lim -= 2;
@@ -4519,7 +4550,7 @@ void show_inven_aux(bool_ mirror, bool_ everything)
 		l = strlen(out_desc[k]) + 5;
 
 		/* Be sure to account for the weight */
-		if (show_weights) l += 9;
+		l += 9;
 
 		/* Account for icon if displayed */
 		if (show_inven_graph) l += 2;
@@ -4573,11 +4604,10 @@ void show_inven_aux(bool_ mirror, bool_ everything)
 		c_put_str(out_color[j], out_desc[j], row + j,
 		          show_inven_graph ? (col + 5) : (col + 3));
 
-		/* Display the weight if needed */
-		if (show_weights)
+		/* Display the weight */
 		{
 			int wgt = o_ptr->weight * o_ptr->number;
-			(void)sprintf(tmp_val, "%3d.%1d lb", wgt / 10, wgt % 10);
+			sprintf(tmp_val, "%3d.%1d lb", wgt / 10, wgt % 10);
 			put_str(tmp_val, row + j, wid - 9);
 		}
 	}
@@ -4644,11 +4674,11 @@ void show_equip_aux(bool_ mirror, bool_ everything)
 	/* Maximum space allowed for descriptions */
 	lim = 79 - 3;
 
-	/* Require space for labels (if needed) */
-	if (show_labels) lim -= (14 + 2);
+	/* Require space for labels */
+	lim -= (14 + 2);
 
-	/* Require space for weight (if needed) */
-	if (show_weights) lim -= 9;
+	/* Require space for weight */
+	lim -= 9;
 
 	if (show_equip_graph) lim -= 2;
 
@@ -4746,10 +4776,10 @@ void show_equip_aux(bool_ mirror, bool_ everything)
 		l = strlen(out_desc[k]) + (2 + 3);
 
 		/* Increase length for labels (if needed) */
-		if (show_labels) l += (14 + 2);
+		l += (14 + 2);
 
-		/* Increase length for weight (if needed) */
-		if (show_weights) l += 9;
+		/* Increase length for weight */
+		l += 9;
 
 		if (show_equip_graph) l += 2;
 
@@ -4798,7 +4828,6 @@ void show_equip_aux(bool_ mirror, bool_ everything)
 		}
 
 		/* Use labels */
-		if (show_labels)
 		{
 			/* Mention the use */
 			(void)sprintf(tmp_val, "%-14s: ", mention_use(out_rindex[j]));
@@ -4808,18 +4837,10 @@ void show_equip_aux(bool_ mirror, bool_ everything)
 			c_put_str(out_color[j], out_desc[j], row + j, show_equip_graph ? col + 21 : col + 19);
 		}
 
-		/* No labels */
-		else
-		{
-			/* Display the entry itself */
-			c_put_str(out_color[j], out_desc[j], row + j, show_equip_graph ? col + 5 : col + 3);
-		}
-
-		/* Display the weight if needed */
-		if (show_weights)
+		/* Display the weight */
 		{
 			int wgt = o_ptr->weight * o_ptr->number;
-			(void)sprintf(tmp_val, "%3d.%d lb", wgt / 10, wgt % 10);
+			sprintf(tmp_val, "%3d.%d lb", wgt / 10, wgt % 10);
 			put_str(tmp_val, row + j, wid - 9);
 		}
 	}
@@ -5112,8 +5133,8 @@ void show_floor(int y, int x)
 	/* Maximum space allowed for descriptions */
 	lim = 79 - 3;
 
-	/* Require space for weight (if needed) */
-	if (show_weights) lim -= 9;
+	/* Require space for weight */
+	lim -= 9;
 
 	/* Scan for objects in the grid, using item_tester_okay() */
 	(void) scan_floor(floor_list, &floor_num, y, x, 0x01);
@@ -5141,8 +5162,8 @@ void show_floor(int y, int x)
 		/* Find the predicted "line length" */
 		l = strlen(out_desc[k]) + 5;
 
-		/* Be sure to account for the weight */
-		if (show_weights) l += 9;
+		/* Account for the weight */
+		l += 9;
 
 		/* Maintain the maximum length */
 		if (l > len) len = l;
@@ -5176,7 +5197,6 @@ void show_floor(int y, int x)
 		c_put_str(out_color[j], out_desc[j], j + 1, col + 3);
 
 		/* Display the weight if needed */
-		if (show_weights)
 		{
 			int wgt = o_ptr->weight * o_ptr->number;
 			sprintf(tmp_val, "%3d.%1d lb", wgt / 10, wgt % 10);
@@ -5372,7 +5392,6 @@ bool_ get_item_floor(int *cp, cptr pmt, cptr str, int mode)
 	while (!done)
 	{
 		/* Show choices */
-		if (show_choices)
 		{
 			int ni = 0;
 			int ne = 0;
@@ -5855,7 +5874,6 @@ bool_ get_item_floor(int *cp, cptr pmt, cptr str, int mode)
 	}
 
 	/* Clean up */
-	if (show_choices)
 	{
 		/* Toggle again if needed */
 		if (toggle) toggle_inven_equip();
@@ -6134,6 +6152,15 @@ void object_pickup(int this_o_idx)
 		/* Tell the scripts */
 		if (process_hooks(HOOK_GET, "(O,d)", o_ptr, this_o_idx))
 			return;
+
+		/* Hooks */
+		{
+			hook_get_in in = { o_ptr, this_o_idx };
+			if (process_hooks_new(HOOK_GET, &in, NULL))
+			{
+				return;
+			}
+		}
 
 		q_ptr = &p_ptr->inventory[INVEN_AMMO];
 

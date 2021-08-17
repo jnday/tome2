@@ -101,11 +101,7 @@
 #define IDM_FILE_NEW			100
 #define IDM_FILE_OPEN			101
 #define IDM_FILE_SAVE			110
-#ifdef ALLOW_QUITTING
-# define IDM_FILE_ABORT	120
-#else
-# define IDM_FILE_SCORE	120
-#endif
+#define IDM_FILE_SCORE	120
 #define IDM_FILE_EXIT			121
 
 #define IDM_WINDOW_VIS_0		200
@@ -548,7 +544,6 @@ static BYTE win_pal[256] =
 static bool_ special_key[256];
 static bool_ ignore_key[256];
 
-#if 1
 /*
  * Hack -- initialization list for "special_key"
  */
@@ -573,88 +568,6 @@ static byte ignore_key_list[] = {
 	VK_SHIFT, VK_CONTROL, VK_MENU, VK_LWIN, VK_RWIN,
 	VK_LSHIFT, VK_RSHIFT, VK_LCONTROL, VK_RCONTROL, VK_LMENU, VK_RMENU, 0
 };
-
-#else
-/*
-* Hack -- initialization list for "special_key"
-*
-* We ignore the modifier keys (shift, control, alt, num lock, scroll lock),
-* and the normal keys (escape, tab, return, letters, numbers, etc), but we
-* catch the keypad keys (with and without numlock set, including keypad 5),
-* the function keys (including the "menu" key which maps to F10), and the
-* "pause" key (between scroll lock and numlock).  We also catch a few odd
-* keys which I do not recognize, but which are listed among keys which we
-* do catch, so they should be harmless to catch.
-*/
-static byte special_key_list[] =
-{
-	VK_CLEAR, 		/* 0x0C (KP<5>) */
-
-	VK_PAUSE, 		/* 0x13 (pause) */
-
-	VK_PRIOR, 		/* 0x21 (KP<9>) */
-	VK_NEXT, 		/* 0x22 (KP<3>) */
-	VK_END, 			/* 0x23 (KP<1>) */
-	VK_HOME, 		/* 0x24 (KP<7>) */
-	VK_LEFT, 		/* 0x25 (KP<4>) */
-	VK_UP, 			/* 0x26 (KP<8>) */
-	VK_RIGHT, 		/* 0x27 (KP<6>) */
-	VK_DOWN, 		/* 0x28 (KP<2>) */
-	VK_SELECT, 		/* 0x29 (?????) */
-	VK_PRINT, 		/* 0x2A (?????) */
-	VK_EXECUTE, 		/* 0x2B (?????) */
-	VK_SNAPSHOT, 	/* 0x2C (?????) */
-	VK_INSERT, 		/* 0x2D (KP<0>) */
-	VK_DELETE, 		/* 0x2E (KP<.>) */
-	VK_HELP, 		/* 0x2F (?????) */
-
-#if 0
-	VK_NUMPAD0, 		/* 0x60 (KP<0>) */
-	VK_NUMPAD1, 		/* 0x61 (KP<1>) */
-	VK_NUMPAD2, 		/* 0x62 (KP<2>) */
-	VK_NUMPAD3, 		/* 0x63 (KP<3>) */
-	VK_NUMPAD4, 		/* 0x64 (KP<4>) */
-	VK_NUMPAD5, 		/* 0x65 (KP<5>) */
-	VK_NUMPAD6, 		/* 0x66 (KP<6>) */
-	VK_NUMPAD7, 		/* 0x67 (KP<7>) */
-	VK_NUMPAD8, 		/* 0x68 (KP<8>) */
-	VK_NUMPAD9, 		/* 0x69 (KP<9>) */
-	VK_MULTIPLY, 	/* 0x6A (KP<*>) */
-	VK_ADD, 			/* 0x6B (KP<+>) */
-	VK_SEPARATOR, 	/* 0x6C (?????) */
-	VK_SUBTRACT, 	/* 0x6D (KP<->) */
-	VK_DECIMAL, 		/* 0x6E (KP<.>) */
-	VK_DIVIDE, 		/* 0x6F (KP</>) */
-#endif
-
-	VK_F1, 			/* 0x70 */
-	VK_F2, 			/* 0x71 */
-	VK_F3, 			/* 0x72 */
-	VK_F4, 			/* 0x73 */
-	VK_F5, 			/* 0x74 */
-	VK_F6, 			/* 0x75 */
-	VK_F7, 			/* 0x76 */
-	VK_F8, 			/* 0x77 */
-	VK_F9, 			/* 0x78 */
-	VK_F10, 			/* 0x79 */
-	VK_F11, 			/* 0x7A */
-	VK_F12, 			/* 0x7B */
-	VK_F13, 			/* 0x7C */
-	VK_F14, 			/* 0x7D */
-	VK_F15, 			/* 0x7E */
-	VK_F16, 			/* 0x7F */
-	VK_F17, 			/* 0x80 */
-	VK_F18, 			/* 0x81 */
-	VK_F19, 			/* 0x82 */
-	VK_F20, 			/* 0x83 */
-	VK_F21, 			/* 0x84 */
-	VK_F22, 			/* 0x85 */
-	VK_F23, 			/* 0x86 */
-	VK_F24, 			/* 0x87 */
-
-	0
-};
-#endif
 
 
 /*
@@ -689,7 +602,7 @@ static char *analyze_font(char *path, int *wp, int *hp)
 	/* Start at the end */
 	p = path + strlen(path) - 1;
 
-	/* Back up to divider --- analyze font is used by features that still use both paths on windows*/
+	/* Back up to divider */
 	while ((p >= path) && (*p != ':') && (*p != '\\' && *p !='/')) --p;
 
 	/* Advance to file name */
@@ -1531,28 +1444,6 @@ static void term_data_redraw(term_data *td)
 /*** Function hooks needed by "Term" ***/
 
 
-#if 0
-
-/*
- * Initialize a new Term
- */
-static void Term_init_win(term *t)
-{
-	/* XXX Unused */
-}
-
-
-/*
- * Nuke an old Term
- */
-static void Term_nuke_win(term *t)
-{
-	/* XXX Unused */
-}
-
-#endif
-
-
 /*
  * Interact with the User
  */
@@ -2334,12 +2225,6 @@ static void term_data_link(term_data *td)
 	t->attr_blank = TERM_WHITE;
 	t->char_blank = ' ';
 
-#if 0
-	/* Prepare the init/nuke hooks */
-	t->init_hook = Term_init_win;
-	t->nuke_hook = Term_nuke_win;
-#endif
-
 	/* Prepare the template hooks */
 	t->user_hook = Term_user_win;
 	t->xtra_hook = Term_xtra_win;
@@ -2548,13 +2433,8 @@ static void setup_menus(void)
 	               MF_BYCOMMAND | MF_DISABLED | MF_GRAYED);
 	EnableMenuItem(hm, IDM_FILE_SAVE,
 	               MF_BYCOMMAND | MF_DISABLED | MF_GRAYED);
-#ifdef ALLOW_QUITTING
-	EnableMenuItem(hm, IDM_FILE_ABORT,
-	               MF_BYCOMMAND | MF_DISABLED | MF_GRAYED);
-#else
 	EnableMenuItem(hm, IDM_FILE_SCORE,
 	               MF_BYCOMMAND | MF_DISABLED | MF_GRAYED);
-#endif /* ALLOW_QUITTING */
 	EnableMenuItem(hm, IDM_FILE_EXIT,
 	               MF_BYCOMMAND | MF_DISABLED | MF_GRAYED);
 
@@ -2578,22 +2458,12 @@ static void setup_menus(void)
 		               MF_BYCOMMAND | MF_ENABLED);
 	}
 
-#ifdef ALLOW_QUITTING
-
-	/* Menu "File", Item "Abort" */
-	EnableMenuItem(hm, IDM_FILE_ABORT,
-	               MF_BYCOMMAND | MF_ENABLED);
-
-#else
-
 	/* Menu "File", Item "Score" */
 	if (initialized && character_generated && !character_icky)
 	{
 		EnableMenuItem(hm, IDM_FILE_SCORE,
 		               MF_BYCOMMAND | MF_ENABLED);
 	}
-
-#endif
 
 	/* Menu "File", Item "Exit" */
 	EnableMenuItem(hm, IDM_FILE_EXIT,
@@ -2915,101 +2785,14 @@ ofn.lStructSize = sizeof(OPENFILENAME);
 			break;
 		}
 
-#ifdef ALLOW_QUITTING
-
-		/* Abort */
-	case IDM_FILE_ABORT:
-		{
-			if (game_in_progress && character_generated)
-			{
-				/* XXX XXX XXX */
-				if (MessageBox(data[0].w,
-				                "Your character will be not saved!", "Warning",
-				                MB_ICONEXCLAMATION | MB_OKCANCEL) == IDCANCEL)
-				{
-					break;
-				}
-			}
-			quit(NULL);
-			break;
-		}
-
-#else
-
 		/* Score */
 	case IDM_FILE_SCORE:
 		{
-			char buf[1024];
-
-			/* Paranoia */
-			if (!initialized || character_icky ||
-			                !game_in_progress || !character_generated)
-			{
-				/* Can't happen but just in case */
-				plog("You may not do that right now.");
-
-				break;
-			}
-
-			/* Build the pathname of the score file */
-			path_build(buf, sizeof(buf), "./.tome/2.3/theme", "scores.raw");
-
-			/* Hack - open the score file for reading */
-			highscore_fd = fd_open(buf, O_RDONLY);
-
-			/* Paranoia - No score file */
-			if (highscore_fd < 0)
-			{
-				msg_print("Score file is not available.");
-
-				break;
-			}
-
-			/* Mega-Hack - prevent various functions XXX XXX XXX */
-			initialized = FALSE;
-
-			/* Save screen */
-			screen_save();
-
-			/* Clear screen */
-			Term_clear();
-
-			/* Prepare scores */
-			if (game_in_progress && character_generated)
-			{
-				predict_score();
-			}
-
-#if 0 /* I don't like this - pelpel */
-
-			/* Mega-Hack - No current player XXX XXX XXX XXX */
-			else
-			{
-				display_scores_aux(0, MAX_HISCORES, -1, NULL);
-			}
-
-#endif
-
-			/* Close the high score file */
-			(void)fd_close(highscore_fd);
-
-			/* Forget the fd */
-			highscore_fd = -1;
-
-			/* Restore screen */
-			screen_load();
-
-			/* Hack - Flush it */
-			Term_fresh();
-
-			/* Mega-Hack - We are ready again */
-			initialized = TRUE;
+			predict_score_gui(&initialized, &game_in_progress);
 
 			/* Done */
 			break;
 		}
-
-#endif
 
 	case IDM_WINDOW_VIS_0:
 		{
@@ -3915,15 +3698,6 @@ WPARAM wParam, LPARAM lParam)
 			return 0;
 		}
 
-#if 0
-	case WM_ACTIVATE:
-		{
-			if (LOWORD(wParam) == WA_INACTIVE) break;
-
-			/* else fall through */
-		}
-#endif
-
 	case WM_LBUTTONDOWN:
 	case WM_MBUTTONDOWN:
 	case WM_RBUTTONDOWN:
@@ -4090,14 +3864,14 @@ static void init_stuff(void)
 
 	char path[1024];
 
-	//strcpy(path, DEFAULT_PATH);
-	strcpy(path, "./");
+
+	strcpy(path, "./tome.ini");
 
 	/* Get program name with full path */
 	//GetModuleFileName(hInstance, path, 512);
 
 	/* Get the name of the "*.ini" file */
-	strcpy(path + strlen(path), "tome.ini");
+	//strcpy(path + strlen(path), "tome.ini");
 
 	/* Save the the name of the ini-file */
 	ini_file = string_make(path);
@@ -4126,11 +3900,6 @@ static void init_stuff(void)
 
 	/*** Initialise the file paths ***/
 
-#ifdef PRIVATE_USER_PATH
-#undef PRIVATE_USER_PATH
-#endif
-#define PRIVATE_USER_PATH "./.tome"
-
 	/* Start with standard ones */
 	init_file_paths(path);
 
@@ -4143,7 +3912,6 @@ static void init_stuff(void)
 
 	/*** Validate the paths to ensure we have a working install ***/
 
-	validate_dir(ANGBAND_DIR_APEX);
 	validate_dir(ANGBAND_DIR_DATA);
 	validate_dir(ANGBAND_DIR_EDIT);
 	validate_dir(ANGBAND_DIR_FILE);

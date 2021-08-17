@@ -586,29 +586,12 @@ void place_new_way(int *y, int *x)
 		/* Check if it connects to current dungeon */
 		while (in_bounds(yy, xx))
 		{
-#if 1
-
 			/* Check grids ahead */
 			if (is_safe_floor(yy + y0, xx + x0)) ok = TRUE;
 
 			/* Check side grids */
 			if (is_safe_floor(yy + y1, xx + x1)) ok = TRUE;
 			if (is_safe_floor(yy + y2, xx + x2)) ok = TRUE;
-
-#else
-
-			/*
-			* This can create unconnected sections if it bumps into a
-			* non-penetrating streamer
-			*/
-			/* Check grids ahead */
-			if (cave_floor_bold(yy + y0, xx + x0)) ok = TRUE;
-
-			/* Check side grids */
-			if (cave_floor_bold(yy + y1, xx + x1)) ok = TRUE;
-			if (cave_floor_bold(yy + y2, xx + x2)) ok = TRUE;
-
-#endif
 
 			/* Connected */
 			if (ok) break;
@@ -3830,10 +3813,6 @@ static void build_type7(int by0, int bx0)
 	}
 
 
-#ifdef FORCE_V_IDX
-	v_ptr = &v_info[FORCE_V_IDX];
-#endif
-
 	/* Message */
 	if (cheat_room || p_ptr->precognition) msg_print("Lesser Vault");
 
@@ -3889,10 +3868,6 @@ static void build_type8(int by0, int bx0)
 		return;
 	}
 
-
-#ifdef FORCE_V_IDX
-	v_ptr = &v_info[FORCE_V_IDX];
-#endif
 
 	/* Message */
 	if (cheat_room || p_ptr->precognition) msg_print("Greater Vault");
@@ -6876,10 +6851,7 @@ bool_ level_generate_dungeon()
 			/* Attempt a very unusual room */ /* test hack */
 			if (ironman_rooms || (rand_int(DUN_UNUSUAL) < dun_level))
 			{
-#ifdef FORCE_V_IDX
-				if (room_build(y, x, 8)) continue;
-#else
-/* Type 8 -- Greater vault (10%) */
+				/* Type 8 -- Greater vault (10%) */
 				if (k < 10)
 				{
 					if (max_vault_ok > 1)
@@ -6914,7 +6886,6 @@ bool_ level_generate_dungeon()
 
 				/* Type 11 -- Random vault (5%) */
 				if ((k < 60) && room_build(y, x, 11)) continue;
-#endif
 			}
 
 			/* Type 4 -- Large room (25%) */
@@ -8347,6 +8318,7 @@ static void finalise_special_level(void)
 	if (!dun_level) return;
 
 	process_hooks(HOOK_LEVEL_END_GEN, "()");
+	process_hooks_new(HOOK_LEVEL_END_GEN, NULL, NULL);
 
 	/* Calculate relative depth */
 	level = dun_level - d_info[dungeon_type].mindepth;
