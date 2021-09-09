@@ -113,42 +113,10 @@
 
 
 /*
- * OPTION: Allow characteres to be "auto-rolled"
- */
-#define ALLOW_AUTOROLLER
-
-
-/*
- * OPTION: Allow monsters to "flee" when hit hard
- */
-#define ALLOW_FEAR
-
-/*
- * OPTION: Allow monsters to "flee" from strong players
- */
-#define ALLOW_TERROR
-
-
-/*
  * OPTION: Handle signals
  */
 #define HANDLE_SIGNALS
 
-
-/*
- * Allow "Wizards" to yield "high scores"
- */
-/* #define SCORE_WIZARDS */
-
-/*
- * Allow "Borgs" to yield "high scores"
- */
-/*#define SCORE_BORGS*/
-
-/*
- * Allow "Cheaters" to yield "high scores"
- */
-/* #define SCORE_CHEATERS */
 
 
 
@@ -157,17 +125,6 @@
  */
 #define MONSTER_FLOW_DEPTH 32
 
-
-
-/*
- * OPTION: Allow use of extended spell info	-DRS-
- */
-#define DRS_SHOW_SPELL_INFO
-
-/*
- * OPTION: Allow use of the monster health bar	-DRS-
- */
-#define DRS_SHOW_HEALTH_BAR
 
 
 
@@ -236,25 +193,10 @@
 #if defined(MACH_O_CARBON)
 #define PRIVATE_USER_PATH "~/Library/Application Support/ToME"
 #define PRIVATE_USER_PATH_DATA
-#define PRIVATE_USER_PATH_APEX
 #define PRIVATE_USER_PATH_MODULES
 #else
-#define PRIVATE_USER_PATH DEFAULT_PATH".tome"
-#define PRIVATE_USER_PATH_APEX
-#endif
-
-/*
- * OPTION: For some brain-dead computers with no command line interface,
- * namely Macintosh, there has to be some way of "naming" your savefiles.
- * The current "Macintosh" hack is to make it so whenever the character
- * name changes, the savefile is renamed accordingly.  But on normal
- * machines, once you manage to "load" a savefile, it stays that way.
- * Macintosh is particularly weird because you can load savefiles that
- * are not contained in the "lib:save:" folder, and if you change the
- * player's name, it will then save the savefile elsewhere.
- */
-#if defined(MACINTOSH) || defined(WINDOWS)
-/* #define SAVEFILE_MUTABLE */
+#define PRIVATE_USER_PATH "./.tome"
+#define LOCAL_PATH_THEME "./.tome/2.3/theme"
 #endif
 
 
@@ -278,33 +220,6 @@
 #define DEFAULT_X11_FONT_CHOICE		DEFAULT_X11_FONT
 
 
-
-/* ToME options: */
-
-/* Should the player know his / her starting life rate? */
-/* #define SHOW_LIFE_RATE */
-
-/* Allow hordes of 'similar' monsters */
-#define MONSTER_HORDES
-
-/* Wizard mode testing options: */
-
-/* For testing the vaults */
-/* # define FORCE_V_IDX 20 */
-
-/* Testing upkeep */
-/* # define TRACK_FRIENDS */
-
-/*
- * Using the fast autoroller can be considered as cheating
- */
-#define USE_FAST_AUTOROLLER
-
-/*
- * Enable the CTRL + L command to quit without saving
- * Only use for debugging purpose, otherwise you are a CHEATER
- */
-/* #define ALLOW_QUITTING */
 
 /*
  * Allow makefiles to override the default file mode

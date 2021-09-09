@@ -196,7 +196,7 @@ bool_ quest_shroom_speak_hook(char *fmt)
 		m_name = get_next_arg_str(fmt);
 
 		msg_format("%^s asks your help.", m_name);
-		exec_lua("ingame_help('monster_chat')");
+		process_hooks_new(HOOK_MON_ASK_HELP, NULL, NULL);
 	}
 	else
 	{
@@ -272,7 +272,10 @@ bool_ quest_shroom_init_hook(int q_idx)
 	{
 		cquest.data[0] = 0;
 		cquest.data[1] = rand_range(7, 14);
-		if (wizard) message_add(MESSAGE_MSG, format("Shrooms number %d", cquest.data[1]), TERM_BLUE);
+		if (wizard)
+		{
+			message_add(format("Shrooms number %d", cquest.data[1]), TERM_BLUE);
+		}
 	}
 
 	if ((cquest.status >= QUEST_STATUS_TAKEN) && (cquest.status < QUEST_STATUS_FINISHED))

@@ -12,11 +12,11 @@
 
 
 #include "angband.h"
-#include "lua/lua.h"
-#include "tolua.h"
 
-extern lua_State *L;
+#include <assert.h>
 
+#include "spell_type.h"
+#include "quark.h"
 
 /* Maximum number of tries for teleporting */
 #define MAX_TRIES 300
@@ -236,7 +236,7 @@ void do_poly_self(void)
 			/* Polymorph into a less corrupted form */
 			power -= 10;
 
-			lose_corruption(0);
+			lose_corruption();
 		}
 
 		/*
@@ -855,7 +855,7 @@ int use_symbiotic_power(int r_idx, bool_ great, bool_ only_number, bool_ no_cost
 
 	int powers[96];
 
-	bool_ flag, redraw;
+	bool_ flag;
 
 	int ask, plev = p_ptr->lev;
 
@@ -918,99 +918,80 @@ int use_symbiotic_power(int r_idx, bool_ great, bool_ only_number, bool_ no_cost
 	/* Nothing chosen yet */
 	flag = FALSE;
 
-	/* No redraw yet */
-	redraw = FALSE;
-
 	/* Get the last label */
 	label = (num <= 26) ? I2A(num - 1) : I2D(num - 1 - 26);
 
 	/* Build a prompt (accept all spells) */
 	/* Mega Hack -- if no_cost is false, we're actually a Possessor -dsb */
 	strnfmt(out_val, 78,
-	        "(Powers a-%c, *=List, ESC=exit) Use which power of your %s? ",
+	        "(Powers a-%c, ESC=exit) Use which power of your %s? ",
 	        label, (no_cost ? "symbiote" : "body"));
 
+	/* Save the screen */
+	character_icky = TRUE;
+	Term_save();
+
 	/* Get a spell from the user */
-	while (!flag && get_com(out_val, &choice))
+	while (!flag)
 	{
-		/* Request redraw */
-		if ((choice == ' ') || (choice == '*') || (choice == '?'))
+		/* Show the list */
 		{
-			/* Show the list */
-			if (!redraw)
+			byte y = 1, x = 0;
+			int ctr = 0;
+			char dummy[80];
+
+			strcpy(dummy, "");
+
+			prt ("", y++, x);
+
+			while (ctr < num)
 			{
-				byte y = 1, x = 0;
-				int ctr = 0;
-				char dummy[80];
+				monster_power *mp_ptr = &monster_powers[powers[ctr]];
+				int mana = mp_ptr->mana / 10;
 
-				strcpy(dummy, "");
+				if (mana > p_ptr->msp) mana = p_ptr->msp;
 
-				/* Show list */
-				redraw = TRUE;
+				if (!mana) mana = 1;
 
-				/* Save the screen */
-				character_icky = TRUE;
-				Term_save();
+				label = (ctr < 26) ? I2A(ctr) : I2D(ctr - 26);
 
-				prt ("", y++, x);
-
-				while (ctr < num)
+				if (!no_cost)
 				{
-					monster_power *mp_ptr = &monster_powers[powers[ctr]];
-					int mana = mp_ptr->mana / 10;
-
-					if (mana > p_ptr->msp) mana = p_ptr->msp;
-
-					if (!mana) mana = 1;
-
-					label = (ctr < 26) ? I2A(ctr) : I2D(ctr - 26);
-
-					if (!no_cost)
-					{
-						strnfmt(dummy, 80, " %c) %2d %s",
-						        label, mana, mp_ptr->name);
-					}
-					else
-					{
-						strnfmt(dummy, 80, " %c) %s",
-						        label, mp_ptr->name);
-					}
-
-					if (ctr < 17)
-					{
-						prt(dummy, y + ctr, x);
-					}
-					else
-					{
-						prt(dummy, y + ctr - 17, x + 40);
-					}
-
-					ctr++;
+					strnfmt(dummy, 80, " %c) %2d %s",
+						label, mana, mp_ptr->name);
+				}
+				else
+				{
+					strnfmt(dummy, 80, " %c) %s",
+						label, mp_ptr->name);
 				}
 
 				if (ctr < 17)
 				{
-					prt ("", y + ctr, x);
+					prt(dummy, y + ctr, x);
 				}
 				else
 				{
-					prt ("", y + 17, x);
+					prt(dummy, y + ctr - 17, x + 40);
 				}
+
+				ctr++;
 			}
 
-			/* Hide the list */
+			if (ctr < 17)
+			{
+				prt ("", y + ctr, x);
+			}
 			else
 			{
-				/* Hide list */
-				redraw = FALSE;
-
-				/* Restore the screen */
-				Term_load();
-				character_icky = FALSE;
+				prt ("", y + 17, x);
 			}
+		}
 
-			/* Redo asking */
-			continue;
+		if (!get_com(out_val, &choice))
+		{
+			flag = FALSE;
+			break;
 		}
 
 		if (choice == '\r' && num == 1)
@@ -1064,11 +1045,8 @@ int use_symbiotic_power(int r_idx, bool_ great, bool_ only_number, bool_ no_cost
 	}
 
 	/* Restore the screen */
-	if (redraw)
-	{
-		Term_load();
-		character_icky = FALSE;
-	}
+	Term_load();
+	character_icky = FALSE;
 
 	/* Abort if needed */
 	if (!flag)
@@ -2100,14 +2078,14 @@ bool_ get_item_hook_find_spell(int *item)
 {
 	int i, spell;
 	char buf[80];
-	char buf2[100];
 
 	strcpy(buf, "Manathrust");
 	if (!get_string("Spell name? ", buf, 79))
 		return FALSE;
-	sprintf(buf2, "return find_spell(\"%s\")", buf);
-	spell = exec_lua(buf2);
+
+	spell = find_spell(buf);
 	if (spell == -1) return FALSE;
+
 	for (i = 0; i < INVEN_TOTAL; i++)
 	{
 		object_type *o_ptr = &p_ptr->inventory[i];
@@ -2134,41 +2112,50 @@ bool_ get_item_hook_find_spell(int *item)
 			}
 		}
 		/* A random book ? */
-		else if ((o_ptr->sval == 255) && (o_ptr->pval == spell))
+		else if (school_book_contains_spell(o_ptr->sval, spell))
 		{
 			*item = i;
 			hack_force_spell = spell;
 			hack_force_spell_obj = o_ptr;
 			return TRUE;
 		}
-		/* A normal book */
-		else if (o_ptr->sval != 255)
-		{
-			sprintf(buf2, "return spell_in_book(%d, %d)", o_ptr->sval, spell);
-			if (exec_lua(buf2))
-			{
-				*item = i;
-				hack_force_spell = spell;
-				hack_force_spell_obj = o_ptr;
-				return TRUE;
-			}
-		}
 	}
 	return FALSE;
 }
 
 /*
+ * Is the spell castable?
+ */
+bool_ is_ok_spell(s32b spell_idx, object_type *o_ptr)
+{
+	spell_type *spell = spell_at(spell_idx);
+	assert(o_ptr != NULL);
+
+	if (get_level(spell_idx, 50, 0) == 0)
+	{
+		return FALSE;
+	}
+
+	if (o_ptr->pval < spell_type_minimum_pval(spell))
+	{
+		return FALSE;
+	}
+
+	return TRUE;
+}
+
+
+/*
  * Get a spell from a book
  */
-s32b get_school_spell(cptr do_what, cptr check_fct, s16b force_book)
+s32b get_school_spell(cptr do_what, s16b force_book)
 {
 	int i, item;
 	s32b spell = -1;
 	int num = 0;
 	s32b where = 1;
 	int ask;
-	bool_ flag, redraw;
-	char choice;
+	bool_ flag;
 	char out_val[160];
 	char buf2[40];
 	char buf3[40];
@@ -2217,15 +2204,8 @@ s32b get_school_spell(cptr do_what, cptr check_fct, s16b force_book)
 	/* Nothing chosen yet */
 	flag = FALSE;
 
-	/* No redraw yet */
-	redraw = FALSE;
-
 	/* Show choices */
-	if (show_choices)
-	{
-		/* Window stuff */
-		window_stuff();
-	}
+	window_stuff();
 
 	/* No spell to cast by default */
 	spell = -1;
@@ -2242,50 +2222,39 @@ s32b get_school_spell(cptr do_what, cptr check_fct, s16b force_book)
 		pval = o_ptr->pval2;
 	}
 
+	/* Save the screen */
+	character_icky = TRUE;
+	Term_save();
+
+	/* Go */
 	if (hack_force_spell == -1)
 	{
-		num = exec_lua(format("return book_spells_num(%d)", sval));
+		num = school_book_length(sval);
 
 		/* Build a prompt (accept all spells) */
-		strnfmt(out_val, 78, "(Spells %c-%c, Descs %c-%c, *=List, ESC=exit) %^s which spell? ",
+		strnfmt(out_val, 78, "(Spells %c-%c, Descs %c-%c, ESC=exit) %^s which spell? ",
 		        I2A(0), I2A(num - 1), I2A(0) - 'a' + 'A', I2A(num - 1) - 'a' + 'A', do_what);
 
 		/* Get a spell from the user */
-		while (!flag && get_com(out_val, &choice))
+		while (!flag)
 		{
-			/* Request redraw */
-			if (((choice == ' ') || (choice == '*') || (choice == '?')))
+			char choice;
+
+			/* Restore and save screen; this prevents
+			   subprompt from leaving garbage when going
+			   around the loop multiple times. */
+			Term_load();
+			Term_save();
+
+			/* Display a list of spells */
+			where = print_book(sval, pval, o_ptr);
+
+			/* Input */
+			if (!get_com(out_val, &choice))
 			{
-				/* Show the list */
-				if (!redraw)
-				{
-					/* Show list */
-					redraw = TRUE;
-
-					/* Save the screen */
-					character_icky = TRUE;
-					Term_save();
-
-					/* Display a list of spells */
-					call_lua("print_book", "(d,d,O)", "d", sval, pval, o_ptr, &where);
-				}
-
-				/* Hide the list */
-				else
-				{
-					/* Hide list */
-					redraw = FALSE;
-					where = 1;
-
-					/* Restore the screen */
-					Term_load();
-					character_icky = FALSE;
-				}
-
-				/* Redo asking */
-				continue;
+				flag = FALSE;
+				break;
 			}
-
 
 			/* Note verify */
 			ask = (isupper(choice));
@@ -2306,38 +2275,19 @@ s32b get_school_spell(cptr do_what, cptr check_fct, s16b force_book)
 			/* Verify it */
 			if (ask)
 			{
-				/* Show the list */
-				if (!redraw)
-				{
-					/* Show list */
-					redraw = TRUE;
-
-					/* Save the screen */
-					character_icky = TRUE;
-					Term_load();
-					Term_save();
-
-				}
-				/* Rstore the screen */
-				else
-				{
-					/* Restore the screen */
-					Term_load();
-				}
-
 				/* Display a list of spells */
-				call_lua("print_book", "(d,d,O)", "d", sval, pval, o_ptr, &where);
-				exec_lua(format("print_spell_desc(spell_x(%d, %d, %d), %d)", sval, pval, i, where));
+				where = print_book(sval, pval, o_ptr);
+				print_spell_desc(spell_x(sval, pval, i), where);
 			}
 			else
 			{
-				s32b ok;
+				bool_ ok;
 
 				/* Save the spell index */
-				spell = exec_lua(format("return spell_x(%d, %d, %d)", sval, pval, i));
+				spell = spell_x(sval, pval, i);
 
 				/* Do we need to do some pre test */
-				call_lua(check_fct, "(d,O)", "d", spell, o_ptr, &ok);
+				ok = is_ok_spell(spell, o_ptr);
 
 				/* Require "okay" spells */
 				if (!ok)
@@ -2355,10 +2305,10 @@ s32b get_school_spell(cptr do_what, cptr check_fct, s16b force_book)
 	}
 	else
 	{
-		s32b ok;
+		bool_ ok;
 
 		/* Require "okay" spells */
-		call_lua(check_fct, "(d, O)", "d", hack_force_spell, hack_force_spell_obj, &ok);
+		ok = is_ok_spell(hack_force_spell, hack_force_spell_obj);
 		if (ok)
 		{
 			flag = TRUE;
@@ -2374,19 +2324,12 @@ s32b get_school_spell(cptr do_what, cptr check_fct, s16b force_book)
 
 
 	/* Restore the screen */
-	if (redraw)
-	{
-		Term_load();
-		character_icky = FALSE;
-	}
+	Term_load();
+	character_icky = FALSE;
 
 
 	/* Show choices */
-	if (show_choices)
-	{
-		/* Window stuff */
-		window_stuff();
-	}
+	window_stuff();
 
 
 	/* Abort if needed */
@@ -2415,12 +2358,12 @@ void cast_school_spell()
 		return;
 	}
 
-	spell = get_school_spell("cast", "is_ok_spell", 0);
+	spell = get_school_spell("cast", 0);
 
 	/* Actualy cast the choice */
 	if (spell != -1)
 	{
-		exec_lua(format("cast_school_spell(%d, spell(%d))", spell, spell));
+		lua_cast_school_spell(spell, FALSE);
 	}
 }
 
@@ -2433,13 +2376,9 @@ void browse_school_spell(int book, int pval, object_type *o_ptr)
 	char out_val[160];
 
 	/* Show choices */
-	if (show_choices)
-	{
-		/* Window stuff */
-		window_stuff();
-	}
+	window_stuff();
 
-	num = exec_lua(format("return book_spells_num(%d)", book));
+	num = school_book_length(book);
 
 	/* Build a prompt (accept all spells) */
 	strnfmt(out_val, 78, "(Spells %c-%c, ESC=exit) cast which spell? ",
@@ -2450,13 +2389,13 @@ void browse_school_spell(int book, int pval, object_type *o_ptr)
 	Term_save();
 
 	/* Display a list of spells */
-	call_lua("print_book", "(d,d,O)", "d", book, pval, o_ptr, &where);
+	where = print_book(book, pval, o_ptr);
 
 	/* Get a spell from the user */
 	while (get_com(out_val, &choice))
 	{
 		/* Display a list of spells */
-		call_lua("print_book", "(d,d,O)", "d", book, pval, o_ptr, &where);
+		where = print_book(book, pval, o_ptr);
 
 		/* Note verify */
 		ask = (isupper(choice));
@@ -2478,8 +2417,8 @@ void browse_school_spell(int book, int pval, object_type *o_ptr)
 		Term_load();
 
 		/* Display a list of spells */
-		call_lua("print_book", "(d,d,O)", "d", book, pval, o_ptr, &where);
-		exec_lua(format("print_spell_desc(spell_x(%d, %d, %d), %d)", book, pval, i, where));
+		where = print_book(book, pval, o_ptr);
+		print_spell_desc(spell_x(book, pval, i), where);
 	}
 
 
@@ -2488,11 +2427,7 @@ void browse_school_spell(int book, int pval, object_type *o_ptr)
 	character_icky = FALSE;
 
 	/* Show choices */
-	if (show_choices)
-	{
-		/* Window stuff */
-		window_stuff();
-	}
+	window_stuff();
 }
 
 /* Can it contains a schooled spell ? */
@@ -2513,14 +2448,14 @@ static bool_ hook_school_can_spellable(object_type *o_ptr)
  */
 void do_cmd_copy_spell()
 {
-	int spell = get_school_spell("copy", "is_ok_spell", 0);
+	int spell = get_school_spell("copy", 0);
 	int item;
 	object_type *o_ptr;
 
 	if (spell == -1) return;
 
 	/* Spells that cannot be randomly created cannot be copied */
-	if (exec_lua(format("return can_spell_random(%d)", spell)) == FALSE)
+	if (spell_type_random_type(spell_at(spell)) <= 0)
 	{
 		msg_print("This spell cannot be copied.");
 		return;
@@ -2533,30 +2468,4 @@ void do_cmd_copy_spell()
 	msg_print("You copy the spell!");
 	o_ptr->pval2 = spell;
 	inven_item_describe(item);
-}
-
-/*
- * Finds a spell by name, optimized for speed
- */
-int find_spell(char *name)
-{
-	int oldtop, spell;
-	oldtop = lua_gettop(L);
-
-	lua_getglobal(L, "find_spell");
-	tolua_pushstring(L, name);
-
-	/* Call the function */
-	if (lua_call(L, 1, 1))
-	{
-		cmsg_format(TERM_VIOLET, "ERROR in lua_call while calling 'find_spell'.");
-		lua_settop(L, oldtop);
-		return -1;
-	}
-
-	spell = tolua_getnumber(L, -(lua_gettop(L) - oldtop), -1);
-
-	lua_settop(L, oldtop);
-
-	return spell;
 }

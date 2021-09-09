@@ -12,6 +12,8 @@
 
 #include "angband.h"
 
+#include "quark.h"
+
 /*
  * Note: return value indicates the amount of mana to use
  */
@@ -1221,7 +1223,32 @@ static void power_activate(int power)
 		use_ability_blade();
 		break;
 
+	case POWER_INVISIBILITY:
+		set_invis(20 + randint(30), 30);
+		break;
+
+	case POWER_WEB:
+		/* Warning, beware of f_info changes .. I hate to do that .. */
+		grow_things(16, 1 + (p_ptr->lev / 10));
+		break;
+
+	case POWER_COR_SPACE_TIME:
+		if (p_ptr->corrupt_anti_teleport_stopped)
+		{
+			p_ptr->corrupt_anti_teleport_stopped = FALSE;
+			msg_print("You stop controlling your corruption.");
+			p_ptr->update |= PU_BONUS;
+		}
+		else
+		{
+			p_ptr->corrupt_anti_teleport_stopped = TRUE;
+			msg_print("You start controlling your corruption, teleportation works once more.");
+			p_ptr->update |= PU_BONUS;
+		}
+		break;
+
 	default:
+
 		if (!process_hooks(HOOK_ACTIVATE_POWER, "(d)", power))
 		{
 			msg_format("Warning power_activate() called with invalid power(%d).", power);
@@ -1237,13 +1264,13 @@ static void power_activate(int power)
 /*
  * Print a batch of power.
  */
-static void print_power_batch(int *p, int start, int max, bool_ mode)
+static void print_power_batch(int *p, int start, int max)
 {
 	char buff[80];
 	power_type* spell;
 	int i = start, j = 0;
 
-	if (mode) prt(format("         %-31s Level Mana Fail", "Name"), 1, 20);
+	prt(format("         %-31s Level Mana Fail", "Name"), 1, 20);
 
 	for (i = start; i < (start + 20); i++)
 	{
@@ -1254,10 +1281,10 @@ static void print_power_batch(int *p, int start, int max, bool_ mode)
 		sprintf(buff, "  %c-%3d) %-30s  %5d %4d %s@%d", I2A(j), p[i] + 1, spell->name,
 		        spell->level, spell->cost, stat_names[spell->stat], spell->diff);
 
-		if (mode) prt(buff, 2 + j, 20);
+		prt(buff, 2 + j, 20);
 		j++;
 	}
-	if (mode) prt("", 2 + j, 20);
+	prt("", 2 + j, 20);
 	prt(format("Select a power (a-%c), +/- to scroll:", I2A(j - 1)), 0, 0);
 }
 
@@ -1271,12 +1298,10 @@ static power_type* select_power(int *x_idx)
 	char which;
 	int max = 0, i, start = 0;
 	power_type* ret;
-	bool_ mode = FALSE;
-	int *p;
+	int p[POWER_MAX];
 
-	C_MAKE(p, power_max, int);
 	/* Count the max */
-	for (i = 0; i < power_max; i++)
+	for (i = 0; i < POWER_MAX; i++)
 	{
 		if (p_ptr->powers[i])
 		{
@@ -1298,7 +1323,7 @@ static power_type* select_power(int *x_idx)
 
 		while (1)
 		{
-			print_power_batch(p, start, max, mode);
+			print_power_batch(p, start, max);
 			which = inkey();
 
 			if (which == ESCAPE)
@@ -1306,12 +1331,6 @@ static power_type* select_power(int *x_idx)
 				*x_idx = -1;
 				ret = NULL;
 				break;
-			}
-			else if (which == '*' || which == '?' || which == ' ')
-			{
-				mode = (mode) ? FALSE : TRUE;
-				Term_load();
-				character_icky = FALSE;
 			}
 			else if (which == '+')
 			{
@@ -1350,8 +1369,6 @@ static power_type* select_power(int *x_idx)
 		character_icky = FALSE;
 	}
 
-	C_FREE(p, power_max, int);
-
 	return ret;
 }
 
@@ -1365,7 +1382,7 @@ void do_cmd_power()
 	/* Get the skill, if available */
 	if (repeat_pull(&x_idx))
 	{
-		if ((x_idx < 0) || (x_idx >= power_max)) return;
+		if ((x_idx < 0) || (x_idx >= POWER_MAX)) return;
 		x_ptr = &powers_type[x_idx];
 		push = FALSE;
 	}
@@ -1373,7 +1390,7 @@ void do_cmd_power()
 	else
 	{
 		x_idx = command_arg - 1;
-		if ((x_idx < 0) || (x_idx >= power_max)) return;
+		if ((x_idx < 0) || (x_idx >= POWER_MAX)) return;
 		x_ptr = &powers_type[x_idx];
 	}
 

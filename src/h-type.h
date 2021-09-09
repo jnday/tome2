@@ -3,6 +3,11 @@
 #ifndef INCLUDED_H_TYPE_H
 #define INCLUDED_H_TYPE_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 /*
  * Basic "types".
  *
@@ -109,14 +114,20 @@ typedef unsigned long huge;
 /* Signed/Unsigned 16 bit value */
 typedef signed short s16b;
 typedef unsigned short u16b;
+#define FMTs16b "%hd"
+#define FMTu16b "%hu"
 
 /* Signed/Unsigned 32 bit value */
 #ifdef L64	/* 64 bit longs */
 typedef signed int s32b;
 typedef unsigned int u32b;
+#define FMTs32b "%d"
+#define FMTu32b "%u"
 #else
 typedef signed long s32b;
 typedef unsigned long u32b;
+#define FMTs32b "%ld"
+#define FMTu32b "%lu"
 #endif
 
 
@@ -173,6 +184,10 @@ typedef uint	(*func_hsh)(vptr, uint);
 typedef vptr	(*func_key)(vptr);
 
 
+
+#ifdef __cplusplus
+} // extern "C"
+#endif
 
 #endif
 

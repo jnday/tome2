@@ -12,131 +12,9 @@
 
 #include "angband.h"
 
-#include "lua.h"
-#include "tolua.h"
-extern lua_State *L;
+#include <assert.h>
 
-magic_power *grab_magic_power(magic_power *m_ptr, int num)
-{
-	return (&m_ptr[num]);
-}
-
-bool_ lua_spell_success(magic_power *spell, int stat, char *oups_fct)
-{
-	int chance;
-	int minfail = 0;
-
-	/* Spell failure chance */
-	chance = spell->fail;
-
-	/* Reduce failure rate by "effective" level adjustment */
-	chance -= 3 * (p_ptr->lev - spell->min_lev);
-
-	/* Reduce failure rate by INT/WIS adjustment */
-	chance -= 3 * (adj_mag_stat[p_ptr->stat_ind[stat]] - 1);
-
-	/* Not enough mana to cast */
-	if (spell->mana_cost > p_ptr->csp)
-	{
-		chance += 5 * (spell->mana_cost - p_ptr->csp);
-	}
-
-	/* Extract the minimum failure rate */
-	minfail = adj_mag_fail[p_ptr->stat_ind[stat]];
-
-	/* Failure rate */
-	chance = clamp_failure_chance(chance, minfail);
-
-	/* Failed spell */
-	if (rand_int(100) < chance)
-	{
-		if (flush_failure) flush();
-		msg_format("You failed to concentrate hard enough!");
-		sound(SOUND_FAIL);
-
-		if (oups_fct != NULL)
-			exec_lua(format("%s(%d)", oups_fct, chance));
-		return (FALSE);
-	}
-	return (TRUE);
-}
-
-/*
- * Create objects
- */
-object_type *new_object()
-{
-	object_type *o_ptr;
-	MAKE(o_ptr, object_type);
-	return (o_ptr);
-}
-
-void end_object(object_type *o_ptr)
-{
-	FREE(o_ptr, object_type);
-}
-
-/*
- * Powers
- */
-s16b add_new_power(cptr name, cptr desc, cptr gain, cptr lose, byte level, byte cost, byte stat, byte diff)
-{
-	/* Increase the size */
-	reinit_powers_type(power_max + 1);
-
-	/* Copy the strings */
-	C_MAKE(powers_type[power_max - 1].name, strlen(name) + 1, char);
-	strcpy(powers_type[power_max - 1].name, name);
-	C_MAKE(powers_type[power_max - 1].desc_text, strlen(desc) + 1, char);
-	strcpy(powers_type[power_max - 1].desc_text, desc);
-	C_MAKE(powers_type[power_max - 1].gain_text, strlen(gain) + 1, char);
-	strcpy(powers_type[power_max - 1].gain_text, gain);
-	C_MAKE(powers_type[power_max - 1].lose_text, strlen(lose) + 1, char);
-	strcpy(powers_type[power_max - 1].lose_text, lose);
-
-	/* Copy the other stuff */
-	powers_type[power_max - 1].level = level;
-	powers_type[power_max - 1].cost = cost;
-	powers_type[power_max - 1].stat = stat;
-	powers_type[power_max - 1].diff = diff;
-
-	return (power_max - 1);
-}
-
-static char *lua_item_tester_fct;
-static bool_ lua_item_tester(object_type* o_ptr)
-{
-	int oldtop = lua_gettop(L);
-	bool_ ret;
-
-	lua_getglobal(L, lua_item_tester_fct);
-	tolua_pushusertype(L, o_ptr, tolua_tag(L, "object_type"));
-	lua_call(L, 1, 1);
-	ret = lua_tonumber(L, -1);
-	lua_settop(L, oldtop);
-	return (ret);
-}
-
-void lua_set_item_tester(int tval, char *fct)
-{
-	if (tval)
-	{
-		item_tester_tval = tval;
-	}
-	else
-	{
-		lua_item_tester_fct = fct;
-		item_tester_hook = lua_item_tester;
-	}
-}
-
-char *lua_object_desc(object_type *o_ptr, int pref, int mode)
-{
-	static char buf[150];
-
-	object_desc(buf, o_ptr, pref, mode);
-	return (buf);
-}
+#include "spell_type.h"
 
 /*
  * Monsters
@@ -153,98 +31,16 @@ void find_position(int y, int x, int *yy, int *xx)
 	while (!(in_bounds(*yy, *xx) && cave_floor_bold(*yy, *xx)) && --attempts);
 }
 
-static char *summon_lua_okay_fct;
-bool_ summon_lua_okay(int r_idx)
-{
-	int oldtop = lua_gettop(L);
-	bool_ ret;
-
-	lua_getglobal(L, lua_item_tester_fct);
-	tolua_pushnumber(L, r_idx);
-	lua_call(L, 1, 1);
-	ret = lua_tonumber(L, -1);
-	lua_settop(L, oldtop);
-	return (ret);
-}
-
-bool_ lua_summon_monster(int y, int x, int lev, bool_ friend_, char *fct)
-{
-	summon_lua_okay_fct = fct;
-
-	if (!friend_)
-		return summon_specific(y, x, lev, SUMMON_LUA);
-	else
-		return summon_specific_friendly(y, x, lev, SUMMON_LUA, TRUE);
-}
-
-/*
- * Quests
- */
-s16b add_new_quest(char *name)
-{
-	int i;
-
-	/* Increase the size */
-	reinit_quests(max_q_idx + 1);
-	quest[max_q_idx - 1].type = HOOK_TYPE_LUA;
-	strncpy(quest[max_q_idx - 1].name, name, 39);
-
-	for (i = 0; i < 10; i++)
-		strncpy(quest[max_q_idx - 1].desc[i], "", 39);
-
-	return (max_q_idx - 1);
-}
-
-void desc_quest(int q_idx, int d, char *desc)
-{
-	if (d >= 0 && d < 10)
-		strncpy(quest[q_idx].desc[d], desc, 79);
-}
-
 /*
  * Misc
  */
-bool_ get_com_lua(cptr prompt, int *com)
-{
-	char c;
-
-	if (!get_com(prompt, &c)) return (FALSE);
-	*com = c;
-	return (TRUE);
-}
-
-/* Spell schools */
-s16b new_school(int i, cptr name, s16b skill)
-{
-	schools[i].name = string_make(name);
-	schools[i].skill = skill;
-	return (i);
-}
-
-s16b new_spell(int i, cptr name)
-{
-	school_spells[i].name = string_make(name);
-	school_spells[i].level = 0;
-	school_spells[i].level = 0;
-	return (i);
-}
-
-spell_type *grab_spell_type(s16b num)
-{
-	return (&school_spells[num]);
-}
-
-school_type *grab_school_type(s16b num)
-{
-	return (&schools[num]);
-}
 
 /* Change this fct if I want to switch to learnable spells */
-s32b lua_get_level(s32b s, s32b lvl, s32b max, s32b min, s32b bonus)
+s32b lua_get_level(spell_type *spell, s32b lvl, s32b max, s32b min, s32b bonus)
 {
 	s32b tmp;
 
-	tmp = lvl - ((school_spells[s].skill_level - 1) * (SKILL_STEP / 10));
+	tmp = lvl - ((spell_type_skill_level(spell) - 1) * (SKILL_STEP / 10));
 
 	if (tmp >= (SKILL_STEP / 10)) /* We require at least one spell level */
 		tmp += bonus;
@@ -263,58 +59,118 @@ s32b lua_get_level(s32b s, s32b lvl, s32b max, s32b min, s32b bonus)
 	return lvl;
 }
 
-s32b lua_spell_chance(s32b chance, int level, int skill_level, int mana, int cur_mana, int stat)
+/** This is the function to use when casting through a stick */
+s32b get_level_device(s32b s, s32b max, s32b min)
 {
-	int minfail;
-	/* Reduce failure rate by "effective" level adjustment */
-	chance -= 3 * (level - 1);
+	int lvl;
+	spell_type *spell = spell_at(s);
 
-	/* Reduce failure rate by INT/WIS adjustment */
-	chance -= 3 * (adj_mag_stat[p_ptr->stat_ind[stat]] - 1);
-
-	/* Not enough mana to cast */
-	if (chance < 0) chance = 0;
-	if (mana > cur_mana)
-	{
-		chance += 15 * (mana - cur_mana);
+	/* No max specified ? assume 50 */
+	if (max <= 0) {
+		max = 50;
+	}
+	/* No min specified ? */
+	if (min <= 0) {
+		min = 1;
 	}
 
-	/* Extract the minimum failure rate */
-	minfail = adj_mag_fail[p_ptr->stat_ind[stat]];
+	lvl = s_info[SKILL_DEVICE].value;
+	lvl = lvl + (get_level_use_stick * SKILL_STEP);
 
-	/*
-	        * Non mage characters never get too good
-	 */
-	if (!(has_ability(AB_PERFECT_CASTING)))
+	/* Sticks are limited */
+	if (lvl - ((spell_type_skill_level(spell) + 1) * SKILL_STEP) >= get_level_max_stick * SKILL_STEP)
 	{
-		if (minfail < 5) minfail = 5;
+		lvl = (get_level_max_stick + spell_type_skill_level(spell) - 1) * SKILL_STEP;
 	}
 
-	/* Hack -- Priest prayer penalty for "edged" weapons  -DGK */
-	if ((forbid_non_blessed()) && (p_ptr->icky_wield)) chance += 25;
+	/* / 10 because otherwise we can overflow a s32b and we can use a u32b because the value can be negative
+	-- The loss of information should be negligible since 1 skill = 1000 internally
+	*/
+	lvl = lvl / 10;
+	lvl = lua_get_level(spell, lvl, max, min, 0);
 
-	/* Return the chance */
-	return clamp_failure_chance(chance, minfail);
+	return lvl;
 }
 
-s32b lua_spell_device_chance(s32b chance, int level, int base_level)
+int get_mana(s32b s)
 {
-	int minfail;
-
-	/* Reduce failure rate by "effective" level adjustment */
-	chance -= (level - 1);
-
-	/* Extract the minimum failure rate */
-	minfail = 15 - get_skill_scale(SKILL_DEVICE, 25);
-
-	/* Return the chance */
-	return clamp_failure_chance(chance, minfail);
+	spell_type *spell = spell_at(s);
+	range_type mana_range;
+	spell_type_mana_range(spell, &mana_range);
+	return get_level(s, mana_range.max, mana_range.min);
 }
 
-/* Cave */
-cave_type *lua_get_cave(int y, int x)
+/** Returns spell chance of failure for spell */
+s32b spell_chance(s32b s)
 {
-	return (&(cave[y][x]));
+        spell_type *s_ptr = spell_at(s);
+	int level = get_level(s, 50, 1);
+
+	/* Extract the base spell failure rate */
+	if (get_level_use_stick > -1)
+	{
+		int minfail;
+		s32b chance = spell_type_failure_rate(s_ptr);
+
+		/* Reduce failure rate by "effective" level adjustment */
+		chance -= (level - 1);
+
+		/* Extract the minimum failure rate */
+		minfail = 15 - get_skill_scale(SKILL_DEVICE, 25);
+
+		/* Return the chance */
+		return clamp_failure_chance(chance, minfail);
+	}
+	else
+	{
+		s32b chance = spell_type_failure_rate(s_ptr);
+		int mana = get_mana(s);
+		int cur_mana = get_power(s);
+		int stat = spell_type_casting_stat(s_ptr);
+		int stat_ind = p_ptr->stat_ind[stat];
+		int minfail;
+
+		/* Reduce failure rate by "effective" level adjustment */
+		chance -= 3 * (level - 1);
+
+		/* Reduce failure rate by INT/WIS adjustment */
+		chance -= 3 * (adj_mag_stat[stat_ind] - 1);
+
+		/* Not enough mana to cast */
+		if (chance < 0) chance = 0;
+		if (mana > cur_mana)
+		{
+			chance += 15 * (mana - cur_mana);
+		}
+
+		/* Extract the minimum failure rate */
+		minfail = adj_mag_fail[stat_ind];
+
+		/* Must have Perfect Casting to get below 5% */
+		if (!(has_ability(AB_PERFECT_CASTING)))
+		{
+			if (minfail < 5) minfail = 5;
+		}
+
+		/* Hack -- Priest prayer penalty for "edged" weapons  -DGK */
+		if ((forbid_non_blessed()) && (p_ptr->icky_wield)) chance += 25;
+
+		/* Return the chance */
+		return clamp_failure_chance(chance, minfail);
+	}
+}
+
+s32b get_level(s32b s, s32b max, s32b min)
+{
+	/** Ahah shall we use Magic device instead ? */
+	if (get_level_use_stick > -1) {
+		return get_level_device(s, max, min);
+	} else {
+		s32b level;
+		bool_ notused;
+		get_level_school(s, max, min, &level, &notused);
+		return level;
+	}
 }
 
 void set_target(int y, int x)
@@ -362,41 +218,6 @@ void load_map(char *name, int *y, int *x)
 	init_flags = INIT_CREATE_DUNGEON;
 	process_dungeon_file(name, y, x, cur_hgt, cur_wid, TRUE, TRUE);
 }
-
-bool_ alloc_room(int by0, int bx0, int ysize, int xsize, int *y1, int *x1, int *y2, int *x2)
-{
-	int xval, yval, x, y;
-
-	/* Try to allocate space for room.  If fails, exit */
-	if (!room_alloc(xsize + 2, ysize + 2, FALSE, by0, bx0, &xval, &yval)) return FALSE;
-
-	/* Get corner values */
-	*y1 = yval - ysize / 2;
-	*x1 = xval - xsize / 2;
-	*y2 = yval + (ysize) / 2;
-	*x2 = xval + (xsize) / 2;
-
-	/* Place a full floor under the room */
-	for (y = *y1 - 1; y <= *y2 + 1; y++)
-	{
-		for (x = *x1 - 1; x <= *x2 + 1; x++)
-		{
-			cave_type *c_ptr = &cave[y][x];
-			cave_set_feat(y, x, floor_type[rand_int(100)]);
-			c_ptr->info |= (CAVE_ROOM);
-			c_ptr->info |= (CAVE_GLOW);
-		}
-	}
-	return TRUE;
-}
-
-
-/* Files */
-void lua_print_hook(cptr str)
-{
-	fprintf(hook_file, "%s", str);
-}
-
 
 /*
  * Finds a good random bounty monster
@@ -484,208 +305,38 @@ char lua_msg_box(cptr title)
 	return msg_box(title, hgt / 2, wid / 2);
 }
 
-list_type *lua_create_list(int size)
+
+
+void increase_mana(int delta)
 {
-	list_type *l;
-	cptr *list;
+	p_ptr->csp += delta;
+	p_ptr->redraw |= PR_MANA;
 
-	MAKE(l, list_type);
-	C_MAKE(list, size, cptr);
-	l->list = list;
-	return l;
-}
-
-void lua_delete_list(list_type *l, int size)
-{
-	int i;
-
-	for (i = 0; i < size; i++)
-		string_free(l->list[i]);
-	C_FREE(l->list, size, cptr);
-	FREE(l, list_type);
-}
-
-void lua_add_to_list(list_type *l, int idx, cptr str)
-{
-	l->list[idx] = string_make(str);
-}
-
-void lua_display_list(int y, int x, int h, int w, cptr title, list_type* list, int max, int begin, int sel, byte sel_color)
-{
-	display_list(y, x, h, w, title, list->list, max, begin, sel, sel_color);
-}
-
-/*
- * Gods
- */
-s16b add_new_gods(char *name)
-{
-	int i;
-
-	/* Increase the size */
-	reinit_gods(max_gods + 1);
-	deity_info[max_gods - 1].name = string_make(name);
-
-	for (i = 0; i < 10; i++)
-		strncpy(deity_info[max_gods - 1].desc[i], "", 39);
-
-	return (max_gods - 1);
-}
-
-void desc_god(int g_idx, int d, char *desc)
-{
-	if (d >= 0 && d < 10)
-		strncpy(deity_info[g_idx].desc[d], desc, 79);
-}
-
-/*
- * Returns the direction of the compass that y2, x2 is from y, x
- * the return value will be one of the following: north, south,
- * east, west, north-east, south-east, south-west, north-west,
- * or "close" if it is within 2 tiles.
- */
-cptr compass(int y, int x, int y2, int x2)
-{
-	static char compass_dir[64];
-
-	// is it close to the north/south meridian?
-	int y_diff = y2 - y;
-
-	// determine if y2, x2 is to the north or south of y, x
-	const char *y_axis;
-	if ((y_diff > -3) && (y_diff < 3))
+	if (p_ptr->csp < 0)
 	{
-		y_axis = 0;
+		p_ptr->csp = 0;
 	}
-	else if (y2 > y)
+	if (p_ptr->csp > p_ptr->msp)
 	{
-		y_axis = "south";
-	}
-	else
-	{
-		y_axis = "north";
-	}
-
-	// is it close to the east/west meridian?
-	int x_diff = x2 - x;
-
-	// determine if y2, x2 is to the east or west of y, x
-	const char *x_axis;
-	if ((x_diff > -3) && (x_diff < 3))
-	{
-		x_axis = 0;
-	}
-	else if (x2 > x)
-	{
-		x_axis = "east";
-	}
-	else
-	{
-		x_axis = "west";
-	}
-
-	// Maybe it is very close
-	if ((!x_axis) && (!y_axis)) { strcpy(compass_dir, "close"); }
-	// Maybe it is (almost) due N/S
-	else if (!x_axis) { strcpy(compass_dir, y_axis); }
-	// Maybe it is (almost) due E/W
-	else if (!y_axis) { strcpy(compass_dir, x_axis); }
-	//  or if it is neither
-	else { sprintf(compass_dir, "%s-%s", y_axis, x_axis); }
-	return compass_dir;
-}
-
-/* Returns a relative approximation of the 'distance' of y2, x2 from y, x. */
-cptr approximate_distance(int y, int x, int y2, int x2)
-{
-	//  how far to away to the north/south?
-	int y_diff = abs(y2 - y);
-	// how far to away to the east/west?
-	int x_diff = abs(x2 - x);
-	// find which one is the larger distance
-	int most_dist = x_diff;
-	if (y_diff > most_dist) {
-		most_dist = y_diff;
-	}
-
-	// how far away then?
-	if (most_dist >= 41) {
-		return "a very long way";
-	} else if (most_dist >= 25) {
-		return "a long way";
-	} else if (most_dist >= 8) {
-		return "quite some way";
-	} else {
-		return "not very far";
+		p_ptr->csp = p_ptr->msp;
 	}
 }
 
-bool_ drop_text_left(byte c, cptr str, int y, int o)
+timer_type *TIMER_AGGRAVATE_EVIL = 0;
+
+void timer_aggravate_evil_enable()
 {
-	int i = strlen(str);
-	int x = 39 - (strlen(str) / 2) + o;
-	while (i > 0)
-	{
-		int a = 0;
-		int time = 0;
-
-		if (str[i-1] != ' ')
-		{
-			while (a < x + i - 1)
-			{
-				Term_putch(a - 1, y, c, 32);
-				Term_putch(a, y, c, str[i-1]);
-				time = time + 1;
-				if (time >= 4)
-				{
-					Term_xtra(TERM_XTRA_DELAY, 1);
-					time = 0;
-				}
-				Term_redraw_section(a - 1, y, a, y);
-				a = a + 1;
-
-				inkey_scan = TRUE;
-				if (inkey()) {
-					return TRUE;
-				}
-			}
-		}
-		
-		i = i - 1;
-	}
-	return FALSE;
+    	TIMER_AGGRAVATE_EVIL->enabled = TRUE;
 }
 
-bool_ drop_text_right(byte c, cptr str, int y, int o)
+void timer_aggravate_evil_callback()
 {
-	int x = 39 - (strlen(str) / 2) + o;
-	int i = 1;
-	while (i <= strlen(str))
+	if ((p_ptr->prace == RACE_MAIA) &&
+	    (!player_has_corruption(CORRUPT_BALROG_AURA)) &&
+	    (!player_has_corruption(CORRUPT_BALROG_WINGS)) &&
+	    (!player_has_corruption(CORRUPT_BALROG_STRENGTH)) &&
+	    (!player_has_corruption(CORRUPT_BALROG_FORM)))
 	{
-		int a = 79;
-		int time = 0;
-
-		if (str[i-1] != ' ') {
-			while (a >= x + i - 1)
-			{
-				Term_putch(a + 1, y, c, 32);
-				Term_putch(a, y, c, str[i-1]);
-				time = time + 1;
-				if (time >= 4) {
-					Term_xtra(TERM_XTRA_DELAY, 1);
-					time = 0;
-				}
-				Term_redraw_section(a, y, a + 1, y);
-				a = a - 1;
-
-				inkey_scan = TRUE;
-				if (inkey()) {
-					return TRUE;
-				}
-			}
-		}
-
-		i = i + 1;
+		dispel_evil(0);
 	}
-	return FALSE;
 }

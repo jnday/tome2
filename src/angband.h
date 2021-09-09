@@ -45,10 +45,17 @@ extern "C" {
 
 
 /*
+ * SGLIB
+ */
+#include "sglib.h"
+
+
+/*
  * Now, include the define's, the type's, and the extern's
  */
 #include "defines.h"
 #include "types.h"
+#include "spell_type_fwd.h"
 #include "externs.h"
 #include "plots.h"
 

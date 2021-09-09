@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="out\build\x64-debug\cmakefiles\3.20.21032501-msvc_2\compileridc\CMakeCCompilerId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="out\build\x64-debug\cmakefiles\3.20.21032501-msvc_2\compileridcxx\CMakeCXXCompilerId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="out\build\x64-debug\cmakefiles\showincludes\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="out\build\x86-debug\cmakefiles\3.20.21032501-msvc_2\compileridc\CMakeCCompilerId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="out\build\x86-debug\cmakefiles\3.20.21032501-msvc_2\compileridcxx\CMakeCXXCompilerId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="out\build\x86-debug\cmakefiles\3.21.1\compileridc\CMakeCCompilerId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="out\build\x86-debug\cmakefiles\3.21.1\compileridcxx\CMakeCXXCompilerId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="out\build\x86-debug\cmakefiles\showincludes\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\birth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bldg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmovie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\corrupt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dungeon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\generate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gen_evol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gen_maze.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\help.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hiscore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joke.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\levels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadsave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_bind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maid-x11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main-crb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main-gcu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main-gtk2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main-sdl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main-win.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main-x11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main-xaw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main-xxx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\melee1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\melee2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\messages.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mimic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\monster1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\monster2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\monster3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\notes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plots.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\powers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quark.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_betwen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_bounty.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_dragons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_eol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_evil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_fireprof.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_god.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_haunted.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_hobbit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_invas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_library.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_narsil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_nazgul.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_nirna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_one.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_poison.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_rand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_shroom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_spider.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_thief.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_thrain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_troll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_ultrae.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_ultrag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_wight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\q_wolves.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\randart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\readdib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skills.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spells1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spells2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spells3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spells4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spells5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spells6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spell_type.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squeltch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\status.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\store.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\traps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\variable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wild.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wizard1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wizard2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xtra1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xtra2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\z-form.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\z-rand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\z-term.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\z-util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\z-virt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="out\build\x64-debug\cmakefiles\showincludes\foo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="out\build\x86-debug\cmakefiles\showincludes\foo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\angband.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\externs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h-basic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h-define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h-system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h-type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hiscore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\readdib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spell_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spell_type_fwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\z-form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\z-rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\z-term.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\z-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\z-virt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\sglib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="out\build\x64-debug\cmakefiles\3.20.21032501-msvc_2\CMakeDetermineCompilerABI_C.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="out\build\x64-debug\cmakefiles\3.20.21032501-msvc_2\CMakeDetermineCompilerABI_CXX.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="out\build\x86-debug\cmakefiles\3.20.21032501-msvc_2\CMakeDetermineCompilerABI_C.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="out\build\x86-debug\cmakefiles\3.20.21032501-msvc_2\CMakeDetermineCompilerABI_CXX.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="out\build\x86-debug\cmakefiles\3.21.1\CMakeDetermineCompilerABI_C.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="out\build\x86-debug\cmakefiles\3.21.1\CMakeDetermineCompilerABI_CXX.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="docs\wiki\FrontPage.html" />
+    <None Include="docs\wiki\www.killerbunnies.org\angband\god-220.html" />
+    <None Include="docs\wiki\www.killerbunnies.org\angband\skill-220.html" />
+    <None Include="docs\wiki\www.killerbunnies.org\angband\skill-230.html" />
+    <None Include="docs\wiki\www.killerbunnies.org\angband\spell-220.html" />
+    <None Include="docs\wiki\www.killerbunnies.org\angband\spell-230.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="out\build\x86-debug\src\cmakefiles\tome.dir\manifest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="src\angband.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

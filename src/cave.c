@@ -501,20 +501,10 @@ static void image_random(byte *ap, char *cp)
 /*
  * The 16x16 tile of the terrain supports lighting
  */
-#if 1
-
-#define feat_supports_lighting(F) \
-((f_info[F].flags1 & FF1_SUPPORT_LIGHT) != 0)
-
-#else
-
 static bool_ feat_supports_lighting(byte feat)
 {
-	if (f_info[feat].flags1 & FF1_SUPPORT_LIGHT) return TRUE;
-	else return FALSE;
+	return (f_info[feat].flags1 & FF1_SUPPORT_LIGHT) != 0;
 }
-
-#endif
 
 
 char get_shimmer_color()
@@ -3808,31 +3798,12 @@ void update_view(void)
 							int yy = (y < p_ptr->py) ? (y + 1) : (y > p_ptr->py) ? (y - 1) : y;
 							int xx = (x < p_ptr->px) ? (x + 1) : (x > p_ptr->px) ? (x - 1) : x;
 
-#ifdef UPDATE_VIEW_COMPLEX_WALL_ILLUMINATION
-
-							/* Check for "complex" illumination */
-							if ((!(cave[yy][xx].info & (CAVE_WALL)) &&
-							                (cave[yy][xx].info & (CAVE_GLOW))) ||
-							                (!(cave[y][xx].info & (CAVE_WALL)) &&
-							                 (cave[y][xx].info & (CAVE_GLOW))) ||
-							                (!(cave[yy][x].info & (CAVE_WALL)) &&
-							                 (cave[yy][x].info & (CAVE_GLOW))))
-							{
-								/* Mark as seen */
-								info |= (CAVE_SEEN);
-							}
-
-#else /* UPDATE_VIEW_COMPLEX_WALL_ILLUMINATION */
-
 							/* Check for "simple" illumination */
 							if (cave[yy][xx].info & (CAVE_GLOW))
 							{
 								/* Mark as seen */
 								info |= (CAVE_SEEN);
 							}
-
-#endif /* UPDATE_VIEW_COMPLEX_WALL_ILLUMINATION */
-
 						}
 
 						/* Save cave info */

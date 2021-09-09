@@ -140,21 +140,6 @@ off at will during the course of the game.
     discounts.  The resulting stack keeps the largest discount.  This option
     may cause you to lose "value", but will give you optimal pack usage.
 
-#####GShow labels in object lists    [show_labels]
-    Display the "labels" for objects in the equipment list, and in any
-    special window which is displaying the equipment.  These labels
-    indicate what the player is using the object for, such as "wielding"
-    or "wearing" (in a given location).  After you have played for a while,
-    this information is no longer useful, and can be annoying.
-    Note that in ToME this option no longer controls the "plain
-    flavoured object descriptions": a separate option for them has been added
-    under "ToME Options".
-
-#####GShow weights in object lists    [show_weights]
-    Display the weight of objects in the inventory and equipment lists,
-    and in stores, and in any special window which is displaying any of
-    these lists.
-
 #####GShow graphics in inventory list   [show_inven_graph]
     Display the graphics of objects in the inventory list, and in any special
     window which is displaying the inventory list.
@@ -165,14 +150,6 @@ off at will during the course of the game.
 
 #####GShow graphics in stores   [show_store_graph]
     Display the graphics of objects in the store list.
-
-#####GShow choices in certain sub-windows    [show_choices]
-    Indicate legal choices in special windows which display lists.
-
-#####GShow details in certain sub-windows    [show_details]
-    Indicate extra details in special windows, currently used to activate
-    the display of death counts and monster descriptions when recalling
-    details about a monster.
 
 #####GAudible bell (on errors, etc)    [ring_bell]
     Attempt to make a "bell" noise when various errors occur.

@@ -13,18 +13,6 @@
 #include "angband.h"
 
 
-/*
- * Hack -- Link a copyright message into the executable
- */
-cptr copyright[5] =
-{
-	"Copyright (c) 1989 James E. Wilson, Robert A. Keoneke",
-	"",
-	"This software may be copied and distributed for educational, research,",
-	"and not for profit purposes provided that this copyright and statement",
-	"are included in all such copies."
-};
-
 int max_macrotrigger = 0;
 char *macro_template = NULL;
 char *macro_modifier_chr;
@@ -58,9 +46,8 @@ u16b sf_lives; 			/* Number of past "lives" with this file */
 u16b sf_saves; 			/* Number of "saves" during this life */
 
 /*
- * Run-time arguments
+ * Run-time aruments
  */
-bool_ arg_fiddle; 			/* Command arg -- Request fiddle mode */
 bool_ arg_wizard; 			/* Command arg -- Request wizard mode */
 bool_ arg_sound; 				/* Command arg -- Request special sounds */
 bool_ arg_graphics; 			/* Command arg -- Request graphics mode */
@@ -132,8 +119,6 @@ u16b has_won;               /* Semi-Hack -- Game has been won */
 
 u16b noscore; 			/* Track various "cheating" conditions */
 
-s16b signal_count; 		/* Hack -- Count interupts */
-
 bool_ inkey_base; 		/* See the "inkey()" function */
 bool_ inkey_xtra; 		/* See the "inkey()" function */
 bool_ inkey_scan; 		/* See the "inkey()" function */
@@ -149,9 +134,7 @@ bool_ shimmer_objects;            /* Hack -- optimize multi-hued objects */
 bool_ repair_monsters; 	/* Hack -- optimize detect monsters */
 bool_ repair_objects; 	/* Hack -- optimize detect objects */
 
-s16b inven_nxt; 			/* Hack -- unused */
 bool_ hack_mind;
-bool_ hack_corruption;
 int artifact_bias;
 bool_ is_autosave = FALSE;
 
@@ -166,7 +149,6 @@ s16b m_cnt = 0; 			/* Number of live monsters */
 
 s16b hack_m_idx = 0; 	/* Hack -- see "process_monsters()" */
 s16b hack_m_idx_ii = 0;
-bool_ multi_rew = FALSE;
 char summon_kin_type;    /* Hack, by Julian Lighton: summon 'relatives' */
 
 int total_friends = 0;
@@ -190,22 +172,9 @@ void (*text_out_hook)(byte a, cptr str) = text_out_to_screen;
 
 
 /*
- * Hack -- Where to wrap the text when using text_out().  Use the default
- * value (for example the screen width) when 'text_out_wrap' is 0.
- */
-int text_out_wrap = 0;
-
-
-/*
  * Hack -- Indentation for the text when using text_out().
  */
 int text_out_indent = 0;
-
-
-/*
- * The "highscore" file descriptor, if available.
- */
-int highscore_fd = -1;
 
 
 /*
@@ -227,11 +196,6 @@ bool_ depth_in_feet;              /* Show dungeon level in feet */
 
 bool_ stack_force_notes; 		/* Merge inscriptions when stacking */
 bool_ stack_force_costs; 		/* Merge discounts when stacking */
-
-bool_ show_labels; 			/* Show labels in object listings */
-bool_ show_weights; 			/* Show weights in object listings */
-bool_ show_choices; 			/* Show choices in certain sub-windows */
-bool_ show_details; 			/* Show details in certain sub-windows */
 
 bool_ ring_bell; 				/* Ring the bell (on errors, etc) */
 
@@ -409,11 +373,6 @@ object_type *tracked_object;
 
 
 /*
- * User info
- */
-int player_uid;
-
-/*
  * Current player's character name
  */
 char player_name[32];
@@ -485,63 +444,6 @@ bool_ *macro__cmd;
  * Current macro action [1024]
  */
 char *macro__buf;
-
-
-/*
- * The number of quarks
- */
-s16b quark__num;
-
-/*
- * The pointers to the quarks [QUARK_MAX]
- */
-cptr *quark__str;
-
-
-/*
- * The next "free" index to use
- */
-u16b message__next;
-
-/*
- * The index of the oldest message (none yet)
- */
-u16b message__last;
-
-/*
- * The next "free" offset
- */
-u16b message__head;
-
-/*
- * The offset to the oldest used char (none yet)
- */
-u16b message__tail;
-
-/*
- * The array of offsets, by index [MESSAGE_MAX]
- */
-u16b *message__ptr;
-
-/*
- * The array of colors, by index [MESSAGE_MAX]
- */
-byte *message__color;
-
-/*
- * The array of type, by index [MESSAGE_MAX]
- */
-byte *message__type;
-
-/*
- * The array of message counts, by index [MESSAGE_MAX]
- */
-u16b *message__count;
-
-/*
- * The array of chars, by offset [MESSAGE_BUF]
- */
-char *message__buf;
 
 
 /*
@@ -1005,12 +907,6 @@ cptr ANGBAND_GRAF = "old";
 cptr ANGBAND_DIR;
 
 /*
- * High score files (binary)
- * These files may be portable between platforms
- */
-cptr ANGBAND_DIR_APEX;
-
-/*
  * Core lua system
  * These files are portable between platforms
  */
@@ -1162,14 +1058,12 @@ bool_ (*get_mon_num2_hook)(int r_idx);
 bool_ (*get_obj_num_hook)(int k_idx);
 
 
-/* Hack, monk armour */
-bool_ monk_armour_aux;
-bool_ monk_notify_aux;
-
 bool_ easy_open = TRUE;
 bool_ easy_disarm = TRUE;
 bool_ easy_tunnel = FALSE;
 
+s32b get_level_max_stick = -1;
+s32b get_level_use_stick = -1;
 
 /*
  * Maximum size of the wilderness map
@@ -1372,9 +1266,6 @@ s16b doppleganger;
 /* To allow wilderness encounters */
 bool_ generate_encounter;
 
-/* Permanent dungeons ? */
-bool_ permanent_levels;
-
 /* Autoroler */
 bool_ autoroll;
 
@@ -1413,11 +1304,6 @@ bool_ fast_autoroller;
  * Which monsters are allowed ?
  */
 bool_ joke_monsters;
-
-/*
- * How will mana staf & weapons of life act
- */
-bool_ munchkin_multipliers = TRUE;
 
 /*
  * Center view
@@ -1478,12 +1364,6 @@ hist_type *bg;
 int max_bg_idx;
 
 /*
- * Powers
- */
-s16b power_max = POWER_MAX_INIT;
-power_type *powers_type;
-
-/*
  * Variable savefile stuff
  */
 s32b extra_savefile_parts = 0;
@@ -1491,8 +1371,8 @@ s32b extra_savefile_parts = 0;
 /*
  * Quests
  */
-s16b max_q_idx = MAX_Q_IDX_INIT;
-quest_type *quest;
+// breaks linking as it's already defined in tables.c
+//quest_type quest[MAX_Q_IDX];
 
 /*
  * Display the player as a special symbol when in bad health ?
@@ -1503,10 +1383,10 @@ bool_ player_char_health;
 /*
  * The spell list of schools
  */
-s16b max_spells;
-spell_type *school_spells;
-s16b max_schools;
-school_type *schools;
+s16b school_spells_count = 0;
+spell_type *school_spells[SCHOOL_SPELLS_MAX];
+s16b schools_count = 0;
+school_type schools[SCHOOLS_MAX];
 
 /*
  * Lasting spell effects
@@ -1537,12 +1417,7 @@ int cli_total = 0;
 /*
  * max_bact, only used so that lua scripts can add new bacts without worrying about the numbers
  */
-int max_bact = 54;
-
-/*
- * Max corruptions
- */
-s16b max_corruptions = 0;
+int max_bact = 127;
 
 /*
  * Ingame contextual help
@@ -1564,6 +1439,7 @@ s16b last_teleportation_x = -1;
  * The current game module
  */
 cptr game_module;
+s32b game_module_idx;
 s32b VERSION_MAJOR;
 s32b VERSION_MINOR;
 s32b VERSION_PATCH;
@@ -1572,18 +1448,17 @@ s32b VERSION_PATCH;
  * Some module info
  */
 s32b max_plev = 50;
+s32b DUNGEON_BASE = 4;
 s32b DUNGEON_DEATH = 28;
-
-/*
- * Gods
- */
-deity_type *deity_info;
-s32b max_gods = MAX_GODS_INIT;
+s32b DUNGEON_ASTRAL = 8;
+s32b DUNGEON_ASTRAL_WILD_X = 45;
+s32b DUNGEON_ASTRAL_WILD_Y = 19;
 
 /*
  * Timers
  */
 timer_type *gl_timers = NULL;
+
 
 /**
  * Get the version string.
