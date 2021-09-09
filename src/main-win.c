@@ -2788,7 +2788,7 @@ ofn.lStructSize = sizeof(OPENFILENAME);
 		/* Score */
 	case IDM_FILE_SCORE:
 		{
-			predict_score_gui(&initialized, &game_in_progress);
+			predict_score();
 
 			/* Done */
 			break;

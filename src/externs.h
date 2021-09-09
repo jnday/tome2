@@ -888,7 +888,6 @@ extern void autosave_checkpoint();
 extern long total_points(void);
 extern void display_scores(int from, int to);
 extern errr predict_score(void);
-extern void predict_score_gui(bool_ *initialized, bool_ *game_in_progress);
 extern void close_game(void);
 extern void signals_ignore_tstp(void);
 extern void signals_handle_tstp(void);

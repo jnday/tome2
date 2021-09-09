@@ -4124,7 +4124,7 @@ static void do_cmd_knowledge_quests(void)
 
 	char file_name[1024];
 
-	int order[MAX_Q_IDX] = { };
+	int order[MAX_Q_IDX] = {0};
 
 	int num = 0;
 

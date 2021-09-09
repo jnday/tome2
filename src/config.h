@@ -195,7 +195,8 @@
 #define PRIVATE_USER_PATH_DATA
 #define PRIVATE_USER_PATH_MODULES
 #else
-#define PRIVATE_USER_PATH DEFAULT_PATH".tome"
+#define PRIVATE_USER_PATH "./.tome"
+#define LOCAL_PATH_THEME "./.tome/2.3/theme"
 #endif
 
 

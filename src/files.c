@@ -4702,9 +4702,9 @@ static void show_info(void)
  *
  * Mega-Hack -- allow "fake" entry at the given position.
  */
-static void display_scores_aux(int highscore_fd, int from, int to, int note, high_score *score)
+static void display_scores_aux(int highscore_fd, int from, int to, high_score *score)
 {
-	int i, j, k, n, place;
+	int i, j, k, n, place, note;
 	byte attr;
 	char out_val[256];
 	char tmp_val[160];
@@ -4876,7 +4876,7 @@ void display_scores(int from, int to)
 	int highscore_fd;
 
 	/* Build the filename */
-	path_build(buf, 1024, "./.tome/2.3/theme", "scores.raw");
+	path_build(buf, 1024, LOCAL_PATH_THEME, "scores.raw");
 
 	/* Open the binary high score file, for reading */
 	highscore_fd = fd_open(buf, O_RDONLY);
@@ -4946,7 +4946,7 @@ void show_highclass(int building)
 	}
 
 	/* Build the filename */
-	path_build(buf, 1024, "./.tome/2.3/theme", "scores.raw");
+	path_build(buf, 1024, LOCAL_PATH_THEME, "scores.raw");
 
 	/* Open file */
 	highscore_fd = fd_open(buf, O_RDONLY);
@@ -5038,7 +5038,7 @@ void race_score(int race_num)
 	prt(tmp_str, 5, 3);
 
 	/* Build the filename */
-	path_build(buf, 1024, "./.tome/2.3/theme", "scores.raw");
+	path_build(buf, 1024, LOCAL_PATH_THEME, "scores.raw");
 
 	/* Open the highscore file */
 	highscore_fd = fd_open(buf, O_RDONLY);
@@ -5130,7 +5130,7 @@ static errr top_twenty(void)
 	int highscore_fd = 0;
 
 	/* Build the filename */
-	path_build(buf, sizeof(buf), "./.tome/2.3/theme", "scores.raw");
+	path_build(buf, sizeof(buf), LOCAL_PATH_THEME, "scores.raw");
 
 	/* Open the highscore file, for reading/writing */
 	highscore_fd = fd_open(buf, O_RDWR);
@@ -5225,7 +5225,6 @@ static errr top_twenty(void)
 	sprintf(the_score.who, "%-.15s", player_name);
 
 	/* Save the player info XXX XXX XXX */
-	sprintf(the_score.uid, "%7u", player_uid);
 	sprintf(the_score.sex, "%c", (p_ptr->psex ? 'm' : 'f'));
 	sprintf(the_score.p_r, "%2d", p_ptr->prace);
 	sprintf(the_score.p_s, "%2d", p_ptr->pracem);
@@ -5251,7 +5250,7 @@ static errr top_twenty(void)
 	if (fd_lock(highscore_fd, F_WRLCK)) return (1);
 
 	/* Add a new entry to the score list, see where it went */
-	j = highscore_add(&the_score);
+	j = highscore_add(highscore_fd, &the_score);
 
 	/* Unlock the highscore file, or fail */
 	if (fd_lock(highscore_fd, F_UNLCK)) return (1);
@@ -5282,9 +5281,17 @@ static errr top_twenty(void)
 errr predict_score(void)
 {
 	int j;
+	int highscore_fd;
+	char buf[1024];
 
 	high_score the_score;
 
+
+	/* Build the filename */
+	path_build(buf, 1024, LOCAL_PATH_THEME, "scores.raw");
+
+	/* Open the binary high score file, for reading */
+	highscore_fd = fd_open(buf, O_RDONLY);
 
 	/* No score file */
 	if (highscore_fd < 0)
@@ -5318,7 +5325,7 @@ errr predict_score(void)
 	sprintf(the_score.who, "%-.15s", player_name);
 
 	/* Save the player info XXX XXX XXX */
-	sprintf(the_score.uid, "%7u", player_uid);
+//	sprintf(the_score.uid, "%7u", player_uid);
 	sprintf(the_score.sex, "%c", (p_ptr->psex ? 'm' : 'f'));
 	sprintf(the_score.p_r, "%2d", p_ptr->prace);
 	sprintf(the_score.p_s, "%2d", p_ptr->pracem);
@@ -5341,7 +5348,7 @@ errr predict_score(void)
 
 
 	/* See where the entry would be placed */
-	j = highscore_where(&the_score);
+	j = highscore_where(highscore_fd, &the_score);
 
 
 	/* Hack -- Display the top fifteen scores */
@@ -5458,6 +5465,7 @@ void wipe_saved()
  */
 void close_game(void)
 {
+	int highscore_fd;
 	char buf[1024];
 
 
@@ -5479,7 +5487,7 @@ void close_game(void)
 
 
 	/* Build the filename */
-	path_build(buf, 1024, "./.tome/2.3/theme", "scores.raw");
+	path_build(buf, 1024, LOCAL_PATH_THEME, "scores.raw");
 
 	/* Open the high score file, for reading/writing */
 	highscore_fd = fd_open(buf, O_RDWR);

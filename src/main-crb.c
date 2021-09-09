@@ -4500,7 +4500,7 @@ static void menu(long mc)
 				/* Show score */
 			case ITEM_SCORE:
 				{
-					predict_score_gui(&initialized, &game_in_progress);
+					predict_score();
 
 					/* Done */
 					break;

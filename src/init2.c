@@ -2567,7 +2567,7 @@ void init_angband(void)
 	/*** Verify (or create) the "high score" file ***/
 
 	/* Build the filename */
-	path_build(buf, 1024, "./.tome/2.3/theme", "scores.raw");
+	path_build(buf, 1024, LOCAL_PATH_THEME, "scores.raw");
 
 	/* Attempt to open the high score file */
 	fd = fd_open(buf, O_RDONLY);
