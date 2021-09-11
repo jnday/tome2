@@ -1,4 +1,4 @@
-﻿ {
+﻿{
   "configurations": [
     {
       "name": "x86-Debug",
@@ -17,6 +17,24 @@
           "type": "PATH"
         }
       ]
+    },
+    {
+      "name": "x86-Release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeExecutable": "C:\\dev\\vcpkg\\downloads\\tools\\cmake-3.21.1-windows\\cmake-3.21.1-windows-i386\\bin\\cmake.exe",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x86" ],
+      "variables": [
+        {
+          "name": "JANSSON_DIR",
+          "value": "C:\\dev\\vcpkg\\installed\\x86-windows-static\\share\\jansson",
+          "type": "PATH"
+        }
+      ],
+      "intelliSenseMode": "windows-msvc-x86"
     }
   ]
 }
