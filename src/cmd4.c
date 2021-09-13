@@ -1162,7 +1162,7 @@ static errr option_dump(cptr fname)
  */
 static void do_cmd_pref_file_hack(int row)
 {
-	char ftmp[80];
+	char ftmp[256];
 
 
 	/* Prompt */
@@ -1172,10 +1172,10 @@ static void do_cmd_pref_file_hack(int row)
 	prt("File: ", row + 2, 0);
 
 	/* Default filename */
-	strnfmt(ftmp, 80, "%s.prf", player_base);
+	strnfmt(ftmp, 256, "%s.prf", player_base);
 
 	/* Ask for a file (or cancel) */
-	if (!askfor_aux(ftmp, 80)) return;
+	if (!askfor_aux(ftmp, 256)) return;
 
 	/* Process the given filename */
 	if (process_pref_file(ftmp))
@@ -1267,7 +1267,7 @@ void do_cmd_options(void)
 		case 'u':
 		case 'U':
 			{
-				char ftmp[80];
+				char ftmp[256];
 
 				/* Prompt */
 				prt("Command: Append options to a file", 21, 0);
@@ -1276,10 +1276,10 @@ void do_cmd_options(void)
 				prt("File: ", 21, 0);
 
 				/* Default filename */
-				strnfmt(ftmp, 80, "%s.prf", player_base);
+				strnfmt(ftmp, 256, "%s.prf", player_base);
 
 				/* Ask for a file */
-				if (!askfor_aux(ftmp, 80)) continue;
+				if (!askfor_aux(ftmp, 256)) continue;
 
 				/* Dump the options */
 				if (option_dump(ftmp))
@@ -3610,29 +3610,33 @@ void plural_aux(char *name)
 	else if (strstr(name, " of "))
 	{
 		cptr aider = strstr(name, " of ");
-		char dummy[80];
+		char dummy[80] = { 0 };
 		int i = 0;
 		cptr ctr = name;
 
-		while (ctr < aider)
+		if (aider)
 		{
-			dummy[i] = *ctr;
-			ctr++;
-			i++;
+			while (ctr < aider)
+			{
+				dummy[i] = *ctr;
+				ctr++;
+				i++;
+			}
+
+			if (i > 0 && dummy[i - 1] == 's')
+			{
+				strcpy(&dummy[i], "es");
+				i++;
+			}
+			else
+			{
+				strcpy(&dummy[i], "s");
+			}
+
+			strcpy(&dummy[i + 1], aider);
+			strcpy(name, dummy);
 		}
 
-		if (dummy[i - 1] == 's')
-		{
-			strcpy(&dummy[i], "es");
-			i++;
-		}
-		else
-		{
-			strcpy(&dummy[i], "s");
-		}
-
-		strcpy(&dummy[i + 1], aider);
-		strcpy(name, dummy);
 	}
 
 	/* Creeping coins */

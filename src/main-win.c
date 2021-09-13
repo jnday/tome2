@@ -2264,7 +2264,7 @@ static void init_windows(void)
 	td->rows = 24;
 	td->cols = 80;
 	td->visible = TRUE;
-	td->size_ow1 = 2;
+	td->size_ow1 = 4;
 	td->size_ow2 = 2;
 	td->size_oh1 = 2;
 	td->size_oh2 = 2;
@@ -2281,10 +2281,10 @@ static void init_windows(void)
 		td->rows = 24;
 		td->cols = 80;
 		td->visible = FALSE;
-		td->size_ow1 = 1;
+		td->size_ow1 = 4;
 		td->size_ow2 = 1;
 		td->size_oh1 = 1;
-		td->size_oh2 = 1;
+		td->size_oh2 = 6;
 		td->pos_x = (7 - i) * 30;
 		td->pos_y = (7 - i) * 20;
 	}
@@ -2296,9 +2296,7 @@ static void init_windows(void)
 
 	/* Main window (need these before term_getsize gets called) */
 	td = &data[0];
-	td->dwStyle = (WS_OVERLAPPED | WS_THICKFRAME | WS_SYSMENU |
-	               WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION |
-	               WS_VISIBLE);
+	td->dwStyle = (WS_OVERLAPPEDWINDOW | WS_VISIBLE);
 	td->dwExStyle = 0;
 	td->visible = TRUE;
 
@@ -2307,7 +2305,7 @@ static void init_windows(void)
 	{
 		td = &data[i];
 		td->dwStyle = (WS_OVERLAPPED | WS_THICKFRAME | WS_SYSMENU);
-		td->dwExStyle = (WS_EX_TOOLWINDOW);
+		td->dwExStyle = 0;
 	}
 
 
