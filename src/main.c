@@ -18,7 +18,7 @@
  */
 
 
-#if !defined(MACINTOSH) && !defined(WINDOWS)
+#if !defined(MACINTOSH) && !defined(WIN32)
 
 
 /*

@@ -2277,12 +2277,7 @@ extern u32b _fcreator;
 extern u32b _ftype;
 #endif /* MACH_O_CARBON */
 
-#ifdef WINDOWS
-/* main-win.c */
-/* extern int FAR PASCAL WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, ...); */
-#endif
-
-#if !defined(WINDOWS) && !defined(MACINTOSH)
+#if !defined(WIN32) && !defined(MACINTOSH)
 /* files.c */
 extern bool_ chg_to_txt(cptr base, cptr newname);
 #endif /* !WINDOWS && !MACINTOSH */

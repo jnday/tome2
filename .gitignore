@@ -1,10 +1,18 @@
+# build crap?
 *.o
 *.~*
 *.#*
+
+# cmake files
 CMakeFiles
 CMakeCache.txt
 cmake_install.cmake
 install_manifest.txt
 Makefile
+
+# VS directories
 out/**
 .vs/**
+
+# for codemaid
+Debug/**

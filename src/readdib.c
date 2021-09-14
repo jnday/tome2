@@ -17,30 +17,16 @@
  *   Sample Application Files which are modified.
  */
 
-#ifdef WINDOWS
+#ifdef WIN32
 
 #include <windows.h>
-
 #include "readdib.h"
-
-
-/*
- * Extract the "WIN32" flag from the compiler
- */
-#if defined(__WIN32__) || defined(__WINNT__) || defined(__NT__)
-# ifndef WIN32
-# define WIN32
-# endif 
-#endif
 
 /*
  * Make sure "huge" is legal XXX XXX XXX
  */
 #undef huge
-#ifdef WIN32
-# define huge /* oops */
-#endif
-
+#define huge /* oops */
 
 /*
  * Number of bytes to be read during each read operation
@@ -49,9 +35,7 @@
 
 /*
  * Private routine to read more than 64K at a time
- *
  * Reads data in steps of 32k till all the data has been read.
- *
  * Returns number of bytes requested, or zero if something went wrong.
  */
 static DWORD PASCAL lread(int fh, VOID far *pv, DWORD ul)
@@ -74,7 +58,6 @@ static DWORD PASCAL lread(int fh, VOID far *pv, DWORD ul)
 
 /*
  * Given a BITMAPINFOHEADER, create a palette based on the color table.
- *
  * Returns the handle of a palette, or zero if something went wrong.
  */
 static HPALETTE PASCAL NEAR MakeDIBPalette(LPBITMAPINFOHEADER lpInfo)

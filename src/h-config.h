@@ -28,8 +28,8 @@
 /*
  * OPTION: Compile on Windows (automatic)
  */
-#ifndef WINDOWS
-/* #define WINDOWS */
+#ifndef WIN32
+/* #define WIN32 */
 #endif
 
 /*
@@ -121,26 +121,11 @@
 #endif
 
 /*
- * Extract the "MSDOS" flag from the compiler
- */
-#ifdef __MSDOS__
-# ifndef MSDOS
-#  define MSDOS
-# endif
-#endif
-
-/*
  * Extract the "WINDOWS" flag from the compiler
  */
-#if defined(_Windows) || defined(__WINDOWS__) || \
-    defined(__WIN32__) || defined(WIN32) || \
-    defined(__WINNT__) || defined(__NT__)
-# ifndef WINDOWS
-#  define WINDOWS
-# endif
+#if defined(_WIN32)
+# define WIN32
 #endif
-
-
 
 /*
  * OPTION: Define "L64" if a "long" is 64-bits.  See "h-types.h".
@@ -150,8 +135,6 @@
 #if defined(__alpha) && defined(__osf__) || defined(__x86_64) || defined(__x86_64__) || defined(__amd64) || defined(__ia64) || defined(__ia64__) || defined(__mips64) || defined(__ppc64__) || defined(__PPC64__) || defined(__powerpc64__) || defined(__64BIT__) || defined(__sparc64__) || defined(__LP64__)
 # define L64
 #endif
-
-
 
 /*
  * OPTION: set "SET_UID" if the machine is a "multi-user" machine.
@@ -164,8 +147,7 @@
  * Basically, SET_UID should *only* be set for "Unix" machines,
  * or for the "Atari" platform which is Unix-like, apparently
  */
-#if !defined(MACINTOSH) && !defined(WINDOWS) && \
-    !defined(MSDOS)
+#if !defined(MACINTOSH) && !defined(WIN32)
 # define SET_UID
 #endif
 
@@ -200,11 +182,7 @@
 # undef PATH_SEP
 # define PATH_SEP ":"
 #endif
-#if defined(WINDOWS) || defined(WINNT)
-# undef PATH_SEP
-# define PATH_SEP "/"
-#endif
-#if defined(MSDOS) || defined(OS2)
+#if defined(OS2)
 # undef PATH_SEP
 # define PATH_SEP "\\"
 #endif
@@ -230,7 +208,7 @@
 /*
  * OPTION: Hack -- Make sure "strchr()" and "strrchr()" will work
  */
-#if defined(SYS_III) || defined(SYS_V) || defined(MSDOS)
+#if defined(SYS_III) || defined(SYS_V)
 # if !defined(__TURBOC__) && !defined(__WATCOMC__)
 #  define strchr index
 #  define strrchr rindex
@@ -242,7 +220,9 @@
  * OPTION: Define "HAS_STRICMP" only if "stricmp()" exists.
  * Note that "stricmp()" is not actually used by Angband.
  */
-/* #define HAS_STRICMP */
+#if defined(WIN32)
+# define HAS_STRICMP
+#endif
 
 /*
  * Linux has "stricmp()" with a different name

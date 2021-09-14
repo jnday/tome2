@@ -153,7 +153,7 @@
 /*
  * OPTION: Hack -- Windows stuff
  */
-#ifdef WINDOWS
+#ifdef WIN32
 
 /* Do not handle signals */
 # undef HANDLE_SIGNALS

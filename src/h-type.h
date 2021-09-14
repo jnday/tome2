@@ -72,7 +72,7 @@ typedef int errr;
 #define uint uint_hack
 
 /*
- * Hack -- prevent problems with MSDOS and WINDOWS
+ * Hack -- prevent problems with WINDOWS
  */
 #undef huge
 #define huge huge_hack

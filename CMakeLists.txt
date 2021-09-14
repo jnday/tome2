@@ -98,7 +98,7 @@ ENDIF()
 #
 if(WIN32)
   # Add Windows flags/options
-  ADD_DEFINITIONS(-DWINDOWS)
+  #ADD_DEFINITIONS(-DWINDOWS)
   SET(EXECUTABLE_OPTIONS WIN32)
   SET(LIBS ${LIBS} winmm wsock32)
 endif(WIN32)

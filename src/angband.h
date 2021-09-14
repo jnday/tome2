@@ -47,7 +47,7 @@ extern "C" {
 /*
  * SGLIB
  */
-#include "sglib.h"
+#include "include/sglib.h"
 
 
 /*
