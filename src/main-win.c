@@ -12,15 +12,8 @@
 /*
  * This file helps Angband work with Windows computers.
  *
- * To use this file, use an appropriate "Makefile" or "Project File",
- * make sure that "WINDOWS" and/or "WIN32" are defined somewhere, and
+ * To use this file, use an appropriate "Makefile" or "Project File", and
  * make sure to obtain various extra files as described below.
- *
- * The official compilation uses the CodeWarrior Pro compiler, which
- * includes a special project file and precompilable header file.
- *
- *
- * See also "main-dos.c" and "main-ibm.c".
  *
  *
  * The "lib/user/pref-win.prf" file contains keymaps, macro definitions,
@@ -75,19 +68,7 @@
 
 #include "angband.h"
 
-
-#ifdef WINDOWS
-
-
-/*
- * Extract the "WIN32" flag from the compiler
- */
-#if defined(__WIN32__) || defined(__WINNT__) || defined(__NT__)
-# ifndef WIN32
-# define WIN32
-# endif 
-#endif
-
+#ifdef WIN32
 
 /*
  * Hack -- allow use of "screen saver" mode
@@ -257,27 +238,12 @@
 /*
  * Hack -- Fake declarations from "dos.h" XXX XXX XXX
  */
-#ifdef WIN32
 #define INVALID_FILE_NAME (DWORD)0xFFFFFFFF
-#else /* WIN32 */
-#define FA_LABEL    0x08        /* Volume label */
-#define FA_DIREC    0x10        /* Directory */
-unsigned _cdecl _dos_getfileattr(const char *, unsigned *);
-#endif /* WIN32 */
 
 /*
  * Silliness in WIN32 drawing routine
  */
-#ifdef WIN32
-# define MoveTo(H, X, Y) MoveToEx(H, X, Y, NULL)
-#endif /* WIN32 */
-
-/*
- * Silliness for Windows 95
- */
-#ifndef WS_EX_TOOLWINDOW
-# define WS_EX_TOOLWINDOW 0
-#endif
+#define MoveTo(H, X, Y) MoveToEx(H, X, Y, NULL)
 
 /*
  * Foreground color bits (hard-coded by DOS)
@@ -639,21 +605,10 @@ static char *analyze_font(char *path, int *wp, int *hp)
 static bool_ check_file(cptr s)
 {
 	char path[1024];
-
-#ifdef WIN32
-
 	DWORD attrib;
-
-#else /* WIN32 */
-
-	unsigned int attrib;
-
-#endif /* WIN32 */
 
 	/* Copy it */
 	strcpy(path, s);
-
-#ifdef WIN32
 
 	/* Examine */
 	attrib = GetFileAttributes(path);
@@ -663,19 +618,6 @@ static bool_ check_file(cptr s)
 
 	/* Prohibit directory */
 	if (attrib & FILE_ATTRIBUTE_DIRECTORY) return (FALSE);
-
-#else /* WIN32 */
-
-	/* Examine and verify */
-	if (_dos_getfileattr(path, &attrib)) return (FALSE);
-
-	/* Prohibit something */
-	if (attrib & FA_LABEL) return (FALSE);
-
-	/* Prohibit directory */
-	if (attrib & FA_DIREC) return (FALSE);
-
-#endif /* WIN32 */
 
 	/* Success */
 	return (TRUE);
@@ -688,18 +630,8 @@ static bool_ check_file(cptr s)
 static bool_ check_dir(cptr s)
 {
 	int i;
-
 	char path[1024];
-
-#ifdef WIN32
-
 	DWORD attrib;
-
-#else /* WIN32 */
-
-	unsigned int attrib;
-
-#endif /* WIN32 */
 
 	/* Copy it */
 	strcpy(path, s);
@@ -710,8 +642,6 @@ static bool_ check_dir(cptr s)
 	/* Remove trailing backslash */
 	if (i && (path[i - 1] == '/')) path[--i] = '\0';
 
-#ifdef WIN32
-
 	/* Examine */
 	attrib = GetFileAttributes(path);
 
@@ -720,19 +650,6 @@ static bool_ check_dir(cptr s)
 
 	/* Require directory */
 	if (!(attrib & FILE_ATTRIBUTE_DIRECTORY)) return (FALSE);
-
-#else /* WIN32 */
-
-	/* Examine and verify */
-	if (_dos_getfileattr(path, &attrib)) return (FALSE);
-
-	/* Prohibit something */
-	if (attrib & FA_LABEL) return (FALSE);
-
-	/* Require directory */
-	if (!(attrib & FA_DIREC)) return (FALSE);
-
-#endif /* WIN32 */
 
 	/* Success */
 	return (TRUE);
@@ -1695,59 +1612,13 @@ static errr Term_xtra_win_sound(int v)
 
 #ifdef USE_SOUND
 
-#ifdef WIN32
-
 	/* Play the sound, catch errors */
 	return (PlaySound(sound_file[v], 0, SND_FILENAME | SND_ASYNC));
-
-#else /* WIN32 */
-
-/* Play the sound, catch errors */
-	return (sndPlaySound(sound_file[v], SND_ASYNC));
-
-#endif /* WIN32 */
 
 #endif /* USE_SOUND */
 
 	/* Oops */
 	return (1);
-}
-
-
-/*
- * Delay for "x" milliseconds
- */
-static int Term_xtra_win_delay(int v)
-{
-
-#ifdef WIN32
-
-	/* Sleep */
-	Sleep(v);
-
-#else /* WIN32 */
-
-	DWORD t;
-	MSG msg;
-
-	/* Final count */
-	t = GetTickCount() + v;
-
-	/* Wait for it */
-	while (GetTickCount() < t)
-	{
-		/* Handle messages */
-		if (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE))
-		{
-			TranslateMessage(&msg);
-			DispatchMessage(&msg);
-		}
-	}
-
-#endif /* WIN32 */
-
-	/* Success */
-	return (0);
 }
 
 /*
@@ -1811,7 +1682,8 @@ static errr Term_xtra_win(int n, int v)
 		/* Delay for some milliseconds */
 	case TERM_XTRA_DELAY:
 		{
-			return (Term_xtra_win_delay(v));
+			Sleep(v);
+			return (0);
 		}
 
 		/* Get the current time in milliseconds */
@@ -2710,11 +2582,7 @@ static void process_menus(WORD wCmd)
 			else
 			{
 				memset(&ofn, 0, sizeof(ofn));
-#if defined(_WIN32_WINNT) && (_WIN32_WINNT >= 0x0500)
 				ofn.lStructSize = sizeof(OPENFILENAME) - (sizeof(void*) + 2 * sizeof(DWORD));
-#else // old headers
-ofn.lStructSize = sizeof(OPENFILENAME);
-#endif
 				ofn.hwndOwner = data[0].w;
 				ofn.lpstrFilter = "Save Files (*.)\0*\0";
 				ofn.nFilterIndex = 1;
@@ -4136,6 +4004,6 @@ int FAR PASCAL WinMain(HINSTANCE hInst, HINSTANCE hPrevInst,
 }
 
 
-#endif /* WINDOWS */
+#endif /* WIN32 */
 
 

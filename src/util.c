@@ -255,7 +255,7 @@ errr path_parse(char *buf, int max, cptr file)
 */
 errr path_temp(char *buf, int max)
 {
-#ifdef WINDOWS
+#ifdef WIN32
 	static u32b tmp_counter;
 	static char valid_characters[] =
 			"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";

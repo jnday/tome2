@@ -47,7 +47,7 @@
 # include <unix.h>
 #endif
 
-#if defined(WINDOWS) || defined(MSDOS)
+#if defined(WIN32)
 # include <io.h>
 #endif
 
@@ -118,7 +118,7 @@ extern char *strrchr();
 
 
 
-#if !defined(linux) && !defined(__MWERKS__)
+#if !defined(linux) && !defined(__MWERKS__) && !defined(WIN32)
 extern long atol();
 #endif
 

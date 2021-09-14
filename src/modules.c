@@ -22,7 +22,7 @@ static void module_reset_dir_aux(cptr *dir, cptr new_path)
 	string_free(*dir);
 	*dir = string_make(buf);
 
-#if !defined(MACINTOSH) && !defined(WINDOWS)
+#if !defined(MACINTOSH) && !defined(WIN32)
 	/* Make it if needed */
 	if (!private_check_user_directory(*dir))
 		quit(format("Unable to create module dir %s\n", *dir));
@@ -61,7 +61,7 @@ void module_reset_dir(cptr dir, cptr new_path)
 		string_free(*d);
 		*d = string_make(buf);
 
-#if !defined(MACINTOSH) && !defined(WINDOWS)
+#if !defined(MACINTOSH) && !defined(WIN32)
 		// Make it if needed */
 		if (!private_check_user_directory(*d))
 		{
