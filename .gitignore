@@ -10,9 +10,10 @@ cmake_install.cmake
 install_manifest.txt
 Makefile
 
-# VS directories
+# VS things
 out/**
 .vs/**
+*.ruleset
 
 # for codemaid
 Debug/**
