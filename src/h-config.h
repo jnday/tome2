@@ -13,6 +13,21 @@
  * what "system" is being used.
  */
 
+#ifndef PATH_MAX
+#define PATH_MAX 256
+#endif
+
+#ifndef SDL_DEFAULT_REPEAT_DELAY
+#define SDL_DEFAULT_REPEAT_DELAY 500
+#endif
+
+#ifndef SDL_DEFAULT_REPEAT_INTERVAL
+#define SDL_DEFAULT_REPEAT_INTERVAL 30
+#endif
+
+#define 	SDL_HWSURFACE   0x00000001
+#define 	SDL_SRCALPHA   0x00010000
+
 
 /*
  * no system definitions are needed for 4.3BSD, SUN OS, DG/UX
@@ -122,10 +137,11 @@
 
 /*
  * Extract the "WINDOWS" flag from the compiler
- */
+
 #if defined(_WIN32)
 # define WIN32
 #endif
+ */
 
 /*
  * OPTION: Define "L64" if a "long" is 64-bits.  See "h-types.h".

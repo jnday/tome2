@@ -5,36 +5,36 @@
       "generator": "Ninja",
       "configurationType": "Debug",
       "inheritEnvironments": [ "msvc_x86" ],
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
-      "installRoot": "${projectDir}\\out\\install\\${name}",
-      "ctestCommandArgs": "",
+      "buildRoot": "${projectDir}/out/build/${name}",
+      "installRoot": "${projectDir}/out/install/${name}",
       "intelliSenseMode": "windows-msvc-x86",
-      "cmakeExecutable": "C:\\dev\\vcpkg\\downloads\\tools\\cmake-3.21.1-windows\\cmake-3.21.1-windows-i386\\bin\\cmake.exe",
+      "cmakeExecutable": "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
       "variables": [
         {
           "name": "JANSSON_DIR",
-          "value": "C:\\dev\\vcpkg\\installed\\x86-windows-static\\share\\jansson",
+          "value": "C:/Users/jnath/source/repos/tome2/vcpkg_installed/x86-windows/share/jansson",
           "type": "PATH"
         }
-      ]
+      ],
+      "cmakeToolchain": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake"
     },
     {
       "name": "x86-Release",
       "generator": "Ninja",
       "configurationType": "Release",
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
-      "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeExecutable": "C:\\dev\\vcpkg\\downloads\\tools\\cmake-3.21.1-windows\\cmake-3.21.1-windows-i386\\bin\\cmake.exe",
-      "ctestCommandArgs": "",
+      "buildRoot": "${projectDir}/out/build/${name}",
+      "installRoot": "${projectDir}/out/install/${name}",
+      "cmakeExecutable": "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
       "inheritEnvironments": [ "msvc_x86" ],
       "variables": [
         {
           "name": "JANSSON_DIR",
-          "value": "C:\\dev\\vcpkg\\installed\\x86-windows-static\\share\\jansson",
+          "value": "C:/Users/jnath/source/repos/tome2/vcpkg_installed/x86-windows/share/jansson",
           "type": "PATH"
         }
       ],
-      "intelliSenseMode": "windows-msvc-x86"
+      "intelliSenseMode": "windows-msvc-x86",
+      "cmakeToolchain": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake"
     }
   ]
 }

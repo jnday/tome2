@@ -41,11 +41,34 @@ endif(WIN32)
 # tome executable
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include)
-link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
+#link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
 ADD_EXECUTABLE(tome ${EXECUTABLE_OPTIONS} ${SRCS})
 TARGET_LINK_LIBRARIES(tome ${LIBS})
+
+add_custom_target(copy_resources
+    COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/res/lib ${CMAKE_CURRENT_BINARY_DIR}/lib
+    COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/res/.tome ${CMAKE_CURRENT_BINARY_DIR}/.tome
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/res/tome.ini ${CMAKE_CURRENT_BINARY_DIR}/tome.ini
+)   
+add_dependencies(tome copy_resources)
+
+# post-build dll and ini copy
+add_custom_command(
+	TARGET tome POST_BUILD
+	COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/tome.ini ${CMAKE_CURRENT_BINARY_DIR}
+	COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_RUNTIME_DLLS:tome> ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/debug/bin/freetyped.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/debug/bin/libpng16d.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/debug/bin/zlibd1.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/debug/bin/bz2d.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/debug/bin/brotlidec.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/debug/bin/brotlicommon.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/debug/bin/brotlienc.dll ${CMAKE_CURRENT_BINARY_DIR}
+	COMMAND_EXPAND_LISTS
+)
 
 # Installation
 INSTALL(TARGETS tome
   RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}
 )
+

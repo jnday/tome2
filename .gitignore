@@ -11,9 +11,9 @@ install_manifest.txt
 Makefile
 
 # VS things
-out/**
-.vs/**
+out
+.vs
 *.ruleset
 
-# for codemaid
-Debug/**
+# vcpkg things
+vcpkg_installed

@@ -109,7 +109,7 @@ static bool_ window_properties_set = FALSE;
 static SDL_Surface *screen;
 
 /* the video settings for the system */
-static SDL_VideoInfo *videoInfo;
+//static SDL_VideoInfo *videoInfo;
 
 /* a flag to suspend updating of the screen;
 this is in place so that when a large area is being
@@ -258,11 +258,11 @@ the suspendUpdate flag... this macro should be used
 whenever a rect needs updated */
 #define SDL_UPDATE(rect) \
 	if (!suspendUpdate) \
-		SDL_UpdateRects(screen,1,&rect)
+		SDL_UpdateWindowSurfaceRects(screen,&rect,1)
 
 /* A complete screen redraw macro */
 #define SDL_REDRAW_SCREEN \
-	SDL_UpdateRect(screen,0,0,arg_width,arg_height)
+	SDL_UpdateWindowSurface(screen)
 	
 /*************************************************
  QUITTING
@@ -373,12 +373,18 @@ void loadAndRenderFont(char *fname, int size)
 		tgt.y = midline-maxy;
 		/* but first... we'll need a surface in the text queue to blit to! */
 		text[i] = createSurface(t_width,t_height);
+		
 		/* turn OFF src-alpha... results in brute
 		 copy of the RGBA contents of surf */
-		SDL_SetAlpha(temp_surf,0,0);
+		//SDL_SetAlpha(temp_surf,0,0);
+		SDL_SetSurfaceAlphaMod(temp_surf, 0);
+		
 		SDL_BlitSurface(temp_surf,NULL,text[i],&tgt);
+		
 		/* turn OFF src-alpha since we'll be using worksurf for blitting */
-		SDL_SetAlpha(text[i],0,0);
+		//SDL_SetAlpha(text[i],0,0);
+		SDL_SetSurfaceAlphaMod(text[i], 0);
+		
 		/* kill the surface to patch up memory leaks */
 		SDL_FreeSurface(temp_surf);
 	}
@@ -419,7 +425,7 @@ void handleEvent(SDL_Event *event)
 			 *  (like start a macro), but otherwise just pass along the ASCII
 			 * code!
 			 */
-			byte ascii_part = event->key.keysym.unicode & 0x00ff;
+			byte ascii_part = event->key.keysym.sym & 0x00ff;
 
 			/* gimme the key name */
 			printf("Key is: %s\n",SDL_GetKeyName(event->key.keysym.sym));
@@ -428,7 +434,9 @@ void handleEvent(SDL_Event *event)
 			if ((event->key.keysym.sym == SDLK_RETURN) && \
 				(SDL_GetModState() & KMOD_ALT))
 			{
-				SDL_WM_ToggleFullScreen(screen);
+				//SDL_WM_ToggleFullScreen(screen);
+				SDL_SetWindowFullscreen(screen, SDL_WINDOW_FULLSCREEN_DESKTOP);
+
 				/* toggle the internal full screen flag */
 				arg_full_screen = (arg_full_screen ? FALSE : TRUE);
 			}
@@ -765,12 +773,15 @@ SDL_Surface *createSurface(int width, int height)
 {
 	SDL_Surface *surf;
 	int surface_type;
-	
+
+	/*
 	if (videoInfo->hw_available)
 		surface_type = SDL_HWSURFACE;
 	else
 		surface_type = SDL_SWSURFACE;
-	
+	*/	
+	surface_type = SDL_SWSURFACE;
+
 	/* XXX need to make RGBA masks correspond to system pixel format! */
 	switch (arg_bpp)
 	{
@@ -996,7 +1007,7 @@ void drawTermStuff(term_data *td, SDL_Rect *rect)
 			}
 			/* Now update what was drawn */
 			DB("Update");
-			SDL_UpdateRects(screen,1,&spot);
+			SDL_UpdateWindowSurfaceRects(screen, &spot, 1);
 		}
 	}
 }
@@ -1015,7 +1026,8 @@ void createCursor(byte r, byte g, byte b, byte a)
 	cursor = createSurface(t_width,t_height);
 	
 	/* be sure to use alpha channel when blitting! */
-	SDL_SetAlpha(cursor,SDL_SRCALPHA,0);
+	//SDL_SetAlpha(cursor,SDL_SRCALPHA,0);
+	SDL_SetSurfaceAlphaMod(cursor, SDL_SRCALPHA);
 	
 	/* just set the color for now - drawing rectangles
 	needs surface locking for some setups */
@@ -1884,7 +1896,9 @@ static errr term_data_init(term_data *td, int i)
 
 	/* Create a surface to draw to */
 	td->surf = createSurface(td->rect.w,td->rect.h);
-	SDL_SetAlpha(td->surf,0,0);
+	//SDL_SetAlpha(td->surf,0,0);
+	SDL_SetSurfaceAlphaMod(td->surf,0);
+
 
 	/* Key some colors to this surface */
 	td->black  = SDL_MapRGB(td->surf->format,  0,  0,  0);
@@ -1969,7 +1983,7 @@ errr init_sdl(int argc, char **argv)
 
 	/* get video info, to be used for determining if hardware acceleration is
 	 available, pixel format, etc.... */
-	videoInfo = SDL_GetVideoInfo();
+	//videoInfo = SDL_GetVideoInfo();
 	
 	/* Environment calls to retrieve specific settings...
 	Note that these can be overridden by the command-line
@@ -2122,16 +2136,19 @@ errr init_sdl(int argc, char **argv)
 	quit_aux = sdl_quit;
 
 	/* Use the ToME logo and set the window name */
-	filename[PATH_MAX] = 0;
-	path_build(filename, PATH_MAX, ANGBAND_DIR_XTRA, "graf/icon.png");
-	SDL_WM_SetIcon(IMG_Load(filename), 0);
-	SDL_WM_SetCaption("ToME", "tome");
+	//filename[PATH_MAX] = 0;
+	//path_build(filename, PATH_MAX, ANGBAND_DIR_XTRA, "graf/icon.png");
+	//SDL_WM_SetIcon(IMG_Load(filename), 0);
+	//SDL_WM_SetCaption("ToME", "tome");
 
 	/* SDL video settings, dependent on whether hardware is available */
+	/*
 	if (videoInfo->hw_available)
 		videoFlags = SDL_HWSURFACE;
 	else
 		videoFlags = SDL_SWSURFACE;
+	*/
+	videoFlags = SDL_SWSURFACE;
 
 	/* Now ready the fonts! */
 
@@ -2154,7 +2171,12 @@ errr init_sdl(int argc, char **argv)
 	}
 	
 	/* now set the video mode that has been configured */
-	screen = SDL_SetVideoMode( arg_width, arg_height, arg_bpp, videoFlags );
+	//screen = SDL_SetVideoMode( arg_width, arg_height, arg_bpp, videoFlags );
+	screen = SDL_CreateWindow("ToME", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, arg_width, arg_height, videoFlags);
+	/* Use the ToME logo*/
+	filename[PATH_MAX] = 0;
+	path_build(filename, PATH_MAX, ANGBAND_DIR_XTRA, "graf/icon.png");
+	SDL_SetWindowIcon(screen, IMG_Load(filename));
 
 	/* Verify there is a surface */
 	if ( !screen )
@@ -2167,7 +2189,8 @@ errr init_sdl(int argc, char **argv)
 	
 	/* now switch into full screen if asked for */
 	if (arg_full_screen)
-		SDL_WM_ToggleFullScreen(screen);
+		//SDL_WM_ToggleFullScreen(screen);
+		SDL_SetWindowFullscreen(screen, SDL_WINDOW_FULLSCREEN_DESKTOP);
 	
 	DB("SDL Window Created!");
 
@@ -2185,7 +2208,9 @@ errr init_sdl(int argc, char **argv)
 	crayon = createSurface(t_width,t_height);
 	
 	/* The working surface will blit using alpha values... */
-	SDL_SetAlpha(worksurf,SDL_SRCALPHA,0);
+	//SDL_SetAlpha(worksurf,SDL_SRCALPHA,0);
+	SDL_SetSurfaceAlphaMod(worksurf, SDL_SRCALPHA);
+
 
 	/* Set up the colors using the great little color macros! */
 	color_data[0]  = BLACK;
@@ -2241,10 +2266,10 @@ errr init_sdl(int argc, char **argv)
 	window_properties_set = TRUE;
 
 	/* Enable UNICODE keysyms - needed for current eventHandling routine */
-	SDL_EnableUNICODE(1);
+	//SDL_EnableUNICODE(1);
 	
 	/* Enable key repeat! */
-	SDL_EnableKeyRepeat(SDL_DEFAULT_REPEAT_DELAY,SDL_DEFAULT_REPEAT_INTERVAL);
+	//SDL_EnableKeyRepeat(SDL_DEFAULT_REPEAT_DELAY,SDL_DEFAULT_REPEAT_INTERVAL);
 
 	/* main-sdl initialized! */
 	return 0;
