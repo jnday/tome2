@@ -1,6 +1,6 @@
 # Project definition.
+CMAKE_MINIMUM_REQUIRED (VERSION 3.5)
 PROJECT (tome2)
-CMAKE_MINIMUM_REQUIRED (VERSION 2.9)
 
 # We want a readable feature summary.
 INCLUDE(FeatureSummary)
@@ -15,6 +15,8 @@ ENDIF()
 
 # Add definitions.
 ADD_DEFINITIONS(-DUSE_PRECISE_CMOVIE)
+
+set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "${projectDir}/vcpkg_installed/x86-windows")
 
 #
 # JSON support
@@ -52,32 +54,34 @@ ENDIF()
 #
 # SDL support (OPTIONAL)
 #
-FIND_PACKAGE(SDL)
-IF(SDL_FOUND)
+FIND_PACKAGE(SDL2 CONFIG REQUIRED)
+IF(SDL2_FOUND)
   # This is a bit roundabout, but we're working around
   # the FindSDL_* scripts not respecting the REQUIRED
   # flag.
   #
   # the SDL port also requires SDL_image and SDL_ttf
-  FIND_PACKAGE(SDL_image)
-  FIND_PACKAGE(SDL_ttf)
-  IF(SDLIMAGE_FOUND AND SDLTTF_FOUND)
+  FIND_PACKAGE(SDL2_image CONFIG REQUIRED)
+  FIND_PACKAGE(SDL2_ttf CONFIG REQUIRED)
+  IF(SDL2_image_FOUND AND SDL2_ttf_FOUND)
     # Add SDL flags/options
     ADD_DEFINITIONS(-DUSE_SDL)
-    INCLUDE_DIRECTORIES(${SDL_INCLUDE_DIR} ${SDLIMAGE_INCLUDE_DIR} ${SDLTTF_INCLUDE_DIR})
-    SET(LIBS ${LIBS} ${SDLIMAGE_LIBRARY} ${SDLTTF_LIBRARY} ${SDL_LIBRARY})
-    ADD_FEATURE_INFO(SDL SDL_FOUND "enabled")
+    #INCLUDE_DIRECTORIES(${SDL2_INCLUDE_DIR} ${SDL2_IMAGE_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR})
+    INCLUDE_DIRECTORIES(${SDL2_INCLUDE_DIR})
+    set(LIBS ${LIBS} SDL2::SDL2 SDL2_image::SDL2_image SDL2_ttf::SDL2_ttf)
+    #SET(LIBS ${LIBS} ${SDLIMAGE_LIBRARY} ${SDLTTF_LIBRARY} ${SDL_LIBRARY})
+    ADD_FEATURE_INFO(SDL2 SDL2_FOUND "enabled")
   ELSE()
     # Let user know that (and why) we haven't enabled SDL.
-    IF(SDLIMAGE_FOUND)
+    IF(SDL2_image_FOUND)
       MESSAGE(STATUS "Found SDL and SDL_image, but not SDL_ttf!")
-    ELSEIF(SDLTTF_FOUND)
+    ELSEIF(SDL2_ttf_FOUND)
       MESSAGE(STATUS "Found SDL and SDL_ttf, but not SDL_image!")
     ELSE()
       MESSAGE(STATUS "Found SDL, but not SDL_image nor SDL_ttf!")
     ENDIF()
     # add info about finding but not enabling SDL
-    ADD_FEATURE_INFO(SDL SDL_FOUND "not enabled")
+    ADD_FEATURE_INFO(SDL2 SDL2_FOUND "not enabled")
   ENDIF()
 ENDIF()
 
@@ -113,23 +117,24 @@ ELSE()
 ENDIF()
 ADD_DEFINITIONS(-DDEFAULT_PATH=${DEFAULT_PATH}/)
 
-INSTALL(FILES
-  tome.ini
-  DESTINATION ${CMAKE_INSTALL_PREFIX}
-)
-INSTALL(DIRECTORY
-  DESTINATION ${CMAKE_INSTALL_PREFIX}/.tome/2.3/save
-)
-INSTALL(DIRECTORY
-  DESTINATION ${CMAKE_INSTALL_PREFIX}/.tome/2.3/theme
-)
-INSTALL(DIRECTORY
-  DESTINATION ${CMAKE_INSTALL_PREFIX}/.tome/2.3/save/theme
-)
+#INSTALL(FILES
+#  tome.ini
+#  DESTINATION ${CMAKE_INSTALL_PREFIX}
+#)
+#INSTALL(DIRECTORY
+#  DESTINATION ${CMAKE_INSTALL_PREFIX}/.tome/2.3/save
+#)
+#INSTALL(DIRECTORY
+#  DESTINATION ${CMAKE_INSTALL_PREFIX}/.tome/2.3/theme
+#)
+#INSTALL(DIRECTORY
+#  DESTINATION ${CMAKE_INSTALL_PREFIX}/.tome/2.3/save/theme
+#)
 
 # Print out a summary of features.
 feature_summary(WHAT ENABLED_FEATURES DESCRIPTION "Enabled features:")
 
 # Add the source subdirectory.
 ADD_SUBDIRECTORY (src)
-ADD_SUBDIRECTORY (lib)
+#ADD_SUBDIRECTORY (lib)
+
