@@ -23,8 +23,6 @@
  // in this Software without prior written authorization from the author(s).
  */
 
-#ifdef USE_SDL
-
 #include "angband.h"
 #include <SDL.h>
 #include <SDL_image.h>
@@ -2275,4 +2273,3 @@ errr init_sdl(int argc, char **argv)
 	return 0;
 }
 
-#endif
