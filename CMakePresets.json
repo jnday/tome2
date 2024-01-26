@@ -30,6 +30,7 @@
       },
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
+        "ARCH":  "x64",
         "JANSSON_DIR": "${sourceDir}/vcpkg_installed/x64-windows/share/jansson"
       }
     },
@@ -51,6 +52,7 @@
       },
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
+        "ARCH": "x86",
         "JANSSON_DIR": "${sourceDir}/vcpkg_installed/x86-windows/share/jansson"
       }
     },

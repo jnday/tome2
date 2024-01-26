@@ -37,20 +37,18 @@ add_custom_target(copy_resources
 add_dependencies(tome copy_resources)
 
 
-set(VCPKG_DEBUG_BIN_DIR ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/debug/bin)
-set(VCPKG_BIN_DIR ${CMAKE_SOURCE_DIR}/vcpkg_installed/x86-windows/bin)
 
 # post-build dll copy
 add_custom_command(
 	TARGET tome POST_BUILD
 	COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_RUNTIME_DLLS:tome> ${CMAKE_CURRENT_BINARY_DIR}
-    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_DEBUG_BIN_DIR}/freetyped.dll ${CMAKE_CURRENT_BINARY_DIR}
-    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_DEBUG_BIN_DIR}/libpng16d.dll ${CMAKE_CURRENT_BINARY_DIR}
-    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_DEBUG_BIN_DIR}/zlibd1.dll ${CMAKE_CURRENT_BINARY_DIR}
-    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_DEBUG_BIN_DIR}/bz2d.dll ${CMAKE_CURRENT_BINARY_DIR}
-    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_DEBUG_BIN_DIR}/brotlidec.dll ${CMAKE_CURRENT_BINARY_DIR}
-    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_DEBUG_BIN_DIR}/brotlicommon.dll ${CMAKE_CURRENT_BINARY_DIR}
-    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_DEBUG_BIN_DIR}/brotlienc.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_CURRENT_BIN_DIR}/freetyped.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_CURRENT_BIN_DIR}/libpng16d.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_CURRENT_BIN_DIR}/zlibd1.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_CURRENT_BIN_DIR}/bz2d.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_CURRENT_BIN_DIR}/brotlidec.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_CURRENT_BIN_DIR}/brotlicommon.dll ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy ${VCPKG_CURRENT_BIN_DIR}/brotlienc.dll ${CMAKE_CURRENT_BINARY_DIR}
 	COMMAND_EXPAND_LISTS
 )
 
@@ -63,17 +61,17 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug")
     INSTALL(
         FILES
         ${CMAKE_SOURCE_DIR}/res/tome.ini
-        ${VCPKG_DEBUG_BIN_DIR}/freetyped.dll
-        ${VCPKG_DEBUG_BIN_DIR}/libpng16d.dll
-        ${VCPKG_DEBUG_BIN_DIR}/zlibd1.dll
-        ${VCPKG_DEBUG_BIN_DIR}/bz2d.dll
-        ${VCPKG_DEBUG_BIN_DIR}/brotlidec.dll
-        ${VCPKG_DEBUG_BIN_DIR}/brotlicommon.dll
-        ${VCPKG_DEBUG_BIN_DIR}/brotlienc.dll
+        ${VCPKG_CURRENT_BIN_DIR}/freetyped.dll
+        ${VCPKG_CURRENT_BIN_DIR}/libpng16d.dll
+        ${VCPKG_CURRENT_BIN_DIR}/zlibd1.dll
+        ${VCPKG_CURRENT_BIN_DIR}/bz2d.dll
+        ${VCPKG_CURRENT_BIN_DIR}/brotlidec.dll
+        ${VCPKG_CURRENT_BIN_DIR}/brotlicommon.dll
+        ${VCPKG_CURRENT_BIN_DIR}/brotlienc.dll
         $<TARGET_RUNTIME_DLLS:tome>
         DESTINATION ${CMAKE_INSTALL_PREFIX}
     )
-else()
+else() # untested -n
     INSTALL(
         FILES
         ${CMAKE_SOURCE_DIR}/res/tome.ini
