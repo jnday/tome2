@@ -2742,35 +2742,14 @@ errr term_init(term *t, int w, int h, int k)
  */
 int cmovie_get_msecond(void)
 {
-#ifndef USE_PRECISE_CMOVIE
-	/* Not very precise, but portable */
-	time_t thisc;
-
-	thisc = time(NULL);
-
-	cmov_delta_time_msec = 300;
-
-	if (thisc == lastc)
-	{
-		return 1;
-	}
-	return 0;
-#else /* Very precise but needs main-foo.c to define TERM_XTRA_GET_DELAY */
-Term_xtra(TERM_XTRA_GET_DELAY, 0);
-
+	Term_xtra(TERM_XTRA_GET_DELAY, 0);
 	cmov_delta_time_msec = Term_xtra_long - cmov_last_time_msec;
 	cmov_last_time_msec = Term_xtra_long;
 	return 0;
-#endif
 }
 
 void cmovie_init_second()
 {
-#ifndef USE_PRECISE_CMOVIE
-	/* Not very precise, but portable */
-	cmov_last_time_msec = 0;
-#else /* Precise but need main-foo.c to have TERM_XTRA_GET_DELAY */
 	Term_xtra(TERM_XTRA_GET_DELAY, 0);
 	cmov_last_time_msec = Term_xtra_long;
-#endif
 }
