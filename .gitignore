@@ -17,3 +17,8 @@ out
 
 # vcpkg things
 vcpkg_installed
+
+# Doxygen
+html
+doxygen.cfg
+
